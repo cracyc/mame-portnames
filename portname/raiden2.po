@@ -1,1 +1,1 @@
-raiden.po
+.shmup.po
