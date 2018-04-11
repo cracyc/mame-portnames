@@ -1,0 +1,13 @@
+{
+    "romname":"1945kiii",
+    "ports":{
+        ":INPUTS":{
+            "labels":{
+                "32":{"player":0,"name":"P1 Bomb"},
+                "16":{"player":0,"name":"P1 Fire"},
+                "8192":{"player":1,"name":"P2 Bomb"},
+                "4096":{"player":1,"name":"P2 Fire"}
+            }
+        }
+    }
+}

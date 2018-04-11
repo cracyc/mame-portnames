@@ -1,0 +1,26 @@
+{
+    "romname":"daytona",
+    "ports":{
+        ":IN1":{"labels":[{"player":0,"name":"VR 4 (Green)" }]},
+        ":GEARS":{
+            "labels":{
+                "1":{"player":0,"name":"GEAR N"},
+                "2":{"player":0,"name":"GEAR 1"},
+                "4":{"player":0,"name":"GEAR 2"},
+                "8":{"player":0,"name":"GEAR 3"},
+                "16":{"player":0,"name":"GEAR 4"}
+            }
+        },
+        ":ACCEL":{"labels":{"255":{"player":0,"name":"Gas Pedal"}}},
+        ":BRAKE":{"labels":{"255":{"player":0,"name":"Brake Pedal"}}},
+        ":STEER":{"labels":{"255":{"player":0,"name":"Steering Wheel"}}},
+        ":IN0":{
+            "labels":{
+                "32":{"player":0,"name":"VR 1 (Red)"},
+                "64":{"player":0,"name":"VR 2 (Blue)"},
+                "128":{"player":0,"name":"VR 3 (Yellow)"}
+
+            }
+        }
+    }
+}

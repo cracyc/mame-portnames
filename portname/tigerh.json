@@ -1,0 +1,17 @@
+{
+    "romname":"tigerh",
+    "ports":{
+        ":IN1":{
+            "labels":[
+                {"player":0,"name":"P1 Fire"},
+                {"player":0,"name":"P1 Bomb"},
+                null,
+                {"player":1,"name":"P2 Fire"},
+                null,
+                null,
+                null,
+                {"player":1,"name":"P2 Bomb"}]
+            }
+        }
+    }
+}
