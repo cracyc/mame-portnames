@@ -1,0 +1,13 @@
+{
+    "romname":"airduel",
+    "ports":{
+        ":IN0":{
+            "labels":{
+                "128":{"player":0,"name":"P1 Fire"},
+                "64":{"player":0,"name":"P1 Bomb"},
+                "32768":{"player":1,"name":"P2 Fire"},
+                "16384":{"player":1,"name":"P2 Bomb"},
+            }
+        }
+    }
+}

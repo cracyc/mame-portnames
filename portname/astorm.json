@@ -1,0 +1,19 @@
+{
+    "romname":"astorm",
+    "ports":{
+        ":P1":{
+            "labels":{
+                "1":{"player":0,"name":"P1 Attack"},
+                "2":{"player":0,"name":"P1 Roll"},
+                "4":{"player":0,"name":"P1 Special"}
+            }
+        },
+        ":P2":{
+            "labels":{
+                "1":{"player":1,"name":"P2 Attack"},
+                "2":{"player":1,"name":"P2 Roll"},
+                "4":{"player":1,"name":"P2 Special"}
+            }
+        }
+    }
+}

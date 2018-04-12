@@ -1,0 +1,29 @@
+{
+    "romname":"groovef",
+    "ports":{
+        ":PORTA":{
+            "labels":{
+                "1":{"player":0,"name":"P1 Light Punch"},
+                "2":{"player":0,"name":"P1 Hard Punch"},
+                "4":{"player":0,"name":"P1 Button 3"}
+            }
+        },
+        ":PORTB":{
+            "labels":{
+                "1":{"player":1,"name":"P2 Light Punch"},
+                "2":{"player":1,"name":"P2 Hard Punch"},
+                "4":{"player":1,"name":"P2 Button 3"}
+            }
+        },
+        ":PORTF":{
+            "labels":{
+                "1":{"player":0,"name":"P1 Button 4"},
+                "2":{"player":0,"name":"P1 Button 5"},
+                "4":{"player":0,"name":"P1 Button 6"},
+                "16":{"player":1,"name":"P2 Button 4"},
+                "32":{"player":1,"name":"P2 Button 5"},
+                "64":{"player":1,"name":"P2 Button 6"}
+            }
+        }
+    }
+}

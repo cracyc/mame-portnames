@@ -1,0 +1,8 @@
+{
+    "romname":"toutrun",
+    "ports":{
+        ":ADC.0":{"labels":{"255":{"player":0,"name":"Steering Wheel"}}},
+        ":ADC.1":{"labels":{"255":{"player":0,"name":"Gas Pedal"}}},
+        ":ADC.2":{"labels":{"255":{"player":0,"name":"Brake Pedal"}}}
+    }
+}

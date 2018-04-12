@@ -1,20 +1,20 @@
-{"romname":"fatfury1",
+{
+    "romname":"rbffspec",
     "ports":{
         ":edge:joy:JOY1":{
             "labels":{
                 "16":{"player":0,"name":"P1 Punch"},
                 "32":{"player":0,"name":"P1 Kick"},
-                "64":{"player":0,"name":"P1 Throw"},
-                "128":{"player":0,"name":"..."}
+                "64":{"player":0,"name":"P1 C"},
+                "128":{"player":0,"name":"P1 Switch"}
             }
         },
         ":edge:joy:JOY2":{
             "labels":{
                 "16":{"player":1,"name":"P2 Punch"},
                 "32":{"player":1,"name":"P2 Kick"},
-                "64":{"player":1,"name":"P2 Throw"},
-                "128":{"player":1,"name":"..."}
-
+                "64":{"player":1,"name":"P2 C"},
+                "128":{"player":1,"name":"P2 Switch"}
             }
         }
     }

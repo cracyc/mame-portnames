@@ -1,0 +1,57 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Bomb"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Bomb"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Fire"
+        }
+      }
+    }
+  },
+  "romname":"acrobatm"
+}

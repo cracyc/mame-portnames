@@ -1,0 +1,19 @@
+{
+    "romname":"aurail",
+    "ports":{
+        ":P1":{
+            "labels":{
+                "1":{"player":0,"name":"P1 Shield"},
+                "2":{"player":0,"name":"P1 Fire"},
+                "4":{"player":0,"name":"P1 Special"}
+            }
+        },
+        ":P2":{
+            "labels":{
+                "1":{"player":1,"name":"P2 Shield"},
+                "2":{"player":1,"name":"P2 Fire"},
+                "4":{"player":1,"name":"P2 Special"}
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "romname":"aliens",
+    "ports":{
+        ":P1":{
+            "labels":{
+                "16":{"player":0,"name":"P1 Shoot 1"},
+                "32":{"player":0,"name":"P1 Shoot 2"}
+            }
+        },
+        ":P2":{
+            "labels":{
+                "16":{"player":1,"name":"P2 Shoot 1"},
+                "32":{"player":1,"name":"P2 Shoot 2"}
+            }
+        }
+    }
+}

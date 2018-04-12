@@ -1,0 +1,21 @@
+{
+    "romname":"doa",
+    "ports":{
+        ":IN1":{
+            "labels":{
+                "1":{"player":0,"name":"P1 Punch"},
+                "2":{"player":0,"name":"P1 Kick"},
+                "4":{"player":0,"name":"P1 Guard"},
+                "8":{"player":0,"name":"P1 Button 4"},
+            }
+        },
+        ":IN2":{
+            "labels":{
+                "1":{"player":1,"name":"P2 Punch"},
+                "2":{"player":1,"name":"P2 Kick"},
+                "4":{"player":1,"name":"P2 Guard"},
+                "8":{"player":1,"name":"P2 Button 4"}
+            }
+        }
+    }
+}

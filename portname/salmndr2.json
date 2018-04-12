@@ -1,0 +1,15 @@
+{
+    "romname":"salmndr2",
+    "ports":{
+        ":INPUTS":{
+            "labels":{
+                "268435456":{"player":0,"name":"P1 Button 1"},
+                "536870912":{"player":0,"name":"P1 Button 2"},
+                "1073741824":{"player":0,"name":"P1 Button 3"},
+                "2097152":{"player":1,"name":"P2 Button 2"},
+                "1048576":{"player":1,"name":"P2 Button 1"},
+                "4194304":{"player":1,"name":"P2 Button 3"}
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "romname":"gunsmoke",
+    "ports":{
+        ":P1":{
+            "labels":{
+                "16":{"player":0,"name":"P1 Fire - Left"},
+                "32":{"player":0,"name":"P1 Fire - Center"},
+                "64":{"player":0,"name":"P1 Fire - Right"}
+            }
+        },
+        ":P2":{
+            "labels":{
+                "16":{"player":1,"name":"P2 Fire - Left"},
+                "32":{"player":1,"name":"P2 Fire - Center"},
+                "64":{"player":1,"name":"P2 Fire - Right"}
+            }
+        }
+    }
+}

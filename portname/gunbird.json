@@ -1,0 +1,13 @@
+{
+    "romname":"gunbird",
+    "ports":{
+        ":P1_P2":{
+            "labels":{
+                "134217728":{"player":0,"name":"P1 Fire"},
+                "67108864":{"player":0,"name":"P1 Bomb"},
+                "524288":{"player":1,"name":"P2 Fire"},
+                "262144":{"player":1,"name":"P2 Bomb"}
+            }
+        }
+    }
+}

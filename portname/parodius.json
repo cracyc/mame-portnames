@@ -1,0 +1,19 @@
+{
+    "romname":"parodius",
+    "ports":{
+        ":P1":{
+            "labels":{
+                "32":{"player":0,"name":"P1 Button 1"},
+                "64":{"player":0,"name":"P1 Button 2"},
+                "128":{"player":0,"name":"P1 Button 3"}
+            }
+        },
+        ":P2":{
+            "labels":{
+                "32":{"player":1,"name":"P2 Button 1"},
+                "64":{"player":1,"name":"P2 Button 2"},
+                "128":{"player":1,"name":"P2 Button 3"}
+            }
+        }
+    }
+}

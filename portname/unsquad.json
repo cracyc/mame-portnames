@@ -1,0 +1,15 @@
+{
+    "romname":"unsquad",
+    "ports":{
+        ":IN1":{
+            "labels":{
+                "16":{"player":0,"name":"P1 Fire"},
+                "32":{"player":0,"name":"P1 Special"},
+                "64":{"player":0,"name":"P1 Button 3"},
+                "4096":{"player":1,"name":"P2 Fire"},
+                "8192":{"player":1,"name":"P2 Special"},
+                "16384":{"player":1,"name":"P2 Button 3"}
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "ports":{
+    ":mainpcb:P2_A":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Fire"
+        },{
+          "player":1,
+          "name":"P2 Secondary Weapon"
+        }]
+    },
+    ":mainpcb:P1_A":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Fire"
+        },{
+          "player":0,
+          "name":"P1 Secondary Weapon"
+        }]
+    }
+  },
+  "romname":"alien3"
+}

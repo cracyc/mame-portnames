@@ -1,0 +1,19 @@
+{
+    "romname":"cotton",
+    "ports":{
+        ":P1":{
+            "labels":{
+                "2":{"player":0,"name":"P1 Fire"},
+                "4":{"player":0,"name":"P1 Bomb"},
+                "1":{"player":0,"name":"P1 Button 3"}
+            }
+        },
+        ":P2":{
+            "labels":{
+                "2":{"player":1,"name":"P2 Fire"},
+                "4":{"player":1,"name":"P2 Bomb"},
+                "1":{"player":1,"name":"P2 Button 3"}
+            }
+        }
+    }
+}
