@@ -1,0 +1,21 @@
+{
+    "romname":"plegends",
+    "ports":{
+        ":IN0":{
+            "labels":{
+                "16":{"player":0,"name":"P1 Weak Punch"},
+                "32":{"player":0,"name":"P1 Weak Kick"},
+                "64":{"player":0,"name":"P1 Strong Punch"},
+                "1024":{"player":0,"name":"P1 Strong Kick"}
+            }
+        },
+        ":IN1":{
+            "labels":{
+                "16":{"player":1,"name":"P2 Weak Punch"},
+                "32":{"player":1,"name":"P2 Weak Kick"},
+                "64":{"player":1,"name":"P2 Strong Punch"},
+                "1024":{"player":1,"name":"P2 Strong Kick"}
+            }
+        }
+    }
+}

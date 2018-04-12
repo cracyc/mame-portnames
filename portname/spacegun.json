@@ -1,29 +1,23 @@
 {
-  "ports":{
-    ":IN2":{
-      "labels":[{
-          "player":0,
-          "name":"P1 Trigger"
-        },{
-          "player":1,
-          "name":"P2 Trigger"
-        },null,{
-          "player":0,
-          "name":"P1 Bomb Select"
-        },null,null,null,{
-          "player":1,
-          "name":"P2 Bomb Select"
-        }]
-    },
-    ":IN0":{
-      "labels":[{
-          "player":0,
-          "name":"P1 Back Up"
-        },{
-          "player":1,
-          "name":"P2 Back Up"
-        }]
+    "romname":"spacegun",
+    "ports":{
+        ":IN2":{
+            "labels":[
+                {"player":0,"name":"P1 Trigger"},
+                {"player":1,"name":"P2 Trigger"},
+                null,
+                {"player":0,"name":"P1 Bomb Select"},
+                null,
+                null,
+                null,
+                {"player":1,"name":"P2 Bomb Select"}
+            ]
+        },
+        ":IN0":{
+            "labels":[
+            {"player":0,"name":"P1 Back Up"},
+            {"player":1,"name":"P2 Back Up"}
+            ]
+        }
     }
-  },
-  "romname":"spacegun"
 }

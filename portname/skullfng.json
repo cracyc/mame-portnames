@@ -1,0 +1,17 @@
+{
+    "romname":"skullfng",
+    "ports":{
+        ":INPUTS":{
+            "labels":{
+                "16":{"player":0,"name":"P1 Fire"},
+                "32":{"player":0,"name":"P1 Button 2"},
+                "64":{"player":0,"name":"P1 Button 3"},
+                "16777216":{"player":0,"name":"P1 Button 4"},
+                "4096":{"player":0,"name":"P2 Fire"},
+                "8192":{"player":0,"name":"P2 Button 2"},
+                "16384":{"player":0,"name":"P2 Button 3"},
+                "134217728":{"player":0,"name":"P2 Button 4"}
+            }
+        }
+    }
+}

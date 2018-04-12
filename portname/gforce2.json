@@ -1,0 +1,14 @@
+{
+    "romname":"gforce2",
+    "ports":{
+        ":ADC.1":{"labels":{"255":{"player":0,"name":"Up / Down"}}},
+        ":ADC.0":{"labels":{"255":{"player":0,"name":"Left / Right"}}},
+        ":ADC.2":{"labels":{"255":{"player":0,"name":"Fast / Slow"}}},
+        ":GENERAL":{
+            "labels":{
+                "16":{"player":0,"name":"Fire"},
+                "32":{"player":0,"name":"Missile"}
+            }
+        }
+    }
+}

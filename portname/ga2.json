@@ -1,0 +1,33 @@
+{
+    "romname":"ga2",
+    "ports":{
+        ":mainpcb:P1_A":{
+            "labels":{
+                "1":{"player":0,"name":"P1 Attack"},
+                "2":{"player":0,"name":"P1 Jump"},
+                "4":{"player":0,"name":"P1 Magic"}
+            }
+        },
+        ":mainpcb:P2_A":{
+            "labels":{
+                "1":{"player":1,"name":"P2 Attack"},
+                "2":{"player":1,"name":"P2 Jump"},
+                "4":{"player":1,"name":"P2 Magic"}
+            }
+        },
+        ":mainpcb:EXTRA1":{
+            "labels":{
+                "1":{"player":2,"name":"P3 Attack"},
+                "2":{"player":2,"name":"P3 Jump"},
+                "4":{"player":2,"name":"P3 Magic"}
+            }
+        },
+        ":mainpcb:EXTRA2":{
+            "labels":{
+                "1":{"player":3,"name":"P4 Attack"},
+                "2":{"player":3,"name":"P4 Jump"},
+                "4":{"player":3,"name":"P4 Magic"}
+            }
+        }
+    }
+}

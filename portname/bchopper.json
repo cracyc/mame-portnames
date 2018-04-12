@@ -1,0 +1,17 @@
+{
+    "romname":"bchopper",
+    "ports":{
+        ":IN0":{
+            "labels":{
+                "128":{"player":0,"name":"P1 Fire"},
+                "64":{"player":0,"name":"P1 Bomb/Missile"},
+                "32":{"player":0,"name":"..."},
+                "16":{"player":0,"name":"..."},
+                "32768":{"player":1,"name":"P2 Fire"},
+                "16384":{"player":1,"name":"P2 Bomb/Missile"},
+                "8192":{"player":1,"name":"..."},
+                "4096":{"player":1,"name":"..."}
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "romname":"airass",
+    "ports":{
+        ":P1_P2":{
+            "labels":{
+                "128":{"player":0,"name":"P1 Fire"},
+                "64":{"player":0,"name":"P1 Bomb"},
+                "32":{"player":0,"name":"..."},
+                "32768":{"player":1,"name":"P2 Fire"},
+                "16384":{"player":1,"name":"P2 Bomb"},
+                "8192":{"player":1,"name":"..."}
+            }
+        }
+    }
+}

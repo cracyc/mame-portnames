@@ -1,0 +1,17 @@
+{
+    "romname":"powerins",
+    "ports":{
+        ":P1_P2":{
+            "labels":{
+                "16":{"player":0,"name":"P1 Weak Punch"},
+                "32":{"player":0,"name":"P1 Weak Kick"},
+                "64":{"player":0,"name":"P1 Strong Punch"},
+                "128":{"player":0,"name":"P1 Strong Kick"},
+                "4096":{"player":1,"name":"P2 Weak Punch"},
+                "8192":{"player":1,"name":"P2 Weak Kick"},
+                "16384":{"player":1,"name":"P2 Strong Punch"},
+                "32768":{"player":1,"name":"P2 Strong Kick"}
+            }
+        }
+    }
+}
