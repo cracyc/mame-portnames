@@ -9,8 +9,8 @@
         },
         ":IN1":{
             "labels":{
-                "32":{"player":1,"name":"P2 Bomb"},
-                "16":{"player":1,"name":"P2 Fire"}
+                "16":{"player":1,"name":"P2 Fire"},
+                "32":{"player":1,"name":"P2 Bomb"}
             }
         }
     }
