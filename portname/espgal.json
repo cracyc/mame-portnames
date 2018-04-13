@@ -1,0 +1,21 @@
+{
+    "romname":"espgal",
+    "ports":{
+        ":P1P2":{
+            "labels":{
+                "32":{"player":0,"name":"P1 Fire"},
+                "64":{"player":0,"name":"P1 Time"},
+                "128":{"player":0,"name":"P1 Special Attack"},
+                "8192":{"player":1,"name":"P2 Fire"},
+                "16384":{"player":1,"name":"P2 Time"},
+                "32768":{"player":1,"name":"P2 Special Attack"}
+            }
+        },
+        ":Service":{
+            "labels":{
+                "256":{"player":0,"name":"P1 Rapid Fire"},
+                "512":{"player":0,"name":"P2 Rapid Fire"}
+            }
+        }
+    }
+}
