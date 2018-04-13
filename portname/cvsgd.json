@@ -1,0 +1,25 @@
+{
+    "romname":"cvsgd",
+    "ports":{
+        ":P1":{
+            "labels":{
+                "512":{"player":0,"name":"P1 Weak Punch"},
+                "256":{"player":0,"name":"P1 Strong Punch"},
+                "128":{"player":0,"name":"..."},
+                "64":{"player":0,"name":"P1 Weak Kick"},
+                "32":{"player":0,"name":"P1 Strong Kick"},
+                "16":{"player":0,"name":"..."}
+            }
+        },
+        ":P2":{
+            "labels":{
+                "512":{"player":1,"name":"P2 Weak Punch"},
+                "256":{"player":1,"name":"P2 Strong Punch"},
+                "128":{"player":1,"name":"..."},
+                "64":{"player":1,"name":"P2 Weak Kick"},
+                "32":{"player":1,"name":"P2 Strong Kick"},
+                "16":{"player":1,"name":".."}
+            }
+        }
+    }
+}

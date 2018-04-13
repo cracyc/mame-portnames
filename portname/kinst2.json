@@ -1,0 +1,25 @@
+{
+    "romname":"kinst2",
+    "ports":{
+        ":P1":{
+            "labels":{
+                "1":{"player":0,"name":"P1 Quick (High Attack)"},
+                "2":{"player":0,"name":"P1 Medium (High Attack)"},
+                "4":{"player":0,"name":"P1 Fierce (High Attack)"},
+                "8":{"player":0,"name":"P1 Quick (Low Attack)"},
+                "16":{"player":0,"name":"P1 Medium (Low Attack)"},
+                "32":{"player":0,"name":"P1 Fierce (Low Attack)"}
+            }
+        },
+        ":P2":{
+            "labels":{
+                "1":{"player":1,"name":"P2 Quick (High Attack)"},
+                "2":{"player":1,"name":"P2 Medium (High Attack)"},
+                "4":{"player":1,"name":"P2 Fierce (High Attack)"},
+                "8":{"player":1,"name":"P2 Quick (Low Attack)"},
+                "16":{"player":1,"name":"P2 Medium (Low Attack)"},
+                "32":{"player":1,"name":"P2 Fierce (Low Attack)"}
+            }
+        }
+    }
+}

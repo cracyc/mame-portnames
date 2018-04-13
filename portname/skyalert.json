@@ -1,13 +1,13 @@
 {
-    "romname":"donpachi",
+    "romname":"skyalert",
     "ports":{
-        ":IN0":{
+        ":IN1":{
             "labels":{
                 "16":{"player":0,"name":"P1 Fire"},
                 "32":{"player":0,"name":"P1 Bomb"}
             }
         },
-        ":IN1":{
+        ":IN2":{
             "labels":{
                 "16":{"player":1,"name":"P2 Fire"},
                 "32":{"player":1,"name":"P2 Bomb"}

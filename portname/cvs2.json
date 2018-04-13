@@ -1,9 +1,9 @@
 {
-    "romname":"cfield",
+    "romname":"cvs2",
     "ports":{
         ":P1":{
             "labels":{
-                "512":{"player":0,"name":"P1 Fire"},
+                "512":{"player":0,"name":"P1 Button 1"},
                 "256":{"player":0,"name":"P1 Button 2"},
                 "128":{"player":0,"name":"P1 Button 3"},
                 "64":{"player":0,"name":"P1 Button 4"},
@@ -13,7 +13,7 @@
         },
         ":P2":{
             "labels":{
-                "512":{"player":1,"name":"P2 Fire"},
+                "512":{"player":1,"name":"P2 Button 1"},
                 "256":{"player":1,"name":"P2 Button 2"},
                 "128":{"player":1,"name":"P2 Button 3"},
                 "64":{"player":1,"name":"P2 Button 4"},
