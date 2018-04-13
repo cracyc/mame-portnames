@@ -1,0 +1,25 @@
+{
+    "romname":"mvsc2",
+    "ports":{
+        ":P1":{
+            "labels":{
+                "512":{"player":0,"name":"P1 Jab Punch"},
+                "256":{"player":0,"name":"P1 Strong Punch"},
+                "128":{"player":0,"name":"P1 Fierce Punch"},
+                "64":{"player":0,"name":"P1 Short Kick"},
+                "32":{"player":0,"name":"P1 Forward Kick"},
+                "16":{"player":0,"name":"P1 Roundhouse Kick"}
+            }
+        },
+        ":P2":{
+            "labels":{
+                "512":{"player":1,"name":"P2 Jab Punch"},
+                "256":{"player":1,"name":"P2 Strong Punch"},
+                "128":{"player":1,"name":"P2 Fierce Punch"},
+                "64":{"player":1,"name":"P2 Short Kick"},
+                "32":{"player":1,"name":"P2 Forward Kick"},
+                "16":{"player":1,"name":"P2 Roundhouse Kick"}
+            }
+        }
+    }
+}
