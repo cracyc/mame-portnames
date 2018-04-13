@@ -1,0 +1,29 @@
+{
+  "ports":{
+    ":DIAL":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Aim Left / Aim Right"
+        }
+      }
+    },
+    ":ssio:IP1":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Shield"
+        }
+      }
+    },
+    ":ssio:IP0":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"P1 Zap!"
+        }
+      }
+    }
+  },
+  "romname":"kroozr"
+}

@@ -1,0 +1,25 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"Right Flipper"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"Left Flipper"
+        },
+        "32":{
+          "player":0,
+          "name":"Plunger"
+        }
+      }
+    }
+  },
+  "romname":"spbactn"
+}

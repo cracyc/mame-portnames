@@ -1,0 +1,33 @@
+{
+  "ports":{
+    ":49WAYX":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left /  Right"
+        }
+      }
+    },
+    ":INP1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Thrust"
+        },{
+          "player":0,
+          "name":"P1 Blast"
+        },null,{
+          "player":0,
+          "name":"P1 Unknown"
+        }]
+    },
+    ":49WAYY":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up /  Down"
+        }
+      }
+    }
+  },
+  "romname":"blaster"
+}

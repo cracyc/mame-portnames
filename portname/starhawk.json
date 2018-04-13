@@ -1,0 +1,77 @@
+{
+  "ports":{
+    ":SWITCHES":{
+      "labels":{
+        "8":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Fire"
+        }
+      }
+    },
+    ":INPUTS":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "4096":{
+          "player":0,
+          "name":"P1 Medium"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "512":{
+          "player":0,
+          "name":"P1 Fast"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "32768":{
+          "player":1,
+          "name":"P2 Fast"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Medium"
+        },
+        "16384":{
+          "player":0,
+          "name":"P1 Slow"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Slow"
+        }
+      }
+    }
+  },
+  "romname":"starhawk"
+}

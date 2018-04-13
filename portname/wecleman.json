@@ -1,0 +1,25 @@
+{
+  "ports":{
+    ":STEER":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Left / Right"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"Brake"
+        },
+        "32":{
+          "player":0,
+          "name":"Low Gear"
+        }
+      }
+    }
+  },
+  "romname":"wecleman"
+}

@@ -1,0 +1,37 @@
+{
+  "ports":{
+    ":80":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 5"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 6"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 4"
+        }
+      }
+    },
+    ":60":{
+      "labels":{
+        "8":{
+          "player":0,
+          "name":"P1 2"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 3"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 1"
+        }
+      }
+    }
+  },
+  "romname":"neckneck"
+}

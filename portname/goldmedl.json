@@ -1,0 +1,61 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "1":{
+          "player":2,
+          "name":"P3 Button A"
+        },
+        "2":{
+          "player":2,
+          "name":"P3 Button B"
+        },
+        "4":{
+          "player":3,
+          "name":"P4 Button A"
+        },
+        "8":{
+          "player":3,
+          "name":"P4 Button B"
+        },
+        "32":{
+          "player":3,
+          "name":"P4 Button C"
+        },
+        "16":{
+          "player":2,
+          "name":"P3 Button C"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Button A"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Button B"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Button A"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Button B"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Button C"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Button C"
+        }
+      }
+    }
+  },
+  "romname":"goldmedl"
+}

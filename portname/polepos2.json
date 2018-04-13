@@ -1,0 +1,35 @@
+{
+  "ports":{
+    ":STEER":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Left / Right"
+        }
+      }
+    },
+    ":ACCEL":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Accelerate"
+        }
+      }
+    },
+    ":BRAKE":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Brake"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":[null,{
+          "player":0,
+          "name":"High / Low"
+        }]
+    }
+  },
+  "romname":"polepos2"
+}

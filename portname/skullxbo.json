@@ -1,0 +1,61 @@
+{
+  "ports":{
+    ":FF5802":{
+      "labels":{
+        "256":{
+          "player":1,
+          "name":"P2 Sword"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Turn"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "32768":{
+          "player":1,
+          "name":"P2 Up"
+        }
+      }
+    },
+    ":FF5800":{
+      "labels":{
+        "256":{
+          "player":0,
+          "name":"P1 Sword"
+        },
+        "4096":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "8192":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "512":{
+          "player":0,
+          "name":"P1 Turn"
+        },
+        "16384":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "32768":{
+          "player":0,
+          "name":"P1 Up"
+        }
+      }
+    }
+  },
+  "romname":"skullxbo"
+}

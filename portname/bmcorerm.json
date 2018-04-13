@@ -1,0 +1,65 @@
+{
+  "ports":{
+    ":TT2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Scratch /  Scratch"
+        }
+      }
+    },
+    ":BTN1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 White 3"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Black 2"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 White 2"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Black 1"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Black 1"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 White 1"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 White 1"
+        }
+      }
+    },
+    ":TT1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Scratch / Scratch"
+        }
+      }
+    },
+    ":BTN2":{
+      "labels":[{
+          "player":1,
+          "name":"P2 White 2"
+        },{
+          "player":1,
+          "name":"P2 Black 2"
+        },null,{
+          "player":1,
+          "name":"P2 White 3"
+        }]
+    }
+  },
+  "romname":"bmcorerm"
+}

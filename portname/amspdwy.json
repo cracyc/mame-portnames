@@ -1,0 +1,33 @@
+{
+  "ports":{
+    ":AN2":{
+      "labels":{
+        "65535":{
+          "player":1,
+          "name":"P2 Right /  Left"
+        }
+      }
+    },
+    ":AN1":{
+      "labels":{
+        "65535":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 Accelerate"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Accelerate"
+        }
+      }
+    }
+  },
+  "romname":"amspdwy"
+}

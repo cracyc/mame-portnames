@@ -1,0 +1,89 @@
+{
+  "ports":{
+    ":P1_P2":{
+      "labels":{
+        "32768":{
+          "player":0,
+          "name":"P1 Light Kick"
+        },
+        "2097152":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "1048576":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "4194304":{
+          "player":1,
+          "name":"P2 Duck"
+        },
+        "8388608":{
+          "player":1,
+          "name":"P2 Jump"
+        },
+        "33554432":{
+          "player":0,
+          "name":"P1 Heavy Punch"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Heavy Kick"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Middle Kick"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Light Kick"
+        },
+        "131072":{
+          "player":1,
+          "name":"P2 Heavy Punch"
+        },
+        "262144":{
+          "player":1,
+          "name":"P2 Middle Punch"
+        },
+        "524288":{
+          "player":1,
+          "name":"P2 Light Punch"
+        },
+        "536870912":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "268435456":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "134217728":{
+          "player":0,
+          "name":"P1 Light Punch"
+        },
+        "1073741824":{
+          "player":0,
+          "name":"P1 Duck"
+        },
+        "2147483648":{
+          "player":0,
+          "name":"P1 Jump"
+        },
+        "8192":{
+          "player":0,
+          "name":"P1 Heavy Kick"
+        },
+        "16384":{
+          "player":0,
+          "name":"P1 Middle Kick"
+        },
+        "67108864":{
+          "player":0,
+          "name":"P1 Middle Punch"
+        }
+      }
+    }
+  },
+  "romname":"btlkroad"
+}

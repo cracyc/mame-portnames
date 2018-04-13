@@ -1,0 +1,77 @@
+{
+  "ports":{
+    ":DIAL0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Rotate Left / Rotate Right"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Fire / Grap"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Move Down"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Move Up"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Pound"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Move Left"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Move Right"
+        }
+      }
+    },
+    ":DIAL1":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Rotate Right /  Rotate Left"
+        }
+      }
+    },
+    ":P2":{
+      "labels":{
+        "128":{
+          "player":1,
+          "name":"P2 Fire / Grap"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Move Down"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Move Up"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Pound"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Move Left"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Move Right"
+        }
+      }
+    }
+  },
+  "romname":"exterm"
+}

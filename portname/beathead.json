@@ -1,0 +1,61 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Big Jump"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Jump"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Up"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "512":{
+          "player":0,
+          "name":"P1 Jump"
+        },
+        "4096":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "8192":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "256":{
+          "player":0,
+          "name":"P1 Big Jump"
+        },
+        "16384":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "32768":{
+          "player":0,
+          "name":"P1 Up"
+        }
+      }
+    }
+  },
+  "romname":"beathead"
+}

@@ -1,0 +1,85 @@
+{
+  "romname":"ridgerac",
+  "ports":{
+    ":GAS":{
+      "labels":{
+        "255":{
+          "name":"Gas Pedal",
+          "player":0
+        }
+      }
+    },
+    ":BRAKE":{
+      "labels":{
+        "255":{
+          "name":"Brake Pedal",
+          "player":0
+        }
+      }
+    },
+    ":DSW0":{
+      "labels":{
+        "1":{
+          "name":"Service Mode",
+          "player":0
+        },
+        "32768":{
+          "name":"Unknown",
+          "player":0
+        }
+      }
+    },
+    ":STEER":{
+      "labels":{
+        "255":{
+          "name":"Steering Wheel",
+          "player":0
+        }
+      }
+    },
+    ":INPUTS":{
+      "labels":{
+        "1":{
+          "name":"Shift Down",
+          "player":0
+        },
+        "2":{
+          "name":"Shift Up",
+          "player":0
+        },
+        "4":{
+          "name":"Shift Left",
+          "player":0
+        },
+        "4096":{
+          "name":"Coin 1",
+          "player":0
+        },
+        "16":{
+          "name":"Clutch Pedal",
+          "player":0
+        },
+        "512":{
+          "name":"Coin 2",
+          "player":0
+        },
+        "8":{
+          "name":"Shift Right",
+          "player":0
+        },
+        "1024":{
+          "name":"Service 3",
+          "player":0
+        },
+        "2048":{
+          "name":"Service 1",
+          "player":0
+        },
+        "256":{
+          "name":"Cabinet",
+          "player":0
+        }
+      }
+    }
+  }
+}

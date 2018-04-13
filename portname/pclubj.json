@@ -1,0 +1,25 @@
+{
+  "ports":{
+    ":P1":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"Cancel"
+        },
+        "64":{
+          "player":0,
+          "name":"Right"
+        },
+        "128":{
+          "player":0,
+          "name":"Left"
+        },
+        "16":{
+          "player":0,
+          "name":"Ok / Print"
+        }
+      }
+    }
+  },
+  "romname":"pclubj"
+}

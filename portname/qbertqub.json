@@ -1,0 +1,20 @@
+{
+  "ports":{
+    ":IN4":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Right+Down"
+        },{
+          "player":0,
+          "name":"P1 Left+Up"
+        },null,{
+          "player":0,
+          "name":"P1 Up+Right"
+        },null,null,null,{
+          "player":0,
+          "name":"P1 Down+Left"
+        }]
+    }
+  },
+  "romname":"qbertqub"
+}

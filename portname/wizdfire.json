@@ -1,0 +1,57 @@
+{
+  "ports":{
+    ":INPUTS":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Attack"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Magic"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Magic"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Attack"
+        }
+      }
+    }
+  },
+  "romname":"wizdfire"
+}

@@ -1,0 +1,46 @@
+{
+  "ports":{
+    ":ADC.0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Aim Left / Aim Right"
+        }
+      }
+    },
+    ":GENERAL":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Fire"
+        },{
+          "player":0,
+          "name":"P1 Fire"
+        }]
+    },
+    ":ADC.1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Aim Up / Aim Down"
+        }
+      }
+    },
+    ":ADC.2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Aim Right /  Aim Left"
+        }
+      }
+    },
+    ":ADC.3":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Aim Down /  Aim Up"
+        }
+      }
+    }
+  },
+  "romname":"rchase"
+}

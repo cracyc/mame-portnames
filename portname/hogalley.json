@@ -1,0 +1,29 @@
+{
+  "ports":{
+    ":GUNY":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    },
+    ":GUNX":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Fire"
+        }
+      }
+    }
+  },
+  "romname":"hogalley"
+}

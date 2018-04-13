@@ -1,0 +1,65 @@
+{
+  "ports":{
+    ":c00a":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Left"
+        }]
+    },
+    ":c009":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Slow Down"
+        }]
+    },
+    ":c00f":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Left"
+        }]
+    },
+    ":c00d":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Speed Up"
+        }]
+    },
+    ":c00e":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Slow Down"
+        }]
+    },
+    ":c010":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Right"
+        }]
+    },
+    ":c008":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Speed Up"
+        }]
+    },
+    ":c011":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Fire"
+        }]
+    },
+    ":c00b":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Right"
+        }]
+    },
+    ":c00c":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Fire"
+        }]
+    }
+  },
+  "romname":"ace"
+}

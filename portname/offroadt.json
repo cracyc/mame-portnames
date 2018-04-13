@@ -1,0 +1,69 @@
+{
+  "ports":{
+    ":AN5":{
+      "labels":{
+        "255":{
+          "player":2,
+          "name":"P3 Right /  Left"
+        }
+      }
+    },
+    ":AN4":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Right /  Left"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "32":{
+          "player":1,
+          "name":"P2 Nitro / Start"
+        },
+        "64":{
+          "player":2,
+          "name":"P3 Nitro / Start"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Nitro / Start"
+        }
+      }
+    },
+    ":AN2":{
+      "labels":{
+        "255":{
+          "player":2,
+          "name":"P3 On"
+        }
+      }
+    },
+    ":AN0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 On"
+        }
+      }
+    },
+    ":AN1":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 On"
+        }
+      }
+    },
+    ":AN3":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    }
+  },
+  "romname":"offroadt"
+}

@@ -1,0 +1,29 @@
+{
+  "ports":{
+    ":CONTP1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Fire"
+        },{
+          "player":0,
+          "name":"P1 L"
+        },null,{
+          "player":0,
+          "name":"P1 R"
+        }]
+    },
+    ":CONTP2":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Fire"
+        },{
+          "player":1,
+          "name":"P2 L"
+        },null,{
+          "player":1,
+          "name":"P2 R"
+        }]
+    }
+  },
+  "romname":"galxwars"
+}

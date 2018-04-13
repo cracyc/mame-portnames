@@ -1,0 +1,69 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "32":{
+          "player":1,
+          "name":"P2 Hit"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Ante"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Stand"
+        }
+      }
+    },
+    ":IN3":{
+      "labels":{
+        "32":{
+          "player":3,
+          "name":"P4 Hit"
+        },
+        "64":{
+          "player":3,
+          "name":"P4 Ante"
+        },
+        "16":{
+          "player":3,
+          "name":"P4 Stand"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "32":{
+          "player":2,
+          "name":"P3 Hit"
+        },
+        "64":{
+          "player":2,
+          "name":"P3 Ante"
+        },
+        "16":{
+          "player":2,
+          "name":"P3 Stand"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 Hit"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Ante"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Stand"
+        }
+      }
+    }
+  },
+  "romname":"hitme"
+}

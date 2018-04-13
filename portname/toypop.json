@@ -1,0 +1,44 @@
+{
+  "ports":{
+    ":P1_RIGHT":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Up"
+        },{
+          "player":0,
+          "name":"P1 Right"
+        },null,{
+          "player":0,
+          "name":"P1 Down"
+        },null,null,null,{
+          "player":0,
+          "name":"P1 Left"
+        }]
+    },
+    ":BUTTONS":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Shoot"
+        },{
+          "player":1,
+          "name":"P2 Shoot"
+        }]
+    },
+    ":P2_RIGHT":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Up"
+        },{
+          "player":1,
+          "name":"P2 Right"
+        },null,{
+          "player":1,
+          "name":"P2 Down"
+        },null,null,null,{
+          "player":1,
+          "name":"P2 Left"
+        }]
+    }
+  },
+  "romname":"toypop"
+}

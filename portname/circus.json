@@ -1,0 +1,13 @@
+{
+  "ports":{
+    ":PADDLE":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    }
+  },
+  "romname":"circus"
+}

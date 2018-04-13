@@ -1,0 +1,117 @@
+{
+  "ports":{
+    ":P2":{
+      "labels":{
+        "128":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Pass / Jump"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Dive"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Down"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Pass / Jump"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Dive"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Down"
+        }
+      }
+    },
+    ":P4":{
+      "labels":{
+        "128":{
+          "player":3,
+          "name":"P4 Up"
+        },
+        "16":{
+          "player":3,
+          "name":"P4 Right"
+        },
+        "4":{
+          "player":3,
+          "name":"P4 Pass / Jump"
+        },
+        "32":{
+          "player":3,
+          "name":"P4 Left"
+        },
+        "8":{
+          "player":3,
+          "name":"P4 Dive"
+        },
+        "64":{
+          "player":3,
+          "name":"P4 Down"
+        }
+      }
+    },
+    ":P3":{
+      "labels":{
+        "128":{
+          "player":2,
+          "name":"P3 Up"
+        },
+        "16":{
+          "player":2,
+          "name":"P3 Right"
+        },
+        "4":{
+          "player":2,
+          "name":"P3 Pass / Jump"
+        },
+        "32":{
+          "player":2,
+          "name":"P3 Left"
+        },
+        "8":{
+          "player":2,
+          "name":"P3 Dive"
+        },
+        "64":{
+          "player":2,
+          "name":"P3 Down"
+        }
+      }
+    }
+  },
+  "romname":"hardyard"
+}

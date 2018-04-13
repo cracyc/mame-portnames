@@ -1,0 +1,57 @@
+{
+  "ports":{
+    ":INPUTS":{
+      "labels":{
+        "2048":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "1":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "4096":{
+          "player":0,
+          "name":"P1 Rotate Right"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Rotate Left"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Rotate Right"
+        },
+        "256":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "512":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "8192":{
+          "player":0,
+          "name":"P1 Rotate Left"
+        },
+        "1024":{
+          "player":0,
+          "name":"P1 Left"
+        }
+      }
+    }
+  },
+  "romname":"aquarium"
+}

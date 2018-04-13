@@ -1,0 +1,53 @@
+{
+  "ports":{
+    ":IN2":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up /  Down"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"P1 Play Select:  Press to Pass / Kick"
+        }
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "16":{
+          "player":1,
+          "name":"P2 Play Select:  Press to Pass / Kick"
+        }
+      }
+    },
+    ":IN3":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left /  Right"
+        }
+      }
+    },
+    ":IN5":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Left /  Right"
+        }
+      }
+    },
+    ":IN4":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Up /  Down"
+        }
+      }
+    }
+  },
+  "romname":"atarifb"
+}

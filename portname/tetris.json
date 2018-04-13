@@ -1,0 +1,45 @@
+{
+  "ports":{
+    ":P2":{
+      "labels":{
+        "16":{
+          "player":1,
+          "name":"P2 Drop"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Rotate"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Left"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"P1 Drop"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Rotate"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Left"
+        }
+      }
+    }
+  },
+  "romname":"tetris"
+}

@@ -1,0 +1,89 @@
+{
+  "ports":{
+    ":P2":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Left Arm"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Right Arm"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Left Leg"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Right Leg"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Left"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Left Arm"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Right Arm"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left Leg"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right Leg"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Left"
+        }
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Head"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Head"
+        }
+      }
+    }
+  },
+  "romname":"timekill"
+}

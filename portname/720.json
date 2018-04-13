@@ -1,0 +1,25 @@
+{
+  "ports":{
+    ":1800":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Kick"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Jump"
+        }
+      }
+    },
+    ":LETA1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Rotate Left /  Rotate Right"
+        }
+      }
+    }
+  },
+  "romname":"720"
+}

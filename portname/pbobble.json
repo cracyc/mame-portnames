@@ -1,0 +1,37 @@
+{
+  "ports":{
+    ":P1_P2_B":{
+      "labels":{
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        }
+      }
+    },
+    ":P1_P2_A":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Shoot"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Shoot"
+        }
+      }
+    }
+  },
+  "romname":"pbobble"
+}

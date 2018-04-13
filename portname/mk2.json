@@ -1,0 +1,85 @@
+{
+  "ports":{
+    ":IN2":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Low Punch"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Low Kick"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Low Punch"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Low Kick"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Jump"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Duck"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Move Left"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 High Punch"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Move Right"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Move Left"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Move Right"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Duck"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Block"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Jump"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 High Kick"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Block"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 High Punch"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 High Kick"
+        }
+      }
+    }
+  },
+  "romname":"mk2"
+}

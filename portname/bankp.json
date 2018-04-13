@@ -1,0 +1,54 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "128":{
+          "player":1,
+          "name":"P2 Shoot Door 2"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Shoot Door 1"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Shoot Door 3"
+        },{
+          "player":1,
+          "name":"P2 Shoot Door 3"
+        }]
+    },
+    ":IN0":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Shoot Door 2"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Shoot Door 1"
+        }
+      }
+    }
+  },
+  "romname":"bankp"
+}

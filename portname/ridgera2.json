@@ -1,0 +1,89 @@
+{
+  "ports":{
+    ":GAS":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Gas Pedal"
+        }
+      }
+    },
+    ":STEER":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Steering Wheel"
+        }
+      }
+    },
+    ":INPUTS":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Shift Down"
+        },
+        "2":{
+          "player":0,
+          "name":"Shift Up"
+        },
+        "4":{
+          "player":0,
+          "name":"Shift Left"
+        },
+        "4096":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "512":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "8448":{
+          "player":0,
+          "name":"Cabinet"
+        },
+        "8":{
+          "player":0,
+          "name":"Shift Right"
+        },
+        "1024":{
+          "player":0,
+          "name":"Service 3"
+        },
+        "2048":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "16":{
+          "player":0,
+          "name":"Clutch Pedal"
+        }
+      }
+    },
+    ":DSW0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "16384":{
+          "player":0,
+          "name":"Unknown"
+        },
+        "32768":{
+          "player":0,
+          "name":"Test Mode"
+        }
+      }
+    },
+    ":BRAKE":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Brake Pedal"
+        }
+      }
+    }
+  },
+  "romname":"ridgera2"
+}

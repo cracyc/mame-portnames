@@ -1,0 +1,69 @@
+{
+  "ports":{
+    ":260010":{
+      "labels":{
+        "256":{
+          "player":1,
+          "name":"P2 Jump / Start"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Duck"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Fire"
+        }
+      }
+    },
+    ":260000":{
+      "labels":{
+        "256":{
+          "player":0,
+          "name":"P1 Jump / Start"
+        },
+        "2048":{
+          "player":0,
+          "name":"P1 Duck"
+        },
+        "512":{
+          "player":0,
+          "name":"P1 Fire"
+        }
+      }
+    },
+    ":ADC3":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Right /  Left"
+        }
+      }
+    },
+    ":ADC2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Down /  Up"
+        }
+      }
+    },
+    ":ADC0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    },
+    ":ADC1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    }
+  },
+  "romname":"eprom"
+}

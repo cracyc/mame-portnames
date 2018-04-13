@@ -1,0 +1,33 @@
+{
+  "ports":{
+    ":AN0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    },
+    ":AN1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Right"
+        }
+      }
+    }
+  },
+  "romname":"alleymas"
+}

@@ -1,0 +1,61 @@
+{
+  "ports":{
+    ":TRACKX1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":TRACKY2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Down /  Up"
+        }
+      }
+    },
+    ":P2":{
+      "labels":{
+        "262144":{
+          "player":1,
+          "name":"P2 Zoom"
+        },
+        "524288":{
+          "player":1,
+          "name":"P2 Wax"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "262144":{
+          "player":0,
+          "name":"P1 Zoom"
+        },
+        "524288":{
+          "player":0,
+          "name":"P1 Wax"
+        }
+      }
+    },
+    ":TRACKY1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    },
+    ":TRACKX2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Right /  Left"
+        }
+      }
+    }
+  },
+  "romname":"shufshot"
+}

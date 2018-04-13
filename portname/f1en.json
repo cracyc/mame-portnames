@@ -1,0 +1,38 @@
+{
+  "ports":{
+    ":mainpcb:ANALOG1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Left / Right"
+        }
+      }
+    },
+    ":mainpcb:ANALOG2":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Accelerate"
+        }
+      }
+    },
+    ":mainpcb:ANALOG3":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Brake"
+        }
+      }
+    },
+    ":mainpcb:P1_A":{
+      "labels":[{
+          "player":0,
+          "name":"Gear Down"
+        },{
+          "player":0,
+          "name":"Gear Up"
+        }]
+    }
+  },
+  "romname":"f1en"
+}

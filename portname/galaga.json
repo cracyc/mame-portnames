@@ -1,0 +1,32 @@
+{
+  "ports":{
+    ":IN1H":{
+      "labels":[null,{
+          "player":1,
+          "name":"P2 Right"
+        },null,null,null,null,null,{
+          "player":1,
+          "name":"P2 Left"
+        }]
+    },
+    ":IN0L":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Fire"
+        },{
+          "player":1,
+          "name":"P2 Fire"
+        }]
+    },
+    ":IN1L":{
+      "labels":[null,{
+          "player":0,
+          "name":"P1 Right"
+        },null,null,null,null,null,{
+          "player":0,
+          "name":"P1 Left"
+        }]
+    }
+  },
+  "romname":"galaga"
+}

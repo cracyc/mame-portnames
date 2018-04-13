@@ -1,0 +1,33 @@
+{
+  "ports":{
+    ":AN0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Up / Down"
+        }
+      }
+    },
+    ":AN1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Left / Right"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"Machine Gun"
+        },
+        "64":{
+          "player":0,
+          "name":"Heat - Seaking Missile"
+        }
+      }
+    }
+  },
+  "romname":"dangerz"
+}

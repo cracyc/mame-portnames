@@ -1,0 +1,46 @@
+{
+  "ports":{
+    ":P1Y":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    },
+    ":P2Y":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Down /  Up"
+        }
+      }
+    },
+    ":PORT00":{
+      "labels":[null,null,null,{
+          "player":1,
+          "name":"P2 Club Select"
+        },null,null,null,{
+          "player":0,
+          "name":"P1 Club Select"
+        }]
+    },
+    ":P1X":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left /  Right"
+        }
+      }
+    },
+    ":P2X":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Left /  Right"
+        }
+      }
+    }
+  },
+  "romname":"bigevglf"
+}

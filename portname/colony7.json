@@ -1,0 +1,39 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Eradicator"
+        }]
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Control Down"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Control Right"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Control Left"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Control Up"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Mega - Blaster"
+        }
+      }
+    }
+  },
+  "romname":"colony7"
+}

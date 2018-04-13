@@ -1,0 +1,37 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Left"
+        },{
+          "player":0,
+          "name":"P1 Right"
+        },null,{
+          "player":0,
+          "name":"P1 Fire"
+        }]
+    },
+    ":IN0":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"P1 Fast"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Slow"
+        }
+      }
+    }
+  },
+  "romname":"buckrog"
+}

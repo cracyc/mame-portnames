@@ -1,0 +1,33 @@
+{
+  "ports":{
+    ":DIAL":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Rotate Left / Rotate Right"
+        }
+      }
+    },
+    ":INPUTS":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Rocket"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Punch"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Rocket"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Punch"
+        }
+      }
+    }
+  },
+  "romname":"boxingb"
+}

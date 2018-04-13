@@ -1,0 +1,49 @@
+{
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 Select"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Select"
+        }
+      }
+    },
+    ":AN2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Right /  Left"
+        }
+      }
+    },
+    ":AN0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":AN1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    },
+    ":AN3":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Down /  Up"
+        }
+      }
+    }
+  },
+  "romname":"ataxx"
+}

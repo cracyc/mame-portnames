@@ -1,0 +1,35 @@
+{
+  "ports":{
+    ":P2CONTROLS":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Thrust"
+        },{
+          "player":1,
+          "name":"P2 Fire"
+        },null,{
+          "player":1,
+          "name":"P2 Left"
+        },null,null,null,{
+          "player":1,
+          "name":"P2 Right"
+        }]
+    },
+    ":P1CONTROLS":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Thrust"
+        },{
+          "player":0,
+          "name":"P1 Fire"
+        },null,{
+          "player":0,
+          "name":"P1 Left"
+        },null,null,null,{
+          "player":0,
+          "name":"P1 Right"
+        }]
+    }
+  },
+  "romname":"enigma2"
+}

@@ -1,0 +1,65 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "4":{
+          "player":1,
+          "name":"P2 Bombs"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Fast"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Slow"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Laser"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Up"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Bombs"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Slow"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Laser"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Fast"
+        }
+      }
+    }
+  },
+  "romname":"scramble"
+}

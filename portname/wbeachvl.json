@@ -1,0 +1,133 @@
+{
+  "ports":{
+    ":P2":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Up-Left"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Down-Right"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Left-Down"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Unknown"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Right-Up"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Hit"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Jump"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Up-Left"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Down-Right"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left-Down"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Unknown"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right-Up"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Hit"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Jump"
+        }
+      }
+    },
+    ":P4":{
+      "labels":{
+        "1":{
+          "player":3,
+          "name":"P4 Up-Left"
+        },
+        "2":{
+          "player":3,
+          "name":"P4 Down-Right"
+        },
+        "4":{
+          "player":3,
+          "name":"P4 Left-Down"
+        },
+        "64":{
+          "player":3,
+          "name":"P4 Unknown"
+        },
+        "8":{
+          "player":3,
+          "name":"P4 Right-Up"
+        },
+        "16":{
+          "player":3,
+          "name":"P4 Hit"
+        },
+        "32":{
+          "player":3,
+          "name":"P4 Jump"
+        }
+      }
+    },
+    ":P3":{
+      "labels":{
+        "1":{
+          "player":2,
+          "name":"P3 Up-Left"
+        },
+        "2":{
+          "player":2,
+          "name":"P3 Down-Right"
+        },
+        "4":{
+          "player":2,
+          "name":"P3 Left-Down"
+        },
+        "64":{
+          "player":2,
+          "name":"P3 Unknown"
+        },
+        "8":{
+          "player":2,
+          "name":"P3 Right-Up"
+        },
+        "16":{
+          "player":2,
+          "name":"P3 Hit"
+        },
+        "32":{
+          "player":2,
+          "name":"P3 Jump"
+        }
+      }
+    }
+  },
+  "romname":"wbeachvl"
+}

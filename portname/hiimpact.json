@@ -1,0 +1,97 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "32768":{
+          "player":2,
+          "name":"P3 Action"
+        },
+        "16384":{
+          "player":2,
+          "name":"P3 Right"
+        },
+        "2048":{
+          "player":2,
+          "name":"P3 Up"
+        },
+        "8192":{
+          "player":2,
+          "name":"P3 Left"
+        },
+        "4096":{
+          "player":2,
+          "name":"P3 Down"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "1":{
+          "player":3,
+          "name":"P4 Up"
+        },
+        "2":{
+          "player":3,
+          "name":"P4 Down"
+        },
+        "4":{
+          "player":3,
+          "name":"P4 Left"
+        },
+        "16":{
+          "player":3,
+          "name":"P4 Action"
+        },
+        "8":{
+          "player":3,
+          "name":"P4 Right"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Action"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Action"
+        }
+      }
+    }
+  },
+  "romname":"hiimpact"
+}

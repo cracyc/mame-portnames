@@ -1,0 +1,89 @@
+{
+  "ports":{
+    ":IN4":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 Jump"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Throw"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "32":{
+          "player":1,
+          "name":"P2 Jump"
+        },
+        "2":{
+          "player":2,
+          "name":"P3 Jump"
+        },
+        "4":{
+          "player":2,
+          "name":"P3 Left"
+        },
+        "8":{
+          "player":2,
+          "name":"P3 Up"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Right"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "32":{
+          "player":1,
+          "name":"P2 Throw"
+        },
+        "2":{
+          "player":2,
+          "name":"P3 Throw"
+        },
+        "4":{
+          "player":2,
+          "name":"P3 Right"
+        },
+        "8":{
+          "player":2,
+          "name":"P3 Down"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Left"
+        }
+      }
+    }
+  },
+  "romname":"pigout"
+}

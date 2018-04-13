@@ -1,0 +1,27 @@
+{
+  "ports":{
+    ":1800":{
+      "labels":[null,{
+          "player":0,
+          "name":"Fire"
+        }]
+    },
+    ":LETA0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Left / Right"
+        }
+      }
+    },
+    ":ADC1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Accelerate"
+        }
+      }
+    }
+  },
+  "romname":"apb"
+}

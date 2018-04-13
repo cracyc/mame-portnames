@@ -1,0 +1,33 @@
+{
+  "ports":{
+    ":INPUTS":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Hammer"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 L"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 R"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 L"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Hammer"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 R"
+        }
+      }
+    }
+  },
+  "romname":"cheekyms"
+}

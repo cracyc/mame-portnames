@@ -1,0 +1,29 @@
+{
+  "ports":{
+    ":STICKY":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Up / Down"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"Fire"
+        }
+      }
+    },
+    ":STICKX":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Left / Right"
+        }
+      }
+    }
+  },
+  "romname":"bshark"
+}

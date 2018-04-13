@@ -1,0 +1,97 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Fire / Punch"
+        },
+        "2048":{
+          "player":2,
+          "name":"P3 Right"
+        },
+        "1024":{
+          "player":2,
+          "name":"P3 Left"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "512":{
+          "player":2,
+          "name":"P3 Down"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Left Button"
+        },
+        "256":{
+          "player":2,
+          "name":"P3 Up"
+        },
+        "8192":{
+          "player":2,
+          "name":"P3 Right Button"
+        },
+        "16384":{
+          "player":2,
+          "name":"P3 Left Button"
+        },
+        "4096":{
+          "player":2,
+          "name":"P3 Fire / Punch"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Right Button"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "4096":{
+          "player":0,
+          "name":"P1 Fire / Punch"
+        },
+        "2048":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "1024":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "512":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "16384":{
+          "player":0,
+          "name":"P1 Left Button"
+        },
+        "256":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "8192":{
+          "player":0,
+          "name":"P1 Right Button"
+        }
+      }
+    }
+  },
+  "romname":"xenophob"
+}

@@ -1,0 +1,20 @@
+{
+  "ports":{
+    ":IN0":{
+      "labels":[{
+          "player":0,
+          "name":"Fire Right Charge"
+        },{
+          "player":0,
+          "name":"Fire Left Charge"
+        },null,{
+          "player":0,
+          "name":"Move Ship Right"
+        },null,null,null,{
+          "player":0,
+          "name":"Move Ship Left"
+        }]
+    }
+  },
+  "romname":"depthch"
+}

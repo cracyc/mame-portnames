@@ -1,0 +1,93 @@
+{
+  "ports":{
+    ":EXTRA":{
+      "labels":{
+        "524288":{
+          "player":0,
+          "name":"P1 Short Kick"
+        },
+        "2097152":{
+          "player":1,
+          "name":"P2 Strong Kick"
+        },
+        "262144":{
+          "player":0,
+          "name":"P1 Strong Kick"
+        },
+        "1048576":{
+          "player":1,
+          "name":"P2 Short Kick"
+        },
+        "131072":{
+          "player":0,
+          "name":"P1 Roundhouse Kick"
+        }
+      }
+    },
+    ":INPUTS":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Jump"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Crouch"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Jab Punch"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Crouch"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Jump"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Strong Punch"
+        },
+        "67108864":{
+          "player":1,
+          "name":"P2 Roundhouse Kick"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 Fierce Punch"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Strong Punch"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Jab Punch"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Fierce Punch"
+        }
+      }
+    }
+  },
+  "romname":"sfiii2"
+}

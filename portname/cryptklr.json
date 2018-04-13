@@ -1,0 +1,85 @@
+{
+  "ports":{
+    ":P1_P2":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"P1 Reload"
+        },
+        "1048576":{
+          "player":1,
+          "name":"P2 Reload"
+        },
+        "524288":{
+          "player":1,
+          "name":"P2 Fire"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Fire"
+        }
+      }
+    },
+    ":GUNX2":{
+      "labels":{
+        "511":{
+          "player":1,
+          "name":"P2 Right /  Left"
+        }
+      }
+    },
+    ":GUNY3":{
+      "labels":{
+        "255":{
+          "player":2,
+          "name":"P3 Down /  Up"
+        }
+      }
+    },
+    ":GUNX3":{
+      "labels":{
+        "511":{
+          "player":2,
+          "name":"P3 Right /  Left"
+        }
+      }
+    },
+    ":P3_SERVICE":{
+      "labels":{
+        "8":{
+          "player":2,
+          "name":"P3 Fire"
+        },
+        "16":{
+          "player":2,
+          "name":"P3 Reload"
+        }
+      }
+    },
+    ":GUNY1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    },
+    ":GUNY2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Down /  Up"
+        }
+      }
+    },
+    ":GUNX1":{
+      "labels":{
+        "511":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    }
+  },
+  "romname":"cryptklr"
+}

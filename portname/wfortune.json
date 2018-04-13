@@ -1,0 +1,29 @@
+{
+  "ports":{
+    ":AN_D":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Spin Left / Spin Right"
+        }
+      }
+    },
+    ":60":{
+      "labels":{
+        "16":{
+          "player":1,
+          "name":"P2 Select"
+        },
+        "8":{
+          "player":2,
+          "name":"P3 Select"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Select"
+        }
+      }
+    }
+  },
+  "romname":"wfortune"
+}

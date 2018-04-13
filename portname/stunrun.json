@@ -1,0 +1,30 @@
+{
+  "ports":{
+    ":mainpcb:8BADC.2":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Up / Down"
+        }
+      }
+    },
+    ":mainpcb:8BADC.0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Left / Right"
+        }
+      }
+    },
+    ":mainpcb:a80000":{
+      "labels":[{
+          "player":0,
+          "name":"Fire (left)"
+        },{
+          "player":0,
+          "name":"Fire (right)"
+        }]
+    }
+  },
+  "romname":"stunrun"
+}

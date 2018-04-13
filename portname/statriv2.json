@@ -1,0 +1,25 @@
+{
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"B"
+        },
+        "64":{
+          "player":0,
+          "name":"D"
+        },
+        "32":{
+          "player":0,
+          "name":"C"
+        },
+        "8":{
+          "player":0,
+          "name":"A"
+        }
+      }
+    }
+  },
+  "romname":"statriv2"
+}

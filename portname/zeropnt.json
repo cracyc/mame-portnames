@@ -1,0 +1,49 @@
+{
+  "ports":{
+    ":Y1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    },
+    ":INPUTS":{
+      "labels":{
+        "256":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Fire"
+        }
+      }
+    },
+    ":X0":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Left /  Right"
+        }
+      }
+    },
+    ":X1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left /  Right"
+        }
+      }
+    },
+    ":Y0":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Down /  Up"
+        }
+      }
+    }
+  },
+  "romname":"zeropnt"
+}

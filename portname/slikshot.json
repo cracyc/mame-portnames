@@ -1,0 +1,37 @@
+{
+  "ports":{
+    ":60":{
+      "labels":{
+        "8":{
+          "player":0,
+          "name":"P1 Green"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Red"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Yellow"
+        }
+      }
+    },
+    ":FAKEX":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":FAKEY":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    }
+  },
+  "romname":"slikshot"
+}

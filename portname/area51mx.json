@@ -1,0 +1,49 @@
+{
+  "ports":{
+    ":FAKE1_X":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left /  Right"
+        }
+      }
+    },
+    ":FAKE2_Y":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Up /  Down"
+        }
+      }
+    },
+    ":FAKE2_X":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Left /  Right"
+        }
+      }
+    },
+    ":IN3":{
+      "labels":{
+        "524288":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "262144":{
+          "player":1,
+          "name":"P2 Fire"
+        }
+      }
+    },
+    ":FAKE1_Y":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up /  Down"
+        }
+      }
+    }
+  },
+  "romname":"area51mx"
+}

@@ -1,0 +1,50 @@
+{
+  "ports":{
+    ":SYSTEM":{
+      "labels":[null,null,null,{
+          "player":0,
+          "name":"P1 Fire"
+        },null,null,null,{
+          "player":1,
+          "name":"P2 Fire"
+        }]
+    },
+    ":INPUTS":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Down"
+        }
+      }
+    }
+  },
+  "romname":"battlex"
+}

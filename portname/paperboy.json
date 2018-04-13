@@ -1,0 +1,33 @@
+{
+  "ports":{
+    ":ADC1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Accelerate /  Break"
+        }
+      }
+    },
+    ":1800":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Throw"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Throw"
+        }
+      }
+    },
+    ":ADC0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left /  Right"
+        }
+      }
+    }
+  },
+  "romname":"paperboy"
+}

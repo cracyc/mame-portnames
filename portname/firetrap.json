@@ -1,0 +1,86 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Left Up"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Left Down"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Left Left"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Left Right"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Right Right"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Right Up"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Right Left"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Right Down"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Fire"
+        },null,null,{
+          "player":1,
+          "name":"P2 Fire"
+        }]
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Left Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Left Down"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left Left"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Left Right"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Right Right"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Right Up"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Right Left"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Right Down"
+        }
+      }
+    }
+  },
+  "romname":"firetrap"
+}

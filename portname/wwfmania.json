@@ -1,0 +1,85 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Kick"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Power Kick"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Kick"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Power Kick"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Move Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Move Down"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Move Left"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Defense"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Move Up"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Move Down"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Move Right"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Move Left"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Power Punch"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Move Right"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 Power Punch"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Defense"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Punch"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Punch"
+        }
+      }
+    }
+  },
+  "romname":"wwfmania"
+}

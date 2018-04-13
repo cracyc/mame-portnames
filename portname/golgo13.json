@@ -1,0 +1,49 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "2048":{
+          "player":0,
+          "name":"Zoom In / Zoom Out"
+        }
+      }
+    },
+    ":LIGHT0_Y":{
+      "labels":{
+        "65535":{
+          "player":0,
+          "name":"Aim Up / Aim Down"
+        }
+      }
+    },
+    ":LIGHT0_X":{
+      "labels":{
+        "65535":{
+          "player":0,
+          "name":"Aim Left / Aim Right"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"Enter"
+        },
+        "4":{
+          "player":0,
+          "name":"Select Down"
+        },
+        "8":{
+          "player":0,
+          "name":"Select Up"
+        },
+        "32":{
+          "player":0,
+          "name":"Trigger"
+        }
+      }
+    }
+  },
+  "romname":"golgo13"
+}

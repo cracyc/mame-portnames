@@ -1,0 +1,27 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[null,null,null,null,null,null,null,{
+          "player":0,
+          "name":"P1 Game Select"
+        }]
+    },
+    ":IN3":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    }
+  },
+  "romname":"shuffle"
+}

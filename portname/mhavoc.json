@@ -1,0 +1,33 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"P1 Shield"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Shield"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Fire/Jump"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Fire/Jump"
+        }
+      }
+    },
+    ":DIAL":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Move Left /  Move Right"
+        }
+      }
+    }
+  },
+  "romname":"mhavoc"
+}

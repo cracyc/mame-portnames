@@ -1,0 +1,37 @@
+{
+  "ports":{
+    ":IN4":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Fire"
+        }
+      }
+    },
+    ":TRACKY":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Rotate Left / Rotate Right"
+        }
+      }
+    }
+  },
+  "romname":"mplanets"
+}

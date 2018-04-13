@@ -1,0 +1,25 @@
+{
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 Bomb"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Bomb"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Trigger"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Trigger"
+        }
+      }
+    }
+  },
+  "romname":"term2"
+}

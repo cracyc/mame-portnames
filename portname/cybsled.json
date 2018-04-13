@@ -1,0 +1,37 @@
+{
+  "ports":{
+    ":PORTH":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"Missile"
+        },
+        "2":{
+          "player":0,
+          "name":"View Point"
+        },
+        "8":{
+          "player":0,
+          "name":"Fire"
+        }
+      }
+    },
+    ":AN1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Right Tread Forward / Left Tread Forward / Left Tread Backward / Right Tread Backward"
+        }
+      }
+    },
+    ":AN3":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Right Tread Left / Left Tread Left / Left Tread Right / Right Tread Right"
+        }
+      }
+    }
+  },
+  "romname":"cybsled"
+}

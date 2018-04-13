@@ -1,0 +1,20 @@
+{
+  "ports":{
+    ":INPUTS":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Fire"
+        },{
+          "player":0,
+          "name":"P1 Grenade"
+        },null,{
+          "player":1,
+          "name":"P2 Fire"
+        },null,null,null,{
+          "player":1,
+          "name":"P2 Grenade"
+        }]
+    }
+  },
+  "romname":"cabal"
+}

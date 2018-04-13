@@ -1,0 +1,42 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Up"
+        },{
+          "player":0,
+          "name":"P1 INVISO"
+        }]
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 FIRE"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 THRUST"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 SMART BOMB"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 HYPERSPACE"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 REVERSE"
+        }
+      }
+    }
+  },
+  "romname":"stargate"
+}

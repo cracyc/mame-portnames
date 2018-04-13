@@ -1,0 +1,70 @@
+{
+  "romname":"acedrvrw",
+  "ports":{
+    ":P1":{
+      "labels":{
+        "1":{
+          "name":"Dev Service Enter",
+          "player":1
+        },
+        "64":{
+          "name":"Dev Service Up",
+          "player":1
+        },
+        "128":{
+          "name":"Dev Service Down",
+          "player":1
+        }
+      }
+    },
+    ":BRAKE":{"labels":{"255":{"name":"Brake Pedal","player":0}}},
+    ":INPUTS":{
+      "labels":{
+        "64":{
+          "name":"View Change",
+          "player":0
+        },
+        "1":{
+          "name":"Shift Down",
+          "player":0
+        },
+        "2":{
+          "name":"Shift Up",
+          "player":0
+        },
+        "512":{
+          "name":"Coin 2",
+          "player":0
+        },
+        "4096":{
+          "name":"Coin 1",
+          "player":0
+        },
+        "2048":{
+          "name":"Service 1",
+          "player":0
+        },
+        "32768":{
+          "name":"Motion-Stop",
+          "player":0
+        }
+      }
+    },
+    ":GAS":{
+      "labels":{
+        "255":{
+          "name":"Gas Pedal",
+          "player":0
+        }
+      }
+    },
+    ":STEER":{
+      "labels":{
+        "255":{
+          "name":"Steering Wheel",
+          "player":0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+    "romname":"dirtdash",
+    "ports":{
+        ":ADC.0":{"labels":{"255":{"player":0,"name":"Steering Wheel"}}},
+        ":MCUP5A":{
+            "labels":{
+        "32":{
+          "player":0,
+          "name":"Shift Up"
+        },
+        "4":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "64":{
+          "player":0,
+          "name":"Shift Down"
+        },
+        "128":{
+          "player":0,
+          "name":"Motion-Stop"
+        },
+        "16":{
+          "player":0,
+          "name":"View Change"
+        }
+      }
+    },
+    ":ADC.2":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Brake Pedal"
+        }
+      }
+    },
+    ":ADC.1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Gas Pedal"
+        }
+      }
+    },
+    ":DSW0":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"Unknown"
+        }
+      }
+    },
+    ":MCUP5B":{
+      "labels":[]
+    }
+  }
+}

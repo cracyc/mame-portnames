@@ -1,0 +1,117 @@
+{
+  "ports":{
+    ":mainpcb:P2_A":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Attack"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Jump"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Up"
+        }
+      }
+    },
+    ":mainpcb:EXTRA2":{
+      "labels":{
+        "1":{
+          "player":3,
+          "name":"P4 Attack"
+        },
+        "2":{
+          "player":3,
+          "name":"P4 Jump"
+        },
+        "16":{
+          "player":3,
+          "name":"P4 Down"
+        },
+        "64":{
+          "player":3,
+          "name":"P4 Right"
+        },
+        "128":{
+          "player":3,
+          "name":"P4 Left"
+        },
+        "32":{
+          "player":3,
+          "name":"P4 Up"
+        }
+      }
+    },
+    ":mainpcb:EXTRA1":{
+      "labels":{
+        "1":{
+          "player":2,
+          "name":"P3 Attack"
+        },
+        "2":{
+          "player":2,
+          "name":"P3 Jump"
+        },
+        "16":{
+          "player":2,
+          "name":"P3 Down"
+        },
+        "64":{
+          "player":2,
+          "name":"P3 Right"
+        },
+        "128":{
+          "player":2,
+          "name":"P3 Left"
+        },
+        "32":{
+          "player":2,
+          "name":"P3 Up"
+        }
+      }
+    },
+    ":mainpcb:P1_A":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Attack"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Jump"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Up"
+        }
+      }
+    }
+  },
+  "romname":"spidman"
+}

@@ -1,0 +1,49 @@
+{
+  "ports":{
+    ":GUNX2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Aim Right /  Aim Left"
+        }
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "16777216":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "67108864":{
+          "player":1,
+          "name":"P2 Fire"
+        }
+      }
+    },
+    ":GUNY1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Aim Up / Aim Down"
+        }
+      }
+    },
+    ":GUNY2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Aim Down /  Aim Up"
+        }
+      }
+    },
+    ":GUNX1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Aim Left / Aim Right"
+        }
+      }
+    }
+  },
+  "romname":"sshooter"
+}

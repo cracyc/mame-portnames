@@ -1,0 +1,46 @@
+{
+  "ports":{
+    ":GUNX2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Right /  Left"
+        }
+      }
+    },
+    ":IN1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Trigger"
+        },{
+          "player":1,
+          "name":"P2 Trigger"
+        }]
+    },
+    ":GUNY1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    },
+    ":GUNY2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Down /  Up"
+        }
+      }
+    },
+    ":GUNX1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    }
+  },
+  "romname":"tickee"
+}

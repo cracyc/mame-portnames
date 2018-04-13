@@ -1,0 +1,21 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"P1 Serve"
+        }
+      }
+    },
+    ":PADDLE":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    }
+  },
+  "romname":"avalnche"
+}

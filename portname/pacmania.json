@@ -1,0 +1,37 @@
+{
+  "ports":{
+    ":CONTROL0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Right"
+        },
+        "2":{
+          "player":0,
+          "name":"Left"
+        },
+        "4":{
+          "player":0,
+          "name":"Down"
+        },
+        "64":{
+          "player":0,
+          "name":"Bounce"
+        },
+        "8":{
+          "player":0,
+          "name":"Up"
+        },
+        "16":{
+          "player":0,
+          "name":"Bounce"
+        },
+        "32":{
+          "player":0,
+          "name":"Bounce"
+        }
+      }
+    }
+  },
+  "romname":"pacmania"
+}

@@ -1,0 +1,97 @@
+{
+  "ports":{
+    ":P2":{
+      "labels":{
+        "262144":{
+          "player":1,
+          "name":"P2 Light Punch"
+        },
+        "1048576":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "2097152":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "524288":{
+          "player":1,
+          "name":"P2 Middle Punch"
+        },
+        "4194304":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "8388608":{
+          "player":1,
+          "name":"P2 Up"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "262144":{
+          "player":0,
+          "name":"P1 Light Punch"
+        },
+        "1048576":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "2097152":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "524288":{
+          "player":0,
+          "name":"P1 Middle Punch"
+        },
+        "4194304":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "8388608":{
+          "player":0,
+          "name":"P1 Up"
+        }
+      }
+    },
+    ":P3":{
+      "labels":{
+        "65536":{
+          "player":0,
+          "name":"P1 Heavy Punch"
+        },
+        "8388608":{
+          "player":1,
+          "name":"P2 Heavy Kick"
+        },
+        "2097152":{
+          "player":1,
+          "name":"P2 Middle Kick"
+        },
+        "524288":{
+          "player":1,
+          "name":"P2 Light Kick"
+        },
+        "131072":{
+          "player":1,
+          "name":"P2 Heavy Punch"
+        },
+        "262144":{
+          "player":0,
+          "name":"P1 Light Kick"
+        },
+        "4194304":{
+          "player":0,
+          "name":"P1 Heavy Kick"
+        },
+        "1048576":{
+          "player":0,
+          "name":"P1 Middle Kick"
+        }
+      }
+    }
+  },
+  "romname":"sftm"
+}

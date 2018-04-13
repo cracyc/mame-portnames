@@ -1,0 +1,41 @@
+{
+  "ports":{
+    ":INPUTS":{
+      "labels":{
+        "8192":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "1":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Fire"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Forward"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "32768":{
+          "player":0,
+          "name":"P1 Forward"
+        },
+        "16384":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "4096":{
+          "player":0,
+          "name":"P1 Left"
+        }
+      }
+    }
+  },
+  "romname":"ripoff"
+}

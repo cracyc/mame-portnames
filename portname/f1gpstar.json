@@ -1,0 +1,25 @@
+{
+  "ports":{
+    ":IN2":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"P1 Accelerate"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Brake"
+        }
+      }
+    },
+    ":IN5":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left /  Right"
+        }
+      }
+    }
+  },
+  "romname":"f1gpstar"
+}

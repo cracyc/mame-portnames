@@ -1,0 +1,77 @@
+{
+  "ports":{
+    ":260010":{
+      "labels":{
+        "256":{
+          "player":1,
+          "name":"P2 Special"
+        },
+        "32768":{
+          "player":1,
+          "name":"P2 Right back"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Left forward"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 Left back"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Right forward"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Rotate left"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Rotate right"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Fire"
+        }
+      }
+    },
+    ":260000":{
+      "labels":{
+        "256":{
+          "player":0,
+          "name":"P1 Special"
+        },
+        "32768":{
+          "player":0,
+          "name":"P1 Right back"
+        },
+        "4096":{
+          "player":0,
+          "name":"P1 Left forward"
+        },
+        "16384":{
+          "player":0,
+          "name":"P1 Left back"
+        },
+        "8192":{
+          "player":0,
+          "name":"P1 Right forward"
+        },
+        "1024":{
+          "player":0,
+          "name":"P1 Rotate left"
+        },
+        "2048":{
+          "player":0,
+          "name":"P1 Rotate right"
+        },
+        "512":{
+          "player":0,
+          "name":"P1 Fire"
+        }
+      }
+    }
+  },
+  "romname":"vindictr"
+}

@@ -1,0 +1,77 @@
+{
+  "ports":{
+    ":1808":{
+      "labels":{
+        "8":{
+          "player":0,
+          "name":"High Explosive (Single Shot)"
+        },
+        "2":{
+          "player":0,
+          "name":"Fire"
+        },
+        "128":{
+          "player":0,
+          "name":"High Explosive (High Rate)"
+        },
+        "4":{
+          "player":0,
+          "name":"Armor Piercing (Single Shot)"
+        },
+        "64":{
+          "player":0,
+          "name":"Armor Piercing (High Rate)"
+        },
+        "32":{
+          "player":0,
+          "name":"High Explosive (Low Rate)"
+        },
+        "16":{
+          "player":0,
+          "name":"Armor Piercing (Low Rate)"
+        }
+      }
+    },
+    ":AN2":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Increase Range / Decrease Range"
+        }
+      }
+    },
+    ":AN0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Aim Left / Aim Right"
+        }
+      }
+    },
+    ":AN1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Aim Up / Aim Down"
+        }
+      }
+    },
+    ":1809":{
+      "labels":{
+        "8":{
+          "player":0,
+          "name":"Select Tow Missiles"
+        },
+        "4":{
+          "player":0,
+          "name":"7.62 mm Machine Gun"
+        },
+        "16":{
+          "player":0,
+          "name":"Magnification Toggle"
+        }
+      }
+    }
+  },
+  "romname":"bradley"
+}

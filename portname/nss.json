@@ -1,0 +1,93 @@
+{
+  "ports":{
+    ":SERIAL2_DATA1":{
+      "labels":{
+        "16":{
+          "player":1,
+          "name":"P2 A"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "32768":{
+          "player":1,
+          "name":"P2 B"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 R"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 L"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Y"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 X"
+        }
+      }
+    },
+    ":SERIAL1_DATA1":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"P1 A"
+        },
+        "256":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "512":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "32768":{
+          "player":0,
+          "name":"P1 B"
+        },
+        "1024":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "2048":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 R"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 L"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Y"
+        },
+        "16384":{
+          "player":0,
+          "name":"P1 X"
+        }
+      }
+    }
+  },
+  "romname":"nss"
+}

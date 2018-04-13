@@ -1,0 +1,61 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Fire"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Pause"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Pause"
+        }
+      }
+    }
+  },
+  "romname":"nova2001"
+}

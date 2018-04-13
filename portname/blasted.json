@@ -1,0 +1,53 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Aim Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Aim Right"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Aim Down"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Aim Left"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Aim Right"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Aim Up"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Aim Left"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Aim Down"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "256":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Fire"
+        }
+      }
+    }
+  },
+  "romname":"blasted"
+}

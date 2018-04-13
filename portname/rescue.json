@@ -1,0 +1,49 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "8":{
+          "player":0,
+          "name":"P1 Fire Down"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Fire Right"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Fire Left"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Fire Up"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Bomb"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Up"
+        }
+      }
+    }
+  },
+  "romname":"rescue"
+}

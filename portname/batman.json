@@ -1,0 +1,33 @@
+{
+  "ports":{
+    ":260000":{
+      "labels":{
+        "512":{
+          "player":0,
+          "name":"P1 Action"
+        },
+        "4096":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "8192":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "1024":{
+          "player":0,
+          "name":"P1 Jump"
+        },
+        "16384":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "32768":{
+          "player":0,
+          "name":"P1 Up"
+        }
+      }
+    }
+  },
+  "romname":"batman"
+}

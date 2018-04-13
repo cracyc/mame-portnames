@@ -1,0 +1,221 @@
+{
+  "romname":"coolridr",
+  "ports":{
+    ":AN5":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Throttle"
+        }
+      }
+    },
+    ":AN7":{
+      "labels":[]
+    },
+    ":AN6":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Brake"
+        }
+      }
+    },
+    ":AN1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Throttle"
+        }
+      }
+    },
+    ":AN0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Handle Bar"
+        }
+      }
+    },
+    ":AN3":{
+      "labels":[]
+    },
+    ":AN4":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Handle Bar"
+        }
+      }
+    },
+    ":AN2":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Brake"
+        }
+      }
+    },
+    ":IN4":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"IN4-0"
+        },
+        "8388608":{
+          "player":0,
+          "name":"Unknown"
+        },
+        "65536":{
+          "player":0,
+          "name":"IN4-1"
+        }
+      }
+    },
+    ":CONFIG":{
+      "labels":[{
+          "player":0,
+          "name":"Use Threading Code"
+        }]
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"IN0-0"
+        },
+        "65536":{
+          "player":0,
+          "name":"IN0-1"
+        },
+        "8388608":{
+          "player":0,
+          "name":"Unknown"
+        }
+      }
+    },
+    ":IN3":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"IN3-0"
+        },
+        "8388608":{
+          "player":0,
+          "name":"Unknown"
+        },
+        "65536":{
+          "player":0,
+          "name":"IN3-1"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"IN2-0"
+        },
+        "8388608":{
+          "player":0,
+          "name":"Unknown"
+        },
+        "65536":{
+          "player":0,
+          "name":"IN2-1"
+        }
+      }
+    },
+    ":IN5":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"Unknown"
+        },
+        "1":{
+          "player":0,
+          "name":"IN5-0"
+        },
+        "2097152":{
+          "player":1,
+          "name":"P2 Shift Down"
+        },
+        "524288":{
+          "player":1,
+          "name":"P2 Music >>"
+        },
+        "1048576":{
+          "player":1,
+          "name":"P2 Shift Up"
+        },
+        "262144":{
+          "player":1,
+          "name":"P2 Music <<"
+        }
+      }
+    },
+    ":IN6":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"IN6-0"
+        },
+        "65536":{
+          "player":0,
+          "name":"IN6-1"
+        },
+        "8388608":{
+          "player":0,
+          "name":"Unknown"
+        }
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "65536":{
+          "player":0,
+          "name":"P1 Coin"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Music <<"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Shift Down"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Music >>"
+        },
+        "1048576":{
+          "player":0,
+          "name":"P1 Start"
+        },
+        "262144":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "2097152":{
+          "player":0,
+          "name":"P2 Start"
+        },
+        "524288":{
+          "player":0,
+          "name":"P1 Service Switch"
+        },
+        "131072":{
+          "player":0,
+          "name":"P2 Coin"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Shift Up"
+        },
+        "4194304":{
+          "player":0,
+          "name":"P2 Service Switch"
+        }
+      }
+    }
+  }
+}

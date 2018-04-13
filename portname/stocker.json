@@ -1,0 +1,19 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[null,{
+          "player":0,
+          "name":"High / Low"
+        }]
+    },
+    ":AN3":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Left / Right"
+        }
+      }
+    }
+  },
+  "romname":"stocker"
+}

@@ -1,0 +1,49 @@
+{
+  "ports":{
+    ":ssio:IP4":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Speed"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Bomb"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Shoot"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Bomb"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Speed"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Shoot"
+        }
+      }
+    },
+    ":ssio:IP1":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Left /  Right"
+        }
+      }
+    },
+    ":ssio:IP2":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left /  Right"
+        }
+      }
+    }
+  },
+  "romname":"twotiger"
+}

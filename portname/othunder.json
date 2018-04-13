@@ -1,0 +1,20 @@
+{
+  "ports":{
+    ":IN2":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Fire"
+        },{
+          "player":1,
+          "name":"P2 Fire"
+        },null,{
+          "player":0,
+          "name":"P1 Grenade"
+        },null,null,null,{
+          "player":1,
+          "name":"P2 Grenade"
+        }]
+    }
+  },
+  "romname":"othunder"
+}

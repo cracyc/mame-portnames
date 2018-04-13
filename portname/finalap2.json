@@ -1,0 +1,29 @@
+{
+  "ports":{
+    ":AN6":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Brake"
+        }
+      }
+    },
+    ":AN7":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Accelerate"
+        }
+      }
+    },
+    ":MCUH":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"High / Low"
+        }
+      }
+    }
+  },
+  "romname":"finalap2"
+}

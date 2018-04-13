@@ -1,0 +1,65 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Jump"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 ??"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 ??"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Jump"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Attack"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Attack"
+        }
+      }
+    }
+  },
+  "romname":"3wonders"
+}

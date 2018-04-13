@@ -1,0 +1,125 @@
+{
+  "ports":{
+    ":P1_P3":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Jump"
+        },
+        "2048":{
+          "player":2,
+          "name":"P3 Right"
+        },
+        "256":{
+          "player":2,
+          "name":"P3 Up"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "512":{
+          "player":2,
+          "name":"P3 Down"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Mutant Power"
+        },
+        "1024":{
+          "player":2,
+          "name":"P3 Left"
+        },
+        "16384":{
+          "player":2,
+          "name":"P3 Mutant Power"
+        },
+        "8192":{
+          "player":2,
+          "name":"P3 Jump"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Attack"
+        },
+        "4096":{
+          "player":2,
+          "name":"P3 Attack"
+        }
+      }
+    },
+    ":P2_P4":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Jump"
+        },
+        "2048":{
+          "player":3,
+          "name":"P4 Right"
+        },
+        "256":{
+          "player":3,
+          "name":"P4 Up"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "512":{
+          "player":3,
+          "name":"P4 Down"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Mutant Power"
+        },
+        "1024":{
+          "player":3,
+          "name":"P4 Left"
+        },
+        "16384":{
+          "player":3,
+          "name":"P4 Mutant Power"
+        },
+        "8192":{
+          "player":3,
+          "name":"P4 Jump"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Attack"
+        },
+        "4096":{
+          "player":3,
+          "name":"P4 Attack"
+        }
+      }
+    }
+  },
+  "romname":"xmen"
+}

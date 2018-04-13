@@ -1,0 +1,33 @@
+{
+  "ports":{
+    ":MCUP5A":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"Fire"
+        },
+        "32":{
+          "player":0,
+          "name":"Step on It!"
+        }
+      }
+    },
+    ":LIGHTY":{
+      "labels":{
+        "4095":{
+          "player":0,
+          "name":"Aim Up / Aim Down"
+        }
+      }
+    },
+    ":LIGHTX":{
+      "labels":{
+        "4095":{
+          "player":0,
+          "name":"Aim Left / Aim Right"
+        }
+      }
+    }
+  },
+  "romname":"timecris"
+}

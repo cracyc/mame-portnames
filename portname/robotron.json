@@ -1,0 +1,42 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Fire Left"
+        },{
+          "player":0,
+          "name":"P1 Fire Right"
+        }]
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Move Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Move Down"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Move Left"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Fire Up"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Fire Down"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Move Right"
+        }
+      }
+    }
+  },
+  "romname":"robotron"
+}

@@ -1,0 +1,61 @@
+{
+  "ports":{
+    ":JOY":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Aim Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Aim Down"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Aim Left"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Aim Right"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Aim Right"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Aim Up"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Aim Left"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Aim Down"
+        }
+      }
+    },
+    ":PHOTOSENSOR":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 Sensor 2"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Sensor 4"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Sensor 3"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Sensor 1"
+        }
+      }
+    }
+  },
+  "romname":"sbm"
+}

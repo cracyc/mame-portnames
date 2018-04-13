@@ -1,0 +1,35 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Up"
+        },{
+          "player":1,
+          "name":"P2 Left"
+        },null,{
+          "player":1,
+          "name":"P2 Right"
+        },null,null,null,{
+          "player":1,
+          "name":"P2 Down"
+        }]
+    },
+    ":IN0":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Up"
+        },{
+          "player":0,
+          "name":"P1 Left"
+        },null,{
+          "player":0,
+          "name":"P1 Right"
+        },null,null,null,{
+          "player":0,
+          "name":"P1 Down"
+        }]
+    }
+  },
+  "romname":"mspacman"
+}

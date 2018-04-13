@@ -1,0 +1,30 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":F60000":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Hop"
+        },{
+          "player":0,
+          "name":"P1 ??not used"
+        }]
+    },
+    ":IN0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    }
+  },
+  "romname":"roadrunn"
+}

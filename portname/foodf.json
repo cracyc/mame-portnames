@@ -1,0 +1,49 @@
+{
+  "ports":{
+    ":STICK0_X":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left /  Right"
+        }
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 Throw"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Throw"
+        }
+      }
+    },
+    ":STICK0_Y":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    },
+    ":STICK1_Y":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Down /  Up"
+        }
+      }
+    },
+    ":STICK1_X":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Left /  Right"
+        }
+      }
+    }
+  },
+  "romname":"foodf"
+}

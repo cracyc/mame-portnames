@@ -1,0 +1,69 @@
+{
+  "ports":{
+    ":AN5":{
+      "labels":{
+        "255":{
+          "player":2,
+          "name":"P3 Left /  Right"
+        }
+      }
+    },
+    ":AN4":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Left /  Right"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "32":{
+          "player":1,
+          "name":"P2 Nitro / Start"
+        },
+        "64":{
+          "player":2,
+          "name":"P3 Nitro / Start"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Nitro / Start"
+        }
+      }
+    },
+    ":AN2":{
+      "labels":{
+        "255":{
+          "player":2,
+          "name":"P3 Accelerate"
+        }
+      }
+    },
+    ":AN0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Accelerate"
+        }
+      }
+    },
+    ":AN1":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Accelerate"
+        }
+      }
+    },
+    ":AN3":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left /  Right"
+        }
+      }
+    }
+  },
+  "romname":"offroad"
+}

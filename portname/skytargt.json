@@ -1,0 +1,78 @@
+{
+  "romname":"skytargt",
+  "ports":{
+    ":ANA3":{
+      "labels":[]
+    },
+    ":ANA0":{
+      "labels":{
+        "255":{
+          "name":"AD Stick Y",
+          "player":0
+        }
+      }
+    },
+    ":ANA1":{
+      "labels":[]
+    },
+    ":ANA2":{
+      "labels":{
+        "255":{
+          "name":"AD Stick X",
+          "player":0
+        }
+      }
+    },
+    ":IN2":{
+      "labels":[]
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "name":"Coin 1",
+          "player":0
+        },
+        "2":{
+          "name":"Coin 2",
+          "player":0
+        },
+        "4":{
+          "name":"Service Mode",
+          "player":0
+        },
+        "8":{
+          "name":"Service 1",
+          "player":0
+        },
+        "64":{
+          "name":"1 Player Start",
+          "player":0
+        },
+        "32":{
+          "name":"P1 View Change",
+          "player":0
+        }
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "16":{
+          "name":"P1 Machine Gun",
+          "player":0
+        },
+        "32":{
+          "name":"P1 Missile",
+          "player":0
+        }
+      }
+    },
+    ":DSW":{
+      "labels":{
+        "128":{
+          "name":"Unknown",
+          "player":0
+        }
+      }
+    }
+  }
+}

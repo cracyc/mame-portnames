@@ -1,0 +1,41 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "2":{
+          "player":1,
+          "name":"P2 Movement Left"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Movement Right"
+        }
+      }
+    },
+    ":IN3":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Fire"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "2":{
+          "player":0,
+          "name":"P1 Movement Left"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Movement Right"
+        }
+      }
+    }
+  },
+  "romname":"devzone"
+}

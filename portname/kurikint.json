@@ -1,0 +1,61 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Jump"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Duck"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Punch / Kick"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Jump (higher)"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Jump"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Duck"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Punch / Kick"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Jump (higher)"
+        }
+      }
+    }
+  },
+  "romname":"kurikint"
+}

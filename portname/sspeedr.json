@@ -1,0 +1,11 @@
+{
+  "ports":{
+    ":IN2":{
+      "labels":[null,null,null,{
+          "player":0,
+          "name":"High / Low"
+        }]
+    }
+  },
+  "romname":"sspeedr"
+}

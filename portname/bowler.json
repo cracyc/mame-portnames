@@ -1,0 +1,30 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[null,{
+          "player":0,
+          "name":"P1 Straight/Hook"
+        },null,null,null,null,null,{
+          "player":0,
+          "name":"P1 ??"
+        }]
+    },
+    ":IN3":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left /  Right"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    }
+  },
+  "romname":"bowler"
+}

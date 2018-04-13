@@ -1,0 +1,21 @@
+{
+  "ports":{
+    ":DIAL1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":DIAL2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Right /  Left"
+        }
+      }
+    }
+  },
+  "romname":"hotsmash"
+}

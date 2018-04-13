@@ -1,0 +1,61 @@
+{
+  "ports":{
+    ":P2":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Speed Up"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Slow Down"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Low Gear"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 High Gear"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Speed Up"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Slow Down"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Low Gear"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 High Gear"
+        }
+      }
+    }
+  },
+  "romname":"roadf"
+}

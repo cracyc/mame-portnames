@@ -1,0 +1,49 @@
+{
+  "ports":{
+    ":BUTTONS":{
+      "labels":{
+        "2":{
+          "player":0,
+          "name":"P1 Select Club"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Select Club"
+        }
+      }
+    },
+    ":TRACK1_Y":{
+      "labels":{
+        "4095":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    },
+    ":TRACK2_X":{
+      "labels":{
+        "4095":{
+          "player":1,
+          "name":"P2 Right /  Left"
+        }
+      }
+    },
+    ":TRACK1_X":{
+      "labels":{
+        "4095":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":TRACK2_Y":{
+      "labels":{
+        "4095":{
+          "player":1,
+          "name":"P2 Down /  Up"
+        }
+      }
+    }
+  },
+  "romname":"usclssic"
+}

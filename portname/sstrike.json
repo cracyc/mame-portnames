@@ -1,0 +1,33 @@
+{
+  "ports":{
+    ":60":{
+      "labels":{
+        "8":{
+          "player":0,
+          "name":"P1 Right Hook"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Left Hook"
+        }
+      }
+    },
+    ":FAKEX":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":FAKEY":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    }
+  },
+  "romname":"sstrike"
+}

@@ -1,0 +1,47 @@
+{
+  "ports":{
+    ":COM3":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Walk"
+        },{
+          "player":1,
+          "name":"P2 Walk"
+        },null,{
+          "player":1,
+          "name":"P2 Up"
+        },null,null,null,{
+          "player":1,
+          "name":"P2 Down"
+        }]
+    },
+    ":COM2":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Kick"
+        }]
+    },
+    ":COM4":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Kick"
+        }]
+    },
+    ":COM1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Walk"
+        },{
+          "player":0,
+          "name":"P1 Walk"
+        },null,{
+          "player":0,
+          "name":"P1 Up"
+        },null,null,null,{
+          "player":0,
+          "name":"P1 Down"
+        }]
+    }
+  },
+  "romname":"arabian"
+}

@@ -1,0 +1,57 @@
+{
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "8192":{
+          "player":0,
+          "name":"P1 Pass/Punch"
+        },
+        "32768":{
+          "player":1,
+          "name":"P2 Pass/Punch"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 Shoot/Jump"
+        },
+        "4096":{
+          "player":0,
+          "name":"P1 Shoot/Jump"
+        }
+      }
+    },
+    ":49WAYX1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":49WAYY2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Down /  Up"
+        }
+      }
+    },
+    ":49WAYY1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    },
+    ":49WAYX2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Right /  Left"
+        }
+      }
+    }
+  },
+  "romname":"archrivl"
+}

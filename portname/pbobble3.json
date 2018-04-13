@@ -1,0 +1,77 @@
+{
+  "ports":{
+    ":IN.1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Left"
+        }
+      }
+    },
+    ":IN.0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Shoot"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 NA"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 NA"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 NA"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 NA"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Shoot"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 NA"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 NA"
+        }
+      }
+    }
+  },
+  "romname":"pbobble3"
+}

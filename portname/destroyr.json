@@ -1,0 +1,22 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[null,{
+          "player":0,
+          "name":"Slow"
+        },null,{
+          "player":0,
+          "name":"Release Charge"
+        }]
+    },
+    ":PADDLE":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Set Depth of Charge Up / Set Depth of Charge Down"
+        }
+      }
+    }
+  },
+  "romname":"destroyr"
+}

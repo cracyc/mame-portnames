@@ -1,0 +1,17 @@
+{
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Right"
+        }
+      }
+    }
+  },
+  "romname":"spdcoin"
+}

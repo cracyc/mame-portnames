@@ -1,0 +1,29 @@
+{
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Tongue Return"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Up"
+        }
+      }
+    }
+  },
+  "romname":"anteater"
+}

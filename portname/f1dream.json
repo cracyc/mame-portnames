@@ -1,0 +1,57 @@
+{
+  "ports":{
+    ":P1_P2":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Turn"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Turn"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Turn"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 1st Gear"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Turn"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Turn"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 2nd Gear"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Turn"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Turn"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Turn"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 2nd Gear"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 1st Gear"
+        }
+      }
+    }
+  },
+  "romname":"f1dream"
+}

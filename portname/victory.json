@@ -1,0 +1,33 @@
+{
+  "ports":{
+    ":BUTTONS":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"P1 Thrust"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Doomsday"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Shields"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Fire"
+        }
+      }
+    },
+    ":DIAL":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Rotate Left / Rotate Right"
+        }
+      }
+    }
+  },
+  "romname":"victory"
+}

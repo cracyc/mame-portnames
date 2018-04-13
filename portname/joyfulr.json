@@ -1,0 +1,61 @@
+{
+  "ports":{
+    ":P2":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Car Up"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Car Down"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Car Left"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Hand Left"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Hand Right"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Car Right"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Car Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Car Down"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Car Left"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Hand Left"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Hand Right"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Car Right"
+        }
+      }
+    }
+  },
+  "romname":"joyfulr"
+}

@@ -1,0 +1,19 @@
+{
+  "ports":{
+    ":WHEEL":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Left / Right"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":[null,null,null,null,null,null,null,{
+          "player":0,
+          "name":"Accelerate"
+        }]
+    }
+  },
+  "romname":"buggychl"
+}

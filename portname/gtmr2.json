@@ -1,0 +1,77 @@
+{
+  "ports":{
+    ":WHEEL2":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "4096":{
+          "player":0,
+          "name":"P1 Accelerate"
+        },
+        "2048":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "1024":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "8192":{
+          "player":0,
+          "name":"P1 Brake"
+        },
+        "512":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "256":{
+          "player":0,
+          "name":"P1 Up"
+        }
+      }
+    },
+    ":P2":{
+      "labels":{
+        "4096":{
+          "player":1,
+          "name":"P2 Accelerate"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Brake"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Up"
+        }
+      }
+    },
+    ":WHEEL1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    }
+  },
+  "romname":"gtmr2"
+}

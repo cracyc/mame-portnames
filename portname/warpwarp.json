@@ -1,0 +1,47 @@
+{
+  "ports":{
+    ":VOLIN1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Down"
+        },{
+          "player":0,
+          "name":"P1 Up"
+        },null,{
+          "player":0,
+          "name":"P1 Left"
+        },null,null,null,{
+          "player":0,
+          "name":"P1 Right"
+        }]
+    },
+    ":VOLIN2":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Down"
+        },{
+          "player":1,
+          "name":"P2 Up"
+        },null,{
+          "player":1,
+          "name":"P2 Left"
+        },null,null,null,{
+          "player":1,
+          "name":"P2 Right"
+        }]
+    },
+    ":IN0":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Fire"
+        }
+      }
+    }
+  },
+  "romname":"warpwarp"
+}

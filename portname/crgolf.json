@@ -1,0 +1,93 @@
+{
+  "ports":{
+    ":P2":{
+      "labels":{
+        "8":{
+          "player":1,
+          "name":"P2 Address Left"
+        },
+        "1":{
+          "player":1,
+          "name":"P2 Club Select"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Address Up"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Address Down"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Address Right"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Swing"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "8":{
+          "player":0,
+          "name":"P1 Address Left"
+        },
+        "1":{
+          "player":0,
+          "name":"P1 Club Select"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Address Up"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Address Down"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Address Right"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Swing"
+        }
+      }
+    },
+    ":STICK1":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Increase Swing Angle /  Decrease Swing Angle"
+        }
+      }
+    },
+    ":STICK0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Decrease Swing Angle / Increase Swing Angle"
+        }
+      }
+    }
+  },
+  "romname":"crgolf"
+}

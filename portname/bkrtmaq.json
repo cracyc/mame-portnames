@@ -1,0 +1,35 @@
+{
+  "ports":{
+    ":P2":{
+      "labels":[{
+          "player":1,
+          "name":"P2 4"
+        },{
+          "player":1,
+          "name":"P2 3"
+        },null,{
+          "player":1,
+          "name":"P2 2"
+        },null,null,null,{
+          "player":1,
+          "name":"P2 1"
+        }]
+    },
+    ":P1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 4"
+        },{
+          "player":0,
+          "name":"P1 3"
+        },null,{
+          "player":0,
+          "name":"P1 2"
+        },null,null,null,{
+          "player":0,
+          "name":"P1 1"
+        }]
+    }
+  },
+  "romname":"bkrtmaq"
+}

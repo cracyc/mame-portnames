@@ -1,0 +1,71 @@
+{
+  "ports":{
+    ":CONTROL0":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Right"
+        },{
+          "player":0,
+          "name":"P1 Left"
+        },null,{
+          "player":0,
+          "name":"P1 Down"
+        },null,null,null,{
+          "player":0,
+          "name":"P1 Up"
+        }]
+    },
+    ":IN2":{
+      "labels":[{
+          "player":1,
+          "name":"P2 High Jump"
+        }]
+    },
+    ":IN0":{
+      "labels":[{
+          "player":0,
+          "name":"P1 High Jump"
+        }]
+    },
+    ":IN1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Attack"
+        },{
+          "player":0,
+          "name":"P1 Hard Attack"
+        },null,{
+          "player":0,
+          "name":"P1 Jump"
+        }]
+    },
+    ":IN3":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Attack"
+        },{
+          "player":1,
+          "name":"P2 Hard Attack"
+        },null,{
+          "player":1,
+          "name":"P2 Jump"
+        }]
+    },
+    ":CONTROL1":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Right"
+        },{
+          "player":1,
+          "name":"P2 Left"
+        },null,{
+          "player":1,
+          "name":"P2 Down"
+        },null,null,null,{
+          "player":1,
+          "name":"P2 Up"
+        }]
+    }
+  },
+  "romname":"berabohm"
+}

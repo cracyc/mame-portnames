@@ -1,0 +1,52 @@
+{
+  "ports":{
+    ":PADDLE2":{
+      "labels":{
+        "255":{
+          "player":2,
+          "name":"P3 Right /  Left"
+        }
+      }
+    },
+    ":PADDLE0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":IN1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Start"
+        },{
+          "player":1,
+          "name":"P2 Start"
+        },null,{
+          "player":2,
+          "name":"P3 Start"
+        },null,null,null,{
+          "player":3,
+          "name":"P4 Start"
+        }]
+    },
+    ":PADDLE1":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Right /  Left"
+        }
+      }
+    },
+    ":PADDLE3":{
+      "labels":{
+        "255":{
+          "player":3,
+          "name":"P4 Right /  Left"
+        }
+      }
+    }
+  },
+  "romname":"warlords"
+}

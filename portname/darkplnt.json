@@ -1,0 +1,25 @@
+{
+  "ports":{
+    ":DIAL":{
+      "labels":{
+        "252":{
+          "player":0,
+          "name":"P1 Rotate Left / Rotate Right"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Laser"
+        },{
+          "player":0,
+          "name":"P1 Fire"
+        },null,{
+          "player":0,
+          "name":"P1 Thrust"
+        }]
+    }
+  },
+  "romname":"darkplnt"
+}

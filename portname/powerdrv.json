@@ -1,0 +1,56 @@
+{
+  "ports":{
+    ":MONO.IP1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Wheelie"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 2wd/4wd"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Back Tire"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Front Tire"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 2wd/4wd"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Back Tire"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Wheelie"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Front Tire"
+        }
+      }
+    },
+    ":MONO.IP2":{
+      "labels":[{
+          "player":2,
+          "name":"P3 Wheelie"
+        },{
+          "player":2,
+          "name":"P3 2wd/4wd"
+        },null,{
+          "player":2,
+          "name":"P3 Back Tire"
+        },null,null,null,{
+          "player":2,
+          "name":"P3 Front Tire"
+        }]
+    }
+  },
+  "romname":"powerdrv"
+}

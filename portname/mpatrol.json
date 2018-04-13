@@ -1,0 +1,45 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 Jump"
+        },
+        "1":{
+          "player":0,
+          "name":"P1 Faster"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Slower"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Fire"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "32":{
+          "player":1,
+          "name":"P2 Jump"
+        },
+        "1":{
+          "player":1,
+          "name":"P2 Faster"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Slower"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Fire"
+        }
+      }
+    }
+  },
+  "romname":"mpatrol"
+}

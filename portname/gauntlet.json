@@ -1,0 +1,117 @@
+{
+  "ports":{
+    ":803006":{
+      "labels":{
+        "1":{
+          "player":3,
+          "name":"P4 Magic / Start"
+        },
+        "2":{
+          "player":3,
+          "name":"P4 Fire"
+        },
+        "32":{
+          "player":3,
+          "name":"P4 Left"
+        },
+        "128":{
+          "player":3,
+          "name":"P4 Up"
+        },
+        "64":{
+          "player":3,
+          "name":"P4 Down"
+        },
+        "16":{
+          "player":3,
+          "name":"P4 Right"
+        }
+      }
+    },
+    ":803000":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Magic / Start"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Right"
+        }
+      }
+    },
+    ":803002":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Magic / Start"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Fire"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Right"
+        }
+      }
+    },
+    ":803004":{
+      "labels":{
+        "1":{
+          "player":2,
+          "name":"P3 Magic / Start"
+        },
+        "2":{
+          "player":2,
+          "name":"P3 Fire"
+        },
+        "32":{
+          "player":2,
+          "name":"P3 Left"
+        },
+        "128":{
+          "player":2,
+          "name":"P3 Up"
+        },
+        "64":{
+          "player":2,
+          "name":"P3 Down"
+        },
+        "16":{
+          "player":2,
+          "name":"P3 Right"
+        }
+      }
+    }
+  },
+  "romname":"gauntlet"
+}

@@ -1,0 +1,25 @@
+{
+  "ports":{
+    ":INPUTS":{
+      "labels":{
+        "1024":{
+          "player":0,
+          "name":"P1 Shield"
+        },
+        "256":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "4096":{
+          "player":0,
+          "name":"P1 Fire"
+        }
+      }
+    }
+  },
+  "romname":"wotw"
+}

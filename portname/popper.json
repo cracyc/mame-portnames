@@ -1,0 +1,53 @@
+{
+  "ports":{
+    ":in1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Throw"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Move Right"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Throw"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Move Left"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Move Right"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Move Left"
+        }
+      }
+    },
+    ":in0":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 Move Up"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Move Down"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Move Down"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Move Up"
+        }
+      }
+    }
+  },
+  "romname":"popper"
+}

@@ -1,0 +1,37 @@
+{
+  "ports":{
+    ":IN2":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"B"
+        },
+        "16":{
+          "player":0,
+          "name":"C"
+        },
+        "64":{
+          "player":0,
+          "name":"A"
+        }
+      }
+    },
+    ":WHEEL":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Left / Right"
+        }
+      }
+    },
+    ":ACCEL":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Accelerate"
+        }
+      }
+    }
+  },
+  "romname":"speedrcr"
+}

@@ -1,0 +1,53 @@
+{
+  "ports":{
+    ":P2":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Switch Pieces"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Drop"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 (Not Used)"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Switch Pieces"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Drop"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 (Not Used)"
+        }
+      }
+    }
+  },
+  "romname":"columns"
+}

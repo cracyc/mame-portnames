@@ -1,0 +1,107 @@
+{
+  "ports":{
+    ":EXTRA":{
+      "labels":{
+        "524288":{
+          "player":0,
+          "name":"P1 Stand"
+        },
+        "1048576":{
+          "player":1,
+          "name":"P2 Stand"
+        }
+      }
+    },
+    ":INPUTS":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Medium"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Light"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Strong"
+        },
+        "131072":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 Strong"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "16777216":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "33554432":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Light"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "536870912":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "268435456":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "65536":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Medium"
+        }
+      }
+    },
+    ":scsi:1:cdrom:SCSI_ID":{
+      "labels":[null,null,null,null,null,null,{
+          "player":0,
+          "name":"SCSI ID"
+        }]
+    }
+  },
+  "romname":"jojoba"
+}

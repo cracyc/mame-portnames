@@ -1,0 +1,37 @@
+{
+  "ports":{
+    ":80":{
+      "labels":{
+        "8":{
+          "player":0,
+          "name":"P1 SHOW"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 COLLECT"
+        }
+      }
+    },
+    ":60":{
+      "labels":{
+        "4":{
+          "player":0,
+          "name":"P1 PLACE"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 WIN"
+        }
+      }
+    }
+  },
+  "romname":"arlingtn"
+}

@@ -1,0 +1,39 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Up"
+        }]
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 FIRE"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 THRUST"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 SMART BOMB"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 REVERSE"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 HYPERSPACE"
+        }
+      }
+    }
+  },
+  "romname":"defender"
+}

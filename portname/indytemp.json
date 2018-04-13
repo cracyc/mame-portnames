@@ -1,0 +1,31 @@
+{
+  "ports":{
+    ":F60000":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Whip"
+        }]
+    },
+    ":IN0":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Up"
+        }
+      }
+    }
+  },
+  "romname":"indytemp"
+}

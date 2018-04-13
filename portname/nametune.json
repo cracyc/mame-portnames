@@ -1,0 +1,40 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "8":{
+          "player":1,
+          "name":"P2 2"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 4"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 3"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 1"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":[{
+          "player":0,
+          "name":"P1 4"
+        },{
+          "player":0,
+          "name":"P1 3"
+        },null,{
+          "player":0,
+          "name":"P1 2"
+        },null,null,null,{
+          "player":0,
+          "name":"P1 1"
+        }]
+    }
+  },
+  "romname":"nametune"
+}

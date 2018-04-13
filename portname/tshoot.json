@@ -1,0 +1,22 @@
+{
+  "ports":{
+    ":INP1":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Fire"
+        }
+      }
+    },
+    ":IN1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Grenade"
+        },{
+          "player":0,
+          "name":"P1 Gobble!"
+        }]
+    }
+  },
+  "romname":"tshoot"
+}

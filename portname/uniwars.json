@@ -1,0 +1,37 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "4":{
+          "player":1,
+          "name":"P2 Control Lever (Left)"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Control Lever (Right)"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Firing Button"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "4":{
+          "player":0,
+          "name":"P1 Control Lever (Left)"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Control Lever (Right)"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Firing Button"
+        }
+      }
+    }
+  },
+  "romname":"uniwars"
+}

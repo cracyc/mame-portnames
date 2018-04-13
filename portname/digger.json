@@ -1,0 +1,33 @@
+{
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Dig"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Fill"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Down"
+        }
+      }
+    }
+  },
+  "romname":"digger"
+}

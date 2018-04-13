@@ -1,0 +1,23 @@
+{
+  "ports":{
+    ":7000":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Forward / Reverse"
+        }]
+    },
+    ":3000D6":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"P1 Switcher"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Jump"
+        }
+      }
+    }
+  },
+  "romname":"runaway"
+}

@@ -1,0 +1,41 @@
+{
+  "ports":{
+    ":IN2":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Doors - Yellow"
+        },{
+          "player":0,
+          "name":"P1 Doors - Red"
+        },null,null,null,null,null,{
+          "player":0,
+          "name":"P1 Doors - Blue"
+        }]
+    },
+    ":IN0":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"P1 Dog"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Down"
+        }
+      }
+    }
+  },
+  "romname":"mtrap"
+}

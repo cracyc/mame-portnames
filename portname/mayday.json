@@ -1,0 +1,35 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Up"
+        }]
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Fire Front"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Back"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Mayday"
+        }
+      }
+    }
+  },
+  "romname":"mayday"
+}

@@ -1,0 +1,57 @@
+{
+  "ports":{
+    ":INPUTS":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Aim Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Duck"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Attack"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Jump"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Duck"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Aim Up"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Jump"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Attack"
+        }
+      }
+    }
+  },
+  "romname":"cninja"
+}

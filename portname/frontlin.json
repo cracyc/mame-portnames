@@ -1,0 +1,91 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Fire"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Tank/Grenade"
+        }
+      }
+    },
+    ":IN3":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Aim Left"
+        },{
+          "player":0,
+          "name":"P1 Aim Right"
+        },null,{
+          "player":0,
+          "name":"P1 Aim Down"
+        },null,null,null,{
+          "player":0,
+          "name":"P1 Aim Up"
+        }]
+    },
+    ":IN4":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Aim Left"
+        },{
+          "player":1,
+          "name":"P2 Aim Right"
+        },null,{
+          "player":1,
+          "name":"P2 Aim Down"
+        },null,null,null,{
+          "player":1,
+          "name":"P2 Aim Up"
+        }]
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Tank/Grenade"
+        }
+      }
+    }
+  },
+  "romname":"frontlin"
+}

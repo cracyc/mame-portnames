@@ -1,0 +1,41 @@
+{
+  "ports":{
+    ":mainpcb:ADC2":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Up / Down"
+        }
+      }
+    },
+    ":mainpcb:IO1PORTA":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"Fire"
+        },
+        "32":{
+          "player":0,
+          "name":"Grenade"
+        }
+      }
+    },
+    ":mainpcb:ADC1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Fast / Slow"
+        }
+      }
+    },
+    ":mainpcb:ADC0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Left / Right"
+        }
+      }
+    }
+  },
+  "romname":"thndrbld"
+}

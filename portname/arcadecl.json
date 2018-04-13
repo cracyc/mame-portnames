@@ -1,0 +1,69 @@
+{
+  "ports":{
+    ":TRACKX1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left /  Right"
+        }
+      }
+    },
+    ":PLAYER1":{
+      "labels":{
+        "1024":{
+          "player":0,
+          "name":"P1 Fire / Center Missile"
+        },
+        "512":{
+          "player":0,
+          "name":"P1 Fire / Right Missile"
+        },
+        "2048":{
+          "player":0,
+          "name":"P1 Fire / Left Missile"
+        }
+      }
+    },
+    ":PLAYER2":{
+      "labels":{
+        "1024":{
+          "player":1,
+          "name":"P2 Fire / Center Missile"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Fire / Right Missile"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Fire / Left Missile"
+        }
+      }
+    },
+    ":TRACKX2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Left /  Right"
+        }
+      }
+    },
+    ":TRACKY1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up /  Down"
+        }
+      }
+    },
+    ":TRACKY2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Up /  Down"
+        }
+      }
+    }
+  },
+  "romname":"arcadecl"
+}

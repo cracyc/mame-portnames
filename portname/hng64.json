@@ -1,0 +1,73 @@
+{
+  "ports":{
+    ":P1_P2":{
+      "labels":{
+        "4194304":{
+          "player":0,
+          "name":"P1 C"
+        },
+        "1":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 A"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 D"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 C"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 B"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "1048576":{
+          "player":0,
+          "name":"P1 A"
+        },
+        "524288":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "262144":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "131072":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "65536":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2097152":{
+          "player":0,
+          "name":"P1 B"
+        },
+        "8388608":{
+          "player":0,
+          "name":"P1 D"
+        }
+      }
+    }
+  },
+  "romname":"hng64"
+}

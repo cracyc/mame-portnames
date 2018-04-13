@@ -1,0 +1,89 @@
+{
+  "ports":{
+    ":P2":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Shoot"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Dance"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Up"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Shoot"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Dance"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Up"
+        }
+      }
+    },
+    ":P3":{
+      "labels":{
+        "1":{
+          "player":2,
+          "name":"P3 Shoot"
+        },
+        "2":{
+          "player":2,
+          "name":"P3 Dance"
+        },
+        "16":{
+          "player":2,
+          "name":"P3 Down"
+        },
+        "64":{
+          "player":2,
+          "name":"P3 Right"
+        },
+        "128":{
+          "player":2,
+          "name":"P3 Left"
+        },
+        "32":{
+          "player":2,
+          "name":"P3 Up"
+        }
+      }
+    }
+  },
+  "romname":"mwalk"
+}

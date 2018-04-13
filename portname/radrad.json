@@ -1,0 +1,50 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Shoot"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Right"
+        }
+      }
+    },
+    ":TEST":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Shoot"
+        }]
+    },
+    ":IN0":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Up"
+        },{
+          "player":0,
+          "name":"P1 Down"
+        },null,{
+          "player":0,
+          "name":"P1 Left"
+        },null,null,null,{
+          "player":0,
+          "name":"P1 Right"
+        }]
+    }
+  },
+  "romname":"radrad"
+}

@@ -1,0 +1,33 @@
+{
+  "ports":{
+    ":DIAL1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Fire Torpedo"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Fire Torpedo"
+        }
+      }
+    },
+    ":DIAL2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Right /  Left"
+        }
+      }
+    }
+  },
+  "romname":"subs"
+}

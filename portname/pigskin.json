@@ -1,0 +1,69 @@
+{
+  "ports":{
+    ":49WAYY2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Down /  Up"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "8192":{
+          "player":0,
+          "name":"P1 Pass"
+        },
+        "16384":{
+          "player":0,
+          "name":"P1 Team Attitude"
+        },
+        "4096":{
+          "player":0,
+          "name":"P1 Punch"
+        }
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "32":{
+          "player":1,
+          "name":"P2 Pass"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Team Attitude"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Punch"
+        }
+      }
+    },
+    ":49WAYX2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Right /  Left"
+        }
+      }
+    },
+    ":49WAYY1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    },
+    ":49WAYX1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    }
+  },
+  "romname":"pigskin"
+}

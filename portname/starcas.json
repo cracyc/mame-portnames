@@ -1,0 +1,25 @@
+{
+  "ports":{
+    ":INPUTS":{
+      "labels":{
+        "1024":{
+          "player":0,
+          "name":"P1 Thrust"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "256":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "4096":{
+          "player":0,
+          "name":"P1 Fire"
+        }
+      }
+    }
+  },
+  "romname":"starcas"
+}

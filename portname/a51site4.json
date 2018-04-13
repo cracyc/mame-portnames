@@ -1,0 +1,21 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "15":{
+          "player":0,
+          "name":"P1 Fire"
+        }
+      }
+    },
+    ":IN4":{
+      "labels":{
+        "15":{
+          "player":1,
+          "name":"P2 Fire"
+        }
+      }
+    }
+  },
+  "romname":"a51site4"
+}

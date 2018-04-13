@@ -1,0 +1,85 @@
+{
+  "ports":{
+    ":mainpcb:P2_A":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"P1 Right Fist Down"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Right Fist Right"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Right Fist Left"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Right Fist Up"
+        }
+      }
+    },
+    ":mainpcb:P2_B":{
+      "labels":{
+        "16":{
+          "player":1,
+          "name":"P2 Right Fist Down"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Right Fist Right"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Right Fist Left"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Right Fist Up"
+        }
+      }
+    },
+    ":mainpcb:P1_B":{
+      "labels":{
+        "16":{
+          "player":1,
+          "name":"P2 Left Fist Down"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Left Fist Right"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Left Fist Left"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Left Fist Up"
+        }
+      }
+    },
+    ":mainpcb:P1_A":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"P1 Left Fist Down"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Left Fist Right"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Left Fist Left"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Left Fist Up"
+        }
+      }
+    }
+  },
+  "romname":"titlef"
+}

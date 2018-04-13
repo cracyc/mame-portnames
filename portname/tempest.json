@@ -1,0 +1,39 @@
+{
+  "ports":{
+    ":KNOBP2":{
+      "labels":{
+        "15":{
+          "player":1,
+          "name":"P2 Right /  Left"
+        }
+      }
+    },
+    ":BUTTONSP2":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Super Zapper"
+        },{
+          "player":1,
+          "name":"P2 Fire"
+        }]
+    },
+    ":KNOBP1":{
+      "labels":{
+        "15":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":BUTTONSP1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Super Zapper"
+        },{
+          "player":0,
+          "name":"P1 Fire"
+        }]
+    }
+  },
+  "romname":"tempest"
+}

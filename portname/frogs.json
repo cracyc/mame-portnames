@@ -1,0 +1,21 @@
+{
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Right"
+        },
+        "128":{
+          "player":0,
+          "name":"Tongue"
+        },
+        "4":{
+          "player":0,
+          "name":"Left"
+        }
+      }
+    }
+  },
+  "romname":"frogs"
+}

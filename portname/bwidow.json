@@ -1,0 +1,35 @@
+{
+  "ports":{
+    ":IN4":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Aim Right"
+        },{
+          "player":0,
+          "name":"P1 Aim Left"
+        },null,{
+          "player":0,
+          "name":"P1 Aim Down"
+        },null,null,null,{
+          "player":0,
+          "name":"P1 Aim Up"
+        }]
+    },
+    ":IN3":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Right"
+        },{
+          "player":0,
+          "name":"P1 Left"
+        },null,{
+          "player":0,
+          "name":"P1 Down"
+        },null,null,null,{
+          "player":0,
+          "name":"P1 Up"
+        }]
+    }
+  },
+  "romname":"bwidow"
+}

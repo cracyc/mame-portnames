@@ -1,0 +1,53 @@
+{
+  "ports":{
+    ":DSW1_P1":{
+      "labels":{
+        "4096":{
+          "player":0,
+          "name":"P1 Cut"
+        },
+        "2048":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "256":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "1024":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "512":{
+          "player":0,
+          "name":"P1 Down"
+        }
+      }
+    },
+    ":DSW2_P2":{
+      "labels":{
+        "4096":{
+          "player":1,
+          "name":"P2 Cut"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Down"
+        }
+      }
+    }
+  },
+  "romname":"galpani2"
+}

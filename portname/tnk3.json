@@ -1,0 +1,50 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Up"
+        },{
+          "player":0,
+          "name":"P1 Down"
+        },null,{
+          "player":0,
+          "name":"P1 Left"
+        },null,null,null,{
+          "player":0,
+          "name":"P1 Right"
+        }]
+    },
+    ":IN3":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Fire"
+        },{
+          "player":0,
+          "name":"P1 Cannon"
+        },null,{
+          "player":1,
+          "name":"P2 Fire"
+        },null,null,null,{
+          "player":1,
+          "name":"P2 Cannon"
+        }]
+    },
+    ":IN2":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Up"
+        },{
+          "player":1,
+          "name":"P2 Down"
+        },null,{
+          "player":1,
+          "name":"P2 Left"
+        },null,null,null,{
+          "player":1,
+          "name":"P2 Right"
+        }]
+    }
+  },
+  "romname":"tnk3"
+}

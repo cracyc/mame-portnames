@@ -1,0 +1,61 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "16":{
+          "player":1,
+          "name":"P2 Punch"
+        },
+        "1":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Kick"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Down"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"P1 Punch"
+        },
+        "1":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Kick"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Down"
+        }
+      }
+    }
+  },
+  "romname":"ctribe"
+}

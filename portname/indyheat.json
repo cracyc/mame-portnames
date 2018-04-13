@@ -1,0 +1,71 @@
+{
+  "ports":{
+    ":AN4":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Gas"
+        }
+      }
+    },
+    ":P2":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Turbo"
+        }]
+    },
+    ":AN0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":AN5":{
+      "labels":{
+        "255":{
+          "player":2,
+          "name":"P3 Gas"
+        }
+      }
+    },
+    ":AN2":{
+      "labels":{
+        "255":{
+          "player":2,
+          "name":"P3 Right /  Left"
+        }
+      }
+    },
+    ":P3":{
+      "labels":[{
+          "player":2,
+          "name":"P3 Turbo"
+        }]
+    },
+    ":P1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Turbo"
+        }]
+    },
+    ":AN1":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Right /  Left"
+        }
+      }
+    },
+    ":AN3":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Gas"
+        }
+      }
+    }
+  },
+  "romname":"indyheat"
+}

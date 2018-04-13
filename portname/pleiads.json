@@ -1,0 +1,33 @@
+{
+  "ports":{
+    ":CTRL":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Fire"
+        }
+      }
+    }
+  },
+  "romname":"pleiads"
+}

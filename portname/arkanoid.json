@@ -1,0 +1,30 @@
+{
+  "ports":{
+    ":P2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Right /  Left"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":BUTTONS":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Fire"
+        },null,null,{
+          "player":1,
+          "name":"P2 Fire"
+        }]
+    }
+  },
+  "romname":"arkanoid"
+}

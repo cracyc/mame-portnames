@@ -1,0 +1,57 @@
+{
+  "ports":{
+    ":AN5":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Pitch / Windup"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Aim"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Go Back"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Xtra Base"
+        }
+      }
+    },
+    ":AN0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    },
+    ":AN1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Swing /  Swing"
+        }
+      }
+    },
+    ":AN4":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Left / Right"
+        }
+      }
+    }
+  },
+  "romname":"wseries"
+}

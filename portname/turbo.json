@@ -1,0 +1,25 @@
+{
+  "ports":{
+    ":DIAL":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Left / Right"
+        }
+      }
+    },
+    ":INPUT":{
+      "labels":[{
+          "player":0,
+          "name":"Lo"
+        },{
+          "player":0,
+          "name":"Accelerate"
+        },null,{
+          "player":0,
+          "name":"Hi"
+        }]
+    }
+  },
+  "romname":"turbo"
+}

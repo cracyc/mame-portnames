@@ -1,0 +1,17 @@
+{
+  "ports":{
+    ":mainpcb:P2_A":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Fire"
+        }]
+    },
+    ":mainpcb:P1_A":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Fire"
+        }]
+    }
+  },
+  "romname":"jpark"
+}

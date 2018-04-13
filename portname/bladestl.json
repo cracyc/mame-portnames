@@ -1,0 +1,69 @@
+{
+  "ports":{
+    ":TRACKBALL.0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    },
+    ":TRACKBALL.1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":P2":{
+      "labels":{
+        "32":{
+          "player":1,
+          "name":"P2 Pass / Face-Off"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 FIGHT!"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Shoot"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 Pass / Face-Off"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 FIGHT!"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Shoot"
+        }
+      }
+    },
+    ":TRACKBALL.2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Down /  Up"
+        }
+      }
+    },
+    ":TRACKBALL.3":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Right /  Left"
+        }
+      }
+    }
+  },
+  "romname":"bladestl"
+}

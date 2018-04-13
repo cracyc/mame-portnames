@@ -1,0 +1,61 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 Punch"
+        },
+        "1":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Duck"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Kick"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Jump"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "32":{
+          "player":1,
+          "name":"P2 Punch"
+        },
+        "1":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Duck"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Kick"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Jump"
+        }
+      }
+    }
+  },
+  "romname":"vigilant"
+}

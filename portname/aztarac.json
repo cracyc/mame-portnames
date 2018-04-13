@@ -1,0 +1,30 @@
+{
+  "ports":{
+    ":DIAL":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Aim Left / Aim Right"
+        }
+      }
+    },
+    ":STICKY":{
+      "labels":{
+        "31":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    },
+    ":INPUTS":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Radar"
+        },{
+          "player":0,
+          "name":"P1 Fire"
+        }]
+    }
+  },
+  "romname":"aztarac"
+}

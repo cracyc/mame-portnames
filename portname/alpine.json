@@ -1,0 +1,37 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Ski Left"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Ski Right"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Ski Faster"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Ski Left"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Ski Right"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Ski Faster"
+        }
+      }
+    }
+  },
+  "romname":"alpine"
+}

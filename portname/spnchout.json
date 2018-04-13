@@ -1,0 +1,32 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[{
+          "player":0,
+          "name":"Dodge Right"
+        },{
+          "player":0,
+          "name":"Dodge Left"
+        },null,{
+          "player":0,
+          "name":"Guard Up"
+        },null,null,null,{
+          "player":0,
+          "name":"Guard Down"
+        }]
+    },
+    ":IN0":{
+      "labels":[{
+          "player":0,
+          "name":"Left Blow to Head/Body"
+        },null,null,{
+          "player":0,
+          "name":"Right Blow to Head/Body"
+        },null,null,null,{
+          "player":0,
+          "name":"Uppercut / Hook / Knock Out Blow"
+        }]
+    }
+  },
+  "romname":"spnchout"
+}

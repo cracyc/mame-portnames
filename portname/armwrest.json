@@ -1,0 +1,26 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[{
+          "player":0,
+          "name":"Right"
+        },{
+          "player":0,
+          "name":"Left"
+        }]
+    },
+    ":IN0":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"Power"
+        },
+        "64":{
+          "player":0,
+          "name":"Pull"
+        }
+      }
+    }
+  },
+  "romname":"armwrest"
+}

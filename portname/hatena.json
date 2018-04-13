@@ -1,0 +1,45 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"P1 2"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 4"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 3"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 1"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "64":{
+          "player":1,
+          "name":"P2 2"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 4"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 3"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 1"
+        }
+      }
+    }
+  },
+  "romname":"hatena"
+}

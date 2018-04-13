@@ -1,0 +1,13 @@
+{
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Aim Left / Aim Right"
+        }
+      }
+    }
+  },
+  "romname":"blueshrk"
+}

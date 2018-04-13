@@ -1,0 +1,89 @@
+{
+  "ports":{
+    ":P2":{
+      "labels":{
+        "32":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Magic Weapon"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 special Weapon"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Down"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Magic Weapon"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 special Weapon"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Down"
+        }
+      }
+    },
+    ":P3":{
+      "labels":{
+        "32":{
+          "player":2,
+          "name":"P3 Up"
+        },
+        "2":{
+          "player":2,
+          "name":"P3 Magic Weapon"
+        },
+        "4":{
+          "player":2,
+          "name":"P3 special Weapon"
+        },
+        "64":{
+          "player":2,
+          "name":"P3 Right"
+        },
+        "128":{
+          "player":2,
+          "name":"P3 Left"
+        },
+        "16":{
+          "player":2,
+          "name":"P3 Down"
+        }
+      }
+    }
+  },
+  "romname":"gground"
+}

@@ -1,0 +1,81 @@
+{
+  "ports":{
+    ":P2":{
+      "labels":{
+        "32":{
+          "player":1,
+          "name":"P2 B Button"
+        },
+        "1":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 C Button"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Drop"
+        }
+      }
+    },
+    ":DSW2":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"P1 A Button"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 A Button"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 B Button"
+        },
+        "1":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 C Button"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Drop"
+        }
+      }
+    }
+  },
+  "romname":"blockout"
+}

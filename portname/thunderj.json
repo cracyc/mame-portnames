@@ -1,0 +1,61 @@
+{
+  "ports":{
+    ":260010":{
+      "labels":{
+        "256":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "4096":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "8192":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "512":{
+          "player":0,
+          "name":"P1 Jump"
+        },
+        "16384":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "32768":{
+          "player":0,
+          "name":"P1 Up"
+        }
+      }
+    },
+    ":260012":{
+      "labels":{
+        "256":{
+          "player":1,
+          "name":"P2 Fire"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Jump"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "32768":{
+          "player":1,
+          "name":"P2 Up"
+        }
+      }
+    }
+  },
+  "romname":"thunderj"
+}

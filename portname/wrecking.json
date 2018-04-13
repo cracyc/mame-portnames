@@ -1,0 +1,117 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 A"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 B"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Up"
+        }
+      }
+    },
+    ":IN3":{
+      "labels":{
+        "1":{
+          "player":3,
+          "name":"P4 A"
+        },
+        "2":{
+          "player":3,
+          "name":"P4 B"
+        },
+        "32":{
+          "player":3,
+          "name":"P4 Down"
+        },
+        "128":{
+          "player":3,
+          "name":"P4 Right"
+        },
+        "64":{
+          "player":3,
+          "name":"P4 Left"
+        },
+        "16":{
+          "player":3,
+          "name":"P4 Up"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "1":{
+          "player":2,
+          "name":"P3 A"
+        },
+        "2":{
+          "player":2,
+          "name":"P3 B"
+        },
+        "32":{
+          "player":2,
+          "name":"P3 Down"
+        },
+        "128":{
+          "player":2,
+          "name":"P3 Right"
+        },
+        "64":{
+          "player":2,
+          "name":"P3 Left"
+        },
+        "16":{
+          "player":2,
+          "name":"P3 Up"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 A"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 B"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Up"
+        }
+      }
+    }
+  },
+  "romname":"wrecking"
+}

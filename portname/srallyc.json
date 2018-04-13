@@ -1,0 +1,106 @@
+{
+  "romname":"srallyc",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "2":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "4":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "8":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "32":{
+          "player":0,
+          "name":"VR"
+        },
+        "64":{
+          "player":0,
+          "name":"1 Player Start"
+        }
+      }
+    },
+    ":GEARS":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"GEAR N"
+        },
+        "2":{
+          "player":0,
+          "name":"GEAR 1"
+        },
+        "4":{
+          "player":0,
+          "name":"GEAR 2"
+        },
+        "8":{
+          "player":0,
+          "name":"GEAR 3"
+        },
+        "16":{
+          "player":0,
+          "name":"GEAR 4"
+        }
+      }
+    },
+    ":ANA1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Accelerate Pedal"
+        }
+      }
+    },
+    ":IN1":{
+      "labels":[]
+    },
+    ":IN2":{
+      "labels":[]
+    },
+    ":DSW":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"Unknown"
+        }
+      }
+    },
+    ":IN4":{
+      "labels":[]
+    },
+    ":IN3":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Hand Brake"
+        }
+      }
+    },
+    ":ANA2":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Brake Pedal"
+        }
+      }
+    },
+    ":ANA0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Steering Wheel"
+        }
+      }
+    }
+  }
+}

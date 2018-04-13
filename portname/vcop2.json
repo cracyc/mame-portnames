@@ -1,0 +1,91 @@
+{
+  "ports":{
+    ":P1_X":{
+      "labels":{
+        "1023":{
+          "player":0,
+          "name":"Lightgun X"
+        }
+      }
+    },
+    ":IN4":{
+      "labels":[]
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "2":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "16":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "4":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "32":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "8":{
+          "player":0,
+          "name":"Service 1"
+        }
+      }
+    },
+    ":DSW":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"Unknown"
+        }
+      }
+    },
+    ":IN1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Trigger"
+        },{
+          "player":1,
+          "name":"P2 Trigger"
+        }]
+    },
+    ":IN3":{
+      "labels":[]
+    },
+    ":P1_Y":{
+      "labels":{
+        "1023":{
+          "player":0,
+          "name":"Lightgun Y"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":[]
+    },
+    ":P2_Y":{
+      "labels":{
+        "1023":{
+          "player":1,
+          "name":"Lightgun Y 2"
+        }
+      }
+    },
+    ":P2_X":{
+      "labels":{
+        "1023":{
+          "player":1,
+          "name":"Lightgun X 2"
+        }
+      }
+    }
+  },
+  "romname":"vcop2"
+}

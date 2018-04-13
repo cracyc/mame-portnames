@@ -1,0 +1,29 @@
+{
+  "ports":{
+    ":P1":{
+      "labels":{
+        "256":{
+          "player":0,
+          "name":"Start / Flip"
+        },
+        "4096":{
+          "player":0,
+          "name":"Right"
+        },
+        "32768":{
+          "player":0,
+          "name":"Up"
+        },
+        "8192":{
+          "player":0,
+          "name":"Left"
+        },
+        "16384":{
+          "player":0,
+          "name":"Down"
+        }
+      }
+    }
+  },
+  "romname":"klax"
+}

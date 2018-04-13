@@ -1,0 +1,30 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[{
+          "player":0,
+          "name":"Fire"
+        },{
+          "player":0,
+          "name":"Rocket Gun"
+        }]
+    },
+    ":P1Y":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Aim Up / Aim Down"
+        }
+      }
+    },
+    ":P1X":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Aim Left / Aim Right"
+        }
+      }
+    }
+  },
+  "romname":"opwolf"
+}

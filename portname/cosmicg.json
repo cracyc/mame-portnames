@@ -1,0 +1,32 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Left"
+        },{
+          "player":1,
+          "name":"P2 Fire"
+        },null,{
+          "player":1,
+          "name":"P2 Right"
+        },null,null,null,{
+          "player":1,
+          "name":"P2 Left"
+        }]
+    },
+    ":IN0":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Right"
+        }
+      }
+    }
+  },
+  "romname":"cosmicg"
+}

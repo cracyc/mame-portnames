@@ -1,0 +1,41 @@
+{
+  "ports":{
+    ":INPUTS":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Down"
+        }
+      }
+    }
+  },
+  "romname":"bouldash"
+}

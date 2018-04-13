@@ -1,0 +1,30 @@
+{
+  "ports":{
+    ":IN4":{
+      "labels":[null,null,null,{
+          "player":0,
+          "name":"P1 Decoy"
+        },null,null,null,{
+          "player":0,
+          "name":"P1 Energy"
+        }]
+    },
+    ":TRACKY":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    },
+    ":TRACKX":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    }
+  },
+  "romname":"reactor"
+}

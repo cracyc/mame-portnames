@@ -1,0 +1,53 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "8":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Down"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "8":{
+          "player":1,
+          "name":"P2 Fire"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Down"
+        }
+      }
+    }
+  },
+  "romname":"polaris"
+}

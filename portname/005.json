@@ -1,0 +1,57 @@
+{
+  "ports":{
+    ":D5D4":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Fire"
+        }
+      }
+    },
+    ":D7D6":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"P1 Up"
+        }
+      }
+    },
+    ":FC":{
+      "labels":{
+        "32":{
+          "player":1,
+          "name":"P2 Fire"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Down"
+        }
+      }
+    }
+  },
+  "romname":"005"
+}

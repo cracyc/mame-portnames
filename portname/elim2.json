@@ -1,0 +1,45 @@
+{
+  "ports":{
+    ":D5D4":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"P1 Thrust"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Rotate Left"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Rotate Right"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Fire"
+        }
+      }
+    },
+    ":D7D6":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"P1 Rotate Left"
+        }
+      }
+    },
+    ":FC":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Fire"
+        },{
+          "player":1,
+          "name":"P2 Thrust"
+        },null,{
+          "player":1,
+          "name":"P2 Rotate Right"
+        }]
+    }
+  },
+  "romname":"elim2"
+}

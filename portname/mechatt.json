@@ -1,0 +1,57 @@
+{
+  "ports":{
+    ":GUNX2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Right /  Left"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1024":{
+          "player":0,
+          "name":"P1 Grenade"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 Grenade"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Fire"
+        },
+        "512":{
+          "player":0,
+          "name":"P1 Fire"
+        }
+      }
+    },
+    ":GUNY1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    },
+    ":GUNY2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Down /  Up"
+        }
+      }
+    },
+    ":GUNX1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    }
+  },
+  "romname":"mechatt"
+}

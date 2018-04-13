@@ -1,0 +1,21 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Left / Right"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "15":{
+          "player":0,
+          "name":"Accelerate"
+        }
+      }
+    }
+  },
+  "romname":"lagunar"
+}

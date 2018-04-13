@@ -1,0 +1,53 @@
+{
+  "ports":{
+    ":P1Y":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    },
+    ":P2Y":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Down /  Up"
+        }
+      }
+    },
+    ":P2BUT":{
+      "labels":{
+        "32":{
+          "player":1,
+          "name":"P2 Kick"
+        }
+      }
+    },
+    ":P2X":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Right /  Left"
+        }
+      }
+    },
+    ":P1X":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":P1BUT":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 Kick"
+        }
+      }
+    }
+  },
+  "romname":"tehkanwc"
+}

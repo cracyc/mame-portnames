@@ -1,0 +1,43 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"Machine Gun"
+        },
+        "1":{
+          "player":0,
+          "name":"Up"
+        },
+        "2":{
+          "player":0,
+          "name":"Left"
+        },
+        "4":{
+          "player":0,
+          "name":"Right"
+        },
+        "8":{
+          "player":0,
+          "name":"Down"
+        },
+        "32":{
+          "player":0,
+          "name":"Jump"
+        },
+        "16":{
+          "player":0,
+          "name":"Vulcan"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":[null,{
+          "player":0,
+          "name":"Thrust"
+        }]
+    }
+  },
+  "romname":"aquajack"
+}

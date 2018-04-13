@@ -1,0 +1,37 @@
+{
+  "ports":{
+    ":IN2":{
+      "labels":{
+        "224":{
+          "player":1,
+          "name":"P2 Accelerate"
+        }
+      }
+    },
+    ":AN0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":AN1":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Right /  Left"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "224":{
+          "player":0,
+          "name":"P1 Accelerate"
+        }
+      }
+    }
+  },
+  "romname":"redlin2p"
+}

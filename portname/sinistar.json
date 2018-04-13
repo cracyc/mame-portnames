@@ -1,0 +1,30 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Fire"
+        },{
+          "player":0,
+          "name":"P1 Sinibomb"
+        }]
+    },
+    ":49WAYX":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":49WAYY":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    }
+  },
+  "romname":"sinistar"
+}

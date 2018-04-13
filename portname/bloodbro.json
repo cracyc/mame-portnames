@@ -1,0 +1,65 @@
+{
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Roll"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Dynamite"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 Dynamite"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Roll"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Fire"
+        }
+      }
+    }
+  },
+  "romname":"bloodbro"
+}

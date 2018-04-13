@@ -1,0 +1,65 @@
+{
+  "ports":{
+    ":MCUIPT":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 C"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "1048576":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "524288":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "262144":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "131072":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "8388608":{
+          "player":1,
+          "name":"P2 C"
+        },
+        "4194304":{
+          "player":1,
+          "name":"P2 B"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 A"
+        },
+        "2097152":{
+          "player":1,
+          "name":"P2 A"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 B"
+        }
+      }
+    }
+  },
+  "romname":"39in1"
+}

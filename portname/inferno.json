@@ -1,0 +1,86 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Fire"
+        },{
+          "player":1,
+          "name":"P2 Fire"
+        }]
+    },
+    ":INP1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Move Up+Right"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Move Left+Up"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Move Right+Down"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Move Down+Left"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Fire Right+Down"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Fire Up+Right"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Fire Left+Up"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Fire Down+Left"
+        }
+      }
+    },
+    ":INP2":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Move Up+Right"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Move Left+Up"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Move Right+Down"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Move Down+Left"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Fire Right+Down"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Fire Up+Right"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Fire Left+Up"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Fire Down+Left"
+        }
+      }
+    }
+  },
+  "romname":"inferno"
+}

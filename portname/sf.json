@@ -1,0 +1,93 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Crouch"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Middle Kick"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Crouch"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Jump"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Jump"
+        },
+        "32768":{
+          "player":1,
+          "name":"P2 Middle Kick"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Light Kick"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 Light Kick"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Middle Punch"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Light Punch"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Light Punch"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Middle Punch"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "4":{
+          "player":0,
+          "name":"P1 Heavy Kick"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Heavy Kick"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Heavy Punch"
+        },
+        "512":{
+          "player":0,
+          "name":"P1 Heavy Punch"
+        }
+      }
+    }
+  },
+  "romname":"sf"
+}

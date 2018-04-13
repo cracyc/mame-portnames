@@ -1,0 +1,33 @@
+{
+  "ports":{
+    ":ANALOGX":{
+      "labels":{
+        "4095":{
+          "player":0,
+          "name":"Left / Right"
+        }
+      }
+    },
+    ":ANALOGY":{
+      "labels":{
+        "4095":{
+          "player":0,
+          "name":"Up / Down"
+        }
+      }
+    },
+    ":INPUTS":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"Fire"
+        },
+        "64":{
+          "player":0,
+          "name":"Shield"
+        }
+      }
+    }
+  },
+  "romname":"tailg"
+}

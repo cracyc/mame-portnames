@@ -1,0 +1,53 @@
+{
+  "ports":{
+    ":ssio:IP1":{
+      "labels":{
+        "127":{
+          "player":0,
+          "name":"P1 Aim / Aim"
+        }
+      }
+    },
+    ":ssio:IP2":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"P1 Deflect"
+        },
+        "1":{
+          "player":0,
+          "name":"P1 Move Tron"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Move Tron"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Move Tron"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Move Tron"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Aim Up"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Aim Down"
+        }
+      }
+    },
+    ":ssio:IP0":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"P1 Throw"
+        }
+      }
+    }
+  },
+  "romname":"dotron"
+}

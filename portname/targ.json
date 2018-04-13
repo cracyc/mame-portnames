@@ -1,0 +1,29 @@
+{
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Down"
+        }
+      }
+    }
+  },
+  "romname":"targ"
+}

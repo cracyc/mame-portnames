@@ -1,0 +1,53 @@
+{
+  "ports":{
+    ":JOY-X":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Down"
+        },{
+          "player":0,
+          "name":"P1 Up"
+        }]
+    },
+    ":JOY-W":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Down"
+        },{
+          "player":0,
+          "name":"P1 Up"
+        }]
+    },
+    ":JOY-Z":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Down"
+        },{
+          "player":1,
+          "name":"P2 Up"
+        }]
+    },
+    ":JOY-Y":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Down"
+        },{
+          "player":1,
+          "name":"P2 Up"
+        }]
+    },
+    ":ANALOG":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Fire"
+        }
+      }
+    }
+  },
+  "romname":"ultratnk"
+}

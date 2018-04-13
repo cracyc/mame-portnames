@@ -1,0 +1,49 @@
+{
+  "ports":{
+    ":ANALOGX2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Aim Right /  Aim Left"
+        }
+      }
+    },
+    ":SERVICE":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Fire"
+        }
+      }
+    },
+    ":ANALOGY1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Aim Up / Aim Down"
+        }
+      }
+    },
+    ":ANALOGY2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Aim Down /  Aim Up"
+        }
+      }
+    },
+    ":ANALOGX1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Aim Left / Aim Right"
+        }
+      }
+    }
+  },
+  "romname":"sdi"
+}

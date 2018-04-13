@@ -1,0 +1,57 @@
+{
+  "ports":{
+    ":GUN2Y":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Aim Down /  Aim Up"
+        }
+      }
+    },
+    ":BUTTONS":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Shoot"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Bomb"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Shoot"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Bomb"
+        }
+      }
+    },
+    ":GUN2X":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Aim Right /  Aim Left"
+        }
+      }
+    },
+    ":GUN1Y":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Aim Up / Aim Down"
+        }
+      }
+    },
+    ":GUN1X":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Aim Left / Aim Right"
+        }
+      }
+    }
+  },
+  "romname":"opwolf3"
+}

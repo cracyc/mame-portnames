@@ -1,0 +1,117 @@
+{
+  "ports":{
+    ":P1_P2":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "1":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Left"
+        }
+      }
+    },
+    ":P3_P4":{
+      "labels":{
+        "128":{
+          "player":2,
+          "name":"P3 Up"
+        },
+        "1":{
+          "player":3,
+          "name":"P4 Right"
+        },
+        "2":{
+          "player":3,
+          "name":"P4 Left"
+        },
+        "8":{
+          "player":3,
+          "name":"P4 Up"
+        },
+        "4":{
+          "player":3,
+          "name":"P4 Down"
+        },
+        "64":{
+          "player":2,
+          "name":"P3 Down"
+        },
+        "16":{
+          "player":2,
+          "name":"P3 Right"
+        },
+        "32":{
+          "player":2,
+          "name":"P3 Left"
+        }
+      }
+    },
+    ":BUTTONS":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 A"
+        },
+        "16":{
+          "player":2,
+          "name":"P3 A"
+        },
+        "64":{
+          "player":3,
+          "name":"P4 A"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 A"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "32":{
+          "player":1,
+          "name":"P2 B"
+        },
+        "128":{
+          "player":3,
+          "name":"P4 B"
+        },
+        "64":{
+          "player":2,
+          "name":"P3 B"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 B"
+        }
+      }
+    }
+  },
+  "romname":"wsf"
+}

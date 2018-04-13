@@ -1,0 +1,82 @@
+{
+  "ports":{
+    ":GUNX3":{
+      "labels":{
+        "255":{
+          "player":2,
+          "name":"P3 Down /  Up"
+        }
+      }
+    },
+    ":GUNX2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Down /  Up"
+        }
+      }
+    },
+    ":GUNY3":{
+      "labels":{
+        "255":{
+          "player":2,
+          "name":"P3 Left /  Right"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "4":{
+          "player":0,
+          "name":"P1 Grenade"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Grenade"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Fire"
+        }
+      }
+    },
+    ":IN1":{
+      "labels":[null,{
+          "player":2,
+          "name":"P3 Fire"
+        },null,{
+          "player":2,
+          "name":"P3 Grenade"
+        }]
+    },
+    ":GUNY1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left /  Right"
+        }
+      }
+    },
+    ":GUNY2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Left /  Right"
+        }
+      }
+    },
+    ":GUNX1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    }
+  },
+  "romname":"bbusters"
+}

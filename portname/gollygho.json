@@ -1,0 +1,49 @@
+{
+  "ports":{
+    ":MCUB":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 1"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 1"
+        }
+      }
+    },
+    ":AN2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Aim Right /  Aim Left"
+        }
+      }
+    },
+    ":AN0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Aim Left / Aim Right"
+        }
+      }
+    },
+    ":AN1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Aim Up / Aim Down"
+        }
+      }
+    },
+    ":AN3":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Aim Down /  Aim Up"
+        }
+      }
+    }
+  },
+  "romname":"gollygho"
+}

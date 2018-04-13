@@ -1,0 +1,37 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "4":{
+          "player":1,
+          "name":"P2 Control Left"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Control Right"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Fire"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "4":{
+          "player":0,
+          "name":"P1 Control Left"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Control Right"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Fire"
+        }
+      }
+    }
+  },
+  "romname":"galaxian"
+}

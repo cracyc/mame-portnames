@@ -1,0 +1,49 @@
+{
+  "ports":{
+    ":SYSTEM":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Light Fuse"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "1":{
+          "player":0,
+          "name":"P1 Fire Down"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Fire Up"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Fire Left"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Fire Right"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Left"
+        }
+      }
+    }
+  },
+  "romname":"cloak"
+}

@@ -1,0 +1,66 @@
+{
+  "ports":{
+    ":P1JOY":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Up"
+        },{
+          "player":0,
+          "name":"P1 Right"
+        },null,{
+          "player":0,
+          "name":"P1 Down"
+        },null,null,null,{
+          "player":0,
+          "name":"P1 Left"
+        }]
+    },
+    ":IN4":{
+      "labels":{
+        "16":{
+          "player":1,
+          "name":"P2 Slap / Throw"
+        },
+        "64":{
+          "player":2,
+          "name":"P3 Slap / Throw"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Slap / Throw"
+        }
+      }
+    },
+    ":P3JOY":{
+      "labels":[{
+          "player":2,
+          "name":"P3 Up"
+        },{
+          "player":2,
+          "name":"P3 Right"
+        },null,{
+          "player":2,
+          "name":"P3 Down"
+        },null,null,null,{
+          "player":2,
+          "name":"P3 Left"
+        }]
+    },
+    ":P2JOY":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Up"
+        },{
+          "player":1,
+          "name":"P2 Right"
+        },null,{
+          "player":1,
+          "name":"P2 Down"
+        },null,null,null,{
+          "player":1,
+          "name":"P2 Left"
+        }]
+    }
+  },
+  "romname":"3stooges"
+}

@@ -1,0 +1,45 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"Fire"
+        },
+        "16":{
+          "player":0,
+          "name":"Fire"
+        }
+      }
+    },
+    ":STICKY":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Up / Down"
+        }
+      }
+    },
+    ":STICKX":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Left / Right"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"Fire"
+        },
+        "64":{
+          "player":0,
+          "name":"Fire"
+        }
+      }
+    }
+  },
+  "romname":"starwars"
+}

@@ -1,0 +1,82 @@
+{
+  "ports":{
+    ":ANA2":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Paddle"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "2":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "4":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Start / VR"
+        },
+        "8":{
+          "player":0,
+          "name":"Service 1"
+        }
+      }
+    },
+    ":DSW":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"Unknown"
+        }
+      }
+    },
+    ":IN4":{
+      "labels":[]
+    },
+    ":IN1":{
+      "labels":[]
+    },
+    ":ANA0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Pedal 1"
+        }
+      }
+    },
+    ":IN3":{
+      "labels":[]
+    },
+    ":IN2":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"Shift Up"
+        },
+        "32":{
+          "player":0,
+          "name":"Shift Down"
+        }
+      }
+    },
+    ":ANA1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Pedal 2"
+        }
+      }
+    }
+  },
+  "romname":"manxtt"
+}

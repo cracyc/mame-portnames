@@ -1,0 +1,17 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 Correct"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Incorrect"
+        }
+      }
+    }
+  },
+  "romname":"triviabb"
+}

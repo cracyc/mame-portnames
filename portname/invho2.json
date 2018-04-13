@@ -1,0 +1,37 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Right"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 Fire / Gas"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Down"
+        }
+      }
+    }
+  },
+  "romname":"invho2"
+}

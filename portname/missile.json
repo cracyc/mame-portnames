@@ -1,0 +1,61 @@
+{
+  "ports":{
+    ":TRACK0_Y":{
+      "labels":{
+        "15":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Fire - Omega Base"
+        },{
+          "player":1,
+          "name":"P2 Fire - Delta Base"
+        },null,{
+          "player":1,
+          "name":"P2 Fire - Alpha Base"
+        }]
+    },
+    ":IN1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Fire - Omega Base"
+        },{
+          "player":0,
+          "name":"P1 Fire - Delta Base"
+        },null,{
+          "player":0,
+          "name":"P1 Fire - Alpha Base"
+        }]
+    },
+    ":TRACK1_X":{
+      "labels":{
+        "15":{
+          "player":1,
+          "name":"P2 Right /  Left"
+        }
+      }
+    },
+    ":TRACK0_X":{
+      "labels":{
+        "15":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":TRACK1_Y":{
+      "labels":{
+        "15":{
+          "player":1,
+          "name":"P2 Down /  Up"
+        }
+      }
+    }
+  },
+  "romname":"missile"
+}

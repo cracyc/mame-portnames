@@ -1,0 +1,52 @@
+{
+  "ports":{
+    ":AN_F":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Left /  Right"
+        }
+      }
+    },
+    ":AN_C":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    },
+    ":60":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Hook Right"
+        },{
+          "player":1,
+          "name":"P2 Hook Left"
+        },null,{
+          "player":0,
+          "name":"P1 Hook Right"
+        },null,null,null,{
+          "player":0,
+          "name":"P1 Hook Left"
+        }]
+    },
+    ":AN_D":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left /  Right"
+        }
+      }
+    },
+    ":AN_E":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Down /  Up"
+        }
+      }
+    }
+  },
+  "romname":"stratab"
+}

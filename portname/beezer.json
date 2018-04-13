@@ -1,0 +1,21 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "15":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "15":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    }
+  },
+  "romname":"beezer"
+}

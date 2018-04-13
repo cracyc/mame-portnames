@@ -1,0 +1,32 @@
+{
+  "ports":{
+    ":P2":{
+      "labels":[null,{
+          "player":1,
+          "name":"P2 Right"
+        },null,null,null,null,null,{
+          "player":1,
+          "name":"P2 Left"
+        }]
+    },
+    ":P1":{
+      "labels":[null,{
+          "player":0,
+          "name":"P1 Right"
+        },null,null,null,null,null,{
+          "player":0,
+          "name":"P1 Left"
+        }]
+    },
+    ":BUTTONS":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Door Open / Close"
+        },{
+          "player":1,
+          "name":"P2 Door Open / Close"
+        }]
+    }
+  },
+  "romname":"mappy"
+}

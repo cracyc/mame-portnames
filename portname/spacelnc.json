@@ -1,0 +1,29 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Launch"
+        },{
+          "player":1,
+          "name":"P2 Left"
+        },null,{
+          "player":1,
+          "name":"P2 Right"
+        }]
+    },
+    ":IN0":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Launch"
+        },{
+          "player":0,
+          "name":"P1 Left"
+        },null,{
+          "player":0,
+          "name":"P1 Right"
+        }]
+    }
+  },
+  "romname":"spacelnc"
+}

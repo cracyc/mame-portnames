@@ -1,0 +1,53 @@
+{
+  "ports":{
+    ":P2":{
+      "labels":{
+        "128":{
+          "player":1,
+          "name":"P2 Action"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Down"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Action"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Down"
+        }
+      }
+    }
+  },
+  "romname":"bagman"
+}

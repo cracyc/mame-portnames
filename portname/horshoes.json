@@ -1,0 +1,37 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Grip"
+        }
+      }
+    },
+    ":AN0":{
+      "labels":{
+        "65535":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    },
+    ":AN1":{
+      "labels":{
+        "65535":{
+          "player":0,
+          "name":"P1 Left /  Right"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Angle"
+        }
+      }
+    }
+  },
+  "romname":"horshoes"
+}

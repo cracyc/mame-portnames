@@ -1,0 +1,81 @@
+{
+  "ports":{
+    ":GUNX3":{
+      "labels":{
+        "255":{
+          "player":2,
+          "name":"P3 Aim Right /  Aim Left"
+        }
+      }
+    },
+    ":GUNX2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Aim Right /  Aim Left"
+        }
+      }
+    },
+    ":GUNY3":{
+      "labels":{
+        "255":{
+          "player":2,
+          "name":"P3 Aim Down /  Aim Up"
+        }
+      }
+    },
+    ":GUNY2":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Aim Down /  Aim Up"
+        }
+      }
+    },
+    ":GUNY1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Aim Up / Aim Down"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Laser Gun"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Special Weapon"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Laser Gun"
+        },
+        "128":{
+          "player":2,
+          "name":"P3 Laser Gun"
+        },
+        "64":{
+          "player":2,
+          "name":"P3 Special Weapon"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Special Weapon"
+        }
+      }
+    },
+    ":GUNX1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Aim Left / Aim Right"
+        }
+      }
+    }
+  },
+  "romname":"lghost"
+}

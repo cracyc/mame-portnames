@@ -1,0 +1,14 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[null,null,null,{
+          "player":0,
+          "name":"P1 Fire"
+        },null,null,null,{
+          "player":1,
+          "name":"P2 Fire"
+        }]
+    }
+  },
+  "romname":"canyon"
+}

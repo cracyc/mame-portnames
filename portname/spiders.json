@@ -1,0 +1,32 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Move Right"
+        },{
+          "player":1,
+          "name":"P2 Move Left"
+        },null,{
+          "player":0,
+          "name":"P1 Move Left"
+        },null,null,null,{
+          "player":0,
+          "name":"P1 Move Right"
+        }]
+    },
+    ":IN0":{
+      "labels":{
+        "8":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Fire"
+        }
+      }
+    }
+  },
+  "romname":"spiders"
+}

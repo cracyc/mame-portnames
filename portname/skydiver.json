@@ -1,0 +1,53 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "64":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Right"
+        }
+      }
+    },
+    ":IN3":{
+      "labels":{
+        "64":{
+          "player":1,
+          "name":"P2 Jump"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Open Chute"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"P1 Jump"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Open Chute"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Right"
+        }
+      }
+    }
+  },
+  "romname":"skydiver"
+}

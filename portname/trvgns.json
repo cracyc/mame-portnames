@@ -1,0 +1,45 @@
+{
+  "ports":{
+    ":IN0_COCKTAIL":{
+      "labels":{
+        "64":{
+          "player":1,
+          "name":"P2 B"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 D"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 C"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 A"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"P1 B"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 D"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 C"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 A"
+        }
+      }
+    }
+  },
+  "romname":"trvgns"
+}

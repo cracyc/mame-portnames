@@ -1,0 +1,125 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "1":{
+          "player":2,
+          "name":"P3 Up"
+        },
+        "2":{
+          "player":2,
+          "name":"P3 Down"
+        },
+        "4":{
+          "player":2,
+          "name":"P3 Left"
+        },
+        "64":{
+          "player":2,
+          "name":"P3 Turbo"
+        },
+        "2048":{
+          "player":3,
+          "name":"P4 Right"
+        },
+        "1024":{
+          "player":3,
+          "name":"P4 Left"
+        },
+        "8":{
+          "player":2,
+          "name":"P3 Right"
+        },
+        "512":{
+          "player":3,
+          "name":"P4 Down"
+        },
+        "16":{
+          "player":2,
+          "name":"P3 Shoot / Block"
+        },
+        "256":{
+          "player":3,
+          "name":"P4 Up"
+        },
+        "8192":{
+          "player":3,
+          "name":"P4 Pass / Steal"
+        },
+        "4096":{
+          "player":3,
+          "name":"P4 Shoot / Block"
+        },
+        "16384":{
+          "player":3,
+          "name":"P4 Turbo"
+        },
+        "32":{
+          "player":2,
+          "name":"P3 Pass / Steal"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Turbo"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Shoot / Block"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Pass / Steal"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Shoot / Block"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 Turbo"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Pass / Steal"
+        }
+      }
+    }
+  },
+  "romname":"openice"
+}

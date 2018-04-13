@@ -1,0 +1,42 @@
+{
+  "ports":{
+    ":FE4000":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"P1 Fire"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Fire"
+        }
+      }
+    },
+    ":PEDALS":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Gas"
+        },{
+          "player":1,
+          "name":"P2 Gas"
+        }]
+    },
+    ":FE6000":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":FE6002":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Right /  Left"
+        }
+      }
+    }
+  },
+  "romname":"badlands"
+}

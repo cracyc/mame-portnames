@@ -1,0 +1,29 @@
+{
+  "ports":{
+    ":IN2":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Accelerate"
+        },
+        "2":{
+          "player":0,
+          "name":"Brake"
+        },
+        "128":{
+          "player":0,
+          "name":"Low"
+        }
+      }
+    },
+    ":IN6":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Left / Right"
+        }
+      }
+    }
+  },
+  "romname":"bigrun"
+}

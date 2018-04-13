@@ -1,0 +1,61 @@
+{
+  "ports":{
+    ":DSW2":{
+      "labels":{
+        "4096":{
+          "player":1,
+          "name":"P2 Shoot and Kick Snowball"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 N/A"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 N/A"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Jump"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Right"
+        }
+      }
+    },
+    ":DSW1":{
+      "labels":{
+        "4096":{
+          "player":0,
+          "name":"P1 Shoot and Kick Snowball"
+        },
+        "256":{
+          "player":0,
+          "name":"P1 N/A"
+        },
+        "512":{
+          "player":0,
+          "name":"P1 N/A"
+        },
+        "8192":{
+          "player":0,
+          "name":"P1 Jump"
+        },
+        "1024":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "2048":{
+          "player":0,
+          "name":"P1 Right"
+        }
+      }
+    }
+  },
+  "romname":"snowbros"
+}

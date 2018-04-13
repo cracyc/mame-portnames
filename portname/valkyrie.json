@@ -1,0 +1,69 @@
+{
+  "ports":{
+    ":MCUB":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Up"
+        }
+      }
+    },
+    ":MCUH":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 Attack"
+        },
+        "1":{
+          "player":1,
+          "name":"P2 ??"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 ??"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Jump"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Attack"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Jump"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Right"
+        }
+      }
+    }
+  },
+  "romname":"valkyrie"
+}

@@ -1,0 +1,27 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[null,null,null,{
+          "player":0,
+          "name":"P1 Fire"
+        }]
+    },
+    ":TRACK0_X":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Left / Right"
+        }
+      }
+    },
+    ":TRACK0_Y":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Up / Down"
+        }
+      }
+    }
+  },
+  "romname":"centiped"
+}

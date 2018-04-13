@@ -1,0 +1,55 @@
+{
+  "ports":{
+    ":IN1":{
+      "labels":[{
+          "player":0,
+          "name":"P1 Up"
+        },{
+          "player":0,
+          "name":"P1 Down"
+        },null,{
+          "player":0,
+          "name":"P1 Left"
+        },null,null,null,{
+          "player":0,
+          "name":"P1 Right"
+        }]
+    },
+    ":IN3":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Gun"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Grenade"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Gun"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Grenade"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":[{
+          "player":1,
+          "name":"P2 Up"
+        },{
+          "player":1,
+          "name":"P2 Down"
+        },null,{
+          "player":1,
+          "name":"P2 Left"
+        },null,null,null,{
+          "player":1,
+          "name":"P2 Right"
+        }]
+    }
+  },
+  "romname":"ikari"
+}
