@@ -1,0 +1,88 @@
+{
+  "romname":"chainrec",
+  "ports":{
+    ":IN0":{
+      "labels":[{
+          "player":0,
+          "name":"Coin 1"
+        },{
+          "player":0,
+          "name":"Coin 2"
+        },null,{
+          "player":0,
+          "name":"Service 1"
+        },null,null,null,{
+          "player":0,
+          "name":"Service Mode"
+        }]
+    },
+    ":IN1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "32768":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "128":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 Button 3"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Button 1"
+        }
+      }
+    }
+  }
+}

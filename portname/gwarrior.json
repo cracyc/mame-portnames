@@ -1,0 +1,141 @@
+{
+  "romname":"gwarrior",
+  "ports":{
+    ":DSW1":{
+      "labels":{
+        "24":{
+          "player":0,
+          "name":"Bonus Life"
+        },
+        "3":{
+          "player":0,
+          "name":"Lives"
+        },
+        "4":{
+          "player":0,
+          "name":"Unused"
+        },
+        "96":{
+          "player":0,
+          "name":"Difficulty"
+        },
+        "128":{
+          "player":0,
+          "name":"Demo Sounds"
+        }
+      }
+    },
+    ":DSW0":{
+      "labels":{
+        "240":{
+          "player":0,
+          "name":"Coin B"
+        },
+        "15":{
+          "player":0,
+          "name":"Coin A"
+        }
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "1":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Down"
+        }
+      }
+    },
+    ":TEST":{
+      "labels":[{
+          "player":0,
+          "name":"Flip Screen"
+        },{
+          "player":0,
+          "name":"Players"
+        },null,{
+          "player":0,
+          "name":"Service Mode"
+        }]
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "4":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "16":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "2":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "8":{
+          "player":0,
+          "name":"1 Player Start"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Button 3"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Button 1"
+        }
+      }
+    }
+  }
+}

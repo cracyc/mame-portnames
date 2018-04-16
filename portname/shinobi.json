@@ -1,69 +1,19 @@
 {
-  "ports":{
-    ":P2":{
-      "labels":{
-        "1":{
-          "player":1,
-          "name":"P2 Ninja Magic"
+    "romname":"shinobi",
+    "ports":{
+        ":P1":{
+            "labels":{
+                "1":{"player":0,"name":"P1 Ninja Magic"},
+                "2":{"player":0,"name":"P1 Attack"},
+                "4":{"player":0,"name":"P1 Jump"}
+            }
         },
-        "2":{
-          "player":1,
-          "name":"P2 Attack"
-        },
-        "4":{
-          "player":1,
-          "name":"P2 Jump"
-        },
-        "16":{
-          "player":1,
-          "name":"P2 Down"
-        },
-        "64":{
-          "player":1,
-          "name":"P2 Right"
-        },
-        "128":{
-          "player":1,
-          "name":"P2 Left"
-        },
-        "32":{
-          "player":1,
-          "name":"P2 Up"
+        ":P2":{
+            "labels":{
+                "1":{"player":1,"name":"P2 Ninja Magic"},
+                "2":{"player":1,"name":"P2 Attack"},
+                "4":{"player":1,"name":"P2 Jump"}
+            }
         }
-      }
-    },
-    ":P1":{
-      "labels":{
-        "1":{
-          "player":0,
-          "name":"P1 Ninja Magic"
-        },
-        "2":{
-          "player":0,
-          "name":"P1 Attack"
-        },
-        "4":{
-          "player":0,
-          "name":"P1 Jump"
-        },
-        "16":{
-          "player":0,
-          "name":"P1 Down"
-        },
-        "64":{
-          "player":0,
-          "name":"P1 Right"
-        },
-        "128":{
-          "player":0,
-          "name":"P1 Left"
-        },
-        "32":{
-          "player":0,
-          "name":"P1 Up"
-        }
-      }
     }
-  },
-  "romname":"shinobi"
 }

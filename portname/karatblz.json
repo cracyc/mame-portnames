@@ -1,0 +1,37 @@
+{
+    "romname":"karatblz",
+    "ports":{
+        ":IN0":{
+            "labels":{
+                "16":{"player":0,"name":"P1 Attack"},
+                "32":{"player":0,"name":"P1 Jump Kick"},
+                "64":{"player":0,"name":"P1 Button 3"},
+                "128":{"player":0,"name":"P1 Button 4"}
+            }
+        },
+        ":IN1":{
+            "labels":{
+                "16":{"player":1,"name":"P2 Attack"},
+                "32":{"player":1,"name":"P2 Jump Kick"},
+                "64":{"player":1,"name":"P2 Button 3"},
+                "128":{"player":1,"name":"P2 Button 4"}
+            }
+        },
+        ":IN2":{
+            "labels":{
+                "16":{"player":2,"name":"P3 Attack"},
+                "32":{"player":2,"name":"P3 Jump Kick"},
+                "64":{"player":2,"name":"P3 Button 3"},
+                "128":{"player":2,"name":"P3 Button 4"},
+            }
+        },
+        ":IN3":{
+            "labels":{
+                "16":{"player":3,"name":"P4 Attack"},
+                "32":{"player":3,"name":"P4 Jump Kick"},
+                "64":{"player":3,"name":"P4 Button 3"},
+                "128":{"player":3,"name":"P4 Button 4"}
+            }
+        }
+    }
+}

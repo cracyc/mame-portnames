@@ -1,5 +1,6 @@
 {
-  "ports":{
+    "romname":"raveracw",
+    "ports":{
     ":STEER":{
       "labels":{
         "255":{
@@ -60,18 +61,7 @@
         }
       }
     },
-    ":DSW0":{
-      "labels":{
-        "1":{
-          "name":"Service Mode",
-          "player":0
-        },
-        "32768":{
-          "name":"Unknown",
-          "player":0
-        }
-      }
-    },
+
     ":GAS":{
       "labels":{
         "255":{
@@ -81,5 +71,5 @@
       }
     }
   },
-  "romname":"raveracw"
+
 }

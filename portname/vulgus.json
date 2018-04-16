@@ -1,0 +1,17 @@
+{
+    "romname":"vulgus",
+    "ports":{
+        ":P1":{
+            "labels":{
+                "16":{"name":"P1 Fire"},
+                "32":{"name":"P1 Cannon"}
+            }
+        },
+        ":P2":{
+            "labels":{
+                "16":{"name":"P2 Fire"},
+                "32":{"name":"P2 Cannon"}
+            }
+        }
+    }
+}

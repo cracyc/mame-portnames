@@ -1,0 +1,29 @@
+{
+    "romname":"silentd",
+    "ports":{
+        ":IN0":{
+            "labels":{
+                "1":{"name":"P1 Attack"},
+                "2":{"name":"P1 Button 2"},
+                "4":{"name":"P1 Button 3"},
+                "8":{"name":"P2 Attack"},
+                "16":{"name":"P2 Button 2"},
+                "32":{"name":"P2 Button 3"}
+            }
+        },
+        ":IN3":{
+            "labels":{
+                "32":{"name":"P3 Attack"},
+                "64":{"name":"P3 Button 2"},
+                "128":{"name":"P3 Button 3"}
+            }
+        },
+        ":IN4":{
+            "labels":{
+                "32":{"name":"P4 Attack"},
+                "64":{"name":"P4 Button 2"},
+                "128":{"name":"P4 Button 3"}
+            }
+        }
+    }
+}
