@@ -1,21 +1,6 @@
 {
   "romname":"chainrec",
   "ports":{
-    ":IN0":{
-      "labels":[{
-          "player":0,
-          "name":"Coin 1"
-        },{
-          "player":0,
-          "name":"Coin 2"
-        },null,{
-          "player":0,
-          "name":"Service 1"
-        },null,null,null,{
-          "player":0,
-          "name":"Service Mode"
-        }]
-    },
     ":IN1":{
       "labels":{
         "1":{

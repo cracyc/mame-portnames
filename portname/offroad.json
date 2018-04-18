@@ -1,7 +1,8 @@
 {
-  "ports":{
-    ":AN5":{
-      "labels":{
+    "romname":"offroad",
+    "ports":{
+        ":AN5":{
+        "labels":{
         "255":{
           "player":2,
           "name":"P3 Left /  Right"
@@ -65,5 +66,5 @@
       }
     }
   },
-  "romname":"offroad"
+
 }

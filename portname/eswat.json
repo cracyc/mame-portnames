@@ -1,47 +1,17 @@
 {
-  "ports":{
-    ":P2":{
-      "labels":{
-        "1":{
-          "player":1,
-          "name":"P2 Special Weapons"
+    "romname":"eswat",
+    "ports":{
+        ":P2":{
+            "labels":{
+                "1":{"player":1,"name":"P2 Special Weapons"},
+                "2":{"player":1,"name":"P2 Shoot"},
+                "4":{"player":1,"name":"P2 Jump"},
+            }
         },
-        "2":{
-          "player":1,
-          "name":"P2 Shoot"
-        },
-        "4":{
-          "player":1,
-          "name":"P2 Jump"
-        },
-        "16":{
-          "player":1,
-          "name":"P2 Kneel"
-        },
-        "64":{
-          "player":1,
-          "name":"P2 Right"
-        },
-        "128":{
-          "player":1,
-          "name":"P2 Left"
-        },
-        "32":{
-          "player":1,
-          "name":"P2 Shoot Upward"
-        }
-      }
-    },
-    ":P1":{
-      "labels":{
-        "1":{
-          "player":0,
-          "name":"P1 Special Weapons"
-        },
-        "2":{
-          "player":0,
-          "name":"P1 Shoot"
-        },
+        ":P1":{
+            "labels":{
+                "1":{"player":0,"name":"P1 Special Weapons"},
+                "2":{"player":0,"name":"P1 Shoot"},
         "4":{
           "player":0,
           "name":"P1 Jump"
@@ -65,5 +35,5 @@
       }
     }
   },
-  "romname":"eswat"
+
 }
