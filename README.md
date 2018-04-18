@@ -3,9 +3,9 @@
 This project aims to provide a full set of MAME input port definition files.
 These are meant to be used with the 'portname' plugin, which is included with MAME 0.196 onwards.
 
-In order to use them, you'll need to enable the plugin first. Open mame.ini, make sure 'plugins' is set to 1, and 'plugin' to 'portname'. Multiple plugins can be loaded by separating them with commas (for example 'hiscore,portname,cheat')
+In order to use them, you need to enable the plugin first. Open mame.ini, make sure 'plugins' is set to 1, and 'plugin' to 'portname'. Multiple plugins can be loaded by separating them with commas (for example 'hiscore,portname,cheat')
 
-Next you need to copy the files from this repository in <mamefolder>/ctrlr/portname, and you're set.
+Next you need to copy the files from this repository in /ctrlr/portname, and you're set.
   
 Launch MAME, open the config menu (default TAB) > Plugin Options > Input ports > Save input names to file.
 This will create a <romset>.json file (unless it already exists).
