@@ -1,0 +1,16 @@
+{
+    "romname":"f1lap",
+    "ports":{
+        ":mainpcb:ANALOG1":{"labels":{"255":{"player":0,"name":"Steering Wheel"}}},
+        ":mainpcb:ANALOG2":{"labels":{"255":{"player":0,"name":"Gas Pedal"}}},
+        ":mainpcb:ANALOG3":{"labels":{"255":{"player":0,"name":"Brake Pedal"}}},
+        ":mainpcb:P1_A":{
+            "labels":[
+                {"player":0,"name":"Gear Up"},
+                {"player":0,"name":"Gear Down"},
+                null,
+                {"player":0,"name":"Overtake"}
+            ]
+        }
+    }
+}

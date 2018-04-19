@@ -3,14 +3,14 @@
     "ports":{
         ":INPUTS":{
             "labels":{
-                "134217728":{"player":0,"name":"P1 Button 1"},
-                "67108864":{"player":0,"name":"P1 Button 2"},
-                "32768":{"player":0,"name":"P1 Button 3"},
-                "16384":{"player":0,"name":"P1 Button 4"},
-                "524288":{"player":1,"name":"P2 Button 1"},
-                "262144":{"player":1,"name":"P2 Button 2"},
-                "2048":{"player":1,"name":"P2 Button 3"},
-                "1024":{"player":1,"name":"P2 Button 4"}
+                "134217728":{"player":0,"name":"P1 Weak Punch"},
+                "67108864":{"player":0,"name":"P1 Strong Punch"},
+                "32768":{"player":0,"name":"P1 Weak Kick"},
+                "16384":{"player":0,"name":"P1 Strong Kick"},
+                "524288":{"player":1,"name":"P2 Weak Punch"},
+                "262144":{"player":1,"name":"P2 Strong Punch"},
+                "2048":{"player":1,"name":"P2 Weak Kick"},
+                "1024":{"player":1,"name":"P2 Strong Kick"}
             }
         }
     }

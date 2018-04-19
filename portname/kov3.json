@@ -1,0 +1,217 @@
+{
+  "romname":"kov3",
+  "ports":{
+    ":INPUTS1":{
+      "labels":{
+        "8192":{
+          "name":"4 Players Start",
+          "player":0
+        },
+        "1":{
+          "name":"P4 Up",
+          "player":3
+        },
+        "2":{
+          "name":"P4 Down",
+          "player":3
+        },
+        "4":{
+          "name":"P4 Left",
+          "player":3
+        },
+        "8":{
+          "name":"P4 Right",
+          "player":3
+        },
+        "32768":{
+          "name":"Coin 2",
+          "player":0
+        },
+        "1024":{
+          "name":"1 Player Start",
+          "player":0
+        },
+        "2048":{
+          "name":"2 Players Start",
+          "player":0
+        },
+        "65536":{
+          "name":"Coin 3",
+          "player":0
+        },
+        "128":{
+          "name":"P4 Button 4",
+          "player":3
+        },
+        "33554432":{
+          "name":"Music",
+          "player":0
+        },
+        "16":{
+          "name":"P4 Button 1",
+          "player":3
+        },
+        "524288":{
+          "name":"Service 2",
+          "player":0
+        },
+        "64":{
+          "name":"P4 Button 3",
+          "player":3
+        },
+        "1048576":{
+          "name":"Service 3",
+          "player":0
+        },
+        "2147483648":{
+          "name":"Debug",
+          "player":0
+        },
+        "268435456":{
+          "name":"Stop",
+          "player":0
+        },
+        "32":{
+          "name":"P4 Button 2",
+          "player":3
+        },
+        "131072":{
+          "name":"Coin 4",
+          "player":0
+        },
+        "1073741824":{
+          "name":"Unused",
+          "player":0
+        },
+        "134217728":{
+          "name":"Free",
+          "player":0
+        },
+        "2097152":{
+          "name":"Service 4",
+          "player":0
+        },
+        "16777216":{
+          "name":"Service Mode",
+          "player":0
+        },
+        "262144":{
+          "name":"Service 1",
+          "player":0
+        },
+        "4096":{
+          "name":"3 Players Start",
+          "player":0
+        },
+        "16384":{
+          "name":"Coin 1",
+          "player":0
+        },
+        "67108864":{
+          "name":"Voice",
+          "player":0
+        }
+      }
+    },
+    ":INPUTS0":{
+      "labels":{
+        "1":{
+          "name":"P1 Up",
+          "player":0
+        },
+        "2":{
+          "name":"P1 Down",
+          "player":0
+        },
+        "4":{
+          "name":"P1 Left",
+          "player":0
+        },
+        "67108864":{
+          "name":"P3 Button 3",
+          "player":2
+        },
+        "8":{
+          "name":"P1 Right",
+          "player":0
+        },
+        "32":{
+          "name":"P1 Button 2",
+          "player":0
+        },
+        "4194304":{
+          "name":"P3 Left",
+          "player":2
+        },
+        "1024":{
+          "name":"P2 Up",
+          "player":1
+        },
+        "16":{
+          "name":"P1 Button 1",
+          "player":0
+        },
+        "1048576":{
+          "name":"P3 Up",
+          "player":2
+        },
+        "131072":{
+          "name":"P2 Button 4",
+          "player":1
+        },
+        "16384":{
+          "name":"P2 Button 1",
+          "player":1
+        },
+        "128":{
+          "name":"P1 Button 4",
+          "player":0
+        },
+        "2097152":{
+          "name":"P3 Down",
+          "player":2
+        },
+        "134217728":{
+          "name":"P3 Button 4",
+          "player":2
+        },
+        "32768":{
+          "name":"P2 Button 2",
+          "player":1
+        },
+        "2048":{
+          "name":"P2 Down",
+          "player":1
+        },
+        "33554432":{
+          "name":"P3 Button 2",
+          "player":2
+        },
+        "16777216":{
+          "name":"P3 Button 1",
+          "player":2
+        },
+        "4096":{
+          "name":"P2 Left",
+          "player":1
+        },
+        "64":{
+          "name":"P1 Button 3",
+          "player":0
+        },
+        "65536":{
+          "name":"P2 Button 3",
+          "player":1
+        },
+        "8192":{
+          "name":"P2 Right",
+          "player":1
+        },
+        "8388608":{
+          "name":"P3 Right",
+          "player":2
+        }
+      }
+    }
+  }
+}

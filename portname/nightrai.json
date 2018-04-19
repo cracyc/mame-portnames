@@ -1,17 +1,17 @@
 {
-    "romname":"dangseed",
+    "romname":"nightrai",
     "ports":{
-        ":CONTROL0":{
+        ":P1":{
             "labels":{
                 "16":{"player":0,"name":"P1 Fire"},
-                "32":{"player":0,"name":"P1 Special Attack"},
+                "32":{"player":0,"name":"P1 Button 2"},
                 "64":{"player":0,"name":"P1 Button 3"}
             }
         },
-        ":CONTROL1":{
+        ":P2":{
             "labels":{
                 "16":{"player":1,"name":"P2 Fire"},
-                "32":{"player":1,"name":"P2 Special Attack"},
+                "32":{"player":1,"name":"P2 Button 2"},
                 "64":{"player":1,"name":"P2 Button 3"}
             }
         }

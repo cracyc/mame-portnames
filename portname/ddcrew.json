@@ -1,181 +1,26 @@
 {
-  "romname":"ddcrew",
-  "ports":{
-    ":P2":{
-      "labels":{
-        "1":{
-          "name":"P2 Button 1",
-          "player":1
+    "romname":"ddcrew",
+    "ports":{
+        ":P1":{
+            "labels":{
+                "1":{"name":"P1 Button 1"},
+                "2":{"name":"P1 Button 2"},
+                "4":{"name":"P1 Button 3"},
+            }
         },
-        "2":{
-          "name":"P2 Button 2",
-          "player":1
+        ":P2":{
+            "labels":{
+                "1":{"name":"P2 Button 1"},
+                "2":{"name":"P2 Button 2"},
+                "4":{"name":"P2 Button 3"},
+            }
         },
-        "4":{
-          "name":"P2 Button 3",
-          "player":1
-        },
-        "128":{
-          "name":"P2 Left",
-          "player":1
-        },
-        "32":{
-          "name":"P2 Up",
-          "player":1
-        },
-        "64":{
-          "name":"P2 Right",
-          "player":1
-        },
-        "16":{
-          "name":"P2 Down",
-          "player":1
+        ":P3":{
+            "labels":{
+                "1":{"name":"P3 Button 1"},
+                "2":{"name":"P3 Button 2"},
+                "4":{"name":"P3 Button 3"},
+            }
         }
-      }
-    },
-    ":P1":{
-      "labels":{
-        "64":{
-          "name":"P1 Right",
-          "player":0
-        },
-        "1":{
-          "name":"P1 Button 1",
-          "player":0
-        },
-        "2":{
-          "name":"P1 Button 2",
-          "player":0
-        },
-        "4":{
-          "name":"P1 Button 3",
-          "player":0
-        },
-        "16":{
-          "name":"P1 Down",
-          "player":0
-        },
-        "32":{
-          "name":"P1 Up",
-          "player":0
-        },
-        "128":{
-          "name":"P1 Left",
-          "player":0
-        }
-      }
-    },
-    ":SERVICE":{
-      "labels":{
-        "8":{
-          "name":"Service 1",
-          "player":0
-        },
-        "1":{
-          "name":"Coin 3",
-          "player":0
-        },
-        "2":{
-          "name":"Coin 2",
-          "player":0
-        },
-        "32":{
-          "name":"2 Players Start",
-          "player":0
-        },
-        "4":{
-          "name":"Service Mode",
-          "player":0
-        },
-        "64":{
-          "name":"Service 2",
-          "player":0
-        },
-        "128":{
-          "name":"Coin 1",
-          "player":0
-        },
-        "16":{
-          "name":"1 Player Start",
-          "player":0
-        }
-      }
-    },
-    ":P3":{
-      "labels":{
-        "1":{
-          "name":"P3 Button 1",
-          "player":2
-        },
-        "2":{
-          "name":"P3 Button 2",
-          "player":2
-        },
-        "4":{
-          "name":"P3 Button 3",
-          "player":2
-        },
-        "32":{
-          "name":"P3 Up",
-          "player":2
-        },
-        "8":{
-          "name":"3 Players Start",
-          "player":0
-        },
-        "64":{
-          "name":"P3 Right",
-          "player":2
-        },
-        "16":{
-          "name":"P3 Down",
-          "player":2
-        },
-        "128":{
-          "name":"P3 Left",
-          "player":2
-        }
-      }
-    },
-    ":DSW":{
-      "labels":{
-        "1":{
-          "name":"Credits needed",
-          "player":0
-        },
-        "2":{
-          "name":"Switch to Start",
-          "player":0
-        },
-        "4":{
-          "name":"Coin Chute",
-          "player":0
-        },
-        "8":{
-          "name":"Demo Sounds",
-          "player":0
-        },
-        "192":{
-          "name":"Difficulty",
-          "player":0
-        },
-        "48":{
-          "name":"Player Start/Continue",
-          "player":0
-        }
-      }
-    },
-    ":COINAGE":{
-      "labels":{
-        "240":{
-          "name":"Coin B",
-          "player":0
-        },
-        "15":{
-          "name":"Coin A",
-          "player":0
-        }
-      }
     }
-  }
 }
