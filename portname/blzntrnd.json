@@ -1,0 +1,245 @@
+{
+  "romname":"blzntrnd",
+  "ports":{
+    ":DSW0":{
+      "labels":{
+        "192":{
+          "player":0,
+          "name":"Control Panel"
+        },
+        "8":{
+          "player":0,
+          "name":"Flip Screen"
+        },
+        "32768":{
+          "player":0,
+          "name":"Unused"
+        },
+        "768":{
+          "player":0,
+          "name":"Half Continue"
+        },
+        "32":{
+          "player":0,
+          "name":"Allow Continue"
+        },
+        "16":{
+          "player":0,
+          "name":"Demo Sounds"
+        },
+        "7":{
+          "player":0,
+          "name":"Difficulty"
+        }
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{
+          "player":2,
+          "name":"P3 Up"
+        },
+        "2":{
+          "player":2,
+          "name":"P3 Down"
+        },
+        "32768":{
+          "player":3,
+          "name":"P4 Button 4"
+        },
+        "1024":{
+          "player":3,
+          "name":"P4 Left"
+        },
+        "4":{
+          "player":2,
+          "name":"P3 Left"
+        },
+        "16":{
+          "player":2,
+          "name":"P3 Button 1"
+        },
+        "32":{
+          "player":2,
+          "name":"P3 Button 2"
+        },
+        "128":{
+          "player":2,
+          "name":"P3 Button 4"
+        },
+        "8":{
+          "player":2,
+          "name":"P3 Right"
+        },
+        "256":{
+          "player":3,
+          "name":"P4 Up"
+        },
+        "16384":{
+          "player":3,
+          "name":"P4 Button 3"
+        },
+        "2048":{
+          "player":3,
+          "name":"P4 Right"
+        },
+        "4096":{
+          "player":3,
+          "name":"P4 Button 1"
+        },
+        "8192":{
+          "player":3,
+          "name":"P4 Button 2"
+        },
+        "512":{
+          "player":3,
+          "name":"P4 Down"
+        },
+        "64":{
+          "player":2,
+          "name":"P3 Button 3"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "32768":{
+          "player":1,
+          "name":"P2 Button 4"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Button 4"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 Button 3"
+        }
+      }
+    },
+    ":DSW1":{
+      "labels":{
+        "768":{
+          "player":0,
+          "name":"CP Single"
+        },
+        "64":{
+          "player":0,
+          "name":"Free Play"
+        },
+        "12288":{
+          "player":0,
+          "name":"Vs Single"
+        },
+        "56":{
+          "player":0,
+          "name":"Coin B"
+        },
+        "128":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "49152":{
+          "player":0,
+          "name":"Vs Tag"
+        },
+        "3072":{
+          "player":0,
+          "name":"CP Tag"
+        },
+        "7":{
+          "player":0,
+          "name":"Coin A"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"4 Players Start"
+        },
+        "1":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "2":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "8":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "4":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "16":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "32":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "64":{
+          "player":0,
+          "name":"3 Players Start"
+        }
+      }
+    }
+  }
+}

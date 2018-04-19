@@ -1,0 +1,169 @@
+{
+  "romname":"ssoldier",
+  "ports":{
+    ":P3_P4":{
+      "labels":{
+        "2048":{
+          "player":0,
+          "name":"P1 Button 6"
+        },
+        "32768":{
+          "player":1,
+          "name":"P2 Button 6"
+        },
+        "512":{
+          "player":0,
+          "name":"P1 Button 4"
+        },
+        "1024":{
+          "player":0,
+          "name":"P1 Button 5"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 Button 5"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Button 4"
+        }
+      }
+    },
+    ":COINS_DSW3":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "2":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "4":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "8":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "16":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "32":{
+          "player":0,
+          "name":"Service"
+        },
+        "32768":{
+          "player":0,
+          "name":"Unknown"
+        }
+      }
+    },
+    ":P1_P2":{
+      "labels":{
+        "1024":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "1":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Button 3"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "32768":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Left"
+        }
+      }
+    },
+    ":DSW":{
+      "labels":{
+        "512":{
+          "player":0,
+          "name":"Unknown"
+        },
+        "2048":{
+          "player":0,
+          "name":"Coin Mode"
+        },
+        "32":{
+          "player":0,
+          "name":"Any Button to Start"
+        },
+        "1024":{
+          "player":0,
+          "name":"Coin Slots"
+        },
+        "12288":{
+          "player":0,
+          "name":"Coin A"
+        },
+        "49152":{
+          "player":0,
+          "name":"Coin B"
+        },
+        "256":{
+          "player":0,
+          "name":"Flip Screen"
+        },
+        "61440":{
+          "player":0,
+          "name":"Coinage"
+        },
+        "64":{
+          "player":0,
+          "name":"Demo Sounds"
+        },
+        "128":{
+          "player":0,
+          "name":"Service Mode"
+        }
+      }
+    }
+  }
+}

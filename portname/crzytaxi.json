@@ -1,0 +1,104 @@
+{
+  "romname":"crzytaxi",
+  "ports":{
+    ":P1":{
+      "labels":{
+        "4096":{
+          "player":0,
+          "name":"Reverse Gear"
+        },
+        "32768":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "8192":{
+          "player":0,
+          "name":"Drive Gear"
+        }
+      }
+    },
+    ":MIE.5":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Monitor"
+        },
+        "16":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "8":{
+          "player":0,
+          "name":"Unknown"
+        },
+        "64":{
+          "player":0,
+          "name":"Service 1"
+        }
+      }
+    },
+    ":837_13551:COINS":{
+      "labels":[{
+          "player":0,
+          "name":"Coin 1"
+        },{
+          "player":0,
+          "name":"Coin 2"
+        }]
+    },
+    ":A0":{
+      "labels":{
+        "65280":{
+          "player":0,
+          "name":"Paddle"
+        }
+      }
+    },
+    ":A2":{
+      "labels":{
+        "65280":{
+          "player":0,
+          "name":"P1 Pedal 2"
+        }
+      }
+    },
+    ":P2":{
+      "labels":[]
+    },
+    ":A1":{
+      "labels":{
+        "65280":{
+          "player":0,
+          "name":"P1 Pedal 1"
+        }
+      }
+    },
+    ":MAMEDEBUG":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Bilinear Filtering"
+        },
+        "2":{
+          "player":0,
+          "name":"Disable Render Calls"
+        },
+        "12":{
+          "player":0,
+          "name":"Master CPU Clock Rate (Cheat)"
+        }
+      }
+    },
+    ":TILT":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"Tilt"
+        }
+      }
+    },
+    ":MIE.3":{
+      "labels":[]
+    }
+  }
+}

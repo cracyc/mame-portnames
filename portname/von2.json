@@ -1,0 +1,104 @@
+{
+  "ports":{
+    ":IN2":{
+      "labels":{
+        "1":{
+          "name":"Left Lever Shot Trigger",
+          "player":0
+        },
+        "2":{
+          "name":"Left Lever Turbo Button",
+          "player":0
+        },
+        "64":{
+          "name":"P1 Left Stick/Right",
+          "player":0
+        },
+        "16":{
+          "name":"P1 Left Stick/Down",
+          "player":0
+        },
+        "32":{
+          "name":"P1 Left Stick/Up",
+          "player":0
+        },
+        "128":{
+          "name":"P1 Left Stick/Left",
+          "player":0
+        }
+      }
+    },
+    ":DSW":{
+      "labels":[]
+    },
+    ":IN3":{
+      "labels":{
+        "1":{
+          "name":"Right Lever Shot Trigger",
+          "player":0
+        },
+        "2":{
+          "name":"Right Lever Turbo Button",
+          "player":0
+        },
+        "64":{
+          "name":"P1 Right Stick/Right",
+          "player":0
+        },
+        "16":{
+          "name":"P1 Right Stick/Down",
+          "player":0
+        },
+        "32":{
+          "name":"P1 Right Stick/Up",
+          "player":0
+        },
+        "128":{
+          "name":"P1 Right Stick/Left",
+          "player":0
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "8":{
+          "name":"Service 1",
+          "player":0
+        },
+        "1":{
+          "name":"Coin 1",
+          "player":0
+        },
+        "2":{
+          "name":"Coin 2",
+          "player":0
+        },
+        "4":{
+          "name":"Service Mode",
+          "player":0
+        },
+        "16":{
+          "name":"1 Player Start",
+          "player":0
+        },
+        "32":{
+          "name":"2 Players Start",
+          "player":0
+        }
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "64":{
+          "name":"Service Button B",
+          "player":0
+        },
+        "128":{
+          "name":"Test Button B",
+          "player":0
+        }
+      }
+    }
+  },
+  "romname":"von2"
+}

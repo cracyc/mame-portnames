@@ -1,0 +1,137 @@
+{
+  "romname":"astyanax",
+  "ports":{
+    ":P2":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Button 3"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Button 2"
+        }
+      }
+    },
+    ":DSW":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"Difficulty"
+        },
+        "2":{
+          "player":0,
+          "name":"Unused"
+        },
+        "4":{
+          "player":0,
+          "name":"Bonus Life"
+        },
+        "24":{
+          "player":0,
+          "name":"Lives"
+        },
+        "64":{
+          "player":0,
+          "name":"Swap 1P/2P Controls"
+        },
+        "1792":{
+          "player":0,
+          "name":"Coin A"
+        },
+        "32768":{
+          "player":0,
+          "name":"Test Mode"
+        },
+        "16384":{
+          "player":0,
+          "name":"Demo Sounds"
+        },
+        "128":{
+          "player":0,
+          "name":"Flip Screen"
+        },
+        "14336":{
+          "player":0,
+          "name":"Coin B"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "1":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Button 1"
+        }
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "2":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "128":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "64":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "32":{
+          "player":0,
+          "name":"Service 1"
+        }
+      }
+    }
+  }
+}

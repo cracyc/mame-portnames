@@ -1,0 +1,230 @@
+{
+  "romname":"bublbob2",
+  "ports":{
+    ":EEPROMIN":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"Coin 3"
+        },
+        "2":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "16":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "128":{
+          "player":0,
+          "name":"Coin 4"
+        },
+        "32":{
+          "player":0,
+          "name":"Coin 2"
+        }
+      }
+    },
+    ":IN.1":{
+      "labels":{
+        "128":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Up"
+        }
+      }
+    },
+    ":IN.5":{
+      "labels":{
+        "1":{
+          "player":2,
+          "name":"P3 Up"
+        },
+        "2":{
+          "player":2,
+          "name":"P3 Down"
+        },
+        "4":{
+          "player":2,
+          "name":"P3 Left"
+        },
+        "32":{
+          "player":3,
+          "name":"P4 Down"
+        },
+        "8":{
+          "player":2,
+          "name":"P3 Right"
+        },
+        "16":{
+          "player":3,
+          "name":"P4 Up"
+        },
+        "64":{
+          "player":3,
+          "name":"P4 Left"
+        },
+        "128":{
+          "player":3,
+          "name":"P4 Right"
+        }
+      }
+    },
+    ":EEPROMOUT":{
+      "labels":[]
+    },
+    ":IN.2":{
+      "labels":[]
+    },
+    ":IN.0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "4096":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "16384":{
+          "player":0,
+          "name":"3 Players Start"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "32768":{
+          "player":0,
+          "name":"4 Players Start"
+        },
+        "256":{
+          "player":0,
+          "name":"Tilt"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Button 4"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Button 4"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Button 3"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "512":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "1024":{
+          "player":0,
+          "name":"Service 2"
+        },
+        "2048":{
+          "player":0,
+          "name":"Service 3"
+        },
+        "8192":{
+          "player":0,
+          "name":"2 Players Start"
+        }
+      }
+    },
+    ":DIAL.0":{
+      "labels":{
+        "4095":{
+          "player":0,
+          "name":"Dial"
+        }
+      }
+    },
+    ":DIAL.1":{
+      "labels":{
+        "4095":{
+          "player":1,
+          "name":"Dial 2"
+        }
+      }
+    },
+    ":IN.4":{
+      "labels":{
+        "32768":{
+          "player":3,
+          "name":"P4 Button 4"
+        },
+        "4096":{
+          "player":3,
+          "name":"P4 Button 1"
+        },
+        "512":{
+          "player":2,
+          "name":"P3 Button 2"
+        },
+        "8192":{
+          "player":3,
+          "name":"P4 Button 2"
+        },
+        "256":{
+          "player":2,
+          "name":"P3 Button 1"
+        },
+        "2048":{
+          "player":2,
+          "name":"P3 Button 4"
+        },
+        "16384":{
+          "player":3,
+          "name":"P4 Button 3"
+        },
+        "1024":{
+          "player":2,
+          "name":"P3 Button 3"
+        }
+      }
+    },
+    ":IN.3":{
+      "labels":[]
+    }
+  }
+}

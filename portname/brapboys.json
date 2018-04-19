@@ -1,0 +1,151 @@
+{
+  "romname":"brapboys",
+  "ports":{
+    ":EEPROMOUT":{
+      "labels":[]
+    },
+    ":SYSTEM":{
+      "labels":{
+        "32768":{
+          "name":"Coin 3",
+          "player":0
+        },
+        "2048":{
+          "name":"P3 Right",
+          "player":2
+        },
+        "16384":{
+          "name":"3 Players Start",
+          "player":0
+        },
+        "1024":{
+          "name":"P3 Left",
+          "player":2
+        },
+        "8192":{
+          "name":"P3 Button 2",
+          "player":2
+        },
+        "512":{
+          "name":"P3 Down",
+          "player":2
+        },
+        "4096":{
+          "name":"P3 Button 1",
+          "player":2
+        },
+        "256":{
+          "name":"P3 Up",
+          "player":2
+        }
+      }
+    },
+    ":P2":{
+      "labels":{
+        "512":{
+          "name":"P2 Down",
+          "player":1
+        },
+        "8192":{
+          "name":"P2 Button 2",
+          "player":1
+        },
+        "4096":{
+          "name":"P2 Button 1",
+          "player":1
+        },
+        "32768":{
+          "name":"Coin 2",
+          "player":0
+        },
+        "2048":{
+          "name":"P2 Right",
+          "player":1
+        },
+        "256":{
+          "name":"P2 Up",
+          "player":1
+        },
+        "16384":{
+          "name":"2 Players Start",
+          "player":0
+        },
+        "1024":{
+          "name":"P2 Left",
+          "player":1
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "256":{
+          "name":"P1 Up",
+          "player":0
+        },
+        "32768":{
+          "name":"Coin 1",
+          "player":0
+        },
+        "512":{
+          "name":"P1 Down",
+          "player":0
+        },
+        "2048":{
+          "name":"P1 Right",
+          "player":0
+        },
+        "16384":{
+          "name":"1 Player Start",
+          "player":0
+        },
+        "4096":{
+          "name":"P1 Button 1",
+          "player":0
+        },
+        "1024":{
+          "name":"P1 Left",
+          "player":0
+        },
+        "8192":{
+          "name":"P1 Button 2",
+          "player":0
+        }
+      }
+    },
+    ":DSW1":{
+      "labels":{
+        "1":{
+          "name":"Flip Screen",
+          "player":0
+        },
+        "2":{
+          "name":"Service Mode",
+          "player":0
+        },
+        "4":{
+          "name":"Switch Test",
+          "player":0
+        },
+        "16":{
+          "name":"Coin Slots",
+          "player":0
+        },
+        "8":{
+          "name":"Unused",
+          "player":0
+        },
+        "192":{
+          "name":"Difficulty",
+          "player":0
+        },
+        "32":{
+          "name":"Players",
+          "player":0
+        }
+      }
+    },
+    ":UNK":{
+      "labels":[]
+    }
+  }
+}

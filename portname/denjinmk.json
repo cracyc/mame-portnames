@@ -1,0 +1,170 @@
+{
+  "ports":{
+    ":DSW2":{
+      "labels":[]
+    },
+    ":PLAYERS12":{
+      "labels":{
+        "16384":{
+          "player":1,
+          "name":"P2 Button 3"
+        },
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Button 2"
+        }
+      }
+    },
+    ":DSW1":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"Demo Sounds"
+        },
+        "3840":{
+          "player":0,
+          "name":"Coin A"
+        },
+        "16":{
+          "player":0,
+          "name":"Flip Screen"
+        },
+        "61440":{
+          "player":0,
+          "name":"Coin B"
+        },
+        "8":{
+          "player":0,
+          "name":"Unknown"
+        },
+        "128":{
+          "player":0,
+          "name":"Language"
+        },
+        "64":{
+          "player":0,
+          "name":"Service Mode"
+        }
+      }
+    },
+    ":COIN":{
+      "labels":[{
+          "player":0,
+          "name":"Coin 1"
+        },{
+          "player":0,
+          "name":"Coin 2"
+        }]
+    },
+    ":PLAYERS34":{
+      "labels":{
+        "1":{
+          "player":2,
+          "name":"P3 Up"
+        },
+        "2":{
+          "player":2,
+          "name":"P3 Down"
+        },
+        "4":{
+          "player":2,
+          "name":"P3 Left"
+        },
+        "8192":{
+          "player":3,
+          "name":"P4 Button 2"
+        },
+        "8":{
+          "player":2,
+          "name":"P3 Right"
+        },
+        "32":{
+          "player":2,
+          "name":"P3 Button 2"
+        },
+        "512":{
+          "player":3,
+          "name":"P4 Down"
+        },
+        "2048":{
+          "player":3,
+          "name":"P4 Right"
+        },
+        "4096":{
+          "player":3,
+          "name":"P4 Button 1"
+        },
+        "1024":{
+          "player":3,
+          "name":"P4 Left"
+        },
+        "256":{
+          "player":3,
+          "name":"P4 Up"
+        },
+        "16":{
+          "player":2,
+          "name":"P3 Button 1"
+        }
+      }
+    },
+    ":SYSTEM":{
+      "labels":[{
+          "player":0,
+          "name":"1 Player Start"
+        },{
+          "player":0,
+          "name":"2 Players Start"
+        }]
+    }
+  },
+  "romname":"denjinmk"
+}

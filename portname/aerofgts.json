@@ -1,0 +1,19 @@
+{
+    "romname":"aerofgts",
+    "ports":{
+        ":P1":{
+            "labels":{
+                "16":{"name":"P1 Fire"},
+                "32":{"name":"P1 Bomb"},
+                "64":{"name":"P1 Button 3"}
+            }
+        },
+        ":P2":{
+            "labels":{
+                "16":{"name":"P2 Fire"},
+                "32":{"name":"P2 Bomb"},
+                "64":{"name":"P2 Button 3"}
+            }
+        }
+    }
+}

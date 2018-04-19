@@ -1,0 +1,157 @@
+{
+  "romname":"asurabld",
+  "ports":{
+    ":DSW2":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Flip Screen"
+        },
+        "61440":{
+          "player":0,
+          "name":"Coin A"
+        },
+        "48":{
+          "player":0,
+          "name":"Damage"
+        },
+        "3840":{
+          "player":0,
+          "name":"Coin B"
+        },
+        "14":{
+          "player":0,
+          "name":"Difficulty"
+        },
+        "192":{
+          "player":0,
+          "name":"Max Rounds"
+        }
+      }
+    },
+    ":890000":{
+      "labels":[]
+    },
+    ":880000":{
+      "labels":[]
+    },
+    ":800000":{
+      "labels":[]
+    },
+    ":INPUTS":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 Button 3"
+        }
+      }
+    },
+    ":810000":{
+      "labels":[]
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "2":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "256":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "16":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "32":{
+          "player":0,
+          "name":"2 Players Start"
+        }
+      }
+    },
+    ":DSW1":{
+      "labels":{
+        "32768":{
+          "player":0,
+          "name":"Unused"
+        },
+        "1":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "2":{
+          "player":0,
+          "name":"Blood Color"
+        },
+        "12":{
+          "player":0,
+          "name":"Demo Sounds & Music"
+        },
+        "192":{
+          "player":0,
+          "name":"Coinage Mode"
+        },
+        "48":{
+          "player":0,
+          "name":"Timer"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "ports":{
+    ":INPUTS":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "65536":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Button 4"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 Button 3"
+        },
+        "2097152":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "1048576":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "131072":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "32768":{
+          "player":1,
+          "name":"P2 Button 4"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "524288":{
+          "player":0,
+          "name":"Test"
+        },
+        "8388608":{
+          "player":1,
+          "name":"P2 Button 5"
+        },
+        "4194304":{
+          "player":0,
+          "name":"P1 Button 5"
+        },
+        "262144":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Down"
+        }
+      }
+    },
+    ":DSW":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Flip Screen"
+        },
+        "1048576":{
+          "player":0,
+          "name":"Jose's Attacking Power"
+        },
+        "256":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "2":{
+          "player":0,
+          "name":"Language"
+        },
+        "2097152":{
+          "player":0,
+          "name":"Thamalatt's Attacking Power"
+        },
+        "4":{
+          "player":0,
+          "name":"Demo Sounds"
+        },
+        "512":{
+          "player":0,
+          "name":"Free Play"
+        },
+        "4194304":{
+          "player":0,
+          "name":"Kim's Attacking Power"
+        },
+        "65536":{
+          "player":0,
+          "name":"Unused"
+        },
+        "57344":{
+          "player":0,
+          "name":"Coin A"
+        },
+        "524288":{
+          "player":0,
+          "name":"Carolde's Attacking Power"
+        },
+        "48":{
+          "player":0,
+          "name":"Timer Speed"
+        },
+        "8388608":{
+          "player":0,
+          "name":"Jyoji's Attacking Power"
+        },
+        "7168":{
+          "player":0,
+          "name":"Coin B"
+        },
+        "131072":{
+          "player":0,
+          "name":"Grute's Attacking Power"
+        },
+        "262144":{
+          "player":0,
+          "name":"Biff's Attacking Power"
+        },
+        "192":{
+          "player":0,
+          "name":"Difficulty"
+        }
+      }
+    }
+  },
+  "romname":"bbbxing"
+}

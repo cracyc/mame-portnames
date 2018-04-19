@@ -1,0 +1,116 @@
+{
+  "ports":{
+    ":DSW":{
+      "labels":{
+        "3584":{
+          "player":0,
+          "name":"Coinage"
+        },
+        "128":{
+          "player":0,
+          "name":"Free Play"
+        },
+        "3":{
+          "player":0,
+          "name":"Lives"
+        },
+        "4":{
+          "player":0,
+          "name":"Bomb Stock"
+        },
+        "16384":{
+          "player":0,
+          "name":"Unused"
+        },
+        "256":{
+          "player":0,
+          "name":"Demo Sounds"
+        },
+        "32768":{
+          "player":0,
+          "name":"Service Mode"
+        }
+      }
+    },
+    ":INPUTS":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "2":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "67108864":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "2147483648":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2097152":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "65536":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "1048576":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "8388608":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "524288":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "1073741824":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "268435456":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "4194304":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "536870912":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "134217728":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "262144":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "33554432":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "131072":{
+          "player":1,
+          "name":"P2 Button 3"
+        },
+        "16777216":{
+          "player":0,
+          "name":"1 Player Start"
+        }
+      }
+    },
+    ":c00004":{
+      "labels":[]
+    }
+  },
+  "romname":"baryon"
+}

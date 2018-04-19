@@ -1,0 +1,139 @@
+{
+  "ports":{
+    ":PORTH":{
+      "labels":{
+        "8":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "1":{
+          "player":0,
+          "name":"P1 Button 4"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Button 1"
+        }
+      }
+    },
+    ":AN4":{
+      "labels":[]
+    },
+    ":PORTB":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "128":{
+          "player":0,
+          "name":"1 Player Start"
+        }
+      }
+    },
+    ":AN0":{
+      "labels":[]
+    },
+    ":DIAL2":{
+      "labels":[]
+    },
+    ":AN1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"AD Stick X"
+        }
+      }
+    },
+    ":AN6":{
+      "labels":[]
+    },
+    ":AN5":{
+      "labels":[]
+    },
+    ":DSW":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"PCM ROM"
+        },
+        "1":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "2":{
+          "player":0,
+          "name":"DSW2"
+        },
+        "64":{
+          "player":0,
+          "name":"DSW7"
+        },
+        "4":{
+          "player":0,
+          "name":"DSW3"
+        },
+        "128":{
+          "player":0,
+          "name":"Screen Stop"
+        },
+        "8":{
+          "player":0,
+          "name":"DSW4"
+        },
+        "16":{
+          "player":0,
+          "name":"DSW5"
+        }
+      }
+    },
+    ":DIAL1":{
+      "labels":[]
+    },
+    ":DIAL0":{
+      "labels":[]
+    },
+    ":AN7":{
+      "labels":[]
+    },
+    ":DIAL3":{
+      "labels":[]
+    },
+    ":PORTC":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "64":{
+          "player":0,
+          "name":"Service Button"
+        },
+        "16":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "128":{
+          "player":0,
+          "name":"Service 1"
+        }
+      }
+    },
+    ":AN3":{
+      "labels":[]
+    },
+    ":AN2":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"AD Stick Y"
+        }
+      }
+    }
+  },
+  "romname":"solvalou"
+}

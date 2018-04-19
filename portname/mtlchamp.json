@@ -1,0 +1,184 @@
+{
+  "romname":"mtlchamp",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "2":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "32":{
+          "player":0,
+          "name":"Service 2"
+        },
+        "16":{
+          "player":0,
+          "name":"Service 1"
+        }
+      }
+    },
+    ":P1_P2":{
+      "labels":{
+        "2048":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "1":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "32768":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "128":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 Button 3"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Up"
+        }
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "4":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "16":{
+          "player":0,
+          "name":"Sound Output"
+        },
+        "128":{
+          "player":0,
+          "name":"Unused"
+        },
+        "32":{
+          "player":0,
+          "name":"Flip Screen"
+        }
+      }
+    },
+    ":EEPROMOUT":{
+      "labels":[]
+    },
+    ":P3_P4":{
+      "labels":{
+        "16":{
+          "player":2,
+          "name":"P3 Button 1"
+        },
+        "1":{
+          "player":2,
+          "name":"P3 Left"
+        },
+        "2":{
+          "player":2,
+          "name":"P3 Right"
+        },
+        "8192":{
+          "player":3,
+          "name":"P4 Button 2"
+        },
+        "4":{
+          "player":2,
+          "name":"P3 Up"
+        },
+        "512":{
+          "player":3,
+          "name":"P4 Right"
+        },
+        "256":{
+          "player":3,
+          "name":"P4 Left"
+        },
+        "128":{
+          "player":0,
+          "name":"3 Players Start"
+        },
+        "8":{
+          "player":2,
+          "name":"P3 Down"
+        },
+        "32768":{
+          "player":0,
+          "name":"4 Players Start"
+        },
+        "32":{
+          "player":2,
+          "name":"P3 Button 2"
+        },
+        "4096":{
+          "player":3,
+          "name":"P4 Button 1"
+        },
+        "1024":{
+          "player":3,
+          "name":"P4 Up"
+        },
+        "2048":{
+          "player":3,
+          "name":"P4 Down"
+        },
+        "16384":{
+          "player":3,
+          "name":"P4 Button 3"
+        },
+        "64":{
+          "player":2,
+          "name":"P3 Button 3"
+        }
+      }
+    }
+  }
+}

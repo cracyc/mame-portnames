@@ -1,0 +1,202 @@
+{
+  "romname":"calspeed",
+  "ports":{
+    ":SYSTEM":{
+      "labels":{
+        "2048":{
+          "player":0,
+          "name":"Volume Down"
+        },
+        "1":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "2":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "4":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "8":{
+          "player":0,
+          "name":"Tilt"
+        },
+        "128":{
+          "player":0,
+          "name":"Coin 3"
+        },
+        "16":{
+          "player":0,
+          "name":"Service 2"
+        },
+        "64":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "4096":{
+          "player":0,
+          "name":"Volume Up"
+        },
+        "256":{
+          "player":0,
+          "name":"Coin 4"
+        },
+        "512":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "1024":{
+          "player":0,
+          "name":"3 Players Start"
+        }
+      }
+    },
+    ":AN3":{
+      "labels":[]
+    },
+    ":AN2":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Pedal 2"
+        }
+      }
+    },
+    ":GEAR":{
+      "labels":[{
+          "player":0,
+          "name":"1st Gear"
+        },{
+          "player":0,
+          "name":"2nd Gear"
+        },null,{
+          "player":0,
+          "name":"3rd Gear"
+        },null,null,null,{
+          "player":0,
+          "name":"4th Gear"
+        }]
+    },
+    ":AN6":{
+      "labels":[]
+    },
+    ":AN7":{
+      "labels":[]
+    },
+    ":AN5":{
+      "labels":[]
+    },
+    ":IN2":{
+      "labels":[]
+    },
+    ":AN4":{
+      "labels":[]
+    },
+    ":AN0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Paddle"
+        }
+      }
+    },
+    ":DIPS":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Unknown0001"
+        },
+        "2":{
+          "player":0,
+          "name":"Unknown0002"
+        },
+        "4":{
+          "player":0,
+          "name":"Unknown0004"
+        },
+        "64":{
+          "player":0,
+          "name":"Boot ROM Test"
+        },
+        "512":{
+          "player":0,
+          "name":"Unknown0200"
+        },
+        "32":{
+          "player":0,
+          "name":"Unknown0020"
+        },
+        "1024":{
+          "player":0,
+          "name":"Unknown0400"
+        },
+        "256":{
+          "player":0,
+          "name":"Unknown0100"
+        },
+        "8":{
+          "player":0,
+          "name":"Unknown0008"
+        },
+        "2048":{
+          "player":0,
+          "name":"Unknown0800"
+        },
+        "16":{
+          "player":0,
+          "name":"Obsidian Manufacturing Test"
+        },
+        "16384":{
+          "player":0,
+          "name":"Unknown4000"
+        },
+        "4096":{
+          "player":0,
+          "name":"Unknown1000"
+        },
+        "8192":{
+          "player":0,
+          "name":"Unknown2000"
+        },
+        "128":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "32768":{
+          "player":0,
+          "name":"Unknown8000"
+        }
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"View 1"
+        },
+        "32":{
+          "player":0,
+          "name":"View 2"
+        },
+        "2":{
+          "player":0,
+          "name":"Radio"
+        },
+        "64":{
+          "player":0,
+          "name":"View 3"
+        }
+      }
+    },
+    ":AN1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Pedal 1"
+        }
+      }
+    }
+  }
+}

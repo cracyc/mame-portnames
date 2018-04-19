@@ -1,0 +1,140 @@
+{
+  "ports":{
+    ":IN2":{
+      "labels":[]
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "name":"Service 1",
+          "player":0
+        },
+        "2":{
+          "name":"Tilt",
+          "player":0
+        },
+        "4":{
+          "name":"Coin 1",
+          "player":0
+        },
+        "16":{
+          "name":"1 Player Start",
+          "player":0
+        },
+        "8":{
+          "name":"Coin 2",
+          "player":0
+        },
+        "32":{
+          "name":"2 Players Start",
+          "player":0
+        }
+      }
+    },
+    ":DSW0":{
+      "labels":{
+        "2048":{
+          "name":"Allow P2 to Join Game",
+          "player":0
+        },
+        "7":{
+          "name":"Coin A",
+          "player":0
+        },
+        "56":{
+          "name":"Coin B",
+          "player":0
+        },
+        "64":{
+          "name":"Flip Screen",
+          "player":0
+        },
+        "32768":{
+          "name":"Unused",
+          "player":0
+        },
+        "4096":{
+          "name":"Demo Sounds",
+          "player":0
+        },
+        "768":{
+          "name":"Difficulty",
+          "player":0
+        },
+        "8192":{
+          "name":"Lives",
+          "player":0
+        },
+        "128":{
+          "name":"Service Mode",
+          "player":0
+        },
+        "1024":{
+          "name":"Allow Continue",
+          "player":0
+        }
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{
+          "name":"P1 Up",
+          "player":0
+        },
+        "2":{
+          "name":"P1 Down",
+          "player":0
+        },
+        "64":{
+          "name":"P1 Button 3",
+          "player":0
+        },
+        "4":{
+          "name":"P1 Left",
+          "player":0
+        },
+        "1024":{
+          "name":"P2 Left",
+          "player":1
+        },
+        "256":{
+          "name":"P2 Up",
+          "player":1
+        },
+        "8":{
+          "name":"P1 Right",
+          "player":0
+        },
+        "512":{
+          "name":"P2 Down",
+          "player":1
+        },
+        "2048":{
+          "name":"P2 Right",
+          "player":1
+        },
+        "4096":{
+          "name":"P2 Button 1",
+          "player":1
+        },
+        "8192":{
+          "name":"P2 Button 2",
+          "player":1
+        },
+        "16384":{
+          "name":"P2 Button 3",
+          "player":1
+        },
+        "16":{
+          "name":"P1 Button 1",
+          "player":0
+        },
+        "32":{
+          "name":"P1 Button 2",
+          "player":0
+        }
+      }
+    }
+  },
+  "romname":"gunmast"
+}

@@ -1,0 +1,61 @@
+{
+  "ports":{
+    ":INPUTS2":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "16":{
+          "player":0,
+          "name":"1 Player Start"
+        }
+      }
+    },
+    ":SYSTEM":{
+      "labels":[{
+          "player":0,
+          "name":"Service Mode"
+        },{
+          "player":0,
+          "name":"Service 1"
+        },null,{
+          "player":0,
+          "name":"Coin 1"
+        },null,null,null,{
+          "player":0,
+          "name":"Coin 2"
+        }]
+    },
+    ":INPUTS1":{
+      "labels":[null,null,null,null,null,null,null,{
+          "player":0,
+          "name":"P1 Button 5"
+        }]
+    },
+    ":STEER":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"AD Stick X"
+        }
+      }
+    },
+    ":INPUTS0":{
+      "labels":[{
+          "player":0,
+          "name":"Gear Shift"
+        },{
+          "player":0,
+          "name":"Nitro"
+        },null,{
+          "player":0,
+          "name":"Accelerator"
+        },null,null,null,{
+          "player":0,
+          "name":"Brake"
+        }]
+    }
+  },
+  "romname":"cbombers"
+}

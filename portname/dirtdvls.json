@@ -1,0 +1,111 @@
+{
+  "romname":"dirtdvls",
+  "ports":{
+    ":AN0":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Paddle"
+        }
+      }
+    },
+    ":AN1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Pedal 1"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "2":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "16":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "4":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "8":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "32":{
+          "player":0,
+          "name":"2 Players Start"
+        }
+      }
+    },
+    ":DSW":{
+      "labels":[]
+    },
+    ":IN2":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"P1 Button 7"
+        },
+        "1":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Button 8"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Button 4"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Button 5"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Button 6"
+        }
+      }
+    },
+    ":AN2":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Pedal 2"
+        }
+      }
+    },
+    ":IN3":{
+      "labels":[]
+    },
+    ":IN1":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"Test Button B"
+        },
+        "64":{
+          "player":0,
+          "name":"Service Button B"
+        }
+      }
+    }
+  }
+}

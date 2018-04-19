@@ -1,0 +1,199 @@
+{
+  "romname":"brvblade",
+  "ports":{
+    ":ANALOG2":{
+      "labels":[]
+    },
+    ":P4":{
+      "labels":{
+        "1":{
+          "player":3,
+          "name":"P4 Up"
+        },
+        "2":{
+          "player":3,
+          "name":"P4 Down"
+        },
+        "4":{
+          "player":3,
+          "name":"P4 Left"
+        },
+        "32":{
+          "player":3,
+          "name":"P4 Button 2"
+        },
+        "8":{
+          "player":3,
+          "name":"P4 Right"
+        },
+        "16":{
+          "player":3,
+          "name":"P4 Button 1"
+        },
+        "64":{
+          "player":3,
+          "name":"P4 Button 3"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Button 3"
+        }
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "8":{
+          "player":0,
+          "name":"4 Players Start"
+        },
+        "1":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "2":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "64":{
+          "player":0,
+          "name":"Coin 3"
+        },
+        "4":{
+          "player":0,
+          "name":"3 Players Start"
+        },
+        "32":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "128":{
+          "player":0,
+          "name":"Coin 4"
+        },
+        "16":{
+          "player":0,
+          "name":"Coin 1"
+        }
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Button 3"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Right"
+        }
+      }
+    },
+    ":DSW":{
+      "labels":[null,{
+          "player":0,
+          "name":"Service Mode"
+        },null,{
+          "player":0,
+          "name":"Unknown"
+        },null,null,null,{
+          "player":0,
+          "name":"Test Mode"
+        }]
+    },
+    ":SERVICE":{
+      "labels":[{
+          "player":0,
+          "name":"Service Mode"
+        },{
+          "player":0,
+          "name":"Service 1"
+        },null,{
+          "player":0,
+          "name":"Tilt"
+        }]
+    },
+    ":ANALOG1":{
+      "labels":[]
+    },
+    ":P3":{
+      "labels":{
+        "1":{
+          "player":2,
+          "name":"P3 Up"
+        },
+        "32":{
+          "player":2,
+          "name":"P3 Button 2"
+        },
+        "2":{
+          "player":2,
+          "name":"P3 Down"
+        },
+        "4":{
+          "player":2,
+          "name":"P3 Left"
+        },
+        "8":{
+          "player":2,
+          "name":"P3 Right"
+        },
+        "64":{
+          "player":2,
+          "name":"P3 Button 3"
+        },
+        "16":{
+          "player":2,
+          "name":"P3 Button 1"
+        }
+      }
+    }
+  }
+}

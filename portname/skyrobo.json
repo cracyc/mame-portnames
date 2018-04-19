@@ -1,0 +1,137 @@
+{
+  "ports":{
+    ":DSW0":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"Demo Sounds"
+        },
+        "3":{
+          "player":0,
+          "name":"Lives"
+        },
+        "12":{
+          "player":0,
+          "name":"Bonus Life"
+        },
+        "32":{
+          "player":0,
+          "name":"Cabinet"
+        },
+        "192":{
+          "player":0,
+          "name":"Difficulty"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "1024":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "2048":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "256":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "512":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Button 2"
+        }
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "256":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "512":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Button 3"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Button 2"
+        }
+      }
+    },
+    ":DSW1":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"Unknown"
+        },
+        "12":{
+          "player":0,
+          "name":"Coin B"
+        },
+        "64":{
+          "player":0,
+          "name":"Flip Screen"
+        },
+        "3":{
+          "player":0,
+          "name":"Coin A"
+        }
+      }
+    }
+  },
+  "romname":"skyrobo"
+}

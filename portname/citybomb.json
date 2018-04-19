@@ -1,0 +1,161 @@
+{
+  "romname":"citybomb",
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "1":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "128":{
+          "player":0,
+          "name":"Device Type"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Button 3"
+        }
+      }
+    },
+    ":DSW1":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"Demo Sounds"
+        },
+        "2":{
+          "player":0,
+          "name":"Unused"
+        },
+        "4":{
+          "player":0,
+          "name":"Cabinet"
+        },
+        "24":{
+          "player":0,
+          "name":"Qualify"
+        },
+        "96":{
+          "player":0,
+          "name":"Difficulty"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "16":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "1":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Button 3"
+        }
+      }
+    },
+    ":ACCEL":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Pedal 1"
+        }
+      }
+    },
+    ":DSW0":{
+      "labels":{
+        "240":{
+          "player":0,
+          "name":"Coin B"
+        },
+        "15":{
+          "player":0,
+          "name":"Coin A"
+        }
+      }
+    },
+    ":WHEEL":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Paddle"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "16":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "2":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "32":{
+          "player":0,
+          "name":"Flip Screen"
+        },
+        "4":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "128":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "64":{
+          "player":0,
+          "name":"Upright Controls"
+        },
+        "8":{
+          "player":0,
+          "name":"1 Player Start"
+        }
+      }
+    }
+  }
+}

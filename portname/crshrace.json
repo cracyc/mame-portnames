@@ -1,0 +1,197 @@
+{
+  "romname":"crshrace",
+  "ports":{
+    ":DSW2":{
+      "labels":{
+        "3840":{
+          "player":0,
+          "name":"Region"
+        }
+      }
+    },
+    ":DSW0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Flip Screen"
+        },
+        "8":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "3584":{
+          "player":0,
+          "name":"Coin A"
+        },
+        "2":{
+          "player":0,
+          "name":"Demo Sounds"
+        },
+        "32768":{
+          "player":0,
+          "name":"2 to Start, 1 to Cont."
+        },
+        "4":{
+          "player":0,
+          "name":"Free Play"
+        },
+        "192":{
+          "player":0,
+          "name":"Difficulty"
+        },
+        "256":{
+          "player":0,
+          "name":"Coin Slot"
+        },
+        "28672":{
+          "player":0,
+          "name":"Coin B"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "32768":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "512":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "4096":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "8192":{
+          "player":0,
+          "name":"Service 2"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "16384":{
+          "player":0,
+          "name":"Tilt"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "1024":{
+          "player":0,
+          "name":"Coin 3"
+        },
+        "256":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "2048":{
+          "player":0,
+          "name":"1 Player Start"
+        }
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Button 3"
+        }
+      }
+    },
+    ":P3":{
+      "labels":{
+        "8":{
+          "player":2,
+          "name":"P3 Right"
+        },
+        "1":{
+          "player":2,
+          "name":"P3 Up"
+        },
+        "2":{
+          "player":2,
+          "name":"P3 Down"
+        },
+        "16":{
+          "player":2,
+          "name":"P3 Button 1"
+        },
+        "4":{
+          "player":2,
+          "name":"P3 Left"
+        },
+        "32":{
+          "player":2,
+          "name":"P3 Button 2"
+        },
+        "128":{
+          "player":0,
+          "name":"3 Players Start"
+        },
+        "64":{
+          "player":2,
+          "name":"P3 Button 3"
+        }
+      }
+    },
+    ":DSW1":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"Reset on P.O.S.T. Error"
+        },
+        "64":{
+          "player":0,
+          "name":"Unused"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "ports":{
+    ":IN2":{
+      "labels":[]
+    },
+    ":KEYPAD":{
+      "labels":{
+        "1":{
+          "name":"Keypad 3",
+          "player":0
+        },
+        "2":{
+          "name":"Keypad 1",
+          "player":0
+        },
+        "4":{
+          "name":"Keypad 2",
+          "player":0
+        },
+        "16":{
+          "name":"Keypad 6",
+          "player":0
+        },
+        "32":{
+          "name":"Keypad 4",
+          "player":0
+        },
+        "8192":{
+          "name":"Keypad *",
+          "player":0
+        },
+        "256":{
+          "name":"Keypad 9",
+          "player":0
+        },
+        "4096":{
+          "name":"Keypad #",
+          "player":0
+        },
+        "512":{
+          "name":"Keypad 7",
+          "player":0
+        },
+        "16384":{
+          "name":"Keypad 0",
+          "player":0
+        },
+        "64":{
+          "name":"Keypad 5",
+          "player":0
+        },
+        "1024":{
+          "name":"Keypad 8",
+          "player":0
+        }
+      }
+    },
+    ":ANALOG1":{
+      "labels":{
+        "255":{
+          "name":"P1 Pedal 2",
+          "player":0
+        }
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1":{
+          "name":"Coin 1",
+          "player":0
+        },
+        "2":{
+          "name":"Coin 2",
+          "player":0
+        },
+        "64":{
+          "name":"Service 1",
+          "player":0
+        },
+        "4":{
+          "name":"1 Player Start",
+          "player":0
+        },
+        "256":{
+          "name":"Coin 4",
+          "player":0
+        },
+        "16":{
+          "name":"Service Mode",
+          "player":0
+        },
+        "8":{
+          "name":"Tilt",
+          "player":0
+        },
+        "4096":{
+          "name":"Volume Up",
+          "player":0
+        },
+        "512":{
+          "name":"3 Players Start",
+          "player":0
+        },
+        "128":{
+          "name":"Coin 3",
+          "player":0
+        },
+        "32":{
+          "name":"2 Players Start",
+          "player":0
+        },
+        "1024":{
+          "name":"4 Players Start",
+          "player":0
+        },
+        "2048":{
+          "name":"Volume Down",
+          "player":0
+        },
+        "32768":{
+          "name":"Bill 1",
+          "player":0
+        }
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1024":{
+          "name":"3rd Gear",
+          "player":0
+        },
+        "2":{
+          "name":"Radio",
+          "player":0
+        },
+        "16":{
+          "name":"View 1",
+          "player":0
+        },
+        "256":{
+          "name":"1st Gear",
+          "player":0
+        },
+        "512":{
+          "name":"2nd Gear",
+          "player":0
+        },
+        "32":{
+          "name":"View 2",
+          "player":0
+        },
+        "128":{
+          "name":"View 4",
+          "player":0
+        },
+        "2048":{
+          "name":"4th Gear",
+          "player":0
+        },
+        "64":{
+          "name":"View 3",
+          "player":0
+        }
+      }
+    },
+    ":ANALOG2":{
+      "labels":{
+        "255":{
+          "name":"P1 Pedal 1",
+          "player":0
+        }
+      }
+    },
+    ":DIPS":{
+      "labels":{
+        "1024":{
+          "name":"Cabinet",
+          "player":0
+        },
+        "4096":{
+          "name":"ROM Configuration",
+          "player":0
+        },
+        "128":{
+          "name":"Test Switch",
+          "player":0
+        },
+        "2048":{
+          "name":"Wheel Invert",
+          "player":0
+        },
+        "49152":{
+          "name":"Linking I.D.",
+          "player":0
+        },
+        "8192":{
+          "name":"Link",
+          "player":0
+        },
+        "96":{
+          "name":"Coin Mode",
+          "player":0
+        },
+        "512":{
+          "name":"Seat Motion",
+          "player":0
+        },
+        "256":{
+          "name":"Game Type",
+          "player":0
+        },
+        "31":{
+          "name":"Country Code",
+          "player":0
+        }
+      }
+    },
+    ":ANALOG3":{
+      "labels":{
+        "255":{
+          "name":"Paddle",
+          "player":0
+        }
+      }
+    },
+    ":ANALOG0":{
+      "labels":[]
+    }
+  },
+  "romname":"crusnexo"
+}

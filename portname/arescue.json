@@ -1,0 +1,119 @@
+{
+  "ports":{
+    ":slavepcb:SERVICE12_A":{
+      "labels":[{
+          "name":"Service 2",
+          "player":0
+        },{
+          "name":"slavepcb:Service Mode",
+          "player":0
+        },null,{
+          "name":"Coin 3",
+          "player":0
+        },null,null,null,{
+          "name":"Coin 4",
+          "player":0
+        }]
+    },
+    ":slavepcb:ANALOG3":{
+      "labels":{
+        "255":{
+          "name":"AD Stick Z 2",
+          "player":1
+        }
+      }
+    },
+    ":slavepcb:ANALOG1":{
+      "labels":{
+        "255":{
+          "name":"AD Stick X 2",
+          "player":1
+        }
+      }
+    },
+    ":mainpcb:SERVICE12_A":{
+      "labels":[{
+          "name":"Service 1",
+          "player":0
+        },{
+          "name":"Service Mode",
+          "player":0
+        },null,{
+          "name":"Coin 1",
+          "player":0
+        },null,null,null,{
+          "name":"Coin 2",
+          "player":0
+        }]
+    },
+    ":mainpcb:PORTC_A":{
+      "labels":[]
+    },
+    ":mainpcb:ANALOG3":{
+      "labels":{
+        "255":{
+          "name":"AD Stick Z",
+          "player":0
+        }
+      }
+    },
+    ":slavepcb:ANALOG2":{
+      "labels":{
+        "255":{
+          "name":"AD Stick Y 2",
+          "player":1
+        }
+      }
+    },
+    ":mainpcb:P1_A":{
+      "labels":[{
+          "name":"P1 Button 1",
+          "player":0
+        },{
+          "name":"P1 Button 2",
+          "player":0
+        }]
+    },
+    ":mainpcb:SERVICE34_A":{
+      "labels":[]
+    },
+    ":slavepcb:P1_A":{
+      "labels":[{
+          "name":"P2 Button 1",
+          "player":1
+        },{
+          "name":"P2 Button 2",
+          "player":1
+        }]
+    },
+    ":mainpcb:ANALOG1":{
+      "labels":{
+        "255":{
+          "name":"AD Stick X",
+          "player":0
+        }
+      }
+    },
+    ":mainpcb:P2_A":{
+      "labels":[]
+    },
+    ":slavepcb:P2_A":{
+      "labels":[]
+    },
+    ":mainpcb:ANALOG2":{
+      "labels":{
+        "255":{
+          "name":"AD Stick Y",
+          "player":0
+        }
+      }
+    },
+    ":slavepcb:PORTC_A":{
+      "labels":[]
+    },
+    ":slavepcb:SERVICE34_A":{
+      "labels":[]
+    }
+  },
+  "romname":"arescue"
+}

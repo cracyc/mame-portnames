@@ -1,0 +1,138 @@
+{
+  "ports":{
+    ":DSWB":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"Unused"
+        },
+        "3":{
+          "player":0,
+          "name":"Difficulty"
+        },
+        "12":{
+          "player":0,
+          "name":"Time"
+        },
+        "64":{
+          "player":0,
+          "name":"Allow Continue"
+        },
+        "48":{
+          "player":0,
+          "name":"'1 minute' Lasts:"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Up"
+        }
+      }
+    },
+    ":DSWA":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Unused"
+        },
+        "2":{
+          "player":0,
+          "name":"Flip Screen"
+        },
+        "8":{
+          "player":0,
+          "name":"Demo Sounds"
+        },
+        "4":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "192":{
+          "player":0,
+          "name":"Coin B"
+        },
+        "48":{
+          "player":0,
+          "name":"Coin A"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "4":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "128":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "64":{
+          "player":0,
+          "name":"Tilt"
+        },
+        "8":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Button 2"
+        }
+      }
+    },
+    ":IN1":{
+      "labels":[{
+          "player":0,
+          "name":"Coin 2"
+        },{
+          "player":0,
+          "name":"Coin 1"
+        }]
+    }
+  },
+  "romname":"champwr"
+}

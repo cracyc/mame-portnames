@@ -1,0 +1,120 @@
+{
+  "ports":{
+    ":DSWB":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"3D Effect"
+        },
+        "3":{
+          "player":0,
+          "name":"Difficulty 1 (time/speed)"
+        },
+        "12":{
+          "player":0,
+          "name":"Difficulty 2 (other cars)"
+        },
+        "128":{
+          "player":0,
+          "name":"Unused"
+        },
+        "16":{
+          "player":0,
+          "name":"Steering Wheel"
+        }
+      }
+    },
+    ":STEER":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Steering Wheel"
+        }
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "224":{
+          "player":0,
+          "name":"Brake Switch"
+        },
+        "16":{
+          "player":0,
+          "name":"Shifter"
+        },
+        "4":{
+          "player":0,
+          "name":"Tilt"
+        },
+        "8":{
+          "player":0,
+          "name":"1 Player Start"
+        }
+      }
+    },
+    ":GAS":{
+      "labels":[null,null,null,null,null,null,{
+          "player":0,
+          "name":"Gas Pedal"
+        }]
+    },
+    ":IN0":{
+      "labels":{
+        "8":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "4":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "224":{
+          "player":0,
+          "name":"Gas Switch"
+        },
+        "16":{
+          "player":0,
+          "name":"Service 1"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":[]
+    },
+    ":DSWA":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Cabinet"
+        },
+        "2":{
+          "player":0,
+          "name":"Continue Price"
+        },
+        "4":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "48":{
+          "player":0,
+          "name":"Coin A"
+        },
+        "8":{
+          "player":0,
+          "name":"Demo Sounds"
+        },
+        "192":{
+          "player":0,
+          "name":"Coin B"
+        }
+      }
+    },
+    ":BRAKE":{
+      "labels":[null,null,null,null,null,null,{
+          "player":0,
+          "name":"Brake Pedal"
+        }]
+    }
+  },
+  "romname":"contcirc"
+}

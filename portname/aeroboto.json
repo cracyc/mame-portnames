@@ -1,0 +1,113 @@
+{
+  "ports":{
+    ":DSW1":{
+      "labels":{
+        "32":{
+          "name":"Demo Sounds",
+          "player":0
+        },
+        "3":{
+          "name":"Lives",
+          "player":0
+        },
+        "12":{
+          "name":"Bonus Life",
+          "player":0
+        },
+        "128":{
+          "name":"Coin 1",
+          "player":0
+        },
+        "16":{
+          "name":"Unused",
+          "player":0
+        },
+        "64":{
+          "name":"Cabinet",
+          "player":0
+        }
+      }
+    },
+    ":P2":{
+      "labels":{
+        "32":{
+          "name":"P2 Laser / Hold for Energy",
+          "player":1
+        },
+        "1":{
+          "name":"P2 Up",
+          "player":1
+        },
+        "2":{
+          "name":"P2 Down",
+          "player":1
+        },
+        "4":{
+          "name":"P2 Right",
+          "player":1
+        },
+        "8":{
+          "name":"P2 Left",
+          "player":1
+        },
+        "16":{
+          "name":"P2 Jump Button / Hold to Transform",
+          "player":1
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "32":{
+          "name":"P1 Laser / Hold for Energy",
+          "player":0
+        },
+        "1":{
+          "name":"P1 Up",
+          "player":0
+        },
+        "2":{
+          "name":"P1 Down",
+          "player":0
+        },
+        "64":{
+          "name":"1 Player Start",
+          "player":0
+        },
+        "4":{
+          "name":"P1 Right",
+          "player":0
+        },
+        "128":{
+          "name":"2 Players Start",
+          "player":0
+        },
+        "16":{
+          "name":"P1 Jump Button / Hold to Transform",
+          "player":0
+        },
+        "8":{
+          "name":"P1 Left",
+          "player":0
+        }
+      }
+    },
+    ":DSW2":{
+      "labels":{
+        "24":{
+          "name":"Difficulty",
+          "player":0
+        },
+        "128":{
+          "name":"Unused",
+          "player":0
+        },
+        "7":{
+          "name":"Coinage",
+          "player":0
+        }
+      }
+    }
+  },
+  "romname":"aeroboto"
+}

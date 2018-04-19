@@ -1,0 +1,215 @@
+{
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "16384":{
+          "player":0,
+          "name":"Coin 4"
+        },
+        "1":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "2":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "4":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "64":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "16":{
+          "player":0,
+          "name":"Enter"
+        },
+        "8":{
+          "player":0,
+          "name":"Tilt"
+        },
+        "128":{
+          "player":0,
+          "name":"Coin 3"
+        },
+        "4096":{
+          "player":0,
+          "name":"2nd Gear"
+        },
+        "8192":{
+          "player":0,
+          "name":"1st Gear"
+        },
+        "512":{
+          "player":0,
+          "name":"Volume Up"
+        },
+        "2048":{
+          "player":0,
+          "name":"3rd Gear"
+        },
+        "256":{
+          "player":0,
+          "name":"Volume Down"
+        },
+        "1024":{
+          "player":0,
+          "name":"4th Gear"
+        }
+      }
+    },
+    ":MOTION":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Motion Status - Mat Not Plugged In"
+        },
+        "128":{
+          "player":0,
+          "name":"Motion Status - Board Not Plugged In"
+        },
+        "2":{
+          "player":0,
+          "name":"Motion Status - Mat Stepped On"
+        },
+        "64":{
+          "player":0,
+          "name":"Motion Status - Fail Safe Switch Not Connected Correctly"
+        },
+        "4":{
+          "player":0,
+          "name":"Motion Status - Opto Path Broken"
+        },
+        "16":{
+          "player":0,
+          "name":"Motion Status - Opto LED Not Emitting"
+        },
+        "32":{
+          "player":0,
+          "name":"Motion Status - Fail Safe Switch Engaged"
+        },
+        "8":{
+          "player":0,
+          "name":"Motion Status - Opto Detector Not Receiving"
+        }
+      }
+    },
+    ":992000":{
+      "labels":[]
+    },
+    ":IN1":{
+      "labels":{
+        "2048":{
+          "player":0,
+          "name":"Motion Status - Device 4"
+        },
+        "2":{
+          "player":0,
+          "name":"Radio"
+        },
+        "256":{
+          "player":0,
+          "name":"Motion Status - Device 1"
+        },
+        "32":{
+          "player":0,
+          "name":"View 2"
+        },
+        "512":{
+          "player":0,
+          "name":"Motion Status - Device 2"
+        },
+        "64":{
+          "player":0,
+          "name":"View 3"
+        },
+        "16":{
+          "player":0,
+          "name":"View 1"
+        },
+        "1024":{
+          "player":0,
+          "name":"Motion Status - Device 3"
+        },
+        "128":{
+          "player":0,
+          "name":"Motion Stop"
+        }
+      }
+    },
+    ":DSW":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Link Status"
+        },
+        "2":{
+          "player":0,
+          "name":"Link???"
+        },
+        "4":{
+          "player":0,
+          "name":"Linking"
+        },
+        "32":{
+          "player":0,
+          "name":"Cabinet"
+        },
+        "8":{
+          "player":0,
+          "name":"Unknown"
+        },
+        "256":{
+          "player":0,
+          "name":"Coin Counters"
+        },
+        "128":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "64":{
+          "player":0,
+          "name":"Enable Motion"
+        },
+        "65024":{
+          "player":0,
+          "name":"Coinage"
+        },
+        "16":{
+          "player":0,
+          "name":"Freeze"
+        }
+      }
+    },
+    ":991030":{
+      "labels":[]
+    },
+    ":WHEEL":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Paddle"
+        }
+      }
+    },
+    ":ACCEL":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Pedal 1"
+        }
+      }
+    },
+    ":BRAKE":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Pedal 2"
+        }
+      }
+    }
+  },
+  "romname":"crusnusa"
+}

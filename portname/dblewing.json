@@ -1,0 +1,125 @@
+{
+  "ports":{
+    ":DSW":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"Flip Screen"
+        },
+        "7":{
+          "player":0,
+          "name":"Coin A"
+        },
+        "56":{
+          "player":0,
+          "name":"Coin B"
+        },
+        "32768":{
+          "player":0,
+          "name":"Demo Sounds"
+        },
+        "768":{
+          "player":0,
+          "name":"Lives"
+        },
+        "128":{
+          "player":0,
+          "name":"Region"
+        },
+        "12288":{
+          "player":0,
+          "name":"Bonus Life"
+        },
+        "16384":{
+          "player":0,
+          "name":"Allow Continue"
+        },
+        "3072":{
+          "player":0,
+          "name":"Difficulty"
+        }
+      }
+    },
+    ":INPUTS":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "1024":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "128":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "32768":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 Button 3"
+        }
+      }
+    },
+    ":SYSTEM":{
+      "labels":[{
+          "player":0,
+          "name":"Coin 1"
+        },{
+          "player":0,
+          "name":"Coin 2"
+        },null,{
+          "player":0,
+          "name":"Service 1"
+        }]
+    }
+  },
+  "romname":"dblewing"
+}

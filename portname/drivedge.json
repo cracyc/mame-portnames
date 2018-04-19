@@ -1,0 +1,117 @@
+{
+  "ports":{
+    ":82000":{
+      "labels":{
+        "16711680":{
+          "player":0,
+          "name":"P1 Pedal 2"
+        }
+      }
+    },
+    ":GAS":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Pedal 1"
+        }
+      }
+    },
+    ":80000":{
+      "labels":{
+        "16711680":{
+          "player":0,
+          "name":"P1 Pedal 3"
+        }
+      }
+    },
+    ":200000":{
+      "labels":{
+        "2147483648":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "33554432":{
+          "player":0,
+          "name":"Coin 3"
+        },
+        "1879048192":{
+          "player":0,
+          "name":"Network Number"
+        }
+      }
+    },
+    ":8c000":{
+      "labels":{
+        "262144":{
+          "player":0,
+          "name":"Gear 1"
+        },
+        "1048576":{
+          "player":0,
+          "name":"Gear 3"
+        },
+        "524288":{
+          "player":0,
+          "name":"Gear 2"
+        },
+        "2097152":{
+          "player":0,
+          "name":"Gear 4"
+        },
+        "65536":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "131072":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "4194304":{
+          "player":0,
+          "name":"Service Mode"
+        }
+      }
+    },
+    ":8e000":{
+      "labels":{
+        "524288":{
+          "player":0,
+          "name":"Turbo Boost"
+        },
+        "262144":{
+          "player":0,
+          "name":"Horn"
+        },
+        "131072":{
+          "player":0,
+          "name":"Tow Truck"
+        },
+        "2097152":{
+          "player":0,
+          "name":"Key"
+        },
+        "1048576":{
+          "player":0,
+          "name":"Network On"
+        },
+        "65536":{
+          "player":0,
+          "name":"Fan"
+        },
+        "4194304":{
+          "player":0,
+          "name":"Service 1"
+        }
+      }
+    },
+    ":STEER":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"Paddle"
+        }
+      }
+    }
+  },
+  "romname":"drivedge"
+}

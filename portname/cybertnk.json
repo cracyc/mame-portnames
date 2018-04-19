@@ -1,0 +1,133 @@
+{
+  "romname":"cybertnk",
+  "ports":{
+    ":ELEVATE":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Machine Gun Y"
+        }
+      }
+    },
+    ":DSW1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Allow Continue"
+        },
+        "2":{
+          "player":0,
+          "name":"Demo Sounds"
+        },
+        "64":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "128":{
+          "player":0,
+          "name":"2 Credits to Start"
+        },
+        "3840":{
+          "player":0,
+          "name":"Coin A"
+        },
+        "12":{
+          "player":0,
+          "name":"Difficulty"
+        },
+        "32":{
+          "player":0,
+          "name":"Unknown"
+        },
+        "16":{
+          "player":0,
+          "name":"Coin B Value"
+        },
+        "61440":{
+          "player":0,
+          "name":"Coin B"
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "32768":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Machine Gun 1 (Bomb)"
+        },
+        "512":{
+          "player":0,
+          "name":"P1 Cannon 1 (Bomb)"
+        },
+        "2048":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "4096":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "16384":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "8192":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "1024":{
+          "player":0,
+          "name":"Service 1"
+        }
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "64":{
+          "player":1,
+          "name":"P2 Machine Gun 2 (Fire)"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Cannon 2 (Fire)"
+        }
+      }
+    },
+    ":HANDLE":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Handle"
+        }
+      }
+    },
+    ":TRAVERSE":{
+      "labels":{
+        "255":{
+          "player":1,
+          "name":"P2 Machine Gun X"
+        }
+      }
+    },
+    ":ACCEL":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"P1 Accelerate"
+        }
+      }
+    },
+    ":DSW2":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"Unknown"
+        }
+      }
+    }
+  }
+}

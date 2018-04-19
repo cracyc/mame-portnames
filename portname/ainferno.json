@@ -1,0 +1,136 @@
+{
+  "romname":"ainferno",
+  "ports":{
+    ":IN2":{
+      "labels":[]
+    },
+    ":yokectrl:STICK_Y":{
+      "labels":{
+        "4095":{
+          "name":"Yoke Y",
+          "player":1
+        }
+      }
+    },
+    ":DSWB":{
+      "labels":{
+        "12":{
+          "name":"Timer Length",
+          "player":0
+        },
+        "16":{
+          "name":"Rudder Pedal",
+          "player":0
+        },
+        "128":{
+          "name":"Unused",
+          "player":0
+        },
+        "3":{
+          "name":"Difficulty",
+          "player":0
+        }
+      }
+    },
+    ":DSWA":{
+      "labels":{
+        "1":{
+          "name":"Moving Control",
+          "player":0
+        },
+        "2":{
+          "name":"Motion Test Mode",
+          "player":0
+        },
+        "4":{
+          "name":"Service Mode",
+          "player":0
+        },
+        "192":{
+          "name":"Price to Continue",
+          "player":0
+        },
+        "8":{
+          "name":"Demo Sounds",
+          "player":0
+        },
+        "48":{
+          "name":"Coinage",
+          "player":0
+        }
+      }
+    },
+    ":yokectrl:THROTTLE":{
+      "labels":{
+        "4095":{
+          "name":"Throttle Lever",
+          "player":1
+        }
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{
+          "name":"P1 Button 1",
+          "player":0
+        },
+        "2":{
+          "name":"P1 Button 2",
+          "player":0
+        },
+        "4":{
+          "name":"P1 Button 3",
+          "player":0
+        },
+        "32":{
+          "name":"P1 Button 5",
+          "player":0
+        },
+        "8":{
+          "name":"P1 Button 4",
+          "player":0
+        },
+        "16":{
+          "name":"P1 Button 6",
+          "player":0
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "64":{
+          "name":"1 Player Start",
+          "player":0
+        },
+        "128":{
+          "name":"2 Players Start",
+          "player":0
+        },
+        "4":{
+          "name":"Coin 1",
+          "player":0
+        },
+        "8":{
+          "name":"Coin 2",
+          "player":0
+        },
+        "16":{
+          "name":"Service 1",
+          "player":0
+        },
+        "32":{
+          "name":"Tilt",
+          "player":0
+        }
+      }
+    },
+    ":yokectrl:STICK_X":{
+      "labels":{
+        "4095":{
+          "name":"Yoke X",
+          "player":1
+        }
+      }
+    }
+  }
+}

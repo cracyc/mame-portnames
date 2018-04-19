@@ -1,0 +1,146 @@
+{
+  "romname":"rumblef2",
+  "ports":{
+    ":P2.1":{
+      "labels":{
+        "4":{
+          "player":1,
+          "name":"P2 Button 4"
+        },
+        "1":{
+          "player":1,
+          "name":"P2 Button 6"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Button 5"
+        },
+        "32":{
+          "player":0,
+          "name":"Service 2"
+        }
+      }
+    },
+    ":P2.0":{
+      "labels":{
+        "64":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "1":{
+          "player":1,
+          "name":"P2 Button 3"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "8":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Up"
+        }
+      }
+    },
+    ":P1.0":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "8":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Down"
+        }
+      }
+    },
+    ":MAMEDEBUG":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Bilinear Filtering"
+        },
+        "2":{
+          "player":0,
+          "name":"Disable Render Calls"
+        },
+        "12":{
+          "player":0,
+          "name":"Master CPU Clock Rate (Cheat)"
+        }
+      }
+    },
+    ":COINS":{
+      "labels":[{
+          "player":0,
+          "name":"Coin 1"
+        },{
+          "player":0,
+          "name":"Coin 2"
+        }]
+    },
+    ":P1.1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Button 6"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Button 4"
+        },
+        "64":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Button 5"
+        },
+        "32":{
+          "player":0,
+          "name":"Service 1"
+        }
+      }
+    }
+  }
+}

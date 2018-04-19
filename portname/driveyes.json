@@ -1,0 +1,157 @@
+{
+  "romname":"driveyes",
+  "ports":{
+    ":PORTC":{
+      "labels":{
+        "64":{
+          "name":"Service Button",
+          "player":0
+        },
+        "32":{
+          "name":"Coin 1",
+          "player":0
+        },
+        "16":{
+          "name":"Coin 2",
+          "player":0
+        },
+        "128":{
+          "name":"Service 1",
+          "player":0
+        }
+      }
+    },
+    ":PORTB":{
+      "labels":[]
+    },
+    ":DSW":{
+      "labels":{
+        "1":{
+          "name":"Service Mode",
+          "player":0
+        },
+        "128":{
+          "name":"Screen Stop",
+          "player":0
+        },
+        "2":{
+          "name":"DSW2",
+          "player":0
+        },
+        "64":{
+          "name":"DSW7",
+          "player":0
+        },
+        "4":{
+          "name":"DSW3",
+          "player":0
+        },
+        "8":{
+          "name":"DSW4",
+          "player":0
+        },
+        "32":{
+          "name":"PCM ROM",
+          "player":0
+        },
+        "16":{
+          "name":"DSW5",
+          "player":0
+        }
+      }
+    },
+    ":AN1":{
+      "labels":{
+        "255":{
+          "name":"Gas Pedal",
+          "player":0
+        }
+      }
+    },
+    ":DIAL1":{
+      "labels":[]
+    },
+    ":AN2":{
+      "labels":{
+        "255":{
+          "name":"Steering Wheel",
+          "player":0
+        }
+      }
+    },
+    ":gearbox:CLUTCH":{
+      "labels":[{
+          "name":"Clutch Pedal",
+          "player":1
+        }]
+    },
+    ":PORTH":{
+      "labels":{
+        "32":{
+          "name":"Green Button",
+          "player":0
+        },
+        "8":{
+          "name":"Red Button",
+          "player":0
+        }
+      }
+    },
+    ":AN0":{
+      "labels":[]
+    },
+    ":AN5":{
+      "labels":[]
+    },
+    ":DIAL0":{
+      "labels":[]
+    },
+    ":AN6":{
+      "labels":[]
+    },
+    ":AN7":{
+      "labels":[]
+    },
+    ":AN3":{
+      "labels":{
+        "255":{
+          "name":"Brake Pedal",
+          "player":0
+        }
+      }
+    },
+    ":DIAL3":{
+      "labels":[]
+    },
+    ":gearbox:GEARBOX":{
+      "labels":[{
+          "name":"Gearbox Up",
+          "player":1
+        },{
+          "name":"Gearbox Down",
+          "player":1
+        },null,{
+          "name":"Gearbox Left",
+          "player":1
+        },null,null,null,{
+          "name":"Gearbox Right",
+          "player":1
+        }]
+    },
+    ":DIAL2":{
+      "labels":[]
+    },
+    ":gearbox:CONFIG":{
+      "labels":[{
+          "name":"Clutch Mode",
+          "player":0
+        },{
+          "name":"Gearbox Debug",
+          "player":0
+        }]
+    },
+    ":AN4":{
+      "labels":[]
+    }
+  }
+}

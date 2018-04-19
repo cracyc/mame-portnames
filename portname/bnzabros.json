@@ -1,0 +1,156 @@
+{
+  "romname":"bnzabros",
+  "ports":{
+    ":COINAGE":{
+      "labels":{
+        "240":{
+          "player":0,
+          "name":"Coin B"
+        },
+        "15":{
+          "player":0,
+          "name":"Coin A"
+        }
+      }
+    },
+    ":DSW":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Demo Sounds"
+        },
+        "2":{
+          "player":0,
+          "name":"Start Credit"
+        },
+        "4":{
+          "player":0,
+          "name":"Coin Chute"
+        },
+        "192":{
+          "player":0,
+          "name":"Lives"
+        },
+        "48":{
+          "player":0,
+          "name":"Difficulty"
+        },
+        "8":{
+          "player":0,
+          "name":"Flip Screen"
+        }
+      }
+    },
+    ":P3":{
+      "labels":[]
+    },
+    ":P1":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "1":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "8":{
+          "player":0,
+          "name":"Service 2"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Right"
+        }
+      }
+    },
+    ":P2":{
+      "labels":{
+        "16":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "1":{
+          "player":1,
+          "name":"P2 Button 3"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "8":{
+          "player":0,
+          "name":"Service 3"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Right"
+        }
+      }
+    },
+    ":SERVICE":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "2":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "4":{
+          "player":0,
+          "name":"Service"
+        },
+        "128":{
+          "player":0,
+          "name":"Coin 4"
+        },
+        "32":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "64":{
+          "player":0,
+          "name":"Coin 3"
+        },
+        "16":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "8":{
+          "player":0,
+          "name":"Service 1"
+        }
+      }
+    }
+  }
+}

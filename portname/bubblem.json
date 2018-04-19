@@ -1,0 +1,230 @@
+{
+  "romname":"bubblem",
+  "ports":{
+    ":DIAL.1":{
+      "labels":{
+        "4095":{
+          "player":1,
+          "name":"Dial 2"
+        }
+      }
+    },
+    ":IN.4":{
+      "labels":{
+        "256":{
+          "player":2,
+          "name":"P3 Button 1"
+        },
+        "8192":{
+          "player":3,
+          "name":"P4 Button 2"
+        },
+        "16384":{
+          "player":3,
+          "name":"P4 Button 3"
+        },
+        "512":{
+          "player":2,
+          "name":"P3 Button 2"
+        },
+        "1024":{
+          "player":2,
+          "name":"P3 Button 3"
+        },
+        "4096":{
+          "player":3,
+          "name":"P4 Button 1"
+        },
+        "2048":{
+          "player":2,
+          "name":"P3 Button 4"
+        },
+        "32768":{
+          "player":3,
+          "name":"P4 Button 4"
+        }
+      }
+    },
+    ":IN.5":{
+      "labels":{
+        "1":{
+          "player":2,
+          "name":"P3 Up"
+        },
+        "16":{
+          "player":3,
+          "name":"P4 Up"
+        },
+        "2":{
+          "player":2,
+          "name":"P3 Down"
+        },
+        "128":{
+          "player":3,
+          "name":"P4 Right"
+        },
+        "4":{
+          "player":2,
+          "name":"P3 Left"
+        },
+        "32":{
+          "player":3,
+          "name":"P4 Down"
+        },
+        "8":{
+          "player":2,
+          "name":"P3 Right"
+        },
+        "64":{
+          "player":3,
+          "name":"P4 Left"
+        }
+      }
+    },
+    ":EEPROMIN":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"Coin 3"
+        },
+        "2":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "16":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "32":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "128":{
+          "player":0,
+          "name":"Coin 4"
+        }
+      }
+    },
+    ":DIAL.0":{
+      "labels":{
+        "4095":{
+          "player":0,
+          "name":"Dial"
+        }
+      }
+    },
+    ":EEPROMOUT":{
+      "labels":[]
+    },
+    ":IN.3":{
+      "labels":[]
+    },
+    ":IN.1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Right"
+        }
+      }
+    },
+    ":IN.2":{
+      "labels":[]
+    },
+    ":IN.0":{
+      "labels":{
+        "8192":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "1":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "1024":{
+          "player":0,
+          "name":"Service 2"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "256":{
+          "player":0,
+          "name":"Tilt"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Button 4"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Button 4"
+        },
+        "32768":{
+          "player":0,
+          "name":"4 Players Start"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Button 3"
+        },
+        "4096":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "2048":{
+          "player":0,
+          "name":"Service 3"
+        },
+        "16384":{
+          "player":0,
+          "name":"3 Players Start"
+        },
+        "512":{
+          "player":0,
+          "name":"Service 1"
+        }
+      }
+    }
+  }
+}

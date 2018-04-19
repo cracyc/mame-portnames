@@ -1,0 +1,181 @@
+{
+  "ports":{
+    ":P1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Left Stick/Down"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Left Stick/Up"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Left Stick/Right"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Left Stick/Left"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Right Stick/Down"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Right Stick/Left"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Right Stick/Up"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Right Stick/Right"
+        }
+      }
+    },
+    ":DSW1":{
+      "labels":{
+        "240":{
+          "player":0,
+          "name":"Coin B"
+        },
+        "15":{
+          "player":0,
+          "name":"Coin A"
+        }
+      }
+    },
+    ":P2":{
+      "labels":{
+        "8":{
+          "player":1,
+          "name":"P2 Left Stick/Left"
+        },
+        "1":{
+          "player":1,
+          "name":"P2 Left Stick/Down"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Left Stick/Up"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Right Stick/Up"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Left Stick/Right"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Right Stick/Right"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Right Stick/Down"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Right Stick/Left"
+        }
+      }
+    },
+    ":DSW2":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Players"
+        },
+        "2":{
+          "player":0,
+          "name":"Demo Sounds"
+        },
+        "128":{
+          "player":0,
+          "name":"Unused"
+        },
+        "12":{
+          "player":0,
+          "name":"Lives"
+        }
+      }
+    },
+    ":UNUSED":{
+      "labels":{
+        "1":{
+          "player":2,
+          "name":"P3 Left Stick/Down"
+        },
+        "128":{
+          "player":2,
+          "name":"P3 Right Stick/Left"
+        },
+        "2":{
+          "player":2,
+          "name":"P3 Left Stick/Up"
+        },
+        "64":{
+          "player":2,
+          "name":"P3 Right Stick/Right"
+        },
+        "4":{
+          "player":2,
+          "name":"P3 Left Stick/Right"
+        },
+        "32":{
+          "player":2,
+          "name":"P3 Right Stick/Up"
+        },
+        "16":{
+          "player":2,
+          "name":"P3 Right Stick/Down"
+        },
+        "8":{
+          "player":2,
+          "name":"P3 Left Stick/Left"
+        }
+      }
+    },
+    ":SERVICE":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "2":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "4":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "64":{
+          "player":0,
+          "name":"3 Players Start"
+        },
+        "8":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "32":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "16":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "128":{
+          "player":0,
+          "name":"Coin 3"
+        }
+      }
+    }
+  },
+  "romname":"bullet"
+}

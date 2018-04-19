@@ -1,0 +1,152 @@
+{
+  "ports":{
+    ":AN1":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"AD Stick X"
+        }
+      }
+    },
+    ":DIAL2":{
+      "labels":[]
+    },
+    ":AN5":{
+      "labels":[]
+    },
+    ":AN2":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"AD Stick Y"
+        }
+      }
+    },
+    ":AN3":{
+      "labels":{
+        "255":{
+          "player":0,
+          "name":"AD Stick Z"
+        }
+      }
+    },
+    ":AN6":{
+      "labels":[]
+    },
+    ":DIAL1":{
+      "labels":[]
+    },
+    ":PORTH":{
+      "labels":{
+        "8":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "1":{
+          "player":0,
+          "name":"P1 Button 4"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Button 6"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Button 5"
+        }
+      }
+    },
+    ":DIAL3":{
+      "labels":[]
+    },
+    ":AN4":{
+      "labels":[]
+    },
+    ":DIAL0":{
+      "labels":[]
+    },
+    ":AN0":{
+      "labels":[]
+    },
+    ":DSW":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"DSW7"
+        },
+        "1":{
+          "player":0,
+          "name":"DSW1"
+        },
+        "2":{
+          "player":0,
+          "name":"DSW2"
+        },
+        "16":{
+          "player":0,
+          "name":"DSW5"
+        },
+        "4":{
+          "player":0,
+          "name":"DSW3"
+        },
+        "32":{
+          "player":0,
+          "name":"PCM ROM"
+        },
+        "128":{
+          "player":0,
+          "name":"Screen Stop"
+        },
+        "8":{
+          "player":0,
+          "name":"DSW4"
+        }
+      }
+    },
+    ":PORTB":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "64":{
+          "player":0,
+          "name":"2 Players Start"
+        }
+      }
+    },
+    ":AN7":{
+      "labels":[]
+    },
+    ":PORTC":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"Service Button"
+        },
+        "32":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "16":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "128":{
+          "player":0,
+          "name":"Service 1"
+        }
+      }
+    }
+  },
+  "romname":"aircomb"
+}

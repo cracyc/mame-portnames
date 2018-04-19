@@ -1,0 +1,180 @@
+{
+  "romname":"daiskiss",
+  "ports":{
+    ":INPUTS":{
+      "labels":{
+        "8192":{
+          "player":2,
+          "name":"P3 Button 2"
+        },
+        "1":{
+          "player":3,
+          "name":"P4 Left"
+        },
+        "2":{
+          "player":3,
+          "name":"P4 Right"
+        },
+        "524288":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "4":{
+          "player":3,
+          "name":"P4 Up"
+        },
+        "256":{
+          "player":2,
+          "name":"P3 Left"
+        },
+        "16777216":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "268435456":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "8":{
+          "player":3,
+          "name":"P4 Down"
+        },
+        "4096":{
+          "player":2,
+          "name":"P3 Button 1"
+        },
+        "64":{
+          "player":3,
+          "name":"P4 Button 3"
+        },
+        "16384":{
+          "player":2,
+          "name":"P3 Button 3"
+        },
+        "32768":{
+          "player":0,
+          "name":"3 Players Start"
+        },
+        "32":{
+          "player":3,
+          "name":"P4 Button 2"
+        },
+        "65536":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "2147483648":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "16":{
+          "player":3,
+          "name":"P4 Button 1"
+        },
+        "1073741824":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "4194304":{
+          "player":1,
+          "name":"P2 Button 3"
+        },
+        "2097152":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "1048576":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "8388608":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "67108864":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "33554432":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "131072":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "512":{
+          "player":2,
+          "name":"P3 Right"
+        },
+        "128":{
+          "player":0,
+          "name":"4 Players Start"
+        },
+        "134217728":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "2048":{
+          "player":2,
+          "name":"P3 Down"
+        },
+        "1024":{
+          "player":2,
+          "name":"P3 Up"
+        },
+        "536870912":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "262144":{
+          "player":1,
+          "name":"P2 Up"
+        }
+      }
+    },
+    ":SYSTEM_DSW":{
+      "labels":{
+        "256":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "2147483648":{
+          "player":0,
+          "name":"Unknown"
+        },
+        "33554432":{
+          "player":0,
+          "name":"Flip Screen"
+        },
+        "16777216":{
+          "player":0,
+          "name":"Stereo"
+        },
+        "512":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "4096":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "8192":{
+          "player":0,
+          "name":"Service 2"
+        }
+      }
+    },
+    ":SERVICE":{
+      "labels":{
+        "134217728":{
+          "player":0,
+          "name":"Service Mode"
+        }
+      }
+    },
+    ":EEPROMOUT":{
+      "labels":[]
+    }
+  }
+}

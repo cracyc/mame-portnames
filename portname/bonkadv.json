@@ -1,0 +1,148 @@
+{
+  "romname":"bonkadv",
+  "ports":{
+    ":UNK":{
+      "labels":[]
+    },
+    ":P2":{
+      "labels":{
+        "1024":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "512":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "2048":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "8192":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "4096":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "32768":{
+          "player":1,
+          "name":"P2 Button 4"
+        },
+        "256":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "16384":{
+          "player":1,
+          "name":"P2 Button 3"
+        }
+      }
+    },
+    ":P1":{
+      "labels":{
+        "256":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "4096":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "512":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "8192":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "16384":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "1024":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "32768":{
+          "player":0,
+          "name":"P1 Button 4"
+        },
+        "2048":{
+          "player":0,
+          "name":"P1 Right"
+        }
+      }
+    },
+    ":DSW1":{
+      "labels":{
+        "512":{
+          "player":0,
+          "name":"Free Play"
+        },
+        "256":{
+          "player":0,
+          "name":"Flip Screen"
+        },
+        "4096":{
+          "player":0,
+          "name":"Title Level Display"
+        },
+        "1024":{
+          "player":0,
+          "name":"Demo Sounds"
+        },
+        "32768":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "16384":{
+          "player":0,
+          "name":"Reserved"
+        },
+        "2048":{
+          "player":0,
+          "name":"Ticket dispenser"
+        }
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1024":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "8192":{
+          "player":0,
+          "name":"Tilt"
+        },
+        "256":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "16384":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "32768":{
+          "player":0,
+          "name":"Service 2"
+        },
+        "512":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "2048":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "4096":{
+          "player":0,
+          "name":"Service Mode"
+        }
+      }
+    }
+  }
+}

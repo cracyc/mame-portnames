@@ -1,0 +1,200 @@
+{
+  "romname":"bucky",
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "8":{
+          "name":"Service Mode",
+          "player":0
+        },
+        "16":{
+          "name":"Sound Output",
+          "player":0
+        },
+        "32":{
+          "name":"Coin Mechanism",
+          "player":0
+        },
+        "192":{
+          "name":"Number of Players",
+          "player":0
+        }
+      }
+    },
+    ":EEPROMOUT":{
+      "labels":[]
+    },
+    ":P2_P4":{
+      "labels":{
+        "1":{
+          "name":"P2 Left",
+          "player":1
+        },
+        "256":{
+          "name":"P4 Left",
+          "player":3
+        },
+        "2":{
+          "name":"P2 Right",
+          "player":1
+        },
+        "512":{
+          "name":"P4 Right",
+          "player":3
+        },
+        "4":{
+          "name":"P2 Up",
+          "player":1
+        },
+        "64":{
+          "name":"P2 Button 3",
+          "player":1
+        },
+        "1024":{
+          "name":"P4 Up",
+          "player":3
+        },
+        "2048":{
+          "name":"P4 Down",
+          "player":3
+        },
+        "8":{
+          "name":"P2 Down",
+          "player":1
+        },
+        "16":{
+          "name":"P2 Button 1",
+          "player":1
+        },
+        "16384":{
+          "name":"P4 Button 3",
+          "player":3
+        },
+        "32768":{
+          "name":"4 Players Start",
+          "player":0
+        },
+        "4096":{
+          "name":"P4 Button 1",
+          "player":3
+        },
+        "32":{
+          "name":"P2 Button 2",
+          "player":1
+        },
+        "8192":{
+          "name":"P4 Button 2",
+          "player":3
+        },
+        "128":{
+          "name":"2 Players Start",
+          "player":0
+        }
+      }
+    },
+    ":P1_P3":{
+      "labels":{
+        "32768":{
+          "name":"3 Players Start",
+          "player":0
+        },
+        "1":{
+          "name":"P1 Left",
+          "player":0
+        },
+        "2":{
+          "name":"P1 Right",
+          "player":0
+        },
+        "16":{
+          "name":"P1 Button 1",
+          "player":0
+        },
+        "4":{
+          "name":"P1 Up",
+          "player":0
+        },
+        "512":{
+          "name":"P3 Right",
+          "player":2
+        },
+        "256":{
+          "name":"P3 Left",
+          "player":2
+        },
+        "128":{
+          "name":"1 Player Start",
+          "player":0
+        },
+        "8":{
+          "name":"P1 Down",
+          "player":0
+        },
+        "4096":{
+          "name":"P3 Button 1",
+          "player":2
+        },
+        "2048":{
+          "name":"P3 Down",
+          "player":2
+        },
+        "1024":{
+          "name":"P3 Up",
+          "player":2
+        },
+        "8192":{
+          "name":"P3 Button 2",
+          "player":2
+        },
+        "64":{
+          "name":"P1 Button 3",
+          "player":0
+        },
+        "16384":{
+          "name":"P3 Button 3",
+          "player":2
+        },
+        "32":{
+          "name":"P1 Button 2",
+          "player":0
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{
+          "name":"Coin 1",
+          "player":0
+        },
+        "2":{
+          "name":"Coin 2",
+          "player":0
+        },
+        "64":{
+          "name":"Service 3",
+          "player":0
+        },
+        "32":{
+          "name":"Service 2",
+          "player":0
+        },
+        "4":{
+          "name":"Coin 3",
+          "player":0
+        },
+        "16":{
+          "name":"Service 1",
+          "player":0
+        },
+        "8":{
+          "name":"Coin 4",
+          "player":0
+        },
+        "128":{
+          "name":"Service 4",
+          "player":0
+        }
+      }
+    }
+  }
+}

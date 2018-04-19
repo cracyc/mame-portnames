@@ -1,0 +1,161 @@
+{
+  "romname":"dragonsh",
+  "ports":{
+    ":DSW":{
+      "labels":{
+        "128":{
+          "name":"Freeze",
+          "player":0
+        },
+        "1":{
+          "name":"Setting Mode",
+          "player":0
+        },
+        "2":{
+          "name":"Cabinet",
+          "player":0
+        },
+        "4":{
+          "name":"Controller",
+          "player":0
+        },
+        "24":{
+          "name":"COMM Setting (Cabinet No.)",
+          "player":0
+        },
+        "64":{
+          "name":"Free Play",
+          "player":0
+        },
+        "32":{
+          "name":"COMM Setting (Link Enable)",
+          "player":0
+        }
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1024":{
+          "name":"2 Players Start",
+          "player":0
+        },
+        "256":{
+          "name":"1 Player Start",
+          "player":0
+        },
+        "512":{
+          "name":"Next Game",
+          "player":0
+        },
+        "2048":{
+          "name":"Previous Game",
+          "player":0
+        }
+      }
+    },
+    ":AUDIO/COIN":{
+      "labels":{
+        "1":{
+          "name":"Coin 1",
+          "player":0
+        },
+        "2":{
+          "name":"Coin 2",
+          "player":0
+        },
+        "4":{
+          "name":"Service 1",
+          "player":0
+        },
+        "8":{
+          "name":"Coin 3",
+          "player":0
+        },
+        "16":{
+          "name":"Coin 4",
+          "player":0
+        }
+      }
+    },
+    ":TEST":{
+      "labels":{
+        "128":{
+          "name":"Service Mode",
+          "player":0
+        }
+      }
+    },
+    ":edge:joy:JOY2":{
+      "labels":{
+        "1":{
+          "name":"P2 Up",
+          "player":1
+        },
+        "2":{
+          "name":"P2 Down",
+          "player":1
+        },
+        "4":{
+          "name":"P2 Left",
+          "player":1
+        },
+        "16":{
+          "name":"P2 A",
+          "player":1
+        },
+        "8":{
+          "name":"P2 Right",
+          "player":1
+        },
+        "128":{
+          "name":"P2 D",
+          "player":1
+        },
+        "64":{
+          "name":"P2 C",
+          "player":1
+        },
+        "32":{
+          "name":"P2 B",
+          "player":1
+        }
+      }
+    },
+    ":edge:joy:JOY1":{
+      "labels":{
+        "1":{
+          "name":"P1 Up",
+          "player":0
+        },
+        "64":{
+          "name":"P1 C",
+          "player":0
+        },
+        "2":{
+          "name":"P1 Down",
+          "player":0
+        },
+        "16":{
+          "name":"P1 A",
+          "player":0
+        },
+        "4":{
+          "name":"P1 Left",
+          "player":0
+        },
+        "128":{
+          "name":"P1 Button 4",
+          "player":0
+        },
+        "8":{
+          "name":"P1 Right",
+          "player":0
+        },
+        "32":{
+          "name":"P1 B",
+          "player":0
+        }
+      }
+    }
+  }
+}

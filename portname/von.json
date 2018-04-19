@@ -1,0 +1,105 @@
+{
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "1":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "2":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "64":{
+          "player":0,
+          "name":"1P Push Switch"
+        },
+        "4":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "8":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "128":{
+          "player":0,
+          "name":"2P Push Switch"
+        },
+        "32":{
+          "player":0,
+          "name":"2 Players Start"
+        }
+      }
+    },
+    ":DSW":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"Unknown"
+        }
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Right Shot"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Right Dash"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Right Stick/Down"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Right Stick/Left"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Right Stick/Right"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Right Stick/Up"
+        }
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Left Shot"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Left Dash"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Left Stick/Right"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Left Stick/Left"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Left Stick/Up"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Left Stick/Down"
+        }
+      }
+    }
+  },
+  "romname":"von"
+}

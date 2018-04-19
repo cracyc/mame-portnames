@@ -1,0 +1,220 @@
+{
+  "ports":{
+    ":PORTG.2":{
+      "labels":[]
+    },
+    ":PORTC":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "2":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "64":{
+          "player":0,
+          "name":"1P Push Switch (Multi Cart Select)"
+        },
+        "8":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "4":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "128":{
+          "player":0,
+          "name":"2P Push Switch (Pause)"
+        },
+        "16":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "32":{
+          "player":0,
+          "name":"2 Players Start"
+        }
+      }
+    },
+    ":PORTE":{
+      "labels":{
+        "32":{
+          "player":2,
+          "name":"P3 Up"
+        },
+        "1":{
+          "player":2,
+          "name":"P3 Button 1"
+        },
+        "2":{
+          "player":2,
+          "name":"P3 Button 2"
+        },
+        "8":{
+          "player":2,
+          "name":"P3 Start"
+        },
+        "4":{
+          "player":2,
+          "name":"P3 Button 3"
+        },
+        "64":{
+          "player":2,
+          "name":"P3 Right"
+        },
+        "128":{
+          "player":2,
+          "name":"P3 Left"
+        },
+        "16":{
+          "player":2,
+          "name":"P3 Down"
+        }
+      }
+    },
+    ":PDR2":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"PDR2"
+        },
+        "64":{
+          "player":0,
+          "name":"Unknown"
+        }
+      }
+    },
+    ":PDR1":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"PDR1"
+        }
+      }
+    },
+    ":PORTG.3":{
+      "labels":[]
+    },
+    ":PORTB":{
+      "labels":{
+        "32":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "1":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Button 3"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Button 4"
+        }
+      }
+    },
+    ":PORTA":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Button 4"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Right"
+        }
+      }
+    },
+    ":PORTF":{
+      "labels":{
+        "128":{
+          "player":3,
+          "name":"P4 Left"
+        },
+        "1":{
+          "player":3,
+          "name":"P4 Button 1"
+        },
+        "2":{
+          "player":3,
+          "name":"P4 Button 2"
+        },
+        "8":{
+          "player":3,
+          "name":"P4 Start"
+        },
+        "4":{
+          "player":3,
+          "name":"P4 Button 3"
+        },
+        "64":{
+          "player":3,
+          "name":"P4 Right"
+        },
+        "32":{
+          "player":3,
+          "name":"P4 Up"
+        },
+        "16":{
+          "player":3,
+          "name":"P4 Down"
+        }
+      }
+    },
+    ":PORTG":{
+      "labels":[]
+    },
+    ":PORTG.0":{
+      "labels":[]
+    },
+    ":PORTG.1":{
+      "labels":[]
+    }
+  },
+  "romname":"colmns97"
+}

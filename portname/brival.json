@@ -1,0 +1,146 @@
+{
+  "ports":{
+    ":mainpcb:SERVICE34_A":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"Push SW1 (Service)"
+        },
+        "32":{
+          "player":0,
+          "name":"Push SW2 (Test)"
+        }
+      }
+    },
+    ":mainpcb:EXTRA2":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"P1 Button 5"
+        },
+        "1":{
+          "player":1,
+          "name":"P2 Button 4"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Button 5"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Button 6"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Button 4"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Button 6"
+        }
+      }
+    },
+    ":mainpcb:EXTRA3":{
+      "labels":[]
+    },
+    ":mainpcb:EXTRA1":{
+      "labels":[]
+    },
+    ":mainpcb:PORTC_A":{
+      "labels":[]
+    },
+    ":mainpcb:P1_A":{
+      "labels":{
+        "128":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "1":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "64":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Down"
+        }
+      }
+    },
+    ":mainpcb:P2_A":{
+      "labels":{
+        "128":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "1":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Button 3"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "64":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Down"
+        }
+      }
+    },
+    ":mainpcb:SERVICE12_A":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "2":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "4":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "8":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "16":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "32":{
+          "player":0,
+          "name":"2 Players Start"
+        }
+      }
+    }
+  },
+  "romname":"brival"
+}

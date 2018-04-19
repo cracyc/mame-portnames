@@ -1,0 +1,230 @@
+{
+  "romname":"dungeonm",
+  "ports":{
+    ":IN.1":{
+      "labels":{
+        "1":{
+          "name":"P1 Up",
+          "player":0
+        },
+        "2":{
+          "name":"P1 Down",
+          "player":0
+        },
+        "4":{
+          "name":"P1 Left",
+          "player":0
+        },
+        "32":{
+          "name":"P2 Down",
+          "player":1
+        },
+        "16":{
+          "name":"P2 Up",
+          "player":1
+        },
+        "128":{
+          "name":"P2 Right",
+          "player":1
+        },
+        "8":{
+          "name":"P1 Right",
+          "player":0
+        },
+        "64":{
+          "name":"P2 Left",
+          "player":1
+        }
+      }
+    },
+    ":IN.3":{
+      "labels":[]
+    },
+    ":EEPROMIN":{
+      "labels":{
+        "128":{
+          "name":"Coin 4",
+          "player":0
+        },
+        "2":{
+          "name":"Service Mode",
+          "player":0
+        },
+        "32":{
+          "name":"Coin 2",
+          "player":0
+        },
+        "64":{
+          "name":"Coin 3",
+          "player":0
+        },
+        "16":{
+          "name":"Coin 1",
+          "player":0
+        }
+      }
+    },
+    ":EEPROMOUT":{
+      "labels":[]
+    },
+    ":DIAL.0":{
+      "labels":{
+        "4095":{
+          "name":"Dial",
+          "player":0
+        }
+      }
+    },
+    ":IN.2":{
+      "labels":[]
+    },
+    ":DIAL.1":{
+      "labels":{
+        "4095":{
+          "name":"Dial 2",
+          "player":1
+        }
+      }
+    },
+    ":IN.0":{
+      "labels":{
+        "16384":{
+          "name":"3 Players Start",
+          "player":0
+        },
+        "1":{
+          "name":"P1 Button 1",
+          "player":0
+        },
+        "2":{
+          "name":"P1 Button 2",
+          "player":0
+        },
+        "16":{
+          "name":"P2 Button 1",
+          "player":1
+        },
+        "4":{
+          "name":"P1 Button 3",
+          "player":0
+        },
+        "64":{
+          "name":"P2 Button 3",
+          "player":1
+        },
+        "256":{
+          "name":"Tilt",
+          "player":0
+        },
+        "512":{
+          "name":"Service 1",
+          "player":0
+        },
+        "8":{
+          "name":"P1 Button 4",
+          "player":0
+        },
+        "1024":{
+          "name":"Service 2",
+          "player":0
+        },
+        "2048":{
+          "name":"Service 3",
+          "player":0
+        },
+        "128":{
+          "name":"P2 Button 4",
+          "player":1
+        },
+        "4096":{
+          "name":"1 Player Start",
+          "player":0
+        },
+        "32":{
+          "name":"P2 Button 2",
+          "player":1
+        },
+        "8192":{
+          "name":"2 Players Start",
+          "player":0
+        },
+        "32768":{
+          "name":"4 Players Start",
+          "player":0
+        }
+      }
+    },
+    ":IN.4":{
+      "labels":{
+        "256":{
+          "name":"P3 Button 1",
+          "player":2
+        },
+        "512":{
+          "name":"P3 Button 2",
+          "player":2
+        },
+        "8192":{
+          "name":"P4 Button 2",
+          "player":3
+        },
+        "16384":{
+          "name":"P4 Button 3",
+          "player":3
+        },
+        "1024":{
+          "name":"P3 Button 3",
+          "player":2
+        },
+        "4096":{
+          "name":"P4 Button 1",
+          "player":3
+        },
+        "2048":{
+          "name":"P3 Button 4",
+          "player":2
+        },
+        "32768":{
+          "name":"P4 Button 4",
+          "player":3
+        }
+      }
+    },
+    ":IN.5":{
+      "labels":{
+        "8":{
+          "name":"P3 Right",
+          "player":2
+        },
+        "1":{
+          "name":"P3 Up",
+          "player":2
+        },
+        "2":{
+          "name":"P3 Down",
+          "player":2
+        },
+        "16":{
+          "name":"P4 Up",
+          "player":3
+        },
+        "4":{
+          "name":"P3 Left",
+          "player":2
+        },
+        "32":{
+          "name":"P4 Down",
+          "player":3
+        },
+        "128":{
+          "name":"P4 Right",
+          "player":3
+        },
+        "64":{
+          "name":"P4 Left",
+          "player":3
+        }
+      }
+    }
+  }
+}

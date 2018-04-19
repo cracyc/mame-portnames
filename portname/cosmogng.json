@@ -1,0 +1,169 @@
+{
+  "ports":{
+    ":AN6":{
+      "labels":[]
+    },
+    ":AN3":{
+      "labels":[]
+    },
+    ":AN4":{
+      "labels":[]
+    },
+    ":AN7":{
+      "labels":[]
+    },
+    ":MCUDI3":{
+      "labels":[]
+    },
+    ":MCUDI2":{
+      "labels":[]
+    },
+    ":AN1":{
+      "labels":[]
+    },
+    ":MCUH":{
+      "labels":{
+        "64":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "1":{
+          "player":1,
+          "name":"P2 Button 3"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Button 2"
+        }
+      }
+    },
+    ":DSW":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Video Display"
+        },
+        "2":{
+          "player":0,
+          "name":"$2000-1"
+        },
+        "4":{
+          "player":0,
+          "name":"$2000-2"
+        },
+        "16":{
+          "player":0,
+          "name":"$2000-4"
+        },
+        "32":{
+          "player":0,
+          "name":"$2000-5"
+        },
+        "128":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "64":{
+          "player":0,
+          "name":"$2000-6"
+        },
+        "8":{
+          "player":0,
+          "name":"$2000-3"
+        }
+      }
+    },
+    ":AN5":{
+      "labels":[]
+    },
+    ":AN2":{
+      "labels":[]
+    },
+    ":MCUB":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "1":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Up"
+        },
+        "128":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "64":{
+          "player":0,
+          "name":"2 Players Start"
+        }
+      }
+    },
+    ":MCUC":{
+      "labels":{
+        "32":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "64":{
+          "player":0,
+          "name":"Service Button"
+        },
+        "16":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "128":{
+          "player":0,
+          "name":"Service 1"
+        }
+      }
+    },
+    ":AN0":{
+      "labels":[]
+    },
+    ":MCUDI1":{
+      "labels":[]
+    },
+    ":MCUDI0":{
+      "labels":[]
+    }
+  },
+  "romname":"cosmogng"
+}

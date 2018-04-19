@@ -1,0 +1,137 @@
+{
+  "romname":"bishi",
+  "ports":{
+    ":INPUTS":{
+      "labels":{
+        "16384":{
+          "name":"P2 Red",
+          "player":1
+        },
+        "1":{
+          "name":"P3 Blue",
+          "player":2
+        },
+        "2":{
+          "name":"P3 Green",
+          "player":2
+        },
+        "4":{
+          "name":"P3 Red",
+          "player":2
+        },
+        "256":{
+          "name":"P1 Blue",
+          "player":0
+        },
+        "64":{
+          "name":"Service Mode",
+          "player":0
+        },
+        "8":{
+          "name":"3 Players Start",
+          "player":0
+        },
+        "1024":{
+          "name":"P1 Red",
+          "player":0
+        },
+        "4096":{
+          "name":"P2 Blue",
+          "player":1
+        },
+        "512":{
+          "name":"P1 Green",
+          "player":0
+        },
+        "32768":{
+          "name":"2 Players Start",
+          "player":0
+        },
+        "2048":{
+          "name":"1 Player Start",
+          "player":0
+        },
+        "8192":{
+          "name":"P2 Green",
+          "player":1
+        },
+        "128":{
+          "name":"Service 1",
+          "player":0
+        }
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "2048":{
+          "name":"Coin 1",
+          "player":0
+        }
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "64":{
+          "name":"Service 3",
+          "player":0
+        },
+        "2":{
+          "name":"Coin 2",
+          "player":0
+        },
+        "4":{
+          "name":"Coin 3",
+          "player":0
+        },
+        "128":{
+          "name":"Service 4",
+          "player":0
+        },
+        "32":{
+          "name":"Service 2",
+          "player":0
+        },
+        "8":{
+          "name":"Coin 4",
+          "player":0
+        }
+      }
+    },
+    ":DSW":{
+      "labels":{
+        "3840":{
+          "name":"Coinage",
+          "player":0
+        },
+        "192":{
+          "name":"Demo Sounds",
+          "player":0
+        },
+        "16384":{
+          "name":"Title Demo",
+          "player":0
+        },
+        "8192":{
+          "name":"Slack Difficulty",
+          "player":0
+        },
+        "4096":{
+          "name":"Free Play",
+          "player":0
+        },
+        "32768":{
+          "name":"Gamedemo",
+          "player":0
+        },
+        "56":{
+          "name":"Lives",
+          "player":0
+        },
+        "7":{
+          "name":"Difficulty",
+          "player":0
+        }
+      }
+    }
+  }
+}

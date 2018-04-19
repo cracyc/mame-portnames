@@ -1,0 +1,139 @@
+{
+  "ports":{
+    ":AN0":{
+      "labels":[]
+    },
+    ":DIAL2":{
+      "labels":[]
+    },
+    ":AN4":{
+      "labels":[]
+    },
+    ":PORTB":{
+      "labels":{
+        "64":{
+          "name":"2 Players Start",
+          "player":0
+        },
+        "128":{
+          "name":"1 Player Start",
+          "player":0
+        }
+      }
+    },
+    ":DIAL3":{
+      "labels":[]
+    },
+    ":DIAL0":{
+      "labels":[]
+    },
+    ":AN2":{
+      "labels":{
+        "255":{
+          "name":"AD Stick Y",
+          "player":0
+        }
+      }
+    },
+    ":PORTH":{
+      "labels":{
+        "1":{
+          "name":"P1 Button 4",
+          "player":0
+        },
+        "2":{
+          "name":"P1 Button 3",
+          "player":0
+        },
+        "8":{
+          "name":"P1 Button 2",
+          "player":0
+        },
+        "32":{
+          "name":"P1 Button 1",
+          "player":0
+        }
+      }
+    },
+    ":DIAL1":{
+      "labels":[]
+    },
+    ":AN5":{
+      "labels":[]
+    },
+    ":AN3":{
+      "labels":[]
+    },
+    ":AN1":{
+      "labels":{
+        "255":{
+          "name":"AD Stick X",
+          "player":0
+        }
+      }
+    },
+    ":AN6":{
+      "labels":[]
+    },
+    ":DSW":{
+      "labels":{
+        "1":{
+          "name":"Service Mode",
+          "player":0
+        },
+        "2":{
+          "name":"DSW2",
+          "player":0
+        },
+        "4":{
+          "name":"DSW3",
+          "player":0
+        },
+        "128":{
+          "name":"Screen Stop",
+          "player":0
+        },
+        "16":{
+          "name":"DSW5",
+          "player":0
+        },
+        "8":{
+          "name":"DSW4",
+          "player":0
+        },
+        "32":{
+          "name":"PCM ROM",
+          "player":0
+        },
+        "64":{
+          "name":"DSW7",
+          "player":0
+        }
+      }
+    },
+    ":PORTC":{
+      "labels":{
+        "64":{
+          "name":"Service Button",
+          "player":0
+        },
+        "128":{
+          "name":"Service 1",
+          "player":0
+        },
+        "16":{
+          "name":"Coin 2",
+          "player":0
+        },
+        "32":{
+          "name":"Coin 1",
+          "player":0
+        }
+      }
+    },
+    ":AN7":{
+      "labels":[]
+    }
+  },
+  "romname":"starblad"
+}

@@ -1,0 +1,121 @@
+{
+  "ports":{
+    ":mainpcb:SERVICE34_A":{
+      "labels":{
+        "16":{
+          "player":0,
+          "name":"Push SW1 (Service)"
+        },
+        "32":{
+          "player":0,
+          "name":"Push SW2 (Test)"
+        }
+      }
+    },
+    ":mainpcb:P2_A":{
+      "labels":{
+        "64":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "1":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Button 2"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Button 3"
+        },
+        "128":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "32":{
+          "player":1,
+          "name":"P2 Up"
+        }
+      }
+    },
+    ":mainpcb:P1_A":{
+      "labels":{
+        "64":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "1":{
+          "player":0,
+          "name":"P1 Button 1"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Button 2"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Button 3"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "32":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "128":{
+          "player":0,
+          "name":"P1 Left"
+        }
+      }
+    },
+    ":mainpcb:PORTC_A":{
+      "labels":[]
+    },
+    ":mainpcb:ANALOG2":{
+      "labels":[]
+    },
+    ":mainpcb:SERVICE12_A":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "2":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "8":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "4":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "16":{
+          "player":0,
+          "name":"1 Player Start"
+        },
+        "32":{
+          "player":0,
+          "name":"2 Players Start"
+        }
+      }
+    },
+    ":mainpcb:ANALOG3":{
+      "labels":[]
+    },
+    ":mainpcb:ANALOG1":{
+      "labels":[]
+    }
+  },
+  "romname":"dbzvrvs"
+}

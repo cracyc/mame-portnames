@@ -1,0 +1,145 @@
+{
+  "ports":{
+    ":DSWA":{
+      "labels":{
+        "8":{
+          "player":0,
+          "name":"Round Skip"
+        },
+        "3":{
+          "player":0,
+          "name":"Coin B"
+        },
+        "4":{
+          "player":0,
+          "name":"Freeze"
+        },
+        "128":{
+          "player":0,
+          "name":"Service Mode"
+        },
+        "16":{
+          "player":0,
+          "name":"Demo Sounds"
+        },
+        "96":{
+          "player":0,
+          "name":"Coin A"
+        }
+      }
+    },
+    ":DSWB":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Allow Continue"
+        },
+        "2":{
+          "player":0,
+          "name":"Bonus Level"
+        },
+        "48":{
+          "player":0,
+          "name":"Starting Vitality"
+        },
+        "128":{
+          "player":0,
+          "name":"Spurt Time"
+        },
+        "64":{
+          "player":0,
+          "name":"Level of Monster"
+        },
+        "12":{
+          "player":0,
+          "name":"Bonus Vitality"
+        }
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"Service 1"
+        },
+        "2":{
+          "player":0,
+          "name":"Coin 1"
+        },
+        "4":{
+          "player":0,
+          "name":"Coin 2"
+        },
+        "16":{
+          "player":0,
+          "name":"2 Players Start"
+        },
+        "8":{
+          "player":0,
+          "name":"1 Player Start"
+        }
+      }
+    },
+    ":BUTTON2":{
+      "labels":[null,{
+          "player":0,
+          "name":"Cabinet"
+        },null,{
+          "player":1,
+          "name":"P2 Button 2"
+        },null,null,null,{
+          "player":0,
+          "name":"P1 Button 2"
+        }]
+    },
+    ":P1":{
+      "labels":{
+        "1":{
+          "player":0,
+          "name":"P1 Left"
+        },
+        "2":{
+          "player":0,
+          "name":"P1 Right"
+        },
+        "4":{
+          "player":0,
+          "name":"P1 Down"
+        },
+        "8":{
+          "player":0,
+          "name":"P1 Up"
+        },
+        "16":{
+          "player":0,
+          "name":"P1 Button 1"
+        }
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{
+          "player":1,
+          "name":"P2 Left"
+        },
+        "2":{
+          "player":1,
+          "name":"P2 Right"
+        },
+        "4":{
+          "player":1,
+          "name":"P2 Down"
+        },
+        "16":{
+          "player":1,
+          "name":"P2 Button 1"
+        },
+        "8":{
+          "player":1,
+          "name":"P2 Up"
+        }
+      }
+    }
+  },
+  "romname":"drgnbstr"
+}
