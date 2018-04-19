@@ -1,61 +1,17 @@
 {
-  "ports":{
-    ":P2":{
-      "labels":{
-        "64":{
-          "player":1,
-          "name":"P2 Right"
+    "romname":"4dwarrio",
+    "ports":{
+        ":P1":{
+            "labels":{
+                "2":{"player":0,"name":"P1 Bomb"},
+                "4":{"player":0,"name":"P1 Fire"}
+            }
         },
-        "2":{
-          "player":1,
-          "name":"P2 Bomb"
-        },
-        "4":{
-          "player":1,
-          "name":"P2 Fire"
-        },
-        "32":{
-          "player":1,
-          "name":"P2 Up"
-        },
-        "16":{
-          "player":1,
-          "name":"P2 Down"
-        },
-        "128":{
-          "player":1,
-          "name":"P2 Left"
+        ":P2":{
+            "labels":{
+                "2":{"player":1,"name":"P2 Bomb"},
+                "4":{"player":1,"name":"P2 Fire"}
+            }
         }
-      }
-    },
-    ":P1":{
-      "labels":{
-        "64":{
-          "player":0,
-          "name":"P1 Right"
-        },
-        "2":{
-          "player":0,
-          "name":"P1 Bomb"
-        },
-        "4":{
-          "player":0,
-          "name":"P1 Fire"
-        },
-        "32":{
-          "player":0,
-          "name":"P1 Up"
-        },
-        "16":{
-          "player":0,
-          "name":"P1 Down"
-        },
-        "128":{
-          "player":0,
-          "name":"P1 Left"
-        }
-      }
     }
-  },
-  "romname":"4dwarrio"
 }

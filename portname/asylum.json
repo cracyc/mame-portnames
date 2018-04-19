@@ -1,89 +1,23 @@
 {
-  "ports":{
-    ":P2":{
-      "labels":{
-        "16":{
-          "player":1,
-          "name":"P2 Attack"
+    "romname":"asylum",
+    "ports":{
+        ":P1":{
+            "labels":{
+                "16":{"player":0,"name":"P1 Attack"},
+                "32":{"player":0,"name":"P1 Jump"},
+            }
         },
-        "1":{
-          "player":1,
-          "name":"P2 Right"
+        ":P2":{
+            "labels":{
+                "16":{"player":1,"name":"P2 Attack"},
+                "32":{"player":1,"name":"P2 Jump"},
+            }
         },
-        "2":{
-          "player":1,
-          "name":"P2 Left"
-        },
-        "4":{
-          "player":1,
-          "name":"P2 Down"
-        },
-        "32":{
-          "player":1,
-          "name":"P2 Jump"
-        },
-        "8":{
-          "player":1,
-          "name":"P2 Up"
+        ":P3":{
+            "labels":{
+                "16":{"player":2,"name":"P3 Attack"},
+                "32":{"player":2,"name":"P3 Jump"},
+            }
         }
-      }
-    },
-    ":P1":{
-      "labels":{
-        "16":{
-          "player":0,
-          "name":"P1 Attack"
-        },
-        "1":{
-          "player":0,
-          "name":"P1 Right"
-        },
-        "2":{
-          "player":0,
-          "name":"P1 Left"
-        },
-        "4":{
-          "player":0,
-          "name":"P1 Down"
-        },
-        "32":{
-          "player":0,
-          "name":"P1 Jump"
-        },
-        "8":{
-          "player":0,
-          "name":"P1 Up"
-        }
-      }
-    },
-    ":P3":{
-      "labels":{
-        "16":{
-          "player":2,
-          "name":"P3 Attack"
-        },
-        "1":{
-          "player":2,
-          "name":"P3 Right"
-        },
-        "2":{
-          "player":2,
-          "name":"P3 Left"
-        },
-        "4":{
-          "player":2,
-          "name":"P3 Down"
-        },
-        "32":{
-          "player":2,
-          "name":"P3 Jump"
-        },
-        "8":{
-          "player":2,
-          "name":"P3 Up"
-        }
-      }
     }
-  },
-  "romname":"asylum"
 }

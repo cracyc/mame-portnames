@@ -1,69 +1,19 @@
 {
-  "ports":{
-    ":IN1":{
-      "labels":{
-        "1":{
-          "player":0,
-          "name":"P1 Up"
+    "romname":"aso",
+    "ports":{
+        ":IN1":{
+            "labels":{
+                "16":{"player":0,"name":"P1 Power Up"},
+                "32":{"player":0,"name":"P1 Laser"},
+                "64":{"player":0,"name":"P1 Missile"}
+            }
         },
-        "2":{
-          "player":0,
-          "name":"P1 Down"
-        },
-        "4":{
-          "player":0,
-          "name":"P1 Left"
-        },
-        "16":{
-          "player":0,
-          "name":"P1 Power Up"
-        },
-        "8":{
-          "player":0,
-          "name":"P1 Right"
-        },
-        "32":{
-          "player":0,
-          "name":"P1 Laser"
-        },
-        "64":{
-          "player":0,
-          "name":"P1 Missile"
+        ":IN2":{
+            "labels":{
+                "16":{"player":1,"name":"P2 Power Up"},
+                "32":{"player":1,"name":"P2 Laser"},
+                "64":{"player":1,"name":"P2 Missile"}
+            }
         }
-      }
-    },
-    ":IN2":{
-      "labels":{
-        "1":{
-          "player":1,
-          "name":"P2 Up"
-        },
-        "2":{
-          "player":1,
-          "name":"P2 Down"
-        },
-        "4":{
-          "player":1,
-          "name":"P2 Left"
-        },
-        "16":{
-          "player":1,
-          "name":"P2 Power Up"
-        },
-        "8":{
-          "player":1,
-          "name":"P2 Right"
-        },
-        "32":{
-          "player":1,
-          "name":"P2 Laser"
-        },
-        "64":{
-          "player":1,
-          "name":"P2 Missile"
-        }
-      }
     }
-  },
-  "romname":"aso"
 }

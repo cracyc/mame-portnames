@@ -1,111 +1,20 @@
 {
-  "ports":{
-    ":AN0":{
-      "labels":{
-        "255":{
-          "player":0,
-          "name":"Paddle"
+    "romname":"daytona2",
+    "ports":{
+        ":AN0":{"labels":{"255":{"player":0,"name":"Steering Wheel"}}},
+        ":AN1":{"labels":{"255":{"player":0,"name":"Gas Pedal"}}},
+        ":AN2":{"labels":{"255":{"player":0,"name":"Brake Pedal"}}},
+        ":IN2":{
+            "labels":{
+                "1":{"player":0,"name":"P1 Button 1"},
+                "2":{"player":0,"name":"P1 Button 2"},
+                "4":{"player":0,"name":"P1 Button 3"},
+                "8":{"player":0,"name":"P1 Button 4"},
+                "64":{"player":0,"name":"P1 Button 5"},
+                "128":{"player":0,"name":"P1 Button 6"},
+                "16":{"player":0,"name":"P1 Button 7"},
+                "32":{"player":0,"name":"P1 Button 8"}
+            }
         }
-      }
-    },
-    ":IN1":{
-      "labels":{
-        "128":{
-          "player":0,
-          "name":"Test Button B"
-        },
-        "64":{
-          "player":0,
-          "name":"Service Button B"
-        }
-      }
-    },
-    ":DSW":{
-      "labels":[]
-    },
-    ":AN1":{
-      "labels":{
-        "255":{
-          "player":0,
-          "name":"P1 Pedal 1"
-        }
-      }
-    },
-    ":IN2":{
-      "labels":{
-        "32":{
-          "player":0,
-          "name":"P1 Button 8"
-        },
-        "1":{
-          "player":0,
-          "name":"P1 Button 1"
-        },
-        "2":{
-          "player":0,
-          "name":"P1 Button 2"
-        },
-        "16":{
-          "player":0,
-          "name":"P1 Button 7"
-        },
-        "4":{
-          "player":0,
-          "name":"P1 Button 3"
-        },
-        "8":{
-          "player":0,
-          "name":"P1 Button 4"
-        },
-        "64":{
-          "player":0,
-          "name":"P1 Button 5"
-        },
-        "128":{
-          "player":0,
-          "name":"P1 Button 6"
-        }
-      }
-    },
-    ":IN0":{
-      "labels":{
-        "1":{
-          "player":0,
-          "name":"Coin 1"
-        },
-        "2":{
-          "player":0,
-          "name":"Coin 2"
-        },
-        "4":{
-          "player":0,
-          "name":"Service Mode"
-        },
-        "8":{
-          "player":0,
-          "name":"Service 1"
-        },
-        "16":{
-          "player":0,
-          "name":"1 Player Start"
-        },
-        "32":{
-          "player":0,
-          "name":"2 Players Start"
-        }
-      }
-    },
-    ":AN2":{
-      "labels":{
-        "255":{
-          "player":0,
-          "name":"P1 Pedal 2"
-        }
-      }
-    },
-    ":IN3":{
-      "labels":[]
     }
-  },
-  "romname":"daytona2"
 }

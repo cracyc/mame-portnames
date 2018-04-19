@@ -1,0 +1,15 @@
+{
+    "romname":"asurabus",
+    "ports":{
+        ":INPUTS":{
+            "labels":{
+                "16":{"name":"P1 Button 1"},
+                "32":{"name":"P1 Button 2"},
+                "64":{"name":"P1 Button 3"},
+                "4096":{"name":"P2 Button 1"},
+                "8192":{"name":"P2 Button 2"},
+                "16384":{"name":"P2 Button 3"}
+            }
+        }
+    }
+}
