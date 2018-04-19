@@ -1,180 +1,25 @@
 {
-  "ports":{
-    ":DSW":{
-      "labels":{
-        "1":{
-          "player":0,
-          "name":"Test Switch"
+    "romname":"mk",
+    "ports":{
+        ":IN0":{
+            "labels":{
+                "16":{"player":0,"name":"P1 High Punch"},
+                "32":{"player":0,"name":"P1 Block"},
+                "64":{"player":0,"name":"P1 High Kick"},
+                "4096":{"player":1,"name":"P2 High Punch"},
+                "8192":{"player":1,"name":"P2 Block"},
+                "16384":{"player":1,"name":"P2 High Kick"}
+            }
         },
-        "2":{
-          "player":0,
-          "name":"Counters"
-        },
-        "32768":{
-          "player":0,
-          "name":"Violence"
-        },
-        "128":{
-          "player":0,
-          "name":"Coinage Source"
-        },
-        "2048":{
-          "player":0,
-          "name":"Comic Book Offer"
-        },
-        "1024":{
-          "player":0,
-          "name":"Unused"
-        },
-        "256":{
-          "player":0,
-          "name":"Skip Post Test"
-        },
-        "124":{
-          "player":0,
-          "name":"Coinage"
-        },
-        "4096":{
-          "player":0,
-          "name":"Attract Sound"
-        },
-        "8192":{
-          "player":0,
-          "name":"Low Blows"
-        },
-        "16384":{
-          "player":0,
-          "name":"Blood"
+        ":IN1":{
+            "labels":{
+                "512":{"player":1,"name":"P2 Low Punch"},
+                "1024":{"player":1,"name":"P2 Low Kick"},
+                "2048":{"player":1,"name":"P2 Block 2"},
+                "4096":{"player":0,"name":"P1 Low Punch"},
+                "8192":{"player":0,"name":"P1 Low Kick"},
+                "32768":{"player":0,"name":"P1 Block 2"}
+            }
         }
-      }
-    },
-    ":IN2":{
-      "labels":[]
-    },
-    ":IN1":{
-      "labels":{
-        "32":{
-          "player":0,
-          "name":"2 Players Start"
-        },
-        "1":{
-          "player":0,
-          "name":"Coin 1"
-        },
-        "2":{
-          "player":0,
-          "name":"Coin 2"
-        },
-        "4":{
-          "player":0,
-          "name":"1 Player Start"
-        },
-        "64":{
-          "player":0,
-          "name":"Service 1"
-        },
-        "128":{
-          "player":0,
-          "name":"Coin 3"
-        },
-        "16":{
-          "player":0,
-          "name":"Service Mode"
-        },
-        "8":{
-          "player":0,
-          "name":"Tilt"
-        },
-        "256":{
-          "player":0,
-          "name":"Coin 4"
-        },
-        "8192":{
-          "player":0,
-          "name":"P1 Low Kick"
-        },
-        "1024":{
-          "player":1,
-          "name":"P2 Low Kick"
-        },
-        "4096":{
-          "player":0,
-          "name":"P1 Low Punch"
-        },
-        "512":{
-          "player":1,
-          "name":"P2 Low Punch"
-        },
-        "2048":{
-          "player":1,
-          "name":"P2 Block 2"
-        },
-        "32768":{
-          "player":0,
-          "name":"P1 Block 2"
-        }
-      }
-    },
-    ":IN0":{
-      "labels":{
-        "1":{
-          "player":0,
-          "name":"P1 Up"
-        },
-        "2":{
-          "player":0,
-          "name":"P1 Down"
-        },
-        "4":{
-          "player":0,
-          "name":"P1 Left"
-        },
-        "1024":{
-          "player":1,
-          "name":"P2 Left"
-        },
-        "2048":{
-          "player":1,
-          "name":"P2 Right"
-        },
-        "16":{
-          "player":0,
-          "name":"P1 High Punch"
-        },
-        "8":{
-          "player":0,
-          "name":"P1 Right"
-        },
-        "16384":{
-          "player":1,
-          "name":"P2 High Kick"
-        },
-        "4096":{
-          "player":1,
-          "name":"P2 High Punch"
-        },
-        "512":{
-          "player":1,
-          "name":"P2 Down"
-        },
-        "256":{
-          "player":1,
-          "name":"P2 Up"
-        },
-        "32":{
-          "player":0,
-          "name":"P1 Block"
-        },
-        "8192":{
-          "player":1,
-          "name":"P2 Block"
-        },
-        "64":{
-          "player":0,
-          "name":"P1 High Kick"
-        }
-      }
     }
-  },
-  "romname":"mk"
 }
