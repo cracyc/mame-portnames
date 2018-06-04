@@ -1,0 +1,13 @@
+{
+  "romname":"gunforce",
+  "ports":{
+    ":P1_P2":{
+      "labels":{
+        "64":{"name":"P1 Jump","player":0},
+        "128":{"name":"P1 Fire","player":0},
+        "16384":{"name":"P2 Jump","player":1},
+        "32768":{"name":"P2 Fire","player":1}
+      }
+    }
+  }
+}

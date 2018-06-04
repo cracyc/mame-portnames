@@ -1,0 +1,46 @@
+{
+  "romname":"buggyboy",
+  "ports":{
+    ":DSW":{
+      "labels":{
+        "3":{"player":0,"name":"Do not change DSW2 1&2"},
+        "4":{"player":0,"name":"Language"},
+        "8":{"player":0,"name":"Do not Change DSW2 4"},
+        "48":{"player":0,"name":"Time Rank"},
+        "192":{"player":0,"name":"Game Rank"},
+        "1792":{"player":0,"name":"Do not change DSW1 1-3"},
+        "6144":{"player":0,"name":"Coin B"},
+        "57344":{"player":0,"name":"Coin A"}
+      }
+    },
+    ":AN_ACCELERATOR":{
+      "labels":{
+        "31":{"player":0,"name":"P1 Pedal 1"}
+      }
+    },
+    ":PPI_PORTC":{
+      "labels":{
+        "255":{"player":0,"name":"Sound PCB Jumper"}
+      }
+    },
+    ":PPI_PORTA":{
+      "labels":{
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"},
+        "4":{"player":0,"name":"Coin 3"},
+        "64":{"player":0,"name":"Gear Change"},
+        "128":{"player":0,"name":"Service Mode"}
+      }
+    },
+    ":AN_BRAKE":{
+      "labels":{
+        "31":{"player":0,"name":"P1 Pedal 2"}
+      }
+    },
+    ":AN_STEERING":{
+      "labels":{
+        "15":{"player":0,"name":"Dial"}
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "romname":"bishi",
+  "ports":{
+    ":INPUTS":{
+      "labels":{
+        "1":{"player":2,"name":"P3 Blue"},
+        "2":{"player":2,"name":"P3 Green"},
+        "4":{"player":2,"name":"P3 Red"},
+        "256":{"player":0,"name":"P1 Blue"},
+        "512":{"player":0,"name":"P1 Green"},
+        "1024":{"player":0,"name":"P1 Red"},
+        "4096":{"player":1,"name":"P2 Blue"},
+        "8192":{"player":1,"name":"P2 Green"},
+        "16384":{"player":1,"name":"P2 Red"},
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "2":{"name":"Coin 2","player":0},
+        "4":{"name":"Coin 3","player":0},
+        "8":{"name":"Coin 4","player":0},
+        "32":{"name":"Service 2","player":0},
+        "64":{"name":"Service 3","player":0},
+        "128":{"name":"Service 4","player":0}
+      }
+    }
+  }
+}

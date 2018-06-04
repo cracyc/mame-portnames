@@ -1,0 +1,25 @@
+{
+  "romname":"ikaruga",
+  "ports":{
+    ":P2":{
+      "labels":{
+        "16":{"name":"P2 Button 6","player":1},
+        "32":{"name":"P2 Button 5","player":1},
+        "64":{"name":"P2 Button 4","player":1},
+        "128":{"name":"P2 Special Attack","player":1},
+        "256":{"name":"P2 Switch","player":1},
+        "512":{"name":"P2 Fire","player":1}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "16":{"name":"P1 Button 6","player":0},
+        "32":{"name":"P1 Button 5","player":0},
+        "64":{"name":"P1 Button 4","player":0},
+        "128":{"name":"P1 Special Attack","player":0},
+        "256":{"name":"P1 Switch","player":0},
+        "512":{"name":"P1 Fire","player":0}
+      }
+    }
+  }
+}

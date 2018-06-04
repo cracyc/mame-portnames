@@ -1,0 +1,35 @@
+{
+  "romname":"metmqstr",
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Up"},
+        "2":{"player":1,"name":"P2 Down"},
+        "4":{"player":1,"name":"P2 Left"},
+        "8":{"player":1,"name":"P2 Right"},
+        "16":{"player":1,"name":"P2 Button 1"},
+        "32":{"player":1,"name":"P2 Button 2"},
+        "64":{"player":1,"name":"P2 Button 3"},
+        "128":{"player":0,"name":"2 Players Start"},
+        "256":{"player":0,"name":"Coin 2"},
+        "512":{"player":0,"name":"Service 1"},
+        "1024":{"player":1,"name":"P2 Button 4"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Up"},
+        "2":{"player":0,"name":"P1 Down"},
+        "4":{"player":0,"name":"P1 Left"},
+        "8":{"player":0,"name":"P1 Right"},
+        "16":{"player":0,"name":"P1 Button 1"},
+        "32":{"player":0,"name":"P1 Button 2"},
+        "64":{"player":0,"name":"P1 Button 3"},
+        "128":{"player":0,"name":"1 Player Start"},
+        "256":{"player":0,"name":"Coin 1"},
+        "512":{"player":0,"name":"Service Mode"},
+        "1024":{"player":0,"name":"P1 Button 4"}
+      }
+    }
+  }
+}

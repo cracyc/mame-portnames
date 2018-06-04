@@ -1,0 +1,29 @@
+{
+  "romname":"blstroid",
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Fire"},
+        "2":{"player":1,"name":"P2 Thrust"},
+        "4":{"player":1,"name":"P2 Transform:  Armor, Shots, Speed"}
+      }
+    },
+    ":DIAL0":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Rotate Ship Left / Rotate Ship Right"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Fire"},
+        "2":{"player":0,"name":"P1 Thrust"},
+        "4":{"player":0,"name":"P1 Transform:  Armor, Shots, Speed"}
+      }
+    },
+    ":DIAL1":{
+      "labels":{
+        "255":{"player":1,"name":"P2 Rotate Ship Right /  Rotate Ship Left"}
+      }
+    }
+  }
+}

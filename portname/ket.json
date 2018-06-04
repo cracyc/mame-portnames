@@ -1,0 +1,15 @@
+{
+  "romname":"ket",
+  "ports":{
+    ":P1P2":{
+      "labels":{
+        "32":{"name":"P1 Fire","player":0},
+        "64":{"name":"P1 Bomb","player":0},
+        "128":{"name":"P1 Rapid Fire","player":0},
+        "8192":{"name":"P2 Fire","player":1},
+        "16384":{"name":"P2 Bomb","player":1},
+        "32768":{"name":"P2 Rapid Fire","player":1}
+      }
+    }
+  }
+}

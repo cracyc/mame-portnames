@@ -1,0 +1,10 @@
+{
+  "romname":"seawolf",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "32":{"name":"Fire Torpedo","player":0}
+      }
+    }
+  }
+}

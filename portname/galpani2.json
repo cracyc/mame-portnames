@@ -1,0 +1,51 @@
+{
+  "romname":"galpani2",
+  "ports":{
+    ":DSW2_P2":{
+      "labels":{
+        "15":{"name":"Coinage","player":0},
+        "16":{"name":"Card Dispenser","player":0},
+        "32":{"name":"Flip Screen","player":0},
+        "64":{"name":"Demo Sounds","player":0},
+        "128":{"name":"Service Mode","player":0},
+        "256":{"name":"P2 Up","player":1},
+        "512":{"name":"P2 Down","player":1},
+        "1024":{"name":"P2 Left","player":1},
+        "2048":{"name":"P2 Right","player":1},
+        "4096":{"name":"P2 Button 1","player":1},
+        "8192":{"name":"P2 Button 2","player":1},
+        "16384":{"name":"2 Players Start","player":0},
+        "32768":{"name":"Coin 2","player":0}
+      }
+    },
+    ":SERVICE":{
+      "labels":{
+        "1024":{"name":"P2 Button 3","player":1},
+        "8192":{"name":"Service 2","player":0},
+        "16384":{"name":"Tilt","player":0},
+        "32768":{"name":"Service 1","player":0}
+      }
+    },
+    ":DSW1_P1":{
+      "labels":{
+        "7":{"name":"Difficulty","player":0},
+        "8":{"name":"Picture Mode","player":0},
+        "48":{"name":"Lives","player":0},
+        "192":{"name":"Max Unit of Players","player":0},
+        "256":{"name":"P1 Up","player":0},
+        "512":{"name":"P1 Down","player":0},
+        "1024":{"name":"P1 Left","player":0},
+        "2048":{"name":"P1 Right","player":0},
+        "4096":{"name":"P1 Button 1","player":0},
+        "8192":{"name":"P1 Button 2","player":0},
+        "16384":{"name":"1 Player Start","player":0},
+        "32768":{"name":"Coin 1","player":0}
+      }
+    },
+    ":SPECIAL":{
+      "labels":{
+        "1024":{"name":"P1 Button 3","player":0}
+      }
+    }
+  }
+}

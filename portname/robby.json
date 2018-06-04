@@ -1,0 +1,23 @@
+{
+  "romname":"robby",
+  "ports":{
+    ":P3HANDLE":{
+      "labels":{
+        "1":{"name":"P1 Move Up","player":0},
+        "2":{"name":"P1 Move Down","player":0},
+        "4":{"name":"P1 Move Left","player":0},
+        "8":{"name":"P1 Move Right","player":0},
+        "32":{"name":"P1 Magic","player":0}
+      }
+    },
+    ":P2HANDLE":{
+      "labels":{
+        "1":{"name":"P2 Move Up","player":1},
+        "2":{"name":"P2 Move Down","player":1},
+        "4":{"name":"P2 Move Left","player":1},
+        "8":{"name":"P2 Move Right","player":1},
+        "32":{"name":"P2 Magic","player":1}
+      }
+    }
+  }
+}

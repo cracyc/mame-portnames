@@ -1,0 +1,25 @@
+{
+  "romname":"bbusters",
+  "ports":{
+    ":GUNX1":{"labels":{"255":{"player":0,"name":"P1 Aim Vertical"}}},
+    ":GUNY1":{"labels":{"255":{"player":0,"name":"P1 Aim Horizontal"}}},
+    ":GUNX2":{"labels":{"255":{"player":1,"name":"P2 Aim Vertical"}}},
+    ":GUNY2":{"labels":{"255":{"player":1,"name":"P2 Aim Horizontal"}}},
+    ":GUNX3":{"labels":{"255":{"player":2,"name":"P3 Aim Vertical"}}},
+    ":GUNY3":{"labels":{"255":{"player":2,"name":"P3 Aim Horizontal"}}},
+    ":IN0":{
+      "labels":{
+        "2":{"player":0,"name":"P1 Fire"},
+        "4":{"player":0,"name":"P1 Grenade"},
+        "32":{"player":1,"name":"P2 Fire"},
+        "64":{"player":1,"name":"P2 Grenade"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "2":{"player":2,"name":"P3 Fire"},
+        "4":{"player":2,"name":"P3 Grenade"}
+      }
+    }
+  }
+}

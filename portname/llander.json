@@ -1,0 +1,10 @@
+{
+  "romname":"llander",
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "128":{"player":0,"name":"Abort"}
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "romname":"snes",
+  "softname":"axelayj",
+  "ports":{
+    ":ctrl1:joypad:JOYPAD":{
+      "labels":{
+        "1":{"player":0,"name":"B"},
+        "2":{"player":0,"name":"Y"},
+        "4":{"player":0,"name":"Select"},
+        "8":{"player":0,"name":"Start"},
+        "256":{"player":0,"name":"A"},
+        "512":{"player":0,"name":"X"},
+        "1024":{"player":0,"name":"L"},
+        "2048":{"player":0,"name":"R"}
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "romname":"gloc",
+  "ports":{
+    ":ADC.4":{
+      "labels":{
+        "255":{"player":0,"name":"Speed Up / Slow Down"}
+      }
+    },
+    ":ADC.5":{
+      "labels":{
+        "255":{"player":0,"name":"Left / Right"}
+      }
+    },
+    ":GENERAL":{
+      "labels":{
+        "1":{"player":0,"name":"Afterburner"},
+        "16":{"player":0,"name":"Vulcan"},
+        "32":{"player":0,"name":"Missile"}
+      }
+    },
+    ":ADC.3":{
+      "labels":{
+        "255":{"player":0,"name":"Up / Down"}
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "romname":"snes",
+  "softname":"gradius3",
+  "ports":{
+    ":ctrl2:joypad:JOYPAD":{
+      "labels":{
+        "1":{"player":1,"name":"B"},
+        "2":{"player":1,"name":"Y"},
+        "4":{"player":1,"name":"Select"},
+        "8":{"player":1,"name":"Start"},
+        "16":{"player":1,"name":"P2 Up"},
+        "32":{"player":1,"name":"P2 Down"},
+        "64":{"player":1,"name":"P2 Left"},
+        "128":{"player":1,"name":"P2 Right"},
+        "256":{"player":1,"name":"A"},
+        "512":{"player":1,"name":"X"},
+        "1024":{"player":1,"name":"L"},
+        "2048":{"player":1,"name":"R"}
+      }
+    },
+    ":OPTIONS":{
+      "labels":{
+        "1":{"player":0,"name":"Hi-Res pixels blurring (TV effect)"}
+      }
+    },
+    ":ctrl1:joypad:JOYPAD":{
+      "labels":{
+        "1":{"player":0,"name":"B"},
+        "2":{"player":0,"name":"Y"},
+        "4":{"player":0,"name":"Select"},
+        "8":{"player":0,"name":"Start"},
+        "16":{"player":0,"name":"P1 Up"},
+        "32":{"player":0,"name":"P1 Down"},
+        "64":{"player":0,"name":"P1 Left"},
+        "128":{"player":0,"name":"P1 Right"},
+        "256":{"player":0,"name":"A"},
+        "512":{"player":0,"name":"X"},
+        "1024":{"player":0,"name":"L"},
+        "2048":{"player":0,"name":"R"}
+      }
+    }
+  }
+}

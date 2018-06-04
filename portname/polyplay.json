@@ -1,0 +1,14 @@
+{
+  "romname":"polyplay",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "1":{"name":"A","player":0},
+        "2":{"name":"Right","player":0},
+        "4":{"name":"Left","player":0},
+        "8":{"name":"Up","player":0},
+        "16":{"name":"Down","player":0}
+      }
+    }
+  }
+}

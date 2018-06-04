@@ -1,0 +1,35 @@
+{
+  "romname":"pigout",
+  "ports":{
+    ":IN2":{
+      "labels":{
+        "2":{"name":"P3 Jump","player":2},
+        "4":{"name":"P3 Left","player":2},
+        "8":{"name":"P3 Up","player":2},
+        "32":{"name":"P2 Jump","player":1},
+        "64":{"name":"P2 Right","player":1},
+        "128":{"name":"P2 Down","player":1}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "2":{"name":"P3 Throw","player":2},
+        "4":{"name":"P3 Right","player":2},
+        "8":{"name":"P3 Down","player":2},
+        "32":{"name":"P2 Throw","player":1},
+        "64":{"name":"P2 Left","player":1},
+        "128":{"name":"P2 Up","player":1}
+      }
+    },
+    ":IN4":{
+      "labels":{
+        "2":{"name":"P1 Up","player":0},
+        "4":{"name":"P1 Down","player":0},
+        "8":{"name":"P1 Left","player":0},
+        "16":{"name":"P1 Right","player":0},
+        "32":{"name":"P1 Jump","player":0},
+        "64":{"name":"P1 Throw","player":0}
+      }
+    }
+  }
+}

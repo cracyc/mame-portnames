@@ -1,0 +1,38 @@
+{
+  "romname":"pwrflip",
+  "ports":{
+    ":DSW":{
+      "labels":{
+        "3":{"name":"Difficulty","player":0},
+        "12":{"name":"Bonus Life","player":0},
+        "16":{"name":"Flip Screen","player":0},
+        "64":{"name":"Demo Sounds","player":0},
+        "128":{"name":"Unused","player":0},
+        "1792":{"name":"Coin A","player":0},
+        "14336":{"name":"Coin B","player":0},
+        "49152":{"name":"Lives","player":0}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "8":{"name":"Item Right","player":0},
+        "16":{"name":"Flipper 1 Right","player":0},
+        "32":{"name":"Flipper 2 Right","player":0},
+        "64":{"name":"Tilt Right","player":0},
+        "128":{"name":"2 Players Start","player":0},
+        "2048":{"name":"Item Left","player":0},
+        "4096":{"name":"Flipper 1 Left","player":0},
+        "8192":{"name":"Flipper 2 Left","player":0},
+        "16384":{"name":"Tilt Left","player":0},
+        "32768":{"name":"1 Player Start","player":0}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "256":{"name":"Coin 1","player":0},
+        "512":{"name":"Coin 2","player":0},
+        "2048":{"name":"Service 1","player":0}
+      }
+    }
+  }
+}

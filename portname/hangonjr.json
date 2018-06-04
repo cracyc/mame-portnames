@@ -1,0 +1,37 @@
+{
+  "romname":"hangonjr",
+  "ports":{
+    ":f2":{
+      "labels":{
+        "15":{"name":"Coin A","player":0},
+        "240":{"name":"Coin B","player":0}
+      }
+    },
+    ":IN3":{
+      "labels":{
+        "255":{"name":"P1 Pedal 1","player":0}
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "255":{"name":"Paddle","player":0}
+      }
+    },
+    ":e0":{
+      "labels":{
+        "1":{"name":"Coin 1","player":0},
+        "2":{"name":"Coin 2","player":0},
+        "4":{"name":"Service Mode","player":0},
+        "8":{"name":"Service 1","player":0},
+        "16":{"name":"1 Player Start","player":0}
+      }
+    },
+    ":f3":{
+      "labels":{
+        "6":{"name":"Enemies","player":0},
+        "24":{"name":"Time Adj.","player":0},
+        "128":{"name":"Unused","player":0}
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "romname":"fireshrk",
+  "ports":{
+    ":P2":{
+      "labels":{
+        "16":{"name":"P2 Fire","player":1},
+        "32":{"name":"P2 Bomb","player":1}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "16":{"name":"P1 Fire","player":0},
+        "32":{"name":"P1 Bomb","player":0}
+      }
+    }
+  }
+}

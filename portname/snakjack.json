@@ -1,0 +1,20 @@
+{
+  "romname":"snakjack",
+  "ports":{
+    ":AN3":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Left / Right"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "4":{"player":0,"name":"P1 Sneeze Button"}
+      }
+    },
+    ":AN2":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Up / Down"}
+      }
+    }
+  }
+}

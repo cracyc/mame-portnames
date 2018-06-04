@@ -1,0 +1,11 @@
+{
+  "romname":"cshift",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "1":{"name":"P1 Blue Things","player":0},
+        "2":{"name":"P1 Red Things","player":0}
+      }
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "romname":"pce",
+  "softname":"sssoldr",
+  "ports":{
+    ":JOY6B_P.2":{
+      "labels":{
+        "1":{"name":"P3 Button I","player":2},
+        "2":{"name":"P3 Button II","player":2},
+        "4":{"name":"P3 Select","player":2},
+        "8":{"name":"P3 Run","player":2},
+        "16":{"name":"P3 Up","player":2},
+        "32":{"name":"P3 Right","player":2},
+        "64":{"name":"P3 Down","player":2},
+        "128":{"name":"P3 Left","player":2},
+        "256":{"name":"P3 Button III","player":2},
+        "512":{"name":"P3 Button IV","player":2},
+        "1024":{"name":"P3 Button V","player":2},
+        "2048":{"name":"P3 Button VI","player":2}
+      }
+    },
+    ":JOY_P.1":{
+      "labels":{
+        "1":{"name":"P2 Button I","player":1},
+        "2":{"name":"P2 Button II","player":1},
+        "4":{"name":"P2 Select","player":1},
+        "8":{"name":"P2 Run","player":1},
+        "16":{"name":"P2 Up","player":1},
+        "32":{"name":"P2 Right","player":1},
+        "64":{"name":"P2 Down","player":1},
+        "128":{"name":"P2 Left","player":1}
+      }
+    },
+    ":JOY_TYPE":{
+      "labels":{
+        "3":{"name":"Joystick Type Player 1","player":0},
+        "12":{"name":"Joystick Type Player 2","player":0},
+        "48":{"name":"Joystick Type Player 3","player":0},
+        "192":{"name":"Joystick Type Player 4","player":0},
+        "768":{"name":"Joystick Type Player 5","player":0}
+      }
+    },
+    ":JOY6B_P.0":{
+      "labels":{
+        "1":{"name":"P1 Button I","player":0},
+        "2":{"name":"P1 Button II","player":0},
+        "4":{"name":"P1 Select","player":0},
+        "8":{"name":"P1 Run","player":0},
+        "16":{"name":"P1 Up","player":0},
+        "32":{"name":"P1 Right","player":0},
+        "64":{"name":"P1 Down","player":0},
+        "128":{"name":"P1 Left","player":0},
+        "256":{"name":"P1 Button III","player":0},
+        "512":{"name":"P1 Button IV","player":0},
+        "1024":{"name":"P1 Button V","player":0},
+        "2048":{"name":"P1 Button VI","player":0}
+      }
+    },
+    ":A_CARD":{
+      "labels":{
+        "1":{"name":"Arcade Card","player":0}
+      }
+    },
+    ":JOY6B_P.3":{
+      "labels":{
+        "1":{"name":"P4 Button I","player":3},
+        "2":{"name":"P4 Button II","player":3},
+        "4":{"name":"P4 Select","player":3},
+        "8":{"name":"P4 Run","player":3},
+        "16":{"name":"P4 Up","player":3},
+        "32":{"name":"P4 Right","player":3},
+        "64":{"name":"P4 Down","player":3},
+        "128":{"name":"P4 Left","player":3},
+        "256":{"name":"P3 Button III","player":3},
+        "512":{"name":"P3 Button IV","player":3},
+        "1024":{"name":"P3 Button V","player":3},
+        "2048":{"name":"P3 Button VI","player":3}
+      }
+    },
+    ":JOY6B_P.1":{
+      "labels":{
+        "1":{"name":"P2 Button I","player":1},
+        "2":{"name":"P2 Button II","player":1},
+        "4":{"name":"P2 Select","player":1},
+        "8":{"name":"P2 Run","player":1},
+        "16":{"name":"P2 Up","player":1},
+        "32":{"name":"P2 Right","player":1},
+        "64":{"name":"P2 Down","player":1},
+        "128":{"name":"P2 Left","player":1},
+        "256":{"name":"P2 Button III","player":1},
+        "512":{"name":"P2 Button IV","player":1},
+        "1024":{"name":"P2 Button V","player":1},
+        "2048":{"name":"P2 Button VI","player":1}
+      }
+    },
+    ":JOY6B_P.4":{
+      "labels":{
+        "1":{"name":"P5 Button I","player":4},
+        "2":{"name":"P5 Button II","player":4},
+        "4":{"name":"P5 Select","player":4},
+        "8":{"name":"P5 Run","player":4},
+        "16":{"name":"P5 Up","player":4},
+        "32":{"name":"P5 Right","player":4},
+        "64":{"name":"P5 Down","player":4},
+        "128":{"name":"P5 Left","player":4},
+        "256":{"name":"P5 Button III","player":4},
+        "512":{"name":"P5 Button IV","player":4},
+        "1024":{"name":"P5 Button V","player":4},
+        "2048":{"name":"P5 Button VI","player":4}
+      }
+    },
+    ":JOY_P.4":{
+      "labels":{
+        "1":{"name":"P5 Button I","player":4},
+        "2":{"name":"P5 Button II","player":4},
+        "4":{"name":"P5 Select","player":4},
+        "8":{"name":"P5 Run","player":4},
+        "16":{"name":"P5 Up","player":4},
+        "32":{"name":"P5 Right","player":4},
+        "64":{"name":"P5 Down","player":4},
+        "128":{"name":"P5 Left","player":4}
+      }
+    },
+    ":JOY_P.2":{
+      "labels":{
+        "1":{"name":"P3 Button I","player":2},
+        "2":{"name":"P3 Button II","player":2},
+        "4":{"name":"P3 Select","player":2},
+        "8":{"name":"P3 Run","player":2},
+        "16":{"name":"P3 Up","player":2},
+        "32":{"name":"P3 Right","player":2},
+        "64":{"name":"P3 Down","player":2},
+        "128":{"name":"P3 Left","player":2}
+      }
+    },
+    ":JOY_P.3":{
+      "labels":{
+        "1":{"name":"P4 Button I","player":3},
+        "2":{"name":"P4 Button II","player":3},
+        "4":{"name":"P4 Select","player":3},
+        "8":{"name":"P4 Run","player":3},
+        "16":{"name":"P4 Up","player":3},
+        "32":{"name":"P4 Right","player":3},
+        "64":{"name":"P4 Down","player":3},
+        "128":{"name":"P4 Left","player":3}
+      }
+    },
+    ":JOY_P.0":{
+      "labels":{
+        "1":{"name":"P1 Button I","player":0},
+        "2":{"name":"P1 Button II","player":0},
+        "4":{"name":"P1 Select","player":0},
+        "8":{"name":"P1 Run","player":0},
+        "16":{"name":"P1 Up","player":0},
+        "32":{"name":"P1 Right","player":0},
+        "64":{"name":"P1 Down","player":0},
+        "128":{"name":"P1 Left","player":0}
+      }
+    }
+  }
+}

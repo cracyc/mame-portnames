@@ -1,0 +1,17 @@
+{
+  "romname":"qndream",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "1":{"name":"P1 4","player":0},
+        "2":{"name":"P1 3","player":0},
+        "4":{"name":"P1 2","player":0},
+        "8":{"name":"P1 1","player":0},
+        "256":{"name":"P2 4","player":1},
+        "512":{"name":"P2 3","player":1},
+        "1024":{"name":"P2 2","player":1},
+        "2048":{"name":"P2 1","player":1}
+      }
+    }
+  }
+}

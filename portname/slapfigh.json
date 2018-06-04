@@ -1,0 +1,25 @@
+{
+  "romname":"slapfigh",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Up"},
+        "2":{"player":0,"name":"P1 Down"},
+        "4":{"player":0,"name":"P1 Right"},
+        "8":{"player":0,"name":"P1 Left"},
+        "16":{"player":1,"name":"P2 Up"},
+        "32":{"player":1,"name":"P2 Down"},
+        "64":{"player":1,"name":"P2 Right"},
+        "128":{"player":1,"name":"P2 Left"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Weapon Select"},
+        "2":{"player":0,"name":"P1 Fire"},
+        "4":{"player":1,"name":"P2 Weapon Select"},
+        "8":{"player":1,"name":"P2 Fire"}
+      }
+    }
+  }
+}

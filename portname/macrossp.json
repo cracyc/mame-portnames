@@ -1,0 +1,17 @@
+{
+  "romname":"macrossp",
+  "ports":{
+    ":INPUTS":{
+      "labels":{
+        "1048576":{"player":0,"name":"P1 Fire"},
+        "2097152":{"player":0,"name":"P1 Bomb"},
+        "4194304":{"player":0,"name":"P1 Button 3"},
+        "8388608":{"player":0,"name":"P1 Button 4"},
+        "268435456":{"player":1,"name":"P2 Fire"},
+        "536870912":{"player":1,"name":"P2 Bomb"},
+        "1073741824":{"player":1,"name":"P2 Button 3"},
+        "2147483648":{"player":1,"name":"P2 Button 4"}
+      }
+    }
+  }
+}

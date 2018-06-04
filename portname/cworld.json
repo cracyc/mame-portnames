@@ -1,0 +1,35 @@
+{
+  "romname":"cworld",
+  "ports":{
+    ":IN2":{
+      "labels":{
+        "4":{"player":0,"name":"2 Players Start"},
+        "16":{"player":1,"name":"P2 Button 4"},
+        "32":{"player":1,"name":"P2 Button 3"},
+        "64":{"player":1,"name":"P2 Button 2"},
+        "128":{"player":1,"name":"P2 Button 1"}
+      }
+    },
+    ":SYS0":{
+      "labels":{
+        "2":{"player":0,"name":"Service Mode"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{"player":0,"name":"Service"},
+        "64":{"player":0,"name":"Service 1"},
+        "128":{"player":0,"name":"Coin 1"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "4":{"player":0,"name":"1 Player Start"},
+        "16":{"player":0,"name":"P1 Button 4"},
+        "32":{"player":0,"name":"P1 Button 3"},
+        "64":{"player":0,"name":"P1 Button 2"},
+        "128":{"player":0,"name":"P1 Button 1"}
+      }
+    }
+  }
+}

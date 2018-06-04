@@ -1,0 +1,61 @@
+{
+  "romname":"steeltal",
+  "ports":{
+    ":mainpcb:12BADC.1":{
+      "labels":{
+        "4095":{"player":0,"name":"AD Stick Y"}
+      }
+    },
+    ":mainpcb:12BADC.2":{
+      "labels":{
+        "4095":{"player":0,"name":"Collective"}
+      }
+    },
+    ":mainpcb:jsa:JSAIII":{
+      "labels":{
+        "1":{"player":0,"name":"Coin 2"},
+        "2":{"player":0,"name":"Coin 1"},
+        "4":{"player":0,"name":"Tilt"},
+        "8":{"player":0,"name":"Service"}
+      }
+    },
+    ":mainpcb:IN0":{
+      "labels":{
+        "1":{"player":0,"name":"Diagnostic jumper"},
+        "32":{"player":0,"name":"Service Mode"},
+        "64":{"player":0,"name":"Coin 2"},
+        "128":{"player":0,"name":"Coin 1"}
+      }
+    },
+    ":mainpcb:12BADC.0":{
+      "labels":{
+        "4095":{"player":0,"name":"AD Stick X"}
+      }
+    },
+    ":mainpcb:12BADC.3":{
+      "labels":{
+        "4095":{"player":1,"name":"Rudder"}
+      }
+    },
+    ":mainpcb:a80000":{
+      "labels":{
+        "1":{"player":0,"name":"Trigger"},
+        "2":{"player":0,"name":"Thumb"},
+        "4":{"player":0,"name":"Zoom"},
+        "8":{"player":0,"name":"Real Helicopter Flight"}
+      }
+    },
+    ":mainpcb:SW1":{
+      "labels":{
+        "1":{"player":0,"name":"SW1:8"},
+        "2":{"player":0,"name":"SW1:7"},
+        "4":{"player":0,"name":"SW1:6"},
+        "8":{"player":0,"name":"SW1:5"},
+        "16":{"player":0,"name":"SW1:4"},
+        "32":{"player":0,"name":"SW1:3"},
+        "64":{"player":0,"name":"SW1:2"},
+        "128":{"player":0,"name":"SW1:1"}
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "romname":"geebee",
+  "ports":{
+    ":IN2":{
+      "labels":{
+        "255":{"name":"P2 Right /  Left","player":1}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "255":{"name":"P1 Left / Right","player":0}
+      }
+    },
+    ":SW0":{
+      "labels":{
+        "16":{"name":"P1 Serve","player":0}
+      }
+    }
+  }
+}

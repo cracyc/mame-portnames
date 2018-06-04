@@ -1,0 +1,19 @@
+{
+  "romname":"warrior",
+  "ports":{
+    ":INPUTS":{
+      "labels":{
+        "1":{"name":"P2 Right","player":1},
+        "2":{"name":"P2 Left","player":1},
+        "4":{"name":"P2 Up","player":1},
+        "8":{"name":"P2 Down","player":1},
+        "16":{"name":"P2 Sword","player":1},
+        "256":{"name":"P1 Right","player":0},
+        "512":{"name":"P1 Left","player":0},
+        "1024":{"name":"P1 Up","player":0},
+        "2048":{"name":"P1 Down","player":0},
+        "4096":{"name":"P1 Sword","player":0}
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "romname":"grobda",
+  "ports":{
+    ":DSW1":{
+      "labels":{
+        "1":{"name":"Service Mode","player":0},
+        "14":{"name":"Coin A","player":0},
+        "112":{"name":"Coin B","player":0},
+        "128":{"name":"Freeze","player":0}
+      }
+    },
+    ":DSW0":{
+      "labels":{
+        "1":{"name":"P1 Button 2","player":0},
+        "2":{"name":"P2 Button 2","player":1},
+        "4":{"name":"Cabinet","player":0},
+        "8":{"name":"Service","player":0}
+      }
+    },
+    ":COINS":{
+      "labels":{
+        "1":{"name":"Coin 1","player":0},
+        "2":{"name":"Coin 2","player":0},
+        "8":{"name":"Service 1","player":0}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "1":{"name":"P1 Up","player":0},
+        "2":{"name":"P1 Right","player":0},
+        "4":{"name":"P1 Down","player":0},
+        "8":{"name":"P1 Left","player":0}
+      }
+    },
+    ":DSW2":{
+      "labels":{
+        "3":{"name":"Lives","player":0},
+        "12":{"name":"Difficulty","player":0},
+        "16":{"name":"Demo Sounds","player":0},
+        "32":{"name":"Level Select","player":0},
+        "192":{"name":"Bonus Life","player":0}
+      }
+    },
+    ":BUTTONS":{
+      "labels":{
+        "1":{"name":"P1 Button 1","player":0},
+        "2":{"name":"P2 Button 1","player":1},
+        "4":{"name":"1 Player Start","player":0},
+        "8":{"name":"2 Players Start","player":0}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"name":"P2 Up","player":1},
+        "2":{"name":"P2 Right","player":1},
+        "4":{"name":"P2 Down","player":1},
+        "8":{"name":"P2 Left","player":1}
+      }
+    }
+  }
+}

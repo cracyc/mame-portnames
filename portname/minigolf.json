@@ -1,0 +1,10 @@
+{
+  "romname":"minigolf",
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "16":{"name":"P1 Tee Selection","player":0}
+      }
+    }
+  }
+}

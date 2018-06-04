@@ -1,0 +1,17 @@
+{
+  "romname":"narc",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "16":{"player":0,"name":"P1 Rocket Bomb"},
+        "32":{"player":0,"name":"P1 Fire"},
+        "64":{"player":0,"name":"P1 Jump"},
+        "128":{"player":0,"name":"P1 Crouch"},
+        "4096":{"player":1,"name":"P2 Rocket Bomb"},
+        "8192":{"player":1,"name":"P2 Fire"},
+        "16384":{"player":1,"name":"P2 Jump"},
+        "32768":{"player":1,"name":"P2 Crouch"}
+      }
+    }
+  }
+}

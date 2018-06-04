@@ -1,0 +1,17 @@
+{
+  "romname":"bionicc",
+  "ports":{
+    ":P1":{
+      "labels":{
+        "2":{"player":0,"name":"P1 Fire"},
+        "1":{"player":0,"name":"P1 Arm"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "2":{"player":1,"name":"P2 Fire"},
+        "1":{"player":1,"name":"P2 Arm"}
+      }
+    }
+  }
+}

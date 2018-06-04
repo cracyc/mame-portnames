@@ -1,0 +1,30 @@
+{
+  "romname":"snes",
+  "softname":"ffight2j",
+  "ports":{
+    ":ctrl1:joypad:JOYPAD":{
+      "labels":{
+        "1":{"name":"B"},
+        "2":{"name":"Y"},
+        "4":{"name":"Select"},
+        "8":{"name":"Start"},
+        "256":{"name":"A"},
+        "512":{"name":"X"},
+        "1024":{"name":"L"},
+        "2048":{"name":"R"}
+      }
+    },
+    ":ctrl2:joypad:JOYPAD":{
+      "labels":{
+        "1":{"name":"B"},
+        "2":{"name":"Y"},
+        "4":{"name":"Select"},
+        "8":{"name":"Start"},
+        "256":{"name":"A"},
+        "512":{"name":"X"},
+        "1024":{"name":"L"},
+        "2048":{"name":"R"}
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "romname":"circusc",
+  "ports":{
+    ":P1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Left"},
+        "2":{"player":0,"name":"P1 Right"},
+        "16":{"player":0,"name":"P1 Jump"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Left"},
+        "2":{"player":1,"name":"P2 Right"},
+        "16":{"player":1,"name":"P2 Jump"}
+      }
+    }
+  }
+}

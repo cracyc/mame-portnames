@@ -1,0 +1,19 @@
+{
+  "romname":"revx",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "16":{"name":"P1 Fire","player":0},
+        "32":{"name":"P1 Bomb","player":0},
+        "4096":{"name":"P2 Fire","player":1},
+        "8192":{"name":"P2 Bomb","player":1}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "16":{"name":"P3 Fire","player":2},
+        "32":{"name":"P3 Bomb","player":2}
+      }
+    }
+  }
+}

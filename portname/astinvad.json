@@ -1,0 +1,19 @@
+{
+  "romname":"astinvad",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "16":{"name":"P1 FIRE","player":0},
+        "32":{"name":"P1 Left","player":0},
+        "64":{"name":"P1 Right","player":0}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "16":{"name":"P2 FIRE","player":1},
+        "32":{"name":"P2 Left","player":1},
+        "64":{"name":"P2 Right","player":1}
+      }
+    }
+  }
+}

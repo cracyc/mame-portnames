@@ -1,0 +1,31 @@
+{
+  "romname":"zoar",
+  "ports":{
+    ":P1":{
+      "labels":{
+        "1":{"name":"P1 Right","player":0},
+        "2":{"name":"P1 Left","player":0},
+        "4":{"name":"P1 Gain Altitude","player":0},
+        "8":{"name":"P1 Lose Altitude","player":0},
+        "16":{"name":"P1 High Missile","player":0},
+        "32":{"name":"P1 Low Missile","player":0}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"name":"P2 Right","player":1},
+        "2":{"name":"P2 Left","player":1},
+        "4":{"name":"P2 Gain Altitude","player":1},
+        "8":{"name":"P2 Lose Altitude","player":1},
+        "16":{"name":"P2 High Missile","player":1},
+        "32":{"name":"P2 Low Missile","player":1}
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "4":{"name":"P1 Top Speed","player":0},
+        "8":{"name":"P2 Top Speed","player":1}
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "romname":"groundfx",
+  "ports":{
+    ":BUTTONS":{
+      "labels":{
+        "1":{"name":"P1 Button 3","player":0},
+        "2":{"name":"P1 Button 1","player":0},
+        "16":{"name":"P1 Button 2","player":0}
+      }
+    },
+    ":AN1":{
+      "labels":{
+        "255":{"name":"AD Stick Y","player":0}
+      }
+    },
+    ":AN2":{
+      "labels":{
+        "255":{"name":"AD Stick X 2","player":1}
+      }
+    },
+    ":AN0":{
+      "labels":{
+        "255":{"name":"AD Stick X","player":0}
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1":{"name":"Service Mode","player":0},
+        "2":{"name":"Service 1","player":0},
+        "4":{"name":"Coin 1","player":0},
+        "8":{"name":"Coin 2","player":0}
+      }
+    },
+    ":AN3":{
+      "labels":{
+        "255":{"name":"AD Stick Y 2","player":1}
+      }
+    }
+  }
+}

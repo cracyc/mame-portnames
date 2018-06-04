@@ -1,0 +1,18 @@
+{
+  "romname":"nes",
+  "softname":"smb",
+  "ports":{
+    ":ctrl1:joypad:JOYPAD":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Jump"},
+        "2":{"player":0,"name":"P1 Run/Shoot"},
+      }
+    },
+    ":ctrl2:joypad:JOYPAD":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Jump"},
+        "2":{"player":1,"name":"P2 Run/Shoot"},
+      }
+    }
+  }
+}

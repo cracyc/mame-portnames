@@ -1,0 +1,58 @@
+{
+  "romname":"finalap2",
+  "ports":{
+    ":MCUC":{
+      "labels":{
+        "16":{"player":0,"name":"Coin 2"},
+        "32":{"player":0,"name":"Coin 1"},
+        "64":{"player":0,"name":"Service Mode"},
+        "128":{"player":0,"name":"Service 1"}
+      }
+    },
+    ":AN7":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Pedal 1"}
+      }
+    },
+    ":DSW":{
+      "labels":{
+        "1":{"player":0,"name":"Video Display"},
+        "2":{"player":0,"name":"$2000-1"},
+        "4":{"player":0,"name":"$2000-2"},
+        "8":{"player":0,"name":"$2000-3"},
+        "16":{"player":0,"name":"$2000-4"},
+        "32":{"player":0,"name":"$2000-5"},
+        "64":{"player":0,"name":"$2000-6"},
+        "128":{"player":0,"name":"Service Mode"}
+      }
+    },
+    ":MCUH":{
+      "labels":{
+        "1":{"player":0,"name":"PortH 0x01"},
+        "2":{"player":0,"name":"Automatic Car Select"},
+        "4":{"player":0,"name":"PortH 0x04"},
+        "8":{"player":0,"name":"Enable Onscreen Diagnostics"},
+        "16":{"player":0,"name":"PortH 0x10"},
+        "32":{"player":0,"name":"Shift Gear"},
+        "64":{"player":0,"name":"PortH 0x40"},
+        "128":{"player":0,"name":"Car Type(B)"}
+      }
+    },
+    ":AN5":{
+      "labels":{
+        "255":{"player":0,"name":"Paddle"}
+      }
+    },
+    ":MCUB":{
+      "labels":{
+        "1":{"player":0,"name":"PortB 0x01"},
+        "2":{"player":0,"name":"Car Type(A)"}
+      }
+    },
+    ":AN6":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Pedal 2"}
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "romname":"sgunner",
+  "ports":{
+    ":MCUC":{
+      "labels":{
+        "16":{"name":"Coin 2","player":0},
+        "32":{"name":"Coin 1","player":0},
+        "64":{"name":"Service Button","player":0},
+        "128":{"name":"Service 1","player":0}
+      }
+    },
+    ":MCUB":{
+      "labels":{
+        "64":{"name":"2 Players Start","player":0},
+        "128":{"name":"1 Player Start","player":0}
+      }
+    },
+    ":AN6":{
+      "labels":{
+        "255":{"name":"Lightgun Y","player":0}
+      }
+    },
+    ":AN4":{
+      "labels":{
+        "255":{"name":"Lightgun X","player":0}
+      }
+    },
+    ":AN5":{
+      "labels":{
+        "255":{"name":"Lightgun X 2","player":1}
+      }
+    },
+    ":AN7":{
+      "labels":{
+        "255":{"name":"Lightgun Y 2","player":1}
+      }
+    },
+    ":DSW":{
+      "labels":{
+        "1":{"name":"Video Display","player":0},
+        "2":{"name":"$2000-1","player":0},
+        "4":{"name":"$2000-2","player":0},
+        "8":{"name":"$2000-3","player":0},
+        "16":{"name":"$2000-4","player":0},
+        "32":{"name":"$2000-5","player":0},
+        "64":{"name":"$2000-6","player":0},
+        "128":{"name":"Service Mode","player":0}
+      }
+    },
+    ":MCUH":{
+      "labels":{
+        "4":{"name":"P2 Button 2","player":1},
+        "8":{"name":"P1 Button 2","player":0},
+        "16":{"name":"P2 Button 1","player":1},
+        "32":{"name":"P1 Button 1","player":0}
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "romname":"ssprint",
+  "ports":{
+    ":LETA1":{
+      "labels":{
+        "255":{"name":"P2 Left /  Right","player":1}
+      }
+    },
+    ":LETA2":{
+      "labels":{
+        "255":{"name":"P3 Left /  Right","player":2}
+      }
+    },
+    ":LETA0":{
+      "labels":{
+        "255":{"name":"P1 Left /  Right","player":0}
+      }
+    },
+    ":ADC1":{
+      "labels":{
+        "255":{"name":"P2 Gas","player":1}
+      }
+    },
+    ":ADC0":{
+      "labels":{
+        "255":{"name":"P1 Gas","player":0}
+      }
+    },
+    ":ADC2":{
+      "labels":{
+        "255":{"name":"P3 Gas","player":2}
+      }
+    }
+  }
+}

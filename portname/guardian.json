@@ -1,0 +1,31 @@
+{
+  "romname":"guardian",
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Defense"},
+        "2":{"player":0,"name":"P1 Fast Kick"},
+        "4":{"player":1,"name":"P2 Defense"},
+        "8":{"player":1,"name":"P2 Fast Kick"},
+        "512":{"player":1,"name":"P2 Strong Kick"},
+        "1024":{"player":1,"name":"P2 Fast Punch"},
+        "2048":{"player":1,"name":"P2 Strong Punch"},
+        "4096":{"player":1,"name":"P2 Right"},
+        "8192":{"player":1,"name":"P2 Left"},
+        "16384":{"player":1,"name":"P2 Down"},
+        "32768":{"player":1,"name":"P2 Up"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "512":{"player":0,"name":"P1 Strong Kick"},
+        "1024":{"player":0,"name":"P1 Fast Punch"},
+        "2048":{"player":0,"name":"P1 Strong Punch"},
+        "4096":{"player":0,"name":"P1 Right"},
+        "8192":{"player":0,"name":"P1 Left"},
+        "16384":{"player":0,"name":"P1 Down"},
+        "32768":{"player":0,"name":"P1 Up"}
+      }
+    }
+  }
+}

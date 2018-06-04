@@ -1,0 +1,57 @@
+{
+  "romname":"f15se",
+  "ports":{
+    ":JOYSTICK_Y":{
+      "labels":{
+        "4095":{"player":0,"name":"AD Stick Y"}
+      }
+    },
+    ":THROTTLE":{
+      "labels":{
+        "255":{"player":0,"name":"Throttle"}
+      }
+    },
+    ":JOYSTICK_X":{
+      "labels":{
+        "4095":{"player":0,"name":"AD Stick X"}
+      }
+    },
+    ":SOUND_SW":{
+      "labels":{
+        "128":{"player":0,"name":"Sound PCB Test SW"}
+      }
+    },
+    ":VGB_SW":{
+      "labels":{
+        "8":{"player":0,"name":"VGB Monitor Mode"}
+      }
+    },
+    ":INPUTS_C_D":{
+      "labels":{
+        "256":{"player":0,"name":"Coin 2"},
+        "512":{"player":0,"name":"Coin 1"},
+        "4096":{"player":0,"name":"Trigger"},
+        "8192":{"player":0,"name":"Missile"},
+        "16384":{"player":0,"name":"Target Select"}
+      }
+    },
+    ":VOLUME":{
+      "labels":{
+        "255":{"player":0,"name":"Volume"}
+      }
+    },
+    ":INPUTS_A_B":{
+      "labels":{
+        "4":{"player":0,"name":"Shared Memory Handshake Test"},
+        "8":{"player":0,"name":"Dr. Math Monitor Mode"},
+        "16":{"player":0,"name":"Burn-in Tests"},
+        "32":{"player":0,"name":"Manufacturing Tests"},
+        "64":{"player":0,"name":"Unused"},
+        "128":{"player":0,"name":"Host Monitor Mode"},
+        "256":{"player":0,"name":"1 Player Start"},
+        "512":{"player":0,"name":"Decoy"},
+        "1024":{"player":0,"name":"Service Mode"}
+      }
+    }
+  }
+}

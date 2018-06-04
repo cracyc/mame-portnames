@@ -1,0 +1,25 @@
+{
+  "romname":"bking2",
+  "ports":{
+    ":TRACK0_X":{
+      "labels":{
+        "255":{"name":"P1 Left /  Right","player":0}
+      }
+    },
+    ":TRACK1_Y":{
+      "labels":{
+        "255":{"name":"P2 Up /  Down","player":1}
+      }
+    },
+    ":TRACK0_Y":{
+      "labels":{
+        "255":{"name":"P1 Up /  Down","player":0}
+      }
+    },
+    ":TRACK1_X":{
+      "labels":{
+        "255":{"name":"P2 Left /  Right","player":1}
+      }
+    }
+  }
+}

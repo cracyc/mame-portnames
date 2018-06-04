@@ -1,0 +1,10 @@
+{
+  "romname":"duckhunt",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "128":{"name":"P1 B","player":0}
+      }
+    }
+  }
+}

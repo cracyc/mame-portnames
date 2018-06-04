@@ -1,0 +1,21 @@
+{
+  "romname":"magdrop2",
+  "ports":{
+    ":edge:joy:JOY1":{
+      "labels":{
+        "16":{"name":"P1 A"},
+        "32":{"name":"P1 B"},
+        "64":{"name":"P1 C"},
+        "128":{"name":"P1 D"}
+      }
+    },
+    ":edge:joy:JOY2":{
+      "labels":{
+        "16":{"name":"P2 A"},
+        "32":{"name":"P2 B"},
+        "64":{"name":"P2 C"},
+        "128":{"name":"P2 D"}
+      }
+    }
+  }
+}

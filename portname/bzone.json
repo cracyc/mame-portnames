@@ -1,0 +1,14 @@
+{
+  "romname":"bzone",
+  "ports":{
+    ":IN3":{
+      "labels":{
+        "1":{"player":0,"name":"Right Tread Backward"},
+        "2":{"player":0,"name":"Right Tread Forward"},
+        "4":{"player":0,"name":"Left Tread Backward"},
+        "8":{"player":0,"name":"Left Tread Forward"},
+        "16":{"player":0,"name":"Fire"}
+      }
+    }
+  }
+}

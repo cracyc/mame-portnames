@@ -1,0 +1,25 @@
+{
+  "romname":"mk",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "16":{"player":0,"name":"P1 High Punch"},
+        "32":{"player":0,"name":"P1 Block"},
+        "64":{"player":0,"name":"P1 High Kick"},
+        "4096":{"player":1,"name":"P2 High Punch"},
+        "8192":{"player":1,"name":"P2 Block"},
+        "16384":{"player":1,"name":"P2 High Kick"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "512":{"player":1,"name":"P2 Low Punch"},
+        "1024":{"player":1,"name":"P2 Low Kick"},
+        "2048":{"player":1,"name":"P2 Block 2"},
+        "4096":{"player":0,"name":"P1 Low Punch"},
+        "8192":{"player":0,"name":"P1 Low Kick"},
+        "32768":{"player":0,"name":"P1 Block 2"}
+      }
+    }
+  }
+}

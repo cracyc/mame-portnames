@@ -1,0 +1,47 @@
+{
+  "romname":"f1gpstar",
+  "ports":{
+    ":IN2":{
+      "labels":{
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"},
+        "4":{"player":0,"name":"Service 1"},
+        "8":{"player":0,"name":"Service Mode"},
+        "16":{"player":0,"name":"1 Player Start"},
+        "32":{"player":0,"name":"P1 Gear Shift"},
+        "64":{"player":0,"name":"P1 Brake"},
+        "128":{"player":0,"name":"2 Players Start"}
+      }
+    },
+    ":IN4":{
+      "labels":{
+        "1":{"player":0,"name":"This Unit Is"},
+        "6":{"player":0,"name":"Unit ID"},
+        "128":{"player":0,"name":"Unknown"}
+      }
+    },
+    ":PEDAL":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Pedal 1"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "7":{"player":0,"name":"Coin A (JP US)"},
+        "56":{"player":0,"name":"Coin B (EU FR)"},
+        "64":{"player":0,"name":"Free Play (EU & FR)"},
+        "768":{"player":0,"name":"Region"},
+        "3072":{"player":0,"name":"Difficulty"},
+        "4096":{"player":0,"name":"Infinite Time (Cheat)"},
+        "8192":{"player":0,"name":"Demo Sounds"},
+        "16384":{"player":0,"name":"Unknown"},
+        "32768":{"player":0,"name":"Vibrations"}
+      }
+    },
+    ":IN5":{
+      "labels":{
+        "255":{"player":0,"name":"Paddle"}
+      }
+    }
+  }
+}

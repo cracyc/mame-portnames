@@ -1,0 +1,23 @@
+{
+  "romname":"blueprnt",
+  "ports":{
+    ":P2":{
+      "labels":{
+        "8":{"name":"P2 Run"},
+        "16":{"name":"P2 Walk Left"},
+        "32":{"name":"P2 Walk Right"},
+        "64":{"name":"P2 Walk Up"},
+        "128":{"name":"P2 Walk Down"}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "8":{"name":"P1 Run"},
+        "16":{"name":"P1 Walk Left"},
+        "32":{"name":"P1 Walk Right"},
+        "64":{"name":"P1 Walk Up"},
+        "128":{"name":"P1 Walk Down"}
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "romname":"ssf2",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "16":{"player":0,"name":"P1 Jab Punch"},
+        "32":{"player":0,"name":"P1 Strong Punch"},
+        "64":{"player":0,"name":"P1 Fierce Punch"},
+        "4096":{"player":1,"name":"P2 Jab Punch"},
+        "8192":{"player":1,"name":"P2 Strong Punch"},
+        "16384":{"player":1,"name":"P2 Fierce Punch"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Short Kick"},
+        "2":{"player":0,"name":"P1 Strong Kick"},
+        "4":{"player":0,"name":"P1 Roundhouse Kick"},
+        "16":{"player":1,"name":"P2 Short Kick"},
+        "32":{"player":1,"name":"P2 Strong Kick"}
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "16384":{"player":1,"name":"P2 Roundhouse Kick"}
+      }
+    }
+  }
+}

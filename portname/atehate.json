@@ -1,0 +1,21 @@
+{
+  "romname":"atehate",
+  "ports":{
+    ":P1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 3"},
+        "2":{"player":0,"name":"P1 4"},
+        "4":{"player":0,"name":"P1 1"},
+        "8":{"player":0,"name":"P1 2"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 3"},
+        "2":{"player":1,"name":"P2 4"},
+        "4":{"player":1,"name":"P2 1"},
+        "8":{"player":1,"name":"P2 2"}
+      }
+    }
+  }
+}

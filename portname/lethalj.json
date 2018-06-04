@@ -1,0 +1,31 @@
+{
+  "romname":"lethalj",
+  "ports":{
+    ":LIGHT0_Y":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Aim Up / Aim Down"}
+      }
+    },
+    ":LIGHT1_X":{
+      "labels":{
+        "255":{"player":1,"name":"P2 Aim Right /  Aim Left"}
+      }
+    },
+    ":LIGHT1_Y":{
+      "labels":{
+        "255":{"player":1,"name":"P2 Aim Down /  Aim Up"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "4":{"player":1,"name":"P2 Fire"},
+        "16":{"player":0,"name":"P1 Fire"}
+      }
+    },
+    ":LIGHT0_X":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Aim Left / Aim Right"}
+      }
+    }
+  }
+}

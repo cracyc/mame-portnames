@@ -1,0 +1,15 @@
+{
+  "romname":"quantum",
+  "ports":{
+    ":TRACKX":{
+      "labels":{
+        "15":{"player":0,"name":"P1 Up / Down"}
+      }
+    },
+    ":TRACKY":{
+      "labels":{
+        "15":{"player":0,"name":"P1 Left / Right"}
+      }
+    }
+  }
+}

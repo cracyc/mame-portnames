@@ -1,0 +1,56 @@
+{
+  "romname":"hharry",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Right"},
+        "2":{"player":0,"name":"P1 Left"},
+        "4":{"player":0,"name":"P1 Down"},
+        "8":{"player":0,"name":"P1 Up"},
+        "16":{"player":0,"name":"P1 Button 4"},
+        "32":{"player":0,"name":"P1 Button 3"},
+        "64":{"player":0,"name":"P1 Button 2"},
+        "128":{"player":0,"name":"P1 Button 1"},
+        "256":{"player":1,"name":"P2 Right"},
+        "512":{"player":1,"name":"P2 Left"},
+        "1024":{"player":1,"name":"P2 Down"},
+        "2048":{"player":1,"name":"P2 Up"},
+        "4096":{"player":1,"name":"P2 Button 4"},
+        "8192":{"player":1,"name":"P2 Button 3"},
+        "16384":{"player":1,"name":"P2 Button 2"},
+        "32768":{"player":1,"name":"P2 Button 1"}
+      }
+    },
+    ":DSW":{
+      "labels":{
+        "3":{"player":0,"name":"Lives"},
+        "12":{"player":0,"name":"Difficulty"},
+        "16":{"player":0,"name":"Continue Limit"},
+        "32":{"player":0,"name":"Allow Continue"},
+        "64":{"player":0,"name":"Demo Sounds"},
+        "128":{"player":0,"name":"Service Mode"},
+        "256":{"player":0,"name":"Flip Screen"},
+        "1536":{"player":0,"name":"Cabinet"},
+        "2048":{"player":0,"name":"Coin Mode"},
+        "12288":{"player":0,"name":"Coin A"},
+        "49152":{"player":0,"name":"Coin B"},
+        "61440":{"player":0,"name":"Coinage"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{"player":0,"name":"1 Player Start"},
+        "2":{"player":0,"name":"2 Players Start"},
+        "4":{"player":0,"name":"Coin 1"},
+        "8":{"player":0,"name":"Coin 2"},
+        "16":{"player":0,"name":"Service 1"},
+        "32":{"player":0,"name":"Service"}
+      }
+    },
+    ":JumperJ3":{
+      "labels":{
+        "1":{"player":0,"name":"M81-B-B Jumper J3"}
+      }
+    }
+  }
+}

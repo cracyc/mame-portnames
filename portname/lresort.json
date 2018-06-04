@@ -1,0 +1,21 @@
+{
+  "romname":"lresort",
+  "ports":{
+    ":edge:joy:JOY1":{
+      "labels":{
+        "16":{"player":0,"name":"P1 Fire"},
+        "32":{"player":0,"name":"P1 Switch"},
+        "64":{"player":0,"name":"..."},
+        "128":{"player":0,"name":"..."}
+      }
+    },
+    ":edge:joy:JOY2":{
+      "labels":{
+        "16":{"player":0,"name":"P2 Fire"},
+        "32":{"player":0,"name":"P2 Switch"},
+        "64":{"player":0,"name":"..."},
+        "128":{"player":0,"name":"..."}
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "romname":"kick",
+  "ports":{
+    ":ssio:IP0":{
+      "labels":{
+        "16":{"player":0,"name":"P1 Press to Kick"}
+      }
+    },
+    ":ssio:IP1":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Left / Right"}
+      }
+    }
+  }
+}

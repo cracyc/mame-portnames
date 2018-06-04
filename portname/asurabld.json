@@ -1,0 +1,15 @@
+{
+  "romname":"asurabld",
+  "ports":{
+    ":INPUTS":{
+      "labels":{
+        "16":{"player":0,"name":"P1 Button 1"},
+        "32":{"player":0,"name":"P1 Button 2"},
+        "64":{"player":0,"name":"P1 Button 3"},
+        "4096":{"player":1,"name":"P2 Button 1"},
+        "8192":{"player":1,"name":"P2 Button 2"},
+        "16384":{"player":1,"name":"P2 Button 3"}
+      }
+    }
+  }
+}

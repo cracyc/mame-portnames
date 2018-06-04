@@ -1,0 +1,45 @@
+{
+  "romname":"gunbustr",
+  "ports":{
+    ":LIGHT1_Y":{
+      "labels":{
+        "255":{"name":"P2 Aim Down /  Aim Up","player":1}
+      }
+    },
+    ":LIGHT0_Y":{
+      "labels":{
+        "255":{"name":"P1 Aim Up / Aim Down","player":0}
+      }
+    },
+    ":EXTRA":{
+      "labels":{
+        "1":{"name":"P2 Move Forward","player":1},
+        "2":{"name":"P2 move Backward","player":1},
+        "4":{"name":"P2 Move Left","player":1},
+        "8":{"name":"P2 Move Right","player":1}
+      }
+    },
+    ":INPUTS":{
+      "labels":{
+        "1":{"name":"P1 Move Forward","player":0},
+        "2":{"name":"P1 Move Backward","player":0},
+        "4":{"name":"P1 Move Left","player":0},
+        "8":{"name":"P1 Move Right","player":0},
+        "16":{"name":"P1 Trigger","player":0},
+        "32":{"name":"P1 Bomb","player":0},
+        "64":{"name":"P2 Trigger","player":1},
+        "128":{"name":"P2 Bomb","player":1}
+      }
+    },
+    ":LIGHT1_X":{
+      "labels":{
+        "255":{"name":"P2 Aim Right /  Aim Left","player":1}
+      }
+    },
+    ":LIGHT0_X":{
+      "labels":{
+        "255":{"name":"P1 Aim Left / Aim Right","player":0}
+      }
+    }
+  }
+}

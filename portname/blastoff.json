@@ -1,0 +1,17 @@
+{
+  "romname":"blastoff",
+  "ports":{
+    ":CONTROL0":{
+      "labels":{
+        "16":{"player":0,"name":"P1 Fire"},
+        "32":{"player":0,"name":"P1 Change Weapon"}
+      }
+    },
+    ":CONTROL1":{
+      "labels":{
+        "16":{"player":1,"name":"P2 Fire"},
+        "32":{"player":1,"name":"P2 Change Weapon"}
+      }
+    }
+  }
+}

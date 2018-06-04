@@ -1,0 +1,31 @@
+{
+  "romname":"amerdart",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Lock"},
+        "2":{"player":1,"name":"P2 Lock"}
+      }
+    },
+    ":YAXIS2":{
+      "labels":{
+        "255":{"player":1,"name":"P2 Down /  Up"}
+      }
+    },
+    ":XAXIS2":{
+      "labels":{
+        "255":{"player":1,"name":"P2 Right /  Left"}
+      }
+    },
+    ":XAXIS1":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Left / Right"}
+      }
+    },
+    ":YAXIS1":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Up / Down"}
+      }
+    }
+  }
+}

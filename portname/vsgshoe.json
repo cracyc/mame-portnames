@@ -1,0 +1,20 @@
+{
+  "romname":"vsgshoe",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "128":{"name":"P1 Fire","player":0}
+      }
+    },
+    ":GUNX":{
+      "labels":{
+        "255":{"name":"P1 Left / Right","player":0}
+      }
+    },
+    ":GUNY":{
+      "labels":{
+        "255":{"name":"P1 Up / Down","player":0}
+      }
+    }
+  }
+}

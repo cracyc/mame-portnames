@@ -1,0 +1,32 @@
+{
+  "romname":"block",
+  "ports":{
+    ":IN2":{
+      "labels":{
+        "16":{"name":"P2 Right","player":1},
+        "32":{"name":"P2 Left","player":1},
+        "128":{"name":"P2 Button 1","player":1}
+      }
+    },
+    ":SYS0":{
+      "labels":{
+        "2":{"name":"Service Mode","player":0}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "2":{"name":"2 Players Start","player":0},
+        "8":{"name":"1 Player Start","player":0},
+        "64":{"name":"Coin 2","player":0},
+        "128":{"name":"Coin 1","player":0}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "16":{"name":"P1 Right","player":0},
+        "32":{"name":"P1 Left","player":0},
+        "128":{"name":"P1 Button 1","player":0}
+      }
+    }
+  }
+}

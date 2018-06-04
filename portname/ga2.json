@@ -1,0 +1,71 @@
+{
+  "romname":"ga2",
+  "ports":{
+    ":mainpcb:P1_A":{
+      "labels":{
+        "1":{"name":"P1 Button 1","player":0},
+        "2":{"name":"P1 Button 2","player":0},
+        "4":{"name":"P1 Button 3","player":0},
+        "16":{"name":"P1 Down","player":0},
+        "32":{"name":"P1 Up","player":0},
+        "64":{"name":"P1 Right","player":0},
+        "128":{"name":"P1 Left","player":0}
+      }
+    },
+    ":mainpcb:EXTRA2":{
+      "labels":{
+        "1":{"name":"P4 Button 1","player":3},
+        "2":{"name":"P4 Button 2","player":3},
+        "4":{"name":"P4 Button 3","player":3},
+        "16":{"name":"P4 Down","player":3},
+        "32":{"name":"P4 Up","player":3},
+        "64":{"name":"P4 Right","player":3},
+        "128":{"name":"P4 Left","player":3}
+      }
+    },
+    ":mainpcb:EXTRA1":{
+      "labels":{
+        "1":{"name":"P3 Button 1","player":2},
+        "2":{"name":"P3 Button 2","player":2},
+        "4":{"name":"P3 Button 3","player":2},
+        "16":{"name":"P3 Down","player":2},
+        "32":{"name":"P3 Up","player":2},
+        "64":{"name":"P3 Right","player":2},
+        "128":{"name":"P3 Left","player":2}
+      }
+    },
+    ":mainpcb:SERVICE34_A":{
+      "labels":{
+        "16":{"name":"Push SW1 (Service)","player":0},
+        "32":{"name":"Push SW2 (Test)","player":0}
+      }
+    },
+    ":mainpcb:SERVICE12_A":{
+      "labels":{
+        "1":{"name":"Service 1","player":0},
+        "2":{"name":"Service Mode","player":0},
+        "4":{"name":"Coin 1","player":0},
+        "8":{"name":"Coin 2","player":0},
+        "16":{"name":"1 Player Start","player":0},
+        "32":{"name":"2 Players Start","player":0}
+      }
+    },
+    ":mainpcb:EXTRA3":{
+      "labels":{
+        "1":{"name":"3 Players Start","player":0},
+        "2":{"name":"4 Players Start","player":0}
+      }
+    },
+    ":mainpcb:P2_A":{
+      "labels":{
+        "1":{"name":"P2 Button 1","player":1},
+        "2":{"name":"P2 Button 2","player":1},
+        "4":{"name":"P2 Button 3","player":1},
+        "16":{"name":"P2 Down","player":1},
+        "32":{"name":"P2 Up","player":1},
+        "64":{"name":"P2 Right","player":1},
+        "128":{"name":"P2 Left","player":1}
+      }
+    }
+  }
+}

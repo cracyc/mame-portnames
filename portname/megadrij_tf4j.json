@@ -1,0 +1,27 @@
+{
+  "romname":"megadrij",
+  "softname":"tf4j",
+  "ports":{
+    ":PAD1_3B":{
+      "labels":{
+        "64":{"player":0,"name":"P1 A (Select Speed)"},
+        "16":{"player":0,"name":"P1 B (Fire)"},
+        "32":{"player":0,"name":"P1 C (Select Weapon)"}
+      }
+    },
+    ":PAD1_6B":{
+      "labels":{
+        "64":{"player":0,"name":"P1 A (Select Speed)"},
+        "16":{"player":0,"name":"P1 B (Fire)"},
+        "32":{"player":0,"name":"P1 C (Select Weapon)"}
+      }
+    },
+    ":EXTRA1":{
+      "labels":{
+        "4":{"player":0,"name":"P1 X"},
+        "2":{"player":0,"name":"P1 Y"},
+        "1":{"player":0,"name":"P1 Z"}
+      }
+    }
+  }
+}

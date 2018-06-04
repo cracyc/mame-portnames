@@ -1,0 +1,44 @@
+{
+  "romname":"aeroboto",
+  "ports":{
+    ":DSW2":{
+      "labels":{
+        "7":{"player":0,"name":"Coinage"},
+        "24":{"player":0,"name":"Difficulty"},
+        "128":{"player":0,"name":"Unused"}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Up"},
+        "2":{"player":0,"name":"P1 Down"},
+        "4":{"player":0,"name":"P1 Right"},
+        "8":{"player":0,"name":"P1 Left"},
+        "16":{"player":0,"name":"P1 Jump Button / Hold to Transform"},
+        "32":{"player":0,"name":"P1 Laser / Hold for Energy"},
+        "64":{"player":0,"name":"1 Player Start"},
+        "128":{"player":0,"name":"2 Players Start"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Up"},
+        "2":{"player":1,"name":"P2 Down"},
+        "4":{"player":1,"name":"P2 Right"},
+        "8":{"player":1,"name":"P2 Left"},
+        "16":{"player":1,"name":"P2 Jump Button / Hold to Transform"},
+        "32":{"player":1,"name":"P2 Laser / Hold for Energy"}
+      }
+    },
+    ":DSW1":{
+      "labels":{
+        "3":{"player":0,"name":"Lives"},
+        "12":{"player":0,"name":"Bonus Life"},
+        "16":{"player":0,"name":"Unused"},
+        "32":{"player":0,"name":"Demo Sounds"},
+        "64":{"player":0,"name":"Cabinet"},
+        "128":{"player":0,"name":"Coin 1"}
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "romname":"teamqb",
+  "ports":{
+    ":IN2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Right"},
+        "2":{"player":1,"name":"P2 Left"},
+        "4":{"player":1,"name":"P2 Down"},
+        "8":{"player":1,"name":"P2 Up"},
+        "16":{"player":0,"name":"P1 Right"},
+        "32":{"player":0,"name":"P1 Left"},
+        "64":{"player":0,"name":"P1 Down"},
+        "128":{"player":0,"name":"P1 Up"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Action"},
+        "16":{"player":0,"name":"P1 Action"}
+      }
+    },
+    ":IN4":{
+      "labels":{
+        "1":{"player":3,"name":"P4 Action"},
+        "16":{"player":2,"name":"P3 Action"}
+      }
+    },
+    ":IN5":{
+      "labels":{
+        "1":{"player":3,"name":"P4 Right"},
+        "2":{"player":3,"name":"P4 Left"},
+        "4":{"player":3,"name":"P4 Down"},
+        "8":{"player":3,"name":"P4 Up"},
+        "16":{"player":2,"name":"P3 Right"},
+        "32":{"player":2,"name":"P3 Left"},
+        "64":{"player":2,"name":"P3 Down"},
+        "128":{"player":2,"name":"P3 Up"}
+      }
+    },
+    ":AN0":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Aim Left / Aim Right"}
+      }
+    },
+    ":AN5":{
+      "labels":{
+        "255":{"player":2,"name":"P3 Aim Left / Aim Right"}
+      }
+    },
+    ":AN4":{
+      "labels":{
+        "255":{"player":2,"name":"P3 Throw / Kick / Short / Long"}
+      }
+    },
+    ":AN1":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Throw / Kick / Short / Long"}
+      }
+    }
+  }
+}

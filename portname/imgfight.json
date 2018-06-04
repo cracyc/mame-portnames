@@ -1,0 +1,52 @@
+{
+  "romname":"imgfight",
+  "ports":{
+    ":DSW":{
+      "labels":{
+        "3":{"name":"Lives","player":0},
+        "12":{"name":"Difficulty","player":0},
+        "48":{"name":"Coin A","player":0},
+        "192":{"name":"Coin B","player":0},
+        "240":{"name":"Coinage","player":0},
+        "256":{"name":"Flip Screen","player":0},
+        "512":{"name":"Cabinet","player":0},
+        "1024":{"name":"Coin Mode","player":0},
+        "2048":{"name":"Demo Sounds","player":0},
+        "4096":{"name":"Unknown","player":0},
+        "8192":{"name":"Stop Mode","player":0},
+        "16384":{"name":"Unused","player":0},
+        "32768":{"name":"Service Mode","player":0}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{"name":"P1 Right","player":0},
+        "2":{"name":"P1 Left","player":0},
+        "4":{"name":"P1 Down","player":0},
+        "8":{"name":"P1 Up","player":0},
+        "16":{"name":"P1 Button 4","player":0},
+        "32":{"name":"P1 Button 3","player":0},
+        "64":{"name":"P1 Button 2","player":0},
+        "128":{"name":"P1 Button 1","player":0},
+        "256":{"name":"P2 Right","player":1},
+        "512":{"name":"P2 Left","player":1},
+        "1024":{"name":"P2 Down","player":1},
+        "2048":{"name":"P2 Up","player":1},
+        "4096":{"name":"P2 Button 4","player":1},
+        "8192":{"name":"P2 Button 3","player":1},
+        "16384":{"name":"P2 Button 2","player":1},
+        "32768":{"name":"P2 Button 1","player":1}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{"name":"1 Player Start","player":0},
+        "2":{"name":"2 Players Start","player":0},
+        "4":{"name":"Coin 1","player":0},
+        "8":{"name":"Coin 2","player":0},
+        "16":{"name":"Service 1","player":0},
+        "32":{"name":"Service","player":0}
+      }
+    }
+  }
+}

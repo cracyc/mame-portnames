@@ -1,0 +1,15 @@
+{
+  "romname":"seawolf2",
+  "ports":{
+    ":P2HANDLE":{
+      "labels":{
+        "128":{"player":0,"name":"P1 Fire Torpedo"}
+      }
+    },
+    ":P1HANDLE":{
+      "labels":{
+        "128":{"player":1,"name":"P2 Fire Torpedo"}
+      }
+    }
+  }
+}

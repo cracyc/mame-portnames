@@ -1,0 +1,41 @@
+{
+  "romname":"cybrcomm",
+  "ports":{
+    ":DSW0":{
+      "labels":{
+        "32768":{"name":"Unknown","player":0}
+      }
+    },
+    ":STICKX1":{
+      "labels":{
+        "255":{"name":"AD Stick X 2","player":1}
+      }
+    },
+    ":STICKY1":{
+      "labels":{
+        "255":{"name":"AD Stick Y 2","player":1}
+      }
+    },
+    ":INPUTS":{
+      "labels":{
+        "1":{"name":"Gun Trigger","player":0},
+        "2":{"name":"Missile Button","player":0},
+        "64":{"name":"View Change","player":0},
+        "512":{"name":"Coin 2","player":0},
+        "1024":{"name":"Service Mode","player":0},
+        "2048":{"name":"Service 1","player":0},
+        "4096":{"name":"Coin 1","player":0}
+      }
+    },
+    ":STICKY2":{
+      "labels":{
+        "255":{"name":"AD Stick Y","player":0}
+      }
+    },
+    ":STICKX2":{
+      "labels":{
+        "255":{"name":"AD Stick X","player":0}
+      }
+    }
+  }
+}

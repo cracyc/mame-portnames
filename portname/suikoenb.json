@@ -1,0 +1,29 @@
+{
+  "romname":"suikoenb",
+  "ports":{
+    ":PORTA":{
+      "labels":{
+        "1":{"name":"P1 LP","player":0},
+        "2":{"name":"P1 MP","player":0},
+        "4":{"name":"P1 HP","player":0}
+      }
+    },
+    ":PORTB":{
+      "labels":{
+        "1":{"name":"P2 LP","player":1},
+        "2":{"name":"P2 MP","player":1},
+        "4":{"name":"P2 HP","player":1}
+      }
+    },
+    ":PORTF":{
+      "labels":{
+        "1":{"name":"P1 LK","player":0},
+        "2":{"name":"P1 MK","player":0},
+        "4":{"name":"P1 HK","player":0},
+        "16":{"name":"P2 LK","player":1},
+        "32":{"name":"P2 MK","player":1},
+        "64":{"name":"P2 HK","player":1}
+      }
+    }
+  }
+}

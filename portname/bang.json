@@ -1,0 +1,35 @@
+{
+  "romname":"bang",
+  "ports":{
+    ":LIGHT1_Y":{
+      "labels":{
+        "255":{"player":1,"name":"P2 Down /  Up"}
+      }
+    },
+    ":LIGHT0_Y":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Up / Down"}
+      }
+    },
+    ":LIGHT0_X":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Left / Right"}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "128":{"player":0,"name":"P1 Fire"}
+      }
+    },
+    ":LIGHT1_X":{
+      "labels":{
+        "255":{"player":1,"name":"P2 Right /  Left"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "128":{"player":1,"name":"P2 Fire"}
+      }
+    }
+  }
+}

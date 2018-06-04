@@ -1,0 +1,66 @@
+{
+  "romname":"crusnwld",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "1":{"name":"Coin 1","player":0},
+        "2":{"name":"Coin 2","player":0},
+        "4":{"name":"1 Player Start","player":0},
+        "8":{"name":"Tilt","player":0},
+        "16":{"name":"Enter","player":0},
+        "64":{"name":"Service 1","player":0},
+        "128":{"name":"Coin 3","player":0},
+        "256":{"name":"Volume Down","player":0},
+        "512":{"name":"Volume Up","player":0},
+        "1024":{"name":"4th Gear","player":0},
+        "2048":{"name":"3rd Gear","player":0},
+        "4096":{"name":"2nd Gear","player":0},
+        "8192":{"name":"1st Gear","player":0},
+        "16384":{"name":"Coin 4","player":0}
+      }
+    },
+    ":WHEEL":{
+      "labels":{
+        "255":{"name":"Paddle","player":0}
+      }
+    },
+    ":BRAKE":{
+      "labels":{
+        "255":{"name":"P1 Pedal 2","player":0}
+      }
+    },
+    ":991030":{
+      "labels":{
+      }
+    },
+    ":DSW":{
+      "labels":{
+        "3":{"name":"Link Number","player":0},
+        "4":{"name":"Linking","player":0},
+        "24":{"name":"Games Linked","player":0},
+        "32":{"name":"Cabinet","player":0},
+        "64":{"name":"Unused","player":0},
+        "128":{"name":"Service Mode","player":0},
+        "256":{"name":"Coin Counters","player":0},
+        "65024":{"name":"Coinage","player":0}
+      }
+    },
+    ":ACCEL":{
+      "labels":{
+        "255":{"name":"P1 Pedal 1","player":0}
+      }
+    },
+    ":992000":{
+      "labels":{
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "2":{"name":"Radio","player":0},
+        "16":{"name":"View 1","player":0},
+        "32":{"name":"View 2","player":0},
+        "64":{"name":"View 3","player":0}
+      }
+    }
+  }
+}

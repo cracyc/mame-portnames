@@ -1,0 +1,31 @@
+{
+  "romname":"segawski",
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "1":{"player":0,"name":"Set Button"},
+        "2":{"player":0,"name":"Select (Up) Button"},
+        "4":{"player":0,"name":"Pitch Left"},
+        "8":{"player":0,"name":"Pitch Right"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{"player":0,"name":"Coin 1"},
+        "4":{"player":0,"name":"Service Mode"},
+        "8":{"player":0,"name":"Service 1"},
+        "64":{"player":0,"name":"Select (Down) Button"}
+      }
+    },
+    ":ANA0":{
+      "labels":{
+        "255":{"player":0,"name":"Slide"}
+      }
+    },
+    ":DSW":{
+      "labels":{
+        "128":{"player":0,"name":"Unknown"}
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "romname":"pce",
+  "softname":"gunhed",
+  "ports":{
+    ":JOY_P.0":{
+      "labels":{
+        "1":{"player":0,"name":"I (Bomb)"},
+        "2":{"player":0,"name":"II (Fire)"},
+        "4":{"player":0,"name":"Select"},
+        "8":{"player":0,"name":"Run"},
+      }
+    },
+    ":JOY6B_P.0":{
+      "labels":{
+        "1":{"player":0,"name":"I (Bomb)"},
+        "2":{"player":0,"name":"II (Fire)"},
+        "4":{"player":0,"name":"Select"},
+        "8":{"player":0,"name":"Run"},
+        "256":{"player":0,"name":"..."},
+        "512":{"player":0,"name":"..."},
+        "1024":{"player":0,"name":"..."},
+        "2048":{"player":0,"name":"..."}
+      }
+    }
+  }
+}
