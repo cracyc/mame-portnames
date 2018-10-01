@@ -1,0 +1,17 @@
+{
+  "romname":"qad",
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "16":{"player":0,"name":"P1 1"},
+        "32":{"player":0,"name":"P1 2"},
+        "64":{"player":0,"name":"P1 3"},
+        "128":{"player":0,"name":"P1 4"},
+        "4096":{"player":1,"name":"P2 1"},
+        "8192":{"player":1,"name":"P2 2"},
+        "16384":{"player":1,"name":"P2 3"},
+        "32768":{"player":1,"name":"P2 4"}
+      }
+    }
+  }
+}

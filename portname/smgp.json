@@ -1,0 +1,26 @@
+{
+  "romname":"smgp",
+  "ports":{
+    ":mainpcb:ADC2":{
+      "labels":{
+        "255":{"name":"Brake","player":0}
+      }
+    },
+    ":mainpcb:ADC1":{
+      "labels":{
+        "255":{"name":"Accelerate","player":0}
+      }
+    },
+    ":mainpcb:IO1PORTA":{
+      "labels":{
+        "16":{"name":"Shift Down","player":0},
+        "32":{"name":"Shift Up","player":0}
+      }
+    },
+    ":mainpcb:ADC0":{
+      "labels":{
+        "255":{"name":"Left / Right","player":0}
+      }
+    }
+  }
+}

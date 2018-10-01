@@ -1,0 +1,21 @@
+{
+  "romname":"3countb",
+  "ports":{
+    ":edge:joy:JOY1":{
+      "labels":{
+        "16":{"player":0,"name":"P1 Punch"},
+        "32":{"player":0,"name":"P1 Kick"},
+        "64":{"player":0,"name":"P1 Jump"},
+        "128":{"player":0,"name":"P1 Fall"}
+      }
+    },
+    ":edge:joy:JOY2":{
+      "labels":{
+        "16":{"player":1,"name":"P2 Punch"},
+        "32":{"player":1,"name":"P2 Kick"},
+        "64":{"player":1,"name":"P2 Jump"},
+        "128":{"player":1,"name":"P2 Fall"}
+      }
+    }
+  }
+}

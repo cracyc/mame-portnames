@@ -1,0 +1,15 @@
+{
+  "romname":"baryon",
+  "ports":{
+    ":INPUTS":{
+      "labels":{
+        "134217728":{"player":0,"name":"P1 Fire"},
+        "67108864":{"player":0,"name":"P1 Bomb"},
+        "33554432":{"player":0,"name":"P1 ..."},
+        "524288":{"player":1,"name":"P2 Fire"},
+        "262144":{"player":1,"name":"P2 Bomb"},
+        "131072":{"player":1,"name":"P2 ..."}
+      }
+    }
+  }
+}

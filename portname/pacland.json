@@ -1,0 +1,44 @@
+{
+  "romname":"pacland",
+  "ports":{
+    ":DSWB":{
+      "labels":{
+        "1":{"player":0,"name":"Trip Select"},
+        "2":{"player":0,"name":"Freeze"},
+        "4":{"player":0,"name":"Round Select"},
+        "24":{"player":0,"name":"Difficulty"},
+        "224":{"player":0,"name":"Bonus Life"}
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "8":{"player":0,"name":"P1 Jump"},
+        "16":{"player":0,"name":"P1 Left"},
+        "32":{"player":0,"name":"P1 Right"},
+        "64":{"player":1,"name":"P2 Jump"},
+        "128":{"player":1,"name":"P2 Left"}
+      }
+    },
+    ":DSWA":{
+      "labels":{
+        "3":{"player":0,"name":"Coin B"},
+        "4":{"player":0,"name":"Demo Sounds"},
+        "24":{"player":0,"name":"Coin A"},
+        "96":{"player":0,"name":"Lives"},
+        "128":{"player":0,"name":"Service Mode"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Right"},
+        "2":{"player":0,"name":"Service 1"},
+        "4":{"player":0,"name":"Coin 1"},
+        "8":{"player":0,"name":"Coin 2"},
+        "16":{"player":0,"name":"1 Player Start"},
+        "32":{"player":0,"name":"2 Players Start"},
+        "64":{"player":0,"name":"Service"},
+        "128":{"player":0,"name":"Cabinet"}
+      }
+    }
+  }
+}

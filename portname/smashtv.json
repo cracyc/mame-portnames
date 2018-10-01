@@ -1,0 +1,25 @@
+{
+  "romname":"smashtv",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "1":{"name":"P1 Move Up","player":0},
+        "2":{"name":"P1 Move Down","player":0},
+        "4":{"name":"P1 Move Left","player":0},
+        "8":{"name":"P1 Move Right","player":0},
+        "16":{"name":"P1 Fire Up","player":0},
+        "32":{"name":"P1 Fire Down","player":0},
+        "64":{"name":"P1 Fire Left","player":0},
+        "128":{"name":"P1 Fire Right","player":0},
+        "256":{"name":"P2 Move Up","player":1},
+        "512":{"name":"P2 Move Down","player":1},
+        "1024":{"name":"P2 Move Left","player":1},
+        "2048":{"name":"P2 Move Right","player":1},
+        "4096":{"name":"P2 Fire Up","player":1},
+        "8192":{"name":"P2 Fire Down","player":1},
+        "16384":{"name":"P2 Fire Left","player":1},
+        "32768":{"name":"P2 Fire Right","player":1}
+      }
+    }
+  }
+}

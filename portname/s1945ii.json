@@ -1,0 +1,13 @@
+{
+  "romname":"s1945ii",
+  "ports":{
+    ":INPUTS":{
+      "labels":{
+        "262144":{"name":"P2 Bomb","player":1},
+        "524288":{"name":"P2 Fire","player":1},
+        "67108864":{"name":"P1 Bomb","player":0},
+        "134217728":{"name":"P1 Fire","player":0}
+      }
+    }
+  }
+}

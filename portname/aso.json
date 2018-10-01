@@ -1,0 +1,19 @@
+{
+  "romname":"aso",
+  "ports":{
+    ":IN2":{
+      "labels":{
+        "16":{"player":1,"name":"P2 Power Up"},
+        "32":{"player":1,"name":"P2 Laser"},
+        "64":{"player":1,"name":"P2 Missile"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "16":{"player":0,"name":"P1 Power Up"},
+        "32":{"player":0,"name":"P1 Laser"},
+        "64":{"player":0,"name":"P1 Missile"}
+      }
+    }
+  }
+}

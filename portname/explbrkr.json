@@ -1,0 +1,17 @@
+{
+  "romname":"explbrkr",
+  "ports":{
+    ":P1":{
+      "labels":{
+        "4096":{"player":0,"name":"P1 Fire"},
+        "8192":{"player":0,"name":"P1 Bomb"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "4096":{"player":1,"name":"P2 Fire"},
+        "8192":{"player":1,"name":"P2 Bomb"}
+      }
+    }
+  }
+}

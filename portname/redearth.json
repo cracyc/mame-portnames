@@ -1,0 +1,25 @@
+{
+  "romname":"redearth",
+  "ports":{
+    ":EXTRA":{
+      "labels":{
+        "131072":{"name":"P1 Roundhouse Kick","player":0},
+        "262144":{"name":"P1 Forward Kick","player":0},
+        "524288":{"name":"P1 Short Kick","player":0},
+        "1048576":{"name":"P2 Short Kick","player":1},
+        "2097152":{"name":"P2 Forward Kick","player":1}
+      }
+    },
+    ":INPUTS":{
+      "labels":{
+        "16":{"name":"P1 Jab Punch","player":0},
+        "32":{"name":"P1 Strong Punch","player":0},
+        "64":{"name":"P1 Fierce Punch","player":0},
+        "4096":{"name":"P2 Jab Punch","player":1},
+        "8192":{"name":"P2 Strong Punch","player":1},
+        "16384":{"name":"P2 Fierce Punch","player":1},
+        "67108864":{"name":"P2 Roundhouse Kick","player":1}
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "romname":"rampart",
+  "ports":{
+    ":TRACK1":{
+      "labels":{
+        "255":{"name":"P2 Right /  Left","player":1},
+        "65280":{"name":"P3 Right /  Left","player":2}
+      }
+    },
+    ":TRACK3":{
+      "labels":{
+        "255":{"name":"P1 Left / Right","player":0}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "2":{"name":"P3 Rotate Piece/Fire","player":2},
+        "256":{"name":"P2 Place Piece/Fire/Start","player":1},
+        "512":{"name":"P2 Rotate Piece/Fire","player":1},
+        "1024":{"name":"P3 Place Piece/Fire/Start","player":2}
+      }
+    },
+    ":TRACK2":{
+      "labels":{
+        "255":{"name":"P1 Up / Down","player":0}
+      }
+    },
+    ":TRACK0":{
+      "labels":{
+        "255":{"name":"P2 Down /  Up","player":1},
+        "65280":{"name":"P3 Down /  Up","player":2}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "256":{"name":"P1 Place Piece/Fire/Start","player":0},
+        "512":{"name":"P1 Rotate Piece/Fire","player":0}
+      }
+    }
+  }
+}

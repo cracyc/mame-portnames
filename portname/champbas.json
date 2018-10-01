@@ -1,0 +1,16 @@
+{
+  "romname":"champbas",
+  "ports":{
+    ":P1":{
+      "labels":{
+        "1":{"player":0,"name":"A: Change Batter, Pitcher"},
+        "4":{"player":0,"name":"C: Steal, Run Back"},
+        "8":{"player":0,"name":"B: Bat, Extra Bases - Pitch, Throw Ball"},
+        "16":{"player":0,"name":"Up"},
+        "32":{"player":0,"name":"Left"},
+        "64":{"player":0,"name":"Right"},
+        "128":{"player":0,"name":"Down"}
+      }
+    }
+  }
+}

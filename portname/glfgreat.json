@@ -1,0 +1,45 @@
+{
+  "romname":"glfgreat",
+  "ports":{
+    ":P1/P2":{
+      "labels":{
+        "1":{"name":"P1 Rotate Left","player":0},
+        "2":{"name":"P1 Rotate Right","player":0},
+        "4":{"name":"P1 Select longer distance club","player":0},
+        "8":{"name":"P1 Select shorter distance club","player":0},
+        "16":{"name":"P1 Stance","player":0},
+        "32":{"name":"P1 Shot","player":0},
+        "64":{"name":"P1 N/A","player":0},
+        "128":{"name":"P1 N/A","player":0},
+        "256":{"name":"P2 Rotate Left","player":1},
+        "512":{"name":"P2 Rotate Right","player":1},
+        "1024":{"name":"P2 Select longer distance club","player":1},
+        "2048":{"name":"P2 Select shorter distance club","player":1},
+        "4096":{"name":"P2 Stance","player":1},
+        "8192":{"name":"P2 Shot","player":1},
+        "16384":{"name":"P2 N/A","player":1},
+        "32768":{"name":"P2 N/A","player":1}
+      }
+    },
+    ":P3/P4":{
+      "labels":{
+        "1":{"name":"P3 Rotate Left","player":2},
+        "2":{"name":"P3 Rotate Right","player":2},
+        "4":{"name":"P3 Select longer distance club","player":2},
+        "8":{"name":"P3 Select shorter distance club","player":2},
+        "16":{"name":"P3 Stance","player":2},
+        "32":{"name":"P3 Shot","player":2},
+        "64":{"name":"P3 N/A","player":2},
+        "128":{"name":"P3 N/A","player":2},
+        "256":{"name":"P4 Rotate Left","player":3},
+        "512":{"name":"P4 Rotate Right","player":3},
+        "1024":{"name":"P4 Select longer distance club","player":3},
+        "2048":{"name":"P4 Select shorter distance club","player":3},
+        "4096":{"name":"P4 Stance","player":3},
+        "8192":{"name":"P4 Shot","player":3},
+        "16384":{"name":"P4 N/A","player":3},
+        "32768":{"name":"P4 N/A","player":3}
+      }
+    }
+  }
+}

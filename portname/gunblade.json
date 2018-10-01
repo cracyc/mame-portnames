@@ -1,0 +1,46 @@
+{
+  "romname":"gunblade",
+  "ports":{
+    ":ANA0":{
+      "labels":{
+        "255":{"player":0,"name":"AD Stick X"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"},
+        "4":{"player":0,"name":"Service Mode"},
+        "8":{"player":0,"name":"Service 1"},
+        "16":{"player":0,"name":"1 Player Start"},
+        "32":{"player":0,"name":"2 Players Start"}
+      }
+    },
+    ":ANA3":{
+      "labels":{
+        "255":{"player":1,"name":"AD Stick Y 2"}
+      }
+    },
+    ":DSW":{
+      "labels":{
+        "128":{"player":0,"name":"Unknown"}
+      }
+    },
+    ":ANA2":{
+      "labels":{
+        "255":{"player":0,"name":"AD Stick Y"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Trigger"},
+        "2":{"player":1,"name":"P2 Trigger"}
+      }
+    },
+    ":ANA1":{
+      "labels":{
+        "255":{"player":1,"name":"AD Stick X 2"}
+      }
+    }
+  }
+}

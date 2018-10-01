@@ -1,0 +1,17 @@
+{
+  "romname":"cchasm",
+  "ports":{
+    ":IN2":{
+      "labels":{
+        "2":{"player":0,"name":"P1 Shields"},
+        "4":{"player":0,"name":"P1 Fire"},
+        "8":{"player":0,"name":"P1 Thrust"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Rotate Left / Rotate Right"}
+      }
+    }
+  }
+}

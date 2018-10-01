@@ -1,0 +1,16 @@
+{
+  "romname":"carnival",
+  "ports":{
+    ":IN2":{
+      "labels":{
+        "32":{"player":0,"name":"P1 Shoot"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "16":{"player":0,"name":"P1 Left"},
+        "32":{"player":0,"name":"P1 Right"}
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "romname":"grdians",
+  "ports":{
+    ":P1":{
+      "labels":{
+        "16":{"player":0,"name":"P1 Attack"},
+        "32":{"player":0,"name":"P1 Jump"},
+        "64":{"player":0,"name":"P1 ..."}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "16":{"player":1,"name":"P2 Attack"},
+        "32":{"player":1,"name":"P2 Jump"},
+        "64":{"player":1,"name":"P2 ..."}
+      }
+    }
+  }
+}

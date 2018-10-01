@@ -1,0 +1,58 @@
+{
+  "romname":"jchan2",
+  "ports":{
+    ":SYSTEM":{
+      "labels":{
+        "256":{"name":"1 Player Start","player":0},
+        "512":{"name":"2 Players Start","player":0},
+        "1024":{"name":"Coin 1","player":0},
+        "2048":{"name":"Coin 2","player":0},
+        "4096":{"name":"Test","player":0},
+        "8192":{"name":"Tilt","player":0},
+        "16384":{"name":"Service 1","player":0}
+      }
+    },
+    ":EXTRA":{
+      "labels":{
+        "256":{"name":"P1 Button 3","player":0},
+        "512":{"name":"P1 Button 4","player":0},
+        "1024":{"name":"P2 Button 3","player":1},
+        "2048":{"name":"P2 Button 4","player":1}
+      }
+    },
+    ":DSW1":{
+      "labels":{
+        "256":{"name":"Service Mode","player":0},
+        "512":{"name":"Flip Screen","player":0},
+        "1024":{"name":"Demo Sounds","player":0},
+        "2048":{"name":"Sound","player":0},
+        "4096":{"name":"Free Play","player":0},
+        "8192":{"name":"Blood Mode","player":0},
+        "16384":{"name":"Unused","player":0},
+        "32768":{"name":"Buttons Layout","player":0}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "256":{"name":"P1 Up","player":0},
+        "512":{"name":"P1 Down","player":0},
+        "1024":{"name":"P1 Left","player":0},
+        "2048":{"name":"P1 Right","player":0},
+        "4096":{"name":"P1 Button 1","player":0},
+        "8192":{"name":"P1 Button 2","player":0},
+        "16384":{"name":"P1 Button 3","player":0}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "256":{"name":"P2 Up","player":1},
+        "512":{"name":"P2 Down","player":1},
+        "1024":{"name":"P2 Left","player":1},
+        "2048":{"name":"P2 Right","player":1},
+        "4096":{"name":"P2 Button 1","player":1},
+        "8192":{"name":"P2 Button 2","player":1},
+        "16384":{"name":"P2 Button 3","player":1}
+      }
+    }
+  }
+}

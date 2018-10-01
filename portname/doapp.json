@@ -1,0 +1,19 @@
+{
+  "romname":"doapp",
+  "ports":{
+    ":P1":{
+      "labels":{
+        "16":{"player":0,"name":"P1 Punch"},
+        "32":{"player":0,"name":"P1 Kick"},
+        "64":{"player":0,"name":"P1 Guard"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "16":{"player":1,"name":"P2 Punch"},
+        "32":{"player":1,"name":"P2 Kick"},
+        "64":{"player":1,"name":"P2 Guard"}
+      }
+    }
+  }
+}

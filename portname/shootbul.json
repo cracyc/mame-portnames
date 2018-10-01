@@ -1,0 +1,15 @@
+{
+  "romname":"shootbul",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "15":{"name":"P1 Left / Right","player":0}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "15":{"name":"P1 Up / Down","player":0}
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "romname":"gseeker",
+  "ports":{
+    ":IN.0":{
+      "labels":{
+        "1":{"name":"P1 Fire","player":0},
+        "2":{"name":"P1 Bomb","player":0},
+        "4":{"name":"...","player":0},
+        "8":{"name":"...","player":0},
+        "16":{"name":"P2 Fire","player":1},
+        "32":{"name":"P2 Bomb","player":1},
+        "64":{"name":"...","player":1},
+        "128":{"name":"...","player":1}
+      }
+    }
+  }
+}

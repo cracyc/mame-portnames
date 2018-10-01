@@ -1,0 +1,156 @@
+{
+  "romname":"canonv30",
+  "ports":{
+    ":KEY0":{
+      "labels":{
+        "1":{"name":"0  )","player":0},
+        "2":{"name":"1  !","player":0},
+        "4":{"name":"2  @","player":0},
+        "8":{"name":"3  #","player":0},
+        "16":{"name":"4  $","player":0},
+        "32":{"name":"5  %","player":0},
+        "64":{"name":"6  ^","player":0},
+        "128":{"name":"7  &","player":0},
+        "256":{"name":"8  *","player":0},
+        "512":{"name":"9  (","player":0},
+        "1024":{"name":"-  _","player":0},
+        "2048":{"name":"=  +","player":0},
+        "4096":{"name":"\\  |","player":0},
+        "8192":{"name":"[  {","player":0},
+        "16384":{"name":"]  }","player":0},
+        "32768":{"name":"Keyboard","player":0}
+      }
+    },
+    ":KEY3":{
+      "labels":{
+        "1":{"name":"Shift","player":0},
+        "2":{"name":"Ctrl","player":0},
+        "4":{"name":"GRAPH","player":0},
+        "8":{"name":"CAPS","player":0},
+        "16":{"name":"CODE","player":0},
+        "32":{"name":"F1  F6","player":0},
+        "64":{"name":"F2  F7","player":0},
+        "128":{"name":"F3  F8","player":0},
+        "256":{"name":"F4  F9","player":0},
+        "512":{"name":"F5  F10","player":0},
+        "1024":{"name":"Esc","player":0},
+        "2048":{"name":"Tab","player":0},
+        "4096":{"name":"STOP","player":0},
+        "8192":{"name":"Backspace","player":0},
+        "16384":{"name":"SELECT","player":0},
+        "32768":{"name":"Enter","player":0}
+      }
+    },
+    ":KEY4":{
+      "labels":{
+        "1":{"name":"Space","player":0},
+        "2":{"name":"Home","player":0},
+        "4":{"name":"Insert","player":0},
+        "8":{"name":"DEL","player":0},
+        "16":{"name":"Cursor Left","player":0},
+        "32":{"name":"Cursor Up","player":0},
+        "64":{"name":"Cursor Down","player":0},
+        "128":{"name":"Cursor Right","player":0},
+        "256":{"name":"Keypad *","player":0},
+        "512":{"name":"Keypad +","player":0},
+        "1024":{"name":"Keypad /","player":0},
+        "2048":{"name":"Keypad 0","player":0},
+        "4096":{"name":"Keypad 1","player":0},
+        "8192":{"name":"Keypad 2","player":0},
+        "16384":{"name":"Keypad 3","player":0},
+        "32768":{"name":"Keypad 4","player":0}
+      }
+    },
+    ":KEY5":{
+      "labels":{
+        "1":{"name":"Keypad 5","player":0},
+        "2":{"name":"Keypad 6","player":0},
+        "4":{"name":"Keypad 7","player":0},
+        "8":{"name":"Keypad 8","player":0},
+        "16":{"name":"Keypad 9","player":0},
+        "32":{"name":"Keypad -","player":0},
+        "64":{"name":"Keypad ,","player":0},
+        "128":{"name":"Keypad .","player":0}
+      }
+    },
+    ":MOUSE1":{
+      "labels":{
+        "255":{"name":"Track Y 2","player":1},
+        "65280":{"name":"Track X 2","player":1}
+      }
+    },
+    ":JOY1":{
+      "labels":{
+        "1":{"name":"P2 Up","player":1},
+        "2":{"name":"P2 Down","player":1},
+        "4":{"name":"P2 Left","player":1},
+        "8":{"name":"P2 Right","player":1},
+        "16":{"name":"P2 Button 1","player":1},
+        "32":{"name":"P2 Button 2","player":1},
+        "128":{"name":"Game port 2","player":0}
+      }
+    },
+    ":DSW":{
+      "labels":{
+        "64":{"name":"Swap game port 1 and 2","player":0}
+      }
+    },
+    ":KEY2":{
+      "labels":{
+        "1":{"name":"k  K","player":0},
+        "2":{"name":"l  L","player":0},
+        "4":{"name":"m  M","player":0},
+        "8":{"name":"n  N","player":0},
+        "16":{"name":"o  O","player":0},
+        "32":{"name":"p  P","player":0},
+        "64":{"name":"q  Q","player":0},
+        "128":{"name":"r  R","player":0},
+        "256":{"name":"s  S","player":0},
+        "512":{"name":"t  T","player":0},
+        "1024":{"name":"u  U","player":0},
+        "2048":{"name":"v  V","player":0},
+        "4096":{"name":"w  W","player":0},
+        "8192":{"name":"x  X","player":0},
+        "16384":{"name":"y  Y","player":0},
+        "32768":{"name":"z  Z","player":0}
+      }
+    },
+    ":KEY1":{
+      "labels":{
+        "1":{"name":"'  \"","player":0},
+        "2":{"name":"`  ~","player":0},
+        "4":{"name":",  <","player":0},
+        "8":{"name":".  >","player":0},
+        "16":{"name":"/  ?","player":0},
+        "32":{"name":"Dead Key","player":0},
+        "64":{"name":"a  A","player":0},
+        "128":{"name":"b  B","player":0},
+        "256":{"name":"c  C","player":0},
+        "512":{"name":"d  D","player":0},
+        "1024":{"name":"e  E","player":0},
+        "2048":{"name":"f  F","player":0},
+        "4096":{"name":"g  G","player":0},
+        "8192":{"name":"h  H","player":0},
+        "16384":{"name":"i  I","player":0},
+        "32768":{"name":"j  J","player":0}
+      }
+    },
+    ":MOUSE0":{
+      "labels":{
+        "255":{"name":"Track Y","player":0},
+        "65280":{"name":"Track X","player":0}
+      }
+    },
+    ":JOY0":{
+      "labels":{
+        "1":{"name":"P1 Up","player":0},
+        "2":{"name":"P1 Down","player":0},
+        "4":{"name":"P1 Left","player":0},
+        "8":{"name":"P1 Right","player":0},
+        "16":{"name":"P1 Button 1","player":0},
+        "32":{"name":"P1 Button 2","player":0},
+        "128":{"name":"Game port 1","player":0}
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "romname":"enforce",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "4":{"name":"Coin 2","player":0},
+        "8":{"name":"Coin 1","player":0},
+        "16":{"name":"Service 1","player":0},
+        "32":{"name":"P1 Up","player":0},
+        "64":{"name":"P1 Down","player":0},
+        "128":{"name":"P1 Left","player":0}
+      }
+    },
+    ":DSWB":{
+      "labels":{
+        "3":{"name":"Difficulty","player":0},
+        "16":{"name":"Background scenery","player":0},
+        "128":{"name":"Unused","player":0}
+      }
+    },
+    ":DSWA":{
+      "labels":{
+        "2":{"name":"Unused","player":0},
+        "4":{"name":"Service Mode","player":0},
+        "8":{"name":"Demo Sounds","player":0},
+        "48":{"name":"Coin A","player":0},
+        "192":{"name":"Coin B","player":0}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{"name":"P1 Button 2","player":0},
+        "2":{"name":"P1 Button 1","player":0},
+        "4":{"name":"Tilt","player":0},
+        "8":{"name":"1 Player Start","player":0},
+        "128":{"name":"P1 Right","player":0}
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "romname":"sfrush",
+  "ports":{
+    ":AN7":{
+      "labels":{
+        "255":{"name":"Paddle","player":0}
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1":{"name":"Coin 1","player":0},
+        "2":{"name":"Coin 2","player":0},
+        "4":{"name":"Abort","player":0},
+        "8":{"name":"Tilt","player":0},
+        "16":{"name":"Service Mode","player":0},
+        "32":{"name":"Reverse","player":0},
+        "64":{"name":"Service 1","player":0},
+        "128":{"name":"Coin 3","player":0},
+        "256":{"name":"Coin 4","player":0},
+        "512":{"name":"2 Players Start","player":0},
+        "1024":{"name":"3 Players Start","player":0},
+        "2048":{"name":"4 Players Start","player":0}
+      }
+    },
+    ":GEAR":{
+      "labels":{
+        "1":{"name":"1st Gear","player":0},
+        "2":{"name":"2nd Gear","player":0},
+        "4":{"name":"3rd Gear","player":0},
+        "8":{"name":"4th Gear","player":0}
+      }
+    },
+    ":AN4":{
+      "labels":{
+        "255":{"name":"P1 Pedal 1","player":0}
+      }
+    },
+    ":DIPS":{
+      "labels":{
+        "1":{"name":"Service Mode","player":0},
+        "2":{"name":"Boot ROM Test","player":0},
+        "4":{"name":"Unknown0004","player":0},
+        "8":{"name":"Unknown0008","player":0},
+        "16":{"name":"Unknown0010","player":0},
+        "32":{"name":"Unknown0020","player":0},
+        "64":{"name":"Unknown0040","player":0},
+        "128":{"name":"Unknown0080","player":0},
+        "256":{"name":"Unknown0100","player":0},
+        "512":{"name":"Unknown0200","player":0},
+        "1024":{"name":"Unknown0400","player":0},
+        "2048":{"name":"Unknown0800","player":0},
+        "4096":{"name":"Unknown1000","player":0},
+        "8192":{"name":"Unknown2000","player":0},
+        "16384":{"name":"Unknown4000","player":0},
+        "32768":{"name":"Unknown8000","player":0}
+      }
+    },
+    ":AN6":{
+      "labels":{
+        "255":{"name":"P1 Pedal 3","player":0}
+      }
+    },
+    ":AN5":{
+      "labels":{
+        "255":{"name":"P1 Pedal 2","player":0}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{"name":"View 1","player":0},
+        "2":{"name":"View 2","player":0},
+        "4":{"name":"View 3","player":0},
+        "8":{"name":"Music","player":0},
+        "16":{"name":"Track 1","player":0},
+        "32":{"name":"Track 2","player":0},
+        "64":{"name":"Track 3","player":0},
+        "128":{"name":"Track 4","player":0},
+        "4096":{"name":"Volume Down","player":0},
+        "8192":{"name":"Volume Up","player":0}
+      }
+    }
+  }
+}

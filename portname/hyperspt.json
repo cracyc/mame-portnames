@@ -1,0 +1,15 @@
+{
+  "romname":"hyperspt",
+  "ports":{
+    ":P1_P2":{
+      "labels":{
+        "1":{"name":"P1 Go (Right)","player":0},
+        "2":{"name":"P1 Up","player":0},
+        "4":{"name":"P1 Go (Left)","player":0},
+        "16":{"name":"P2 Go (Right)","player":1},
+        "32":{"name":"P2 Up","player":1},
+        "64":{"name":"P2 Go (Left)","player":1}
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "romname":"crater",
+  "ports":{
+    ":ssio:IP2":{
+      "labels":{
+        "4":{"player":0,"name":"P1 Forward"},
+        "8":{"player":0,"name":"P1 Reverse"},
+        "16":{"player":0,"name":"P1 ??"},
+        "64":{"player":0,"name":"P1 Shield"}
+      }
+    },
+    ":ssio:IP0":{
+      "labels":{
+        "16":{"player":0,"name":"P1 Fire (Trigger)"}
+      }
+    },
+    ":ssio:IP1":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Turn Left / Turn Right"}
+      }
+    }
+  }
+}

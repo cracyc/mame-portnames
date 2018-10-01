@@ -1,0 +1,15 @@
+{
+  "romname":"assault",
+  "ports":{
+    ":MCUDI0":{
+      "labels":{
+        "2":{"player":0,"name":"Rapid Roll Right"}
+      }
+    },
+    ":MCUH":{
+      "labels":{
+        "32":{"player":0,"name":"Fire"}
+      }
+    }
+  }
+}

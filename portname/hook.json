@@ -1,0 +1,69 @@
+{
+  "romname":"hook",
+  "ports":{
+    ":COINS_DSW3":{
+      "labels":{
+        "1":{"name":"1 Player Start","player":0},
+        "2":{"name":"2 Players Start","player":0},
+        "4":{"name":"Coin 1","player":0},
+        "8":{"name":"Coin 2","player":0},
+        "16":{"name":"Service 1","player":0},
+        "32":{"name":"Service","player":0},
+        "32768":{"name":"Unknown","player":0}
+      }
+    },
+    ":P1_P2":{
+      "labels":{
+        "1":{"name":"P1 Right","player":0},
+        "2":{"name":"P1 Left","player":0},
+        "4":{"name":"P1 Down","player":0},
+        "8":{"name":"P1 Up","player":0},
+        "64":{"name":"P1 Button 2","player":0},
+        "128":{"name":"P1 Button 1","player":0},
+        "256":{"name":"P2 Right","player":1},
+        "512":{"name":"P2 Left","player":1},
+        "1024":{"name":"P2 Down","player":1},
+        "2048":{"name":"P2 Up","player":1},
+        "16384":{"name":"P2 Button 2","player":1},
+        "32768":{"name":"P2 Button 1","player":1}
+      }
+    },
+    ":P3_P4":{
+      "labels":{
+        "1":{"name":"P3 Right","player":2},
+        "2":{"name":"P3 Left","player":2},
+        "4":{"name":"P3 Down","player":2},
+        "8":{"name":"P3 Up","player":2},
+        "16":{"name":"3 Players Start","player":0},
+        "32":{"name":"Coin 3","player":0},
+        "64":{"name":"P3 Button 2","player":2},
+        "128":{"name":"P3 Button 1","player":2},
+        "256":{"name":"P4 Right","player":3},
+        "512":{"name":"P4 Left","player":3},
+        "1024":{"name":"P4 Down","player":3},
+        "2048":{"name":"P4 Up","player":3},
+        "4096":{"name":"4 Players Start","player":0},
+        "8192":{"name":"Coin 4","player":0},
+        "16384":{"name":"P4 Button 2","player":3},
+        "32768":{"name":"P4 Button 1","player":3}
+      }
+    },
+    ":DSW":{
+      "labels":{
+        "3":{"name":"Lives","player":0},
+        "12":{"name":"Difficulty","player":0},
+        "16":{"name":"Unknown","player":0},
+        "32":{"name":"Any Button to Start","player":0},
+        "64":{"name":"Demo Sounds","player":0},
+        "128":{"name":"Service Mode","player":0},
+        "256":{"name":"Flip Screen","player":0},
+        "512":{"name":"Cabinet","player":0},
+        "1024":{"name":"Coin Slots","player":0},
+        "2048":{"name":"Coin Mode","player":0},
+        "12288":{"name":"Coin A","player":0},
+        "49152":{"name":"Coin B","player":0},
+        "61440":{"name":"Coinage","player":0}
+      }
+    }
+  }
+}

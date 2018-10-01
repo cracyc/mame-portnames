@@ -1,0 +1,55 @@
+{
+  "romname":"kikcubic",
+  "ports":{
+    ":DSW2":{
+      "labels":{
+        "1":{"player":0,"name":"Flip Screen"},
+        "2":{"player":0,"name":"Cabinet"},
+        "4":{"player":0,"name":"Coin Mode"},
+        "8":{"player":0,"name":"Demo Sounds"},
+        "16":{"player":0,"name":"Invulnerability (Cheat)"},
+        "32":{"player":0,"name":"Level Select"},
+        "64":{"player":0,"name":"Player Adding"},
+        "128":{"player":0,"name":"Service Mode"}
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Right"},
+        "2":{"player":1,"name":"P2 Left"},
+        "4":{"player":1,"name":"P2 Down"},
+        "8":{"player":1,"name":"P2 Up"},
+        "32":{"player":1,"name":"P2 Button 2"},
+        "128":{"player":1,"name":"P2 Button 1"}
+      }
+    },
+    ":DSW1":{
+      "labels":{
+        "3":{"player":0,"name":"Difficulty"},
+        "12":{"player":0,"name":"Lives"},
+        "48":{"player":0,"name":"Coin A"},
+        "192":{"player":0,"name":"Coin B"},
+        "240":{"player":0,"name":"Coinage"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Right"},
+        "2":{"player":0,"name":"P1 Left"},
+        "4":{"player":0,"name":"P1 Down"},
+        "8":{"player":0,"name":"P1 Up"},
+        "32":{"player":0,"name":"P1 Button 2"},
+        "128":{"player":0,"name":"P1 Button 1"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{"player":0,"name":"1 Player Start"},
+        "2":{"player":0,"name":"2 Players Start"},
+        "16":{"player":0,"name":"Coin 1"},
+        "32":{"player":0,"name":"Coin 2"},
+        "64":{"player":0,"name":"Coin 3"}
+      }
+    }
+  }
+}

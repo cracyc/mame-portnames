@@ -1,0 +1,27 @@
+{
+  "romname":"omegrace",
+  "ports":{
+    ":SPIN1":{
+      "labels":{
+        "63":{"name":"P2 Right /  Left","player":1}
+      }
+    },
+    ":SPIN0":{
+      "labels":{
+        "63":{"name":"P1 Left / Right","player":0}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "32":{"name":"P1 Thrust","player":0},
+        "64":{"name":"P1 Fire","player":0}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{"name":"P2 Thrust","player":1},
+        "2":{"name":"P2 Fire","player":1}
+      }
+    }
+  }
+}

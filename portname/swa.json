@@ -1,0 +1,57 @@
+{
+  "romname":"swa",
+  "ports":{
+    ":STICK1Y":{
+      "labels":{
+        "255":{"player":0,"name":"AD Stick Y"}
+      }
+    },
+    ":IN.1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Button 1"},
+        "2":{"player":0,"name":"P1 Button 2"},
+        "4":{"player":1,"name":"P2 Button 1"},
+        "8":{"player":1,"name":"P2 Button 2"},
+        "16":{"player":0,"name":"P1 Button 3"}
+      }
+    },
+    ":STICK2X":{
+      "labels":{
+        "255":{"player":1,"name":"AD Stick X 2"}
+      }
+    },
+    ":STICK1X":{
+      "labels":{
+        "255":{"player":0,"name":"AD Stick X"}
+      }
+    },
+    ":ioboard:buttons":{
+      "labels":{
+        "1":{"player":0,"name":"Board 0"},
+        "2":{"player":0,"name":"Board 1"},
+        "4":{"player":0,"name":"Board 2"},
+        "8":{"player":0,"name":"Board 3"}
+      }
+    },
+    ":STICK2Y":{
+      "labels":{
+        "255":{"player":1,"name":"AD Stick Y 2"}
+      }
+    },
+    ":THROTTLE":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Pedal 1"}
+      }
+    },
+    ":IN.0":{
+      "labels":{
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"},
+        "4":{"player":0,"name":"Service Mode"},
+        "8":{"player":0,"name":"Service 1"},
+        "16":{"player":0,"name":"1 Player Start"},
+        "32":{"player":0,"name":"2 Players Start"}
+      }
+    }
+  }
+}

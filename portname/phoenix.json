@@ -1,0 +1,17 @@
+{
+  "romname":"phoenix",
+  "ports":{
+    ":CTRL":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Fire"},
+        "2":{"player":0,"name":"P1 Right"},
+        "4":{"player":0,"name":"P1 Left"},
+        "8":{"player":0,"name":"P1 Force Field"},
+        "16":{"player":1,"name":"P2 Fire"},
+        "32":{"player":1,"name":"P2 Right"},
+        "64":{"player":1,"name":"P2 Left"},
+        "128":{"player":1,"name":"P2 Force Field"}
+      }
+    }
+  }
+}

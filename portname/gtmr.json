@@ -1,0 +1,20 @@
+{
+  "romname":"gtmr",
+  "ports":{
+    ":P2":{
+      "labels":{
+        "4096":{"player":1,"name":"P2 Accelerate"}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "4096":{"player":0,"name":"P1 Accelerate"}
+      }
+    },
+    ":WHEEL0":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Left / Right"}
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "romname":"gravitar",
+  "ports":{
+    ":IN3":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Tractor/Shield"},
+        "2":{"player":0,"name":"P1 Fire"},
+        "4":{"player":0,"name":"P1 Rotate Right"},
+        "8":{"player":0,"name":"P1 Rotate Left"},
+        "16":{"player":0,"name":"P1 Thrust"}
+      }
+    }
+  }
+}

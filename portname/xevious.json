@@ -1,0 +1,17 @@
+{
+  "romname":"xevious",
+  "ports":{
+    ":IN0L":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Zapper"},
+        "2":{"player":1,"name":"P2 Zapper"}
+      }
+    },
+    ":DSWB":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Blaster"},
+        "16":{"player":1,"name":"P2 Blaster"}
+      }
+    }
+  }
+}

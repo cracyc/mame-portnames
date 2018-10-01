@@ -1,0 +1,21 @@
+{
+  "romname":"akatana",
+  "ports":{
+    ":PORT_D":{
+      "labels":{
+        "16":{"player":0,"name":"P1 Fire"},
+        "32":{"player":0,"name":"P1 Button 2"},
+        "64":{"player":0,"name":"P1 Button 3"},
+        "128":{"player":0,"name":"P1 Button 4"}
+      }
+    },
+    ":PORT_L":{
+      "labels":{
+        "16":{"player":1,"name":"P2 Fire"},
+        "32":{"player":1,"name":"P2 Button 2"},
+        "64":{"player":1,"name":"P2 Button 3"},
+        "128":{"player":1,"name":"P2 Button 4"}
+      }
+    }
+  }
+}

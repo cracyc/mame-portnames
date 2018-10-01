@@ -1,0 +1,37 @@
+{
+  "romname":"slither",
+  "ports":{
+    ":P1":{
+      "labels":{
+        "16":{"name":"P1 Fire Up","player":0},
+        "128":{"name":"P1 Fire Down","player":0}
+      }
+    },
+    ":AN0":{
+      "labels":{
+        "255":{"name":"P1 Left / Right","player":0}
+      }
+    },
+    ":AN1":{
+      "labels":{
+        "255":{"name":"P1 Up / Down","player":0}
+      }
+    },
+    ":AN3":{
+      "labels":{
+        "255":{"name":"P2 Down /  Up","player":1}
+      }
+    },
+    ":AN2":{
+      "labels":{
+        "255":{"name":"P2 Right /  Left","player":1}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "16":{"name":"P2 Fire Up","player":1},
+        "128":{"name":"P2 Fire Down","player":1}
+      }
+    }
+  }
+}

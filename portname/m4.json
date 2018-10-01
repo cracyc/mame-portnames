@@ -1,0 +1,21 @@
+{
+  "romname":"m4",
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "2":{"player":0,"name":"P1 Up"},
+        "8":{"player":0,"name":"P1 Down"},
+        "16":{"player":0,"name":"P1 Fire"},
+        "32":{"player":0,"name":"P1 Reload"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "2":{"player":1,"name":"P2 Up"},
+        "8":{"player":1,"name":"P2 Down"},
+        "16":{"player":1,"name":"P2 Fire"},
+        "32":{"player":1,"name":"P2 Reload"}
+      }
+    }
+  }
+}

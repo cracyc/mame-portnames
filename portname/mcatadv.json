@@ -1,0 +1,49 @@
+{
+  "romname":"mcatadv",
+  "ports":{
+    ":DSW1":{
+      "labels":{
+        "256":{"player":0,"name":"Demo Sounds"},
+        "512":{"player":0,"name":"Flip Screen"},
+        "1024":{"player":0,"name":"Service Mode"},
+        "2048":{"player":0,"name":"Coin Mode"},
+        "12288":{"player":0,"name":"Coin A"},
+        "49152":{"player":0,"name":"Coin B"}
+      }
+    },
+    ":DSW2":{
+      "labels":{
+        "768":{"player":0,"name":"Difficulty"},
+        "3072":{"player":0,"name":"Lives"},
+        "12288":{"player":0,"name":"Energy"},
+        "49152":{"player":0,"name":"Cabinet"}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Up"},
+        "2":{"player":0,"name":"P1 Down"},
+        "4":{"player":0,"name":"P1 Left"},
+        "8":{"player":0,"name":"P1 Right"},
+        "16":{"player":0,"name":"P1 Button 1"},
+        "32":{"player":0,"name":"P1 Button 2"},
+        "64":{"player":0,"name":"P1 Button 3"},
+        "128":{"player":0,"name":"1 Player Start"},
+        "256":{"player":0,"name":"Coin 1"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Up"},
+        "2":{"player":1,"name":"P2 Down"},
+        "4":{"player":1,"name":"P2 Left"},
+        "8":{"player":1,"name":"P2 Right"},
+        "16":{"player":1,"name":"P2 Button 1"},
+        "32":{"player":1,"name":"P2 Button 2"},
+        "128":{"player":0,"name":"2 Players Start"},
+        "256":{"player":0,"name":"Coin 2"},
+        "512":{"player":0,"name":"Service 1"}
+      }
+    }
+  }
+}

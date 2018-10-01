@@ -1,0 +1,21 @@
+{
+  "romname":"tunhunt",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "2":{"name":"Fire","player":0},
+        "32":{"name":"Shield","player":0}
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "255":{"name":"Left / Right","player":0}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "255":{"name":"Up / Down","player":0}
+      }
+    }
+  }
+}

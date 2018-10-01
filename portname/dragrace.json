@@ -1,0 +1,41 @@
+{
+  "romname":"dragrace",
+  "ports":{
+    ":DIAL1":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Up /  Down"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Accelerate"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Accelerate"}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 1"},
+        "2":{"player":0,"name":"P1 2"},
+        "4":{"player":0,"name":"P1 3"},
+        "8":{"player":0,"name":"P1 4"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 1"},
+        "2":{"player":1,"name":"P2 2"},
+        "4":{"player":1,"name":"P2 3"},
+        "8":{"player":1,"name":"P2 4"}
+      }
+    },
+    ":DIAL2":{
+      "labels":{
+        "255":{"player":1,"name":"P2 Up /  Down"}
+      }
+    }
+  }
+}

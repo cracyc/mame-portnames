@@ -1,0 +1,31 @@
+{
+  "romname":"lethalen",
+  "ports":{
+    ":INPUTS":{
+      "labels":{
+        "16":{"name":"P1 Fire","player":0},
+        "32":{"name":"P2 Fire","player":1}
+      }
+    },
+    ":LIGHT1_Y":{
+      "labels":{
+        "255":{"name":"P2 Aim Down /  Aim Up","player":1}
+      }
+    },
+    ":LIGHT1_X":{
+      "labels":{
+        "255":{"name":"P2 Aim Right /  Aim Left","player":1}
+      }
+    },
+    ":LIGHT0_X":{
+      "labels":{
+        "255":{"name":"P1 Aim Left / Aim Right","player":0}
+      }
+    },
+    ":LIGHT0_Y":{
+      "labels":{
+        "255":{"name":"P1 Aim Up / Aim Down","player":0}
+      }
+    }
+  }
+}

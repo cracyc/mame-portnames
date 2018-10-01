@@ -1,0 +1,17 @@
+{
+  "romname":"arkarea",
+  "ports":{
+    ":PAD1":{
+      "labels":{
+        "16":{"player":0,"name":"P1 Fire"},
+        "32":{"player":0,"name":"P1 Direction"}
+      }
+    },
+    ":PAD2":{
+      "labels":{
+        "16":{"player":1,"name":"P2 Fire"},
+        "32":{"player":1,"name":"P2 Direction"}
+      }
+    }
+  }
+}

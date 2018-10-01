@@ -1,0 +1,71 @@
+{
+  "romname":"frenzy",
+  "ports":{
+    ":SYSTEM":{
+      "labels":{
+        "1":{"player":0,"name":"1 Player Start"},
+        "2":{"player":0,"name":"2 Players Start"},
+        "64":{"player":0,"name":"Coin 2"},
+        "128":{"player":0,"name":"Coin 1"}
+      }
+    },
+    ":F6":{
+      "labels":{
+        "255":{"player":0,"name":"Coins/Credit B"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Left"},
+        "2":{"player":1,"name":"P2 Right"},
+        "4":{"player":1,"name":"P2 Up"},
+        "8":{"player":1,"name":"P2 Down"},
+        "16":{"player":1,"name":"P2 Button 1"},
+        "128":{"player":0,"name":"Cabinet"}
+      }
+    },
+    ":F5":{
+      "labels":{
+        "255":{"player":0,"name":"Coins/Credit A"}
+      }
+    },
+    ":MONITOR_TYPE":{
+      "labels":{
+        "1":{"player":0,"name":"Monitor Type"}
+      }
+    },
+    ":F3":{
+      "labels":{
+        "15":{"player":0,"name":"Bonus Life"},
+        "192":{"player":0,"name":"Language"}
+      }
+    },
+    ":SW2":{
+      "labels":{
+        "1":{"player":0,"name":"Free Game (not logged in bookkeeping)"},
+        "128":{"player":0,"name":"Bookkeeping"}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Left"},
+        "2":{"player":0,"name":"P1 Right"},
+        "4":{"player":0,"name":"P1 Up"},
+        "8":{"player":0,"name":"P1 Down"},
+        "16":{"player":0,"name":"P1 Button 1"}
+      }
+    },
+    ":F4":{
+      "labels":{
+        "255":{"player":0,"name":"Coin Multiplier"}
+      }
+    },
+    ":F2":{
+      "labels":{
+        "3":{"player":0,"name":"Hardware Tests"},
+        "4":{"player":0,"name":"Input Test Mode"},
+        "8":{"player":0,"name":"Crosshair Pattern"}
+      }
+    }
+  }
+}

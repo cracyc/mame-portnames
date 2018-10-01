@@ -1,0 +1,27 @@
+{
+  "romname":"starwars",
+  "ports":{
+    ":STICKX":{
+      "labels":{
+        "255":{"player":0,"name":"Left / Right"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "64":{"player":0,"name":"Fire"},
+        "128":{"player":0,"name":"Fire"}
+      }
+    },
+    ":STICKY":{
+      "labels":{
+        "255":{"player":0,"name":"Up / Down"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "16":{"player":0,"name":"Fire"},
+        "32":{"player":0,"name":"Fire"}
+      }
+    }
+  }
+}

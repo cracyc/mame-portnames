@@ -1,0 +1,26 @@
+{
+  "romname":"ddcrew",
+  "ports":{
+    ":P1":{
+      "labels":{
+        "1":{"name":"P1 Attack"},
+        "2":{"name":"P1 Jump"},
+        "4":{"name":"P1 ..."}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"name":"P2 Attack"},
+        "2":{"name":"P2 Jump"},
+        "4":{"name":"P2 ..."}
+      }
+    },
+    ":P3":{
+      "labels":{
+        "1":{"name":"P3 Attack"},
+        "2":{"name":"P3 Jump"},
+        "4":{"name":"P3 ..."}
+      }
+    }
+  }
+}

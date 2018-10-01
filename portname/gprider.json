@@ -1,0 +1,111 @@
+{
+  "romname":"gprider",
+  "ports":{
+    ":subpcb:IO0PORTB":{
+      "labels":{
+      }
+    },
+    ":mainpcb:IO0PORTB":{
+      "labels":{
+      }
+    },
+    ":subpcb:IO0PORTA":{
+      "labels":{
+      }
+    },
+    ":mainpcb:IO1PORTB":{
+      "labels":{
+      }
+    },
+    ":subpcb:ADC0":{
+      "labels":{
+        "255":{"name":"Paddle 2","player":1}
+      }
+    },
+    ":mainpcb:IO1PORTA":{
+      "labels":{
+        "2":{"name":"Service Mode","player":0},
+        "4":{"name":"Service 1","player":0},
+        "8":{"name":"1 Player Start","player":0},
+        "16":{"name":"Shift Down","player":0},
+        "32":{"name":"Shift Up","player":0},
+        "64":{"name":"Coin 1","player":0},
+        "128":{"name":"Coin 2","player":0}
+      }
+    },
+    ":subpcb:IO1PORTB":{
+      "labels":{
+      }
+    },
+    ":subpcb:IO1PORTD":{
+      "labels":{
+        "3":{"name":"Cabinet","player":0},
+        "8":{"name":"ID No.","player":0},
+        "16":{"name":"Demo Sounds","player":0},
+        "32":{"name":"Unused","player":0},
+        "192":{"name":"Difficulty","player":0}
+      }
+    },
+    ":subpcb:IO1PORTA":{
+      "labels":{
+        "2":{"name":"Service Mode","player":0},
+        "4":{"name":"Service 2","player":0},
+        "8":{"name":"2 Players Start","player":0},
+        "16":{"name":"Shift Down","player":1},
+        "32":{"name":"Shift Up","player":1},
+        "64":{"name":"Coin 3","player":0},
+        "128":{"name":"Coin 4","player":0}
+      }
+    },
+    ":mainpcb:ADC2":{
+      "labels":{
+        "255":{"name":"P1 Pedal 2","player":0}
+      }
+    },
+    ":subpcb:ADC2":{
+      "labels":{
+        "255":{"name":"P2 Pedal 2","player":1}
+      }
+    },
+    ":mainpcb:ADC0":{
+      "labels":{
+        "255":{"name":"Paddle","player":0}
+      }
+    },
+    ":mainpcb:IO1PORTC":{
+      "labels":{
+        "15":{"name":"Coin A","player":0},
+        "240":{"name":"Coin B","player":0}
+      }
+    },
+    ":mainpcb:IO1PORTD":{
+      "labels":{
+        "3":{"name":"Cabinet","player":0},
+        "8":{"name":"ID No.","player":0},
+        "16":{"name":"Demo Sounds","player":0},
+        "32":{"name":"Unused","player":0},
+        "192":{"name":"Difficulty","player":0}
+      }
+    },
+    ":subpcb:IO1PORTC":{
+      "labels":{
+        "15":{"name":"Coin A","player":0},
+        "240":{"name":"Coin B","player":0}
+      }
+    },
+    ":subpcb:ADC1":{
+      "labels":{
+        "255":{"name":"P2 Pedal 1","player":1}
+      }
+    },
+    ":mainpcb:IO0PORTA":{
+      "labels":{
+      }
+    },
+    ":mainpcb:ADC1":{
+      "labels":{
+        "255":{"name":"P1 Pedal 1","player":0}
+      }
+    }
+  }
+}

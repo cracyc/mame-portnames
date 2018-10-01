@@ -1,0 +1,15 @@
+{
+  "romname":"acedrvrw",
+  "ports":{
+    ":STEER":{"labels":{"255":{"player":0,"name":"Steering Wheel"}}},
+    ":BRAKE":{"labels":{"255":{"player":0,"name":"Brake Pedal"}}},
+    ":GAS":{"labels":{"255":{"player":0,"name":"Gas Pedal"}}},
+    ":INPUTS":{
+      "labels":{
+        "1":{"player":0,"name":"Shift Down"},
+        "2":{"player":0,"name":"Shift Up"},
+        "64":{"player":0,"name":"View Change"}
+      }
+    }
+  }
+}

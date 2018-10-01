@@ -1,0 +1,39 @@
+{
+  "romname":"blaster",
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "16":{"player":0,"name":"1 Player Start"},
+        "32":{"player":0,"name":"2 Players Start"}
+      }
+    },
+    ":49WAYY":{
+      "labels":{
+        "255":{"player":0,"name":"AD Stick Y"}
+      }
+    },
+    ":49WAYX":{
+      "labels":{
+        "255":{"player":0,"name":"AD Stick X"}
+      }
+    },
+    ":INP1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Button 2"},
+        "2":{"player":0,"name":"P1 Button 1"},
+        "4":{"player":0,"name":"P1 Button 3"}
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "1":{"player":0,"name":"Auto Up / Manual Down"},
+        "2":{"player":0,"name":"Advance"},
+        "4":{"player":0,"name":"Coin 3"},
+        "8":{"player":0,"name":"High Score Reset"},
+        "16":{"player":0,"name":"Coin 1"},
+        "32":{"player":0,"name":"Coin 2"},
+        "64":{"player":0,"name":"Tilt"}
+      }
+    }
+  }
+}

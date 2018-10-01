@@ -1,0 +1,42 @@
+{
+  "romname":"hangplt",
+  "ports":{
+    ":IN3":{
+      "labels":{
+        "1":{"player":0,"name":"Disable Machine Init"},
+        "2":{"player":0,"name":"Disable Test Mode"},
+        "4":{"player":0,"name":"DIP3"},
+        "8":{"player":0,"name":"DIP4"},
+        "16":{"player":0,"name":"Coin 2"},
+        "32":{"player":0,"name":"Coin 1"},
+        "64":{"player":0,"name":"Service Button"},
+        "128":{"player":0,"name":"Service Mode"}
+      }
+    },
+    ":AN0":{
+      "labels":{
+        "1023":{"player":0,"name":"AD Stick X"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "32":{"player":0,"name":"P1 Button 2"},
+        "64":{"player":0,"name":"P1 Button 1"}
+      }
+    },
+    ":AN1":{
+      "labels":{
+        "1023":{"player":0,"name":"AD Stick Y"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "8":{"player":0,"name":"P1 Right"},
+        "16":{"player":0,"name":"P1 Left"},
+        "32":{"player":0,"name":"P1 Down"},
+        "64":{"player":0,"name":"P1 Up"},
+        "128":{"player":0,"name":"1 Player Start"}
+      }
+    }
+  }
+}

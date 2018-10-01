@@ -1,0 +1,19 @@
+{
+  "romname":"kod",
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "16":{"name":"P1 Attack","player":0},
+        "32":{"name":"P1 Jump","player":0},
+        "4096":{"name":"P2 Attack","player":1},
+        "8192":{"name":"P2 Jump","player":1}
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "16":{"name":"P3 Attack","player":2},
+        "32":{"name":"P3 Jump","player":2}
+      }
+    }
+  }
+}

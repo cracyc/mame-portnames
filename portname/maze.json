@@ -1,0 +1,17 @@
+{
+  "romname":"maze",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "1":{"name":"P1 Left","player":0},
+        "2":{"name":"P1 Right","player":0},
+        "4":{"name":"P1 Down","player":0},
+        "8":{"name":"P1 Up","player":0},
+        "16":{"name":"P2 Left","player":1},
+        "32":{"name":"P2 Right","player":1},
+        "64":{"name":"P2 Down","player":1},
+        "128":{"name":"P2 Up","player":1}
+      }
+    }
+  }
+}

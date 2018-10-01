@@ -1,0 +1,13 @@
+{
+  "romname":"beaminv",
+  "ports":{
+    ":CONTP1":{"labels":{"255":{"player":0,"name":"P1 Move Horizontal"}}},
+    ":CONTP2":{"labels":{"255":{"player":1,"name":"P2 Move Horizontal"}}},
+    ":INPUTS":{
+      "labels":{
+        "8":{"player":0,"name":"P1 Fire"},
+        "16":{"player":1,"name":"P2 Fire"}
+      }
+    }
+  }
+}

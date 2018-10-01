@@ -1,0 +1,13 @@
+{
+  "romname":"darius2",
+  "ports":{
+    ":IN2":{
+      "labels":{
+        "16":{"player":0,"name":"P1 Fire"},
+        "32":{"player":0,"name":"P1 Bomb"},
+        "64":{"player":1,"name":"P2 Fire"},
+        "128":{"player":1,"name":"P2 Bomb"}
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "romname":"abaseb",
+  "ports":{
+    ":IN5":{
+      "labels":{
+        "255":{"player":1,"name":"P2 Right /  Left"}
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Up / Down"}
+      }
+    },
+    ":IN4":{
+      "labels":{
+        "255":{"player":1,"name":"P2 Down /  Up"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "16":{"player":1,"name":"P2 Action"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "16":{"player":0,"name":"P1 Action"}
+      }
+    },
+    ":IN3":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Left / Right"}
+      }
+    }
+  }
+}

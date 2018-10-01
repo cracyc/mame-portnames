@@ -1,0 +1,25 @@
+{
+  "romname":"cfield",
+  "ports":{
+    ":P2":{
+      "labels":{
+        "16":{"player":1,"name":"P2 Button 6"},
+        "32":{"player":1,"name":"P2 Button 5"},
+        "64":{"player":1,"name":"P2 Button 4"},
+        "128":{"player":1,"name":"P2 Button 3"},
+        "256":{"player":1,"name":"P2 Button 2"},
+        "512":{"player":1,"name":"P2 Fire"}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "16":{"player":0,"name":"P1 Button 6"},
+        "32":{"player":0,"name":"P1 Button 5"},
+        "64":{"player":0,"name":"P1 Button 4"},
+        "128":{"player":0,"name":"P1 Button 3"},
+        "256":{"player":0,"name":"P1 Button 2"},
+        "512":{"player":0,"name":"P1 Fire"}
+      }
+    }
+  }
+}

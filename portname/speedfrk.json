@@ -1,0 +1,10 @@
+{
+  "romname":"speedfrk",
+  "ports":{
+    ":WHEEL":{
+      "labels":{
+        "255":{"player":0,"name":"Left / Right"}
+      }
+    }
+  }
+}

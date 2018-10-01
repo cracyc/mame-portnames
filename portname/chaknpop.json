@@ -1,0 +1,63 @@
+{
+  "romname":"chaknpop",
+  "ports":{
+    ":DSWC":{
+      "labels":{
+        "1":{"player":0,"name":"Language"},
+        "2":{"player":0,"name":"Demo Sounds"},
+        "4":{"player":0,"name":"Super Chack'n"},
+        "8":{"player":0,"name":"Endless (Cheat)"},
+        "16":{"player":0,"name":"Credit Info"},
+        "32":{"player":0,"name":"Show Year"},
+        "64":{"player":0,"name":"Infinite (Cheat)"},
+        "128":{"player":0,"name":"Coinage"}
+      }
+    },
+    ":DSWB":{
+      "labels":{
+        "3":{"player":0,"name":"Bonus Life"},
+        "4":{"player":0,"name":"Free Play"},
+        "24":{"player":0,"name":"Lives"},
+        "32":{"player":0,"name":"Training/Difficulty"},
+        "64":{"player":0,"name":"Flip Screen"},
+        "128":{"player":0,"name":"Cabinet"}
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "4":{"player":0,"name":"Coin 1"},
+        "8":{"player":0,"name":"Coin 2"},
+        "16":{"player":0,"name":"1 Player Start"},
+        "32":{"player":0,"name":"2 Players Start"},
+        "64":{"player":0,"name":"Service 1"},
+        "128":{"player":0,"name":"Tilt"}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Left"},
+        "2":{"player":0,"name":"P1 Right"},
+        "4":{"player":0,"name":"P1 Down"},
+        "8":{"player":0,"name":"P1 Up"},
+        "16":{"player":0,"name":"P1 Button 1"},
+        "32":{"player":0,"name":"P1 Button 2"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Left"},
+        "2":{"player":1,"name":"P2 Right"},
+        "4":{"player":1,"name":"P2 Down"},
+        "8":{"player":1,"name":"P2 Up"},
+        "16":{"player":1,"name":"P2 Button 1"},
+        "32":{"player":1,"name":"P2 Button 2"}
+      }
+    },
+    ":DSWA":{
+      "labels":{
+        "15":{"player":0,"name":"Coin A"},
+        "240":{"player":0,"name":"Coin B"}
+      }
+    }
+  }
+}

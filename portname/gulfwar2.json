@@ -1,0 +1,55 @@
+{
+  "romname":"gulfwar2",
+  "ports":{
+    ":DSWB":{
+      "labels":{
+        "3":{"player":0,"name":"Difficulty"},
+        "12":{"player":0,"name":"Bonus Life"},
+        "48":{"player":0,"name":"Lives"},
+        "64":{"player":0,"name":"Dip Switch Display"},
+        "128":{"player":0,"name":"Unused"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Up"},
+        "2":{"player":1,"name":"P2 Down"},
+        "4":{"player":1,"name":"P2 Left"},
+        "8":{"player":1,"name":"P2 Right"},
+        "16":{"player":1,"name":"P2 Button 1"},
+        "32":{"player":1,"name":"P2 Button 2"}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Up"},
+        "2":{"player":0,"name":"P1 Down"},
+        "4":{"player":0,"name":"P1 Left"},
+        "8":{"player":0,"name":"P1 Right"},
+        "16":{"player":0,"name":"P1 Button 1"},
+        "32":{"player":0,"name":"P1 Button 2"}
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1":{"player":0,"name":"Service 1"},
+        "2":{"player":0,"name":"Tilt"},
+        "4":{"player":0,"name":"Test Switch"},
+        "8":{"player":0,"name":"Coin 1"},
+        "16":{"player":0,"name":"Coin 2"},
+        "32":{"player":0,"name":"1 Player Start"},
+        "64":{"player":0,"name":"2 Players Start"}
+      }
+    },
+    ":DSWA":{
+      "labels":{
+        "1":{"player":0,"name":"Unused"},
+        "2":{"player":0,"name":"Flip Screen"},
+        "4":{"player":0,"name":"Service Mode"},
+        "8":{"player":0,"name":"Demo Sounds"},
+        "48":{"player":0,"name":"Coin A"},
+        "192":{"player":0,"name":"Coin B"}
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "romname":"joust2",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "16":{"player":1,"name":"P2 Start Player 2 / Transform"},
+        "32":{"player":0,"name":"P1 Start Player 1 / Transform"}
+      }
+    },
+    ":INP2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Left"},
+        "2":{"player":1,"name":"P2 Right"},
+        "4":{"player":1,"name":"P2 Flap"}
+      }
+    },
+    ":INP1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Left"},
+        "2":{"player":0,"name":"P1 Right"},
+        "4":{"player":0,"name":"P1 Flap"}
+      }
+    }
+  }
+}

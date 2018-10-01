@@ -1,0 +1,40 @@
+{
+  "romname":"stratof",
+  "ports":{
+    ":DSW":{
+      "labels":{
+        "15":{"name":"Coin B","player":0},
+        "240":{"name":"Coin A","player":0},
+        "768":{"name":"Bonus Life","player":0},
+        "3072":{"name":"Lives","player":0},
+        "12288":{"name":"Difficulty","player":0},
+        "16384":{"name":"Unused","player":0},
+        "32768":{"name":"Demo Sounds","player":0}
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1":{"name":"1 Player Start","player":0},
+        "2":{"name":"2 Players Start","player":0},
+        "64":{"name":"Coin 1","player":0},
+        "128":{"name":"Coin 2","player":0}
+      }
+    },
+    ":P1_P2":{
+      "labels":{
+        "1":{"name":"P1 Left","player":0},
+        "2":{"name":"P1 Right","player":0},
+        "4":{"name":"P1 Down","player":0},
+        "8":{"name":"P1 Up","player":0},
+        "16":{"name":"P1 Button 1","player":0},
+        "32":{"name":"P1 Button 2","player":0},
+        "256":{"name":"P2 Left","player":1},
+        "512":{"name":"P2 Right","player":1},
+        "1024":{"name":"P2 Down","player":1},
+        "2048":{"name":"P2 Up","player":1},
+        "4096":{"name":"P2 Button 1","player":1},
+        "8192":{"name":"P2 Button 2","player":1}
+      }
+    }
+  }
+}

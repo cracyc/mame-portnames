@@ -1,0 +1,33 @@
+{
+  "romname":"kov2",
+  "ports":{
+    ":P1P2":{
+      "labels":{
+        "32":{"name":"P1 Attack","player":0},
+        "64":{"name":"P1 Jump","player":0},
+        "128":{"name":"P1 Select","player":0},
+        "8192":{"name":"P2 Attack","player":1},
+        "16384":{"name":"P2 Jump","player":1},
+        "32768":{"name":"P2 Select","player":1}
+      }
+    },
+    ":P3P4":{
+      "labels":{
+        "32":{"name":"P3 Attack","player":2},
+        "64":{"name":"P3 Jump","player":2},
+        "128":{"name":"P3 Select","player":2},
+        "8192":{"name":"P4 Attack","player":3},
+        "16384":{"name":"P4 Jump","player":3},
+        "32768":{"name":"P4 Select","player":3}
+      }
+    },
+    ":Service":{
+      "labels":{
+        "256":{"name":"P1 Use","player":0},
+        "512":{"name":"P2 Use","player":1},
+        "1024":{"name":"P3 Use","player":2},
+        "2048":{"name":"P4 Use","player":3}
+      }
+    }
+  }
+}

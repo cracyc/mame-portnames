@@ -1,0 +1,57 @@
+{
+  "romname":"gemini",
+  "ports":{
+    ":JOY1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Left"},
+        "2":{"player":0,"name":"P1 Right"},
+        "4":{"player":0,"name":"P1 Down"},
+        "8":{"player":0,"name":"P1 Up"}
+      }
+    },
+    ":JOY2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Left"},
+        "2":{"player":1,"name":"P2 Right"},
+        "4":{"player":1,"name":"P2 Down"},
+        "8":{"player":1,"name":"P2 Up"}
+      }
+    },
+    ":BUTTONS1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Button 2"},
+        "2":{"player":0,"name":"P1 Button 1"}
+      }
+    },
+    ":BUTTONS2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Button 2"},
+        "2":{"player":1,"name":"P2 Button 1"}
+      }
+    },
+    ":DSWB":{
+      "labels":{
+        "3":{"player":0,"name":"Lives"},
+        "12":{"player":0,"name":"Difficulty"},
+        "112":{"player":0,"name":"Bonus Life"},
+        "128":{"player":0,"name":"Demo Sounds"}
+      }
+    },
+    ":DSWA":{
+      "labels":{
+        "7":{"player":0,"name":"Coin A"},
+        "8":{"player":0,"name":"Final Round Continuation"},
+        "112":{"player":0,"name":"Coin B"},
+        "128":{"player":0,"name":"Buy in During Final Round"}
+      }
+    },
+    ":SYS_1":{
+      "labels":{
+        "1":{"player":0,"name":"1 Player Start"},
+        "2":{"player":0,"name":"2 Players Start"},
+        "4":{"player":0,"name":"Coin 1"},
+        "8":{"player":0,"name":"Coin 2"}
+      }
+    }
+  }
+}

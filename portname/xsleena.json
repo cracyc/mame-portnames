@@ -1,0 +1,17 @@
+{
+  "romname":"xsleena",
+  "ports":{
+    ":P1":{
+      "labels":{
+        "16":{"name":"P1 Fire","player":0},
+        "32":{"name":"P1 Jump","player":0}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "16":{"name":"P2 Fire","player":1},
+        "32":{"name":"P2 Jump","player":1}
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "romname":"raystorm",
+  "ports":{
+    ":P2":{
+      "labels":{
+        "16":{"name":"P2 Fire","player":1},
+        "32":{"name":"P2 Laser","player":1},
+        "64":{"name":"P2 Button 3","player":1}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "16":{"name":"P1 Fire","player":0},
+        "32":{"name":"P1 Laser","player":0},
+        "64":{"name":"P1 Button 3","player":0}
+      }
+    }
+  }
+}

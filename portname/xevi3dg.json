@@ -1,0 +1,93 @@
+{
+  "romname":"xevi3dg",
+  "ports":{
+    ":ADC5":{
+      "labels":{
+        "255":{"player":2,"name":"P3 Down"}
+      }
+    },
+    ":ADC7":{
+      "labels":{
+        "255":{"player":0,"name":"3 Players Start"}
+      }
+    },
+    ":ADC6":{
+      "labels":{
+        "255":{"player":2,"name":"P3 Up"}
+      }
+    },
+    ":PLAYER4":{
+      "labels":{
+        "1":{"player":3,"name":"P4 Right"},
+        "2":{"player":3,"name":"P4 Left"},
+        "4":{"player":3,"name":"P4 Down"},
+        "8":{"player":3,"name":"P4 Up"},
+        "16":{"player":3,"name":"P4 Button 1"},
+        "32":{"player":3,"name":"P4 Button 2"},
+        "64":{"player":3,"name":"P4 Button 3"},
+        "128":{"player":0,"name":"4 Players Start"}
+      }
+    },
+    ":ADC1":{
+      "labels":{
+        "255":{"player":2,"name":"P3 Button 2"}
+      }
+    },
+    ":ADC0":{
+      "labels":{
+        "255":{"player":2,"name":"P3 Button 3"}
+      }
+    },
+    ":ADC2":{
+      "labels":{
+        "255":{"player":2,"name":"P3 Button 1"}
+      }
+    },
+    ":ADC3":{
+      "labels":{
+        "255":{"player":2,"name":"P3 Right"}
+      }
+    },
+    ":PLAYER1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Right"},
+        "2":{"player":0,"name":"P1 Left"},
+        "4":{"player":0,"name":"P1 Down"},
+        "8":{"player":0,"name":"P1 Up"},
+        "16":{"player":0,"name":"P1 Button 1"},
+        "32":{"player":0,"name":"P1 Button 2"},
+        "64":{"player":0,"name":"P1 Button 3"},
+        "128":{"player":0,"name":"1 Player Start"}
+      }
+    },
+    ":ADC4":{
+      "labels":{
+        "255":{"player":2,"name":"P3 Left"}
+      }
+    },
+    ":SWITCH":{
+      "labels":{
+        "1":{"player":0,"name":"DIP2 (Freeze)"},
+        "2":{"player":0,"name":"DIP1 (Test)"},
+        "4":{"player":0,"name":"Coin 4"},
+        "8":{"player":0,"name":"Coin 3"},
+        "16":{"player":0,"name":"Coin 2"},
+        "32":{"player":0,"name":"Coin 1"},
+        "64":{"player":0,"name":"Service Mode"},
+        "128":{"player":0,"name":"Service 1"}
+      }
+    },
+    ":PLAYER2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Right"},
+        "2":{"player":1,"name":"P2 Left"},
+        "4":{"player":1,"name":"P2 Down"},
+        "8":{"player":1,"name":"P2 Up"},
+        "16":{"player":1,"name":"P2 Button 1"},
+        "32":{"player":1,"name":"P2 Button 2"},
+        "64":{"player":1,"name":"P2 Button 3"},
+        "128":{"player":0,"name":"2 Players Start"}
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "romname":"silkworm",
+  "ports":{
+    ":DSWB":{
+      "labels":{
+        "7":{"player":0,"name":"Bonus Life"},
+        "8":{"player":0,"name":"Unused"},
+        "112":{"player":0,"name":"Difficulty"},
+        "128":{"player":0,"name":"Allow Continue"}
+      }
+    },
+    ":JOY1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Left"},
+        "2":{"player":0,"name":"P1 Right"},
+        "4":{"player":0,"name":"P1 Down"},
+        "8":{"player":0,"name":"P1 Up"}
+      }
+    },
+    ":BUTTONS2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Button 2"},
+        "2":{"player":1,"name":"P2 Button 1"},
+        "4":{"player":1,"name":"P2 Button 3"}
+      }
+    },
+    ":DSWA":{
+      "labels":{
+        "3":{"player":0,"name":"Coin A"},
+        "12":{"player":0,"name":"Coin B"},
+        "48":{"player":0,"name":"Lives"},
+        "64":{"player":0,"name":"Unused"},
+        "128":{"player":0,"name":"Demo Sounds"}
+      }
+    },
+    ":SYS_2":{
+      "labels":{
+        "1":{"player":0,"name":"1 Player Start"},
+        "2":{"player":0,"name":"2 Players Start"},
+        "4":{"player":0,"name":"Coin 1"},
+        "8":{"player":0,"name":"Coin 2"}
+      }
+    },
+    ":JOY2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Left"},
+        "2":{"player":1,"name":"P2 Right"},
+        "4":{"player":1,"name":"P2 Down"},
+        "8":{"player":1,"name":"P2 Up"}
+      }
+    },
+    ":BUTTONS1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Button 2"},
+        "2":{"player":0,"name":"P1 Button 1"},
+        "4":{"player":0,"name":"P1 Button 3"}
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "romname":"f1en",
+  "ports":{
+    ":slavepcb:SERVICE34_A":{
+      "labels":{
+        "8":{"player":0,"name":"Unknown"},
+        "16":{"player":0,"name":"slavepcb:Push SW1 (Service)"},
+        "32":{"player":0,"name":"slavepcb:Push SW2 (Test)"}
+      }
+    },
+    ":mainpcb:P1_A":{
+      "labels":{
+        "1":{"player":0,"name":"mainpcb:Gear Up"},
+        "2":{"player":0,"name":"mainpcb:Gear Down"}
+      }
+    },
+    ":mainpcb:ANALOG3":{
+      "labels":{
+        "255":{"player":0,"name":"mainpcb:Brake Pedal"}
+      }
+    },
+    ":slavepcb:ANALOG1":{
+      "labels":{
+        "255":{"player":1,"name":"slavepcb:Steering Wheel"}
+      }
+    },
+    ":mainpcb:SERVICE34_A":{
+      "labels":{
+        "8":{"player":0,"name":"Unknown"},
+        "16":{"player":0,"name":"Push SW1 (Service)"},
+        "32":{"player":0,"name":"Push SW2 (Test)"}
+      }
+    },
+    ":slavepcb:ANALOG3":{
+      "labels":{
+        "255":{"player":1,"name":"slavepcb:Brake Pedal"}
+      }
+    },
+    ":mainpcb:SERVICE12_A":{
+      "labels":{
+        "1":{"player":0,"name":"Service 1"},
+        "2":{"player":0,"name":"Service Mode"},
+        "4":{"player":0,"name":"Coin 1"},
+        "16":{"player":0,"name":"1 Player Start"}
+      }
+    },
+    ":mainpcb:ANALOG1":{
+      "labels":{
+        "255":{"player":0,"name":"mainpcb:Steering Wheel"}
+      }
+    },
+    ":slavepcb:ANALOG2":{
+      "labels":{
+        "255":{"player":1,"name":"slavepcb:Gas Pedal"}
+      }
+    },
+    ":slavepcb:P1_A":{
+      "labels":{
+        "1":{"player":1,"name":"slavepcb:Gear Up"},
+        "2":{"player":1,"name":"slavepcb:Gear Down"}
+      }
+    },
+    ":mainpcb:ANALOG2":{
+      "labels":{
+        "255":{"player":0,"name":"mainpcb:Gas Pedal"}
+      }
+    },
+    ":slavepcb:SERVICE12_A":{
+      "labels":{
+        "1":{"player":0,"name":"Service 2"},
+        "2":{"player":0,"name":"slavepcb:Service Mode"},
+        "4":{"player":0,"name":"Coin 3"},
+        "16":{"player":0,"name":"3 Players Start"}
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "romname":"spacfury",
+  "ports":{
+    ":FC":{
+      "labels":{
+        "16":{"name":"P2 Thrust","player":1},
+        "32":{"name":"P2 Fire","player":1},
+        "64":{"name":"P2 Rotate Left","player":1},
+        "128":{"name":"P2 Rotate Right","player":1}
+      }
+    },
+    ":D5D4":{
+      "labels":{
+        "4":{"name":"P1 Rotate Left","player":0},
+        "8":{"name":"P1 Fire","player":0},
+        "64":{"name":"P1 Rotate Right","player":0},
+        "128":{"name":"P1 Thrust","player":0}
+      }
+    }
+  }
+}

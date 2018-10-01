@@ -1,0 +1,21 @@
+{
+  "romname":"looping",
+  "ports":{
+    ":P1":{
+      "labels":{
+        "1":{"name":"P1 Up","player":0},
+        "2":{"name":"P1 Down","player":0},
+        "4":{"name":"P1 Fire","player":0},
+        "32":{"name":"P1 Accelerator","player":0}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"name":"P2 Up","player":1},
+        "2":{"name":"P2 Down","player":1},
+        "4":{"name":"P2 Fire","player":1},
+        "32":{"name":"P2 Accelerator","player":1}
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "romname":"bigrun",
+  "ports":{
+    ":PEDAL":{"labels":{"255":{"name":"Gas Pedal"}}},
+    ":IN6":{"labels":{"255":{"name":"Steering Wheel"}}},
+    ":IN2":{
+      "labels":{
+        "1":{"name":"Brake"},
+        "2":{"name":"Gear Shift"},
+        "128":{"name":"Horn"}
+      }
+    },
+    ":IN3":{
+      "labels":{
+        "1":{"name":"Up Limit SW"},
+        "2":{"name":"Down Limit SW"}
+      }
+    }
+  }
+}

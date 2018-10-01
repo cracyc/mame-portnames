@@ -1,0 +1,65 @@
+{
+  "romname":"tdfever",
+  "ports":{
+    ":IN6":{
+      "labels":{
+        "127":{"name":"P1 Rotate Left / Rotate Right","player":0}
+      }
+    },
+    ":IN7":{
+      "labels":{
+        "127":{"name":"P2 Rotate Right /  Rotate Left","player":1}
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "1":{"name":"P1 Run","player":0},
+        "2":{"name":"P1 Pass","player":0},
+        "16":{"name":"P1 Right","player":0},
+        "32":{"name":"P1 Left","player":0},
+        "64":{"name":"P1 Down","player":0},
+        "128":{"name":"P1 Up","player":0}
+      }
+    },
+    ":IN3":{
+      "labels":{
+        "1":{"name":"P2 Run","player":1},
+        "2":{"name":"P2 Pass","player":1},
+        "16":{"name":"P2 Right","player":1},
+        "32":{"name":"P2 Left","player":1},
+        "64":{"name":"P2 Down","player":1},
+        "128":{"name":"P2 Up","player":1}
+      }
+    },
+    ":IN4":{
+      "labels":{
+        "1":{"name":"P3 Run","player":2},
+        "2":{"name":"P3 Pass","player":2},
+        "16":{"name":"P3 Right","player":2},
+        "32":{"name":"P3 Left","player":2},
+        "64":{"name":"P3 Down","player":2},
+        "128":{"name":"P3 Up","player":2}
+      }
+    },
+    ":IN9":{
+      "labels":{
+        "127":{"name":"P4 Rotate Right /  Rotate Left","player":3}
+      }
+    },
+    ":IN8":{
+      "labels":{
+        "127":{"name":"P3 Rotate Right /  Rotate Left","player":2}
+      }
+    },
+    ":IN5":{
+      "labels":{
+        "1":{"name":"P4 Run","player":3},
+        "2":{"name":"P4 Pass","player":3},
+        "16":{"name":"P4 Right","player":3},
+        "32":{"name":"P4 Left","player":3},
+        "64":{"name":"P4 Down","player":3},
+        "128":{"name":"P4 Up","player":3}
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "romname":"galpani4",
+  "ports":{
+    ":400000":{
+      "labels":{
+        "256":{"name":"1 Player Start","player":0},
+        "512":{"name":"2 Players Start","player":0},
+        "1024":{"name":"Coin 1","player":0},
+        "2048":{"name":"Coin 2","player":0},
+        "4096":{"name":"Service","player":0},
+        "8192":{"name":"Tilt","player":0},
+        "16384":{"name":"Service 1","player":0},
+        "65536":{"name":"P2 Up","player":1},
+        "131072":{"name":"P2 Down","player":1},
+        "262144":{"name":"P2 Left","player":1},
+        "524288":{"name":"P2 Right","player":1},
+        "1048576":{"name":"P2 Button 1","player":1},
+        "2097152":{"name":"P2 Button 2","player":1},
+        "16777216":{"name":"P1 Up","player":0},
+        "33554432":{"name":"P1 Down","player":0},
+        "67108864":{"name":"P1 Left","player":0},
+        "134217728":{"name":"P1 Right","player":0},
+        "268435456":{"name":"P1 Button 1","player":0},
+        "536870912":{"name":"P1 Button 2","player":0}
+      }
+    },
+    ":400004":{
+      "labels":{
+        "1":{"name":"Service Mode","player":0},
+        "2":{"name":"Flip Screen","player":0},
+        "32":{"name":"Unknown","player":0},
+        "64":{"name":"Use Backup Ram","player":0},
+        "128":{"name":"Freeze","player":0}
+      }
+    }
+  }
+}

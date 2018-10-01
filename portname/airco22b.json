@@ -1,0 +1,35 @@
+{
+  "romname":"airco22b",
+  "ports":{
+    ":ADC.0":{
+      "labels":{
+        "255":{"name":"AD Stick X","player":0}
+      }
+    },
+    ":ADC.2":{
+      "labels":{
+        "255":{"name":"AD Stick Z","player":0}
+      }
+    },
+    ":ADC.1":{
+      "labels":{
+        "255":{"name":"AD Stick Y","player":0}
+      }
+    },
+    ":DSW0":{
+      "labels":{
+        "128":{"name":"Unknown","player":0}
+      }
+    },
+    ":MCUP5A":{
+      "labels":{
+        "1":{"name":"Coin 1","player":0},
+        "4":{"name":"Service 1","player":0},
+        "8":{"name":"Service Mode","player":0},
+        "16":{"name":"P1 Button 2","player":0},
+        "32":{"name":"P1 Button 1","player":0},
+        "64":{"name":"1 Player Start","player":0}
+      }
+    }
+  }
+}

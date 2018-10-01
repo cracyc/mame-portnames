@@ -1,0 +1,25 @@
+{
+  "romname":"biofreak",
+  "ports":{
+    ":IN1":{
+      "labels":{
+        "16":{"player":0,"name":"P1 Left Punch"},
+        "32":{"player":0,"name":"P1 Fire/Shield"},
+        "64":{"player":0,"name":"P1 Right Punch"},
+        "4096":{"player":1,"name":"P2 Right Punch"},
+        "8192":{"player":1,"name":"P2 Fire/Shield"},
+        "16384":{"player":1,"name":"P2 Left Punch"}
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Left Kick"},
+        "2":{"player":0,"name":"P1 Right Kick"},
+        "4":{"player":0,"name":"P1 Hover"},
+        "16":{"player":1,"name":"P2 Left Kick"},
+        "32":{"player":1,"name":"P2 Right Kick"},
+        "64":{"player":1,"name":"P2 Hover"}
+      }
+    }
+  }
+}

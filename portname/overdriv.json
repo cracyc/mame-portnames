@@ -1,0 +1,12 @@
+{
+  "romname":"overdriv",
+  "ports":{
+    ":INPUTS":{
+      "labels":{
+        "1":{"player":0,"name":"High / Low"},
+        "2":{"player":0,"name":"Accelerate"},
+        "4":{"player":0,"name":"Brake"}
+      }
+    }
+  }
+}

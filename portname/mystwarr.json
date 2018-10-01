@@ -1,0 +1,62 @@
+{
+  "romname":"mystwarr",
+  "ports":{
+    ":P1_P2":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Left"},
+        "2":{"player":0,"name":"P1 Right"},
+        "4":{"player":0,"name":"P1 Up"},
+        "8":{"player":0,"name":"P1 Down"},
+        "16":{"player":0,"name":"P1 Button 1"},
+        "32":{"player":0,"name":"P1 Button 2"},
+        "64":{"player":0,"name":"P1 Button 3"},
+        "128":{"player":0,"name":"1 Player Start"},
+        "256":{"player":1,"name":"P2 Left"},
+        "512":{"player":1,"name":"P2 Right"},
+        "1024":{"player":1,"name":"P2 Up"},
+        "2048":{"player":1,"name":"P2 Down"},
+        "4096":{"player":1,"name":"P2 Button 1"},
+        "8192":{"player":1,"name":"P2 Button 2"},
+        "16384":{"player":1,"name":"P2 Button 3"},
+        "32768":{"player":0,"name":"2 Players Start"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "4":{"player":0,"name":"Service Mode"},
+        "16":{"player":0,"name":"Sound Output"},
+        "32":{"player":0,"name":"Coin Mechanism"},
+        "64":{"player":0,"name":"Number of Players"},
+        "128":{"player":0,"name":"Unused"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"},
+        "4":{"player":0,"name":"Coin 3"},
+        "8":{"player":0,"name":"Coin 4"}
+      }
+    },
+    ":P3_P4":{
+      "labels":{
+        "1":{"player":2,"name":"P3 Left"},
+        "2":{"player":2,"name":"P3 Right"},
+        "4":{"player":2,"name":"P3 Up"},
+        "8":{"player":2,"name":"P3 Down"},
+        "16":{"player":2,"name":"P3 Button 1"},
+        "32":{"player":2,"name":"P3 Button 2"},
+        "64":{"player":2,"name":"P3 Button 3"},
+        "128":{"player":0,"name":"3 Players Start"},
+        "256":{"player":3,"name":"P4 Left"},
+        "512":{"player":3,"name":"P4 Right"},
+        "1024":{"player":3,"name":"P4 Up"},
+        "2048":{"player":3,"name":"P4 Down"},
+        "4096":{"player":3,"name":"P4 Button 1"},
+        "8192":{"player":3,"name":"P4 Button 2"},
+        "16384":{"player":3,"name":"P4 Button 3"},
+        "32768":{"player":0,"name":"4 Players Start"}
+      }
+    }
+  }
+}

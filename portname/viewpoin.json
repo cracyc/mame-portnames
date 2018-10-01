@@ -1,0 +1,21 @@
+{
+  "romname":"viewpoin",
+  "ports":{
+    ":edge:joy:JOY1":{
+      "labels":{
+        "16":{"name":"P1 Fire"},
+        "32":{"name":"P1 Bomb"},
+        "64":{"name":"P1 ..."},
+        "128":{"name":"P1 ..."}
+      }
+    },
+    ":edge:joy:JOY2":{
+      "labels":{
+        "16":{"name":"P2 Fire"},
+        "32":{"name":"P2 Bomb"},
+        "64":{"name":"P2 ..."},
+        "128":{"name":"P2 ..."}
+      }
+    }
+  }
+}

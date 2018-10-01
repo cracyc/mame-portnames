@@ -1,0 +1,17 @@
+{
+  "romname":"armchmp2",
+  "ports":{
+    ":IN0":{
+      "labels":{
+        "512":{"player":0,"name":"Button 1"},
+        "1024":{"player":0,"name":"Button 2"},
+        "2048":{"player":0,"name":"Button 3"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "255":{"player":0,"name":"Dial"}
+      }
+    }
+  }
+}

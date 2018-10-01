@@ -1,0 +1,18 @@
+{
+  "romname":"cischeat",
+  "ports":{
+    ":IN6":{
+      "labels":{
+        "255":{"player":0,"name":"P1 Left /  Right"}
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Brake"},
+        "2":{"player":0,"name":"P1 Low"},
+        "16":{"player":0,"name":"P1 Accelerate"},
+        "128":{"player":0,"name":"P1 Hi"}
+      }
+    }
+  }
+}

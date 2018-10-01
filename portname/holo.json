@@ -1,0 +1,25 @@
+{
+  "romname":"holo",
+  "ports":{
+    ":mainpcb:P1_A":{
+      "labels":{
+        "1":{"name":"P1 Quick Tricks","player":0},
+        "2":{"name":"P1 Fierce Tricks","player":0},
+        "16":{"name":"P1 Crouch","player":0},
+        "32":{"name":"P1 Jump","player":0},
+        "64":{"name":"P1 Forward","player":0},
+        "128":{"name":"P1 Backward / Defend","player":0}
+      }
+    },
+    ":mainpcb:P2_A":{
+      "labels":{
+        "1":{"name":"P2 Quick Tricks","player":1},
+        "2":{"name":"P2 Fierce Tricks","player":1},
+        "16":{"name":"P2 Crouch","player":1},
+        "32":{"name":"P2 Jump","player":1},
+        "64":{"name":"P2 Backward / Defense","player":1},
+        "128":{"name":"P2 Forward","player":1}
+      }
+    }
+  }
+}

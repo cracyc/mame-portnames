@@ -1,0 +1,15 @@
+{
+  "romname":"wolfpack",
+  "ports":{
+    ":DIAL":{
+      "labels":{
+        "255":{"name":"Left / Right","player":0}
+      }
+    },
+    ":INPUTS":{
+      "labels":{
+        "8":{"name":"Fire","player":0}
+      }
+    }
+  }
+}
