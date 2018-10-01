@@ -18,18 +18,18 @@
     },
     ":ctrl2:joypad:JOYPAD":{
       "labels":{
-        "1":{"player":1,"name":"B"},
-        "2":{"player":1,"name":"Y"},
-        "4":{"player":1,"name":"Select"},
-        "8":{"player":1,"name":"Start"},
-        "16":{"player":1,"name":"Up"},
-        "32":{"player":1,"name":"Down"},
-        "64":{"player":1,"name":"Left"},
-        "128":{"player":1,"name":"Right"},
-        "256":{"player":1,"name":"A"},
-        "512":{"player":1,"name":"X"},
-        "1024":{"player":1,"name":"L"},
-        "2048":{"player":1,"name":"R"}
+        "1":{"player":1,"name":"B (n/a)"},
+        "2":{"player":1,"name":"Y (n/a)"},
+        "4":{"player":1,"name":"Select (n/a)"},
+        "8":{"player":1,"name":"Start (n/a)"},
+        "16":{"player":1,"name":"Up (n/a)"},
+        "32":{"player":1,"name":"Down (n/a)"},
+        "64":{"player":1,"name":"Left (n/a)"},
+        "128":{"player":1,"name":"Right (n/a)"},
+        "256":{"player":1,"name":"A (n/a)"},
+        "512":{"player":1,"name":"X (n/a)"},
+        "1024":{"player":1,"name":"L (n/a)"},
+        "2048":{"player":1,"name":"R (n/a)"}
       }
     }
   }
