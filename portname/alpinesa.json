@@ -1,7 +1,0 @@
-{
-  "romname":"alpinesa",
-  "ports":{
-    ":ADC.0":{"labels":{"255":{"player":0,"name":"Steps Swing"}}},
-    ":ADC.1":{"labels":{"255":{"player":0,"name":"Steps Edge"}}}
-  }
-}

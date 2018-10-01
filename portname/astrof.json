@@ -1,7 +1,0 @@
-{
-  "romname":"astrof",
-  "ports":{
-    ":P1":{"labels":{"4":{"player":0,"name":"P1 Fire"}}},
-    ":P2":{"labels":{"4":{"player":1,"name":"P2 Fire"}}}
-  }
-}
