@@ -1,16 +1,15 @@
 {
   "romname":"fhboxers",
   "ports":{
-    ":PORTB":{
+    ":PDR1":{
       "labels":{
-        "1":{"player":1,"name":"P2 Button 1"},
-        "2":{"player":1,"name":"P2 Button 2"},
-        "4":{"player":1,"name":"P2 Button 3"},
-        "8":{"player":1,"name":"P2 Button 4"},
-        "16":{"player":1,"name":"P2 Down"},
-        "32":{"player":1,"name":"P2 Up"},
-        "64":{"player":1,"name":"P2 Right"},
-        "128":{"player":1,"name":"P2 Left"}
+        "40":{"player":0,"name":"PDR1"}
+      }
+    },
+    ":PDR2":{
+      "labels":{
+        "1":{"player":0,"name":"PDR2"},
+        "40":{"player":0,"name":"Unknown"}
       }
     },
     ":PORTA":{
@@ -19,28 +18,22 @@
         "2":{"player":0,"name":"P1 Button 2"},
         "4":{"player":0,"name":"P1 Button 3"},
         "8":{"player":0,"name":"P1 Button 4"},
-        "16":{"player":0,"name":"P1 Down"},
-        "32":{"player":0,"name":"P1 Up"},
-        "64":{"player":0,"name":"P1 Right"},
-        "128":{"player":0,"name":"P1 Left"}
+        "10":{"player":0,"name":"P1 Down"},
+        "20":{"player":0,"name":"P1 Up"},
+        "40":{"player":0,"name":"P1 Right"},
+        "80":{"player":0,"name":"P1 Left"}
       }
     },
-    ":PORTE":{
+    ":PORTB":{
       "labels":{
-        "1":{"player":2,"name":"P3 Button 1"},
-        "2":{"player":2,"name":"P3 Button 2"},
-        "4":{"player":2,"name":"P3 Button 3"},
-        "8":{"player":2,"name":"P3 Start"},
-        "16":{"player":2,"name":"P3 Down"},
-        "32":{"player":2,"name":"P3 Up"},
-        "64":{"player":2,"name":"P3 Right"},
-        "128":{"player":2,"name":"P3 Left"}
-      }
-    },
-    ":PDR2":{
-      "labels":{
-        "1":{"player":0,"name":"PDR2"},
-        "64":{"player":0,"name":"Unknown"}
+        "1":{"player":1,"name":"P2 Button 1"},
+        "2":{"player":1,"name":"P2 Button 2"},
+        "4":{"player":1,"name":"P2 Button 3"},
+        "8":{"player":1,"name":"P2 Button 4"},
+        "10":{"player":1,"name":"P2 Down"},
+        "20":{"player":1,"name":"P2 Up"},
+        "40":{"player":1,"name":"P2 Right"},
+        "80":{"player":1,"name":"P2 Left"}
       }
     },
     ":PORTC":{
@@ -49,10 +42,22 @@
         "2":{"player":0,"name":"Coin 2"},
         "4":{"player":0,"name":"Service Mode"},
         "8":{"player":0,"name":"Service 1"},
-        "16":{"player":0,"name":"1 Player Start"},
-        "32":{"player":0,"name":"2 Players Start"},
-        "64":{"player":0,"name":"1P Push Switch (Multi Cart Select)"},
-        "128":{"player":0,"name":"2P Push Switch (Pause)"}
+        "10":{"player":0,"name":"1 Player Start"},
+        "20":{"player":0,"name":"2 Players Start"},
+        "40":{"player":0,"name":"1P Push Switch (Multi Cart Select)"},
+        "80":{"player":0,"name":"2P Push Switch (Pause)"}
+      }
+    },
+    ":PORTE":{
+      "labels":{
+        "1":{"player":2,"name":"P3 Button 1"},
+        "2":{"player":2,"name":"P3 Button 2"},
+        "4":{"player":2,"name":"P3 Button 3"},
+        "8":{"player":2,"name":"P3 Start"},
+        "10":{"player":2,"name":"P3 Down"},
+        "20":{"player":2,"name":"P3 Up"},
+        "40":{"player":2,"name":"P3 Right"},
+        "80":{"player":2,"name":"P3 Left"}
       }
     },
     ":PORTF":{
@@ -61,15 +66,10 @@
         "2":{"player":3,"name":"P4 Button 2"},
         "4":{"player":3,"name":"P4 Button 3"},
         "8":{"player":3,"name":"P4 Start"},
-        "16":{"player":3,"name":"P4 Down"},
-        "32":{"player":3,"name":"P4 Up"},
-        "64":{"player":3,"name":"P4 Right"},
-        "128":{"player":3,"name":"P4 Left"}
-      }
-    },
-    ":PDR1":{
-      "labels":{
-        "64":{"player":0,"name":"PDR1"}
+        "10":{"player":3,"name":"P4 Down"},
+        "20":{"player":3,"name":"P4 Up"},
+        "40":{"player":3,"name":"P4 Right"},
+        "80":{"player":3,"name":"P4 Left"}
       }
     }
   }

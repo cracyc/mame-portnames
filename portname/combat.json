@@ -3,17 +3,17 @@
   "ports":{
     ":AN0":{
       "labels":{
-        "255":{"name":"Aim Left / Aim Right","player":0}
-      }
-    },
-    ":IN0":{
-      "labels":{
-        "2":{"name":"Fire","player":0}
+        "ff":{"player":0,"name":"Aim Left / Aim Right"}
       }
     },
     ":AN1":{
       "labels":{
-        "255":{"name":"Aim Up / Aim Down","player":0}
+        "ff":{"player":0,"name":"Aim Up / Aim Down"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "2":{"player":0,"name":"Fire"}
       }
     }
   }

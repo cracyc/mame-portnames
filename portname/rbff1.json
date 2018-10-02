@@ -3,18 +3,18 @@
   "ports":{
     ":edge:joy:JOY1":{
       "labels":{
-        "16":{"name":"P1 Punch","player":0},
-        "32":{"name":"P1 Kick","player":0},
-        "64":{"name":"P1 C","player":0},
-        "128":{"name":"P1 Switch","player":0}
+        "10":{"player":0,"name":"P1 Punch"},
+        "20":{"player":0,"name":"P1 Kick"},
+        "40":{"player":0,"name":"P1 C"},
+        "80":{"player":0,"name":"P1 Switch"}
       }
     },
     ":edge:joy:JOY2":{
       "labels":{
-        "16":{"name":"P2 Punch","player":1},
-        "32":{"name":"P2 Kick","player":1},
-        "64":{"name":"P2 C","player":1},
-        "128":{"name":"P2 Switch","player":1}
+        "10":{"player":1,"name":"P2 Punch"},
+        "20":{"player":1,"name":"P2 Kick"},
+        "40":{"player":1,"name":"P2 C"},
+        "80":{"player":1,"name":"P2 Switch"}
       }
     }
   }

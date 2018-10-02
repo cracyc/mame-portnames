@@ -3,10 +3,10 @@
   "ports":{
     ":P1":{
       "labels":{
-        "16":{"player":0,"name":"Ok / Print"},
-        "32":{"player":0,"name":"Cancel"},
-        "64":{"player":0,"name":"Right"},
-        "128":{"player":0,"name":"Left"}
+        "10":{"player":0,"name":"Ok / Print"},
+        "20":{"player":0,"name":"Cancel"},
+        "40":{"player":0,"name":"Right"},
+        "80":{"player":0,"name":"Left"}
       }
     }
   }

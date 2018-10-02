@@ -3,16 +3,16 @@
   "ports":{
     ":P1":{
       "labels":{
+        "1":{"player":0,"name":"P1 Select"},
         "2":{"player":0,"name":"P1 Fire"},
-        "4":{"player":0,"name":"P1 Jump"},
-        "1":{"player":0,"name":"P1 Select"}
+        "4":{"player":0,"name":"P1 Jump"}
       }
     },
     ":P2":{
       "labels":{
+        "1":{"player":1,"name":"P2 Select"},
         "2":{"player":1,"name":"P2 Fire"},
-        "4":{"player":1,"name":"P2 Jump"},
-        "1":{"player":1,"name":"P2 Select"}
+        "4":{"player":1,"name":"P2 Jump"}
       }
     }
   }

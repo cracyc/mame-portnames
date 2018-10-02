@@ -1,28 +1,28 @@
 {
   "romname":"skydiver",
   "ports":{
+    ":IN0":{
+      "labels":{
+        "40":{"player":0,"name":"P1 Left"},
+        "80":{"player":0,"name":"P1 Right"}
+      }
+    },
     ":IN1":{
       "labels":{
-        "64":{"player":1,"name":"P2 Left"},
-        "128":{"player":1,"name":"P2 Right"}
+        "40":{"player":1,"name":"P2 Left"},
+        "80":{"player":1,"name":"P2 Right"}
       }
     },
     ":IN2":{
       "labels":{
-        "64":{"player":0,"name":"P1 Jump"},
-        "128":{"player":0,"name":"P1 Open Chute"}
+        "40":{"player":0,"name":"P1 Jump"},
+        "80":{"player":0,"name":"P1 Open Chute"}
       }
     },
     ":IN3":{
       "labels":{
-        "64":{"player":1,"name":"P2 Jump"},
-        "128":{"player":1,"name":"P2 Open Chute"}
-      }
-    },
-    ":IN0":{
-      "labels":{
-        "64":{"player":0,"name":"P1 Left"},
-        "128":{"player":0,"name":"P1 Right"}
+        "40":{"player":1,"name":"P2 Jump"},
+        "80":{"player":1,"name":"P2 Open Chute"}
       }
     }
   }

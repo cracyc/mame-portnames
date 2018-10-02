@@ -1,26 +1,14 @@
 {
   "romname":"mushisam",
   "ports":{
-    ":PORT_L":{
-      "labels":{
-        "1":{"player":1,"name":"P2 Up"},
-        "2":{"player":1,"name":"P2 Down"},
-        "4":{"player":1,"name":"P2 Left"},
-        "8":{"player":1,"name":"P2 Right"},
-        "16":{"player":1,"name":"P2 Button 1"},
-        "32":{"player":1,"name":"P2 Button 2"},
-        "64":{"player":1,"name":"P2 Button 3"},
-        "128":{"player":1,"name":"P2 Button 4"}
-      }
-    },
-    ":PORT_F":{
-      "labels":{
-        "2":{"player":0,"name":"Service Mode"}
-      }
-    },
     ":BLITCFG":{
       "labels":{
         "1":{"player":0,"name":"Use (unsafe) Blitter Delay (requires reset)"}
+      }
+    },
+    ":BLITRATE":{
+      "labels":{
+        "ff":{"player":0,"name":"Blitter Delay"}
       }
     },
     ":DSW":{
@@ -34,13 +22,8 @@
         "2":{"player":0,"name":"Service 2"},
         "4":{"player":0,"name":"Coin 1"},
         "8":{"player":0,"name":"Coin 2"},
-        "16":{"player":0,"name":"1 Player Start"},
-        "32":{"player":0,"name":"2 Players Start"}
-      }
-    },
-    ":BLITRATE":{
-      "labels":{
-        "255":{"player":0,"name":"Blitter Delay"}
+        "10":{"player":0,"name":"1 Player Start"},
+        "20":{"player":0,"name":"2 Players Start"}
       }
     },
     ":PORT_D":{
@@ -49,10 +32,27 @@
         "2":{"player":0,"name":"P1 Down"},
         "4":{"player":0,"name":"P1 Left"},
         "8":{"player":0,"name":"P1 Right"},
-        "16":{"player":0,"name":"P1 Button 1"},
-        "32":{"player":0,"name":"P1 Button 2"},
-        "64":{"player":0,"name":"P1 Button 3"},
-        "128":{"player":0,"name":"P1 Button 4"}
+        "10":{"player":0,"name":"P1 Button 1"},
+        "20":{"player":0,"name":"P1 Button 2"},
+        "40":{"player":0,"name":"P1 Button 3"},
+        "80":{"player":0,"name":"P1 Button 4"}
+      }
+    },
+    ":PORT_F":{
+      "labels":{
+        "2":{"player":0,"name":"Service Mode"}
+      }
+    },
+    ":PORT_L":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Up"},
+        "2":{"player":1,"name":"P2 Down"},
+        "4":{"player":1,"name":"P2 Left"},
+        "8":{"player":1,"name":"P2 Right"},
+        "10":{"player":1,"name":"P2 Button 1"},
+        "20":{"player":1,"name":"P2 Button 2"},
+        "40":{"player":1,"name":"P2 Button 3"},
+        "80":{"player":1,"name":"P2 Button 4"}
       }
     }
   }

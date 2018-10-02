@@ -7,8 +7,8 @@
         "2":{"player":0,"name":"P1 Left"},
         "4":{"player":0,"name":"P1 Stoop Down"},
         "8":{"player":0,"name":"P1 Jump"},
-        "32":{"player":0,"name":"P1 Punch"},
-        "128":{"player":0,"name":"P1 Kick"}
+        "20":{"player":0,"name":"P1 Punch"},
+        "80":{"player":0,"name":"P1 Kick"}
       }
     },
     ":P2":{
@@ -17,8 +17,8 @@
         "2":{"player":1,"name":"P2 Left"},
         "4":{"player":1,"name":"P2 Stoop Down"},
         "8":{"player":1,"name":"P2 Jump"},
-        "32":{"player":1,"name":"P2 Punch"},
-        "128":{"player":1,"name":"P2 Kick"}
+        "20":{"player":1,"name":"P2 Punch"},
+        "80":{"player":1,"name":"P2 Kick"}
       }
     }
   }

@@ -1,25 +1,25 @@
 {
   "romname":"smgp",
   "ports":{
-    ":mainpcb:ADC2":{
+    ":mainpcb:ADC0":{
       "labels":{
-        "255":{"name":"Brake","player":0}
+        "ff":{"player":0,"name":"Left / Right"}
       }
     },
     ":mainpcb:ADC1":{
       "labels":{
-        "255":{"name":"Accelerate","player":0}
+        "ff":{"player":0,"name":"Accelerate"}
+      }
+    },
+    ":mainpcb:ADC2":{
+      "labels":{
+        "ff":{"player":0,"name":"Brake"}
       }
     },
     ":mainpcb:IO1PORTA":{
       "labels":{
-        "16":{"name":"Shift Down","player":0},
-        "32":{"name":"Shift Up","player":0}
-      }
-    },
-    ":mainpcb:ADC0":{
-      "labels":{
-        "255":{"name":"Left / Right","player":0}
+        "10":{"player":0,"name":"Shift Down"},
+        "20":{"player":0,"name":"Shift Up"}
       }
     }
   }

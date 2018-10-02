@@ -1,16 +1,16 @@
 {
   "romname":"xexex",
   "ports":{
-    ":P2":{
-      "labels":{
-        "16":{"player":1,"name":"P2 Fire"},
-        "32":{"player":1,"name":"P2 Button 2"}
-      }
-    },
     ":P1":{
       "labels":{
-        "16":{"player":0,"name":"P1 Fire"},
-        "32":{"player":0,"name":"P1 Button 2"}
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Button 2"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "10":{"player":1,"name":"P2 Fire"},
+        "20":{"player":1,"name":"P2 Button 2"}
       }
     }
   }

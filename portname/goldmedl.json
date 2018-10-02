@@ -7,8 +7,8 @@
         "2":{"player":0,"name":"P1 Button B"},
         "4":{"player":1,"name":"P2 Button A"},
         "8":{"player":1,"name":"P2 Button B"},
-        "16":{"player":0,"name":"P1 Button C"},
-        "32":{"player":1,"name":"P2 Button C"}
+        "10":{"player":0,"name":"P1 Button C"},
+        "20":{"player":1,"name":"P2 Button C"}
       }
     },
     ":IN1":{
@@ -17,8 +17,8 @@
         "2":{"player":2,"name":"P3 Button B"},
         "4":{"player":3,"name":"P4 Button A"},
         "8":{"player":3,"name":"P4 Button B"},
-        "16":{"player":2,"name":"P3 Button C"},
-        "32":{"player":3,"name":"P4 Button C"}
+        "10":{"player":2,"name":"P3 Button C"},
+        "20":{"player":3,"name":"P4 Button C"}
       }
     }
   }

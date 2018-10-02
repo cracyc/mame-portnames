@@ -3,14 +3,14 @@
   "ports":{
     ":DSW":{
       "labels":{
-        "65536":{"player":0,"name":"Lives"},
-        "131072":{"player":0,"name":"Special Effect"},
-        "14680064":{"player":0,"name":"Difficulty"},
-        "33554432":{"player":0,"name":"Free Play"},
-        "67108864":{"player":0,"name":"Unused"},
-        "134217728":{"player":0,"name":"Demo Sounds"},
-        "268435456":{"player":0,"name":"Chute Type"},
-        "3758096384":{"player":0,"name":"Coin A"}
+        "10000":{"player":0,"name":"Lives"},
+        "20000":{"player":0,"name":"Special Effect"},
+        "e00000":{"player":0,"name":"Difficulty"},
+        "2000000":{"player":0,"name":"Free Play"},
+        "4000000":{"player":0,"name":"Unused"},
+        "8000000":{"player":0,"name":"Demo Sounds"},
+        "10000000":{"player":0,"name":"Chute Type"},
+        "e0000000":{"player":0,"name":"Coin A"}
       }
     },
     ":INPUTS":{
@@ -19,23 +19,23 @@
         "2":{"player":0,"name":"Coin 2"},
         "4":{"player":0,"name":"1 Player Start"},
         "8":{"player":0,"name":"2 Players Start"},
-        "16":{"player":0,"name":"Service 1"},
-        "32":{"player":0,"name":"Service Mode"},
-        "64":{"player":0,"name":"Service 2"},
-        "131072":{"player":1,"name":"P2 Button 3"},
-        "262144":{"player":1,"name":"P2 Button 2"},
-        "524288":{"player":1,"name":"P2 Button 1"},
-        "1048576":{"player":1,"name":"P2 Left"},
-        "2097152":{"player":1,"name":"P2 Right"},
-        "4194304":{"player":1,"name":"P2 Down"},
-        "8388608":{"player":1,"name":"P2 Up"},
-        "33554432":{"player":0,"name":"P1 Button 3"},
-        "67108864":{"player":0,"name":"P1 Button 2"},
-        "134217728":{"player":0,"name":"P1 Button 1"},
-        "268435456":{"player":0,"name":"P1 Left"},
-        "536870912":{"player":0,"name":"P1 Right"},
-        "1073741824":{"player":0,"name":"P1 Down"},
-        "2147483648":{"player":0,"name":"P1 Up"}
+        "10":{"player":0,"name":"Service 1"},
+        "20":{"player":0,"name":"Service Mode"},
+        "40":{"player":0,"name":"Service 2"},
+        "20000":{"player":1,"name":"P2 Button 3"},
+        "40000":{"player":1,"name":"P2 Button 2"},
+        "80000":{"player":1,"name":"P2 Button 1"},
+        "100000":{"player":1,"name":"P2 Left"},
+        "200000":{"player":1,"name":"P2 Right"},
+        "400000":{"player":1,"name":"P2 Down"},
+        "800000":{"player":1,"name":"P2 Up"},
+        "2000000":{"player":0,"name":"P1 Button 3"},
+        "4000000":{"player":0,"name":"P1 Button 2"},
+        "8000000":{"player":0,"name":"P1 Button 1"},
+        "10000000":{"player":0,"name":"P1 Left"},
+        "20000000":{"player":0,"name":"P1 Right"},
+        "40000000":{"player":0,"name":"P1 Down"},
+        "80000000":{"player":0,"name":"P1 Up"}
       }
     }
   }

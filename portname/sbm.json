@@ -3,22 +3,22 @@
   "ports":{
     ":JOY":{
       "labels":{
-        "1":{"name":"P1 Aim Up","player":0},
-        "2":{"name":"P1 Aim Down","player":0},
-        "4":{"name":"P1 Aim Left","player":0},
-        "8":{"name":"P1 Aim Right","player":0},
-        "16":{"name":"P2 Aim Up","player":1},
-        "32":{"name":"P2 Aim Down","player":1},
-        "64":{"name":"P2 Aim Left","player":1},
-        "128":{"name":"P2 Aim Right","player":1}
+        "1":{"player":0,"name":"P1 Aim Up"},
+        "2":{"player":0,"name":"P1 Aim Down"},
+        "4":{"player":0,"name":"P1 Aim Left"},
+        "8":{"player":0,"name":"P1 Aim Right"},
+        "10":{"player":1,"name":"P2 Aim Up"},
+        "20":{"player":1,"name":"P2 Aim Down"},
+        "40":{"player":1,"name":"P2 Aim Left"},
+        "80":{"player":1,"name":"P2 Aim Right"}
       }
     },
     ":PHOTOSENSOR":{
       "labels":{
-        "16":{"name":"P1 Sensor 1","player":0},
-        "32":{"name":"P1 Sensor 2","player":0},
-        "64":{"name":"P1 Sensor 3","player":0},
-        "128":{"name":"P1 Sensor 4","player":0}
+        "10":{"player":0,"name":"P1 Sensor 1"},
+        "20":{"player":0,"name":"P1 Sensor 2"},
+        "40":{"player":0,"name":"P1 Sensor 3"},
+        "80":{"player":0,"name":"P1 Sensor 4"}
       }
     }
   }

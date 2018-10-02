@@ -3,16 +3,16 @@
   "ports":{
     ":IN1":{
       "labels":{
-        "16":{"player":0,"name":"P1 Attack"},
-        "32":{"player":0,"name":"P1 Jump"},
-        "4096":{"player":1,"name":"P2 Attack"},
-        "8192":{"player":1,"name":"P2 Jump"}
+        "10":{"player":0,"name":"P1 Attack"},
+        "20":{"player":0,"name":"P1 Jump"},
+        "1000":{"player":1,"name":"P2 Attack"},
+        "2000":{"player":1,"name":"P2 Jump"}
       }
     },
     ":IN2":{
       "labels":{
-        "16":{"player":2,"name":"P3 Attack"},
-        "32":{"player":2,"name":"P3 Jump"}
+        "10":{"player":2,"name":"P3 Attack"},
+        "20":{"player":2,"name":"P3 Jump"}
       }
     }
   }

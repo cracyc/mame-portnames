@@ -1,43 +1,43 @@
 {
   "romname":"exerizer",
   "ports":{
-    ":INPUTS":{
-      "labels":{
-        "1":{"name":"P1 Up","player":0},
-        "2":{"name":"P1 Down","player":0},
-        "4":{"name":"P1 Right","player":0},
-        "8":{"name":"P1 Left","player":0},
-        "16":{"name":"P1 Button 2","player":0},
-        "32":{"name":"P1 Button 1","player":0},
-        "64":{"name":"1 Player Start","player":0},
-        "128":{"name":"2 Players Start","player":0}
-      }
-    },
-    ":DSW2":{
-      "labels":{
-        "7":{"name":"Lives","player":0}
-      }
-    },
-    ":DSW1":{
-      "labels":{
-        "14":{"name":"Coinage","player":0}
-      }
-    },
     ":COINS":{
       "labels":{
-        "1":{"name":"Coin 1","player":0},
-        "2":{"name":"Coin 2","player":0}
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"}
       }
     },
     ":DSW0":{
       "labels":{
-        "1":{"name":"Unknown 1-0","player":0},
-        "2":{"name":"Unknown 1-1","player":0},
-        "4":{"name":"Unknown 1-2","player":0},
-        "24":{"name":"Bonus Life","player":0},
-        "32":{"name":"Difficulty","player":0},
-        "64":{"name":"Flip Screen","player":0},
-        "128":{"name":"Cabinet","player":0}
+        "1":{"player":0,"name":"Unknown 1-0"},
+        "2":{"player":0,"name":"Unknown 1-1"},
+        "4":{"player":0,"name":"Unknown 1-2"},
+        "18":{"player":0,"name":"Bonus Life"},
+        "20":{"player":0,"name":"Difficulty"},
+        "40":{"player":0,"name":"Flip Screen"},
+        "80":{"player":0,"name":"Cabinet"}
+      }
+    },
+    ":DSW1":{
+      "labels":{
+        "e":{"player":0,"name":"Coinage"}
+      }
+    },
+    ":DSW2":{
+      "labels":{
+        "7":{"player":0,"name":"Lives"}
+      }
+    },
+    ":INPUTS":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Up"},
+        "2":{"player":0,"name":"P1 Down"},
+        "4":{"player":0,"name":"P1 Right"},
+        "8":{"player":0,"name":"P1 Left"},
+        "10":{"player":0,"name":"P1 Button 2"},
+        "20":{"player":0,"name":"P1 Button 1"},
+        "40":{"player":0,"name":"1 Player Start"},
+        "80":{"player":0,"name":"2 Players Start"}
       }
     }
   }

@@ -3,12 +3,12 @@
   "ports":{
     ":INPUTS":{
       "labels":{
-        "16":{"name":"P1 Shoot Left"},
-        "32":{"name":"P1 Shoot Right"},
-        "64":{"name":"P1 Jump"},
-        "4096":{"name":"P2 Shoot Left"},
-        "8192":{"name":"P2 Shoot Right"},
-        "16384":{"name":"P2 Jump"}
+        "10":{"name":"P1 Shoot Left"},
+        "20":{"name":"P1 Shoot Right"},
+        "40":{"name":"P1 Jump"},
+        "1000":{"name":"P2 Shoot Left"},
+        "2000":{"name":"P2 Shoot Right"},
+        "4000":{"name":"P2 Jump"}
       }
     }
   }

@@ -1,21 +1,13 @@
 {
   "romname":"tinstar",
   "ports":{
-    ":IN3":{
-      "labels":{
-        "1":{"name":"P1 Aim Left"},
-        "2":{"name":"P1 Aim Right"},
-        "4":{"name":"P1 Aim Down"},
-        "8":{"name":"P1 Aim Up"}
-      }
-    },
     ":IN0":{
       "labels":{
         "1":{"name":"P1 Move Left"},
         "2":{"name":"P1 Move Right"},
         "4":{"name":"P1 Move Down"},
         "8":{"name":"P1 Move Up"},
-        "16":{"name":"P1 Fire"}
+        "10":{"name":"P1 Fire"}
       }
     },
     ":IN1":{
@@ -24,7 +16,15 @@
         "2":{"name":"P2 Move Right"},
         "4":{"name":"P2 Move Down"},
         "8":{"name":"P2 Move Up"},
-        "16":{"name":"P2 Fire"}
+        "10":{"name":"P2 Fire"}
+      }
+    },
+    ":IN3":{
+      "labels":{
+        "1":{"name":"P1 Aim Left"},
+        "2":{"name":"P1 Aim Right"},
+        "4":{"name":"P1 Aim Down"},
+        "8":{"name":"P1 Aim Up"}
       }
     },
     ":IN4":{

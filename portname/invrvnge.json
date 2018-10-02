@@ -1,18 +1,18 @@
 {
   "romname":"invrvnge",
   "ports":{
-    ":IN2":{
-      "labels":{
-        "16":{"name":"P2 Fire","player":1},
-        "32":{"name":"P2 Move Left","player":1},
-        "64":{"name":"P2 Move Right","player":1}
-      }
-    },
     ":IN1":{
       "labels":{
-        "16":{"name":"P1 Fire","player":0},
-        "32":{"name":"P1 Move Left","player":0},
-        "64":{"name":"P1 Move Right","player":0}
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Move Left"},
+        "40":{"player":0,"name":"P1 Move Right"}
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "10":{"player":1,"name":"P2 Fire"},
+        "20":{"player":1,"name":"P2 Move Left"},
+        "40":{"player":1,"name":"P2 Move Right"}
       }
     }
   }

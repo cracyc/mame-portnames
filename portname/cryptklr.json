@@ -1,48 +1,48 @@
 {
   "romname":"cryptklr",
   "ports":{
+    ":GUNX1":{
+      "labels":{
+        "1ff":{"player":0,"name":"P1 Left / Right"}
+      }
+    },
     ":GUNX2":{
       "labels":{
-        "511":{"player":1,"name":"P2 Right /  Left"}
-      }
-    },
-    ":GUNY1":{
-      "labels":{
-        "255":{"player":0,"name":"P1 Up / Down"}
-      }
-    },
-    ":GUNY2":{
-      "labels":{
-        "255":{"player":1,"name":"P2 Down /  Up"}
-      }
-    },
-    ":GUNY3":{
-      "labels":{
-        "255":{"player":2,"name":"P3 Down /  Up"}
+        "1ff":{"player":1,"name":"P2 Right /  Left"}
       }
     },
     ":GUNX3":{
       "labels":{
-        "511":{"player":2,"name":"P3 Right /  Left"}
+        "1ff":{"player":2,"name":"P3 Right /  Left"}
       }
     },
-    ":GUNX1":{
+    ":GUNY1":{
       "labels":{
-        "511":{"player":0,"name":"P1 Left / Right"}
+        "ff":{"player":0,"name":"P1 Up / Down"}
       }
     },
-    ":P3_SERVICE":{
+    ":GUNY2":{
       "labels":{
-        "8":{"player":2,"name":"P3 Fire"},
-        "16":{"player":2,"name":"P3 Reload"}
+        "ff":{"player":1,"name":"P2 Down /  Up"}
+      }
+    },
+    ":GUNY3":{
+      "labels":{
+        "ff":{"player":2,"name":"P3 Down /  Up"}
       }
     },
     ":P1_P2":{
       "labels":{
         "8":{"player":0,"name":"P1 Fire"},
-        "16":{"player":0,"name":"P1 Reload"},
-        "524288":{"player":1,"name":"P2 Fire"},
-        "1048576":{"player":1,"name":"P2 Reload"}
+        "10":{"player":0,"name":"P1 Reload"},
+        "80000":{"player":1,"name":"P2 Fire"},
+        "100000":{"player":1,"name":"P2 Reload"}
+      }
+    },
+    ":P3_SERVICE":{
+      "labels":{
+        "8":{"player":2,"name":"P3 Fire"},
+        "10":{"player":2,"name":"P3 Reload"}
       }
     }
   }

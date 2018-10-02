@@ -1,32 +1,32 @@
 {
   "romname":"tekken2",
   "ports":{
+    ":ADC1":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Right Kick"}
+      }
+    },
     ":ADC2":{
       "labels":{
-        "255":{"player":0,"name":"P1 Left Kick"}
-      }
-    },
-    ":PLAYER2":{
-      "labels":{
-        "16":{"player":1,"name":"P2 Left Punch"},
-        "32":{"player":1,"name":"P2 Right Punch"}
-      }
-    },
-    ":PLAYER4":{
-      "labels":{
-        "16":{"player":1,"name":"P2 Left Kick"},
-        "32":{"player":1,"name":"P2 Right Kick"}
+        "ff":{"player":0,"name":"P1 Left Kick"}
       }
     },
     ":PLAYER1":{
       "labels":{
-        "16":{"player":0,"name":"P1 Left Punch"},
-        "32":{"player":0,"name":"P1 Right Punch"}
+        "10":{"player":0,"name":"P1 Left Punch"},
+        "20":{"player":0,"name":"P1 Right Punch"}
       }
     },
-    ":ADC1":{
+    ":PLAYER2":{
       "labels":{
-        "255":{"player":0,"name":"P1 Right Kick"}
+        "10":{"player":1,"name":"P2 Left Punch"},
+        "20":{"player":1,"name":"P2 Right Punch"}
+      }
+    },
+    ":PLAYER4":{
+      "labels":{
+        "10":{"player":1,"name":"P2 Left Kick"},
+        "20":{"player":1,"name":"P2 Right Kick"}
       }
     }
   }

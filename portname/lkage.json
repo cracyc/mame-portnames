@@ -1,61 +1,61 @@
 {
   "romname":"lkage",
   "ports":{
-    ":DSW3":{
-      "labels":{
-        "2":{"name":"Initial Season","player":0},
-        "4":{"name":"Unused","player":0},
-        "8":{"name":"Difficulty","player":0},
-        "16":{"name":"Coinage Display","player":0},
-        "32":{"name":"Year Display","player":0},
-        "64":{"name":"Invulnerability (Cheat)","player":0},
-        "128":{"name":"Coin Slots","player":0}
-      }
-    },
-    ":SYSTEM":{
-      "labels":{
-        "1":{"name":"1 Player Start","player":0},
-        "2":{"name":"2 Players Start","player":0},
-        "4":{"name":"Service 1","player":0},
-        "8":{"name":"Tilt","player":0},
-        "16":{"name":"Coin 1","player":0},
-        "32":{"name":"Coin 2","player":0}
-      }
-    },
     ":DSW1":{
       "labels":{
-        "3":{"name":"Bonus Life","player":0},
-        "4":{"name":"Free Play","player":0},
-        "24":{"name":"Lives","player":0},
-        "32":{"name":"Unused","player":0},
-        "64":{"name":"Flip Screen","player":0},
-        "128":{"name":"Cabinet","player":0}
-      }
-    },
-    ":P1":{
-      "labels":{
-        "1":{"name":"P1 Button 1","player":0},
-        "2":{"name":"P1 Button 2","player":0},
-        "4":{"name":"P1 Left","player":0},
-        "8":{"name":"P1 Right","player":0},
-        "16":{"name":"P1 Down","player":0},
-        "32":{"name":"P1 Up","player":0}
+        "3":{"player":0,"name":"Bonus Life"},
+        "4":{"player":0,"name":"Free Play"},
+        "18":{"player":0,"name":"Lives"},
+        "20":{"player":0,"name":"Unused"},
+        "40":{"player":0,"name":"Flip Screen"},
+        "80":{"player":0,"name":"Cabinet"}
       }
     },
     ":DSW2":{
       "labels":{
-        "15":{"name":"Coin A","player":0},
-        "240":{"name":"Coin B","player":0}
+        "f":{"player":0,"name":"Coin A"},
+        "f0":{"player":0,"name":"Coin B"}
+      }
+    },
+    ":DSW3":{
+      "labels":{
+        "2":{"player":0,"name":"Initial Season"},
+        "4":{"player":0,"name":"Unused"},
+        "8":{"player":0,"name":"Difficulty"},
+        "10":{"player":0,"name":"Coinage Display"},
+        "20":{"player":0,"name":"Year Display"},
+        "40":{"player":0,"name":"Invulnerability (Cheat)"},
+        "80":{"player":0,"name":"Coin Slots"}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Button 1"},
+        "2":{"player":0,"name":"P1 Button 2"},
+        "4":{"player":0,"name":"P1 Left"},
+        "8":{"player":0,"name":"P1 Right"},
+        "10":{"player":0,"name":"P1 Down"},
+        "20":{"player":0,"name":"P1 Up"}
       }
     },
     ":P2":{
       "labels":{
-        "1":{"name":"P2 Button 1","player":1},
-        "2":{"name":"P2 Button 2","player":1},
-        "4":{"name":"P2 Left","player":1},
-        "8":{"name":"P2 Right","player":1},
-        "16":{"name":"P2 Down","player":1},
-        "32":{"name":"P2 Up","player":1}
+        "1":{"player":1,"name":"P2 Button 1"},
+        "2":{"player":1,"name":"P2 Button 2"},
+        "4":{"player":1,"name":"P2 Left"},
+        "8":{"player":1,"name":"P2 Right"},
+        "10":{"player":1,"name":"P2 Down"},
+        "20":{"player":1,"name":"P2 Up"}
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1":{"player":0,"name":"1 Player Start"},
+        "2":{"player":0,"name":"2 Players Start"},
+        "4":{"player":0,"name":"Service 1"},
+        "8":{"player":0,"name":"Tilt"},
+        "10":{"player":0,"name":"Coin 1"},
+        "20":{"player":0,"name":"Coin 2"}
       }
     }
   }

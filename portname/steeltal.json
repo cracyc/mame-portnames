@@ -1,40 +1,44 @@
 {
   "romname":"steeltal",
   "ports":{
+    ":mainpcb:12BADC.0":{
+      "labels":{
+        "fff":{"player":0,"name":"AD Stick X"}
+      }
+    },
     ":mainpcb:12BADC.1":{
       "labels":{
-        "4095":{"player":0,"name":"AD Stick Y"}
+        "fff":{"player":0,"name":"AD Stick Y"}
       }
     },
     ":mainpcb:12BADC.2":{
       "labels":{
-        "4095":{"player":0,"name":"Collective"}
+        "fff":{"player":0,"name":"Collective"}
       }
     },
-    ":mainpcb:jsa:JSAIII":{
+    ":mainpcb:12BADC.3":{
       "labels":{
-        "1":{"player":0,"name":"Coin 2"},
-        "2":{"player":0,"name":"Coin 1"},
-        "4":{"player":0,"name":"Tilt"},
-        "8":{"player":0,"name":"Service"}
+        "fff":{"player":1,"name":"Rudder"}
       }
     },
     ":mainpcb:IN0":{
       "labels":{
         "1":{"player":0,"name":"Diagnostic jumper"},
-        "32":{"player":0,"name":"Service Mode"},
-        "64":{"player":0,"name":"Coin 2"},
-        "128":{"player":0,"name":"Coin 1"}
+        "20":{"player":0,"name":"Service Mode"},
+        "40":{"player":0,"name":"Coin 2"},
+        "80":{"player":0,"name":"Coin 1"}
       }
     },
-    ":mainpcb:12BADC.0":{
+    ":mainpcb:SW1":{
       "labels":{
-        "4095":{"player":0,"name":"AD Stick X"}
-      }
-    },
-    ":mainpcb:12BADC.3":{
-      "labels":{
-        "4095":{"player":1,"name":"Rudder"}
+        "1":{"player":0,"name":"SW1:8"},
+        "2":{"player":0,"name":"SW1:7"},
+        "4":{"player":0,"name":"SW1:6"},
+        "8":{"player":0,"name":"SW1:5"},
+        "10":{"player":0,"name":"SW1:4"},
+        "20":{"player":0,"name":"SW1:3"},
+        "40":{"player":0,"name":"SW1:2"},
+        "80":{"player":0,"name":"SW1:1"}
       }
     },
     ":mainpcb:a80000":{
@@ -45,16 +49,12 @@
         "8":{"player":0,"name":"Real Helicopter Flight"}
       }
     },
-    ":mainpcb:SW1":{
+    ":mainpcb:jsa:JSAIII":{
       "labels":{
-        "1":{"player":0,"name":"SW1:8"},
-        "2":{"player":0,"name":"SW1:7"},
-        "4":{"player":0,"name":"SW1:6"},
-        "8":{"player":0,"name":"SW1:5"},
-        "16":{"player":0,"name":"SW1:4"},
-        "32":{"player":0,"name":"SW1:3"},
-        "64":{"player":0,"name":"SW1:2"},
-        "128":{"player":0,"name":"SW1:1"}
+        "1":{"player":0,"name":"Coin 2"},
+        "2":{"player":0,"name":"Coin 1"},
+        "4":{"player":0,"name":"Tilt"},
+        "8":{"player":0,"name":"Service"}
       }
     }
   }

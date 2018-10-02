@@ -1,49 +1,49 @@
 {
   "romname":"hotchase",
   "ports":{
-    ":IN1":{
+    ":ACCEL":{
       "labels":{
-        "1":{"name":"Right SW","player":0},
-        "2":{"name":"Left SW","player":0},
-        "4":{"name":"Thermo SW","player":0}
-      }
-    },
-    ":STEER":{
-      "labels":{
-        "255":{"name":"Paddle","player":0}
+        "ff":{"player":0,"name":"P1 Pedal 1"}
       }
     },
     ":DSW1":{
       "labels":{
-        "15":{"name":"Coin A","player":0},
-        "240":{"name":"Coin B","player":0}
-      }
-    },
-    ":IN0":{
-      "labels":{
-        "1":{"name":"Coin 1","player":0},
-        "2":{"name":"Coin 2","player":0},
-        "4":{"name":"Service Mode","player":0},
-        "8":{"name":"Service 1","player":0},
-        "16":{"name":"1 Player Start","player":0},
-        "32":{"name":"Shift","player":0},
-        "64":{"name":"Brake","player":0}
-      }
-    },
-    ":ACCEL":{
-      "labels":{
-        "255":{"name":"P1 Pedal 1","player":0}
+        "f":{"player":0,"name":"Coin A"},
+        "f0":{"player":0,"name":"Coin B"}
       }
     },
     ":DSW2":{
       "labels":{
-        "1":{"name":"Speed Unit","player":0},
-        "2":{"name":"Unknown 2-1","player":0},
-        "4":{"name":"Unknown 2-2","player":0},
-        "24":{"name":"Unknown 2-3&4","player":0},
-        "32":{"name":"Unknown 2-5","player":0},
-        "64":{"name":"Unknown 2-6","player":0},
-        "128":{"name":"Demo Sounds","player":0}
+        "1":{"player":0,"name":"Speed Unit"},
+        "2":{"player":0,"name":"Unknown 2-1"},
+        "4":{"player":0,"name":"Unknown 2-2"},
+        "18":{"player":0,"name":"Unknown 2-3&4"},
+        "20":{"player":0,"name":"Unknown 2-5"},
+        "40":{"player":0,"name":"Unknown 2-6"},
+        "80":{"player":0,"name":"Demo Sounds"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"},
+        "4":{"player":0,"name":"Service Mode"},
+        "8":{"player":0,"name":"Service 1"},
+        "10":{"player":0,"name":"1 Player Start"},
+        "20":{"player":0,"name":"Shift"},
+        "40":{"player":0,"name":"Brake"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{"player":0,"name":"Right SW"},
+        "2":{"player":0,"name":"Left SW"},
+        "4":{"player":0,"name":"Thermo SW"}
+      }
+    },
+    ":STEER":{
+      "labels":{
+        "ff":{"player":0,"name":"Paddle"}
       }
     }
   }

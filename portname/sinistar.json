@@ -3,14 +3,18 @@
   "ports":{
     ":49WAYX":{
       "labels":{
-        "255":{"name":"AD Stick X"}
+        "ff":{"name":"AD Stick X"}
+      }
+    },
+    ":49WAYY":{
+      "labels":{
+        "ff":{"name":"AD Stick Y"}
       }
     },
     ":IN1":{
       "labels":{
         "1":{"name":"P1 Button 1"},
-        "2":{"name":"P1 Button 2"},
-
+        "2":{"name":"P1 Button 2"}
       }
     },
     ":IN2":{
@@ -19,14 +23,9 @@
         "2":{"name":"Advance"},
         "4":{"name":"Coin 3"},
         "8":{"name":"High Score Reset"},
-        "16":{"name":"Coin 1"},
-        "32":{"name":"Coin 2"},
-        "64":{"name":"Tilt"}
-      }
-    },
-    ":49WAYY":{
-      "labels":{
-        "255":{"name":"AD Stick Y"}
+        "10":{"name":"Coin 1"},
+        "20":{"name":"Coin 2"},
+        "40":{"name":"Tilt"}
       }
     }
   }

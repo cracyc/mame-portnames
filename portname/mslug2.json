@@ -3,18 +3,18 @@
   "ports":{
     ":edge:joy:JOY1":{
       "labels":{
-        "16":{"player":0,"name":"P1 Fire"},
-        "32":{"player":0,"name":"P1 Jump"},
-        "64":{"player":0,"name":"P1 Bomb"},
-        "128":{"player":0,"name":"P1 ..."}
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Jump"},
+        "40":{"player":0,"name":"P1 Bomb"},
+        "80":{"player":0,"name":"P1 ..."}
       }
     },
     ":edge:joy:JOY2":{
       "labels":{
-        "16":{"player":1,"name":"P2 Fire"},
-        "32":{"player":1,"name":"P2 Jump"},
-        "64":{"player":1,"name":"P2 Bomb"},
-        "128":{"player":1,"name":"P2 ..."}
+        "10":{"player":1,"name":"P2 Fire"},
+        "20":{"player":1,"name":"P2 Jump"},
+        "40":{"player":1,"name":"P2 Bomb"},
+        "80":{"player":1,"name":"P2 ..."}
       }
     }
   }

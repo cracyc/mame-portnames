@@ -7,14 +7,14 @@
         "2":{"player":0,"name":"P1 Turn"},
         "4":{"player":0,"name":"P1 Turn"},
         "8":{"player":0,"name":"P1 Turn"},
-        "16":{"player":0,"name":"P1 1st Gear"},
-        "32":{"player":0,"name":"P1 2nd Gear"},
-        "256":{"player":1,"name":"P2 Turn"},
-        "512":{"player":1,"name":"P2 Turn"},
-        "1024":{"player":1,"name":"P2 Turn"},
-        "2048":{"player":1,"name":"P2 Turn"},
-        "4096":{"player":1,"name":"P2 1st Gear"},
-        "8192":{"player":1,"name":"P2 2nd Gear"}
+        "10":{"player":0,"name":"P1 1st Gear"},
+        "20":{"player":0,"name":"P1 2nd Gear"},
+        "100":{"player":1,"name":"P2 Turn"},
+        "200":{"player":1,"name":"P2 Turn"},
+        "400":{"player":1,"name":"P2 Turn"},
+        "800":{"player":1,"name":"P2 Turn"},
+        "1000":{"player":1,"name":"P2 1st Gear"},
+        "2000":{"player":1,"name":"P2 2nd Gear"}
       }
     }
   }

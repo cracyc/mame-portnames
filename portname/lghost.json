@@ -1,76 +1,76 @@
 {
   "romname":"lghost",
   "ports":{
-    ":DSW":{
-      "labels":{
-        "1":{"name":"2 Credits to Start","player":0},
-        "2":{"name":"Demo Sounds","player":0},
-        "28":{"name":"Difficulty","player":0},
-        "32":{"name":"Allow Continue","player":0},
-        "64":{"name":"Coin Chute","player":0},
-        "128":{"name":"Unused","player":0}
-      }
-    },
-    ":GUNY2":{
-      "labels":{
-        "255":{"name":"Lightgun Y 2","player":1}
-      }
-    },
     ":COINAGE":{
       "labels":{
-        "15":{"name":"Coin A","player":0},
-        "240":{"name":"Coin B","player":0}
+        "f":{"player":0,"name":"Coin A"},
+        "f0":{"player":0,"name":"Coin B"}
       }
     },
-    ":GUNX3":{
+    ":DSW":{
       "labels":{
-        "255":{"name":"Lightgun X 3","player":2}
+        "1":{"player":0,"name":"2 Credits to Start"},
+        "2":{"player":0,"name":"Demo Sounds"},
+        "1c":{"player":0,"name":"Difficulty"},
+        "20":{"player":0,"name":"Allow Continue"},
+        "40":{"player":0,"name":"Coin Chute"},
+        "80":{"player":0,"name":"Unused"}
       }
     },
     ":FAKE":{
       "labels":{
-        "1":{"name":"Correct P1/P3 Gun Offsets","player":0}
-      }
-    },
-    ":GUNX2":{
-      "labels":{
-        "255":{"name":"Lightgun X 2","player":1}
-      }
-    },
-    ":P1":{
-      "labels":{
-        "1":{"name":"P1 Button 1","player":0},
-        "2":{"name":"P1 Button 2","player":0},
-        "4":{"name":"P2 Button 1","player":1},
-        "8":{"name":"P2 Button 2","player":1},
-        "64":{"name":"P3 Button 2","player":2},
-        "128":{"name":"P3 Button 1","player":2}
+        "1":{"player":0,"name":"Correct P1/P3 Gun Offsets"}
       }
     },
     ":GUNX1":{
       "labels":{
-        "255":{"name":"Lightgun X","player":0}
+        "ff":{"player":0,"name":"Lightgun X"}
+      }
+    },
+    ":GUNX2":{
+      "labels":{
+        "ff":{"player":1,"name":"Lightgun X 2"}
+      }
+    },
+    ":GUNX3":{
+      "labels":{
+        "ff":{"player":2,"name":"Lightgun X 3"}
       }
     },
     ":GUNY1":{
       "labels":{
-        "255":{"name":"Lightgun Y","player":0}
+        "ff":{"player":0,"name":"Lightgun Y"}
+      }
+    },
+    ":GUNY2":{
+      "labels":{
+        "ff":{"player":1,"name":"Lightgun Y 2"}
       }
     },
     ":GUNY3":{
       "labels":{
-        "255":{"name":"Lightgun Y 3","player":2}
+        "ff":{"player":2,"name":"Lightgun Y 3"}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Button 1"},
+        "2":{"player":0,"name":"P1 Button 2"},
+        "4":{"player":1,"name":"P2 Button 1"},
+        "8":{"player":1,"name":"P2 Button 2"},
+        "40":{"player":2,"name":"P3 Button 2"},
+        "80":{"player":2,"name":"P3 Button 1"}
       }
     },
     ":SERVICE":{
       "labels":{
-        "1":{"name":"Coin 1","player":0},
-        "2":{"name":"Coin 2","player":0},
-        "4":{"name":"Service Mode","player":0},
-        "16":{"name":"Service 1","player":0},
-        "32":{"name":"Service 2","player":0},
-        "64":{"name":"Service 3","player":0},
-        "128":{"name":"Coin 3","player":0}
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"},
+        "4":{"player":0,"name":"Service Mode"},
+        "10":{"player":0,"name":"Service 1"},
+        "20":{"player":0,"name":"Service 2"},
+        "40":{"player":0,"name":"Service 3"},
+        "80":{"player":0,"name":"Coin 3"}
       }
     }
   }

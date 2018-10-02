@@ -3,7 +3,7 @@
   "ports":{
     ":ssio:IP0":{
       "labels":{
-        "16":{"player":0,"name":"P1 Blast"}
+        "10":{"player":0,"name":"P1 Blast"}
       }
     },
     ":ssio:IP1":{
@@ -20,7 +20,7 @@
         "2":{"player":1,"name":"P2 Right"},
         "4":{"player":1,"name":"P2 Up"},
         "8":{"player":1,"name":"P2 Down"},
-        "16":{"player":1,"name":"P2 Blast"}
+        "10":{"player":1,"name":"P2 Blast"}
       }
     }
   }

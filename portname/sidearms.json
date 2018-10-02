@@ -3,16 +3,16 @@
   "ports":{
     ":P1":{
       "labels":{
-        "16":{"name":"P1 Fire Left"},
-        "32":{"name":"P1 Fire Right"},
-        "64":{"name":"P1 Select"}
+        "10":{"name":"P1 Fire Left"},
+        "20":{"name":"P1 Fire Right"},
+        "40":{"name":"P1 Select"}
       }
     },
     ":P2":{
       "labels":{
-        "16":{"name":"P2 Fire Left"},
-        "32":{"name":"P2 Fire Right"},
-        "64":{"name":"P2 Select"}
+        "10":{"name":"P2 Fire Left"},
+        "20":{"name":"P2 Fire Right"},
+        "40":{"name":"P2 Select"}
       }
     }
   }

@@ -3,77 +3,77 @@
   "ports":{
     ":DSW1":{
       "labels":{
-        "1":{"name":"Controls","player":0},
-        "2":{"name":"Light Gun Calibration","player":0},
-        "4":{"name":"Level Select","player":0},
-        "24":{"name":"Coinage","player":0},
-        "32":{"name":"Save Scores","player":0},
-        "64":{"name":"Flip Screen","player":0},
-        "128":{"name":"Unused","player":0}
-      }
-    },
-    ":SYSTEM":{
-      "labels":{
-        "1":{"name":"Coin 1","player":0},
-        "2":{"name":"Coin 2","player":0},
-        "4":{"name":"Service 1","player":0},
-        "8":{"name":"Tilt","player":0},
-        "16":{"name":"Test","player":0}
-      }
-    },
-    ":GUNX2":{
-      "labels":{
-        "255":{"name":"Lightgun X 2","player":1}
-      }
-    },
-    ":P2":{
-      "labels":{
-        "1":{"name":"2 Players Start","player":0},
-        "2":{"name":"P2 Button 3","player":1},
-        "4":{"name":"P2 Button 2","player":1},
-        "8":{"name":"P2 Button 1","player":1},
-        "16":{"name":"P2 Right","player":1},
-        "32":{"name":"P2 Left","player":1},
-        "64":{"name":"P2 Down","player":1},
-        "128":{"name":"P2 Up","player":1}
+        "1":{"player":0,"name":"Controls"},
+        "2":{"player":0,"name":"Light Gun Calibration"},
+        "4":{"player":0,"name":"Level Select"},
+        "18":{"player":0,"name":"Coinage"},
+        "20":{"player":0,"name":"Save Scores"},
+        "40":{"player":0,"name":"Flip Screen"},
+        "80":{"player":0,"name":"Unused"}
       }
     },
     ":DSW2":{
       "labels":{
-        "1":{"name":"Invert X Axis","player":0},
-        "4":{"name":"Unused","player":0},
-        "8":{"name":"Language","player":0},
-        "16":{"name":"Demo Sounds","player":0},
-        "32":{"name":"Damage From Machine Gun","player":0},
-        "64":{"name":"Damage From Beam Cannon","player":0},
-        "128":{"name":"Damage From Missle","player":0}
-      }
-    },
-    ":P1":{
-      "labels":{
-        "1":{"name":"1 Player Start","player":0},
-        "2":{"name":"P1 Button 3","player":0},
-        "4":{"name":"P1 Button 2","player":0},
-        "8":{"name":"P1 Button 1","player":0},
-        "16":{"name":"P1 Right","player":0},
-        "32":{"name":"P1 Left","player":0},
-        "64":{"name":"P1 Down","player":0},
-        "128":{"name":"P1 Up","player":0}
-      }
-    },
-    ":GUNY2":{
-      "labels":{
-        "255":{"name":"Lightgun Y 2","player":1}
-      }
-    },
-    ":GUNY1":{
-      "labels":{
-        "255":{"name":"Lightgun Y","player":0}
+        "1":{"player":0,"name":"Invert X Axis"},
+        "4":{"player":0,"name":"Unused"},
+        "8":{"player":0,"name":"Language"},
+        "10":{"player":0,"name":"Demo Sounds"},
+        "20":{"player":0,"name":"Damage From Machine Gun"},
+        "40":{"player":0,"name":"Damage From Beam Cannon"},
+        "80":{"player":0,"name":"Damage From Missle"}
       }
     },
     ":GUNX1":{
       "labels":{
-        "255":{"name":"Lightgun X","player":0}
+        "ff":{"player":0,"name":"Lightgun X"}
+      }
+    },
+    ":GUNX2":{
+      "labels":{
+        "ff":{"player":1,"name":"Lightgun X 2"}
+      }
+    },
+    ":GUNY1":{
+      "labels":{
+        "ff":{"player":0,"name":"Lightgun Y"}
+      }
+    },
+    ":GUNY2":{
+      "labels":{
+        "ff":{"player":1,"name":"Lightgun Y 2"}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "1":{"player":0,"name":"1 Player Start"},
+        "2":{"player":0,"name":"P1 Button 3"},
+        "4":{"player":0,"name":"P1 Button 2"},
+        "8":{"player":0,"name":"P1 Button 1"},
+        "10":{"player":0,"name":"P1 Right"},
+        "20":{"player":0,"name":"P1 Left"},
+        "40":{"player":0,"name":"P1 Down"},
+        "80":{"player":0,"name":"P1 Up"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"player":0,"name":"2 Players Start"},
+        "2":{"player":1,"name":"P2 Button 3"},
+        "4":{"player":1,"name":"P2 Button 2"},
+        "8":{"player":1,"name":"P2 Button 1"},
+        "10":{"player":1,"name":"P2 Right"},
+        "20":{"player":1,"name":"P2 Left"},
+        "40":{"player":1,"name":"P2 Down"},
+        "80":{"player":1,"name":"P2 Up"}
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"},
+        "4":{"player":0,"name":"Service 1"},
+        "8":{"player":0,"name":"Tilt"},
+        "10":{"player":0,"name":"Test"}
       }
     }
   }

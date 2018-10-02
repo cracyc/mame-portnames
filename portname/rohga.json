@@ -3,12 +3,12 @@
   "ports":{
     ":INPUTS":{
       "labels":{
-        "16":{"name":"P1 Fire","player":0},
-        "32":{"name":"P1 Jump","player":0},
-        "64":{"name":"P1 Special Attack","player":0},
-        "4096":{"name":"P2 Fire","player":1},
-        "8192":{"name":"P2 Jump","player":1},
-        "16384":{"name":"P2 Special Attack","player":1}
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Jump"},
+        "40":{"player":0,"name":"P1 Special Attack"},
+        "1000":{"player":1,"name":"P2 Fire"},
+        "2000":{"player":1,"name":"P2 Jump"},
+        "4000":{"player":1,"name":"P2 Special Attack"}
       }
     }
   }

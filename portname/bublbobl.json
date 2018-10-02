@@ -1,16 +1,16 @@
 {
   "romname":"bublbobl",
   "ports":{
-    ":IN2":{
-      "labels":{
-        "16":{"name":"P2 Jump","player":1},
-        "32":{"name":"P2 Bubble","player":1}
-      }
-    },
     ":IN1":{
       "labels":{
-        "16":{"name":"P1 Jump","player":0},
-        "32":{"name":"P1 Bubble","player":0}
+        "10":{"player":0,"name":"P1 Jump"},
+        "20":{"player":0,"name":"P1 Bubble"}
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "10":{"player":1,"name":"P2 Jump"},
+        "20":{"player":1,"name":"P2 Bubble"}
       }
     }
   }

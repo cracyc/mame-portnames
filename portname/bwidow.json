@@ -3,18 +3,18 @@
   "ports":{
     ":IN3":{
       "labels":{
-        "1":{"name":"P1 Right","player":0},
-        "2":{"name":"P1 Left","player":0},
-        "4":{"name":"P1 Down","player":0},
-        "8":{"name":"P1 Up","player":0}
+        "1":{"player":0,"name":"P1 Right"},
+        "2":{"player":0,"name":"P1 Left"},
+        "4":{"player":0,"name":"P1 Down"},
+        "8":{"player":0,"name":"P1 Up"}
       }
     },
     ":IN4":{
       "labels":{
-        "1":{"name":"P1 Aim Right","player":0},
-        "2":{"name":"P1 Aim Left","player":0},
-        "4":{"name":"P1 Aim Down","player":0},
-        "8":{"name":"P1 Aim Up","player":0}
+        "1":{"player":0,"name":"P1 Aim Right"},
+        "2":{"player":0,"name":"P1 Aim Left"},
+        "4":{"player":0,"name":"P1 Aim Down"},
+        "8":{"player":0,"name":"P1 Aim Up"}
       }
     }
   }

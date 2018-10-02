@@ -3,22 +3,22 @@
   "ports":{
     ":IN1":{
       "labels":{
-        "1":{"name":"P1 Right","player":0},
-        "2":{"name":"P1 Left","player":0},
-        "4":{"name":"P1 Down","player":0},
-        "8":{"name":"P1 Up","player":0},
-        "32":{"name":"P1 Lateral","player":0},
-        "128":{"name":"P1 Pass / Hike","player":0}
+        "1":{"player":0,"name":"P1 Right"},
+        "2":{"player":0,"name":"P1 Left"},
+        "4":{"player":0,"name":"P1 Down"},
+        "8":{"player":0,"name":"P1 Up"},
+        "20":{"player":0,"name":"P1 Lateral"},
+        "80":{"player":0,"name":"P1 Pass / Hike"}
       }
     },
     ":IN2":{
       "labels":{
-        "1":{"name":"P2 Right","player":1},
-        "2":{"name":"P2 Left","player":1},
-        "4":{"name":"P2 Down","player":1},
-        "8":{"name":"P2 Up","player":1},
-        "32":{"name":"P2 Lateral","player":1},
-        "128":{"name":"P2 Pass / Hike","player":1}
+        "1":{"player":1,"name":"P2 Right"},
+        "2":{"player":1,"name":"P2 Left"},
+        "4":{"player":1,"name":"P2 Down"},
+        "8":{"player":1,"name":"P2 Up"},
+        "20":{"player":1,"name":"P2 Lateral"},
+        "80":{"player":1,"name":"P2 Pass / Hike"}
       }
     }
   }

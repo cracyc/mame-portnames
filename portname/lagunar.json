@@ -3,12 +3,12 @@
   "ports":{
     ":IN0":{
       "labels":{
-        "15":{"player":0,"name":"Accelerate"}
+        "f":{"player":0,"name":"Accelerate"}
       }
     },
     ":IN1":{
       "labels":{
-        "255":{"player":0,"name":"Left / Right"}
+        "ff":{"player":0,"name":"Left / Right"}
       }
     }
   }

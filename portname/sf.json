@@ -4,21 +4,21 @@
     ":IN0":{
       "labels":{
         "4":{"player":0,"name":"P1 HK (Roundhouse Kick)"},
-        "256":{"player":1,"name":"P2 HK (Roundhouse Kick)"},
-        "512":{"player":0,"name":"P1 HP (Fierce Punch)"},
-        "1024":{"player":1,"name":"P2 HP (Fierce Punch)"}
+        "100":{"player":1,"name":"P2 HK (Roundhouse Kick)"},
+        "200":{"player":0,"name":"P1 HP (Fierce Punch)"},
+        "400":{"player":1,"name":"P2 HP (Fierce Punch)"}
       }
     },
     ":IN1":{
       "labels":{
-        "16":{"player":0,"name":"P1 LP (Jab Punch)"},
-        "32":{"player":0,"name":"P1 MP (Strong Punch)"},
-        "64":{"player":0,"name":"P1 LK (Short Kick)"},
-        "128":{"player":0,"name":"P1 MK (Forward Kick)"},
-        "4096":{"player":1,"name":"P2 LP (Jab Punch)"},
-        "8192":{"player":1,"name":"P2 MP (Strong Punch)"},
-        "16384":{"player":1,"name":"P2 LK (Short Kick)"},
-        "32768":{"player":1,"name":"P2 MK (Forward Kick"}
+        "10":{"player":0,"name":"P1 LP (Jab Punch)"},
+        "20":{"player":0,"name":"P1 MP (Strong Punch)"},
+        "40":{"player":0,"name":"P1 LK (Short Kick)"},
+        "80":{"player":0,"name":"P1 MK (Forward Kick)"},
+        "1000":{"player":1,"name":"P2 LP (Jab Punch)"},
+        "2000":{"player":1,"name":"P2 MP (Strong Punch)"},
+        "4000":{"player":1,"name":"P2 LK (Short Kick)"},
+        "8000":{"player":1,"name":"P2 MK (Forward Kick"}
       }
     }
   }

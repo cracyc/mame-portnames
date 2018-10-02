@@ -1,34 +1,39 @@
 {
   "romname":"indyheat",
   "ports":{
-    ":P1":{
-      "labels":{
-        "1":{"player":0,"name":"P1 Turbo"}
-      }
-    },
-    ":P3":{
-      "labels":{
-        "1":{"player":2,"name":"P3 Turbo"}
-      }
-    },
     ":AN0":{
       "labels":{
-        "255":{"player":0,"name":"P1 Left / Right"}
-      }
-    },
-    ":AN2":{
-      "labels":{
-        "255":{"player":2,"name":"P3 Right /  Left"}
-      }
-    },
-    ":AN3":{
-      "labels":{
-        "255":{"player":0,"name":"P1 Gas"}
+        "ff":{"player":0,"name":"P1 Left / Right"}
       }
     },
     ":AN1":{
       "labels":{
-        "255":{"player":1,"name":"P2 Right /  Left"}
+        "ff":{"player":1,"name":"P2 Right /  Left"}
+      }
+    },
+    ":AN2":{
+      "labels":{
+        "ff":{"player":2,"name":"P3 Right /  Left"}
+      }
+    },
+    ":AN3":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Gas"}
+      }
+    },
+    ":AN4":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Gas"}
+      }
+    },
+    ":AN5":{
+      "labels":{
+        "ff":{"player":2,"name":"P3 Gas"}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Turbo"}
       }
     },
     ":P2":{
@@ -36,14 +41,9 @@
         "1":{"player":1,"name":"P2 Turbo"}
       }
     },
-    ":AN5":{
+    ":P3":{
       "labels":{
-        "255":{"player":2,"name":"P3 Gas"}
-      }
-    },
-    ":AN4":{
-      "labels":{
-        "255":{"player":1,"name":"P2 Gas"}
+        "1":{"player":2,"name":"P3 Turbo"}
       }
     }
   }

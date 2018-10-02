@@ -3,7 +3,12 @@
   "ports":{
     ":DIAL1":{
       "labels":{
-        "255":{"player":0,"name":"P1 Up /  Down"}
+        "ff":{"player":0,"name":"P1 Up /  Down"}
+      }
+    },
+    ":DIAL2":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Up /  Down"}
       }
     },
     ":IN0":{
@@ -30,11 +35,6 @@
         "2":{"player":1,"name":"P2 2"},
         "4":{"player":1,"name":"P2 3"},
         "8":{"player":1,"name":"P2 4"}
-      }
-    },
-    ":DIAL2":{
-      "labels":{
-        "255":{"player":1,"name":"P2 Up /  Down"}
       }
     }
   }

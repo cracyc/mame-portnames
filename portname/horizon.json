@@ -1,42 +1,13 @@
 {
   "romname":"horizon",
   "ports":{
-    ":SYSTEM":{
-      "labels":{
-        "1":{"player":0,"name":"1 Player Start"},
-        "2":{"player":0,"name":"2 Players Start"},
-        "4":{"player":0,"name":"Service 1"},
-        "8":{"player":0,"name":"Coin 1"}
-      }
-    },
-    ":P2":{
-      "labels":{
-        "1":{"player":1,"name":"P2 Right"},
-        "2":{"player":1,"name":"P2 Left"},
-        "4":{"player":1,"name":"P2 Down"},
-        "8":{"player":1,"name":"P2 Up"},
-        "16":{"player":0,"name":"Coin 2"},
-        "32":{"player":1,"name":"P2 Button 2"},
-        "128":{"player":1,"name":"P2 Button 1"}
-      }
-    },
-    ":P1":{
-      "labels":{
-        "1":{"player":0,"name":"P1 Right"},
-        "2":{"player":0,"name":"P1 Left"},
-        "4":{"player":0,"name":"P1 Down"},
-        "8":{"player":0,"name":"P1 Up"},
-        "32":{"player":0,"name":"P1 Button 2"},
-        "128":{"player":0,"name":"P1 Button 1"}
-      }
-    },
     ":DSW1":{
       "labels":{
         "3":{"player":0,"name":"Lives"},
-        "12":{"player":0,"name":"Bonus Life"},
-        "48":{"player":0,"name":"Coin A"},
-        "192":{"player":0,"name":"Coin B"},
-        "240":{"player":0,"name":"Coinage"}
+        "c":{"player":0,"name":"Bonus Life"},
+        "30":{"player":0,"name":"Coin A"},
+        "c0":{"player":0,"name":"Coin B"},
+        "f0":{"player":0,"name":"Coinage"}
       }
     },
     ":DSW2":{
@@ -45,10 +16,39 @@
         "2":{"player":0,"name":"Cabinet"},
         "4":{"player":0,"name":"Coin Mode"},
         "8":{"player":0,"name":"Freeze (Cheat)"},
-        "16":{"player":0,"name":"Frame Advance (Cheat)"},
-        "32":{"player":0,"name":"Unknown"},
-        "64":{"player":0,"name":"Invulnerability (Cheat)"},
-        "128":{"player":0,"name":"Service Mode"}
+        "10":{"player":0,"name":"Frame Advance (Cheat)"},
+        "20":{"player":0,"name":"Unknown"},
+        "40":{"player":0,"name":"Invulnerability (Cheat)"},
+        "80":{"player":0,"name":"Service Mode"}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Right"},
+        "2":{"player":0,"name":"P1 Left"},
+        "4":{"player":0,"name":"P1 Down"},
+        "8":{"player":0,"name":"P1 Up"},
+        "20":{"player":0,"name":"P1 Button 2"},
+        "80":{"player":0,"name":"P1 Button 1"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Right"},
+        "2":{"player":1,"name":"P2 Left"},
+        "4":{"player":1,"name":"P2 Down"},
+        "8":{"player":1,"name":"P2 Up"},
+        "10":{"player":0,"name":"Coin 2"},
+        "20":{"player":1,"name":"P2 Button 2"},
+        "80":{"player":1,"name":"P2 Button 1"}
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1":{"player":0,"name":"1 Player Start"},
+        "2":{"player":0,"name":"2 Players Start"},
+        "4":{"player":0,"name":"Service 1"},
+        "8":{"player":0,"name":"Coin 1"}
       }
     }
   }

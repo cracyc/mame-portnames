@@ -3,10 +3,10 @@
   "ports":{
     ":P1_P2":{
       "labels":{
-        "64":{"name":"P1 Depth Charge","player":0},
-        "128":{"name":"P1 Torpedo","player":0},
-        "16384":{"name":"P2 Depth Charge","player":1},
-        "32768":{"name":"P2 Torpedo","player":1}
+        "40":{"player":0,"name":"P1 Depth Charge"},
+        "80":{"player":0,"name":"P1 Torpedo"},
+        "4000":{"player":1,"name":"P2 Depth Charge"},
+        "8000":{"player":1,"name":"P2 Torpedo"}
       }
     }
   }

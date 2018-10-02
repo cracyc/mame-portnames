@@ -1,50 +1,50 @@
 {
   "romname":"chinagat",
   "ports":{
-    ":SYSTEM":{
+    ":DSW1":{
       "labels":{
-        "2":{"name":"Coin 1","player":0},
-        "4":{"name":"Coin 2","player":0},
-        "8":{"name":"Coin 3","player":0}
-      }
-    },
-    ":P2":{
-      "labels":{
-        "1":{"name":"P2 Right","player":1},
-        "2":{"name":"P2 Left","player":1},
-        "4":{"name":"P2 Up","player":1},
-        "8":{"name":"P2 Down","player":1},
-        "16":{"name":"P2 Button 1","player":1},
-        "32":{"name":"P2 Button 2","player":1},
-        "64":{"name":"P2 Button 3","player":1},
-        "128":{"name":"2 Players Start","player":0}
+        "7":{"player":0,"name":"Coin A"},
+        "38":{"player":0,"name":"Coin B"},
+        "80":{"player":0,"name":"Flip Screen"}
       }
     },
     ":DSW2":{
       "labels":{
-        "3":{"name":"Difficulty","player":0},
-        "4":{"name":"Demo Sounds","player":0},
-        "48":{"name":"Timer","player":0},
-        "192":{"name":"Lives","player":0}
+        "3":{"player":0,"name":"Difficulty"},
+        "4":{"player":0,"name":"Demo Sounds"},
+        "30":{"player":0,"name":"Timer"},
+        "c0":{"player":0,"name":"Lives"}
       }
     },
     ":P1":{
       "labels":{
-        "1":{"name":"P1 Right","player":0},
-        "2":{"name":"P1 Left","player":0},
-        "4":{"name":"P1 Up","player":0},
-        "8":{"name":"P1 Down","player":0},
-        "16":{"name":"P1 Button 1","player":0},
-        "32":{"name":"P1 Button 2","player":0},
-        "64":{"name":"P1 Button 3","player":0},
-        "128":{"name":"1 Player Start","player":0}
+        "1":{"player":0,"name":"P1 Right"},
+        "2":{"player":0,"name":"P1 Left"},
+        "4":{"player":0,"name":"P1 Up"},
+        "8":{"player":0,"name":"P1 Down"},
+        "10":{"player":0,"name":"P1 Button 1"},
+        "20":{"player":0,"name":"P1 Button 2"},
+        "40":{"player":0,"name":"P1 Button 3"},
+        "80":{"player":0,"name":"1 Player Start"}
       }
     },
-    ":DSW1":{
+    ":P2":{
       "labels":{
-        "7":{"name":"Coin A","player":0},
-        "56":{"name":"Coin B","player":0},
-        "128":{"name":"Flip Screen","player":0}
+        "1":{"player":1,"name":"P2 Right"},
+        "2":{"player":1,"name":"P2 Left"},
+        "4":{"player":1,"name":"P2 Up"},
+        "8":{"player":1,"name":"P2 Down"},
+        "10":{"player":1,"name":"P2 Button 1"},
+        "20":{"player":1,"name":"P2 Button 2"},
+        "40":{"player":1,"name":"P2 Button 3"},
+        "80":{"player":0,"name":"2 Players Start"}
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "2":{"player":0,"name":"Coin 1"},
+        "4":{"player":0,"name":"Coin 2"},
+        "8":{"player":0,"name":"Coin 3"}
       }
     }
   }

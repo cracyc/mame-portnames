@@ -3,14 +3,14 @@
   "ports":{
     ":IN0":{
       "labels":{
-        "128":{"player":0,"name":"P1 Fire"},
-        "64":{"player":0,"name":"P1 Missile/Bomb"},
-        "32":{"player":0,"name":"P1 ..."},
-        "16":{"player":0,"name":"P1 ..."},
-        "32768":{"player":1,"name":"P2 Fire"},
-        "16384":{"player":1,"name":"P2 Missile/Bomb"},
-        "8192":{"player":1,"name":"P2 ..."},
-        "4096":{"player":1,"name":"P2 ..."}
+        "10":{"player":0,"name":"P1 ..."},
+        "20":{"player":0,"name":"P1 ..."},
+        "40":{"player":0,"name":"P1 Missile/Bomb"},
+        "80":{"player":0,"name":"P1 Fire"},
+        "1000":{"player":1,"name":"P2 ..."},
+        "2000":{"player":1,"name":"P2 ..."},
+        "4000":{"player":1,"name":"P2 Missile/Bomb"},
+        "8000":{"player":1,"name":"P2 Fire"}
       }
     }
   }

@@ -7,12 +7,21 @@
         "2":{"player":0,"name":"P1 Down"},
         "4":{"player":0,"name":"P1 Left"},
         "8":{"player":0,"name":"P1 Right"},
-        "16":{"player":0,"name":"P1 Punch"},
-        "256":{"player":1,"name":"P2 Up"},
-        "512":{"player":1,"name":"P2 Down"},
-        "1024":{"player":1,"name":"P2 Left"},
-        "2048":{"player":1,"name":"P2 Right"},
-        "4096":{"player":1,"name":"P2 Punch"}
+        "10":{"player":0,"name":"P1 Punch"},
+        "100":{"player":1,"name":"P2 Up"},
+        "200":{"player":1,"name":"P2 Down"},
+        "400":{"player":1,"name":"P2 Left"},
+        "800":{"player":1,"name":"P2 Right"},
+        "1000":{"player":1,"name":"P2 Punch"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "800":{"player":2,"name":"P3 Up"},
+        "1000":{"player":2,"name":"P3 Down"},
+        "2000":{"player":2,"name":"P3 Left"},
+        "4000":{"player":2,"name":"P3 Right"},
+        "8000":{"player":2,"name":"P3 Punch"}
       }
     },
     ":IN2":{
@@ -21,16 +30,7 @@
         "2":{"player":3,"name":"P4 Down"},
         "4":{"player":3,"name":"P4 Left"},
         "8":{"player":3,"name":"P4 Right"},
-        "16":{"player":3,"name":"P4 Punch"}
-      }
-    },
-    ":IN1":{
-      "labels":{
-        "2048":{"player":2,"name":"P3 Up"},
-        "4096":{"player":2,"name":"P3 Down"},
-        "8192":{"player":2,"name":"P3 Left"},
-        "16384":{"player":2,"name":"P3 Right"},
-        "32768":{"player":2,"name":"P3 Punch"}
+        "10":{"player":3,"name":"P4 Punch"}
       }
     }
   }

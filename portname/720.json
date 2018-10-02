@@ -3,13 +3,13 @@
   "ports":{
     ":1800":{
       "labels":{
-        "64":{"name":"P1 Jump","player":0},
-        "128":{"name":"P1 Kick","player":0}
+        "40":{"player":0,"name":"P1 Jump"},
+        "80":{"player":0,"name":"P1 Kick"}
       }
     },
     ":LETA1":{
       "labels":{
-        "255":{"name":"P1 Rotate Left /  Rotate Right","player":0}
+        "ff":{"player":0,"name":"P1 Rotate Left /  Rotate Right"}
       }
     }
   }

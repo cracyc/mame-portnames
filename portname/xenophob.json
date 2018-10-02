@@ -1,33 +1,33 @@
 {
   "romname":"xenophob",
   "ports":{
-    ":IN1":{
-      "labels":{
-        "1":{"name":"P2 Up","player":1},
-        "2":{"name":"P2 Down","player":1},
-        "4":{"name":"P2 Left","player":1},
-        "8":{"name":"P2 Right","player":1},
-        "16":{"name":"P2 Fire / Punch","player":1},
-        "32":{"name":"P2 Right Button","player":1},
-        "64":{"name":"P2 Left Button","player":1},
-        "256":{"name":"P3 Up","player":2},
-        "512":{"name":"P3 Down","player":2},
-        "1024":{"name":"P3 Left","player":2},
-        "2048":{"name":"P3 Right","player":2},
-        "4096":{"name":"P3 Fire / Punch","player":2},
-        "8192":{"name":"P3 Right Button","player":2},
-        "16384":{"name":"P3 Left Button","player":2}
-      }
-    },
     ":IN0":{
       "labels":{
-        "256":{"name":"P1 Up","player":0},
-        "512":{"name":"P1 Down","player":0},
-        "1024":{"name":"P1 Left","player":0},
-        "2048":{"name":"P1 Right","player":0},
-        "4096":{"name":"P1 Fire / Punch","player":0},
-        "8192":{"name":"P1 Right Button","player":0},
-        "16384":{"name":"P1 Left Button","player":0}
+        "100":{"player":0,"name":"P1 Up"},
+        "200":{"player":0,"name":"P1 Down"},
+        "400":{"player":0,"name":"P1 Left"},
+        "800":{"player":0,"name":"P1 Right"},
+        "1000":{"player":0,"name":"P1 Fire / Punch"},
+        "2000":{"player":0,"name":"P1 Right Button"},
+        "4000":{"player":0,"name":"P1 Left Button"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Up"},
+        "2":{"player":1,"name":"P2 Down"},
+        "4":{"player":1,"name":"P2 Left"},
+        "8":{"player":1,"name":"P2 Right"},
+        "10":{"player":1,"name":"P2 Fire / Punch"},
+        "20":{"player":1,"name":"P2 Right Button"},
+        "40":{"player":1,"name":"P2 Left Button"},
+        "100":{"player":2,"name":"P3 Up"},
+        "200":{"player":2,"name":"P3 Down"},
+        "400":{"player":2,"name":"P3 Left"},
+        "800":{"player":2,"name":"P3 Right"},
+        "1000":{"player":2,"name":"P3 Fire / Punch"},
+        "2000":{"player":2,"name":"P3 Right Button"},
+        "4000":{"player":2,"name":"P3 Left Button"}
       }
     }
   }

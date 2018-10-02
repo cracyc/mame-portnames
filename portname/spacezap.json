@@ -3,12 +3,12 @@
   "ports":{
     ":P2HANDLE":{
       "labels":{
-        "16":{"player":1,"name":"P2 Fire"}
+        "10":{"player":1,"name":"P2 Fire"}
       }
     },
     ":P3HANDLE":{
       "labels":{
-        "16":{"player":0,"name":"P1 Fire"}
+        "10":{"player":0,"name":"P1 Fire"}
       }
     }
   }

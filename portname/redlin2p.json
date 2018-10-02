@@ -1,24 +1,24 @@
 {
   "romname":"redlin2p",
   "ports":{
-    ":IN2":{
+    ":AN0":{
       "labels":{
-        "224":{"name":"P2 Accelerate","player":1}
+        "ff":{"player":0,"name":"P1 Left / Right"}
       }
     },
     ":AN1":{
       "labels":{
-        "255":{"name":"P2 Right /  Left","player":1}
+        "ff":{"player":1,"name":"P2 Right /  Left"}
       }
     },
     ":IN0":{
       "labels":{
-        "224":{"name":"P1 Accelerate","player":0}
+        "e0":{"player":0,"name":"P1 Accelerate"}
       }
     },
-    ":AN0":{
+    ":IN2":{
       "labels":{
-        "255":{"name":"P1 Left / Right","player":0}
+        "e0":{"player":1,"name":"P2 Accelerate"}
       }
     }
   }

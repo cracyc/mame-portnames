@@ -3,38 +3,38 @@
   "ports":{
     ":DSW0":{
       "labels":{
-        "32768":{"name":"Unknown","player":0}
-      }
-    },
-    ":STICKX1":{
-      "labels":{
-        "255":{"name":"AD Stick X 2","player":1}
-      }
-    },
-    ":STICKY1":{
-      "labels":{
-        "255":{"name":"AD Stick Y 2","player":1}
+        "8000":{"player":0,"name":"Unknown"}
       }
     },
     ":INPUTS":{
       "labels":{
-        "1":{"name":"Gun Trigger","player":0},
-        "2":{"name":"Missile Button","player":0},
-        "64":{"name":"View Change","player":0},
-        "512":{"name":"Coin 2","player":0},
-        "1024":{"name":"Service Mode","player":0},
-        "2048":{"name":"Service 1","player":0},
-        "4096":{"name":"Coin 1","player":0}
+        "1":{"player":0,"name":"Gun Trigger"},
+        "2":{"player":0,"name":"Missile Button"},
+        "40":{"player":0,"name":"View Change"},
+        "200":{"player":0,"name":"Coin 2"},
+        "400":{"player":0,"name":"Service Mode"},
+        "800":{"player":0,"name":"Service 1"},
+        "1000":{"player":0,"name":"Coin 1"}
       }
     },
-    ":STICKY2":{
+    ":STICKX1":{
       "labels":{
-        "255":{"name":"AD Stick Y","player":0}
+        "ff":{"player":1,"name":"AD Stick X 2"}
       }
     },
     ":STICKX2":{
       "labels":{
-        "255":{"name":"AD Stick X","player":0}
+        "ff":{"player":0,"name":"AD Stick X"}
+      }
+    },
+    ":STICKY1":{
+      "labels":{
+        "ff":{"player":1,"name":"AD Stick Y 2"}
+      }
+    },
+    ":STICKY2":{
+      "labels":{
+        "ff":{"player":0,"name":"AD Stick Y"}
       }
     }
   }

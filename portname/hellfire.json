@@ -1,16 +1,16 @@
 {
   "romname":"hellfire",
   "ports":{
-    ":P2":{
-      "labels":{
-        "16":{"name":"P2 Fire","player":1},
-        "32":{"name":"P2 Switch","player":1}
-      }
-    },
     ":P1":{
       "labels":{
-        "16":{"name":"P1 Fire","player":0},
-        "32":{"name":"P1 Switch","player":0}
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Switch"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "10":{"player":1,"name":"P2 Fire"},
+        "20":{"player":1,"name":"P2 Switch"}
       }
     }
   }

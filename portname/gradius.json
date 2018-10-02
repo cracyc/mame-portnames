@@ -3,16 +3,16 @@
   "ports":{
     ":IN1":{
       "labels":{
-        "16":{"name":"P1 Power Up","player":0},
-        "32":{"name":"P1 Missile","player":0},
-        "64":{"name":"P1 Fire","player":0}
+        "10":{"player":0,"name":"P1 Power Up"},
+        "20":{"player":0,"name":"P1 Missile"},
+        "40":{"player":0,"name":"P1 Fire"}
       }
     },
     ":IN2":{
       "labels":{
-        "16":{"name":"P2 Power Up","player":1},
-        "32":{"name":"P2 Missile","player":1},
-        "64":{"name":"P2 Fire","player":1}
+        "10":{"player":1,"name":"P2 Power Up"},
+        "20":{"player":1,"name":"P2 Missile"},
+        "40":{"player":1,"name":"P2 Fire"}
       }
     }
   }

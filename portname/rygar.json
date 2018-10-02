@@ -1,16 +1,16 @@
 {
   "romname":"rygar",
   "ports":{
-    ":BUTTONS2":{
-      "labels":{
-        "1":{"name":"P2 Attack","player":1},
-        "2":{"name":"P2 Jump","player":1}
-      }
-    },
     ":BUTTONS1":{
       "labels":{
-        "1":{"name":"P1 Attack","player":0},
-        "2":{"name":"P1 Jump","player":0}
+        "1":{"player":0,"name":"P1 Attack"},
+        "2":{"player":0,"name":"P1 Jump"}
+      }
+    },
+    ":BUTTONS2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Attack"},
+        "2":{"player":1,"name":"P2 Jump"}
       }
     }
   }

@@ -3,22 +3,22 @@
   "ports":{
     ":AN0":{
       "labels":{
-        "65535":{"player":0,"name":"P1 Up / Down"}
-      }
-    },
-    ":IN1":{
-      "labels":{
-        "128":{"player":0,"name":"P1 Grip"}
-      }
-    },
-    ":IN0":{
-      "labels":{
-        "128":{"player":0,"name":"P1 Angle"}
+        "ffff":{"player":0,"name":"P1 Up / Down"}
       }
     },
     ":AN1":{
       "labels":{
-        "65535":{"player":0,"name":"P1 Left /  Right"}
+        "ffff":{"player":0,"name":"P1 Left /  Right"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "80":{"player":0,"name":"P1 Angle"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "80":{"player":0,"name":"P1 Grip"}
       }
     }
   }

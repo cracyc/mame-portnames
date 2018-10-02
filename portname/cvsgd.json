@@ -1,24 +1,24 @@
 {
   "romname":"cvsgd",
   "ports":{
-    ":P2":{
-      "labels":{
-        "16":{"player":1,"name":".."},
-        "32":{"player":1,"name":"P2 Strong Kick"},
-        "64":{"player":1,"name":"P2 Weak Kick"},
-        "128":{"player":1,"name":"..."},
-        "256":{"player":1,"name":"P2 Strong Punch"},
-        "512":{"player":1,"name":"P2 Weak Punch"}
-      }
-    },
     ":P1":{
       "labels":{
-        "16":{"player":0,"name":"..."},
-        "32":{"player":0,"name":"P1 Strong Kick"},
-        "64":{"player":0,"name":"P1 Weak Kick"},
-        "128":{"player":0,"name":"..."},
-        "256":{"player":0,"name":"P1 Strong Punch"},
-        "512":{"player":0,"name":"P1 Weak Punch"}
+        "10":{"player":0,"name":"..."},
+        "20":{"player":0,"name":"P1 Strong Kick"},
+        "40":{"player":0,"name":"P1 Weak Kick"},
+        "80":{"player":0,"name":"..."},
+        "100":{"player":0,"name":"P1 Strong Punch"},
+        "200":{"player":0,"name":"P1 Weak Punch"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "10":{"player":1,"name":".."},
+        "20":{"player":1,"name":"P2 Strong Kick"},
+        "40":{"player":1,"name":"P2 Weak Kick"},
+        "80":{"player":1,"name":"..."},
+        "100":{"player":1,"name":"P2 Strong Punch"},
+        "200":{"player":1,"name":"P2 Weak Punch"}
       }
     }
   }

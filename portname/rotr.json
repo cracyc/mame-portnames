@@ -7,16 +7,25 @@
         "2":{"player":0,"name":"Coin 2"},
         "4":{"player":0,"name":"1 Player Start"},
         "8":{"player":0,"name":"2 Players Start"},
-        "16":{"player":0,"name":"Service"},
-        "32":{"player":0,"name":"Tilt"}
+        "10":{"player":0,"name":"Service"},
+        "20":{"player":0,"name":"Tilt"}
+      }
+    },
+    ":DSW1":{
+      "labels":{
+        "1":{"player":0,"name":"Setup Disk"},
+        "2":{"player":0,"name":"Service Mode"},
+        "3c":{"player":0,"name":"Load PROG"},
+        "40":{"player":0,"name":"Reserved"},
+        "80":{"player":0,"name":"Enable Cache"}
       }
     },
     ":DSW2":{
       "labels":{
         "1":{"player":0,"name":"Debug Screen"},
-        "14":{"player":0,"name":"FPGA File Source"},
-        "112":{"player":0,"name":"Clock speed"},
-        "128":{"player":0,"name":"SCSI bus terminated"}
+        "e":{"player":0,"name":"FPGA File Source"},
+        "70":{"player":0,"name":"Clock speed"},
+        "80":{"player":0,"name":"SCSI bus terminated"}
       }
     },
     ":EXTRA":{
@@ -25,31 +34,10 @@
         "2":{"player":0,"name":"P1 Button 6"},
         "4":{"player":0,"name":"P1 Button 7"},
         "8":{"player":0,"name":"P1 Button 8"},
-        "16":{"player":1,"name":"P2 Button 5"},
-        "32":{"player":1,"name":"P2 Button 6"},
-        "64":{"player":1,"name":"P2 Button 7"},
-        "128":{"player":1,"name":"P2 Button 8"}
-      }
-    },
-    ":P2":{
-      "labels":{
-        "1":{"player":1,"name":"P2 Up"},
-        "2":{"player":1,"name":"P2 Down"},
-        "4":{"player":1,"name":"P2 Left"},
-        "8":{"player":1,"name":"P2 Right"},
-        "16":{"player":1,"name":"P2 Button 1"},
-        "32":{"player":1,"name":"P2 Button 2"},
-        "64":{"player":1,"name":"P2 Button 3"},
-        "128":{"player":1,"name":"P2 Button 4"}
-      }
-    },
-    ":DSW1":{
-      "labels":{
-        "1":{"player":0,"name":"Setup Disk"},
-        "2":{"player":0,"name":"Service Mode"},
-        "60":{"player":0,"name":"Load PROG"},
-        "64":{"player":0,"name":"Reserved"},
-        "128":{"player":0,"name":"Enable Cache"}
+        "10":{"player":1,"name":"P2 Button 5"},
+        "20":{"player":1,"name":"P2 Button 6"},
+        "40":{"player":1,"name":"P2 Button 7"},
+        "80":{"player":1,"name":"P2 Button 8"}
       }
     },
     ":P1":{
@@ -58,10 +46,22 @@
         "2":{"player":0,"name":"P1 Down"},
         "4":{"player":0,"name":"P1 Left"},
         "8":{"player":0,"name":"P1 Right"},
-        "16":{"player":0,"name":"P1 Button 1"},
-        "32":{"player":0,"name":"P1 Button 2"},
-        "64":{"player":0,"name":"P1 Button 3"},
-        "128":{"player":0,"name":"P1 Button 4"}
+        "10":{"player":0,"name":"P1 Button 1"},
+        "20":{"player":0,"name":"P1 Button 2"},
+        "40":{"player":0,"name":"P1 Button 3"},
+        "80":{"player":0,"name":"P1 Button 4"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Up"},
+        "2":{"player":1,"name":"P2 Down"},
+        "4":{"player":1,"name":"P2 Left"},
+        "8":{"player":1,"name":"P2 Right"},
+        "10":{"player":1,"name":"P2 Button 1"},
+        "20":{"player":1,"name":"P2 Button 2"},
+        "40":{"player":1,"name":"P2 Button 3"},
+        "80":{"player":1,"name":"P2 Button 4"}
       }
     }
   }

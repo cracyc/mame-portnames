@@ -1,21 +1,29 @@
 {
   "romname":"spnchout",
   "ports":{
+    ":DSW1":{
+      "labels":{
+        "f":{"player":0,"name":"Coinage"},
+        "40":{"player":0,"name":"Unused"},
+        "80":{"player":0,"name":"Copyright"}
+      }
+    },
     ":DSW2":{
       "labels":{
         "3":{"player":0,"name":"Difficulty"},
-        "12":{"player":0,"name":"Time"},
-        "16":{"player":0,"name":"Demo Sounds"},
-        "32":{"player":0,"name":"Rematch At A Discount"},
-        "64":{"player":0,"name":"Unused"},
-        "128":{"player":0,"name":"Service Mode"}
+        "c":{"player":0,"name":"Time"},
+        "10":{"player":0,"name":"Demo Sounds"},
+        "20":{"player":0,"name":"Rematch At A Discount"},
+        "40":{"player":0,"name":"Unused"},
+        "80":{"player":0,"name":"Service Mode"}
       }
     },
-    ":DSW1":{
+    ":IN0":{
       "labels":{
-        "15":{"player":0,"name":"Coinage"},
-        "64":{"player":0,"name":"Unused"},
-        "128":{"player":0,"name":"Copyright"}
+        "1":{"player":0,"name":"P1 Button 1"},
+        "4":{"player":0,"name":"P1 Button 2"},
+        "8":{"player":0,"name":"P1 Button 3"},
+        "40":{"player":0,"name":"P1 Button 4"}
       }
     },
     ":IN1":{
@@ -24,16 +32,8 @@
         "2":{"player":0,"name":"P1 Left"},
         "4":{"player":0,"name":"P1 Up"},
         "8":{"player":0,"name":"P1 Down"},
-        "64":{"player":0,"name":"Coin 2"},
-        "128":{"player":0,"name":"Coin 1"}
-      }
-    },
-    ":IN0":{
-      "labels":{
-        "1":{"player":0,"name":"P1 Button 1"},
-        "4":{"player":0,"name":"P1 Button 2"},
-        "8":{"player":0,"name":"P1 Button 3"},
-        "64":{"player":0,"name":"P1 Button 4"}
+        "40":{"player":0,"name":"Coin 2"},
+        "80":{"player":0,"name":"Coin 1"}
       }
     }
   }

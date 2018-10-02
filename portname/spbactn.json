@@ -3,13 +3,13 @@
   "ports":{
     ":IN0":{
       "labels":{
-        "16":{"player":0,"name":"Left Flipper"},
-        "32":{"player":0,"name":"Plunger"}
+        "10":{"player":0,"name":"Left Flipper"},
+        "20":{"player":0,"name":"Plunger"}
       }
     },
     ":IN1":{
       "labels":{
-        "32":{"player":0,"name":"Right Flipper"}
+        "20":{"player":0,"name":"Right Flipper"}
       }
     }
   }

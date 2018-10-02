@@ -1,7 +1,15 @@
 {
   "romname":"alpinerd",
   "ports":{
-    ":ADC.0":{"labels":{"255":{"player":0,"name":"Sweep Left / Sweep Right"}}},
-    ":ADC.1":{"labels":{"255":{"player":0,"name":"Increase Edge / Decrease Edge"}}}
+    ":ADC.0":{
+      "labels":{
+        "ff":{"player":0,"name":"Sweep Left / Sweep Right"}
+      }
+    },
+    ":ADC.1":{
+      "labels":{
+        "ff":{"player":0,"name":"Increase Edge / Decrease Edge"}
+      }
+    }
   }
 }

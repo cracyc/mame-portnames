@@ -1,21 +1,21 @@
 {
   "romname":"minefld",
   "ports":{
-    ":IN1":{
-      "labels":{
-        "4":{"name":"P1 Machine Gun Up","player":0},
-        "8":{"name":"P1 Machine Gun Down","player":0},
-        "16":{"name":"P1 Machine Gun Right","player":0},
-        "32":{"name":"P1 Machine Gun Left","player":0}
-      }
-    },
     ":IN0":{
       "labels":{
-        "1":{"name":"P1 Cannon","player":0},
-        "4":{"name":"P1 Tank Direction Up","player":0},
-        "8":{"name":"P1 Tank Direction Down","player":0},
-        "16":{"name":"P1 Tank Direction Right","player":0},
-        "32":{"name":"P1 Tank Direction Left","player":0}
+        "1":{"player":0,"name":"P1 Cannon"},
+        "4":{"player":0,"name":"P1 Tank Direction Up"},
+        "8":{"player":0,"name":"P1 Tank Direction Down"},
+        "10":{"player":0,"name":"P1 Tank Direction Right"},
+        "20":{"player":0,"name":"P1 Tank Direction Left"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "4":{"player":0,"name":"P1 Machine Gun Up"},
+        "8":{"player":0,"name":"P1 Machine Gun Down"},
+        "10":{"player":0,"name":"P1 Machine Gun Right"},
+        "20":{"player":0,"name":"P1 Machine Gun Left"}
       }
     }
   }

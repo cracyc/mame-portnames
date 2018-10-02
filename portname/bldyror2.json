@@ -3,22 +3,22 @@
   "ports":{
     ":P1":{
       "labels":{
-        "16":{"name":"P1 Punch"},
-        "32":{"name":"P1 Kick"},
-        "64":{"name":"P1 Transform"}
+        "10":{"name":"P1 Punch"},
+        "20":{"name":"P1 Kick"},
+        "40":{"name":"P1 Transform"}
       }
     },
     ":P2":{
       "labels":{
-        "16":{"name":"P2 Punch"},
-        "32":{"name":"P2 Kick"},
-        "64":{"name":"P2 Transform"}
+        "10":{"name":"P2 Punch"},
+        "20":{"name":"P2 Kick"},
+        "40":{"name":"P2 Transform"}
       }
     },
     ":P3":{
       "labels":{
-        "16":{"name":"P1 Button 4"},
-        "32":{"name":"P2 Button 4"}
+        "10":{"name":"P1 Button 4"},
+        "20":{"name":"P2 Button 4"}
       }
     }
   }

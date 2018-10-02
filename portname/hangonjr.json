@@ -1,36 +1,36 @@
 {
   "romname":"hangonjr",
   "ports":{
-    ":f2":{
+    ":IN2":{
       "labels":{
-        "15":{"name":"Coin A","player":0},
-        "240":{"name":"Coin B","player":0}
+        "ff":{"player":0,"name":"Paddle"}
       }
     },
     ":IN3":{
       "labels":{
-        "255":{"name":"P1 Pedal 1","player":0}
-      }
-    },
-    ":IN2":{
-      "labels":{
-        "255":{"name":"Paddle","player":0}
+        "ff":{"player":0,"name":"P1 Pedal 1"}
       }
     },
     ":e0":{
       "labels":{
-        "1":{"name":"Coin 1","player":0},
-        "2":{"name":"Coin 2","player":0},
-        "4":{"name":"Service Mode","player":0},
-        "8":{"name":"Service 1","player":0},
-        "16":{"name":"1 Player Start","player":0}
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"},
+        "4":{"player":0,"name":"Service Mode"},
+        "8":{"player":0,"name":"Service 1"},
+        "10":{"player":0,"name":"1 Player Start"}
+      }
+    },
+    ":f2":{
+      "labels":{
+        "f":{"player":0,"name":"Coin A"},
+        "f0":{"player":0,"name":"Coin B"}
       }
     },
     ":f3":{
       "labels":{
-        "6":{"name":"Enemies","player":0},
-        "24":{"name":"Time Adj.","player":0},
-        "128":{"name":"Unused","player":0}
+        "6":{"player":0,"name":"Enemies"},
+        "18":{"player":0,"name":"Time Adj."},
+        "80":{"player":0,"name":"Unused"}
       }
     }
   }

@@ -1,16 +1,16 @@
 {
   "romname":"4dwarrio",
   "ports":{
+    ":P1":{
+      "labels":{
+        "2":{"player":0,"name":"P1 Special Weapon"},
+        "4":{"player":0,"name":"P1 Fire"}
+      }
+    },
     ":P2":{
       "labels":{
         "2":{"player":1,"name":"P2 Special Weapon"},
         "4":{"player":1,"name":"P2 Fire"}
-      }
-    },
-    ":P1":{
-      "labels":{
-        "2":{"player":0,"name":"P1 Special Weapon"},
-        "4":{"player":0,"name":"P1 Fire"},
       }
     }
   }

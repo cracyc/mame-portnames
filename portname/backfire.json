@@ -1,38 +1,38 @@
 {
   "romname":"backfire",
   "ports":{
-    ":PADDLE1":{
+    ":IN0":{
       "labels":{
-        "255":{"player":0,"name":"Paddle"}
+        "10":{"player":0,"name":"P1 Button 1"},
+        "20":{"player":0,"name":"P1 Button 2"},
+        "40":{"player":0,"name":"P1 Button 3"}
       }
     },
     ":IN1":{
       "labels":{
-        "16":{"player":1,"name":"P2 Button 1"},
-        "32":{"player":1,"name":"P2 Button 2"},
-        "64":{"player":1,"name":"P2 Button 3"}
+        "10":{"player":1,"name":"P2 Button 1"},
+        "20":{"player":1,"name":"P2 Button 2"},
+        "40":{"player":1,"name":"P2 Button 3"}
       }
     },
     ":IN2":{
       "labels":{
-        "256":{"player":0,"name":"P1 Button 4"},
-        "512":{"player":0,"name":"P1 Button 5"},
-        "1024":{"player":0,"name":"P1 Button 6"},
-        "4096":{"player":1,"name":"P2 Button 4"},
-        "8192":{"player":1,"name":"P2 Button 5"},
-        "16384":{"player":1,"name":"P2 Button 6"}
+        "100":{"player":0,"name":"P1 Button 4"},
+        "200":{"player":0,"name":"P1 Button 5"},
+        "400":{"player":0,"name":"P1 Button 6"},
+        "1000":{"player":1,"name":"P2 Button 4"},
+        "2000":{"player":1,"name":"P2 Button 5"},
+        "4000":{"player":1,"name":"P2 Button 6"}
       }
     },
     ":PADDLE0":{
       "labels":{
-        "255":{"player":0,"name":"Paddle"}
+        "ff":{"player":0,"name":"Paddle"}
       }
     },
-    ":IN0":{
+    ":PADDLE1":{
       "labels":{
-        "16":{"player":0,"name":"P1 Button 1"},
-        "32":{"player":0,"name":"P1 Button 2"},
-        "64":{"player":0,"name":"P1 Button 3"},
+        "ff":{"player":0,"name":"Paddle"}
       }
     }
   }

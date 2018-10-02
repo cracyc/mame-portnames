@@ -1,54 +1,54 @@
 {
   "romname":"ace",
   "ports":{
-    ":c00a":{
+    ":c008":{
       "labels":{
-        "1":{"name":"P1 Left","player":0}
-      }
-    },
-    ":c00b":{
-      "labels":{
-        "1":{"name":"P1 Right","player":0}
-      }
-    },
-    ":c00e":{
-      "labels":{
-        "1":{"name":"P2 Slow Down","player":1}
-      }
-    },
-    ":c011":{
-      "labels":{
-        "1":{"name":"P2 Fire","player":1}
-      }
-    },
-    ":c010":{
-      "labels":{
-        "1":{"name":"P2 Right","player":1}
+        "1":{"player":0,"name":"P1 Speed Up"}
       }
     },
     ":c009":{
       "labels":{
-        "1":{"name":"P1 Slow Down","player":0}
+        "1":{"player":0,"name":"P1 Slow Down"}
       }
     },
-    ":c008":{
+    ":c00a":{
       "labels":{
-        "1":{"name":"P1 Speed Up","player":0}
+        "1":{"player":0,"name":"P1 Left"}
       }
     },
-    ":c00f":{
+    ":c00b":{
       "labels":{
-        "1":{"name":"P2 Left","player":1}
+        "1":{"player":0,"name":"P1 Right"}
       }
     },
     ":c00c":{
       "labels":{
-        "1":{"name":"P1 Fire","player":0}
+        "1":{"player":0,"name":"P1 Fire"}
       }
     },
     ":c00d":{
       "labels":{
-        "1":{"name":"P2 Speed Up","player":1}
+        "1":{"player":1,"name":"P2 Speed Up"}
+      }
+    },
+    ":c00e":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Slow Down"}
+      }
+    },
+    ":c00f":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Left"}
+      }
+    },
+    ":c010":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Right"}
+      }
+    },
+    ":c011":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Fire"}
       }
     }
   }

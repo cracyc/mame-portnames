@@ -5,16 +5,16 @@
       "labels":{
         "4":{"name":"P1 Left"},
         "8":{"name":"P1 Fire"},
-        "64":{"name":"P1 Right"},
-        "128":{"name":"P1 Warp"}
+        "40":{"name":"P1 Right"},
+        "80":{"name":"P1 Warp"}
       }
     },
     ":FC":{
       "labels":{
-        "16":{"name":"P2 Warp"},
-        "32":{"name":"P2 Fire"},
-        "64":{"name":"P2 Right"},
-        "128":{"name":"P2 Left"}
+        "10":{"name":"P2 Warp"},
+        "20":{"name":"P2 Fire"},
+        "40":{"name":"P2 Right"},
+        "80":{"name":"P2 Left"}
       }
     }
   }

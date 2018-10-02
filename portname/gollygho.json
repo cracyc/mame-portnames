@@ -1,30 +1,30 @@
 {
   "romname":"gollygho",
   "ports":{
-    ":MCUB":{
+    ":AN0":{
       "labels":{
-        "16":{"player":1,"name":"P2 1"},
-        "32":{"player":0,"name":"P1 1"}
+        "ff":{"player":0,"name":"P1 Aim Left / Aim Right"}
       }
     },
     ":AN1":{
       "labels":{
-        "255":{"player":0,"name":"P1 Aim Up / Aim Down"}
-      }
-    },
-    ":AN3":{
-      "labels":{
-        "255":{"player":1,"name":"P2 Aim Down /  Aim Up"}
+        "ff":{"player":0,"name":"P1 Aim Up / Aim Down"}
       }
     },
     ":AN2":{
       "labels":{
-        "255":{"player":1,"name":"P2 Aim Right /  Aim Left"}
+        "ff":{"player":1,"name":"P2 Aim Right /  Aim Left"}
       }
     },
-    ":AN0":{
+    ":AN3":{
       "labels":{
-        "255":{"player":0,"name":"P1 Aim Left / Aim Right"}
+        "ff":{"player":1,"name":"P2 Aim Down /  Aim Up"}
+      }
+    },
+    ":MCUB":{
+      "labels":{
+        "10":{"player":1,"name":"P2 1"},
+        "20":{"player":0,"name":"P1 1"}
       }
     }
   }

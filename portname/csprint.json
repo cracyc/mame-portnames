@@ -1,9 +1,25 @@
 {
   "romname":"csprint",
   "ports":{
-    ":LETA0":{"labels":{"255":{"player":0,"name":"P1 Steering Wheel"}}},
-    ":LETA1":{"labels":{"255":{"player":1,"name":"P2 Steering Wheel"}}},
-    ":ADC0":{"labels":{"255":{"player":0,"name":"P1 Gas Pedal"}}},
-    ":ADC1":{"labels":{"255":{"player":1,"name":"P2 Gas Pedal"}}}
+    ":ADC0":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Gas Pedal"}
+      }
+    },
+    ":ADC1":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Gas Pedal"}
+      }
+    },
+    ":LETA0":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Steering Wheel"}
+      }
+    },
+    ":LETA1":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Steering Wheel"}
+      }
+    }
   }
 }

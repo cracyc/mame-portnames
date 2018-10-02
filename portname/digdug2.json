@@ -1,16 +1,16 @@
 {
   "romname":"digdug2",
   "ports":{
-    ":DSW0":{
-      "labels":{
-        "1":{"player":0,"name":"P1 Drill"},
-        "2":{"player":1,"name":"P2 Drill"}
-      }
-    },
     ":BUTTONS":{
       "labels":{
         "1":{"player":0,"name":"P1 Pump"},
         "2":{"player":1,"name":"P2 Pump"}
+      }
+    },
+    ":DSW0":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Drill"},
+        "2":{"player":1,"name":"P2 Drill"}
       }
     },
     ":P1":{

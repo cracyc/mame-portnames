@@ -1,18 +1,18 @@
 {
   "romname":"esprade",
   "ports":{
-    ":IN1":{
-      "labels":{
-        "16":{"name":"P2 Fire","player":1},
-        "32":{"name":"P2 Special","player":1},
-        "64":{"name":"P2 Bomb","player":1}
-      }
-    },
     ":IN0":{
       "labels":{
-        "16":{"name":"P1 Fire","player":0},
-        "32":{"name":"P1 Special","player":0},
-        "64":{"name":"P1 Bomb","player":0}
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Special"},
+        "40":{"player":0,"name":"P1 Bomb"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "10":{"player":1,"name":"P2 Fire"},
+        "20":{"player":1,"name":"P2 Special"},
+        "40":{"player":1,"name":"P2 Bomb"}
       }
     }
   }

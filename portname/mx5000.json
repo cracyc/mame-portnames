@@ -1,20 +1,28 @@
 {
   "romname":"mx5000",
   "ports":{
-    ":DSW1":{
+    ":COIN":{
       "labels":{
-        "15":{"player":0,"name":"Coin A"},
-        "240":{"player":0,"name":"Coin B"}
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"},
+        "4":{"player":0,"name":"Service 1"},
+        "8":{"player":0,"name":"1 Player Start"},
+        "10":{"player":0,"name":"2 Players Start"}
       }
     },
-    ":P2":{
+    ":DSW1":{
       "labels":{
-        "1":{"player":1,"name":"P2 Left"},
-        "2":{"player":1,"name":"P2 Right"},
-        "4":{"player":1,"name":"P2 Up"},
-        "8":{"player":1,"name":"P2 Down"},
-        "16":{"player":1,"name":"P2 Button 1"},
-        "32":{"player":1,"name":"P2 Button 2"}
+        "f":{"player":0,"name":"Coin A"},
+        "f0":{"player":0,"name":"Coin B"}
+      }
+    },
+    ":DSW2":{
+      "labels":{
+        "3":{"player":0,"name":"Lives"},
+        "4":{"player":0,"name":"Cabinet"},
+        "18":{"player":0,"name":"Bonus Life"},
+        "60":{"player":0,"name":"Difficulty"},
+        "80":{"player":0,"name":"Demo Sounds"}
       }
     },
     ":DSW3":{
@@ -25,32 +33,24 @@
         "8":{"player":0,"name":"Unused"}
       }
     },
-    ":DSW2":{
-      "labels":{
-        "3":{"player":0,"name":"Lives"},
-        "4":{"player":0,"name":"Cabinet"},
-        "24":{"player":0,"name":"Bonus Life"},
-        "96":{"player":0,"name":"Difficulty"},
-        "128":{"player":0,"name":"Demo Sounds"}
-      }
-    },
-    ":COIN":{
-      "labels":{
-        "1":{"player":0,"name":"Coin 1"},
-        "2":{"player":0,"name":"Coin 2"},
-        "4":{"player":0,"name":"Service 1"},
-        "8":{"player":0,"name":"1 Player Start"},
-        "16":{"player":0,"name":"2 Players Start"}
-      }
-    },
     ":P1":{
       "labels":{
         "1":{"player":0,"name":"P1 Left"},
         "2":{"player":0,"name":"P1 Right"},
         "4":{"player":0,"name":"P1 Up"},
         "8":{"player":0,"name":"P1 Down"},
-        "16":{"player":0,"name":"P1 Button 1"},
-        "32":{"player":0,"name":"P1 Button 2"}
+        "10":{"player":0,"name":"P1 Button 1"},
+        "20":{"player":0,"name":"P1 Button 2"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Left"},
+        "2":{"player":1,"name":"P2 Right"},
+        "4":{"player":1,"name":"P2 Up"},
+        "8":{"player":1,"name":"P2 Down"},
+        "10":{"player":1,"name":"P2 Button 1"},
+        "20":{"player":1,"name":"P2 Button 2"}
       }
     }
   }

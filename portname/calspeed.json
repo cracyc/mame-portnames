@@ -1,39 +1,34 @@
 {
   "romname":"calspeed",
   "ports":{
-    ":AN5":{
-      "labels":{
-      }
-    },
     ":AN0":{
       "labels":{
-        "255":{"name":"Paddle","player":0}
-      }
-    },
-    ":IN1":{
-      "labels":{
-        "2":{"name":"Radio","player":0},
-        "16":{"name":"View 1","player":0},
-        "32":{"name":"View 2","player":0},
-        "64":{"name":"View 3","player":0}
+        "ff":{"player":0,"name":"Paddle"}
       }
     },
     ":AN1":{
       "labels":{
-        "255":{"name":"P1 Pedal 1","player":0}
+        "ff":{"player":0,"name":"P1 Pedal 1"}
       }
     },
-
     ":AN2":{
       "labels":{
-        "255":{"name":"P1 Pedal 2","player":0}
+        "ff":{"player":0,"name":"P1 Pedal 2"}
+      }
+    },
+    ":AN3":{
+      "labels":{
       }
     },
     ":AN4":{
       "labels":{
       }
     },
-    ":AN3":{
+    ":AN5":{
+      "labels":{
+      }
+    },
+    ":AN6":{
       "labels":{
       }
     },
@@ -43,10 +38,18 @@
     },
     ":GEAR":{
       "labels":{
-        "1":{"name":"1st Gear","player":0},
-        "2":{"name":"2nd Gear","player":0},
-        "4":{"name":"3rd Gear","player":0},
-        "8":{"name":"4th Gear","player":0}
+        "1":{"player":0,"name":"1st Gear"},
+        "2":{"player":0,"name":"2nd Gear"},
+        "4":{"player":0,"name":"3rd Gear"},
+        "8":{"player":0,"name":"4th Gear"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "2":{"player":0,"name":"Radio"},
+        "10":{"player":0,"name":"View 1"},
+        "20":{"player":0,"name":"View 2"},
+        "40":{"player":0,"name":"View 3"}
       }
     },
     ":IN2":{
@@ -55,22 +58,18 @@
     },
     ":SYSTEM":{
       "labels":{
-        "1":{"name":"Coin 1","player":0},
-        "2":{"name":"Coin 2","player":0},
-        "4":{"name":"1 Player Start","player":0},
-        "8":{"name":"Tilt","player":0},
-        "16":{"name":"Service 2","player":0},
-        "64":{"name":"Service 1","player":0},
-        "128":{"name":"Coin 3","player":0},
-        "256":{"name":"Coin 4","player":0},
-        "512":{"name":"2 Players Start","player":0},
-        "1024":{"name":"3 Players Start","player":0},
-        "2048":{"name":"Volume Down","player":0},
-        "4096":{"name":"Volume Up","player":0}
-      }
-    },
-    ":AN6":{
-      "labels":{
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"},
+        "4":{"player":0,"name":"1 Player Start"},
+        "8":{"player":0,"name":"Tilt"},
+        "10":{"player":0,"name":"Service 2"},
+        "40":{"player":0,"name":"Service 1"},
+        "80":{"player":0,"name":"Coin 3"},
+        "100":{"player":0,"name":"Coin 4"},
+        "200":{"player":0,"name":"2 Players Start"},
+        "400":{"player":0,"name":"3 Players Start"},
+        "800":{"player":0,"name":"Volume Down"},
+        "1000":{"player":0,"name":"Volume Up"}
       }
     }
   }

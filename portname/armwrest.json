@@ -3,14 +3,14 @@
   "ports":{
     ":IN0":{
       "labels":{
-        "32":{"name":"Power","player":0},
-        "64":{"name":"Pull","player":0}
+        "20":{"player":0,"name":"Power"},
+        "40":{"player":0,"name":"Pull"}
       }
     },
     ":IN1":{
       "labels":{
-        "1":{"name":"Right","player":0},
-        "2":{"name":"Left","player":0}
+        "1":{"player":0,"name":"Right"},
+        "2":{"player":0,"name":"Left"}
       }
     }
   }

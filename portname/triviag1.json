@@ -3,8 +3,8 @@
   "ports":{
     ":IN1":{
       "labels":{
-        "16":{"name":"P1 Incorrect","player":0},
-        "32":{"name":"P1 Correct","player":0}
+        "10":{"player":0,"name":"P1 Incorrect"},
+        "20":{"player":0,"name":"P1 Correct"}
       }
     }
   }

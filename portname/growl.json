@@ -3,26 +3,26 @@
   "ports":{
     ":IN0":{
       "labels":{
-        "16":{"name":"P1 Attack"},
-        "32":{"name":"P1 Button 2"},
-        "64":{"name":"P1 Button 3"},
+        "10":{"name":"P1 Attack"},
+        "20":{"name":"P1 Button 2"},
+        "40":{"name":"P1 Button 3"}
       }
     },
     ":IN1":{
       "labels":{
-        "16":{"name":"P2 Attack"},
-        "32":{"name":"P2 Button 2"},
-        "64":{"name":"P2 Button 3"},
+        "10":{"name":"P2 Attack"},
+        "20":{"name":"P2 Button 2"},
+        "40":{"name":"P2 Button 3"}
       }
     },
     ":IN3":{
       "labels":{
-        "16":{"name":"P3 Attack"},
-        "32":{"name":"P3 Button 2"},
-        "64":{"name":"P3 Button 3"},
-        "4096":{"name":"P4 Attack"},
-        "8192":{"name":"P4 Button 2"},
-        "16384":{"name":"P4 Button 3"}
+        "10":{"name":"P3 Attack"},
+        "20":{"name":"P3 Button 2"},
+        "40":{"name":"P3 Button 3"},
+        "1000":{"name":"P4 Attack"},
+        "2000":{"name":"P4 Button 2"},
+        "4000":{"name":"P4 Button 3"}
       }
     }
   }

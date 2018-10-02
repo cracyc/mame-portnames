@@ -1,7 +1,15 @@
 {
   "romname":"bombjack",
   "ports":{
-    ":P1":{"labels":{"16":{"player":0,"name":"P1 Jump"}}},
-    ":P2":{"labels":{"16":{"player":1,"name":"P2 Jump"}}}
+    ":P1":{
+      "labels":{
+        "10":{"player":0,"name":"P1 Jump"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "10":{"player":1,"name":"P2 Jump"}
+      }
+    }
   }
 }

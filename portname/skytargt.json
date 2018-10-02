@@ -1,25 +1,25 @@
 {
   "romname":"skytargt",
   "ports":{
-    ":ANA2":{
+    ":ANA0":{
       "labels":{
-        "255":{"name":"AD Stick X","player":0}
+        "ff":{"player":0,"name":"AD Stick Y"}
       }
     },
-    ":IN1":{
+    ":ANA2":{
       "labels":{
-        "16":{"name":"P1 Machine Gun","player":0},
-        "32":{"name":"P1 Missile","player":0}
+        "ff":{"player":0,"name":"AD Stick X"}
       }
     },
     ":IN0":{
       "labels":{
-        "32":{"name":"P1 View Change","player":0}
+        "20":{"player":0,"name":"P1 View Change"}
       }
     },
-    ":ANA0":{
+    ":IN1":{
       "labels":{
-        "255":{"name":"AD Stick Y","player":0}
+        "10":{"player":0,"name":"P1 Machine Gun"},
+        "20":{"player":0,"name":"P1 Missile"}
       }
     }
   }

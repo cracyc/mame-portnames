@@ -1,24 +1,24 @@
 {
   "romname":"twotiger",
   "ports":{
+    ":ssio:IP1":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Left /  Right"}
+      }
+    },
     ":ssio:IP2":{
       "labels":{
-        "255":{"name":"P1 Left /  Right","player":0}
+        "ff":{"player":0,"name":"P1 Left /  Right"}
       }
     },
     ":ssio:IP4":{
       "labels":{
-        "1":{"name":"P1 Speed","player":0},
-        "2":{"name":"P1 Bomb","player":0},
-        "4":{"name":"P1 Shoot","player":0},
-        "8":{"name":"P2 Speed","player":1},
-        "16":{"name":"P2 Bomb","player":1},
-        "32":{"name":"P2 Shoot","player":1}
-      }
-    },
-    ":ssio:IP1":{
-      "labels":{
-        "255":{"name":"P2 Left /  Right","player":1}
+        "1":{"player":0,"name":"P1 Speed"},
+        "2":{"player":0,"name":"P1 Bomb"},
+        "4":{"player":0,"name":"P1 Shoot"},
+        "8":{"player":1,"name":"P2 Speed"},
+        "10":{"player":1,"name":"P2 Bomb"},
+        "20":{"player":1,"name":"P2 Shoot"}
       }
     }
   }

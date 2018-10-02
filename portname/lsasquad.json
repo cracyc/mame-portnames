@@ -1,45 +1,36 @@
 {
   "romname":"lsasquad",
   "ports":{
-    ":MCU":{
-      "labels":{
-        "4":{"player":0,"name":"Coin 1"},
-        "8":{"player":0,"name":"Coin 2"}
-      }
-    },
-    ":P2":{
-      "labels":{
-        "1":{"player":1,"name":"P2 Left"},
-        "2":{"player":1,"name":"P2 Right"},
-        "4":{"player":1,"name":"P2 Down"},
-        "8":{"player":1,"name":"P2 Up"},
-        "16":{"player":1,"name":"P2 Button 1"},
-        "32":{"player":1,"name":"P2 Button 2"}
-      }
-    },
     ":DSWA":{
       "labels":{
         "1":{"player":0,"name":"Cabinet"},
         "2":{"player":0,"name":"Flip Screen"},
         "4":{"player":0,"name":"Service Mode"},
         "8":{"player":0,"name":"Demo Sounds"},
-        "48":{"player":0,"name":"Coin A"},
-        "192":{"player":0,"name":"Coin B"}
+        "30":{"player":0,"name":"Coin A"},
+        "c0":{"player":0,"name":"Coin B"}
       }
     },
     ":DSWB":{
       "labels":{
         "3":{"player":0,"name":"Difficulty"},
-        "12":{"player":0,"name":"Bonus Life"},
-        "48":{"player":0,"name":"Lives"},
-        "64":{"player":0,"name":"Allow Continue"},
-        "128":{"player":0,"name":"Language"}
+        "c":{"player":0,"name":"Bonus Life"},
+        "30":{"player":0,"name":"Lives"},
+        "40":{"player":0,"name":"Allow Continue"},
+        "80":{"player":0,"name":"Language"}
       }
     },
-    ":START":{
+    ":DSWC":{
       "labels":{
-        "16":{"player":0,"name":"1 Player Start"},
-        "32":{"player":0,"name":"2 Players Start"}
+        "1":{"player":0,"name":"Freeze"},
+        "4":{"player":0,"name":"Invulnerability (Cheat)"},
+        "80":{"player":0,"name":"Unknown"}
+      }
+    },
+    ":MCU":{
+      "labels":{
+        "4":{"player":0,"name":"Coin 1"},
+        "8":{"player":0,"name":"Coin 2"}
       }
     },
     ":P1":{
@@ -48,21 +39,30 @@
         "2":{"player":0,"name":"P1 Right"},
         "4":{"player":0,"name":"P1 Down"},
         "8":{"player":0,"name":"P1 Up"},
-        "16":{"player":0,"name":"P1 Button 1"},
-        "32":{"player":0,"name":"P1 Button 2"}
+        "10":{"player":0,"name":"P1 Button 1"},
+        "20":{"player":0,"name":"P1 Button 2"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Left"},
+        "2":{"player":1,"name":"P2 Right"},
+        "4":{"player":1,"name":"P2 Down"},
+        "8":{"player":1,"name":"P2 Up"},
+        "10":{"player":1,"name":"P2 Button 1"},
+        "20":{"player":1,"name":"P2 Button 2"}
       }
     },
     ":SERVICE":{
       "labels":{
-        "16":{"player":0,"name":"Service 1"},
-        "32":{"player":0,"name":"Tilt"}
+        "10":{"player":0,"name":"Service 1"},
+        "20":{"player":0,"name":"Tilt"}
       }
     },
-    ":DSWC":{
+    ":START":{
       "labels":{
-        "1":{"player":0,"name":"Freeze"},
-        "4":{"player":0,"name":"Invulnerability (Cheat)"},
-        "128":{"player":0,"name":"Unknown"}
+        "10":{"player":0,"name":"1 Player Start"},
+        "20":{"player":0,"name":"2 Players Start"}
       }
     }
   }

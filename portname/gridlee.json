@@ -1,30 +1,30 @@
 {
   "romname":"gridlee",
   "ports":{
-    ":TRACK1_Y":{
+    ":IN0":{
       "labels":{
-        "255":{"name":"P2 Down /  Up","player":1}
-      }
-    },
-    ":TRACK1_X":{
-      "labels":{
-        "255":{"name":"P2 Right /  Left","player":1}
-      }
-    },
-    ":TRACK0_Y":{
-      "labels":{
-        "255":{"name":"P1 Up / Down","player":0}
+        "1":{"player":0,"name":"P1 Fire"},
+        "2":{"player":1,"name":"P2 Fire"}
       }
     },
     ":TRACK0_X":{
       "labels":{
-        "255":{"name":"P1 Left / Right","player":0}
+        "ff":{"player":0,"name":"P1 Left / Right"}
       }
     },
-    ":IN0":{
+    ":TRACK0_Y":{
       "labels":{
-        "1":{"name":"P1 Fire","player":0},
-        "2":{"name":"P2 Fire","player":1}
+        "ff":{"player":0,"name":"P1 Up / Down"}
+      }
+    },
+    ":TRACK1_X":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Right /  Left"}
+      }
+    },
+    ":TRACK1_Y":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Down /  Up"}
       }
     }
   }

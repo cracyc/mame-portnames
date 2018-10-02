@@ -1,20 +1,20 @@
 {
   "romname":"stunrun",
   "ports":{
-    ":mainpcb:a80000":{
-      "labels":{
-        "1":{"name":"Fire (left)","player":0},
-        "2":{"name":"Fire (right)","player":0}
-      }
-    },
     ":mainpcb:8BADC.0":{
       "labels":{
-        "255":{"name":"Left / Right","player":0}
+        "ff":{"player":0,"name":"Left / Right"}
       }
     },
     ":mainpcb:8BADC.2":{
       "labels":{
-        "255":{"name":"Up / Down","player":0}
+        "ff":{"player":0,"name":"Up / Down"}
+      }
+    },
+    ":mainpcb:a80000":{
+      "labels":{
+        "1":{"player":0,"name":"Fire (left)"},
+        "2":{"player":0,"name":"Fire (right)"}
       }
     }
   }

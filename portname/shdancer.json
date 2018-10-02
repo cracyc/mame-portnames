@@ -1,18 +1,18 @@
 {
   "romname":"shdancer",
   "ports":{
-    ":P2":{
-      "labels":{
-        "1":{"player":1,"name":"P2 Attack"},
-        "2":{"player":1,"name":"P2 Jump"},
-        "4":{"player":1,"name":"P2 Ninja Magic"}
-      }
-    },
     ":P1":{
       "labels":{
         "1":{"player":0,"name":"P1 Attack"},
         "2":{"player":0,"name":"P1 Jump"},
         "4":{"player":0,"name":"P1 Ninja Magic"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Attack"},
+        "2":{"player":1,"name":"P2 Jump"},
+        "4":{"player":1,"name":"P2 Ninja Magic"}
       }
     }
   }

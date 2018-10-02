@@ -1,30 +1,30 @@
 {
   "romname":"wwfmania",
   "ports":{
-    ":IN1":{
-      "labels":{
-        "1":{"name":"P1 Kick","player":0},
-        "2":{"name":"P1 Power Kick","player":0},
-        "16":{"name":"P2 Kick","player":1},
-        "32":{"name":"P2 Power Kick","player":1}
-      }
-    },
     ":IN0":{
       "labels":{
-        "1":{"name":"P1 Move Up","player":0},
-        "2":{"name":"P1 Move Down","player":0},
-        "4":{"name":"P1 Move Left","player":0},
-        "8":{"name":"P1 Move Right","player":0},
-        "16":{"name":"P1 Punch","player":0},
-        "32":{"name":"P1 Defense","player":0},
-        "64":{"name":"P1 Power Punch","player":0},
-        "256":{"name":"P2 Move Up","player":1},
-        "512":{"name":"P2 Move Down","player":1},
-        "1024":{"name":"P2 Move Left","player":1},
-        "2048":{"name":"P2 Move Right","player":1},
-        "4096":{"name":"P2 Punch","player":1},
-        "8192":{"name":"P2 Defense","player":1},
-        "16384":{"name":"P2 Power Punch","player":1}
+        "1":{"player":0,"name":"P1 Move Up"},
+        "2":{"player":0,"name":"P1 Move Down"},
+        "4":{"player":0,"name":"P1 Move Left"},
+        "8":{"player":0,"name":"P1 Move Right"},
+        "10":{"player":0,"name":"P1 Punch"},
+        "20":{"player":0,"name":"P1 Defense"},
+        "40":{"player":0,"name":"P1 Power Punch"},
+        "100":{"player":1,"name":"P2 Move Up"},
+        "200":{"player":1,"name":"P2 Move Down"},
+        "400":{"player":1,"name":"P2 Move Left"},
+        "800":{"player":1,"name":"P2 Move Right"},
+        "1000":{"player":1,"name":"P2 Punch"},
+        "2000":{"player":1,"name":"P2 Defense"},
+        "4000":{"player":1,"name":"P2 Power Punch"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Kick"},
+        "2":{"player":0,"name":"P1 Power Kick"},
+        "10":{"player":1,"name":"P2 Kick"},
+        "20":{"player":1,"name":"P2 Power Kick"}
       }
     }
   }

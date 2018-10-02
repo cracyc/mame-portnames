@@ -3,12 +3,12 @@
   "ports":{
     ":IN0":{
       "labels":{
-        "4":{"name":"P1 Dig","player":0},
-        "8":{"name":"P1 Fill","player":0},
-        "16":{"name":"P1 Right","player":0},
-        "32":{"name":"P1 Down","player":0},
-        "64":{"name":"P1 Left","player":0},
-        "128":{"name":"P1 Up","player":0}
+        "4":{"player":0,"name":"P1 Dig"},
+        "8":{"player":0,"name":"P1 Fill"},
+        "10":{"player":0,"name":"P1 Right"},
+        "20":{"player":0,"name":"P1 Down"},
+        "40":{"player":0,"name":"P1 Left"},
+        "80":{"player":0,"name":"P1 Up"}
       }
     }
   }

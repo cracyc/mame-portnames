@@ -1,9 +1,10 @@
 {
   "romname":"firetrk",
   "ports":{
-    ":HORN":{
+    ":BIT_0":{
       "labels":{
-        "1":{"player":0,"name":"P1 Horn"}
+        "2":{"player":0,"name":"P1 Accelerate"},
+        "10":{"player":1,"name":"P2 Bell"}
       }
     },
     ":BIT_6":{
@@ -11,20 +12,19 @@
         "8":{"player":0,"name":"P1 Track Select"}
       }
     },
-    ":STEER_2":{
+    ":HORN":{
       "labels":{
-        "255":{"player":1,"name":"P2 Left (Rear Wheels) / Right (Rear Wheels)"}
-      }
-    },
-    ":BIT_0":{
-      "labels":{
-        "2":{"player":0,"name":"P1 Accelerate"},
-        "16":{"player":1,"name":"P2 Bell"}
+        "1":{"player":0,"name":"P1 Horn"}
       }
     },
     ":STEER_1":{
       "labels":{
-        "255":{"player":0,"name":"P1 Left / Right"}
+        "ff":{"player":0,"name":"P1 Left / Right"}
+      }
+    },
+    ":STEER_2":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Left (Rear Wheels) / Right (Rear Wheels)"}
       }
     }
   }

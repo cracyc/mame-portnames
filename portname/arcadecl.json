@@ -1,38 +1,38 @@
 {
   "romname":"arcadecl",
   "ports":{
-    ":TRACKY2":{
-      "labels":{
-        "255":{"player":1,"name":"P2 Up /  Down"}
-      }
-    },
-    ":TRACKX2":{
-      "labels":{
-        "255":{"player":1,"name":"P2 Left /  Right"}
-      }
-    },
     ":PLAYER1":{
       "labels":{
-        "512":{"player":0,"name":"P1 Fire / Right Missile"},
-        "1024":{"player":0,"name":"P1 Fire / Center Missile"},
-        "2048":{"player":0,"name":"P1 Fire / Left Missile"}
-      }
-    },
-    ":TRACKY1":{
-      "labels":{
-        "255":{"player":0,"name":"P1 Up /  Down"}
-      }
-    },
-    ":TRACKX1":{
-      "labels":{
-        "255":{"player":0,"name":"P1 Left /  Right"}
+        "200":{"player":0,"name":"P1 Fire / Right Missile"},
+        "400":{"player":0,"name":"P1 Fire / Center Missile"},
+        "800":{"player":0,"name":"P1 Fire / Left Missile"}
       }
     },
     ":PLAYER2":{
       "labels":{
-        "512":{"player":1,"name":"P2 Fire / Right Missile"},
-        "1024":{"player":1,"name":"P2 Fire / Center Missile"},
-        "2048":{"player":1,"name":"P2 Fire / Left Missile"}
+        "200":{"player":1,"name":"P2 Fire / Right Missile"},
+        "400":{"player":1,"name":"P2 Fire / Center Missile"},
+        "800":{"player":1,"name":"P2 Fire / Left Missile"}
+      }
+    },
+    ":TRACKX1":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Left /  Right"}
+      }
+    },
+    ":TRACKX2":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Left /  Right"}
+      }
+    },
+    ":TRACKY1":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Up /  Down"}
+      }
+    },
+    ":TRACKY2":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Up /  Down"}
       }
     }
   }

@@ -3,18 +3,18 @@
   "ports":{
     ":edge:joy:JOY1":{
       "labels":{
-        "16":{"player":0,"name":"P1 A (Punch)"},
-        "32":{"player":0,"name":"P1 B (Kick)"},
-        "64":{"player":0,"name":"P1 C (Hard Blow)"},
-        "128":{"player":0,"name":"P1 D (Raz)"}
+        "10":{"player":0,"name":"P1 A (Punch)"},
+        "20":{"player":0,"name":"P1 B (Kick)"},
+        "40":{"player":0,"name":"P1 C (Hard Blow)"},
+        "80":{"player":0,"name":"P1 D (Raz)"}
       }
     },
     ":edge:joy:JOY2":{
       "labels":{
-        "16":{"player":1,"name":"P2 A (Punch)"},
-        "32":{"player":1,"name":"P2 B (Kick)"},
-        "64":{"player":1,"name":"P2 C (Hard Blow)"},
-        "128":{"player":1,"name":"P2 D (Raz)"}
+        "10":{"player":1,"name":"P2 A (Punch)"},
+        "20":{"player":1,"name":"P2 B (Kick)"},
+        "40":{"player":1,"name":"P2 C (Hard Blow)"},
+        "80":{"player":1,"name":"P2 D (Raz)"}
       }
     }
   }

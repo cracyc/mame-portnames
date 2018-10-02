@@ -1,18 +1,18 @@
 {
   "romname":"radarscp",
   "ports":{
-    ":IN1":{
-      "labels":{
-        "1":{"name":"P2 Right","player":1},
-        "2":{"name":"P2 Left","player":1},
-        "16":{"name":"P2 Fire","player":1}
-      }
-    },
     ":IN0":{
       "labels":{
-        "1":{"name":"P1 Right","player":0},
-        "2":{"name":"P1 Left","player":0},
-        "16":{"name":"P1 Fire","player":0}
+        "1":{"player":0,"name":"P1 Right"},
+        "2":{"player":0,"name":"P1 Left"},
+        "10":{"player":0,"name":"P1 Fire"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Right"},
+        "2":{"player":1,"name":"P2 Left"},
+        "10":{"player":1,"name":"P2 Fire"}
       }
     }
   }

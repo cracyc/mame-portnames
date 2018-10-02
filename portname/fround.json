@@ -1,34 +1,25 @@
 {
   "romname":"fround",
   "ports":{
-    ":DSW3":{
+    ":DSW1":{
       "labels":{
-        "1":{"player":0,"name":"Flip Screen"},
-        "4":{"player":0,"name":"Service Mode"},
-        "8":{"player":0,"name":"Unused"}
+        "f":{"player":0,"name":"Coin A"},
+        "f0":{"player":0,"name":"Coin B"}
       }
     },
     ":DSW2":{
       "labels":{
         "3":{"player":0,"name":"Energy"},
-        "16":{"player":0,"name":"Unused"},
-        "96":{"player":0,"name":"Difficulty"},
-        "128":{"player":0,"name":"Demo Sounds"}
+        "10":{"player":0,"name":"Unused"},
+        "60":{"player":0,"name":"Difficulty"},
+        "80":{"player":0,"name":"Demo Sounds"}
       }
     },
-    ":DSW1":{
+    ":DSW3":{
       "labels":{
-        "15":{"player":0,"name":"Coin A"},
-        "240":{"player":0,"name":"Coin B"}
-      }
-    },
-    ":SYSTEM":{
-      "labels":{
-        "1":{"player":0,"name":"Coin 1"},
-        "2":{"player":0,"name":"Coin 2"},
-        "8":{"player":0,"name":"1 Player Start"},
-        "16":{"player":0,"name":"2 Players Start"},
-        "64":{"player":0,"name":"Service 1"}
+        "1":{"player":0,"name":"Flip Screen"},
+        "4":{"player":0,"name":"Service Mode"},
+        "8":{"player":0,"name":"Unused"}
       }
     },
     ":P1":{
@@ -37,9 +28,9 @@
         "2":{"player":0,"name":"P1 Right"},
         "4":{"player":0,"name":"P1 Up"},
         "8":{"player":0,"name":"P1 Down"},
-        "16":{"player":0,"name":"P1 Button 1"},
-        "32":{"player":0,"name":"P1 Button 2"},
-        "64":{"player":0,"name":"P1 Button 3"}
+        "10":{"player":0,"name":"P1 Button 1"},
+        "20":{"player":0,"name":"P1 Button 2"},
+        "40":{"player":0,"name":"P1 Button 3"}
       }
     },
     ":P2":{
@@ -48,9 +39,18 @@
         "2":{"player":1,"name":"P2 Right"},
         "4":{"player":1,"name":"P2 Up"},
         "8":{"player":1,"name":"P2 Down"},
-        "16":{"player":1,"name":"P2 Button 1"},
-        "32":{"player":1,"name":"P2 Button 2"},
-        "64":{"player":1,"name":"P2 Button 3"}
+        "10":{"player":1,"name":"P2 Button 1"},
+        "20":{"player":1,"name":"P2 Button 2"},
+        "40":{"player":1,"name":"P2 Button 3"}
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"},
+        "8":{"player":0,"name":"1 Player Start"},
+        "10":{"player":0,"name":"2 Players Start"},
+        "40":{"player":0,"name":"Service 1"}
       }
     }
   }

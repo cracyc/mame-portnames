@@ -3,18 +3,18 @@
   "ports":{
     ":IN1":{
       "labels":{
-        "2":{"name":"P1 Straight/Hook","player":0},
-        "8":{"name":"P1 ??","player":0}
-      }
-    },
-    ":IN3":{
-      "labels":{
-        "255":{"name":"P1 Left /  Right","player":0}
+        "2":{"player":0,"name":"P1 Straight/Hook"},
+        "8":{"player":0,"name":"P1 ??"}
       }
     },
     ":IN2":{
       "labels":{
-        "255":{"name":"P1 Up / Down","player":0}
+        "ff":{"player":0,"name":"P1 Up / Down"}
+      }
+    },
+    ":IN3":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Left /  Right"}
       }
     }
   }

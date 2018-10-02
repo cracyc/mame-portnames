@@ -1,19 +1,19 @@
 {
   "romname":"colony7",
   "ports":{
-    ":IN1":{
-      "labels":{
-        "1":{"name":"P1 Eradicator","player":0}
-      }
-    },
     ":IN0":{
       "labels":{
-        "1":{"name":"P1 Control Down","player":0},
-        "2":{"name":"P1 Control Right","player":0},
-        "4":{"name":"P1 Control Left","player":0},
-        "8":{"name":"P1 Control Up","player":0},
-        "64":{"name":"P1 Fire","player":0},
-        "128":{"name":"P1 Mega - Blaster","player":0}
+        "1":{"player":0,"name":"P1 Control Down"},
+        "2":{"player":0,"name":"P1 Control Right"},
+        "4":{"player":0,"name":"P1 Control Left"},
+        "8":{"player":0,"name":"P1 Control Up"},
+        "40":{"player":0,"name":"P1 Fire"},
+        "80":{"player":0,"name":"P1 Mega - Blaster"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Eradicator"}
       }
     }
   }

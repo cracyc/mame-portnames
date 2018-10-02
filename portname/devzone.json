@@ -1,22 +1,22 @@
 {
   "romname":"devzone",
   "ports":{
-    ":IN3":{
+    ":IN0":{
       "labels":{
-        "64":{"name":"P2 Fire","player":1},
-        "128":{"name":"P1 Fire","player":0}
+        "2":{"player":0,"name":"P1 Movement Left"},
+        "20":{"player":0,"name":"P1 Movement Right"}
       }
     },
     ":IN1":{
       "labels":{
-        "2":{"name":"P2 Movement Left","player":1},
-        "32":{"name":"P2 Movement Right","player":1}
+        "2":{"player":1,"name":"P2 Movement Left"},
+        "20":{"player":1,"name":"P2 Movement Right"}
       }
     },
-    ":IN0":{
+    ":IN3":{
       "labels":{
-        "2":{"name":"P1 Movement Left","player":0},
-        "32":{"name":"P1 Movement Right","player":0}
+        "40":{"player":1,"name":"P2 Fire"},
+        "80":{"player":0,"name":"P1 Fire"}
       }
     }
   }

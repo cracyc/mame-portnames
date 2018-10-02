@@ -1,16 +1,36 @@
 {
   "romname":"phelios",
   "ports":{
+    ":DSW":{
+      "labels":{
+        "1":{"player":0,"name":"Video Display"},
+        "2":{"player":0,"name":"$2000-1"},
+        "4":{"player":0,"name":"$2000-2"},
+        "8":{"player":0,"name":"$2000-3"},
+        "10":{"player":0,"name":"$2000-4"},
+        "20":{"player":0,"name":"$2000-5"},
+        "40":{"player":0,"name":"$2000-6"},
+        "80":{"player":0,"name":"Service Mode"}
+      }
+    },
     ":MCUB":{
       "labels":{
         "1":{"player":1,"name":"P2 Left"},
         "2":{"player":0,"name":"P1 Left"},
         "4":{"player":1,"name":"P2 Down"},
         "8":{"player":0,"name":"P1 Down"},
-        "16":{"player":1,"name":"P2 Up"},
-        "32":{"player":0,"name":"P1 Up"},
-        "64":{"player":0,"name":"2 Players Start"},
-        "128":{"player":0,"name":"1 Player Start"}
+        "10":{"player":1,"name":"P2 Up"},
+        "20":{"player":0,"name":"P1 Up"},
+        "40":{"player":0,"name":"2 Players Start"},
+        "80":{"player":0,"name":"1 Player Start"}
+      }
+    },
+    ":MCUC":{
+      "labels":{
+        "10":{"player":0,"name":"Coin 2"},
+        "20":{"player":0,"name":"Coin 1"},
+        "40":{"player":0,"name":"Service Button"},
+        "80":{"player":0,"name":"Service 1"}
       }
     },
     ":MCUH":{
@@ -19,30 +39,10 @@
         "2":{"player":0,"name":"P1 Button 3"},
         "4":{"player":1,"name":"P2 Button 2"},
         "8":{"player":0,"name":"P1 Button 2"},
-        "16":{"player":1,"name":"P2 Button 1"},
-        "32":{"player":0,"name":"P1 Button 1"},
-        "64":{"player":1,"name":"P2 Right"},
-        "128":{"player":0,"name":"P1 Right"}
-      }
-    },
-    ":MCUC":{
-      "labels":{
-        "16":{"player":0,"name":"Coin 2"},
-        "32":{"player":0,"name":"Coin 1"},
-        "64":{"player":0,"name":"Service Button"},
-        "128":{"player":0,"name":"Service 1"}
-      }
-    },
-    ":DSW":{
-      "labels":{
-        "1":{"player":0,"name":"Video Display"},
-        "2":{"player":0,"name":"$2000-1"},
-        "4":{"player":0,"name":"$2000-2"},
-        "8":{"player":0,"name":"$2000-3"},
-        "16":{"player":0,"name":"$2000-4"},
-        "32":{"player":0,"name":"$2000-5"},
-        "64":{"player":0,"name":"$2000-6"},
-        "128":{"player":0,"name":"Service Mode"}
+        "10":{"player":1,"name":"P2 Button 1"},
+        "20":{"player":0,"name":"P1 Button 1"},
+        "40":{"player":1,"name":"P2 Right"},
+        "80":{"player":0,"name":"P1 Right"}
       }
     }
   }

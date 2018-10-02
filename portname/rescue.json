@@ -6,16 +6,16 @@
         "1":{"player":0,"name":"P1 Bomb"},
         "4":{"player":0,"name":"P1 Up"},
         "8":{"player":0,"name":"P1 Down"},
-        "16":{"player":0,"name":"P1 Right"},
-        "32":{"player":0,"name":"P1 Left"}
+        "10":{"player":0,"name":"P1 Right"},
+        "20":{"player":0,"name":"P1 Left"}
       }
     },
     ":IN1":{
       "labels":{
         "4":{"player":0,"name":"P1 Fire Up"},
         "8":{"player":0,"name":"P1 Fire Down"},
-        "16":{"player":0,"name":"P1 Fire Right"},
-        "32":{"player":0,"name":"P1 Fire Left"}
+        "10":{"player":0,"name":"P1 Fire Right"},
+        "20":{"player":0,"name":"P1 Fire Left"}
       }
     }
   }

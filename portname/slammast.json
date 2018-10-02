@@ -3,26 +3,26 @@
   "ports":{
     ":IN1":{
       "labels":{
-        "16":{"player":0,"name":"P1 Button 1"},
-        "32":{"player":0,"name":"P1 Button 2"},
-        "64":{"player":0,"name":"P1 Button 3"},
-        "128":{"player":2,"name":"P3 Button 3"},
-        "4096":{"player":1,"name":"P2 Button 1"},
-        "8192":{"player":1,"name":"P2 Button 2"},
-        "16384":{"player":1,"name":"P2 Button 3"},
-        "32768":{"player":3,"name":"P4 Button 3"}
+        "10":{"player":0,"name":"P1 Button 1"},
+        "20":{"player":0,"name":"P1 Button 2"},
+        "40":{"player":0,"name":"P1 Button 3"},
+        "80":{"player":2,"name":"P3 Button 3"},
+        "1000":{"player":1,"name":"P2 Button 1"},
+        "2000":{"player":1,"name":"P2 Button 2"},
+        "4000":{"player":1,"name":"P2 Button 3"},
+        "8000":{"player":3,"name":"P4 Button 3"}
       }
     },
     ":IN2":{
       "labels":{
-        "16":{"player":2,"name":"P3 Button 1"},
-        "32":{"player":2,"name":"P3 Button 2"},
+        "10":{"player":2,"name":"P3 Button 1"},
+        "20":{"player":2,"name":"P3 Button 2"}
       }
     },
     ":IN3":{
       "labels":{
-        "16":{"player":3,"name":"P4 Button 1"},
-        "32":{"player":3,"name":"P4 Button 2"},
+        "10":{"player":3,"name":"P4 Button 1"},
+        "20":{"player":3,"name":"P4 Button 2"}
       }
     }
   }

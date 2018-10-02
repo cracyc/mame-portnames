@@ -1,20 +1,20 @@
 {
   "romname":"tekken3",
   "ports":{
+    ":IN0":{
+      "labels":{
+        "10":{"player":0,"name":"P1 Left Punch"},
+        "20":{"player":0,"name":"P1 Right Punch"},
+        "40":{"player":0,"name":"P1 Left Kick"},
+        "1000":{"player":1,"name":"P2 Left Punch"},
+        "2000":{"player":1,"name":"P2 Right Punch"},
+        "4000":{"player":1,"name":"P2 Left Kick"}
+      }
+    },
     ":IN1":{
       "labels":{
         "2":{"player":0,"name":"P1 Right Kick"},
-        "32":{"player":1,"name":"P2 Right Kick"}
-      }
-    },
-    ":IN0":{
-      "labels":{
-        "16":{"player":0,"name":"P1 Left Punch"},
-        "32":{"player":0,"name":"P1 Right Punch"},
-        "64":{"player":0,"name":"P1 Left Kick"},
-        "4096":{"player":1,"name":"P2 Left Punch"},
-        "8192":{"player":1,"name":"P2 Right Punch"},
-        "16384":{"player":1,"name":"P2 Left Kick"}
+        "20":{"player":1,"name":"P2 Right Kick"}
       }
     }
   }

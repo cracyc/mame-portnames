@@ -1,54 +1,54 @@
 {
   "romname":"strkfgtr",
   "ports":{
-    ":COINAGE":{
-      "labels":{
-        "15":{"name":"Coin A","player":0},
-        "240":{"name":"Coin B","player":0}
-      }
-    },
-    ":DSW":{
-      "labels":{
-        "3":{"name":"Difficulty","player":0},
-        "4":{"name":"Demo Sounds","player":0},
-        "8":{"name":"Allow Continue","player":0},
-        "48":{"name":"Credits","player":0},
-        "192":{"name":"Cabinet","player":0}
-      }
-    },
-    ":ADC.5":{
-      "labels":{
-        "255":{"name":"AD Stick X","player":0}
-      }
-    },
     ":ADC.3":{
       "labels":{
-        "255":{"name":"AD Stick Y","player":0}
+        "ff":{"player":0,"name":"AD Stick Y"}
       }
     },
     ":ADC.4":{
       "labels":{
-        "255":{"name":"AD Stick Z","player":0}
+        "ff":{"player":0,"name":"AD Stick Z"}
       }
     },
-    ":LIMITSW":{
+    ":ADC.5":{
       "labels":{
-        "1":{"name":"Right Upper Limit Switch","player":0},
-        "2":{"name":"Right Lower Limit Switch","player":0},
-        "4":{"name":"Left Upper Limit Switch","player":0},
-        "8":{"name":"Left Lower Limit Switch","player":0}
+        "ff":{"player":0,"name":"AD Stick X"}
+      }
+    },
+    ":COINAGE":{
+      "labels":{
+        "f":{"player":0,"name":"Coin A"},
+        "f0":{"player":0,"name":"Coin B"}
+      }
+    },
+    ":DSW":{
+      "labels":{
+        "3":{"player":0,"name":"Difficulty"},
+        "4":{"player":0,"name":"Demo Sounds"},
+        "8":{"player":0,"name":"Allow Continue"},
+        "30":{"player":0,"name":"Credits"},
+        "c0":{"player":0,"name":"Cabinet"}
       }
     },
     ":GENERAL":{
       "labels":{
-        "1":{"name":"After Burner","player":0},
-        "2":{"name":"Service Mode","player":0},
-        "4":{"name":"Service 1","player":0},
-        "8":{"name":"1 Player Start","player":0},
-        "16":{"name":"Vulcan","player":0},
-        "32":{"name":"Missile","player":0},
-        "64":{"name":"Coin 1","player":0},
-        "128":{"name":"Coin 2","player":0}
+        "1":{"player":0,"name":"After Burner"},
+        "2":{"player":0,"name":"Service Mode"},
+        "4":{"player":0,"name":"Service 1"},
+        "8":{"player":0,"name":"1 Player Start"},
+        "10":{"player":0,"name":"Vulcan"},
+        "20":{"player":0,"name":"Missile"},
+        "40":{"player":0,"name":"Coin 1"},
+        "80":{"player":0,"name":"Coin 2"}
+      }
+    },
+    ":LIMITSW":{
+      "labels":{
+        "1":{"player":0,"name":"Right Upper Limit Switch"},
+        "2":{"player":0,"name":"Right Lower Limit Switch"},
+        "4":{"player":0,"name":"Left Upper Limit Switch"},
+        "8":{"player":0,"name":"Left Lower Limit Switch"}
       }
     }
   }

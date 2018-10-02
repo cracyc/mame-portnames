@@ -1,49 +1,13 @@
 {
   "romname":"tank8",
   "ports":{
-    ":P5":{
-      "labels":{
-        "2":{"player":4,"name":"P5 Left Tread Forward"},
-        "4":{"player":4,"name":"P5 Left Tread Backward"},
-        "8":{"player":4,"name":"P5 Right Tread Forward"},
-        "16":{"player":4,"name":"P5 Right Tread Backward"},
-        "128":{"player":4,"name":"P5 Fire"}
-      }
-    },
-    ":P6":{
-      "labels":{
-        "2":{"player":5,"name":"P6 Left Tread Forward"},
-        "4":{"player":5,"name":"P6 Left Tread Backward"},
-        "8":{"player":5,"name":"P6 Right Tread Forward"},
-        "16":{"player":5,"name":"P6 Right Tread Backward"},
-        "128":{"player":5,"name":"P6 Fire"}
-      }
-    },
-    ":P8":{
-      "labels":{
-        "2":{"player":7,"name":"P8 Left Tread Forward"},
-        "4":{"player":7,"name":"P8 Left Tread Backward"},
-        "8":{"player":7,"name":"P8 Right Tread Forward"},
-        "16":{"player":7,"name":"P8 Right Tread Backward"},
-        "128":{"player":7,"name":"P8 Fire"}
-      }
-    },
-    ":P4":{
-      "labels":{
-        "2":{"player":3,"name":"P4 Left Tread Forward"},
-        "4":{"player":3,"name":"P4 Left Tread Backward"},
-        "8":{"player":3,"name":"P4 Right Tread Forward"},
-        "16":{"player":3,"name":"P4 Right Tread Backward"},
-        "128":{"player":3,"name":"P4 Fire"}
-      }
-    },
     ":P1":{
       "labels":{
         "2":{"player":0,"name":"P1 Left Tread Forward"},
         "4":{"player":0,"name":"P1 Left Tread Backward"},
         "8":{"player":0,"name":"P1 Right Tread Forward"},
-        "16":{"player":0,"name":"P1 Right Tread Backward"},
-        "128":{"player":0,"name":"P1 Fire"}
+        "10":{"player":0,"name":"P1 Right Tread Backward"},
+        "80":{"player":0,"name":"P1 Fire"}
       }
     },
     ":P2":{
@@ -51,17 +15,8 @@
         "2":{"player":1,"name":"P2 Left Tread Forward"},
         "4":{"player":1,"name":"P2 Left Tread Backward"},
         "8":{"player":1,"name":"P2 Right Tread Forward"},
-        "16":{"player":1,"name":"P2 Right Tread Backward"},
-        "128":{"player":1,"name":"P2 Fire"}
-      }
-    },
-    ":P7":{
-      "labels":{
-        "2":{"player":6,"name":"P7 Left Tread Forward"},
-        "4":{"player":6,"name":"P7 Left Tread Backward"},
-        "8":{"player":6,"name":"P7 Right Tread Forward"},
-        "16":{"player":6,"name":"P7 Right Tread Backward"},
-        "128":{"player":6,"name":"P7 Fire"}
+        "10":{"player":1,"name":"P2 Right Tread Backward"},
+        "80":{"player":1,"name":"P2 Fire"}
       }
     },
     ":P3":{
@@ -69,8 +24,53 @@
         "2":{"player":2,"name":"P3 Left Tread Forward"},
         "4":{"player":2,"name":"P3 Left Tread Backward"},
         "8":{"player":2,"name":"P3 Right Tread Forward"},
-        "16":{"player":2,"name":"P3 Right Tread Backward"},
-        "128":{"player":2,"name":"P3 Fire"}
+        "10":{"player":2,"name":"P3 Right Tread Backward"},
+        "80":{"player":2,"name":"P3 Fire"}
+      }
+    },
+    ":P4":{
+      "labels":{
+        "2":{"player":3,"name":"P4 Left Tread Forward"},
+        "4":{"player":3,"name":"P4 Left Tread Backward"},
+        "8":{"player":3,"name":"P4 Right Tread Forward"},
+        "10":{"player":3,"name":"P4 Right Tread Backward"},
+        "80":{"player":3,"name":"P4 Fire"}
+      }
+    },
+    ":P5":{
+      "labels":{
+        "2":{"player":4,"name":"P5 Left Tread Forward"},
+        "4":{"player":4,"name":"P5 Left Tread Backward"},
+        "8":{"player":4,"name":"P5 Right Tread Forward"},
+        "10":{"player":4,"name":"P5 Right Tread Backward"},
+        "80":{"player":4,"name":"P5 Fire"}
+      }
+    },
+    ":P6":{
+      "labels":{
+        "2":{"player":5,"name":"P6 Left Tread Forward"},
+        "4":{"player":5,"name":"P6 Left Tread Backward"},
+        "8":{"player":5,"name":"P6 Right Tread Forward"},
+        "10":{"player":5,"name":"P6 Right Tread Backward"},
+        "80":{"player":5,"name":"P6 Fire"}
+      }
+    },
+    ":P7":{
+      "labels":{
+        "2":{"player":6,"name":"P7 Left Tread Forward"},
+        "4":{"player":6,"name":"P7 Left Tread Backward"},
+        "8":{"player":6,"name":"P7 Right Tread Forward"},
+        "10":{"player":6,"name":"P7 Right Tread Backward"},
+        "80":{"player":6,"name":"P7 Fire"}
+      }
+    },
+    ":P8":{
+      "labels":{
+        "2":{"player":7,"name":"P8 Left Tread Forward"},
+        "4":{"player":7,"name":"P8 Left Tread Backward"},
+        "8":{"player":7,"name":"P8 Right Tread Forward"},
+        "10":{"player":7,"name":"P8 Right Tread Backward"},
+        "80":{"player":7,"name":"P8 Fire"}
       }
     }
   }

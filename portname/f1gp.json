@@ -1,41 +1,41 @@
 {
   "romname":"f1gp",
   "ports":{
-    ":INPUTS":{
-      "labels":{
-        "4":{"name":"P1 Left","player":0},
-        "8":{"name":"P1 Right","player":0},
-        "16":{"name":"P1 Button 1","player":0},
-        "32":{"name":"P1 Button 2","player":0},
-        "256":{"name":"Coin 1","player":0},
-        "512":{"name":"Coin 2","player":0},
-        "1024":{"name":"1 Player Start","player":0},
-        "16384":{"name":"Service 1","player":0}
-      }
-    },
     ":DSW1":{
       "labels":{
-        "3":{"name":"Difficulty","player":0},
-        "4":{"name":"Game Mode","player":0},
-        "8":{"name":"Multi Player Mode","player":0},
-        "256":{"name":"Unused","player":0},
-        "3584":{"name":"Coin A","player":0},
-        "28672":{"name":"Coin B","player":0},
-        "32256":{"name":"Coinage","player":0},
-        "32768":{"name":"Continue Coin","player":0}
+        "3":{"player":0,"name":"Difficulty"},
+        "4":{"player":0,"name":"Game Mode"},
+        "8":{"player":0,"name":"Multi Player Mode"},
+        "100":{"player":0,"name":"Unused"},
+        "e00":{"player":0,"name":"Coin A"},
+        "7000":{"player":0,"name":"Coin B"},
+        "7e00":{"player":0,"name":"Coinage"},
+        "8000":{"player":0,"name":"Continue Coin"}
       }
     },
     ":DSW2":{
       "labels":{
-        "256":{"name":"Service Mode","player":0},
-        "512":{"name":"Flip Screen","player":0},
-        "1024":{"name":"Demo Sounds","player":0},
-        "32768":{"name":"Unused","player":0}
+        "100":{"player":0,"name":"Service Mode"},
+        "200":{"player":0,"name":"Flip Screen"},
+        "400":{"player":0,"name":"Demo Sounds"},
+        "8000":{"player":0,"name":"Unused"}
       }
     },
     ":DSW3":{
       "labels":{
-        "31":{"name":"Region","player":0}
+        "1f":{"player":0,"name":"Region"}
+      }
+    },
+    ":INPUTS":{
+      "labels":{
+        "4":{"player":0,"name":"P1 Left"},
+        "8":{"player":0,"name":"P1 Right"},
+        "10":{"player":0,"name":"P1 Button 1"},
+        "20":{"player":0,"name":"P1 Button 2"},
+        "100":{"player":0,"name":"Coin 1"},
+        "200":{"player":0,"name":"Coin 2"},
+        "400":{"player":0,"name":"1 Player Start"},
+        "4000":{"player":0,"name":"Service 1"}
       }
     }
   }

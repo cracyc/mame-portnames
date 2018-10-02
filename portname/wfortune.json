@@ -3,14 +3,14 @@
   "ports":{
     ":60":{
       "labels":{
-        "8":{"name":"P3 Select","player":2},
-        "16":{"name":"P2 Select","player":1},
-        "32":{"name":"P1 Select","player":0}
+        "8":{"player":2,"name":"P3 Select"},
+        "10":{"player":1,"name":"P2 Select"},
+        "20":{"player":0,"name":"P1 Select"}
       }
     },
     ":AN_D":{
       "labels":{
-        "255":{"name":"P1 Spin Left / Spin Right","player":0}
+        "ff":{"player":0,"name":"P1 Spin Left / Spin Right"}
       }
     }
   }

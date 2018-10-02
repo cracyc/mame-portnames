@@ -7,12 +7,12 @@
         "2":{"player":1,"name":"P2 Paddle Forward (Left)"},
         "4":{"player":1,"name":"P2 Back Paddle (Left)"},
         "8":{"player":1,"name":"P2 Back Paddle (Right)"},
-        "16":{"player":0,"name":"P1 Paddle Forward (Right)"},
-        "32":{"player":0,"name":"P1 Paddle Forward (Left)"},
-        "64":{"player":0,"name":"P1 Back Paddle (Left)"},
-        "128":{"player":0,"name":"P1 Back Paddle (Right)"},
-        "256":{"player":0,"name":"P1 Throw Can / Start"},
-        "512":{"player":1,"name":"P2 Throw Can / Start"}
+        "10":{"player":0,"name":"P1 Paddle Forward (Right)"},
+        "20":{"player":0,"name":"P1 Paddle Forward (Left)"},
+        "40":{"player":0,"name":"P1 Back Paddle (Left)"},
+        "80":{"player":0,"name":"P1 Back Paddle (Right)"},
+        "100":{"player":0,"name":"P1 Throw Can / Start"},
+        "200":{"player":1,"name":"P2 Throw Can / Start"}
       }
     }
   }

@@ -3,9 +3,9 @@
   "ports":{
     ":IN0":{
       "labels":{
-        "1":{"name":"Right","player":0},
-        "4":{"name":"Left","player":0},
-        "128":{"name":"Tongue","player":0}
+        "1":{"player":0,"name":"Right"},
+        "4":{"player":0,"name":"Left"},
+        "80":{"player":0,"name":"Tongue"}
       }
     }
   }

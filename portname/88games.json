@@ -6,9 +6,9 @@
         "1":{"player":0,"name":"P1 Run"},
         "2":{"player":0,"name":"P1 Jump"},
         "4":{"player":0,"name":"P1 Run"},
-        "16":{"player":1,"name":"P2 Run"},
-        "32":{"player":1,"name":"P2 Jump"},
-        "64":{"player":1,"name":"P2 Run"}
+        "10":{"player":1,"name":"P2 Run"},
+        "20":{"player":1,"name":"P2 Jump"},
+        "40":{"player":1,"name":"P2 Run"}
       }
     }
   }

@@ -3,18 +3,18 @@
   "ports":{
     ":IN0":{
       "labels":{
-        "1":{"name":"P1 FIRE","player":0},
-        "2":{"name":"P1 THRUST","player":0},
-        "4":{"name":"P1 SMART BOMB","player":0},
-        "8":{"name":"P1 HYPERSPACE","player":0},
-        "64":{"name":"P1 REVERSE","player":0},
-        "128":{"name":"P1 Down","player":0}
+        "1":{"player":0,"name":"P1 FIRE"},
+        "2":{"player":0,"name":"P1 THRUST"},
+        "4":{"player":0,"name":"P1 SMART BOMB"},
+        "8":{"player":0,"name":"P1 HYPERSPACE"},
+        "40":{"player":0,"name":"P1 REVERSE"},
+        "80":{"player":0,"name":"P1 Down"}
       }
     },
     ":IN1":{
       "labels":{
-        "1":{"name":"P1 Up","player":0},
-        "2":{"name":"P1 INVISO","player":0}
+        "1":{"player":0,"name":"P1 Up"},
+        "2":{"player":0,"name":"P1 INVISO"}
       }
     }
   }

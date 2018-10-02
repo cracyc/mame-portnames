@@ -3,19 +3,19 @@
   "ports":{
     ":60":{
       "labels":{
-        "8":{"name":"P1 Green","player":0},
-        "16":{"name":"P1 Red","player":0},
-        "64":{"name":"P1 Yellow","player":0}
-      }
-    },
-    ":FAKEY":{
-      "labels":{
-        "255":{"name":"P1 Up / Down","player":0}
+        "8":{"player":0,"name":"P1 Green"},
+        "10":{"player":0,"name":"P1 Red"},
+        "40":{"player":0,"name":"P1 Yellow"}
       }
     },
     ":FAKEX":{
       "labels":{
-        "255":{"name":"P1 Left / Right","player":0}
+        "ff":{"player":0,"name":"P1 Left / Right"}
+      }
+    },
+    ":FAKEY":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Up / Down"}
       }
     }
   }

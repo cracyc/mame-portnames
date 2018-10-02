@@ -1,64 +1,64 @@
 {
   "romname":"hyprdriv",
   "ports":{
-    ":IN1":{
-      "labels":{
-        "4":{"name":"P1 Left Stick/Left","player":0},
-        "8":{"name":"P1 Left Stick/Right","player":0},
-        "16":{"name":"P1 Button 3","player":0},
-        "32":{"name":"P1 Button 4","player":0},
-        "64":{"name":"P1 Button 5","player":0}
-      }
-    },
-    ":DIPS":{
-      "labels":{
-        "1":{"name":"Coinage Source","player":0},
-        "62":{"name":"Coinage","player":0},
-        "128":{"name":"Power Up Test Loop","player":0},
-        "256":{"name":"Unknown","player":0},
-        "1536":{"name":"Resolution","player":0},
-        "6144":{"name":"Graphics Speed","player":0},
-        "8192":{"name":"Brake","player":0},
-        "16384":{"name":"Power On Self Test","player":0},
-        "32768":{"name":"Test Switch","player":0}
-      }
-    },
-    ":SYSTEM":{
-      "labels":{
-        "1":{"name":"Coin 1","player":0},
-        "2":{"name":"Coin 2","player":0},
-        "4":{"name":"1 Player Start","player":0},
-        "8":{"name":"Tilt","player":0},
-        "16":{"name":"Service Mode","player":0},
-        "32":{"name":"2 Players Start","player":0},
-        "64":{"name":"Service 1","player":0},
-        "128":{"name":"Coin 3","player":0},
-        "256":{"name":"Coin 4","player":0},
-        "512":{"name":"3 Players Start","player":0},
-        "1024":{"name":"4 Players Start","player":0},
-        "2048":{"name":"Volume Down","player":0},
-        "4096":{"name":"Volume Up","player":0},
-        "32768":{"name":"Bill 1","player":0}
-      }
-    },
     ":AN0":{
       "labels":{
-        "255":{"name":"AD Stick X","player":0}
-      }
-    },
-    ":AN3":{
-      "labels":{
-        "255":{"name":"AD Stick Y","player":0}
-      }
-    },
-    ":AN2":{
-      "labels":{
-        "255":{"name":"P1 Pedal 2","player":0}
+        "ff":{"player":0,"name":"AD Stick X"}
       }
     },
     ":AN1":{
       "labels":{
-        "255":{"name":"P1 Pedal 1","player":0}
+        "ff":{"player":0,"name":"P1 Pedal 1"}
+      }
+    },
+    ":AN2":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Pedal 2"}
+      }
+    },
+    ":AN3":{
+      "labels":{
+        "ff":{"player":0,"name":"AD Stick Y"}
+      }
+    },
+    ":DIPS":{
+      "labels":{
+        "1":{"player":0,"name":"Coinage Source"},
+        "3e":{"player":0,"name":"Coinage"},
+        "80":{"player":0,"name":"Power Up Test Loop"},
+        "100":{"player":0,"name":"Unknown"},
+        "600":{"player":0,"name":"Resolution"},
+        "1800":{"player":0,"name":"Graphics Speed"},
+        "2000":{"player":0,"name":"Brake"},
+        "4000":{"player":0,"name":"Power On Self Test"},
+        "8000":{"player":0,"name":"Test Switch"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "4":{"player":0,"name":"P1 Left Stick/Left"},
+        "8":{"player":0,"name":"P1 Left Stick/Right"},
+        "10":{"player":0,"name":"P1 Button 3"},
+        "20":{"player":0,"name":"P1 Button 4"},
+        "40":{"player":0,"name":"P1 Button 5"}
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"},
+        "4":{"player":0,"name":"1 Player Start"},
+        "8":{"player":0,"name":"Tilt"},
+        "10":{"player":0,"name":"Service Mode"},
+        "20":{"player":0,"name":"2 Players Start"},
+        "40":{"player":0,"name":"Service 1"},
+        "80":{"player":0,"name":"Coin 3"},
+        "100":{"player":0,"name":"Coin 4"},
+        "200":{"player":0,"name":"3 Players Start"},
+        "400":{"player":0,"name":"4 Players Start"},
+        "800":{"player":0,"name":"Volume Down"},
+        "1000":{"player":0,"name":"Volume Up"},
+        "8000":{"player":0,"name":"Bill 1"}
       }
     }
   }

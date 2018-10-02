@@ -1,28 +1,28 @@
 {
   "romname":"ssriders",
   "ports":{
-    ":P4":{
+    ":P1":{
       "labels":{
-        "16":{"name":"P4 Fire","player":3},
-        "32":{"name":"P4 Jump","player":3}
-      }
-    },
-    ":P3":{
-      "labels":{
-        "16":{"name":"P3 Fire","player":2},
-        "32":{"name":"P3 Jump","player":2}
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Jump"}
       }
     },
     ":P2":{
       "labels":{
-        "16":{"name":"P2 Fire","player":1},
-        "32":{"name":"P2 Jump","player":1}
+        "10":{"player":1,"name":"P2 Fire"},
+        "20":{"player":1,"name":"P2 Jump"}
       }
     },
-    ":P1":{
+    ":P3":{
       "labels":{
-        "16":{"name":"P1 Fire","player":0},
-        "32":{"name":"P1 Jump","player":0}
+        "10":{"player":2,"name":"P3 Fire"},
+        "20":{"player":2,"name":"P3 Jump"}
+      }
+    },
+    ":P4":{
+      "labels":{
+        "10":{"player":3,"name":"P4 Fire"},
+        "20":{"player":3,"name":"P4 Jump"}
       }
     }
   }

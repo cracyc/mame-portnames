@@ -3,30 +3,30 @@
   "ports":{
     ":BTN1":{
       "labels":{
-        "1":{"name":"P1 White 3","player":0},
-        "2":{"name":"P1 Black 2","player":0},
-        "4":{"name":"P1 White 2","player":0},
-        "8":{"name":"P1 Black 1","player":0},
-        "16":{"name":"P1 White 1","player":0},
-        "64":{"name":"P2 White 1","player":1},
-        "128":{"name":"P2 Black 1","player":1}
+        "1":{"player":0,"name":"P1 White 3"},
+        "2":{"player":0,"name":"P1 Black 2"},
+        "4":{"player":0,"name":"P1 White 2"},
+        "8":{"player":0,"name":"P1 Black 1"},
+        "10":{"player":0,"name":"P1 White 1"},
+        "40":{"player":1,"name":"P2 White 1"},
+        "80":{"player":1,"name":"P2 Black 1"}
       }
     },
     ":BTN2":{
       "labels":{
-        "1":{"name":"P2 White 2","player":1},
-        "2":{"name":"P2 Black 2","player":1},
-        "4":{"name":"P2 White 3","player":1}
+        "1":{"player":1,"name":"P2 White 2"},
+        "2":{"player":1,"name":"P2 Black 2"},
+        "4":{"player":1,"name":"P2 White 3"}
       }
     },
     ":TT1":{
       "labels":{
-        "255":{"name":"P1 Scratch /  Scratch","player":0}
+        "ff":{"player":0,"name":"P1 Scratch /  Scratch"}
       }
     },
     ":TT2":{
       "labels":{
-        "255":{"name":"P2 Scratch /  Scratch","player":1}
+        "ff":{"player":1,"name":"P2 Scratch /  Scratch"}
       }
     }
   }

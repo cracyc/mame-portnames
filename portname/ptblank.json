@@ -1,34 +1,34 @@
 {
   "romname":"ptblank",
   "ports":{
-    ":LIGHT1_X":{
+    ":LIGHT0_X":{
       "labels":{
-        "255":{"name":"P2 Right /  Left","player":1}
+        "ff":{"player":0,"name":"P1 Left / Right"}
       }
     },
     ":LIGHT0_Y":{
       "labels":{
-        "255":{"name":"P1 Up / Down","player":0}
+        "ff":{"player":0,"name":"P1 Up / Down"}
       }
     },
-    ":P2":{
+    ":LIGHT1_X":{
       "labels":{
-        "16":{"name":"P2 Fire","player":1}
+        "ff":{"player":1,"name":"P2 Right /  Left"}
       }
     },
     ":LIGHT1_Y":{
       "labels":{
-        "255":{"name":"P2 Down /  Up","player":1}
-      }
-    },
-    ":LIGHT0_X":{
-      "labels":{
-        "255":{"name":"P1 Left / Right","player":0}
+        "ff":{"player":1,"name":"P2 Down /  Up"}
       }
     },
     ":P1":{
       "labels":{
-        "16":{"name":"P1 Fire","player":0}
+        "10":{"player":0,"name":"P1 Fire"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "10":{"player":1,"name":"P2 Fire"}
       }
     }
   }

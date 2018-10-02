@@ -1,17 +1,17 @@
 {
   "romname":"elim2",
   "ports":{
-    ":D7D6":{
-      "labels":{
-        "64":{"player":0,"name":"P1 Rotate Left"}
-      }
-    },
     ":D5D4":{
       "labels":{
         "4":{"player":0,"name":"P1 Rotate Right"},
         "8":{"player":0,"name":"P1 Fire"},
-        "64":{"player":0,"name":"P1 Thrust"},
-        "128":{"player":1,"name":"P2 Rotate Left"}
+        "40":{"player":0,"name":"P1 Thrust"},
+        "80":{"player":1,"name":"P2 Rotate Left"}
+      }
+    },
+    ":D7D6":{
+      "labels":{
+        "40":{"player":0,"name":"P1 Rotate Left"}
       }
     },
     ":FC":{

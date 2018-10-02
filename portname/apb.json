@@ -6,14 +6,14 @@
         "2":{"player":0,"name":"Fire"}
       }
     },
-    ":LETA0":{
-      "labels":{
-        "255":{"player":0,"name":"Left / Right"}
-      }
-    },
     ":ADC1":{
       "labels":{
-        "255":{"player":0,"name":"Accelerate"}
+        "ff":{"player":0,"name":"Accelerate"}
+      }
+    },
+    ":LETA0":{
+      "labels":{
+        "ff":{"player":0,"name":"Left / Right"}
       }
     }
   }

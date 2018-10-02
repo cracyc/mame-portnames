@@ -3,14 +3,14 @@
   "ports":{
     ":CIA0PORTA":{
       "labels":{
-        "64":{"player":0,"name":"P1 Fire"},
-        "128":{"player":1,"name":"P2 Fire"}
+        "40":{"player":0,"name":"P1 Fire"},
+        "80":{"player":1,"name":"P2 Fire"}
       }
     },
     ":potgo":{
       "labels":{
-        "1024":{"player":0,"name":"P1 Button 2"},
-        "16384":{"player":1,"name":"P2 Button 2"}
+        "400":{"player":0,"name":"P1 Button 2"},
+        "4000":{"player":1,"name":"P2 Button 2"}
       }
     }
   }

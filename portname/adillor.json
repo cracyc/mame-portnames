@@ -1,9 +1,9 @@
 {
   "romname":"adillor",
   "ports":{
-    ":TRACKY":{
+    ":MCUP5B":{
       "labels":{
-        "255":{"player":0,"name":"Trackball Y"}
+        "1":{"player":0,"name":"P1 Button 1"}
       }
     },
     ":P1":{
@@ -12,18 +12,18 @@
         "2":{"player":1,"name":"Dev Service Exit"},
         "4":{"player":1,"name":"Dev Service Left"},
         "8":{"player":1,"name":"Dev Service Right"},
-        "16":{"player":1,"name":"Dev Service Up"},
-        "32":{"player":1,"name":"Dev Service Down"}
+        "10":{"player":1,"name":"Dev Service Up"},
+        "20":{"player":1,"name":"Dev Service Down"}
       }
     },
     ":TRACKX":{
       "labels":{
-        "255":{"player":0,"name":"Trackball X"}
+        "ff":{"player":0,"name":"Trackball X"}
       }
     },
-    ":MCUP5B":{
+    ":TRACKY":{
       "labels":{
-        "1":{"player":0,"name":"P1 Button 1"}
+        "ff":{"player":0,"name":"Trackball Y"}
       }
     }
   }

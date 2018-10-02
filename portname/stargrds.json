@@ -7,10 +7,10 @@
         "2":{"player":0,"name":"P1 Shoot Down"},
         "4":{"player":0,"name":"P1 Shoot Left"},
         "8":{"player":0,"name":"P1 Shoot Right"},
-        "16":{"player":0,"name":"P1 Move Up"},
-        "32":{"player":0,"name":"P1 Move Down"},
-        "64":{"player":0,"name":"P1 Move Left"},
-        "128":{"player":0,"name":"P1 Move Right"}
+        "10":{"player":0,"name":"P1 Move Up"},
+        "20":{"player":0,"name":"P1 Move Down"},
+        "40":{"player":0,"name":"P1 Move Left"},
+        "80":{"player":0,"name":"P1 Move Right"}
       }
     },
     ":MONO.IP2":{
@@ -19,10 +19,10 @@
         "2":{"player":1,"name":"P2 Shoot Down"},
         "4":{"player":1,"name":"P2 Shoot Left"},
         "8":{"player":1,"name":"P2 Shoot Right"},
-        "16":{"player":1,"name":"P2 Move Up"},
-        "32":{"player":1,"name":"P2 Move Down"},
-        "64":{"player":1,"name":"P2 Move Left"},
-        "128":{"player":1,"name":"P2 Move Right"}
+        "10":{"player":1,"name":"P2 Move Up"},
+        "20":{"player":1,"name":"P2 Move Down"},
+        "40":{"player":1,"name":"P2 Move Left"},
+        "80":{"player":1,"name":"P2 Move Right"}
       }
     },
     ":MONO.IP4":{
@@ -31,10 +31,10 @@
         "2":{"player":2,"name":"P3 Shoot Down"},
         "4":{"player":2,"name":"P3 Shoot Left"},
         "8":{"player":2,"name":"P3 Shoot Right"},
-        "16":{"player":2,"name":"P3 Move Up"},
-        "32":{"player":2,"name":"P3 Move Down"},
-        "64":{"player":2,"name":"P3 Move Left"},
-        "128":{"player":2,"name":"P3 Move Right"}
+        "10":{"player":2,"name":"P3 Move Up"},
+        "20":{"player":2,"name":"P3 Move Down"},
+        "40":{"player":2,"name":"P3 Move Left"},
+        "80":{"player":2,"name":"P3 Move Right"}
       }
     }
   }

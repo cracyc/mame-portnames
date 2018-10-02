@@ -10,12 +10,12 @@
     },
     ":STICKX":{
       "labels":{
-        "255":{"player":0,"name":"Left / Right"}
+        "ff":{"player":0,"name":"Left / Right"}
       }
     },
     ":STICKY":{
       "labels":{
-        "255":{"player":0,"name":"Up / Down"}
+        "ff":{"player":0,"name":"Up / Down"}
       }
     }
   }

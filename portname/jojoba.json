@@ -3,18 +3,18 @@
   "ports":{
     ":EXTRA":{
       "labels":{
-        "524288":{"name":"P1 Stand","player":0},
-        "1048576":{"name":"P2 Stand","player":1}
+        "80000":{"player":0,"name":"P1 Stand"},
+        "100000":{"player":1,"name":"P2 Stand"}
       }
     },
     ":INPUTS":{
       "labels":{
-        "16":{"name":"P1 Light","player":0},
-        "32":{"name":"P1 Medium","player":0},
-        "64":{"name":"P1 Strong","player":0},
-        "4096":{"name":"P2 Light","player":1},
-        "8192":{"name":"P2 Medium","player":1},
-        "16384":{"name":"P2 Strong","player":1}
+        "10":{"player":0,"name":"P1 Light"},
+        "20":{"player":0,"name":"P1 Medium"},
+        "40":{"player":0,"name":"P1 Strong"},
+        "1000":{"player":1,"name":"P2 Light"},
+        "2000":{"player":1,"name":"P2 Medium"},
+        "4000":{"player":1,"name":"P2 Strong"}
       }
     }
   }

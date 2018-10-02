@@ -1,24 +1,24 @@
 {
   "romname":"yiear",
   "ports":{
-    ":P2":{
-      "labels":{
-        "1":{"player":1,"name":"P2 Left"},
-        "2":{"player":1,"name":"P2 Right"},
-        "4":{"player":1,"name":"P2 Jump"},
-        "8":{"player":1,"name":"P2 Stoop Down"},
-        "16":{"player":1,"name":"P2 Punch"},
-        "32":{"player":1,"name":"P2 Kick"}
-      }
-    },
     ":P1":{
       "labels":{
         "1":{"player":0,"name":"P1 Left"},
         "2":{"player":0,"name":"P1 Right"},
         "4":{"player":0,"name":"P1 Jump"},
         "8":{"player":0,"name":"P1 Stoop Down"},
-        "16":{"player":0,"name":"P1 Punch"},
-        "32":{"player":0,"name":"P1 Kick"}
+        "10":{"player":0,"name":"P1 Punch"},
+        "20":{"player":0,"name":"P1 Kick"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Left"},
+        "2":{"player":1,"name":"P2 Right"},
+        "4":{"player":1,"name":"P2 Jump"},
+        "8":{"player":1,"name":"P2 Stoop Down"},
+        "10":{"player":1,"name":"P2 Punch"},
+        "20":{"player":1,"name":"P2 Kick"}
       }
     }
   }

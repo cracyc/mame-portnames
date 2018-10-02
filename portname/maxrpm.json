@@ -1,24 +1,24 @@
 {
   "romname":"maxrpm",
   "ports":{
-    ":MONO.IP1.ALT1":{
+    ":MONO.IP1":{
       "labels":{
-        "255":{"name":"P1 Accelerate","player":0}
+        "ff":{"player":1,"name":"P2 Accelerate"}
       }
     },
-    ":MONO.IP1.ALT3":{
+    ":MONO.IP1.ALT1":{
       "labels":{
-        "255":{"name":"P1 Left / Right","player":0}
+        "ff":{"player":0,"name":"P1 Accelerate"}
       }
     },
     ":MONO.IP1.ALT2":{
       "labels":{
-        "255":{"name":"P2 Right /  Left","player":1}
+        "ff":{"player":1,"name":"P2 Right /  Left"}
       }
     },
-    ":MONO.IP1":{
+    ":MONO.IP1.ALT3":{
       "labels":{
-        "255":{"name":"P2 Accelerate","player":1}
+        "ff":{"player":0,"name":"P1 Left / Right"}
       }
     }
   }

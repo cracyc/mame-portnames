@@ -1,29 +1,29 @@
 {
   "romname":"garyoret",
   "ports":{
-    ":DSW1":{
-      "labels":{
-        "1":{"player":0,"name":"Lives"},
-        "12":{"player":0,"name":"Difficulty"},
-        "64":{"player":0,"name":"Leave Off"},
-        "128":{"player":0,"name":"Unused"}
-      }
-    },
     ":DSW0":{
       "labels":{
         "3":{"player":0,"name":"Coin A"},
-        "12":{"player":0,"name":"Coin B"},
-        "32":{"player":0,"name":"Demo Sounds"},
-        "64":{"player":0,"name":"Flip Screen"},
-        "128":{"player":0,"name":"Unused"}
+        "c":{"player":0,"name":"Coin B"},
+        "20":{"player":0,"name":"Demo Sounds"},
+        "40":{"player":0,"name":"Flip Screen"},
+        "80":{"player":0,"name":"Unused"}
+      }
+    },
+    ":DSW1":{
+      "labels":{
+        "1":{"player":0,"name":"Lives"},
+        "c":{"player":0,"name":"Difficulty"},
+        "40":{"player":0,"name":"Leave Off"},
+        "80":{"player":0,"name":"Unused"}
       }
     },
     ":I8751":{
       "labels":{
-        "16":{"player":0,"name":"Service 1"},
-        "32":{"player":0,"name":"Coin 1"},
-        "64":{"player":0,"name":"Coin 2"},
-        "128":{"player":0,"name":"Coin 3"}
+        "10":{"player":0,"name":"Service 1"},
+        "20":{"player":0,"name":"Coin 1"},
+        "40":{"player":0,"name":"Coin 2"},
+        "80":{"player":0,"name":"Coin 3"}
       }
     },
     ":IN0":{
@@ -32,10 +32,10 @@
         "2":{"player":0,"name":"P1 Down"},
         "4":{"player":0,"name":"P1 Left"},
         "8":{"player":0,"name":"P1 Right"},
-        "16":{"player":0,"name":"P1 Button 1"},
-        "32":{"player":0,"name":"P1 Button 2"},
-        "64":{"player":0,"name":"1 Player Start"},
-        "128":{"player":0,"name":"2 Players Start"}
+        "10":{"player":0,"name":"P1 Button 1"},
+        "20":{"player":0,"name":"P1 Button 2"},
+        "40":{"player":0,"name":"1 Player Start"},
+        "80":{"player":0,"name":"2 Players Start"}
       }
     },
     ":IN1":{
@@ -44,8 +44,8 @@
         "2":{"player":1,"name":"P2 Down"},
         "4":{"player":1,"name":"P2 Left"},
         "8":{"player":1,"name":"P2 Right"},
-        "16":{"player":1,"name":"P2 Button 1"},
-        "32":{"player":1,"name":"P2 Button 2"}
+        "10":{"player":1,"name":"P2 Button 1"},
+        "20":{"player":1,"name":"P2 Button 2"}
       }
     }
   }

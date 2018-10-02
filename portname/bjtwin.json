@@ -3,10 +3,10 @@
   "ports":{
     ":IN1":{
       "labels":{
-        "16":{"player":0,"name":"P1 Jump"},
-        "32":{"player":0,"name":"P1 Button 2"},
-        "4096":{"player":1,"name":"P2 Jump"},
-        "8192":{"player":1,"name":"P2 Button 2"}
+        "10":{"player":0,"name":"P1 Jump"},
+        "20":{"player":0,"name":"P1 Button 2"},
+        "1000":{"player":1,"name":"P2 Jump"},
+        "2000":{"player":1,"name":"P2 Button 2"}
       }
     }
   }

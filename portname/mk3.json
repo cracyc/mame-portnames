@@ -3,12 +3,12 @@
   "ports":{
     ":IN0":{
       "labels":{
-        "16":{"player":0,"name":"P1 High Punch"},
-        "32":{"player":0,"name":"P1 Block"},
-        "64":{"player":0,"name":"P1 High Kick"},
-        "4096":{"player":1,"name":"P2 High Punch"},
-        "8192":{"player":1,"name":"P2 Block"},
-        "16384":{"player":1,"name":"P2 High Kick"}
+        "10":{"player":0,"name":"P1 High Punch"},
+        "20":{"player":0,"name":"P1 Block"},
+        "40":{"player":0,"name":"P1 High Kick"},
+        "1000":{"player":1,"name":"P2 High Punch"},
+        "2000":{"player":1,"name":"P2 Block"},
+        "4000":{"player":1,"name":"P2 High Kick"}
       }
     },
     ":IN1":{
@@ -16,9 +16,9 @@
         "1":{"player":0,"name":"P1 Low Punch"},
         "2":{"player":0,"name":"P1 Low Kick"},
         "4":{"player":0,"name":"P1 Run"},
-        "16":{"player":1,"name":"P2 Low Punch"},
-        "32":{"player":1,"name":"P2 Low Kick"},
-        "64":{"player":1,"name":"P2 Run"}
+        "10":{"player":1,"name":"P2 Low Punch"},
+        "20":{"player":1,"name":"P2 Low Kick"},
+        "40":{"player":1,"name":"P2 Run"}
       }
     }
   }

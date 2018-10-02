@@ -7,26 +7,26 @@
         "2":{"player":0,"name":"2 Players Start"},
         "4":{"player":0,"name":"Coin 1"},
         "8":{"player":0,"name":"Coin 2"},
-        "16":{"player":0,"name":"Service 1"},
-        "32":{"player":0,"name":"Service"},
-        "32768":{"player":0,"name":"Unknown"}
+        "10":{"player":0,"name":"Service 1"},
+        "20":{"player":0,"name":"Service"},
+        "8000":{"player":0,"name":"Unknown"}
       }
     },
     ":DSW":{
       "labels":{
         "3":{"player":0,"name":"Lives"},
-        "12":{"player":0,"name":"Difficulty"},
-        "16":{"player":0,"name":"Unknown"},
-        "32":{"player":0,"name":"Any Button to Start"},
-        "64":{"player":0,"name":"Demo Sounds"},
-        "128":{"player":0,"name":"Service Mode"},
-        "256":{"player":0,"name":"Flip Screen"},
-        "512":{"player":0,"name":"Cabinet"},
-        "1024":{"player":0,"name":"Coin Slots"},
-        "2048":{"player":0,"name":"Coin Mode"},
-        "12288":{"player":0,"name":"Coin A"},
-        "49152":{"player":0,"name":"Coin B"},
-        "61440":{"player":0,"name":"Coinage"}
+        "c":{"player":0,"name":"Difficulty"},
+        "10":{"player":0,"name":"Unknown"},
+        "20":{"player":0,"name":"Any Button to Start"},
+        "40":{"player":0,"name":"Demo Sounds"},
+        "80":{"player":0,"name":"Service Mode"},
+        "100":{"player":0,"name":"Flip Screen"},
+        "200":{"player":0,"name":"Cabinet"},
+        "400":{"player":0,"name":"Coin Slots"},
+        "800":{"player":0,"name":"Coin Mode"},
+        "3000":{"player":0,"name":"Coin A"},
+        "c000":{"player":0,"name":"Coin B"},
+        "f000":{"player":0,"name":"Coinage"}
       }
     },
     ":P1_P2":{
@@ -35,14 +35,14 @@
         "2":{"player":0,"name":"P1 Left"},
         "4":{"player":0,"name":"P1 Down"},
         "8":{"player":0,"name":"P1 Up"},
-        "64":{"player":0,"name":"P1 Button 2"},
-        "128":{"player":0,"name":"P1 Button 1"},
-        "256":{"player":1,"name":"P2 Right"},
-        "512":{"player":1,"name":"P2 Left"},
-        "1024":{"player":1,"name":"P2 Down"},
-        "2048":{"player":1,"name":"P2 Up"},
-        "16384":{"player":1,"name":"P2 Button 2"},
-        "32768":{"player":1,"name":"P2 Button 1"}
+        "40":{"player":0,"name":"P1 Button 2"},
+        "80":{"player":0,"name":"P1 Button 1"},
+        "100":{"player":1,"name":"P2 Right"},
+        "200":{"player":1,"name":"P2 Left"},
+        "400":{"player":1,"name":"P2 Down"},
+        "800":{"player":1,"name":"P2 Up"},
+        "4000":{"player":1,"name":"P2 Button 2"},
+        "8000":{"player":1,"name":"P2 Button 1"}
       }
     },
     ":P3_P4":{
@@ -51,18 +51,18 @@
         "2":{"player":2,"name":"P3 Left"},
         "4":{"player":2,"name":"P3 Down"},
         "8":{"player":2,"name":"P3 Up"},
-        "16":{"player":0,"name":"3 Players Start"},
-        "32":{"player":0,"name":"Coin 3"},
-        "64":{"player":2,"name":"P3 Button 2"},
-        "128":{"player":2,"name":"P3 Button 1"},
-        "256":{"player":3,"name":"P4 Right"},
-        "512":{"player":3,"name":"P4 Left"},
-        "1024":{"player":3,"name":"P4 Down"},
-        "2048":{"player":3,"name":"P4 Up"},
-        "4096":{"player":0,"name":"4 Players Start"},
-        "8192":{"player":0,"name":"Coin 4"},
-        "16384":{"player":3,"name":"P4 Button 2"},
-        "32768":{"player":3,"name":"P4 Button 1"}
+        "10":{"player":0,"name":"3 Players Start"},
+        "20":{"player":0,"name":"Coin 3"},
+        "40":{"player":2,"name":"P3 Button 2"},
+        "80":{"player":2,"name":"P3 Button 1"},
+        "100":{"player":3,"name":"P4 Right"},
+        "200":{"player":3,"name":"P4 Left"},
+        "400":{"player":3,"name":"P4 Down"},
+        "800":{"player":3,"name":"P4 Up"},
+        "1000":{"player":0,"name":"4 Players Start"},
+        "2000":{"player":0,"name":"Coin 4"},
+        "4000":{"player":3,"name":"P4 Button 2"},
+        "8000":{"player":3,"name":"P4 Button 1"}
       }
     }
   }

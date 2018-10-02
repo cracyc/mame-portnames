@@ -1,30 +1,30 @@
 {
   "romname":"sharrier",
   "ports":{
+    ":ADC0":{
+      "labels":{
+        "ff":{"player":0,"name":"AD Stick X"}
+      }
+    },
     ":ADC1":{
       "labels":{
-        "255":{"player":0,"name":"AD Stick Y"}
+        "ff":{"player":0,"name":"AD Stick Y"}
+      }
+    },
+    ":COINAGE":{
+      "labels":{
+        "f":{"player":0,"name":"Coin A"},
+        "f0":{"player":0,"name":"Coin B"}
       }
     },
     ":DSW":{
       "labels":{
         "1":{"player":0,"name":"Cabinet"},
         "2":{"player":0,"name":"Demo Sounds"},
-        "12":{"player":0,"name":"Lives"},
-        "16":{"player":0,"name":"Bonus Life"},
-        "32":{"player":0,"name":"Trial Time"},
-        "192":{"player":0,"name":"Difficulty"}
-      }
-    },
-    ":COINAGE":{
-      "labels":{
-        "15":{"player":0,"name":"Coin A"},
-        "240":{"player":0,"name":"Coin B"}
-      }
-    },
-    ":ADC0":{
-      "labels":{
-        "255":{"player":0,"name":"AD Stick X"}
+        "c":{"player":0,"name":"Lives"},
+        "10":{"player":0,"name":"Bonus Life"},
+        "20":{"player":0,"name":"Trial Time"},
+        "c0":{"player":0,"name":"Difficulty"}
       }
     },
     ":SERVICE":{
@@ -33,10 +33,10 @@
         "2":{"player":0,"name":"Coin 2"},
         "4":{"player":0,"name":"Service Mode"},
         "8":{"player":0,"name":"Service 1"},
-        "16":{"player":0,"name":"1 Player Start"},
-        "32":{"player":0,"name":"P1 Button 1"},
-        "64":{"player":0,"name":"P1 Button 2"},
-        "128":{"player":0,"name":"P1 Button 3"}
+        "10":{"player":0,"name":"1 Player Start"},
+        "20":{"player":0,"name":"P1 Button 1"},
+        "40":{"player":0,"name":"P1 Button 2"},
+        "80":{"player":0,"name":"P1 Button 3"}
       }
     }
   }

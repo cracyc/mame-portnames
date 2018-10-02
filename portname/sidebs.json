@@ -1,37 +1,37 @@
 {
   "romname":"sidebs",
   "ports":{
-    ":UNUSED":{
-      "labels":{
-        "1":{"player":0,"name":"View Switch"},
-        "64":{"player":0,"name":"Dev Debug"}
-      }
-    },
     ":AN.0":{
       "labels":{
-        "255":{"player":0,"name":"Steering Wheel"}
-      }
-    },
-    ":SERVICE":{
-      "labels":{
-        "8":{"player":0,"name":"Service Mode"}
+        "ff":{"player":0,"name":"Steering Wheel"}
       }
     },
     ":AN.1":{
       "labels":{
-        "255":{"player":0,"name":"Gas Pedal"}
+        "ff":{"player":0,"name":"Gas Pedal"}
       }
     },
     ":AN.2":{
       "labels":{
-        "255":{"player":0,"name":"Brake Pedal"}
+        "ff":{"player":0,"name":"Brake Pedal"}
+      }
+    },
+    ":BUTTONS":{
+      "labels":{
+        "1":{"player":0,"name":"Shift Up"},
+        "2":{"player":0,"name":"Shift Down"}
       }
     },
     ":COINS":{
       "labels":{
         "2":{"player":0,"name":"Dev Skip RAM Test"},
-        "16":{"player":0,"name":"Coin 1"},
-        "32":{"player":0,"name":"Coin 2"}
+        "10":{"player":0,"name":"Coin 1"},
+        "20":{"player":0,"name":"Coin 2"}
+      }
+    },
+    ":SERVICE":{
+      "labels":{
+        "8":{"player":0,"name":"Service Mode"}
       }
     },
     ":START":{
@@ -40,10 +40,10 @@
         "2":{"player":0,"name":"Service 1"}
       }
     },
-    ":BUTTONS":{
+    ":UNUSED":{
       "labels":{
-        "1":{"player":0,"name":"Shift Up"},
-        "2":{"player":0,"name":"Shift Down"}
+        "1":{"player":0,"name":"View Switch"},
+        "40":{"player":0,"name":"Dev Debug"}
       }
     }
   }

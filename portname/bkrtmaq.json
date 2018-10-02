@@ -1,20 +1,20 @@
 {
   "romname":"bkrtmaq",
   "ports":{
-    ":P2":{
-      "labels":{
-        "1":{"name":"P2 4","player":1},
-        "2":{"name":"P2 3","player":1},
-        "4":{"name":"P2 2","player":1},
-        "8":{"name":"P2 1","player":1}
-      }
-    },
     ":P1":{
       "labels":{
-        "1":{"name":"P1 4","player":0},
-        "2":{"name":"P1 3","player":0},
-        "4":{"name":"P1 2","player":0},
-        "8":{"name":"P1 1","player":0}
+        "1":{"player":0,"name":"P1 4"},
+        "2":{"player":0,"name":"P1 3"},
+        "4":{"player":0,"name":"P1 2"},
+        "8":{"player":0,"name":"P1 1"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 4"},
+        "2":{"player":1,"name":"P2 3"},
+        "4":{"player":1,"name":"P2 2"},
+        "8":{"player":1,"name":"P2 1"}
       }
     }
   }

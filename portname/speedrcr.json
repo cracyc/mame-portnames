@@ -3,19 +3,19 @@
   "ports":{
     ":ACCEL":{
       "labels":{
-        "255":{"player":0,"name":"Accelerate"}
+        "ff":{"player":0,"name":"Accelerate"}
       }
     },
     ":IN2":{
       "labels":{
-        "16":{"player":0,"name":"C"},
-        "32":{"player":0,"name":"B"},
-        "64":{"player":0,"name":"A"}
+        "10":{"player":0,"name":"C"},
+        "20":{"player":0,"name":"B"},
+        "40":{"player":0,"name":"A"}
       }
     },
     ":WHEEL":{
       "labels":{
-        "255":{"player":0,"name":"Left / Right"}
+        "ff":{"player":0,"name":"Left / Right"}
       }
     }
   }

@@ -1,12 +1,20 @@
 {
   "romname":"blockgal",
   "ports":{
-    ":P1":{"labels":{"255":{"player":0,"name":"P1 Dial"}}},
-    ":P2":{"labels":{"255":{"player":1,"name":"P2 Dial"}}},
+    ":P1":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Dial"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Dial"}
+      }
+    },
     ":SYSTEM":{
       "labels":{
-        "64":{"player":0,"name":"P1 Button 1"},
-        "128":{"player":0,"name":"P2 Button 1"}
+        "40":{"player":0,"name":"P1 Button 1"},
+        "80":{"player":0,"name":"P2 Button 1"}
       }
     }
   }

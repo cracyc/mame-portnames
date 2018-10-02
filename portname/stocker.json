@@ -1,14 +1,14 @@
 {
   "romname":"stocker",
   "ports":{
-    ":IN1":{
-      "labels":{
-        "2":{"name":"High / Low","player":0}
-      }
-    },
     ":AN3":{
       "labels":{
-        "255":{"name":"Left / Right","player":0}
+        "ff":{"player":0,"name":"Left / Right"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "2":{"player":0,"name":"High / Low"}
       }
     }
   }

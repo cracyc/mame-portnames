@@ -1,24 +1,28 @@
 {
   "romname":"horekid",
   "ports":{
-    ":IN1":{
+    ":IN0":{
       "labels":{
-        "256":{"player":0,"name":"1 Player Start"},
-        "512":{"player":0,"name":"2 Players Start"},
-        "1024":{"player":0,"name":"Coin 1"},
-        "2048":{"player":0,"name":"Coin 2"},
-        "4096":{"player":0,"name":"Service 1"},
-        "8192":{"player":0,"name":"Service Mode"}
+        "3":{"player":0,"name":"Lives"},
+        "c":{"player":0,"name":"Bonus Life"},
+        "10":{"player":0,"name":"Demo Sounds"},
+        "20":{"player":0,"name":"Cabinet"},
+        "c0":{"player":0,"name":"Difficulty"},
+        "300":{"player":0,"name":"Coin A"},
+        "c00":{"player":0,"name":"Coin B"},
+        "1000":{"player":0,"name":"Unused"},
+        "2000":{"player":0,"name":"Flip Screen"},
+        "c000":{"player":0,"name":"Debug Mode"}
       }
     },
-    ":IN3":{
+    ":IN1":{
       "labels":{
-        "1":{"player":0,"name":"P1 Up"},
-        "2":{"player":0,"name":"P1 Down"},
-        "4":{"player":0,"name":"P1 Left"},
-        "8":{"player":0,"name":"P1 Right"},
-        "16":{"player":0,"name":"P1 Button 1"},
-        "32":{"player":0,"name":"P1 Button 2"}
+        "100":{"player":0,"name":"1 Player Start"},
+        "200":{"player":0,"name":"2 Players Start"},
+        "400":{"player":0,"name":"Coin 1"},
+        "800":{"player":0,"name":"Coin 2"},
+        "1000":{"player":0,"name":"Service 1"},
+        "2000":{"player":0,"name":"Service Mode"}
       }
     },
     ":IN2":{
@@ -27,22 +31,18 @@
         "2":{"player":1,"name":"P2 Down"},
         "4":{"player":1,"name":"P2 Left"},
         "8":{"player":1,"name":"P2 Right"},
-        "16":{"player":1,"name":"P2 Button 1"},
-        "32":{"player":1,"name":"P2 Button 2"}
+        "10":{"player":1,"name":"P2 Button 1"},
+        "20":{"player":1,"name":"P2 Button 2"}
       }
     },
-    ":IN0":{
+    ":IN3":{
       "labels":{
-        "3":{"player":0,"name":"Lives"},
-        "12":{"player":0,"name":"Bonus Life"},
-        "16":{"player":0,"name":"Demo Sounds"},
-        "32":{"player":0,"name":"Cabinet"},
-        "192":{"player":0,"name":"Difficulty"},
-        "768":{"player":0,"name":"Coin A"},
-        "3072":{"player":0,"name":"Coin B"},
-        "4096":{"player":0,"name":"Unused"},
-        "8192":{"player":0,"name":"Flip Screen"},
-        "49152":{"player":0,"name":"Debug Mode"}
+        "1":{"player":0,"name":"P1 Up"},
+        "2":{"player":0,"name":"P1 Down"},
+        "4":{"player":0,"name":"P1 Left"},
+        "8":{"player":0,"name":"P1 Right"},
+        "10":{"player":0,"name":"P1 Button 1"},
+        "20":{"player":0,"name":"P1 Button 2"}
       }
     }
   }

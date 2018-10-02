@@ -3,20 +3,20 @@
   "ports":{
     ":MCUIPT":{
       "labels":{
-        "2":{"name":"P1 Up","player":0},
-        "4":{"name":"P1 Down","player":0},
-        "8":{"name":"P1 Left","player":0},
-        "16":{"name":"P1 Right","player":0},
-        "32":{"name":"P1 A","player":0},
-        "64":{"name":"P1 B","player":0},
-        "128":{"name":"P1 C","player":0},
-        "131072":{"name":"P2 Up","player":1},
-        "262144":{"name":"P2 Down","player":1},
-        "524288":{"name":"P2 Left","player":1},
-        "1048576":{"name":"P2 Right","player":1},
-        "2097152":{"name":"P2 A","player":1},
-        "4194304":{"name":"P2 B","player":1},
-        "8388608":{"name":"P2 C","player":1}
+        "2":{"player":0,"name":"P1 Up"},
+        "4":{"player":0,"name":"P1 Down"},
+        "8":{"player":0,"name":"P1 Left"},
+        "10":{"player":0,"name":"P1 Right"},
+        "20":{"player":0,"name":"P1 A"},
+        "40":{"player":0,"name":"P1 B"},
+        "80":{"player":0,"name":"P1 C"},
+        "20000":{"player":1,"name":"P2 Up"},
+        "40000":{"player":1,"name":"P2 Down"},
+        "80000":{"player":1,"name":"P2 Left"},
+        "100000":{"player":1,"name":"P2 Right"},
+        "200000":{"player":1,"name":"P2 A"},
+        "400000":{"player":1,"name":"P2 B"},
+        "800000":{"player":1,"name":"P2 C"}
       }
     }
   }

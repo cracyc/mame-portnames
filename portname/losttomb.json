@@ -3,7 +3,7 @@
   "ports":{
     ":IN1":{
       "labels":{
-        "64":{"name":"P1 Whip","player":0}
+        "40":{"player":0,"name":"P1 Whip"}
       }
     }
   }

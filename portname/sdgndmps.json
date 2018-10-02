@@ -3,43 +3,43 @@
   "ports":{
     ":COIN":{
       "labels":{
-        "1":{"name":"Coin 1","player":0},
-        "2":{"name":"Coin 2","player":0}
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"}
       }
     },
     ":DSW":{
       "labels":{
-        "15":{"name":"Coin B","player":0},
-        "240":{"name":"Coin A","player":0},
-        "768":{"name":"Lives","player":0},
-        "3072":{"name":"Difficulty","player":0},
-        "4096":{"name":"Demo Sounds","player":0},
-        "8192":{"name":"Allow Continue","player":0},
-        "32768":{"name":"Unused","player":0}
+        "f":{"player":0,"name":"Coin B"},
+        "f0":{"player":0,"name":"Coin A"},
+        "300":{"player":0,"name":"Lives"},
+        "c00":{"player":0,"name":"Difficulty"},
+        "1000":{"player":0,"name":"Demo Sounds"},
+        "2000":{"player":0,"name":"Allow Continue"},
+        "8000":{"player":0,"name":"Unused"}
       }
     },
     ":P1_P2":{
       "labels":{
-        "1":{"name":"P1 Up","player":0},
-        "2":{"name":"P1 Down","player":0},
-        "4":{"name":"P1 Left","player":0},
-        "8":{"name":"P1 Right","player":0},
-        "16":{"name":"P1 Button 1","player":0},
-        "32":{"name":"P1 Button 2","player":0},
-        "256":{"name":"P2 Up","player":1},
-        "512":{"name":"P2 Down","player":1},
-        "1024":{"name":"P2 Left","player":1},
-        "2048":{"name":"P2 Right","player":1},
-        "4096":{"name":"P2 Button 1","player":1},
-        "8192":{"name":"P2 Button 2","player":1}
+        "1":{"player":0,"name":"P1 Up"},
+        "2":{"player":0,"name":"P1 Down"},
+        "4":{"player":0,"name":"P1 Left"},
+        "8":{"player":0,"name":"P1 Right"},
+        "10":{"player":0,"name":"P1 Button 1"},
+        "20":{"player":0,"name":"P1 Button 2"},
+        "100":{"player":1,"name":"P2 Up"},
+        "200":{"player":1,"name":"P2 Down"},
+        "400":{"player":1,"name":"P2 Left"},
+        "800":{"player":1,"name":"P2 Right"},
+        "1000":{"player":1,"name":"P2 Button 1"},
+        "2000":{"player":1,"name":"P2 Button 2"}
       }
     },
     ":SYSTEM":{
       "labels":{
-        "1":{"name":"1 Player Start","player":0},
-        "16":{"name":"2 Players Start","player":0},
-        "256":{"name":"Service Mode","player":0},
-        "4096":{"name":"Service 1","player":0}
+        "1":{"player":0,"name":"1 Player Start"},
+        "10":{"player":0,"name":"2 Players Start"},
+        "100":{"player":0,"name":"Service Mode"},
+        "1000":{"player":0,"name":"Service 1"}
       }
     }
   }

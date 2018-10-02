@@ -1,16 +1,16 @@
 {
   "romname":"turbo",
   "ports":{
+    ":DIAL":{
+      "labels":{
+        "ff":{"player":0,"name":"Left / Right"}
+      }
+    },
     ":INPUT":{
       "labels":{
         "1":{"player":0,"name":"Lo"},
         "2":{"player":0,"name":"Accelerate"},
         "4":{"player":0,"name":"Hi"}
-      }
-    },
-    ":DIAL":{
-      "labels":{
-        "255":{"player":0,"name":"Left / Right"}
       }
     }
   }

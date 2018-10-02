@@ -7,14 +7,14 @@
         "2":{"player":0,"name":"P1 Duck"},
         "4":{"player":0,"name":"P1 Left"},
         "8":{"player":0,"name":"P1 Right"},
-        "16":{"player":0,"name":"P1 Attack"},
-        "32":{"player":0,"name":"P1 Jump"},
-        "256":{"player":1,"name":"P2 Aim Up"},
-        "512":{"player":1,"name":"P2 Duck"},
-        "1024":{"player":1,"name":"P2 Left"},
-        "2048":{"player":1,"name":"P2 Right"},
-        "4096":{"player":1,"name":"P2 Attack"},
-        "8192":{"player":1,"name":"P2 Jump"}
+        "10":{"player":0,"name":"P1 Attack"},
+        "20":{"player":0,"name":"P1 Jump"},
+        "100":{"player":1,"name":"P2 Aim Up"},
+        "200":{"player":1,"name":"P2 Duck"},
+        "400":{"player":1,"name":"P2 Left"},
+        "800":{"player":1,"name":"P2 Right"},
+        "1000":{"player":1,"name":"P2 Attack"},
+        "2000":{"player":1,"name":"P2 Jump"}
       }
     }
   }

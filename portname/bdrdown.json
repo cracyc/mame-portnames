@@ -3,22 +3,22 @@
   "ports":{
     ":P1":{
       "labels":{
-        "512":{"player":0,"name":"P1 Fire"},
-        "256":{"player":0,"name":"P1 Break Laser"},
-        "128":{"player":0,"name":"P1 ..."},
-        "64":{"player":0,"name":"P1 ..."},
-        "32":{"player":0,"name":"P1 ..."},
-        "16":{"player":0,"name":"P1 ..."}
+        "10":{"player":0,"name":"P1 ..."},
+        "20":{"player":0,"name":"P1 ..."},
+        "40":{"player":0,"name":"P1 ..."},
+        "80":{"player":0,"name":"P1 ..."},
+        "100":{"player":0,"name":"P1 Break Laser"},
+        "200":{"player":0,"name":"P1 Fire"}
       }
     },
     ":P2":{
       "labels":{
-        "512":{"player":1,"name":"P2 Fire"},
-        "256":{"player":1,"name":"P2 Break Laser"},
-        "128":{"player":1,"name":"P2 ..."},
-        "64":{"player":1,"name":"P2 ..."},
-        "32":{"player":1,"name":"P2 ..."},
-        "16":{"player":1,"name":"P2 ..."}
+        "10":{"player":1,"name":"P2 ..."},
+        "20":{"player":1,"name":"P2 ..."},
+        "40":{"player":1,"name":"P2 ..."},
+        "80":{"player":1,"name":"P2 ..."},
+        "100":{"player":1,"name":"P2 Break Laser"},
+        "200":{"player":1,"name":"P2 Fire"}
       }
     }
   }

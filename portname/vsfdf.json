@@ -3,7 +3,7 @@
   "ports":{
     ":IN0":{
       "labels":{
-        "128":{"player":0,"name":"P1 B"}
+        "80":{"player":0,"name":"P1 B"}
       }
     }
   }

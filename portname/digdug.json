@@ -1,6 +1,12 @@
 {
   "romname":"digdug",
   "ports":{
+    ":IN0L":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Pump"},
+        "2":{"player":1,"name":"P2 Pump"}
+      }
+    },
     ":IN1H":{
       "labels":{
         "1":{"player":1,"name":"P2 Up"},
@@ -15,12 +21,6 @@
         "2":{"player":0,"name":"P1 Right"},
         "4":{"player":0,"name":"P1 Down"},
         "8":{"player":0,"name":"P1 Left"}
-      }
-    },
-    ":IN0L":{
-      "labels":{
-        "1":{"player":0,"name":"P1 Pump"},
-        "2":{"player":1,"name":"P2 Pump"}
       }
     }
   }

@@ -1,24 +1,24 @@
 {
   "romname":"zunkyou",
   "ports":{
-    ":P2":{
-      "labels":{
-        "1":{"player":1,"name":"P2 Attack"},
-        "2":{"player":1,"name":"P2 Special Attack"},
-        "16":{"player":1,"name":"P2 Down"},
-        "32":{"player":1,"name":"P2 Up"},
-        "64":{"player":1,"name":"P2 Right"},
-        "128":{"player":1,"name":"P2 Left"}
-      }
-    },
     ":P1":{
       "labels":{
         "1":{"player":0,"name":"P1 Attack"},
         "2":{"player":0,"name":"P1 Special Attack"},
-        "16":{"player":0,"name":"P1 Down"},
-        "32":{"player":0,"name":"P1 Up"},
-        "64":{"player":0,"name":"P1 Right"},
-        "128":{"player":0,"name":"P1 Left"}
+        "10":{"player":0,"name":"P1 Down"},
+        "20":{"player":0,"name":"P1 Up"},
+        "40":{"player":0,"name":"P1 Right"},
+        "80":{"player":0,"name":"P1 Left"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Attack"},
+        "2":{"player":1,"name":"P2 Special Attack"},
+        "10":{"player":1,"name":"P2 Down"},
+        "20":{"player":1,"name":"P2 Up"},
+        "40":{"player":1,"name":"P2 Right"},
+        "80":{"player":1,"name":"P2 Left"}
       }
     }
   }

@@ -1,37 +1,24 @@
 {
   "romname":"manxtt",
   "ports":{
-    ":IN4":{
+    ":ANA0":{
       "labels":{
-      }
-    },
-    ":IN3":{
-      "labels":{
-      }
-    },
-    ":ANA2":{
-      "labels":{
-        "255":{"player":0,"name":"Paddle"}
-      }
-    },
-    ":IN2":{
-      "labels":{
-        "16":{"player":0,"name":"Shift Up"},
-        "32":{"player":0,"name":"Shift Down"}
+        "ff":{"player":0,"name":"P1 Pedal 1"}
       }
     },
     ":ANA1":{
       "labels":{
-        "255":{"player":0,"name":"P1 Pedal 2"}
+        "ff":{"player":0,"name":"P1 Pedal 2"}
       }
     },
-    ":IN1":{
+    ":ANA2":{
       "labels":{
+        "ff":{"player":0,"name":"Paddle"}
       }
     },
-    ":ANA0":{
+    ":DSW":{
       "labels":{
-        "255":{"player":0,"name":"P1 Pedal 1"}
+        "80":{"player":0,"name":"Unknown"}
       }
     },
     ":IN0":{
@@ -40,12 +27,25 @@
         "2":{"player":0,"name":"Coin 2"},
         "4":{"player":0,"name":"Service Mode"},
         "8":{"player":0,"name":"Service 1"},
-        "64":{"player":0,"name":"P1 Start / VR"}
+        "40":{"player":0,"name":"P1 Start / VR"}
       }
     },
-    ":DSW":{
+    ":IN1":{
       "labels":{
-        "128":{"player":0,"name":"Unknown"}
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "10":{"player":0,"name":"Shift Up"},
+        "20":{"player":0,"name":"Shift Down"}
+      }
+    },
+    ":IN3":{
+      "labels":{
+      }
+    },
+    ":IN4":{
+      "labels":{
       }
     }
   }

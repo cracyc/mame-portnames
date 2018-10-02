@@ -1,21 +1,16 @@
 {
   "romname":"crgolf",
   "ports":{
-    ":STICK0":{
-      "labels":{
-        "255":{"player":0,"name":"P1 Decrease Swing Angle / Increase Swing Angle"}
-      }
-    },
     ":P1":{
       "labels":{
         "1":{"player":0,"name":"P1 Club Select"},
         "2":{"player":0,"name":"P1 Address Up"},
         "4":{"player":0,"name":"P1 Address Down"},
         "8":{"player":0,"name":"P1 Address Left"},
-        "16":{"player":0,"name":"P1 Address Right"},
-        "32":{"player":0,"name":"P1 Left"},
-        "64":{"player":0,"name":"P1 Right"},
-        "128":{"player":0,"name":"P1 Swing"}
+        "10":{"player":0,"name":"P1 Address Right"},
+        "20":{"player":0,"name":"P1 Left"},
+        "40":{"player":0,"name":"P1 Right"},
+        "80":{"player":0,"name":"P1 Swing"}
       }
     },
     ":P2":{
@@ -24,15 +19,20 @@
         "2":{"player":1,"name":"P2 Address Up"},
         "4":{"player":1,"name":"P2 Address Down"},
         "8":{"player":1,"name":"P2 Address Left"},
-        "16":{"player":1,"name":"P2 Address Right"},
-        "32":{"player":1,"name":"P2 Left"},
-        "64":{"player":1,"name":"P2 Right"},
-        "128":{"player":1,"name":"P2 Swing"}
+        "10":{"player":1,"name":"P2 Address Right"},
+        "20":{"player":1,"name":"P2 Left"},
+        "40":{"player":1,"name":"P2 Right"},
+        "80":{"player":1,"name":"P2 Swing"}
+      }
+    },
+    ":STICK0":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Decrease Swing Angle / Increase Swing Angle"}
       }
     },
     ":STICK1":{
       "labels":{
-        "255":{"player":1,"name":"P2 Increase Swing Angle /  Decrease Swing Angle"}
+        "ff":{"player":1,"name":"P2 Increase Swing Angle /  Decrease Swing Angle"}
       }
     }
   }

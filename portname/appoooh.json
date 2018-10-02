@@ -1,22 +1,22 @@
 {
   "romname":"appoooh",
   "ports":{
-    ":P1":{
-      "labels":{
-        "16":{"player":0,"name":"P1 Button 1"},
-        "128":{"player":0,"name":"P1 Button 2"}
-      }
-    },
-    ":P2":{
-      "labels":{
-        "16":{"player":1,"name":"P2 Button 1"},
-        "128":{"player":1,"name":"P2 Button 2"}
-      }
-    },
     ":BUTTON3":{
       "labels":{
         "1":{"player":0,"name":"P1 Button 3"},
         "2":{"player":1,"name":"P2 Button 3"}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "10":{"player":0,"name":"P1 Button 1"},
+        "80":{"player":0,"name":"P1 Button 2"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "10":{"player":1,"name":"P2 Button 1"},
+        "80":{"player":1,"name":"P2 Button 2"}
       }
     }
   }

@@ -1,37 +1,37 @@
 {
   "romname":"superchs",
   "ports":{
-    ":SOUND":{
+    ":ACCEL":{
       "labels":{
-        "255":{"name":"PCB - Sound Volume","player":0}
+        "ff":{"player":0,"name":"Gas Pedal"}
       }
     },
     ":COINS":{
       "labels":{
-        "8":{"name":"Freeze Screen","player":0},
-        "16":{"name":"Service Mode","player":0},
-        "32":{"name":"Service 1","player":0},
-        "64":{"name":"Coin 2","player":0},
-        "128":{"name":"Coin 1","player":0}
+        "8":{"player":0,"name":"Freeze Screen"},
+        "10":{"player":0,"name":"Service Mode"},
+        "20":{"player":0,"name":"Service 1"},
+        "40":{"player":0,"name":"Coin 2"},
+        "80":{"player":0,"name":"Coin 1"}
+      }
+    },
+    ":SOUND":{
+      "labels":{
+        "ff":{"player":0,"name":"PCB - Sound Volume"}
       }
     },
     ":SWITCHES":{
       "labels":{
-        "1":{"name":"Seat Center","player":0},
-        "16":{"name":"Nitro","player":0},
-        "32":{"name":"Shifter","player":0},
-        "64":{"name":"Brake Switch","player":0},
-        "128":{"name":"1 Player Start","player":0}
-      }
-    },
-    ":ACCEL":{
-      "labels":{
-        "255":{"name":"Gas Pedal","player":0}
+        "1":{"player":0,"name":"Seat Center"},
+        "10":{"player":0,"name":"Nitro"},
+        "20":{"player":0,"name":"Shifter"},
+        "40":{"player":0,"name":"Brake Switch"},
+        "80":{"player":0,"name":"1 Player Start"}
       }
     },
     ":WHEEL":{
       "labels":{
-        "255":{"name":"Steering Wheel","player":0}
+        "ff":{"player":0,"name":"Steering Wheel"}
       }
     }
   }

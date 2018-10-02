@@ -3,22 +3,22 @@
   "ports":{
     ":P1_P2":{
       "labels":{
-        "16":{"player":0,"name":"P1 Attack"},
-        "32":{"player":0,"name":"P1 Jump"},
-        "64":{"player":0,"name":"P1 ..."},
-        "4096":{"player":1,"name":"P2 Attack"},
-        "8192":{"player":1,"name":"P2 Jump"},
-        "16384":{"player":1,"name":"P2 ..."}
+        "10":{"player":0,"name":"P1 Attack"},
+        "20":{"player":0,"name":"P1 Jump"},
+        "40":{"player":0,"name":"P1 ..."},
+        "1000":{"player":1,"name":"P2 Attack"},
+        "2000":{"player":1,"name":"P2 Jump"},
+        "4000":{"player":1,"name":"P2 ..."}
       }
     },
     ":P3_P4":{
       "labels":{
-        "16":{"player":2,"name":"P3 Attack"},
-        "32":{"player":2,"name":"P3 Jump"},
-        "64":{"player":2,"name":"P3 ..."},
-        "4096":{"player":3,"name":"P4 Attack"},
-        "8192":{"player":3,"name":"P4 Jump"},
-        "16384":{"player":3,"name":"P4 ..."}
+        "10":{"player":2,"name":"P3 Attack"},
+        "20":{"player":2,"name":"P3 Jump"},
+        "40":{"player":2,"name":"P3 ..."},
+        "1000":{"player":3,"name":"P4 Attack"},
+        "2000":{"player":3,"name":"P4 Jump"},
+        "4000":{"player":3,"name":"P4 ..."}
       }
     }
   }

@@ -7,7 +7,7 @@
         "2":{"player":0,"name":"P1 Left"},
         "4":{"player":0,"name":"P1 Up"},
         "8":{"player":0,"name":"P1 Down"},
-        "16":{"player":0,"name":"P1 Punch"}
+        "10":{"player":0,"name":"P1 Punch"}
       }
     },
     ":P2":{
@@ -16,7 +16,7 @@
         "2":{"player":1,"name":"P2 Left"},
         "4":{"player":1,"name":"P2 Up"},
         "8":{"player":1,"name":"P2 Down"},
-        "16":{"player":1,"name":"P2 Punch"}
+        "10":{"player":1,"name":"P2 Punch"}
       }
     }
   }

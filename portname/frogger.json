@@ -3,30 +3,30 @@
   "ports":{
     ":IN0":{
       "labels":{
-        "1":{"name":"P2 Up","player":1},
-        "4":{"name":"Service 1","player":0},
-        "16":{"name":"P1 Right","player":0},
-        "32":{"name":"P1 Left","player":0},
-        "64":{"name":"Coin 2","player":0},
-        "128":{"name":"Coin 1","player":0}
+        "1":{"player":1,"name":"P2 Up"},
+        "4":{"player":0,"name":"Service 1"},
+        "10":{"player":0,"name":"P1 Right"},
+        "20":{"player":0,"name":"P1 Left"},
+        "40":{"player":0,"name":"Coin 2"},
+        "80":{"player":0,"name":"Coin 1"}
       }
     },
     ":IN1":{
       "labels":{
-        "3":{"name":"Lives","player":0},
-        "16":{"name":"P2 Right","player":1},
-        "32":{"name":"P2 Left","player":1},
-        "64":{"name":"2 Players Start","player":0},
-        "128":{"name":"1 Player Start","player":0}
+        "3":{"player":0,"name":"Lives"},
+        "10":{"player":1,"name":"P2 Right"},
+        "20":{"player":1,"name":"P2 Left"},
+        "40":{"player":0,"name":"2 Players Start"},
+        "80":{"player":0,"name":"1 Player Start"}
       }
     },
     ":IN2":{
       "labels":{
-        "1":{"name":"P2 Down","player":1},
-        "6":{"name":"Coinage","player":0},
-        "8":{"name":"Cabinet","player":0},
-        "16":{"name":"P1 Up","player":0},
-        "64":{"name":"P1 Down","player":0}
+        "1":{"player":1,"name":"P2 Down"},
+        "6":{"player":0,"name":"Coinage"},
+        "8":{"player":0,"name":"Cabinet"},
+        "10":{"player":0,"name":"P1 Up"},
+        "40":{"player":0,"name":"P1 Down"}
       }
     }
   }

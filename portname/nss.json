@@ -1,32 +1,32 @@
 {
   "romname":"nss",
   "ports":{
-    ":SERIAL2_DATA1":{
-      "labels":{
-        "16":{"name":"P2 A","player":1},
-        "32":{"name":"P2 R","player":1},
-        "64":{"name":"P2 L","player":1},
-        "128":{"name":"P2 Y","player":1},
-        "256":{"name":"P2 Right","player":1},
-        "512":{"name":"P2 Left","player":1},
-        "1024":{"name":"P2 Down","player":1},
-        "2048":{"name":"P2 Up","player":1},
-        "16384":{"name":"P2 X","player":1},
-        "32768":{"name":"P2 B","player":1}
-      }
-    },
     ":SERIAL1_DATA1":{
       "labels":{
-        "16":{"name":"P1 A","player":0},
-        "32":{"name":"P1 R","player":0},
-        "64":{"name":"P1 L","player":0},
-        "128":{"name":"P1 Y","player":0},
-        "256":{"name":"P1 Right","player":0},
-        "512":{"name":"P1 Left","player":0},
-        "1024":{"name":"P1 Down","player":0},
-        "2048":{"name":"P1 Up","player":0},
-        "16384":{"name":"P1 X","player":0},
-        "32768":{"name":"P1 B","player":0}
+        "10":{"player":0,"name":"P1 A"},
+        "20":{"player":0,"name":"P1 R"},
+        "40":{"player":0,"name":"P1 L"},
+        "80":{"player":0,"name":"P1 Y"},
+        "100":{"player":0,"name":"P1 Right"},
+        "200":{"player":0,"name":"P1 Left"},
+        "400":{"player":0,"name":"P1 Down"},
+        "800":{"player":0,"name":"P1 Up"},
+        "4000":{"player":0,"name":"P1 X"},
+        "8000":{"player":0,"name":"P1 B"}
+      }
+    },
+    ":SERIAL2_DATA1":{
+      "labels":{
+        "10":{"player":1,"name":"P2 A"},
+        "20":{"player":1,"name":"P2 R"},
+        "40":{"player":1,"name":"P2 L"},
+        "80":{"player":1,"name":"P2 Y"},
+        "100":{"player":1,"name":"P2 Right"},
+        "200":{"player":1,"name":"P2 Left"},
+        "400":{"player":1,"name":"P2 Down"},
+        "800":{"player":1,"name":"P2 Up"},
+        "4000":{"player":1,"name":"P2 X"},
+        "8000":{"player":1,"name":"P2 B"}
       }
     }
   }

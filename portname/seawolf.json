@@ -3,7 +3,7 @@
   "ports":{
     ":IN0":{
       "labels":{
-        "32":{"name":"Fire Torpedo","player":0}
+        "20":{"player":0,"name":"Fire Torpedo"}
       }
     }
   }

@@ -3,12 +3,12 @@
   "ports":{
     ":IN0":{
       "labels":{
-        "15":{"name":"P1 Left / Right","player":0}
+        "f":{"player":0,"name":"P1 Left / Right"}
       }
     },
     ":IN1":{
       "labels":{
-        "15":{"name":"P1 Up / Down","player":0}
+        "f":{"player":0,"name":"P1 Up / Down"}
       }
     }
   }

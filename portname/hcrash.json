@@ -1,60 +1,60 @@
 {
   "romname":"hcrash",
   "ports":{
-    ":DSW1":{
-      "labels":{
-        "3":{"name":"Cabinet","player":0},
-        "96":{"name":"Difficulty","player":0},
-        "128":{"name":"Demo Sounds","player":0}
-      }
-    },
-    ":TEST":{
-      "labels":{
-        "1":{"name":"Flip Screen","player":0},
-        "2":{"name":"Quantity of Initials","player":0},
-        "4":{"name":"Service Mode","player":0},
-        "8":{"name":"Speed Unit","player":0}
-      }
-    },
     ":ACCEL":{
       "labels":{
-        "255":{"name":"P1 Pedal 1","player":0}
+        "ff":{"player":0,"name":"P1 Pedal 1"}
       }
     },
     ":DSW0":{
       "labels":{
-        "15":{"name":"Coin A","player":0},
-        "240":{"name":"Coin B","player":0}
+        "f":{"player":0,"name":"Coin A"},
+        "f0":{"player":0,"name":"Coin B"}
       }
     },
-    ":IN3":{
+    ":DSW1":{
       "labels":{
-        "32":{"name":"P1 Button 2","player":0},
-        "64":{"name":"P1 Button 1","player":0}
-      }
-    },
-    ":IN1":{
-      "labels":{
-        "8":{"name":"P1 Button 2","player":0},
-        "16":{"name":"P1 Button 3","player":0}
+        "3":{"player":0,"name":"Cabinet"},
+        "60":{"player":0,"name":"Difficulty"},
+        "80":{"player":0,"name":"Demo Sounds"}
       }
     },
     ":IN0":{
       "labels":{
-        "4":{"name":"Service 1","player":0},
-        "8":{"name":"1 Player Start","player":0},
-        "16":{"name":"Coin 1","player":0},
-        "32":{"name":"Coin 2","player":0}
+        "4":{"player":0,"name":"Service 1"},
+        "8":{"player":0,"name":"1 Player Start"},
+        "10":{"player":0,"name":"Coin 1"},
+        "20":{"player":0,"name":"Coin 2"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "8":{"player":0,"name":"P1 Button 2"},
+        "10":{"player":0,"name":"P1 Button 3"}
+      }
+    },
+    ":IN3":{
+      "labels":{
+        "20":{"player":0,"name":"P1 Button 2"},
+        "40":{"player":0,"name":"P1 Button 1"}
       }
     },
     ":PADDLE":{
       "labels":{
-        "127":{"name":"Paddle","player":0}
+        "7f":{"player":0,"name":"Paddle"}
+      }
+    },
+    ":TEST":{
+      "labels":{
+        "1":{"player":0,"name":"Flip Screen"},
+        "2":{"player":0,"name":"Quantity of Initials"},
+        "4":{"player":0,"name":"Service Mode"},
+        "8":{"player":0,"name":"Speed Unit"}
       }
     },
     ":WHEEL":{
       "labels":{
-        "255":{"name":"Paddle","player":0}
+        "ff":{"player":0,"name":"Paddle"}
       }
     }
   }

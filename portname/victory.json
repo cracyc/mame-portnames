@@ -3,15 +3,15 @@
   "ports":{
     ":BUTTONS":{
       "labels":{
-        "16":{"name":"P1 Shields","player":0},
-        "32":{"name":"P1 Doomsday","player":0},
-        "64":{"name":"P1 Thrust","player":0},
-        "128":{"name":"P1 Fire","player":0}
+        "10":{"player":0,"name":"P1 Shields"},
+        "20":{"player":0,"name":"P1 Doomsday"},
+        "40":{"player":0,"name":"P1 Thrust"},
+        "80":{"player":0,"name":"P1 Fire"}
       }
     },
     ":DIAL":{
       "labels":{
-        "255":{"name":"P1 Rotate Left / Rotate Right","player":0}
+        "ff":{"player":0,"name":"P1 Rotate Left / Rotate Right"}
       }
     }
   }

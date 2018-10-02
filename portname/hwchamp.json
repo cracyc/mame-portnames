@@ -1,19 +1,10 @@
 {
   "romname":"hwchamp",
   "ports":{
-    ":LEFT":{
+    ":DSW1":{
       "labels":{
-        "255":{"player":0,"name":"P1 Pedal 2"}
-      }
-    },
-    ":SERVICE":{
-      "labels":{
-        "1":{"player":0,"name":"Coin 1"},
-        "2":{"player":0,"name":"Coin 2"},
-        "4":{"player":0,"name":"Service Mode"},
-        "8":{"player":0,"name":"Service 1"},
-        "16":{"player":0,"name":"1 Player Start"},
-        "32":{"player":0,"name":"2 Players Start"}
+        "f":{"player":0,"name":"Coin A"},
+        "f0":{"player":0,"name":"Coin B"}
       }
     },
     ":DSW2":{
@@ -22,24 +13,33 @@
         "2":{"player":0,"name":"Demo Sounds"},
         "4":{"player":0,"name":"Start Level Select"},
         "8":{"player":0,"name":"Allow Continue"},
-        "48":{"player":0,"name":"Difficulty"},
-        "192":{"player":0,"name":"Time Adjust"}
+        "30":{"player":0,"name":"Difficulty"},
+        "c0":{"player":0,"name":"Time Adjust"}
       }
     },
-    ":DSW1":{
+    ":LEFT":{
       "labels":{
-        "15":{"player":0,"name":"Coin A"},
-        "240":{"player":0,"name":"Coin B"}
-      }
-    },
-    ":RIGHT":{
-      "labels":{
-        "255":{"player":0,"name":"P1 Pedal 1"}
+        "ff":{"player":0,"name":"P1 Pedal 2"}
       }
     },
     ":MONITOR":{
       "labels":{
-        "255":{"player":0,"name":"Paddle"}
+        "ff":{"player":0,"name":"Paddle"}
+      }
+    },
+    ":RIGHT":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Pedal 1"}
+      }
+    },
+    ":SERVICE":{
+      "labels":{
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"},
+        "4":{"player":0,"name":"Service Mode"},
+        "8":{"player":0,"name":"Service 1"},
+        "10":{"player":0,"name":"1 Player Start"},
+        "20":{"player":0,"name":"2 Players Start"}
       }
     }
   }

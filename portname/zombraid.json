@@ -3,34 +3,34 @@
   "ports":{
     ":GUNX1":{
       "labels":{
-        "255":{"player":0,"name":"P1 Left /  Right"}
-      }
-    },
-    ":GUNY1":{
-      "labels":{
-        "255":{"player":0,"name":"P1 Up / Down"}
-      }
-    },
-    ":P2":{
-      "labels":{
-        "16":{"player":1,"name":"P2 Fire"},
-        "32":{"player":1,"name":"P2 Reload"}
+        "ff":{"player":0,"name":"P1 Left /  Right"}
       }
     },
     ":GUNX2":{
       "labels":{
-        "255":{"player":1,"name":"P2 Left /  Right"}
+        "ff":{"player":1,"name":"P2 Left /  Right"}
+      }
+    },
+    ":GUNY1":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Up / Down"}
       }
     },
     ":GUNY2":{
       "labels":{
-        "255":{"player":1,"name":"P2 Down /  Up"}
+        "ff":{"player":1,"name":"P2 Down /  Up"}
       }
     },
     ":P1":{
       "labels":{
-        "16":{"player":0,"name":"P1 Fire"},
-        "32":{"player":0,"name":"P1 Reload"}
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Reload"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "10":{"player":1,"name":"P2 Fire"},
+        "20":{"player":1,"name":"P2 Reload"}
       }
     }
   }

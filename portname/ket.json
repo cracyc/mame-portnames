@@ -3,12 +3,12 @@
   "ports":{
     ":P1P2":{
       "labels":{
-        "32":{"name":"P1 Fire","player":0},
-        "64":{"name":"P1 Bomb","player":0},
-        "128":{"name":"P1 Rapid Fire","player":0},
-        "8192":{"name":"P2 Fire","player":1},
-        "16384":{"name":"P2 Bomb","player":1},
-        "32768":{"name":"P2 Rapid Fire","player":1}
+        "20":{"player":0,"name":"P1 Fire"},
+        "40":{"player":0,"name":"P1 Bomb"},
+        "80":{"player":0,"name":"P1 Rapid Fire"},
+        "2000":{"player":1,"name":"P2 Fire"},
+        "4000":{"player":1,"name":"P2 Bomb"},
+        "8000":{"player":1,"name":"P2 Rapid Fire"}
       }
     }
   }

@@ -3,22 +3,22 @@
   "ports":{
     ":DSW1":{
       "labels":{
-        "256":{"name":"P1 N/A","player":0},
-        "512":{"name":"P1 N/A","player":0},
-        "1024":{"name":"P1 Left","player":0},
-        "2048":{"name":"P1 Right","player":0},
-        "4096":{"name":"P1 Shoot and Kick Snowball","player":0},
-        "8192":{"name":"P1 Jump","player":0}
+        "100":{"player":0,"name":"P1 N/A"},
+        "200":{"player":0,"name":"P1 N/A"},
+        "400":{"player":0,"name":"P1 Left"},
+        "800":{"player":0,"name":"P1 Right"},
+        "1000":{"player":0,"name":"P1 Shoot and Kick Snowball"},
+        "2000":{"player":0,"name":"P1 Jump"}
       }
     },
     ":DSW2":{
       "labels":{
-        "256":{"name":"P2 N/A","player":1},
-        "512":{"name":"P2 N/A","player":1},
-        "1024":{"name":"P2 Left","player":1},
-        "2048":{"name":"P2 Right","player":1},
-        "4096":{"name":"P2 Shoot and Kick Snowball","player":1},
-        "8192":{"name":"P2 Jump","player":1}
+        "100":{"player":1,"name":"P2 N/A"},
+        "200":{"player":1,"name":"P2 N/A"},
+        "400":{"player":1,"name":"P2 Left"},
+        "800":{"player":1,"name":"P2 Right"},
+        "1000":{"player":1,"name":"P2 Shoot and Kick Snowball"},
+        "2000":{"player":1,"name":"P2 Jump"}
       }
     }
   }

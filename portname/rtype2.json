@@ -3,14 +3,14 @@
   "ports":{
     ":IN0":{
       "labels":{
-        "16":{"player":0,"name":"(N/A)"},
-        "32":{"player":0,"name":"(N/A)"},
-        "64":{"player":0,"name":"P1 Force"},
-        "128":{"player":0,"name":"P1 Fire"},
-        "4096":{"player":1,"name":"(N/A)"},
-        "8192":{"player":1,"name":"(N/A)"},
-        "16384":{"player":1,"name":"P2 Force"},
-        "32768":{"player":1,"name":"P2 Fire"}
+        "10":{"player":0,"name":"(N/A)"},
+        "20":{"player":0,"name":"(N/A)"},
+        "40":{"player":0,"name":"P1 Force"},
+        "80":{"player":0,"name":"P1 Fire"},
+        "1000":{"player":1,"name":"(N/A)"},
+        "2000":{"player":1,"name":"(N/A)"},
+        "4000":{"player":1,"name":"P2 Force"},
+        "8000":{"player":1,"name":"P2 Fire"}
       }
     },
     ":IN1":{

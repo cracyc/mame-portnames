@@ -1,35 +1,21 @@
 {
   "romname":"galaga",
   "ports":{
-    ":IN1L":{
-      "labels":{
-        "2":{"player":0,"name":"P1 Right"},
-        "8":{"player":0,"name":"P1 Left"}
-      }
-    },
     ":DSWA":{
       "labels":{
         "3":{"player":0,"name":"Difficulty"},
         "8":{"player":0,"name":"Demo Sounds"},
-        "16":{"player":0,"name":"Freeze"},
-        "32":{"player":0,"name":"Rack Test"},
-        "64":{"player":0,"name":"Unused"},
-        "128":{"player":0,"name":"Cabinet"}
-      }
-    },
-    ":IN0L":{
-      "labels":{
-        "1":{"player":0,"name":"P1 Button 1"},
-        "2":{"player":1,"name":"P2 Button 1"},
-        "4":{"player":0,"name":"1 Player Start"},
-        "8":{"player":0,"name":"2 Players Start"}
+        "10":{"player":0,"name":"Freeze"},
+        "20":{"player":0,"name":"Rack Test"},
+        "40":{"player":0,"name":"Unused"},
+        "80":{"player":0,"name":"Cabinet"}
       }
     },
     ":DSWB":{
       "labels":{
         "7":{"player":0,"name":"Coinage"},
-        "56":{"player":0,"name":"Bonus Life"},
-        "192":{"player":0,"name":"Lives"}
+        "38":{"player":0,"name":"Bonus Life"},
+        "c0":{"player":0,"name":"Lives"}
       }
     },
     ":IN0H":{
@@ -40,10 +26,24 @@
         "8":{"player":0,"name":"Service Mode"}
       }
     },
+    ":IN0L":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Button 1"},
+        "2":{"player":1,"name":"P2 Button 1"},
+        "4":{"player":0,"name":"1 Player Start"},
+        "8":{"player":0,"name":"2 Players Start"}
+      }
+    },
     ":IN1H":{
       "labels":{
         "2":{"player":1,"name":"P2 Right"},
         "8":{"player":1,"name":"P2 Left"}
+      }
+    },
+    ":IN1L":{
+      "labels":{
+        "2":{"player":0,"name":"P1 Right"},
+        "8":{"player":0,"name":"P1 Left"}
       }
     }
   }

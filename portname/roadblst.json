@@ -6,14 +6,14 @@
         "2":{"player":0,"name":"Activate Special Weapon"}
       }
     },
-    ":IN1":{
-      "labels":{
-        "255":{"player":0,"name":"Accelerate"}
-      }
-    },
     ":IN0":{
       "labels":{
-        "255":{"player":0,"name":"Left / Right"}
+        "ff":{"player":0,"name":"Left / Right"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "ff":{"player":0,"name":"Accelerate"}
       }
     }
   }

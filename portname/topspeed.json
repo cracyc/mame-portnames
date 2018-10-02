@@ -1,21 +1,21 @@
 {
   "romname":"topspeed",
   "ports":{
+    ":IN0":{
+      "labels":{
+        "20":{"player":0,"name":"Brake"}
+      }
+    },
     ":IN1":{
       "labels":{
-        "1":{"name":"Nitro","player":0},
-        "16":{"name":"Hi / Lo","player":0},
-        "32":{"name":"Accelerate","player":0}
+        "1":{"player":0,"name":"Nitro"},
+        "10":{"player":0,"name":"Hi / Lo"},
+        "20":{"player":0,"name":"Accelerate"}
       }
     },
     ":STEER":{
       "labels":{
-        "255":{"name":"Left / Right","player":0}
-      }
-    },
-    ":IN0":{
-      "labels":{
-        "32":{"name":"Brake","player":0}
+        "ff":{"player":0,"name":"Left / Right"}
       }
     }
   }

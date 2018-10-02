@@ -1,15 +1,15 @@
 {
   "romname":"videopin",
   "ports":{
-    ":IN1":{
-      "labels":{
-        "64":{"player":0,"name":"P1 Nudge"}
-      }
-    },
     ":IN0":{
       "labels":{
         "4":{"player":0,"name":"P1 Left Flipper"},
         "8":{"player":0,"name":"P1 Right Flipper"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "40":{"player":0,"name":"P1 Nudge"}
       }
     }
   }

@@ -1,51 +1,51 @@
 {
   "romname":"ixion",
   "ports":{
+    ":COIN":{
+      "labels":{
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"},
+        "4":{"player":0,"name":"Service 1"}
+      }
+    },
     ":DIAL.0":{
       "labels":{
-        "255":{"name":"Dial","player":0}
+        "ff":{"player":0,"name":"Dial"}
       }
     },
     ":DSW02":{
       "labels":{
-        "3":{"name":"Bonus Life","player":0},
-        "12":{"name":"Lives","player":0},
-        "112":{"name":"Difficulty","player":0},
-        "128":{"name":"Demo Sounds","player":0}
-      }
-    },
-    ":SW100":{
-      "labels":{
-        "4":{"name":"1 Player Start","player":0},
-        "8":{"name":"2 Players Start","player":0}
+        "3":{"player":0,"name":"Bonus Life"},
+        "c":{"player":0,"name":"Lives"},
+        "70":{"player":0,"name":"Difficulty"},
+        "80":{"player":0,"name":"Demo Sounds"}
       }
     },
     ":DSW03":{
       "labels":{
-        "7":{"name":"Coin B","player":0},
-        "56":{"name":"Coin A","player":0},
-        "128":{"name":"Free Play","player":0}
-      }
-    },
-    ":COIN":{
-      "labels":{
-        "1":{"name":"Coin 1","player":0},
-        "2":{"name":"Coin 2","player":0},
-        "4":{"name":"Service 1","player":0}
+        "7":{"player":0,"name":"Coin B"},
+        "38":{"player":0,"name":"Coin A"},
+        "80":{"player":0,"name":"Free Play"}
       }
     },
     ":SERVICESW":{
       "labels":{
-        "1":{"name":"Service Mode","player":0}
+        "1":{"player":0,"name":"Service Mode"}
       }
     },
     ":SW01":{
       "labels":{
-        "1":{"name":"P1 Right","player":0},
-        "2":{"name":"P1 Left","player":0},
-        "4":{"name":"P1 Up","player":0},
-        "8":{"name":"P1 Down","player":0},
-        "16":{"name":"P1 Button 1","player":0}
+        "1":{"player":0,"name":"P1 Right"},
+        "2":{"player":0,"name":"P1 Left"},
+        "4":{"player":0,"name":"P1 Up"},
+        "8":{"player":0,"name":"P1 Down"},
+        "10":{"player":0,"name":"P1 Button 1"}
+      }
+    },
+    ":SW100":{
+      "labels":{
+        "4":{"player":0,"name":"1 Player Start"},
+        "8":{"player":0,"name":"2 Players Start"}
       }
     }
   }

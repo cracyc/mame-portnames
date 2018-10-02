@@ -1,19 +1,19 @@
 {
   "romname":"cracksht",
   "ports":{
-    ":IN0":{
+    ":AN0":{
       "labels":{
-        "2":{"player":0,"name":"P1 Fire"}
+        "ff":{"player":0,"name":"P1 Left / Right"}
       }
     },
     ":AN1":{
       "labels":{
-        "255":{"player":0,"name":"P1 Up / Down"}
+        "ff":{"player":0,"name":"P1 Up / Down"}
       }
     },
-    ":AN0":{
+    ":IN0":{
       "labels":{
-        "255":{"player":0,"name":"P1 Left / Right"}
+        "2":{"player":0,"name":"P1 Fire"}
       }
     }
   }

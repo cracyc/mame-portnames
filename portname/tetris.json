@@ -4,17 +4,17 @@
     ":P1":{
       "labels":{
         "2":{"player":0,"name":"P1 Rotate"},
-        "16":{"player":0,"name":"P1 Drop"},
-        "64":{"player":0,"name":"P1 Right"},
-        "128":{"player":0,"name":"P1 Left"}
+        "10":{"player":0,"name":"P1 Drop"},
+        "40":{"player":0,"name":"P1 Right"},
+        "80":{"player":0,"name":"P1 Left"}
       }
     },
     ":P2":{
       "labels":{
         "2":{"player":1,"name":"P2 Rotate"},
-        "16":{"player":1,"name":"P2 Drop"},
-        "64":{"player":1,"name":"P2 Right"},
-        "128":{"player":1,"name":"P2 Left"}
+        "10":{"player":1,"name":"P2 Drop"},
+        "40":{"player":1,"name":"P2 Right"},
+        "80":{"player":1,"name":"P2 Left"}
       }
     }
   }

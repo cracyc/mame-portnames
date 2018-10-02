@@ -7,16 +7,16 @@
         "2":{"player":0,"name":"P1 Drop"},
         "4":{"player":0,"name":"P1 Left"},
         "8":{"player":0,"name":"P1 Right"},
-        "16":{"player":0,"name":"P1 Rotate Clockwise"},
-        "32":{"player":0,"name":"P1 Rotate Anti Clockwise"},
-        "64":{"player":0,"name":"P1 Bomb"},
-        "256":{"player":1,"name":"P2 "},
-        "512":{"player":1,"name":"P2 Drop"},
-        "1024":{"player":1,"name":"P2 Left"},
-        "2048":{"player":1,"name":"P2 Right"},
-        "4096":{"player":1,"name":"P2 Rotate Clockwise"},
-        "8192":{"player":1,"name":"P2 Rotate Anti Clockwise"},
-        "16384":{"player":1,"name":"P2 Bomb"}
+        "10":{"player":0,"name":"P1 Rotate Clockwise"},
+        "20":{"player":0,"name":"P1 Rotate Anti Clockwise"},
+        "40":{"player":0,"name":"P1 Bomb"},
+        "100":{"player":1,"name":"P2 "},
+        "200":{"player":1,"name":"P2 Drop"},
+        "400":{"player":1,"name":"P2 Left"},
+        "800":{"player":1,"name":"P2 Right"},
+        "1000":{"player":1,"name":"P2 Rotate Clockwise"},
+        "2000":{"player":1,"name":"P2 Rotate Anti Clockwise"},
+        "4000":{"player":1,"name":"P2 Bomb"}
       }
     }
   }

@@ -3,7 +3,7 @@
   "ports":{
     ":0C48":{
       "labels":{
-        "128":{"player":0,"name":"Fire"}
+        "80":{"player":0,"name":"Fire"}
       }
     }
   }

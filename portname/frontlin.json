@@ -1,40 +1,40 @@
 {
   "romname":"frontlin",
   "ports":{
-    ":IN1":{
+    ":IN0":{
       "labels":{
-        "1":{"name":"P2 Left","player":1},
-        "2":{"name":"P2 Right","player":1},
-        "4":{"name":"P2 Down","player":1},
-        "8":{"name":"P2 Up","player":1},
-        "16":{"name":"P2 Fire","player":1},
-        "32":{"name":"P2 Tank/Grenade","player":1}
+        "1":{"player":0,"name":"P1 Left"},
+        "2":{"player":0,"name":"P1 Right"},
+        "4":{"player":0,"name":"P1 Down"},
+        "8":{"player":0,"name":"P1 Up"},
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Tank/Grenade"}
       }
     },
-    ":IN4":{
+    ":IN1":{
       "labels":{
-        "1":{"name":"P2 Aim Left","player":1},
-        "2":{"name":"P2 Aim Right","player":1},
-        "4":{"name":"P2 Aim Down","player":1},
-        "8":{"name":"P2 Aim Up","player":1}
+        "1":{"player":1,"name":"P2 Left"},
+        "2":{"player":1,"name":"P2 Right"},
+        "4":{"player":1,"name":"P2 Down"},
+        "8":{"player":1,"name":"P2 Up"},
+        "10":{"player":1,"name":"P2 Fire"},
+        "20":{"player":1,"name":"P2 Tank/Grenade"}
       }
     },
     ":IN3":{
       "labels":{
-        "1":{"name":"P1 Aim Left","player":0},
-        "2":{"name":"P1 Aim Right","player":0},
-        "4":{"name":"P1 Aim Down","player":0},
-        "8":{"name":"P1 Aim Up","player":0}
+        "1":{"player":0,"name":"P1 Aim Left"},
+        "2":{"player":0,"name":"P1 Aim Right"},
+        "4":{"player":0,"name":"P1 Aim Down"},
+        "8":{"player":0,"name":"P1 Aim Up"}
       }
     },
-    ":IN0":{
+    ":IN4":{
       "labels":{
-        "1":{"name":"P1 Left","player":0},
-        "2":{"name":"P1 Right","player":0},
-        "4":{"name":"P1 Down","player":0},
-        "8":{"name":"P1 Up","player":0},
-        "16":{"name":"P1 Fire","player":0},
-        "32":{"name":"P1 Tank/Grenade","player":0}
+        "1":{"player":1,"name":"P2 Aim Left"},
+        "2":{"player":1,"name":"P2 Aim Right"},
+        "4":{"player":1,"name":"P2 Aim Down"},
+        "8":{"player":1,"name":"P2 Aim Up"}
       }
     }
   }

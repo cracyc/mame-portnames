@@ -3,7 +3,7 @@
   "ports":{
     ":IN1":{
       "labels":{
-        "16":{"name":"P1 Tee Selection","player":0}
+        "10":{"player":0,"name":"P1 Tee Selection"}
       }
     }
   }

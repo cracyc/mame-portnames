@@ -1,33 +1,33 @@
 {
   "romname":"gticlub",
   "ports":{
-    ":AN3":{
-      "labels":{
-        "1023":{"player":0,"name":"Handbrake"}
-      }
-    },
     ":AN0":{
       "labels":{
-        "1023":{"player":0,"name":"Steering Wheel"}
-      }
-    },
-    ":AN2":{
-      "labels":{
-        "1023":{"player":0,"name":"Brake"}
+        "3ff":{"player":0,"name":"Steering Wheel"}
       }
     },
     ":AN1":{
       "labels":{
-        "1023":{"player":0,"name":"Accelerator"}
+        "3ff":{"player":0,"name":"Accelerator"}
+      }
+    },
+    ":AN2":{
+      "labels":{
+        "3ff":{"player":0,"name":"Brake"}
+      }
+    },
+    ":AN3":{
+      "labels":{
+        "3ff":{"player":0,"name":"Handbrake"}
       }
     },
     ":IN0":{
       "labels":{
         "4":{"player":0,"name":"Service Button"},
-        "16":{"player":0,"name":"AT/MT switch"},
-        "32":{"player":0,"name":"Shift Up"},
-        "64":{"player":0,"name":"Shift Down"},
-        "128":{"player":0,"name":"View switch"}
+        "10":{"player":0,"name":"AT/MT switch"},
+        "20":{"player":0,"name":"Shift Up"},
+        "40":{"player":0,"name":"Shift Down"},
+        "80":{"player":0,"name":"View switch"}
       }
     }
   }

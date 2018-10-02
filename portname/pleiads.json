@@ -3,12 +3,12 @@
   "ports":{
     ":CTRL":{
       "labels":{
-        "1":{"name":"P1 Fire","player":0},
-        "2":{"name":"P1 Right","player":0},
-        "4":{"name":"P1 Left","player":0},
-        "16":{"name":"P2 Fire","player":1},
-        "32":{"name":"P2 Right","player":1},
-        "64":{"name":"P2 Left","player":1}
+        "1":{"player":0,"name":"P1 Fire"},
+        "2":{"player":0,"name":"P1 Right"},
+        "4":{"player":0,"name":"P1 Left"},
+        "10":{"player":1,"name":"P2 Fire"},
+        "20":{"player":1,"name":"P2 Right"},
+        "40":{"player":1,"name":"P2 Left"}
       }
     }
   }

@@ -6,13 +6,13 @@
         "2":{"player":0,"name":"Down"},
         "4":{"player":0,"name":"Left"},
         "8":{"player":0,"name":"Right"},
-        "16":{"player":0,"name":"1 (Attack)"},
-        "32":{"player":0,"name":"2 (Jump)"}
+        "10":{"player":0,"name":"1 (Attack)"},
+        "20":{"player":0,"name":"2 (Jump)"}
       }
     },
     ":START":{
       "labels":{
-        "128":{"player":0,"name":"Start (Menu)"}
+        "80":{"player":0,"name":"Start (Menu)"}
       }
     }
   }

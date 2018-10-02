@@ -1,28 +1,28 @@
 {
   "romname":"souledge",
   "ports":{
-    ":PLAYER2":{
+    ":ADC2":{
       "labels":{
-        "16":{"player":1,"name":"P2 Attack A"},
-        "32":{"player":1,"name":"P2 Attack B"},
-        "64":{"player":1,"name":"P2 Kick"}
+        "ff":{"player":0,"name":"P1 Guard"}
       }
     },
     ":PLAYER1":{
       "labels":{
-        "16":{"player":0,"name":"P1 Attack A"},
-        "32":{"player":0,"name":"P1 Attack B"},
-        "64":{"player":0,"name":"P1 Kick"}
+        "10":{"player":0,"name":"P1 Attack A"},
+        "20":{"player":0,"name":"P1 Attack B"},
+        "40":{"player":0,"name":"P1 Kick"}
       }
     },
-    ":ADC2":{
+    ":PLAYER2":{
       "labels":{
-        "255":{"player":0,"name":"P1 Guard"}
+        "10":{"player":1,"name":"P2 Attack A"},
+        "20":{"player":1,"name":"P2 Attack B"},
+        "40":{"player":1,"name":"P2 Kick"}
       }
     },
     ":PLAYER4":{
       "labels":{
-        "16":{"player":1,"name":"P2 Guard"}
+        "10":{"player":1,"name":"P2 Guard"}
       }
     }
   }

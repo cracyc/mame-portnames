@@ -1,18 +1,18 @@
 {
   "romname":"elevator",
   "ports":{
-    ":IN1":{
-      "labels":{
-        "8":{"name":"P2 ","player":1},
-        "16":{"name":"P2 Fire","player":1},
-        "32":{"name":"P2 Jump/Kick","player":1}
-      }
-    },
     ":IN0":{
       "labels":{
-        "8":{"name":"P1 ","player":0},
-        "16":{"name":"P1 Fire","player":0},
-        "32":{"name":"P1 Jump/Kick","player":0}
+        "8":{"player":0,"name":"P1 "},
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Jump/Kick"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "8":{"player":1,"name":"P2 "},
+        "10":{"player":1,"name":"P2 Fire"},
+        "20":{"player":1,"name":"P2 Jump/Kick"}
       }
     }
   }

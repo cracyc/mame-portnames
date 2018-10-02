@@ -1,20 +1,20 @@
 {
   "romname":"pbaction",
   "ports":{
-    ":P2":{
-      "labels":{
-        "1":{"name":"P2 Shake and Start Button (Left)","player":1},
-        "4":{"name":"P2 Shake and Start Button (Right)","player":1},
-        "8":{"name":"P2 Left Flipper Button","player":1},
-        "16":{"name":"P2 Right Flipper Button","player":1}
-      }
-    },
     ":P1":{
       "labels":{
-        "1":{"name":"P1 Shake and Start Button (Left)","player":0},
-        "4":{"name":"P1 Shake and Start Button (Right)","player":0},
-        "8":{"name":"P1 Left Flipper Button","player":0},
-        "16":{"name":"P1 Right Flipper Button","player":0}
+        "1":{"player":0,"name":"P1 Shake and Start Button (Left)"},
+        "4":{"player":0,"name":"P1 Shake and Start Button (Right)"},
+        "8":{"player":0,"name":"P1 Left Flipper Button"},
+        "10":{"player":0,"name":"P1 Right Flipper Button"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Shake and Start Button (Left)"},
+        "4":{"player":1,"name":"P2 Shake and Start Button (Right)"},
+        "8":{"player":1,"name":"P2 Left Flipper Button"},
+        "10":{"player":1,"name":"P2 Right Flipper Button"}
       }
     }
   }

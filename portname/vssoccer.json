@@ -1,24 +1,24 @@
 {
   "romname":"vssoccer",
   "ports":{
-    ":IN1":{
-      "labels":{
-        "1":{"player":0,"name":"P1 A"},
-        "2":{"player":0,"name":"P1 B"},
-        "16":{"player":0,"name":"P1 Up"},
-        "32":{"player":0,"name":"P1 Down"},
-        "64":{"player":0,"name":"P1 Left"},
-        "128":{"player":0,"name":"P1 Right"}
-      }
-    },
     ":IN0":{
       "labels":{
         "1":{"player":1,"name":"P2 A"},
         "2":{"player":1,"name":"P2 B"},
-        "16":{"player":1,"name":"P2 Up"},
-        "32":{"player":1,"name":"P2 Down"},
-        "64":{"player":1,"name":"P2 Left"},
-        "128":{"player":1,"name":"P2 Right"}
+        "10":{"player":1,"name":"P2 Up"},
+        "20":{"player":1,"name":"P2 Down"},
+        "40":{"player":1,"name":"P2 Left"},
+        "80":{"player":1,"name":"P2 Right"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 A"},
+        "2":{"player":0,"name":"P1 B"},
+        "10":{"player":0,"name":"P1 Up"},
+        "20":{"player":0,"name":"P1 Down"},
+        "40":{"player":0,"name":"P1 Left"},
+        "80":{"player":0,"name":"P1 Right"}
       }
     }
   }

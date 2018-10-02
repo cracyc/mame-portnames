@@ -1,36 +1,36 @@
 {
   "romname":"metamrph",
   "ports":{
-    ":P2_P4":{
-      "labels":{
-        "1":{"player":1,"name":"P2 Left"},
-        "2":{"player":1,"name":"P2 Right"},
-        "4":{"player":1,"name":"P2 Up"},
-        "8":{"player":1,"name":"P2 Down"},
-        "16":{"player":1,"name":"P2 Attack"},
-        "32":{"player":1,"name":"P2 Jump"},
-        "256":{"player":3,"name":"P4 Left"},
-        "512":{"player":3,"name":"P4 Right"},
-        "1024":{"player":3,"name":"P4 Up"},
-        "2048":{"player":3,"name":"P4 Down"},
-        "4096":{"player":3,"name":"P4 Attack"},
-        "8192":{"player":3,"name":"P4 Jump"}
-      }
-    },
     ":P1_P3":{
       "labels":{
         "1":{"player":0,"name":"P1 Left"},
         "2":{"player":0,"name":"P1 Right"},
         "4":{"player":0,"name":"P1 Up"},
         "8":{"player":0,"name":"P1 Down"},
-        "16":{"player":0,"name":"P1 Attack"},
-        "32":{"player":0,"name":"P1 Jump"},
-        "256":{"player":2,"name":"P3 Left"},
-        "512":{"player":2,"name":"P3 Right"},
-        "1024":{"player":2,"name":"P3 Up"},
-        "2048":{"player":2,"name":"P3 Down"},
-        "4096":{"player":2,"name":"P3 Attack"},
-        "8192":{"player":2,"name":"P3 Jump"}
+        "10":{"player":0,"name":"P1 Attack"},
+        "20":{"player":0,"name":"P1 Jump"},
+        "100":{"player":2,"name":"P3 Left"},
+        "200":{"player":2,"name":"P3 Right"},
+        "400":{"player":2,"name":"P3 Up"},
+        "800":{"player":2,"name":"P3 Down"},
+        "1000":{"player":2,"name":"P3 Attack"},
+        "2000":{"player":2,"name":"P3 Jump"}
+      }
+    },
+    ":P2_P4":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Left"},
+        "2":{"player":1,"name":"P2 Right"},
+        "4":{"player":1,"name":"P2 Up"},
+        "8":{"player":1,"name":"P2 Down"},
+        "10":{"player":1,"name":"P2 Attack"},
+        "20":{"player":1,"name":"P2 Jump"},
+        "100":{"player":3,"name":"P4 Left"},
+        "200":{"player":3,"name":"P4 Right"},
+        "400":{"player":3,"name":"P4 Up"},
+        "800":{"player":3,"name":"P4 Down"},
+        "1000":{"player":3,"name":"P4 Attack"},
+        "2000":{"player":3,"name":"P4 Jump"}
       }
     }
   }

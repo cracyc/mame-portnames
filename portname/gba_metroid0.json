@@ -6,12 +6,12 @@
         "2":{"player":0,"name":"B (Shot)"},
         "4":{"player":0,"name":"Select (Select Missile Type)"},
         "8":{"player":0,"name":"Start (Map)"},
-        "16":{"player":0,"name":"Right"},
-        "32":{"player":0,"name":"Left"},
-        "64":{"player":0,"name":"Up"},
-        "128":{"player":0,"name":"Down"},
-        "256":{"player":0,"name":"R (Missile)"},
-        "512":{"player":0,"name":"L (Aim)"}
+        "10":{"player":0,"name":"Right"},
+        "20":{"player":0,"name":"Left"},
+        "40":{"player":0,"name":"Up"},
+        "80":{"player":0,"name":"Down"},
+        "100":{"player":0,"name":"R (Missile)"},
+        "200":{"player":0,"name":"L (Aim)"}
       }
     }
   }

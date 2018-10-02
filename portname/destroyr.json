@@ -1,15 +1,15 @@
 {
   "romname":"destroyr",
   "ports":{
-    ":PADDLE":{
-      "labels":{
-        "255":{"player":0,"name":"Set Depth of Charge Up / Set Depth of Charge Down"}
-      }
-    },
     ":IN1":{
       "labels":{
         "2":{"player":0,"name":"Slow"},
         "4":{"player":0,"name":"Release Charge"}
+      }
+    },
+    ":PADDLE":{
+      "labels":{
+        "ff":{"player":0,"name":"Set Depth of Charge Up / Set Depth of Charge Down"}
       }
     }
   }

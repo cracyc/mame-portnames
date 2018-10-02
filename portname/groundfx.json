@@ -1,39 +1,39 @@
 {
   "romname":"groundfx",
   "ports":{
-    ":BUTTONS":{
+    ":AN0":{
       "labels":{
-        "1":{"name":"P1 Button 3","player":0},
-        "2":{"name":"P1 Button 1","player":0},
-        "16":{"name":"P1 Button 2","player":0}
+        "ff":{"player":0,"name":"AD Stick X"}
       }
     },
     ":AN1":{
       "labels":{
-        "255":{"name":"AD Stick Y","player":0}
+        "ff":{"player":0,"name":"AD Stick Y"}
       }
     },
     ":AN2":{
       "labels":{
-        "255":{"name":"AD Stick X 2","player":1}
-      }
-    },
-    ":AN0":{
-      "labels":{
-        "255":{"name":"AD Stick X","player":0}
-      }
-    },
-    ":SYSTEM":{
-      "labels":{
-        "1":{"name":"Service Mode","player":0},
-        "2":{"name":"Service 1","player":0},
-        "4":{"name":"Coin 1","player":0},
-        "8":{"name":"Coin 2","player":0}
+        "ff":{"player":1,"name":"AD Stick X 2"}
       }
     },
     ":AN3":{
       "labels":{
-        "255":{"name":"AD Stick Y 2","player":1}
+        "ff":{"player":1,"name":"AD Stick Y 2"}
+      }
+    },
+    ":BUTTONS":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Button 3"},
+        "2":{"player":0,"name":"P1 Button 1"},
+        "10":{"player":0,"name":"P1 Button 2"}
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1":{"player":0,"name":"Service Mode"},
+        "2":{"player":0,"name":"Service 1"},
+        "4":{"player":0,"name":"Coin 1"},
+        "8":{"player":0,"name":"Coin 2"}
       }
     }
   }

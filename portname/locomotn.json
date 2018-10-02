@@ -3,24 +3,24 @@
   "ports":{
     ":DSW1":{
       "labels":{
-        "128":{"name":"P1 Down","player":0}
-      }
-    },
-    ":P2":{
-      "labels":{
-        "1":{"name":"P1 Up","player":0},
-        "2":{"name":"P2 Down","player":1},
-        "8":{"name":"P2 Speed","player":1},
-        "16":{"name":"P2 Right","player":1},
-        "32":{"name":"P2 Left","player":1}
+        "80":{"player":0,"name":"P1 Down"}
       }
     },
     ":P1":{
       "labels":{
-        "1":{"name":"P2 Up","player":1},
-        "8":{"name":"P1 Speed","player":0},
-        "16":{"name":"P1 Left","player":0},
-        "32":{"name":"P1 Right","player":0}
+        "1":{"player":1,"name":"P2 Up"},
+        "8":{"player":0,"name":"P1 Speed"},
+        "10":{"player":0,"name":"P1 Left"},
+        "20":{"player":0,"name":"P1 Right"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Up"},
+        "2":{"player":1,"name":"P2 Down"},
+        "8":{"player":1,"name":"P2 Speed"},
+        "10":{"player":1,"name":"P2 Right"},
+        "20":{"player":1,"name":"P2 Left"}
       }
     }
   }

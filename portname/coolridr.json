@@ -1,26 +1,50 @@
 {
   "romname":"coolridr",
   "ports":{
-    ":AN0":{"labels":{"255":{"player":0,"name":"P1 Handle Bar"}}},
-    ":AN1":{"labels":{"255":{"player":0,"name":"P1 Throttle"}}},
-    ":AN2":{"labels":{"255":{"player":0,"name":"P1 Brake"}}},
-    ":AN4":{"labels":{"255":{"player":1,"name":"P2 Handle Bar"}}},
-    ":AN5":{"labels":{"255":{"player":1,"name":"P2 Throttle"}}},
-    ":AN6":{"labels":{"255":{"player":1,"name":"P2 Brake"}}},
+    ":AN0":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Handle Bar"}
+      }
+    },
+    ":AN1":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Throttle"}
+      }
+    },
+    ":AN2":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Brake"}
+      }
+    },
+    ":AN4":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Handle Bar"}
+      }
+    },
+    ":AN5":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Throttle"}
+      }
+    },
+    ":AN6":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Brake"}
+      }
+    },
     ":IN1":{
       "labels":{
         "4":{"player":0,"name":"P1 Music <<"},
         "8":{"player":0,"name":"P1 Music >>"},
-        "16":{"player":0,"name":"P1 Shift Up"},
-        "32":{"player":0,"name":"P1 Shift Down"}
+        "10":{"player":0,"name":"P1 Shift Up"},
+        "20":{"player":0,"name":"P1 Shift Down"}
       }
     },
     ":IN5":{
       "labels":{
-        "262144":{"player":1,"name":"P2 Music <<"},
-        "524288":{"player":1,"name":"P2 Music >>"},
-        "1048576":{"player":1,"name":"P2 Shift Up"},
-        "2097152":{"player":1,"name":"P2 Shift Down"}
+        "40000":{"player":1,"name":"P2 Music <<"},
+        "80000":{"player":1,"name":"P2 Music >>"},
+        "100000":{"player":1,"name":"P2 Shift Up"},
+        "200000":{"player":1,"name":"P2 Shift Down"}
       }
     }
   }

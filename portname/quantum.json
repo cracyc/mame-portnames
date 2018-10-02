@@ -3,12 +3,12 @@
   "ports":{
     ":TRACKX":{
       "labels":{
-        "15":{"player":0,"name":"P1 Up / Down"}
+        "f":{"player":0,"name":"P1 Up / Down"}
       }
     },
     ":TRACKY":{
       "labels":{
-        "15":{"player":0,"name":"P1 Left / Right"}
+        "f":{"player":0,"name":"P1 Left / Right"}
       }
     }
   }

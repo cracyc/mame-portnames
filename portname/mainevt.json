@@ -3,26 +3,26 @@
   "ports":{
     ":P1":{
       "labels":{
-        "16":{"player":0,"name":"P1 Action"},
-        "32":{"player":0,"name":"P1 Tag"}
+        "10":{"player":0,"name":"P1 Action"},
+        "20":{"player":0,"name":"P1 Tag"}
       }
     },
     ":P2":{
       "labels":{
-        "16":{"player":1,"name":"P2 Action"},
-        "32":{"player":1,"name":"P2 Tag"}
+        "10":{"player":1,"name":"P2 Action"},
+        "20":{"player":1,"name":"P2 Tag"}
       }
     },
     ":P3":{
       "labels":{
-        "16":{"player":2,"name":"P3 Action"},
-        "32":{"player":2,"name":"P3 Tag"}
+        "10":{"player":2,"name":"P3 Action"},
+        "20":{"player":2,"name":"P3 Tag"}
       }
     },
     ":P4":{
       "labels":{
-        "16":{"player":3,"name":"P4 Action"},
-        "32":{"player":3,"name":"P4 Tag"}
+        "10":{"player":3,"name":"P4 Action"},
+        "20":{"player":3,"name":"P4 Tag"}
       }
     }
   }

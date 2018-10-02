@@ -3,11 +3,11 @@
   "ports":{
     ":P1":{
       "labels":{
-        "256":{"name":"Start / Flip","player":0},
-        "4096":{"name":"Right","player":0},
-        "8192":{"name":"Left","player":0},
-        "16384":{"name":"Down","player":0},
-        "32768":{"name":"Up","player":0}
+        "100":{"player":0,"name":"Start / Flip"},
+        "1000":{"player":0,"name":"Right"},
+        "2000":{"player":0,"name":"Left"},
+        "4000":{"player":0,"name":"Down"},
+        "8000":{"player":0,"name":"Up"}
       }
     }
   }

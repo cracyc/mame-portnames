@@ -1,52 +1,24 @@
 {
   "romname":"sfrushrk",
   "ports":{
-    ":GEAR":{
+    ":AN4":{
       "labels":{
-        "1":{"player":0,"name":"1st Gear"},
-        "2":{"player":0,"name":"2nd Gear"},
-        "4":{"player":0,"name":"3rd Gear"},
-        "8":{"player":0,"name":"4th Gear"}
+        "ff":{"player":0,"name":"P1 Pedal 1"}
       }
     },
     ":AN5":{
       "labels":{
-        "255":{"player":0,"name":"P1 Pedal 2"}
-      }
-    },
-    ":SYSTEM":{
-      "labels":{
-        "1":{"player":0,"name":"Coin 1"},
-        "2":{"player":0,"name":"Coin 2"},
-        "4":{"player":0,"name":"Abort"},
-        "8":{"player":0,"name":"Tilt"},
-        "16":{"player":0,"name":"Service Mode"},
-        "32":{"player":0,"name":"Reverse"},
-        "64":{"player":0,"name":"Service 1"},
-        "128":{"player":0,"name":"Coin 3"},
-        "256":{"player":0,"name":"Coin 4"},
-        "512":{"player":0,"name":"2 Players Start"},
-        "1024":{"player":0,"name":"3 Players Start"},
-        "2048":{"player":0,"name":"4 Players Start"}
-      }
-    },
-    ":IN1":{
-      "labels":{
-        "1":{"player":0,"name":"View 1"},
-        "2":{"player":0,"name":"View 2"},
-        "4":{"player":0,"name":"View 3"},
-        "8":{"player":0,"name":"Music"},
-        "16":{"player":0,"name":"Track 1"},
-        "32":{"player":0,"name":"Track 2"},
-        "64":{"player":0,"name":"Track 3"},
-        "128":{"player":0,"name":"Track 4"},
-        "4096":{"player":0,"name":"Volume Down"},
-        "8192":{"player":0,"name":"Volume Up"}
+        "ff":{"player":0,"name":"P1 Pedal 2"}
       }
     },
     ":AN6":{
       "labels":{
-        "255":{"player":0,"name":"P1 Pedal 3"}
+        "ff":{"player":0,"name":"P1 Pedal 3"}
+      }
+    },
+    ":AN7":{
+      "labels":{
+        "ff":{"player":0,"name":"Paddle"}
       }
     },
     ":DIPS":{
@@ -55,28 +27,56 @@
         "2":{"player":0,"name":"Unknown0002"},
         "4":{"player":0,"name":"Unknown0004"},
         "8":{"player":0,"name":"Unknown0008"},
-        "16":{"player":0,"name":"Unknown0010"},
-        "32":{"player":0,"name":"Unknown0020"},
-        "64":{"player":0,"name":"Boot ROM Test"},
-        "128":{"player":0,"name":"Service Mode"},
-        "256":{"player":0,"name":"Unknown0100"},
-        "512":{"player":0,"name":"Unknown0200"},
-        "1024":{"player":0,"name":"Unknown0400"},
-        "2048":{"player":0,"name":"Unknown0800"},
-        "4096":{"player":0,"name":"Unknown1000"},
-        "8192":{"player":0,"name":"Unknown2000"},
-        "16384":{"player":0,"name":"Unknown4000"},
-        "32768":{"player":0,"name":"Unknown8000"}
+        "10":{"player":0,"name":"Unknown0010"},
+        "20":{"player":0,"name":"Unknown0020"},
+        "40":{"player":0,"name":"Boot ROM Test"},
+        "80":{"player":0,"name":"Service Mode"},
+        "100":{"player":0,"name":"Unknown0100"},
+        "200":{"player":0,"name":"Unknown0200"},
+        "400":{"player":0,"name":"Unknown0400"},
+        "800":{"player":0,"name":"Unknown0800"},
+        "1000":{"player":0,"name":"Unknown1000"},
+        "2000":{"player":0,"name":"Unknown2000"},
+        "4000":{"player":0,"name":"Unknown4000"},
+        "8000":{"player":0,"name":"Unknown8000"}
       }
     },
-    ":AN4":{
+    ":GEAR":{
       "labels":{
-        "255":{"player":0,"name":"P1 Pedal 1"}
+        "1":{"player":0,"name":"1st Gear"},
+        "2":{"player":0,"name":"2nd Gear"},
+        "4":{"player":0,"name":"3rd Gear"},
+        "8":{"player":0,"name":"4th Gear"}
       }
     },
-    ":AN7":{
+    ":IN1":{
       "labels":{
-        "255":{"player":0,"name":"Paddle"}
+        "1":{"player":0,"name":"View 1"},
+        "2":{"player":0,"name":"View 2"},
+        "4":{"player":0,"name":"View 3"},
+        "8":{"player":0,"name":"Music"},
+        "10":{"player":0,"name":"Track 1"},
+        "20":{"player":0,"name":"Track 2"},
+        "40":{"player":0,"name":"Track 3"},
+        "80":{"player":0,"name":"Track 4"},
+        "1000":{"player":0,"name":"Volume Down"},
+        "2000":{"player":0,"name":"Volume Up"}
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"},
+        "4":{"player":0,"name":"Abort"},
+        "8":{"player":0,"name":"Tilt"},
+        "10":{"player":0,"name":"Service Mode"},
+        "20":{"player":0,"name":"Reverse"},
+        "40":{"player":0,"name":"Service 1"},
+        "80":{"player":0,"name":"Coin 3"},
+        "100":{"player":0,"name":"Coin 4"},
+        "200":{"player":0,"name":"2 Players Start"},
+        "400":{"player":0,"name":"3 Players Start"},
+        "800":{"player":0,"name":"4 Players Start"}
       }
     }
   }

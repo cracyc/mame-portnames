@@ -3,12 +3,12 @@
   "ports":{
     ":CONTP1":{
       "labels":{
-        "255":{"player":0,"name":"P1 Move Left / Move Right"}
+        "ff":{"player":0,"name":"P1 Move Left / Move Right"}
       }
     },
     ":CONTP2":{
       "labels":{
-        "255":{"player":1,"name":"P2 Move Right /  Move Left"}
+        "ff":{"player":1,"name":"P2 Move Right /  Move Left"}
       }
     }
   }

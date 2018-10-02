@@ -1,24 +1,24 @@
 {
   "romname":"bloodwar",
   "ports":{
+    ":EXTRA":{
+      "labels":{
+        "400":{"player":1,"name":"P2 Button 4"}
+      }
+    },
     ":P1":{
       "labels":{
-        "4096":{"player":0,"name":"P1 Button 1"},
-        "8192":{"player":0,"name":"P1 Button 2"},
-        "16384":{"player":0,"name":"P1 Button 3"},
-        "32768":{"player":0,"name":"P1 Button 4"}
+        "1000":{"player":0,"name":"P1 Button 1"},
+        "2000":{"player":0,"name":"P1 Button 2"},
+        "4000":{"player":0,"name":"P1 Button 3"},
+        "8000":{"player":0,"name":"P1 Button 4"}
       }
     },
     ":P2":{
       "labels":{
-        "4096":{"player":1,"name":"P2 Button 1"},
-        "8192":{"player":1,"name":"P2 Button 2"},
-        "16384":{"player":1,"name":"P2 Button 3"}
-      }
-    },
-    ":EXTRA":{
-      "labels":{
-        "1024":{"player":1,"name":"P2 Button 4"}
+        "1000":{"player":1,"name":"P2 Button 1"},
+        "2000":{"player":1,"name":"P2 Button 2"},
+        "4000":{"player":1,"name":"P2 Button 3"}
       }
     }
   }

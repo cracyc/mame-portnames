@@ -3,28 +3,28 @@
   "ports":{
     ":P1X":{
       "labels":{
-        "255":{"name":"P1 Left /  Right"}
+        "ff":{"name":"P1 Left /  Right"}
+      }
+    },
+    ":P1Y":{
+      "labels":{
+        "ff":{"name":"P1 Up / Down"}
       }
     },
     ":P2X":{
       "labels":{
-        "255":{"name":"P2 Left /  Right"}
+        "ff":{"name":"P2 Left /  Right"}
+      }
+    },
+    ":P2Y":{
+      "labels":{
+        "ff":{"name":"P2 Down /  Up"}
       }
     },
     ":PORT00":{
       "labels":{
         "4":{"name":"P2 Club Select"},
         "8":{"name":"P1 Club Select"}
-      }
-    },
-    ":P2Y":{
-      "labels":{
-        "255":{"name":"P2 Down /  Up"}
-      }
-    },
-    ":P1Y":{
-      "labels":{
-        "255":{"name":"P1 Up / Down"}
       }
     }
   }

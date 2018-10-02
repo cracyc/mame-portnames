@@ -3,7 +3,7 @@
   "ports":{
     ":IN0":{
       "labels":{
-        "255":{"name":"Aim Left / Aim Right"}
+        "ff":{"name":"Aim Left / Aim Right"}
       }
     }
   }

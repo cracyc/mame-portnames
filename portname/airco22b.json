@@ -3,32 +3,32 @@
   "ports":{
     ":ADC.0":{
       "labels":{
-        "255":{"name":"AD Stick X","player":0}
-      }
-    },
-    ":ADC.2":{
-      "labels":{
-        "255":{"name":"AD Stick Z","player":0}
+        "ff":{"player":0,"name":"AD Stick X"}
       }
     },
     ":ADC.1":{
       "labels":{
-        "255":{"name":"AD Stick Y","player":0}
+        "ff":{"player":0,"name":"AD Stick Y"}
+      }
+    },
+    ":ADC.2":{
+      "labels":{
+        "ff":{"player":0,"name":"AD Stick Z"}
       }
     },
     ":DSW0":{
       "labels":{
-        "128":{"name":"Unknown","player":0}
+        "80":{"player":0,"name":"Unknown"}
       }
     },
     ":MCUP5A":{
       "labels":{
-        "1":{"name":"Coin 1","player":0},
-        "4":{"name":"Service 1","player":0},
-        "8":{"name":"Service Mode","player":0},
-        "16":{"name":"P1 Button 2","player":0},
-        "32":{"name":"P1 Button 1","player":0},
-        "64":{"name":"1 Player Start","player":0}
+        "1":{"player":0,"name":"Coin 1"},
+        "4":{"player":0,"name":"Service 1"},
+        "8":{"player":0,"name":"Service Mode"},
+        "10":{"player":0,"name":"P1 Button 2"},
+        "20":{"player":0,"name":"P1 Button 1"},
+        "40":{"player":0,"name":"1 Player Start"}
       }
     }
   }

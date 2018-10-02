@@ -3,18 +3,18 @@
   "ports":{
     ":PORT_D":{
       "labels":{
-        "16":{"name":"P1 Fire Left","player":0},
-        "32":{"name":"P1 Fire Right","player":0},
-        "64":{"name":"P1 Bomb","player":0},
-        "128":{"name":"P1 Button 4 [NA]","player":0}
+        "10":{"player":0,"name":"P1 Fire Left"},
+        "20":{"player":0,"name":"P1 Fire Right"},
+        "40":{"player":0,"name":"P1 Bomb"},
+        "80":{"player":0,"name":"P1 Button 4 [NA]"}
       }
     },
     ":PORT_L":{
       "labels":{
-        "16":{"name":"P2 Fire Left","player":1},
-        "32":{"name":"P2 Fire Right","player":1},
-        "64":{"name":"P2 Bomb","player":1},
-        "128":{"name":"P2 Button 4 [NA]","player":1}
+        "10":{"player":1,"name":"P2 Fire Left"},
+        "20":{"player":1,"name":"P2 Fire Right"},
+        "40":{"player":1,"name":"P2 Bomb"},
+        "80":{"player":1,"name":"P2 Button 4 [NA]"}
       }
     }
   }

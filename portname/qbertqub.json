@@ -3,10 +3,10 @@
   "ports":{
     ":IN4":{
       "labels":{
-        "1":{"name":"P1 Right+Down","player":0},
-        "2":{"name":"P1 Left+Up","player":0},
-        "4":{"name":"P1 Up+Right","player":0},
-        "8":{"name":"P1 Down+Left","player":0}
+        "1":{"player":0,"name":"P1 Right+Down"},
+        "2":{"player":0,"name":"P1 Left+Up"},
+        "4":{"player":0,"name":"P1 Up+Right"},
+        "8":{"player":0,"name":"P1 Down+Left"}
       }
     }
   }

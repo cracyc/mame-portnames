@@ -3,32 +3,32 @@
   "ports":{
     ":DIAL0":{
       "labels":{
-        "255":{"player":0,"name":"P1 Rotate Left / Rotate Right"}
+        "ff":{"player":0,"name":"P1 Rotate Left / Rotate Right"}
       }
     },
-    ":P2":{
+    ":DIAL1":{
       "labels":{
-        "4":{"player":1,"name":"P2 Move Up"},
-        "8":{"player":1,"name":"P2 Move Down"},
-        "16":{"player":1,"name":"P2 Move Left"},
-        "32":{"player":1,"name":"P2 Move Right"},
-        "64":{"player":1,"name":"P2 Pound"},
-        "128":{"player":1,"name":"P2 Fire / Grap"}
+        "ff":{"player":1,"name":"P2 Rotate Right /  Rotate Left"}
       }
     },
     ":P1":{
       "labels":{
         "4":{"player":0,"name":"P1 Move Up"},
         "8":{"player":0,"name":"P1 Move Down"},
-        "16":{"player":0,"name":"P1 Move Left"},
-        "32":{"player":0,"name":"P1 Move Right"},
-        "64":{"player":0,"name":"P1 Pound"},
-        "128":{"player":0,"name":"P1 Fire / Grap"}
+        "10":{"player":0,"name":"P1 Move Left"},
+        "20":{"player":0,"name":"P1 Move Right"},
+        "40":{"player":0,"name":"P1 Pound"},
+        "80":{"player":0,"name":"P1 Fire / Grap"}
       }
     },
-    ":DIAL1":{
+    ":P2":{
       "labels":{
-        "255":{"player":1,"name":"P2 Rotate Right /  Rotate Left"}
+        "4":{"player":1,"name":"P2 Move Up"},
+        "8":{"player":1,"name":"P2 Move Down"},
+        "10":{"player":1,"name":"P2 Move Left"},
+        "20":{"player":1,"name":"P2 Move Right"},
+        "40":{"player":1,"name":"P2 Pound"},
+        "80":{"player":1,"name":"P2 Fire / Grap"}
       }
     }
   }

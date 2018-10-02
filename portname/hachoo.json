@@ -1,33 +1,14 @@
 {
   "romname":"hachoo",
   "ports":{
-    ":P2":{
-      "labels":{
-        "1":{"player":1,"name":"P2 Right"},
-        "2":{"player":1,"name":"P2 Left"},
-        "4":{"player":1,"name":"P2 Down"},
-        "8":{"player":1,"name":"P2 Up"},
-        "16":{"player":1,"name":"P2 Button 1"},
-        "32":{"player":1,"name":"P2 Button 2"}
-      }
-    },
     ":DSW":{
       "labels":{
-        "48":{"player":0,"name":"Difficulty"},
-        "128":{"player":0,"name":"Flip Screen"},
-        "1792":{"player":0,"name":"Coin A"},
-        "14336":{"player":0,"name":"Coin B"},
-        "16384":{"player":0,"name":"Demo Sounds"},
-        "32768":{"player":0,"name":"Unused"}
-      }
-    },
-    ":SYSTEM":{
-      "labels":{
-        "1":{"player":0,"name":"1 Player Start"},
-        "2":{"player":0,"name":"2 Players Start"},
-        "32":{"player":0,"name":"Service 1"},
-        "64":{"player":0,"name":"Coin 1"},
-        "128":{"player":0,"name":"Coin 2"}
+        "30":{"player":0,"name":"Difficulty"},
+        "80":{"player":0,"name":"Flip Screen"},
+        "700":{"player":0,"name":"Coin A"},
+        "3800":{"player":0,"name":"Coin B"},
+        "4000":{"player":0,"name":"Demo Sounds"},
+        "8000":{"player":0,"name":"Unused"}
       }
     },
     ":P1":{
@@ -36,8 +17,27 @@
         "2":{"player":0,"name":"P1 Left"},
         "4":{"player":0,"name":"P1 Down"},
         "8":{"player":0,"name":"P1 Up"},
-        "16":{"player":0,"name":"P1 Button 1"},
-        "32":{"player":0,"name":"P1 Button 2"}
+        "10":{"player":0,"name":"P1 Button 1"},
+        "20":{"player":0,"name":"P1 Button 2"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Right"},
+        "2":{"player":1,"name":"P2 Left"},
+        "4":{"player":1,"name":"P2 Down"},
+        "8":{"player":1,"name":"P2 Up"},
+        "10":{"player":1,"name":"P2 Button 1"},
+        "20":{"player":1,"name":"P2 Button 2"}
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1":{"player":0,"name":"1 Player Start"},
+        "2":{"player":0,"name":"2 Players Start"},
+        "20":{"player":0,"name":"Service 1"},
+        "40":{"player":0,"name":"Coin 1"},
+        "80":{"player":0,"name":"Coin 2"}
       }
     }
   }

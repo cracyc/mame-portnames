@@ -1,28 +1,28 @@
 {
   "romname":"spidman",
   "ports":{
-    ":mainpcb:EXTRA2":{
+    ":mainpcb:EXTRA1":{
       "labels":{
-        "1":{"name":"P4 Attack","player":3},
-        "2":{"name":"P4 Jump","player":3}
+        "1":{"player":2,"name":"P3 Attack"},
+        "2":{"player":2,"name":"P3 Jump"}
       }
     },
-    ":mainpcb:P2_A":{
+    ":mainpcb:EXTRA2":{
       "labels":{
-        "1":{"name":"P2 Attack","player":1},
-        "2":{"name":"P2 Jump","player":1}
+        "1":{"player":3,"name":"P4 Attack"},
+        "2":{"player":3,"name":"P4 Jump"}
       }
     },
     ":mainpcb:P1_A":{
       "labels":{
-        "1":{"name":"P1 Attack","player":0},
-        "2":{"name":"P1 Jump","player":0}
+        "1":{"player":0,"name":"P1 Attack"},
+        "2":{"player":0,"name":"P1 Jump"}
       }
     },
-    ":mainpcb:EXTRA1":{
+    ":mainpcb:P2_A":{
       "labels":{
-        "1":{"name":"P3 Attack","player":2},
-        "2":{"name":"P3 Jump","player":2}
+        "1":{"player":1,"name":"P2 Attack"},
+        "2":{"player":1,"name":"P2 Jump"}
       }
     }
   }

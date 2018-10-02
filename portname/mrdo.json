@@ -1,32 +1,32 @@
 {
   "romname":"mrdo",
   "ports":{
+    ":DSW1":{
+      "labels":{
+        "3":{"player":0,"name":"Difficulty"},
+        "4":{"player":0,"name":"Rack Test (Cheat)"},
+        "8":{"player":0,"name":"Special"},
+        "10":{"player":0,"name":"Extra"},
+        "20":{"player":0,"name":"Cabinet"},
+        "c0":{"player":0,"name":"Lives"}
+      }
+    },
+    ":DSW2":{
+      "labels":{
+        "f":{"player":0,"name":"Coin B"},
+        "f0":{"player":0,"name":"Coin A"}
+      }
+    },
     ":P1":{
       "labels":{
         "1":{"player":0,"name":"P1 Left"},
         "2":{"player":0,"name":"P1 Down"},
         "4":{"player":0,"name":"P1 Right"},
         "8":{"player":0,"name":"P1 Up"},
-        "16":{"player":0,"name":"P1 Button 1"},
-        "32":{"player":0,"name":"1 Player Start"},
-        "64":{"player":0,"name":"2 Players Start"},
-        "128":{"player":0,"name":"Tilt"}
-      }
-    },
-    ":DSW1":{
-      "labels":{
-        "3":{"player":0,"name":"Difficulty"},
-        "4":{"player":0,"name":"Rack Test (Cheat)"},
-        "8":{"player":0,"name":"Special"},
-        "16":{"player":0,"name":"Extra"},
-        "32":{"player":0,"name":"Cabinet"},
-        "192":{"player":0,"name":"Lives"}
-      }
-    },
-    ":DSW2":{
-      "labels":{
-        "15":{"player":0,"name":"Coin B"},
-        "240":{"player":0,"name":"Coin A"}
+        "10":{"player":0,"name":"P1 Button 1"},
+        "20":{"player":0,"name":"1 Player Start"},
+        "40":{"player":0,"name":"2 Players Start"},
+        "80":{"player":0,"name":"Tilt"}
       }
     },
     ":P2":{
@@ -35,9 +35,9 @@
         "2":{"player":1,"name":"P2 Down"},
         "4":{"player":1,"name":"P2 Right"},
         "8":{"player":1,"name":"P2 Up"},
-        "16":{"player":1,"name":"P2 Button 1"},
-        "64":{"player":0,"name":"Coin 1"},
-        "128":{"player":0,"name":"Coin 2"}
+        "10":{"player":1,"name":"P2 Button 1"},
+        "40":{"player":0,"name":"Coin 1"},
+        "80":{"player":0,"name":"Coin 2"}
       }
     }
   }

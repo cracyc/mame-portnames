@@ -1,21 +1,9 @@
 {
   "romname":"zwackery",
   "ports":{
-    ":IN2":{
-      "labels":{
-        "1":{"player":0,"name":"P1 Pick Up"},
-        "64":{"player":0,"name":"P1 Shield"},
-        "128":{"player":0,"name":"P1 Cast Spell"}
-      }
-    },
-    ":IN5":{
-      "labels":{
-        "255":{"player":0,"name":"P1 Aim Sword Left / Aim Sword Right"}
-      }
-    },
     ":IN0":{
       "labels":{
-        "128":{"player":0,"name":"P1 Sword"}
+        "80":{"player":0,"name":"P1 Sword"}
       }
     },
     ":IN1":{
@@ -24,6 +12,18 @@
         "2":{"player":0,"name":"P1 Run Right"},
         "4":{"player":0,"name":"P1 Down"},
         "8":{"player":0,"name":"P1 Up"}
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Pick Up"},
+        "40":{"player":0,"name":"P1 Shield"},
+        "80":{"player":0,"name":"P1 Cast Spell"}
+      }
+    },
+    ":IN5":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Aim Sword Left / Aim Sword Right"}
       }
     }
   }

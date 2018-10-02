@@ -1,20 +1,20 @@
 {
   "romname":"ibara",
   "ports":{
-    ":PORT_L":{
-      "labels":{
-        "16":{"name":"P2 Fire","player":1},
-        "32":{"name":"P2 Bomb","player":1},
-        "64":{"name":"P2 Button 3","player":1},
-        "128":{"name":"P2 Button 4","player":1}
-      }
-    },
     ":PORT_D":{
       "labels":{
-        "16":{"name":"P1 Fire","player":0},
-        "32":{"name":"P1 Bomb","player":0},
-        "64":{"name":"P1 Button 3","player":0},
-        "128":{"name":"P1 Button 4","player":0}
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Bomb"},
+        "40":{"player":0,"name":"P1 Button 3"},
+        "80":{"player":0,"name":"P1 Button 4"}
+      }
+    },
+    ":PORT_L":{
+      "labels":{
+        "10":{"player":1,"name":"P2 Fire"},
+        "20":{"player":1,"name":"P2 Bomb"},
+        "40":{"player":1,"name":"P2 Button 3"},
+        "80":{"player":1,"name":"P2 Button 4"}
       }
     }
   }

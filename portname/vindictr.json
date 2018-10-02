@@ -3,26 +3,26 @@
   "ports":{
     ":260000":{
       "labels":{
-        "256":{"player":0,"name":"P1 Special"},
-        "512":{"player":0,"name":"P1 Fire"},
-        "1024":{"player":0,"name":"P1 Rotate left"},
-        "2048":{"player":0,"name":"P1 Rotate right"},
-        "4096":{"player":0,"name":"P1 Left forward"},
-        "8192":{"player":0,"name":"P1 Right forward"},
-        "16384":{"player":0,"name":"P1 Left back"},
-        "32768":{"player":0,"name":"P1 Right back"}
+        "100":{"player":0,"name":"P1 Special"},
+        "200":{"player":0,"name":"P1 Fire"},
+        "400":{"player":0,"name":"P1 Rotate left"},
+        "800":{"player":0,"name":"P1 Rotate right"},
+        "1000":{"player":0,"name":"P1 Left forward"},
+        "2000":{"player":0,"name":"P1 Right forward"},
+        "4000":{"player":0,"name":"P1 Left back"},
+        "8000":{"player":0,"name":"P1 Right back"}
       }
     },
     ":260010":{
       "labels":{
-        "256":{"player":1,"name":"P2 Special"},
-        "512":{"player":1,"name":"P2 Fire"},
-        "1024":{"player":1,"name":"P2 Rotate left"},
-        "2048":{"player":1,"name":"P2 Rotate right"},
-        "4096":{"player":1,"name":"P2 Left forward"},
-        "8192":{"player":1,"name":"P2 Right forward"},
-        "16384":{"player":1,"name":"P2 Left back"},
-        "32768":{"player":1,"name":"P2 Right back"}
+        "100":{"player":1,"name":"P2 Special"},
+        "200":{"player":1,"name":"P2 Fire"},
+        "400":{"player":1,"name":"P2 Rotate left"},
+        "800":{"player":1,"name":"P2 Rotate right"},
+        "1000":{"player":1,"name":"P2 Left forward"},
+        "2000":{"player":1,"name":"P2 Right forward"},
+        "4000":{"player":1,"name":"P2 Left back"},
+        "8000":{"player":1,"name":"P2 Right back"}
       }
     }
   }

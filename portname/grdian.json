@@ -1,34 +1,22 @@
 {
   "romname":"grdian",
   "ports":{
-    ":IN1":{
-      "labels":{
-        "1":{"player":0,"name":"P1 Button 2"},
-        "2":{"player":0,"name":"P1 Button 1"},
-        "4":{"player":1,"name":"P2 Button 2"},
-        "8":{"player":1,"name":"P2 Button 1"},
-        "16":{"player":0,"name":"1 Player Start"},
-        "32":{"player":0,"name":"2 Players Start"},
-        "64":{"player":0,"name":"Coin 1"},
-        "128":{"player":0,"name":"Coin 2"}
-      }
-    },
     ":DSW1":{
       "labels":{
         "7":{"player":0,"name":"Coinage"},
         "8":{"player":0,"name":"Demo Sounds"},
-        "16":{"player":0,"name":"Cabinet"},
-        "32":{"player":0,"name":"Flip Screen"},
-        "64":{"player":0,"name":"Service Mode"},
-        "128":{"player":0,"name":"Unused"}
+        "10":{"player":0,"name":"Cabinet"},
+        "20":{"player":0,"name":"Flip Screen"},
+        "40":{"player":0,"name":"Service Mode"},
+        "80":{"player":0,"name":"Unused"}
       }
     },
     ":DSW2":{
       "labels":{
         "3":{"player":0,"name":"Lives"},
-        "12":{"player":0,"name":"Difficulty"},
-        "48":{"player":0,"name":"Bonus Life"},
-        "128":{"player":0,"name":"Unused"}
+        "c":{"player":0,"name":"Difficulty"},
+        "30":{"player":0,"name":"Bonus Life"},
+        "80":{"player":0,"name":"Unused"}
       }
     },
     ":IN0":{
@@ -37,10 +25,22 @@
         "2":{"player":0,"name":"P1 Down"},
         "4":{"player":0,"name":"P1 Right"},
         "8":{"player":0,"name":"P1 Left"},
-        "16":{"player":1,"name":"P2 Up"},
-        "32":{"player":1,"name":"P2 Down"},
-        "64":{"player":1,"name":"P2 Right"},
-        "128":{"player":1,"name":"P2 Left"}
+        "10":{"player":1,"name":"P2 Up"},
+        "20":{"player":1,"name":"P2 Down"},
+        "40":{"player":1,"name":"P2 Right"},
+        "80":{"player":1,"name":"P2 Left"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Button 2"},
+        "2":{"player":0,"name":"P1 Button 1"},
+        "4":{"player":1,"name":"P2 Button 2"},
+        "8":{"player":1,"name":"P2 Button 1"},
+        "10":{"player":0,"name":"1 Player Start"},
+        "20":{"player":0,"name":"2 Players Start"},
+        "40":{"player":0,"name":"Coin 1"},
+        "80":{"player":0,"name":"Coin 2"}
       }
     }
   }

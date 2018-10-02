@@ -7,10 +7,10 @@
         "2":{"player":0,"name":"P1 Fire Up"},
         "4":{"player":0,"name":"P1 Fire Right"},
         "8":{"player":0,"name":"P1 Fire Left"},
-        "16":{"player":0,"name":"P1 Left"},
-        "32":{"player":0,"name":"P1 Down"},
-        "64":{"player":0,"name":"P1 Right"},
-        "128":{"player":0,"name":"P1 Up"}
+        "10":{"player":0,"name":"P1 Left"},
+        "20":{"player":0,"name":"P1 Down"},
+        "40":{"player":0,"name":"P1 Right"},
+        "80":{"player":0,"name":"P1 Up"}
       }
     },
     ":IN3":{
@@ -19,10 +19,10 @@
         "2":{"player":1,"name":"P2 Fire Up"},
         "4":{"player":1,"name":"P2 Fire Right"},
         "8":{"player":1,"name":"P2 Fire Left"},
-        "16":{"player":1,"name":"P2 Left"},
-        "32":{"player":1,"name":"P2 Down"},
-        "64":{"player":1,"name":"P2 Right"},
-        "128":{"player":1,"name":"P2 Up"}
+        "10":{"player":1,"name":"P2 Left"},
+        "20":{"player":1,"name":"P2 Down"},
+        "40":{"player":1,"name":"P2 Right"},
+        "80":{"player":1,"name":"P2 Up"}
       }
     }
   }

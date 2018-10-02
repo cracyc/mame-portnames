@@ -3,12 +3,12 @@
   "ports":{
     ":IN1":{
       "labels":{
-        "64":{"name":"P1 Serve","player":0}
+        "40":{"player":0,"name":"P1 Serve"}
       }
     },
     ":PADDLE":{
       "labels":{
-        "255":{"name":"P1 Left / Right","player":0}
+        "ff":{"player":0,"name":"P1 Left / Right"}
       }
     }
   }

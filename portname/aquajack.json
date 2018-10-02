@@ -1,17 +1,31 @@
 {
   "romname":"aquajack",
   "ports":{
-    ":IN2":{
+    ":DSWA":{
       "labels":{
-        "255":{"player":0,"name":"Dial"}
+        "3":{"player":0,"name":"Coin B"},
+        "c":{"player":0,"name":"Coin A"},
+        "10":{"player":0,"name":"Demo Sounds"},
+        "20":{"player":0,"name":"Service Mode"},
+        "40":{"player":0,"name":"Unused"},
+        "80":{"player":0,"name":"Cabinet"}
       }
     },
     ":DSWB":{
       "labels":{
         "2":{"player":0,"name":"Unused"},
-        "12":{"player":0,"name":"Lives"},
-        "48":{"player":0,"name":"Bonus Life"},
-        "192":{"player":0,"name":"Difficulty"}
+        "c":{"player":0,"name":"Lives"},
+        "30":{"player":0,"name":"Bonus Life"},
+        "c0":{"player":0,"name":"Difficulty"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "2":{"player":0,"name":"P1 Button 4"},
+        "4":{"player":0,"name":"Coin 1"},
+        "8":{"player":0,"name":"Coin 2"},
+        "10":{"player":0,"name":"Service 1"},
+        "20":{"player":0,"name":"Tilt"}
       }
     },
     ":IN1":{
@@ -20,28 +34,14 @@
         "2":{"player":0,"name":"P1 Left"},
         "4":{"player":0,"name":"P1 Right"},
         "8":{"player":0,"name":"P1 Down"},
-        "16":{"player":0,"name":"P1 Button 3"},
-        "32":{"player":0,"name":"P1 Button 2"},
-        "64":{"player":0,"name":"P1 Button 1"}
+        "10":{"player":0,"name":"P1 Button 3"},
+        "20":{"player":0,"name":"P1 Button 2"},
+        "40":{"player":0,"name":"P1 Button 1"}
       }
     },
-    ":DSWA":{
+    ":IN2":{
       "labels":{
-        "3":{"player":0,"name":"Coin B"},
-        "12":{"player":0,"name":"Coin A"},
-        "16":{"player":0,"name":"Demo Sounds"},
-        "32":{"player":0,"name":"Service Mode"},
-        "64":{"player":0,"name":"Unused"},
-        "128":{"player":0,"name":"Cabinet"}
-      }
-    },
-    ":IN0":{
-      "labels":{
-        "2":{"player":0,"name":"P1 Button 4"},
-        "4":{"player":0,"name":"Coin 1"},
-        "8":{"player":0,"name":"Coin 2"},
-        "16":{"player":0,"name":"Service 1"},
-        "32":{"player":0,"name":"Tilt"}
+        "ff":{"player":0,"name":"Dial"}
       }
     }
   }

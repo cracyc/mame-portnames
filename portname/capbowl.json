@@ -1,26 +1,26 @@
 {
   "romname":"capbowl",
   "ports":{
-    ":TRACKX":{
-      "labels":{
-        "255":{"name":"P1 Left / Right","player":0}
-      }
-    },
     ":IN0":{
       "labels":{
-        "16":{"name":"P2 Hook Left","player":1},
-        "32":{"name":"P2 Hook Right","player":1}
+        "10":{"player":1,"name":"P2 Hook Left"},
+        "20":{"player":1,"name":"P2 Hook Right"}
       }
     },
     ":IN1":{
       "labels":{
-        "16":{"name":"P1 Hook Left","player":0},
-        "32":{"name":"P1 Hook Right","player":0}
+        "10":{"player":0,"name":"P1 Hook Left"},
+        "20":{"player":0,"name":"P1 Hook Right"}
+      }
+    },
+    ":TRACKX":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Left / Right"}
       }
     },
     ":TRACKY":{
       "labels":{
-        "255":{"name":"P1 Up / Down","player":0}
+        "ff":{"player":0,"name":"P1 Up / Down"}
       }
     }
   }

@@ -1,25 +1,25 @@
 {
   "romname":"aburner2",
   "ports":{
+    ":mainpcb:ADC0":{
+      "labels":{
+        "ff":{"player":0,"name":"Horizontal"}
+      }
+    },
     ":mainpcb:ADC1":{
       "labels":{
-        "255":{"player":0,"name":"Vertical"}
+        "ff":{"player":0,"name":"Vertical"}
       }
     },
     ":mainpcb:ADC2":{
       "labels":{
-        "255":{"player":0,"name":"Throttle"}
+        "ff":{"player":0,"name":"Throttle"}
       }
     },
     ":mainpcb:IO1PORTA":{
       "labels":{
-        "16":{"player":0,"name":"Missile"},
-        "32":{"player":0,"name":"Vulcan"}
-      }
-    },
-    ":mainpcb:ADC0":{
-      "labels":{
-        "255":{"player":0,"name":"Horizontal"}
+        "10":{"player":0,"name":"Missile"},
+        "20":{"player":0,"name":"Vulcan"}
       }
     }
   }

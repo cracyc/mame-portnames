@@ -1,28 +1,28 @@
 {
   "romname":"scobra",
   "ports":{
-    ":IN2":{
-      "labels":{
-        "1":{"player":1,"name":"P2 Down"},
-        "16":{"player":0,"name":"P1 Up"},
-        "64":{"player":0,"name":"P1 Down"}
-      }
-    },
     ":IN0":{
       "labels":{
         "1":{"player":1,"name":"P2 Up"},
         "2":{"player":0,"name":"P1 Bombs"},
         "8":{"player":0,"name":"P1 Sidewinder Missile"},
-        "16":{"player":0,"name":"P1 Right"},
-        "32":{"player":0,"name":"P1 Left"}
+        "10":{"player":0,"name":"P1 Right"},
+        "20":{"player":0,"name":"P1 Left"}
       }
     },
     ":IN1":{
       "labels":{
         "4":{"player":1,"name":"P2 Bombs"},
         "8":{"player":1,"name":"P2 Sidewinder Missile"},
-        "16":{"player":1,"name":"P2 Right"},
-        "32":{"player":1,"name":"P2 Left"}
+        "10":{"player":1,"name":"P2 Right"},
+        "20":{"player":1,"name":"P2 Left"}
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Down"},
+        "10":{"player":0,"name":"P1 Up"},
+        "40":{"player":0,"name":"P1 Down"}
       }
     }
   }

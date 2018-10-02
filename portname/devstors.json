@@ -7,8 +7,8 @@
         "2":{"player":0,"name":"P1 Right"},
         "4":{"player":0,"name":"P1 Forward"},
         "8":{"player":0,"name":"P1 Backward"},
-        "16":{"player":0,"name":"P1 Shoot"},
-        "32":{"player":0,"name":"P1 Weapon"}
+        "10":{"player":0,"name":"P1 Shoot"},
+        "20":{"player":0,"name":"P1 Weapon"}
       }
     },
     ":P2":{
@@ -17,8 +17,8 @@
         "2":{"player":1,"name":"P2 Right"},
         "4":{"player":1,"name":"P2 Forward"},
         "8":{"player":1,"name":"P2 Backward"},
-        "16":{"player":1,"name":"P2 Shoot"},
-        "32":{"player":1,"name":"P2 Weapon"}
+        "10":{"player":1,"name":"P2 Shoot"},
+        "20":{"player":1,"name":"P2 Weapon"}
       }
     }
   }

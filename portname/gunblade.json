@@ -3,7 +3,27 @@
   "ports":{
     ":ANA0":{
       "labels":{
-        "255":{"player":0,"name":"AD Stick X"}
+        "ff":{"player":0,"name":"AD Stick X"}
+      }
+    },
+    ":ANA1":{
+      "labels":{
+        "ff":{"player":1,"name":"AD Stick X 2"}
+      }
+    },
+    ":ANA2":{
+      "labels":{
+        "ff":{"player":0,"name":"AD Stick Y"}
+      }
+    },
+    ":ANA3":{
+      "labels":{
+        "ff":{"player":1,"name":"AD Stick Y 2"}
+      }
+    },
+    ":DSW":{
+      "labels":{
+        "80":{"player":0,"name":"Unknown"}
       }
     },
     ":IN0":{
@@ -12,34 +32,14 @@
         "2":{"player":0,"name":"Coin 2"},
         "4":{"player":0,"name":"Service Mode"},
         "8":{"player":0,"name":"Service 1"},
-        "16":{"player":0,"name":"1 Player Start"},
-        "32":{"player":0,"name":"2 Players Start"}
-      }
-    },
-    ":ANA3":{
-      "labels":{
-        "255":{"player":1,"name":"AD Stick Y 2"}
-      }
-    },
-    ":DSW":{
-      "labels":{
-        "128":{"player":0,"name":"Unknown"}
-      }
-    },
-    ":ANA2":{
-      "labels":{
-        "255":{"player":0,"name":"AD Stick Y"}
+        "10":{"player":0,"name":"1 Player Start"},
+        "20":{"player":0,"name":"2 Players Start"}
       }
     },
     ":IN1":{
       "labels":{
         "1":{"player":0,"name":"P1 Trigger"},
         "2":{"player":1,"name":"P2 Trigger"}
-      }
-    },
-    ":ANA1":{
-      "labels":{
-        "255":{"player":1,"name":"AD Stick X 2"}
       }
     }
   }

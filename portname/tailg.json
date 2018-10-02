@@ -3,18 +3,18 @@
   "ports":{
     ":ANALOGX":{
       "labels":{
-        "4095":{"name":"Left / Right","player":0}
+        "fff":{"player":0,"name":"Left / Right"}
       }
     },
     ":ANALOGY":{
       "labels":{
-        "4095":{"name":"Up / Down","player":0}
+        "fff":{"player":0,"name":"Up / Down"}
       }
     },
     ":INPUTS":{
       "labels":{
-        "32":{"name":"Fire","player":0},
-        "64":{"name":"Shield","player":0}
+        "20":{"player":0,"name":"Fire"},
+        "40":{"player":0,"name":"Shield"}
       }
     }
   }

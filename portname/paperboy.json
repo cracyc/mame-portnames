@@ -1,20 +1,20 @@
 {
   "romname":"paperboy",
   "ports":{
-    ":ADC0":{
-      "labels":{
-        "255":{"player":0,"name":"P1 Left /  Right"}
-      }
-    },
     ":1800":{
       "labels":{
-        "64":{"player":0,"name":"P1 Throw"},
-        "128":{"player":0,"name":"P1 Throw"}
+        "40":{"player":0,"name":"P1 Throw"},
+        "80":{"player":0,"name":"P1 Throw"}
+      }
+    },
+    ":ADC0":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Left /  Right"}
       }
     },
     ":ADC1":{
       "labels":{
-        "255":{"player":0,"name":"P1 Accelerate /  Break"}
+        "ff":{"player":0,"name":"P1 Accelerate /  Break"}
       }
     }
   }

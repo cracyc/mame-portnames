@@ -1,14 +1,14 @@
 {
   "romname":"sbowling",
   "ports":{
-    ":TRACKY":{
-      "labels":{
-        "255":{"player":0,"name":"P1 Up / Down"}
-      }
-    },
     ":TRACKX":{
       "labels":{
-        "255":{"player":0,"name":"P1 Left / Right"}
+        "ff":{"player":0,"name":"P1 Left / Right"}
+      }
+    },
+    ":TRACKY":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Up / Down"}
       }
     }
   }

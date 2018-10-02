@@ -1,49 +1,49 @@
 {
   "romname":"chqflag",
   "ports":{
-    ":IN4":{
+    ":DSW1":{
       "labels":{
-        "255":{"name":"Paddle","player":0}
-      }
-    },
-    ":IN3":{
-      "labels":{
-        "255":{"name":"P1 Pedal 1","player":0}
+        "f":{"player":0,"name":"Coin A"},
+        "f0":{"player":0,"name":"Coin B"}
       }
     },
     ":DSW2":{
       "labels":{
-        "16":{"name":"Unused","player":0},
-        "96":{"name":"Difficulty","player":0},
-        "128":{"name":"Demo Sounds","player":0}
-      }
-    },
-    ":IN1":{
-      "labels":{
-        "1":{"name":"Coin 1","player":0},
-        "2":{"name":"Coin 2","player":0},
-        "4":{"name":"Service 1","player":0},
-        "8":{"name":"1 Player Start","player":0},
-        "32":{"name":"Unused","player":0},
-        "64":{"name":"Title","player":0},
-        "128":{"name":"Service Mode","player":0}
-      }
-    },
-    ":DSW1":{
-      "labels":{
-        "15":{"name":"Coin A","player":0},
-        "240":{"name":"Coin B","player":0}
-      }
-    },
-    ":IN2":{
-      "labels":{
-        "1":{"name":"P1 Button 3","player":0},
-        "2":{"name":"P1 Button 2","player":0}
+        "10":{"player":0,"name":"Unused"},
+        "60":{"player":0,"name":"Difficulty"},
+        "80":{"player":0,"name":"Demo Sounds"}
       }
     },
     ":IN0":{
       "labels":{
-        "128":{"name":"Unused","player":0}
+        "80":{"player":0,"name":"Unused"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"},
+        "4":{"player":0,"name":"Service 1"},
+        "8":{"player":0,"name":"1 Player Start"},
+        "20":{"player":0,"name":"Unused"},
+        "40":{"player":0,"name":"Title"},
+        "80":{"player":0,"name":"Service Mode"}
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Button 3"},
+        "2":{"player":0,"name":"P1 Button 2"}
+      }
+    },
+    ":IN3":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Pedal 1"}
+      }
+    },
+    ":IN4":{
+      "labels":{
+        "ff":{"player":0,"name":"Paddle"}
       }
     }
   }

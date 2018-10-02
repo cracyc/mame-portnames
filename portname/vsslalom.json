@@ -3,20 +3,20 @@
   "ports":{
     ":IN0":{
       "labels":{
-        "2":{"name":"P1 Jump","player":0},
-        "16":{"name":"P1 Lean Forward","player":0},
-        "32":{"name":"P1 Brake","player":0},
-        "64":{"name":"P1 Left","player":0},
-        "128":{"name":"P1 Right","player":0}
+        "2":{"player":0,"name":"P1 Jump"},
+        "10":{"player":0,"name":"P1 Lean Forward"},
+        "20":{"player":0,"name":"P1 Brake"},
+        "40":{"player":0,"name":"P1 Left"},
+        "80":{"player":0,"name":"P1 Right"}
       }
     },
     ":IN1":{
       "labels":{
-        "2":{"name":"P2 Jump","player":1},
-        "16":{"name":"P2 Lean Forward","player":1},
-        "32":{"name":"P2 Brake","player":1},
-        "64":{"name":"P2 Left","player":1},
-        "128":{"name":"P2 Right","player":1}
+        "2":{"player":1,"name":"P2 Jump"},
+        "10":{"player":1,"name":"P2 Lean Forward"},
+        "20":{"player":1,"name":"P2 Brake"},
+        "40":{"player":1,"name":"P2 Left"},
+        "80":{"player":1,"name":"P2 Right"}
       }
     }
   }

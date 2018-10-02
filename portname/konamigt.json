@@ -3,13 +3,13 @@
   "ports":{
     ":IN1":{
       "labels":{
-        "16":{"player":0,"name":"High / Low"}
+        "10":{"player":0,"name":"High / Low"}
       }
     },
     ":IN3":{
       "labels":{
-        "32":{"player":0,"name":"Brake"},
-        "64":{"player":0,"name":"Accelerate"}
+        "20":{"player":0,"name":"Brake"},
+        "40":{"player":0,"name":"Accelerate"}
       }
     }
   }

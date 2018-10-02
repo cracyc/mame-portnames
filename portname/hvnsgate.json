@@ -1,73 +1,73 @@
 {
   "romname":"hvnsgate",
   "ports":{
-    ":P3":{
+    ":DSW":{
       "labels":{
-        "1":{"name":"P3 Up","player":2},
-        "2":{"name":"P3 Down","player":2},
-        "4":{"name":"P3 Left","player":2},
-        "8":{"name":"P3 Right","player":2},
-        "16":{"name":"P3 Button 1","player":2},
-        "32":{"name":"P3 Button 2","player":2},
-        "64":{"name":"P3 Button 3","player":2}
-      }
-    },
-    ":P2":{
-      "labels":{
-        "1":{"name":"P2 Up","player":1},
-        "2":{"name":"P2 Down","player":1},
-        "4":{"name":"P2 Left","player":1},
-        "8":{"name":"P2 Right","player":1},
-        "16":{"name":"P2 Button 1","player":1},
-        "32":{"name":"P2 Button 2","player":1},
-        "64":{"name":"P2 Button 3","player":1}
-      }
-    },
-    ":SERVICE":{
-      "labels":{
-        "1":{"name":"Service Mode","player":0},
-        "2":{"name":"Service 1","player":0},
-        "4":{"name":"Tilt","player":0}
+        "2":{"player":0,"name":"Service Mode"},
+        "8":{"player":0,"name":"Unknown"}
       }
     },
     ":P1":{
       "labels":{
-        "1":{"name":"P1 Up","player":0},
-        "2":{"name":"P1 Down","player":0},
-        "4":{"name":"P1 Left","player":0},
-        "8":{"name":"P1 Right","player":0},
-        "16":{"name":"P1 Button 1","player":0},
-        "32":{"name":"P1 Button 2","player":0},
-        "64":{"name":"P1 Button 3","player":0}
+        "1":{"player":0,"name":"P1 Up"},
+        "2":{"player":0,"name":"P1 Down"},
+        "4":{"player":0,"name":"P1 Left"},
+        "8":{"player":0,"name":"P1 Right"},
+        "10":{"player":0,"name":"P1 Button 1"},
+        "20":{"player":0,"name":"P1 Button 2"},
+        "40":{"player":0,"name":"P1 Button 3"}
       }
     },
-    ":DSW":{
+    ":P2":{
       "labels":{
-        "2":{"name":"Service Mode","player":0},
-        "8":{"name":"Unknown","player":0}
+        "1":{"player":1,"name":"P2 Up"},
+        "2":{"player":1,"name":"P2 Down"},
+        "4":{"player":1,"name":"P2 Left"},
+        "8":{"player":1,"name":"P2 Right"},
+        "10":{"player":1,"name":"P2 Button 1"},
+        "20":{"player":1,"name":"P2 Button 2"},
+        "40":{"player":1,"name":"P2 Button 3"}
       }
     },
-    ":SYSTEM":{
+    ":P3":{
       "labels":{
-        "1":{"name":"1 Player Start","player":0},
-        "2":{"name":"2 Players Start","player":0},
-        "4":{"name":"3 Players Start","player":0},
-        "8":{"name":"4 Players Start","player":0},
-        "16":{"name":"Coin 1","player":0},
-        "32":{"name":"Coin 2","player":0},
-        "64":{"name":"Coin 3","player":0},
-        "128":{"name":"Coin 4","player":0}
+        "1":{"player":2,"name":"P3 Up"},
+        "2":{"player":2,"name":"P3 Down"},
+        "4":{"player":2,"name":"P3 Left"},
+        "8":{"player":2,"name":"P3 Right"},
+        "10":{"player":2,"name":"P3 Button 1"},
+        "20":{"player":2,"name":"P3 Button 2"},
+        "40":{"player":2,"name":"P3 Button 3"}
       }
     },
     ":P4":{
       "labels":{
-        "1":{"name":"P4 Up","player":3},
-        "2":{"name":"P4 Down","player":3},
-        "4":{"name":"P4 Left","player":3},
-        "8":{"name":"P4 Right","player":3},
-        "16":{"name":"P4 Button 1","player":3},
-        "32":{"name":"P4 Button 2","player":3},
-        "64":{"name":"P4 Button 3","player":3}
+        "1":{"player":3,"name":"P4 Up"},
+        "2":{"player":3,"name":"P4 Down"},
+        "4":{"player":3,"name":"P4 Left"},
+        "8":{"player":3,"name":"P4 Right"},
+        "10":{"player":3,"name":"P4 Button 1"},
+        "20":{"player":3,"name":"P4 Button 2"},
+        "40":{"player":3,"name":"P4 Button 3"}
+      }
+    },
+    ":SERVICE":{
+      "labels":{
+        "1":{"player":0,"name":"Service Mode"},
+        "2":{"player":0,"name":"Service 1"},
+        "4":{"player":0,"name":"Tilt"}
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1":{"player":0,"name":"1 Player Start"},
+        "2":{"player":0,"name":"2 Players Start"},
+        "4":{"player":0,"name":"3 Players Start"},
+        "8":{"player":0,"name":"4 Players Start"},
+        "10":{"player":0,"name":"Coin 1"},
+        "20":{"player":0,"name":"Coin 2"},
+        "40":{"player":0,"name":"Coin 3"},
+        "80":{"player":0,"name":"Coin 4"}
       }
     }
   }

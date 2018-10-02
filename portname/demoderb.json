@@ -3,42 +3,42 @@
   "ports":{
     ":ssio:IP1":{
       "labels":{
-        "1":{"name":"P1 Forward","player":0},
-        "2":{"name":"P1 Reverse","player":0}
-      }
-    },
-    ":ssio:IP2.ALT2":{
-      "labels":{
-        "63":{"name":"P4 Right /  Left","player":3}
-      }
-    },
-    ":ssio:IP2.ALT1":{
-      "labels":{
-        "63":{"name":"P2 Right /  Left","player":1}
+        "1":{"player":0,"name":"P1 Forward"},
+        "2":{"player":0,"name":"P1 Reverse"}
       }
     },
     ":ssio:IP1.ALT1":{
       "labels":{
-        "63":{"name":"P1 Left / Right","player":0}
+        "3f":{"player":0,"name":"P1 Left / Right"}
       }
     },
     ":ssio:IP1.ALT2":{
       "labels":{
-        "63":{"name":"P3 Right /  Left","player":2}
-      }
-    },
-    ":ssio:IP4":{
-      "labels":{
-        "16":{"name":"P3 Forward","player":2},
-        "32":{"name":"P3 Reverse","player":2},
-        "64":{"name":"P4 Forward","player":3},
-        "128":{"name":"P4 Reverse","player":3}
+        "3f":{"player":2,"name":"P3 Right /  Left"}
       }
     },
     ":ssio:IP2":{
       "labels":{
-        "1":{"name":"P2 Forward","player":1},
-        "2":{"name":"P2 Reverse","player":1}
+        "1":{"player":1,"name":"P2 Forward"},
+        "2":{"player":1,"name":"P2 Reverse"}
+      }
+    },
+    ":ssio:IP2.ALT1":{
+      "labels":{
+        "3f":{"player":1,"name":"P2 Right /  Left"}
+      }
+    },
+    ":ssio:IP2.ALT2":{
+      "labels":{
+        "3f":{"player":3,"name":"P4 Right /  Left"}
+      }
+    },
+    ":ssio:IP4":{
+      "labels":{
+        "10":{"player":2,"name":"P3 Forward"},
+        "20":{"player":2,"name":"P3 Reverse"},
+        "40":{"player":3,"name":"P4 Forward"},
+        "80":{"player":3,"name":"P4 Reverse"}
       }
     }
   }

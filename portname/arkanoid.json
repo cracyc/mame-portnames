@@ -1,12 +1,20 @@
 {
   "romname":"arkanoid",
   "ports":{
-    ":P1":{"labels":{"255":{"player":0,"name":"Dial"}}},
-    ":P2":{"labels":{"255":{"player":1,"name":"Dial 2"}}},
     ":BUTTONS":{
       "labels":{
         "1":{"player":0,"name":"P1 Fire"},
         "4":{"player":1,"name":"P2 Fire"}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "ff":{"player":0,"name":"Dial"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "ff":{"player":1,"name":"Dial 2"}
       }
     }
   }

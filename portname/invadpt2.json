@@ -1,18 +1,18 @@
 {
   "romname":"invadpt2",
   "ports":{
-    ":CONTP2":{
-      "labels":{
-        "1":{"name":"P2 Fire Laser","player":1},
-        "2":{"name":"P2 Left","player":1},
-        "4":{"name":"P2 Right","player":1}
-      }
-    },
     ":CONTP1":{
       "labels":{
-        "1":{"name":"P1 Fire Laser","player":0},
-        "2":{"name":"P1 Left","player":0},
-        "4":{"name":"P1 Right","player":0}
+        "1":{"player":0,"name":"P1 Fire Laser"},
+        "2":{"player":0,"name":"P1 Left"},
+        "4":{"player":0,"name":"P1 Right"}
+      }
+    },
+    ":CONTP2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Fire Laser"},
+        "2":{"player":1,"name":"P2 Left"},
+        "4":{"player":1,"name":"P2 Right"}
       }
     }
   }

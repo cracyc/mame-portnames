@@ -1,15 +1,27 @@
 {
   "romname":"stcc",
   "ports":{
-    ":ANA0":{"labels":{"255":{"player":0,"name":"Steering Wheel"}}},
-    ":ANA1":{"labels":{"255":{"player":0,"name":"Gas Pedal"}}},
-    ":ANA2":{"labels":{"255":{"player":0,"name":"P1 Brake Pedal"}}},
+    ":ANA0":{
+      "labels":{
+        "ff":{"player":0,"name":"Steering Wheel"}
+      }
+    },
+    ":ANA1":{
+      "labels":{
+        "ff":{"player":0,"name":"Gas Pedal"}
+      }
+    },
+    ":ANA2":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Brake Pedal"}
+      }
+    },
     ":IN1":{
       "labels":{
         "1":{"player":0,"name":"View 1 Button (Zoom In)"},
         "2":{"player":0,"name":"View 2 Button (Zoom Out)"},
-        "16":{"player":0,"name":"Shift Up"},
-        "32":{"player":0,"name":"Shift Down"}
+        "10":{"player":0,"name":"Shift Up"},
+        "20":{"player":0,"name":"Shift Down"}
       }
     }
   }

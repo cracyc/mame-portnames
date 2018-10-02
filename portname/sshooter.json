@@ -1,30 +1,30 @@
 {
   "romname":"sshooter",
   "ports":{
-    ":IN1":{
-      "labels":{
-        "16777216":{"player":0,"name":"P1 Fire"},
-        "67108864":{"player":1,"name":"P2 Fire"}
-      }
-    },
     ":GUNX1":{
       "labels":{
-        "255":{"player":0,"name":"P1 Aim Left / Aim Right"}
+        "ff":{"player":0,"name":"P1 Aim Left / Aim Right"}
       }
     },
     ":GUNX2":{
       "labels":{
-        "255":{"player":1,"name":"P2 Aim Right /  Aim Left"}
+        "ff":{"player":1,"name":"P2 Aim Right /  Aim Left"}
       }
     },
     ":GUNY1":{
       "labels":{
-        "255":{"player":0,"name":"P1 Aim Up / Aim Down"}
+        "ff":{"player":0,"name":"P1 Aim Up / Aim Down"}
       }
     },
     ":GUNY2":{
       "labels":{
-        "255":{"player":1,"name":"P2 Aim Down /  Aim Up"}
+        "ff":{"player":1,"name":"P2 Aim Down /  Aim Up"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1000000":{"player":0,"name":"P1 Fire"},
+        "4000000":{"player":1,"name":"P2 Fire"}
       }
     }
   }

@@ -1,26 +1,26 @@
 {
   "romname":"starwars",
   "ports":{
-    ":STICKX":{
-      "labels":{
-        "255":{"player":0,"name":"Left / Right"}
-      }
-    },
     ":IN0":{
       "labels":{
-        "64":{"player":0,"name":"Fire"},
-        "128":{"player":0,"name":"Fire"}
-      }
-    },
-    ":STICKY":{
-      "labels":{
-        "255":{"player":0,"name":"Up / Down"}
+        "40":{"player":0,"name":"Fire"},
+        "80":{"player":0,"name":"Fire"}
       }
     },
     ":IN1":{
       "labels":{
-        "16":{"player":0,"name":"Fire"},
-        "32":{"player":0,"name":"Fire"}
+        "10":{"player":0,"name":"Fire"},
+        "20":{"player":0,"name":"Fire"}
+      }
+    },
+    ":STICKX":{
+      "labels":{
+        "ff":{"player":0,"name":"Left / Right"}
+      }
+    },
+    ":STICKY":{
+      "labels":{
+        "ff":{"player":0,"name":"Up / Down"}
       }
     }
   }

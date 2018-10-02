@@ -1,22 +1,10 @@
 {
   "romname":"cd32",
   "ports":{
-    ":p1_mouse_y":{
+    ":input":{
       "labels":{
-        "255":{"player":0,"name":"Mouse Y"}
-      }
-    },
-    ":p2_mouse_x":{
-      "labels":{
-        "255":{"player":1,"name":"Mouse X 2"}
-      }
-    },
-    ":p2_joy":{
-      "labels":{
-        "1":{"player":1,"name":"P2 Up"},
-        "2":{"player":1,"name":"P2 Down"},
-        "4":{"player":1,"name":"P2 Left"},
-        "8":{"player":1,"name":"P2 Right"}
+        "10":{"player":0,"name":"Game Port 0 Device"},
+        "20":{"player":0,"name":"Game Port 1 Device"}
       }
     },
     ":p1_cd32_buttons":{
@@ -25,30 +13,9 @@
         "2":{"player":0,"name":"P1 Left Trigger/Rewind"},
         "4":{"player":0,"name":"P1 Right Trigger/Forward"},
         "8":{"player":0,"name":"P1 Green/Stop"},
-        "16":{"player":0,"name":"P1 Yellow/Shuffle"},
-        "32":{"player":0,"name":"P1 Red/Select"},
-        "64":{"player":0,"name":"P1 Blue/Loop"}
-      }
-    },
-    ":p2_cd32_buttons":{
-      "labels":{
-        "1":{"player":1,"name":"P2 Play/Pause"},
-        "2":{"player":1,"name":"P2 Left Trigger/Rewind"},
-        "4":{"player":1,"name":"P2 Right Trigger/Forward"},
-        "8":{"player":1,"name":"P2 Green/Stop"},
-        "16":{"player":1,"name":"P2 Yellow/Shuffle"},
-        "32":{"player":1,"name":"P2 Red/Select"},
-        "64":{"player":1,"name":"P2 Blue/Loop"}
-      }
-    },
-    ":p1_mouse_x":{
-      "labels":{
-        "255":{"player":0,"name":"Mouse X"}
-      }
-    },
-    ":p2_mouse_y":{
-      "labels":{
-        "255":{"player":1,"name":"Mouse Y 2"}
+        "10":{"player":0,"name":"P1 Yellow/Shuffle"},
+        "20":{"player":0,"name":"P1 Red/Select"},
+        "40":{"player":0,"name":"P1 Blue/Loop"}
       }
     },
     ":p1_joy":{
@@ -59,10 +26,43 @@
         "8":{"player":0,"name":"P1 Right"}
       }
     },
-    ":input":{
+    ":p1_mouse_x":{
       "labels":{
-        "16":{"player":0,"name":"Game Port 0 Device"},
-        "32":{"player":0,"name":"Game Port 1 Device"}
+        "ff":{"player":0,"name":"Mouse X"}
+      }
+    },
+    ":p1_mouse_y":{
+      "labels":{
+        "ff":{"player":0,"name":"Mouse Y"}
+      }
+    },
+    ":p2_cd32_buttons":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Play/Pause"},
+        "2":{"player":1,"name":"P2 Left Trigger/Rewind"},
+        "4":{"player":1,"name":"P2 Right Trigger/Forward"},
+        "8":{"player":1,"name":"P2 Green/Stop"},
+        "10":{"player":1,"name":"P2 Yellow/Shuffle"},
+        "20":{"player":1,"name":"P2 Red/Select"},
+        "40":{"player":1,"name":"P2 Blue/Loop"}
+      }
+    },
+    ":p2_joy":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Up"},
+        "2":{"player":1,"name":"P2 Down"},
+        "4":{"player":1,"name":"P2 Left"},
+        "8":{"player":1,"name":"P2 Right"}
+      }
+    },
+    ":p2_mouse_x":{
+      "labels":{
+        "ff":{"player":1,"name":"Mouse X 2"}
+      }
+    },
+    ":p2_mouse_y":{
+      "labels":{
+        "ff":{"player":1,"name":"Mouse Y 2"}
       }
     }
   }

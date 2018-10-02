@@ -1,14 +1,14 @@
 {
   "romname":"sbrkout",
   "ports":{
-    ":SERVE":{
-      "labels":{
-        "128":{"player":0,"name":"P1 Serve"}
-      }
-    },
     ":PADDLE":{
       "labels":{
-        "255":{"player":0,"name":"P1 Left /  Right"}
+        "ff":{"player":0,"name":"P1 Left /  Right"}
+      }
+    },
+    ":SERVE":{
+      "labels":{
+        "80":{"player":0,"name":"P1 Serve"}
       }
     }
   }

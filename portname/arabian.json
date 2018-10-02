@@ -1,9 +1,17 @@
 {
   "romname":"arabian",
   "ports":{
-    ":COM4":{
+    ":COM1":{
       "labels":{
-        "1":{"player":1,"name":"P2 Kick"}
+        "1":{"player":0,"name":"P1 Walk"},
+        "2":{"player":0,"name":"P1 Walk"},
+        "4":{"player":0,"name":"P1 Up"},
+        "8":{"player":0,"name":"P1 Down"}
+      }
+    },
+    ":COM2":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Kick"}
       }
     },
     ":COM3":{
@@ -14,17 +22,9 @@
         "8":{"player":1,"name":"P2 Down"}
       }
     },
-    ":COM2":{
+    ":COM4":{
       "labels":{
-        "1":{"player":0,"name":"P1 Kick"}
-      }
-    },
-    ":COM1":{
-      "labels":{
-        "1":{"player":0,"name":"P1 Walk"},
-        "2":{"player":0,"name":"P1 Walk"},
-        "4":{"player":0,"name":"P1 Up"},
-        "8":{"player":0,"name":"P1 Down"}
+        "1":{"player":1,"name":"P2 Kick"}
       }
     }
   }

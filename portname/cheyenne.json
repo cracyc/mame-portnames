@@ -3,17 +3,17 @@
   "ports":{
     ":AN0":{
       "labels":{
-        "255":{"name":"Left / Right","player":0}
-      }
-    },
-    ":IN0":{
-      "labels":{
-        "2":{"name":"Fire","player":0}
+        "ff":{"player":0,"name":"Left / Right"}
       }
     },
     ":AN1":{
       "labels":{
-        "255":{"name":"Up / Down","player":0}
+        "ff":{"player":0,"name":"Up / Down"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "2":{"player":0,"name":"Fire"}
       }
     }
   }

@@ -7,24 +7,24 @@
         "2":{"player":1,"name":"P2 Lock"}
       }
     },
-    ":YAXIS2":{
+    ":XAXIS1":{
       "labels":{
-        "255":{"player":1,"name":"P2 Down /  Up"}
+        "ff":{"player":0,"name":"P1 Left / Right"}
       }
     },
     ":XAXIS2":{
       "labels":{
-        "255":{"player":1,"name":"P2 Right /  Left"}
-      }
-    },
-    ":XAXIS1":{
-      "labels":{
-        "255":{"player":0,"name":"P1 Left / Right"}
+        "ff":{"player":1,"name":"P2 Right /  Left"}
       }
     },
     ":YAXIS1":{
       "labels":{
-        "255":{"player":0,"name":"P1 Up / Down"}
+        "ff":{"player":0,"name":"P1 Up / Down"}
+      }
+    },
+    ":YAXIS2":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Down /  Up"}
       }
     }
   }

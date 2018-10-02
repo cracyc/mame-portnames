@@ -3,14 +3,14 @@
   "ports":{
     ":INPUTS":{
       "labels":{
-        "8":{"name":"P1 Down","player":0},
-        "256":{"name":"P2 Left","player":1},
-        "512":{"name":"P1 Right","player":0},
-        "1024":{"name":"P2 Down","player":1},
-        "4096":{"name":"P1 Up","player":0},
-        "8192":{"name":"P2 Up","player":1},
-        "16384":{"name":"P1 Left","player":0},
-        "32768":{"name":"P2 Right","player":1}
+        "8":{"player":0,"name":"P1 Down"},
+        "100":{"player":1,"name":"P2 Left"},
+        "200":{"player":0,"name":"P1 Right"},
+        "400":{"player":1,"name":"P2 Down"},
+        "1000":{"player":0,"name":"P1 Up"},
+        "2000":{"player":1,"name":"P2 Up"},
+        "4000":{"player":0,"name":"P1 Left"},
+        "8000":{"player":1,"name":"P2 Right"}
       }
     }
   }

@@ -3,10 +3,10 @@
   "ports":{
     ":P1_P2":{
       "labels":{
-        "64":{"player":0,"name":"P1 Jump"},
-        "128":{"player":0,"name":"P1 Fire"},
-        "16384":{"player":1,"name":"P2 Jump"},
-        "32768":{"player":1,"name":"P2 Fire"}
+        "40":{"player":0,"name":"P1 Jump"},
+        "80":{"player":0,"name":"P1 Fire"},
+        "4000":{"player":1,"name":"P2 Jump"},
+        "8000":{"player":1,"name":"P2 Fire"}
       }
     }
   }

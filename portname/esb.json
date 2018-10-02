@@ -3,24 +3,24 @@
   "ports":{
     ":IN0":{
       "labels":{
-        "64":{"name":"Fire","player":0},
-        "128":{"name":"Fire","player":0}
+        "40":{"player":0,"name":"Fire"},
+        "80":{"player":0,"name":"Fire"}
       }
     },
     ":IN1":{
       "labels":{
-        "16":{"name":"Fire / Shoot TOW Cable","player":0},
-        "32":{"name":"Fire / Shoot TOW Cable","player":0}
-      }
-    },
-    ":STICKY":{
-      "labels":{
-        "255":{"name":"Up / Down","player":0}
+        "10":{"player":0,"name":"Fire / Shoot TOW Cable"},
+        "20":{"player":0,"name":"Fire / Shoot TOW Cable"}
       }
     },
     ":STICKX":{
       "labels":{
-        "255":{"name":"Left / Right","player":0}
+        "ff":{"player":0,"name":"Left / Right"}
+      }
+    },
+    ":STICKY":{
+      "labels":{
+        "ff":{"player":0,"name":"Up / Down"}
       }
     }
   }

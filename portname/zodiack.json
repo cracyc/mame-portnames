@@ -1,22 +1,22 @@
 {
   "romname":"zodiack",
   "ports":{
-    ":IN1":{
-      "labels":{
-        "8":{"name":"P1 Right","player":0},
-        "16":{"name":"P1 Up","player":0},
-        "32":{"name":"P2 Fire","player":1},
-        "64":{"name":"P1 Fire","player":0},
-        "128":{"name":"P1 Left","player":0}
-      }
-    },
     ":IN0":{
       "labels":{
-        "4":{"name":"P2 Right","player":1},
-        "8":{"name":"P2 Left","player":1},
-        "16":{"name":"P2 Up","player":1},
-        "32":{"name":"P1 Down","player":0},
-        "64":{"name":"P2 Down","player":1}
+        "4":{"player":1,"name":"P2 Right"},
+        "8":{"player":1,"name":"P2 Left"},
+        "10":{"player":1,"name":"P2 Up"},
+        "20":{"player":0,"name":"P1 Down"},
+        "40":{"player":1,"name":"P2 Down"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "8":{"player":0,"name":"P1 Right"},
+        "10":{"player":0,"name":"P1 Up"},
+        "20":{"player":1,"name":"P2 Fire"},
+        "40":{"player":0,"name":"P1 Fire"},
+        "80":{"player":0,"name":"P1 Left"}
       }
     }
   }

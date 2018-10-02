@@ -3,22 +3,22 @@
   "ports":{
     ":TRACK0_X":{
       "labels":{
-        "255":{"player":0,"name":"P1 Left / Right"}
-      }
-    },
-    ":TRACK1_Y":{
-      "labels":{
-        "255":{"player":1,"name":"P2 Down /  Up"}
+        "ff":{"player":0,"name":"P1 Left / Right"}
       }
     },
     ":TRACK0_Y":{
       "labels":{
-        "255":{"player":0,"name":"P1 Up / Down"}
+        "ff":{"player":0,"name":"P1 Up / Down"}
       }
     },
     ":TRACK1_X":{
       "labels":{
-        "255":{"player":1,"name":"P2 Right /  Left"}
+        "ff":{"player":1,"name":"P2 Right /  Left"}
+      }
+    },
+    ":TRACK1_Y":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Down /  Up"}
       }
     }
   }

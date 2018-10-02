@@ -1,16 +1,16 @@
 {
   "romname":"drtoppel",
   "ports":{
-    ":IN1":{
-      "labels":{
-        "16":{"name":"P2 Fire","player":1},
-        "32":{"name":"P2 Button 2","player":1}
-      }
-    },
     ":IN0":{
       "labels":{
-        "16":{"name":"P1 Fire","player":0},
-        "32":{"name":"P1 Button 2","player":0}
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Button 2"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "10":{"player":1,"name":"P2 Fire"},
+        "20":{"player":1,"name":"P2 Button 2"}
       }
     }
   }

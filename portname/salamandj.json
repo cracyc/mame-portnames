@@ -1,51 +1,51 @@
 {
   "romname":"salamandj",
   "ports":{
-    ":IN2":{
-      "labels":{
-        "1":{"name":"P2 Left","player":1},
-        "2":{"name":"P2 Right","player":1},
-        "4":{"name":"P2 Up","player":1},
-        "8":{"name":"P2 Down","player":1},
-        "16":{"name":"P2 Button 1","player":1},
-        "32":{"name":"P2 Button 2","player":1}
-      }
-    },
     ":DSW0":{
       "labels":{
-        "15":{"name":"Coinage","player":0}
+        "f":{"player":0,"name":"Coinage"}
       }
     },
     ":DSW1":{
       "labels":{
-        "3":{"name":"Lives","player":0},
-        "4":{"name":"Coin Slot(s)","player":0},
-        "24":{"name":"Max Credit(s)","player":0},
-        "96":{"name":"Difficulty","player":0},
-        "128":{"name":"Demo Sounds","player":0}
+        "3":{"player":0,"name":"Lives"},
+        "4":{"player":0,"name":"Coin Slot(s)"},
+        "18":{"player":0,"name":"Max Credit(s)"},
+        "60":{"player":0,"name":"Difficulty"},
+        "80":{"player":0,"name":"Demo Sounds"}
       }
     },
     ":IN0":{
       "labels":{
-        "1":{"name":"Coin 1","player":0},
-        "2":{"name":"Coin 2","player":0},
-        "4":{"name":"Service 1","player":0},
-        "8":{"name":"1 Player Start","player":0},
-        "16":{"name":"2 Players Start","player":0},
-        "32":{"name":"Flip Screen","player":0},
-        "64":{"name":"Unused","player":0},
-        "128":{"name":"Service Mode","player":0}
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"},
+        "4":{"player":0,"name":"Service 1"},
+        "8":{"player":0,"name":"1 Player Start"},
+        "10":{"player":0,"name":"2 Players Start"},
+        "20":{"player":0,"name":"Flip Screen"},
+        "40":{"player":0,"name":"Unused"},
+        "80":{"player":0,"name":"Service Mode"}
       }
     },
     ":IN1":{
       "labels":{
-        "1":{"name":"P1 Left","player":0},
-        "2":{"name":"P1 Right","player":0},
-        "4":{"name":"P1 Up","player":0},
-        "8":{"name":"P1 Down","player":0},
-        "16":{"name":"P1 Fire","player":0},
-        "32":{"name":"P1 Missile","player":0},
-        "128":{"name":"Cabinet","player":0}
+        "1":{"player":0,"name":"P1 Left"},
+        "2":{"player":0,"name":"P1 Right"},
+        "4":{"player":0,"name":"P1 Up"},
+        "8":{"player":0,"name":"P1 Down"},
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Missile"},
+        "80":{"player":0,"name":"Cabinet"}
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Left"},
+        "2":{"player":1,"name":"P2 Right"},
+        "4":{"player":1,"name":"P2 Up"},
+        "8":{"player":1,"name":"P2 Down"},
+        "10":{"player":1,"name":"P2 Button 1"},
+        "20":{"player":1,"name":"P2 Button 2"}
       }
     }
   }

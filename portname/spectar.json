@@ -5,9 +5,9 @@
       "labels":{
         "4":{"player":0,"name":"P1 Right"},
         "8":{"player":0,"name":"P1 Left"},
-        "16":{"player":0,"name":"P1 Fire"},
-        "32":{"player":0,"name":"P1 Up"},
-        "64":{"player":0,"name":"P1 Down"}
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Up"},
+        "40":{"player":0,"name":"P1 Down"}
       }
     }
   }

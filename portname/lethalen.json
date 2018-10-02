@@ -3,28 +3,28 @@
   "ports":{
     ":INPUTS":{
       "labels":{
-        "16":{"name":"P1 Fire","player":0},
-        "32":{"name":"P2 Fire","player":1}
-      }
-    },
-    ":LIGHT1_Y":{
-      "labels":{
-        "255":{"name":"P2 Aim Down /  Aim Up","player":1}
-      }
-    },
-    ":LIGHT1_X":{
-      "labels":{
-        "255":{"name":"P2 Aim Right /  Aim Left","player":1}
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":1,"name":"P2 Fire"}
       }
     },
     ":LIGHT0_X":{
       "labels":{
-        "255":{"name":"P1 Aim Left / Aim Right","player":0}
+        "ff":{"player":0,"name":"P1 Aim Left / Aim Right"}
       }
     },
     ":LIGHT0_Y":{
       "labels":{
-        "255":{"name":"P1 Aim Up / Aim Down","player":0}
+        "ff":{"player":0,"name":"P1 Aim Up / Aim Down"}
+      }
+    },
+    ":LIGHT1_X":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Aim Right /  Aim Left"}
+      }
+    },
+    ":LIGHT1_Y":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Aim Down /  Aim Up"}
       }
     }
   }

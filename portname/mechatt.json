@@ -1,32 +1,32 @@
 {
   "romname":"mechatt",
   "ports":{
+    ":GUNX1":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Left / Right"}
+      }
+    },
     ":GUNX2":{
       "labels":{
-        "255":{"player":1,"name":"P2 Right /  Left"}
-      }
-    },
-    ":GUNY2":{
-      "labels":{
-        "255":{"player":1,"name":"P2 Down /  Up"}
-      }
-    },
-    ":IN0":{
-      "labels":{
-        "512":{"player":0,"name":"P1 Fire"},
-        "1024":{"player":0,"name":"P1 Grenade"},
-        "8192":{"player":1,"name":"P2 Fire"},
-        "16384":{"player":1,"name":"P2 Grenade"}
+        "ff":{"player":1,"name":"P2 Right /  Left"}
       }
     },
     ":GUNY1":{
       "labels":{
-        "255":{"player":0,"name":"P1 Up / Down"}
+        "ff":{"player":0,"name":"P1 Up / Down"}
       }
     },
-    ":GUNX1":{
+    ":GUNY2":{
       "labels":{
-        "255":{"player":0,"name":"P1 Left / Right"}
+        "ff":{"player":1,"name":"P2 Down /  Up"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "200":{"player":0,"name":"P1 Fire"},
+        "400":{"player":0,"name":"P1 Grenade"},
+        "2000":{"player":1,"name":"P2 Fire"},
+        "4000":{"player":1,"name":"P2 Grenade"}
       }
     }
   }

@@ -1,38 +1,38 @@
 {
   "romname":"eprom",
   "ports":{
-    ":ADC2":{
+    ":260000":{
       "labels":{
-        "255":{"name":"P2 Down /  Up","player":1}
+        "100":{"player":0,"name":"P1 Jump / Start"},
+        "200":{"player":0,"name":"P1 Fire"},
+        "800":{"player":0,"name":"P1 Duck"}
       }
     },
     ":260010":{
       "labels":{
-        "256":{"name":"P2 Jump / Start","player":1},
-        "512":{"name":"P2 Fire","player":1},
-        "2048":{"name":"P2 Duck","player":1}
+        "100":{"player":1,"name":"P2 Jump / Start"},
+        "200":{"player":1,"name":"P2 Fire"},
+        "800":{"player":1,"name":"P2 Duck"}
       }
     },
     ":ADC0":{
       "labels":{
-        "255":{"name":"P1 Up / Down","player":0}
-      }
-    },
-    ":ADC3":{
-      "labels":{
-        "255":{"name":"P2 Right /  Left","player":1}
+        "ff":{"player":0,"name":"P1 Up / Down"}
       }
     },
     ":ADC1":{
       "labels":{
-        "255":{"name":"P1 Left / Right","player":0}
+        "ff":{"player":0,"name":"P1 Left / Right"}
       }
     },
-    ":260000":{
+    ":ADC2":{
       "labels":{
-        "256":{"name":"P1 Jump / Start","player":0},
-        "512":{"name":"P1 Fire","player":0},
-        "2048":{"name":"P1 Duck","player":0}
+        "ff":{"player":1,"name":"P2 Down /  Up"}
+      }
+    },
+    ":ADC3":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Right /  Left"}
       }
     }
   }

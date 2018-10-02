@@ -1,14 +1,22 @@
 {
   "romname":"solvalou",
   "ports":{
-    ":AN1":{"labels":{"255":{"player":0,"name":"AD Stick X"}}},
-    ":AN2":{"labels":{"255":{"player":0,"name":"AD Stick Y"}}},
+    ":AN1":{
+      "labels":{
+        "ff":{"player":0,"name":"AD Stick X"}
+      }
+    },
+    ":AN2":{
+      "labels":{
+        "ff":{"player":0,"name":"AD Stick Y"}
+      }
+    },
     ":PORTH":{
       "labels":{
-        "32":{"player":0,"name":"Button 1"},
-        "8":{"player":0,"name":"Button 2"},
+        "1":{"player":0,"name":"Button 4"},
         "2":{"player":0,"name":"Button 3"},
-        "1":{"player":0,"name":"Button 4"}
+        "8":{"player":0,"name":"Button 2"},
+        "20":{"player":0,"name":"Button 1"}
       }
     }
   }

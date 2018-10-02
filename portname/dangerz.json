@@ -1,20 +1,20 @@
 {
   "romname":"dangerz",
   "ports":{
-    ":IN0":{
+    ":AN0":{
       "labels":{
-        "32":{"name":"Machine Gun","player":0},
-        "64":{"name":"Heat - Seaking Missile","player":0}
+        "ff":{"player":0,"name":"Up / Down"}
       }
     },
     ":AN1":{
       "labels":{
-        "255":{"name":"Left / Right","player":0}
+        "ff":{"player":0,"name":"Left / Right"}
       }
     },
-    ":AN0":{
+    ":IN0":{
       "labels":{
-        "255":{"name":"Up / Down","player":0}
+        "20":{"player":0,"name":"Machine Gun"},
+        "40":{"player":0,"name":"Heat - Seaking Missile"}
       }
     }
   }

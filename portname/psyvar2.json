@@ -1,60 +1,60 @@
 {
   "romname":"psyvar2",
   "ports":{
-    ":TILT":{
+    ":837_13551:COINS":{
       "labels":{
-        "128":{"name":"Tilt","player":0}
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"}
       }
     },
     ":MAMEDEBUG":{
       "labels":{
-        "1":{"name":"Bilinear Filtering","player":0},
-        "2":{"name":"Disable Render Calls","player":0},
-        "12":{"name":"Master CPU Clock Rate (Cheat)","player":0}
+        "1":{"player":0,"name":"Bilinear Filtering"},
+        "2":{"player":0,"name":"Disable Render Calls"},
+        "c":{"player":0,"name":"Master CPU Clock Rate (Cheat)"}
       }
     },
     ":MIE.5":{
       "labels":{
-        "1":{"name":"Monitor","player":0},
-        "8":{"name":"Unknown","player":0},
-        "16":{"name":"Service Mode","player":0},
-        "64":{"name":"Service 1","player":0}
-      }
-    },
-    ":837_13551:COINS":{
-      "labels":{
-        "1":{"name":"Coin 1","player":0},
-        "2":{"name":"Coin 2","player":0}
+        "1":{"player":0,"name":"Monitor"},
+        "8":{"player":0,"name":"Unknown"},
+        "10":{"player":0,"name":"Service Mode"},
+        "40":{"player":0,"name":"Service 1"}
       }
     },
     ":P1":{
       "labels":{
-        "16":{"name":"P1 Button 6","player":0},
-        "32":{"name":"P1 Button 5","player":0},
-        "64":{"name":"P1 Button 4","player":0},
-        "128":{"name":"P1 Button 3","player":0},
-        "256":{"name":"P1 Button 2","player":0},
-        "512":{"name":"P1 Button 1","player":0},
-        "1024":{"name":"P1 Right","player":0},
-        "2048":{"name":"P1 Left","player":0},
-        "4096":{"name":"P1 Down","player":0},
-        "8192":{"name":"P1 Up","player":0},
-        "32768":{"name":"1 Player Start","player":0}
+        "10":{"player":0,"name":"P1 Button 6"},
+        "20":{"player":0,"name":"P1 Button 5"},
+        "40":{"player":0,"name":"P1 Button 4"},
+        "80":{"player":0,"name":"P1 Button 3"},
+        "100":{"player":0,"name":"P1 Button 2"},
+        "200":{"player":0,"name":"P1 Button 1"},
+        "400":{"player":0,"name":"P1 Right"},
+        "800":{"player":0,"name":"P1 Left"},
+        "1000":{"player":0,"name":"P1 Down"},
+        "2000":{"player":0,"name":"P1 Up"},
+        "8000":{"player":0,"name":"1 Player Start"}
       }
     },
     ":P2":{
       "labels":{
-        "16":{"name":"P2 Button 6","player":1},
-        "32":{"name":"P2 Button 5","player":1},
-        "64":{"name":"P2 Button 4","player":1},
-        "128":{"name":"P2 Button 3","player":1},
-        "256":{"name":"P2 Button 2","player":1},
-        "512":{"name":"P2 Button 1","player":1},
-        "1024":{"name":"P2 Right","player":1},
-        "2048":{"name":"P2 Left","player":1},
-        "4096":{"name":"P2 Down","player":1},
-        "8192":{"name":"P2 Up","player":1},
-        "32768":{"name":"2 Players Start","player":0}
+        "10":{"player":1,"name":"P2 Button 6"},
+        "20":{"player":1,"name":"P2 Button 5"},
+        "40":{"player":1,"name":"P2 Button 4"},
+        "80":{"player":1,"name":"P2 Button 3"},
+        "100":{"player":1,"name":"P2 Button 2"},
+        "200":{"player":1,"name":"P2 Button 1"},
+        "400":{"player":1,"name":"P2 Right"},
+        "800":{"player":1,"name":"P2 Left"},
+        "1000":{"player":1,"name":"P2 Down"},
+        "2000":{"player":1,"name":"P2 Up"},
+        "8000":{"player":0,"name":"2 Players Start"}
+      }
+    },
+    ":TILT":{
+      "labels":{
+        "80":{"player":0,"name":"Tilt"}
       }
     }
   }

@@ -3,14 +3,14 @@
   "ports":{
     ":P1_P2":{
       "labels":{
-        "1048576":{"player":0,"name":"P1 A"},
-        "2097152":{"player":0,"name":"P1 B"},
-        "4194304":{"player":0,"name":"P1 C"},
-        "8388608":{"player":0,"name":"P1 D"},
-        "16":{"player":1,"name":"P2 A"},
-        "32":{"player":1,"name":"P2 B"},
-        "64":{"player":1,"name":"P2 C"},
-        "128":{"player":1,"name":"P2 D"},
+        "10":{"player":1,"name":"P2 A"},
+        "20":{"player":1,"name":"P2 B"},
+        "40":{"player":1,"name":"P2 C"},
+        "80":{"player":1,"name":"P2 D"},
+        "100000":{"player":0,"name":"P1 A"},
+        "200000":{"player":0,"name":"P1 B"},
+        "400000":{"player":0,"name":"P1 C"},
+        "800000":{"player":0,"name":"P1 D"}
       }
     }
   }

@@ -1,32 +1,32 @@
 {
   "romname":"undrfire",
   "ports":{
-    ":GUNY1":{
+    ":GUNX1":{
       "labels":{
-        "255":{"name":"P1 Aim Up / Aim Down","player":0}
-      }
-    },
-    ":GUNY2":{
-      "labels":{
-        "255":{"name":"P2 Aim Down /  Aim Up","player":1}
+        "ff":{"player":0,"name":"P1 Aim Left / Aim Right"}
       }
     },
     ":GUNX2":{
       "labels":{
-        "255":{"name":"P2 Aim Right /  Aim Left","player":1}
+        "ff":{"player":1,"name":"P2 Aim Right /  Aim Left"}
       }
     },
-    ":GUNX1":{
+    ":GUNY1":{
       "labels":{
-        "255":{"name":"P1 Aim Left / Aim Right","player":0}
+        "ff":{"player":0,"name":"P1 Aim Up / Aim Down"}
+      }
+    },
+    ":GUNY2":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Aim Down /  Aim Up"}
       }
     },
     ":INPUTS1":{
       "labels":{
-        "16":{"name":"P1 Fire","player":0},
-        "32":{"name":"P1 Bomb","player":0},
-        "64":{"name":"P2 Fire","player":1},
-        "128":{"name":"P2 Bomb","player":1}
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Bomb"},
+        "40":{"player":1,"name":"P2 Fire"},
+        "80":{"player":1,"name":"P2 Bomb"}
       }
     }
   }

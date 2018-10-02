@@ -1,34 +1,34 @@
 {
   "romname":"hotrod",
   "ports":{
-    ":PEDAL3":{
+    ":DIAL1":{
       "labels":{
-        "255":{"player":2,"name":"P3 Accelerate"}
+        "fff":{"player":0,"name":"P1 Left / Right"}
       }
     },
     ":DIAL2":{
       "labels":{
-        "4095":{"player":1,"name":"P2 Right /  Left"}
-      }
-    },
-    ":PEDAL1":{
-      "labels":{
-        "255":{"player":0,"name":"P1 Accelerate"}
-      }
-    },
-    ":DIAL1":{
-      "labels":{
-        "4095":{"player":0,"name":"P1 Left / Right"}
+        "fff":{"player":1,"name":"P2 Right /  Left"}
       }
     },
     ":DIAL3":{
       "labels":{
-        "4095":{"player":2,"name":"P3 Right /  Left"}
+        "fff":{"player":2,"name":"P3 Right /  Left"}
+      }
+    },
+    ":PEDAL1":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Accelerate"}
       }
     },
     ":PEDAL2":{
       "labels":{
-        "255":{"player":1,"name":"P2 Accelerate"}
+        "ff":{"player":1,"name":"P2 Accelerate"}
+      }
+    },
+    ":PEDAL3":{
+      "labels":{
+        "ff":{"player":2,"name":"P3 Accelerate"}
       }
     }
   }

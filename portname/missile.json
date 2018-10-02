@@ -1,13 +1,6 @@
 {
   "romname":"missile",
   "ports":{
-    ":IN1":{
-      "labels":{
-        "1":{"player":0,"name":"P1 Fire - Omega Base"},
-        "2":{"player":0,"name":"P1 Fire - Delta Base"},
-        "4":{"player":0,"name":"P1 Fire - Alpha Base"}
-      }
-    },
     ":IN0":{
       "labels":{
         "1":{"player":1,"name":"P2 Fire - Omega Base"},
@@ -15,24 +8,31 @@
         "4":{"player":1,"name":"P2 Fire - Alpha Base"}
       }
     },
-    ":TRACK0_Y":{
+    ":IN1":{
       "labels":{
-        "15":{"player":0,"name":"P1 Up / Down"}
-      }
-    },
-    ":TRACK1_Y":{
-      "labels":{
-        "15":{"player":1,"name":"P2 Down /  Up"}
+        "1":{"player":0,"name":"P1 Fire - Omega Base"},
+        "2":{"player":0,"name":"P1 Fire - Delta Base"},
+        "4":{"player":0,"name":"P1 Fire - Alpha Base"}
       }
     },
     ":TRACK0_X":{
       "labels":{
-        "15":{"player":0,"name":"P1 Left / Right"}
+        "f":{"player":0,"name":"P1 Left / Right"}
+      }
+    },
+    ":TRACK0_Y":{
+      "labels":{
+        "f":{"player":0,"name":"P1 Up / Down"}
       }
     },
     ":TRACK1_X":{
       "labels":{
-        "15":{"player":1,"name":"P2 Right /  Left"}
+        "f":{"player":1,"name":"P2 Right /  Left"}
+      }
+    },
+    ":TRACK1_Y":{
+      "labels":{
+        "f":{"player":1,"name":"P2 Down /  Up"}
       }
     }
   }

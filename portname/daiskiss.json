@@ -1,22 +1,6 @@
 {
   "romname":"daiskiss",
   "ports":{
-    ":SERVICE":{
-      "labels":{
-        "134217728":{"player":0,"name":"Service Mode"}
-      }
-    },
-    ":SYSTEM_DSW":{
-      "labels":{
-        "256":{"player":0,"name":"Coin 1"},
-        "512":{"player":0,"name":"Coin 2"},
-        "4096":{"player":0,"name":"Service 1"},
-        "8192":{"player":0,"name":"Service 2"},
-        "16777216":{"player":0,"name":"Stereo"},
-        "33554432":{"player":0,"name":"Flip Screen"},
-        "2147483648":{"player":0,"name":"Unknown"}
-      }
-    },
     ":EEPROMOUT":{
       "labels":{
       }
@@ -27,34 +11,50 @@
         "2":{"player":3,"name":"P4 Right"},
         "4":{"player":3,"name":"P4 Up"},
         "8":{"player":3,"name":"P4 Down"},
-        "16":{"player":3,"name":"P4 Button 1"},
-        "32":{"player":3,"name":"P4 Button 2"},
-        "64":{"player":3,"name":"P4 Button 3"},
-        "128":{"player":0,"name":"4 Players Start"},
-        "256":{"player":2,"name":"P3 Left"},
-        "512":{"player":2,"name":"P3 Right"},
-        "1024":{"player":2,"name":"P3 Up"},
-        "2048":{"player":2,"name":"P3 Down"},
-        "4096":{"player":2,"name":"P3 Button 1"},
-        "8192":{"player":2,"name":"P3 Button 2"},
-        "16384":{"player":2,"name":"P3 Button 3"},
-        "32768":{"player":0,"name":"3 Players Start"},
-        "65536":{"player":1,"name":"P2 Left"},
-        "131072":{"player":1,"name":"P2 Right"},
-        "262144":{"player":1,"name":"P2 Up"},
-        "524288":{"player":1,"name":"P2 Down"},
-        "1048576":{"player":1,"name":"P2 Button 1"},
-        "2097152":{"player":1,"name":"P2 Button 2"},
-        "4194304":{"player":1,"name":"P2 Button 3"},
-        "8388608":{"player":0,"name":"2 Players Start"},
-        "16777216":{"player":0,"name":"P1 Left"},
-        "33554432":{"player":0,"name":"P1 Right"},
-        "67108864":{"player":0,"name":"P1 Up"},
-        "134217728":{"player":0,"name":"P1 Down"},
-        "268435456":{"player":0,"name":"P1 Button 1"},
-        "536870912":{"player":0,"name":"P1 Button 2"},
-        "1073741824":{"player":0,"name":"P1 Button 3"},
-        "2147483648":{"player":0,"name":"1 Player Start"}
+        "10":{"player":3,"name":"P4 Button 1"},
+        "20":{"player":3,"name":"P4 Button 2"},
+        "40":{"player":3,"name":"P4 Button 3"},
+        "80":{"player":0,"name":"4 Players Start"},
+        "100":{"player":2,"name":"P3 Left"},
+        "200":{"player":2,"name":"P3 Right"},
+        "400":{"player":2,"name":"P3 Up"},
+        "800":{"player":2,"name":"P3 Down"},
+        "1000":{"player":2,"name":"P3 Button 1"},
+        "2000":{"player":2,"name":"P3 Button 2"},
+        "4000":{"player":2,"name":"P3 Button 3"},
+        "8000":{"player":0,"name":"3 Players Start"},
+        "10000":{"player":1,"name":"P2 Left"},
+        "20000":{"player":1,"name":"P2 Right"},
+        "40000":{"player":1,"name":"P2 Up"},
+        "80000":{"player":1,"name":"P2 Down"},
+        "100000":{"player":1,"name":"P2 Button 1"},
+        "200000":{"player":1,"name":"P2 Button 2"},
+        "400000":{"player":1,"name":"P2 Button 3"},
+        "800000":{"player":0,"name":"2 Players Start"},
+        "1000000":{"player":0,"name":"P1 Left"},
+        "2000000":{"player":0,"name":"P1 Right"},
+        "4000000":{"player":0,"name":"P1 Up"},
+        "8000000":{"player":0,"name":"P1 Down"},
+        "10000000":{"player":0,"name":"P1 Button 1"},
+        "20000000":{"player":0,"name":"P1 Button 2"},
+        "40000000":{"player":0,"name":"P1 Button 3"},
+        "80000000":{"player":0,"name":"1 Player Start"}
+      }
+    },
+    ":SERVICE":{
+      "labels":{
+        "8000000":{"player":0,"name":"Service Mode"}
+      }
+    },
+    ":SYSTEM_DSW":{
+      "labels":{
+        "100":{"player":0,"name":"Coin 1"},
+        "200":{"player":0,"name":"Coin 2"},
+        "1000":{"player":0,"name":"Service 1"},
+        "2000":{"player":0,"name":"Service 2"},
+        "1000000":{"player":0,"name":"Stereo"},
+        "2000000":{"player":0,"name":"Flip Screen"},
+        "80000000":{"player":0,"name":"Unknown"}
       }
     }
   }

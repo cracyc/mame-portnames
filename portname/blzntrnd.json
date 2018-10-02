@@ -3,26 +3,26 @@
   "ports":{
     ":IN0":{
       "labels":{
-        "16":{"name":"P1 Button 1"},
-        "32":{"name":"P1 Button 2"},
-        "64":{"name":"P1 Button 3"},
-        "128":{"name":"P1 Button 4"},
-        "4096":{"name":"P2 Button 1"},
-        "8192":{"name":"P2 Button 2"},
-        "16384":{"name":"P2 Button 3"},
-        "32768":{"name":"P2 Button 4"}
+        "10":{"name":"P1 Button 1"},
+        "20":{"name":"P1 Button 2"},
+        "40":{"name":"P1 Button 3"},
+        "80":{"name":"P1 Button 4"},
+        "1000":{"name":"P2 Button 1"},
+        "2000":{"name":"P2 Button 2"},
+        "4000":{"name":"P2 Button 3"},
+        "8000":{"name":"P2 Button 4"}
       }
     },
     ":IN1":{
       "labels":{
-        "16":{"name":"P3 Button 1"},
-        "32":{"name":"P3 Button 2"},
-        "64":{"name":"P3 Button 3"},
-        "128":{"name":"P3 Button 4"},
-        "4096":{"name":"P4 Button 1"},
-        "8192":{"name":"P4 Button 2"},
-        "16384":{"name":"P4 Button 3"},
-        "32768":{"name":"P4 Button 4"}
+        "10":{"name":"P3 Button 1"},
+        "20":{"name":"P3 Button 2"},
+        "40":{"name":"P3 Button 3"},
+        "80":{"name":"P3 Button 4"},
+        "1000":{"name":"P4 Button 1"},
+        "2000":{"name":"P4 Button 2"},
+        "4000":{"name":"P4 Button 3"},
+        "8000":{"name":"P4 Button 4"}
       }
     }
   }

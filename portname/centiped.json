@@ -1,19 +1,19 @@
 {
   "romname":"centiped",
   "ports":{
-    ":TRACK0_Y":{
-      "labels":{
-        "255":{"name":"P1 Up / Down","player":0}
-      }
-    },
     ":IN1":{
       "labels":{
-        "4":{"name":"P1 Fire","player":0}
+        "4":{"player":0,"name":"P1 Fire"}
       }
     },
     ":TRACK0_X":{
       "labels":{
-        "255":{"name":"P1 Left / Right","player":0}
+        "ff":{"player":0,"name":"P1 Left / Right"}
+      }
+    },
+    ":TRACK0_Y":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Up / Down"}
       }
     }
   }

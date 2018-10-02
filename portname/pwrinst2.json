@@ -1,20 +1,20 @@
 {
   "romname":"pwrinst2",
   "ports":{
-    ":IN1":{
-      "labels":{
-        "16":{"player":1,"name":"P2 Weak Punch"},
-        "32":{"player":1,"name":"P2 Weak Kick"},
-        "64":{"player":1,"name":"P2 Strong Punch"},
-        "1024":{"player":1,"name":"P2 Strong Kick"}
-      }
-    },
     ":IN0":{
       "labels":{
-        "16":{"player":0,"name":"P1 Weak Punch"},
-        "32":{"player":0,"name":"P1 Weak Kick"},
-        "64":{"player":0,"name":"P1 Strong Punch"},
-        "1024":{"player":0,"name":"P1 Strong Kick"}
+        "10":{"player":0,"name":"P1 Weak Punch"},
+        "20":{"player":0,"name":"P1 Weak Kick"},
+        "40":{"player":0,"name":"P1 Strong Punch"},
+        "400":{"player":0,"name":"P1 Strong Kick"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "10":{"player":1,"name":"P2 Weak Punch"},
+        "20":{"player":1,"name":"P2 Weak Kick"},
+        "40":{"player":1,"name":"P2 Strong Punch"},
+        "400":{"player":1,"name":"P2 Strong Kick"}
       }
     }
   }

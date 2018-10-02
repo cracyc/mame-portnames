@@ -1,51 +1,51 @@
 {
   "romname":"hopmappy",
   "ports":{
+    ":DSWA":{
+      "labels":{
+        "3":{"player":0,"name":"Coin B"},
+        "4":{"player":0,"name":"Allow Continue"},
+        "18":{"player":0,"name":"Lives"},
+        "60":{"player":0,"name":"Coin A"},
+        "80":{"player":0,"name":"Service Mode"}
+      }
+    },
     ":DSWB":{
       "labels":{
         "1":{"player":0,"name":"Cabinet"},
         "8":{"player":0,"name":"Unknown"},
-        "16":{"player":0,"name":"Level Select (Cheat)"},
-        "32":{"player":0,"name":"Flip Screen"},
-        "64":{"player":0,"name":"Demo Sounds"},
-        "128":{"player":0,"name":"Difficulty"}
+        "10":{"player":0,"name":"Level Select (Cheat)"},
+        "20":{"player":0,"name":"Flip Screen"},
+        "40":{"player":0,"name":"Demo Sounds"},
+        "80":{"player":0,"name":"Difficulty"}
       }
     },
     ":IN0":{
       "labels":{
         "4":{"player":0,"name":"P1 Down"},
         "8":{"player":1,"name":"P2 Down"},
-        "16":{"player":1,"name":"P2 Right"},
-        "32":{"player":0,"name":"Coin 1"},
-        "64":{"player":0,"name":"1 Player Start"},
-        "128":{"player":0,"name":"Service"}
-      }
-    },
-    ":DSWA":{
-      "labels":{
-        "3":{"player":0,"name":"Coin B"},
-        "4":{"player":0,"name":"Allow Continue"},
-        "24":{"player":0,"name":"Lives"},
-        "96":{"player":0,"name":"Coin A"},
-        "128":{"player":0,"name":"Service Mode"}
-      }
-    },
-    ":IN2":{
-      "labels":{
-        "8":{"player":0,"name":"P1 Button 1"},
-        "16":{"player":0,"name":"P1 Left"},
-        "32":{"player":0,"name":"P1 Right"},
-        "64":{"player":1,"name":"P2 Button 1"},
-        "128":{"player":1,"name":"P2 Left"}
+        "10":{"player":1,"name":"P2 Right"},
+        "20":{"player":0,"name":"Coin 1"},
+        "40":{"player":0,"name":"1 Player Start"},
+        "80":{"player":0,"name":"Service"}
       }
     },
     ":IN1":{
       "labels":{
         "4":{"player":0,"name":"P1 Up"},
         "8":{"player":1,"name":"P2 Up"},
-        "16":{"player":0,"name":"Service 1"},
-        "32":{"player":0,"name":"Coin 2"},
-        "64":{"player":0,"name":"2 Players Start"}
+        "10":{"player":0,"name":"Service 1"},
+        "20":{"player":0,"name":"Coin 2"},
+        "40":{"player":0,"name":"2 Players Start"}
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "8":{"player":0,"name":"P1 Button 1"},
+        "10":{"player":0,"name":"P1 Left"},
+        "20":{"player":0,"name":"P1 Right"},
+        "40":{"player":1,"name":"P2 Button 1"},
+        "80":{"player":1,"name":"P2 Left"}
       }
     }
   }

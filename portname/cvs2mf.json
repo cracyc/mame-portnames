@@ -1,36 +1,21 @@
 {
   "romname":"cvs2mf",
   "ports":{
-    ":A1":{
-      "labels":{
-      }
-    },
     ":837_13551:COINS":{
       "labels":{
         "1":{"player":0,"name":"Coin 1"},
         "2":{"player":0,"name":"Coin 2"}
       }
     },
-    ":MIE.5":{
-      "labels":{
-        "1":{"player":0,"name":"Monitor"},
-        "8":{"player":0,"name":"Unknown"},
-        "16":{"player":0,"name":"Service Mode"},
-        "64":{"player":0,"name":"Service 1"}
-      }
-    },
-    ":A5":{
+    ":A0":{
       "labels":{
       }
     },
-    ":MAMEDEBUG":{
+    ":A1":{
       "labels":{
-        "1":{"player":0,"name":"Bilinear Filtering"},
-        "2":{"player":0,"name":"Disable Render Calls"},
-        "12":{"player":0,"name":"Master CPU Clock Rate (Cheat)"}
       }
     },
-    ":MIE.3":{
+    ":A2":{
       "labels":{
       }
     },
@@ -38,22 +23,15 @@
       "labels":{
       }
     },
-    ":P1":{
+    ":A4":{
       "labels":{
-        "16":{"player":0,"name":"P1 Button 6"},
-        "32":{"player":0,"name":"P1 Button 5"},
-        "64":{"player":0,"name":"P1 Button 4"},
-        "128":{"player":0,"name":"P1 Button 3"},
-        "256":{"player":0,"name":"P1 Button 2"},
-        "512":{"player":0,"name":"P1 Button 1"},
-        "1024":{"player":0,"name":"P1 Right"},
-        "2048":{"player":0,"name":"P1 Left"},
-        "4096":{"player":0,"name":"P1 Down"},
-        "8192":{"player":0,"name":"P1 Up"},
-        "32768":{"player":0,"name":"1 Player Start"}
       }
     },
-    ":A2":{
+    ":A5":{
+      "labels":{
+      }
+    },
+    ":A6":{
       "labels":{
       }
     },
@@ -61,36 +39,58 @@
       "labels":{
       }
     },
-    ":A0":{
+    ":MAMEDEBUG":{
       "labels":{
+        "1":{"player":0,"name":"Bilinear Filtering"},
+        "2":{"player":0,"name":"Disable Render Calls"},
+        "c":{"player":0,"name":"Master CPU Clock Rate (Cheat)"}
+      }
+    },
+    ":MIE.3":{
+      "labels":{
+      }
+    },
+    ":MIE.5":{
+      "labels":{
+        "1":{"player":0,"name":"Monitor"},
+        "8":{"player":0,"name":"Unknown"},
+        "10":{"player":0,"name":"Service Mode"},
+        "40":{"player":0,"name":"Service 1"}
+      }
+    },
+    ":P1":{
+      "labels":{
+        "10":{"player":0,"name":"P1 Button 6"},
+        "20":{"player":0,"name":"P1 Button 5"},
+        "40":{"player":0,"name":"P1 Button 4"},
+        "80":{"player":0,"name":"P1 Button 3"},
+        "100":{"player":0,"name":"P1 Button 2"},
+        "200":{"player":0,"name":"P1 Button 1"},
+        "400":{"player":0,"name":"P1 Right"},
+        "800":{"player":0,"name":"P1 Left"},
+        "1000":{"player":0,"name":"P1 Down"},
+        "2000":{"player":0,"name":"P1 Up"},
+        "8000":{"player":0,"name":"1 Player Start"}
       }
     },
     ":P2":{
       "labels":{
-        "16":{"player":1,"name":"P2 Button 6"},
-        "32":{"player":1,"name":"P2 Button 5"},
-        "64":{"player":1,"name":"P2 Button 4"},
-        "128":{"player":1,"name":"P2 Button 3"},
-        "256":{"player":1,"name":"P2 Button 2"},
-        "512":{"player":1,"name":"P2 Button 1"},
-        "1024":{"player":1,"name":"P2 Right"},
-        "2048":{"player":1,"name":"P2 Left"},
-        "4096":{"player":1,"name":"P2 Down"},
-        "8192":{"player":1,"name":"P2 Up"},
-        "32768":{"player":0,"name":"2 Players Start"}
-      }
-    },
-    ":A6":{
-      "labels":{
-      }
-    },
-    ":A4":{
-      "labels":{
+        "10":{"player":1,"name":"P2 Button 6"},
+        "20":{"player":1,"name":"P2 Button 5"},
+        "40":{"player":1,"name":"P2 Button 4"},
+        "80":{"player":1,"name":"P2 Button 3"},
+        "100":{"player":1,"name":"P2 Button 2"},
+        "200":{"player":1,"name":"P2 Button 1"},
+        "400":{"player":1,"name":"P2 Right"},
+        "800":{"player":1,"name":"P2 Left"},
+        "1000":{"player":1,"name":"P2 Down"},
+        "2000":{"player":1,"name":"P2 Up"},
+        "8000":{"player":0,"name":"2 Players Start"}
       }
     },
     ":TILT":{
       "labels":{
-        "128":{"player":0,"name":"Tilt"}
+        "80":{"player":0,"name":"Tilt"}
       }
     }
   }

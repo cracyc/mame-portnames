@@ -1,21 +1,23 @@
 {
   "romname":"sxyreac2",
   "ports":{
-    ":SYSTEM":{
-      "labels":{
-        "1":{"player":0,"name":"Coin 1"},
-        "2":{"player":0,"name":"Coin 2"},
-        "4":{"player":0,"name":"Service 1"},
-        "8":{"player":0,"name":"Tilt"},
-        "16":{"player":0,"name":"Test"}
-      }
-    },
     ":DSW1":{
       "labels":{
         "7":{"player":0,"name":"Coin A"},
-        "32":{"player":0,"name":"Unused"},
-        "64":{"player":0,"name":"Credits To Play"},
-        "128":{"player":0,"name":"Buy Balls With Credits"}
+        "20":{"player":0,"name":"Unused"},
+        "40":{"player":0,"name":"Credits To Play"},
+        "80":{"player":0,"name":"Buy Balls With Credits"}
+      }
+    },
+    ":DSW2":{
+      "labels":{
+        "1":{"player":0,"name":"Flip Screen"},
+        "2":{"player":0,"name":"Demo Sounds"},
+        "c":{"player":0,"name":"Difficulty"},
+        "10":{"player":0,"name":"Controls"},
+        "20":{"player":0,"name":"Free Play"},
+        "40":{"player":0,"name":"Service Mode"},
+        "80":{"player":0,"name":"Unused"}
       }
     },
     ":P1":{
@@ -24,10 +26,10 @@
         "2":{"player":0,"name":"P1 Button 3"},
         "4":{"player":0,"name":"P1 Button 2"},
         "8":{"player":0,"name":"P1 Button 1"},
-        "16":{"player":0,"name":"P1 Right"},
-        "32":{"player":0,"name":"P1 Left"},
-        "64":{"player":0,"name":"P1 Down"},
-        "128":{"player":0,"name":"P1 Up"}
+        "10":{"player":0,"name":"P1 Right"},
+        "20":{"player":0,"name":"P1 Left"},
+        "40":{"player":0,"name":"P1 Down"},
+        "80":{"player":0,"name":"P1 Up"}
       }
     },
     ":P2":{
@@ -36,31 +38,29 @@
         "2":{"player":1,"name":"P2 Button 3"},
         "4":{"player":1,"name":"P2 Button 2"},
         "8":{"player":1,"name":"P2 Button 1"},
-        "16":{"player":1,"name":"P2 Right"},
-        "32":{"player":1,"name":"P2 Left"},
-        "64":{"player":1,"name":"P2 Down"},
-        "128":{"player":1,"name":"P2 Up"}
+        "10":{"player":1,"name":"P2 Right"},
+        "20":{"player":1,"name":"P2 Left"},
+        "40":{"player":1,"name":"P2 Down"},
+        "80":{"player":1,"name":"P2 Up"}
       }
     },
     ":PADDLE":{
       "labels":{
-        "255":{"player":0,"name":"Paddle"}
-      }
-    },
-    ":DSW2":{
-      "labels":{
-        "1":{"player":0,"name":"Flip Screen"},
-        "2":{"player":0,"name":"Demo Sounds"},
-        "12":{"player":0,"name":"Difficulty"},
-        "16":{"player":0,"name":"Controls"},
-        "32":{"player":0,"name":"Free Play"},
-        "64":{"player":0,"name":"Service Mode"},
-        "128":{"player":0,"name":"Unused"}
+        "ff":{"player":0,"name":"Paddle"}
       }
     },
     ":SERVICE":{
       "labels":{
         "1":{"player":0,"name":"Service 2"}
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"},
+        "4":{"player":0,"name":"Service 1"},
+        "8":{"player":0,"name":"Tilt"},
+        "10":{"player":0,"name":"Test"}
       }
     }
   }

@@ -5,16 +5,16 @@
       "labels":{
         "1":{"player":0,"name":"P1 Starboard (Right)"},
         "2":{"player":0,"name":"P1 Port (Left)"},
-        "16":{"player":0,"name":"P1 Warp"},
-        "128":{"player":0,"name":"P1 Fire"}
+        "10":{"player":0,"name":"P1 Warp"},
+        "80":{"player":0,"name":"P1 Fire"}
       }
     },
     ":P2":{
       "labels":{
         "1":{"player":1,"name":"P2 Starboard (Right)"},
         "2":{"player":1,"name":"P2 Port (Left)"},
-        "16":{"player":1,"name":"P2 Warp"},
-        "128":{"player":1,"name":"P2 Fire"}
+        "10":{"player":1,"name":"P2 Warp"},
+        "80":{"player":1,"name":"P2 Fire"}
       }
     }
   }

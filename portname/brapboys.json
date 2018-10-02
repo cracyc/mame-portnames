@@ -3,14 +3,14 @@
   "ports":{
     ":P1":{
       "labels":{
-        "4096":{"player":0,"name":"P1 Attack"},
-        "8192":{"player":0,"name":"P1 Jump"}
+        "1000":{"player":0,"name":"P1 Attack"},
+        "2000":{"player":0,"name":"P1 Jump"}
       }
     },
     ":P2":{
       "labels":{
-        "4096":{"player":1,"name":"P2 Attack"},
-        "8192":{"player":1,"name":"P2 Jump"}
+        "1000":{"player":1,"name":"P2 Attack"},
+        "2000":{"player":1,"name":"P2 Jump"}
       }
     }
   }

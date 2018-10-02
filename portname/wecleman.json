@@ -1,15 +1,15 @@
 {
   "romname":"wecleman",
   "ports":{
-    ":STEER":{
-      "labels":{
-        "255":{"player":0,"name":"Left / Right"}
-      }
-    },
     ":IN0":{
       "labels":{
-        "32":{"player":0,"name":"Low Gear"},
-        "64":{"player":0,"name":"Brake"}
+        "20":{"player":0,"name":"Low Gear"},
+        "40":{"player":0,"name":"Brake"}
+      }
+    },
+    ":STEER":{
+      "labels":{
+        "ff":{"player":0,"name":"Left / Right"}
       }
     }
   }

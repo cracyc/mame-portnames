@@ -3,12 +3,12 @@
   "ports":{
     ":IN1":{
       "labels":{
-        "16":{"player":0,"name":"P1 Block"},
-        "32":{"player":0,"name":"P1 High Kick"},
-        "64":{"player":0,"name":"P1 High Punch"},
-        "4096":{"player":1,"name":"P2 Block"},
-        "8192":{"player":1,"name":"P2 High Kick"},
-        "16384":{"player":1,"name":"P2 High Punch"}
+        "10":{"player":0,"name":"P1 Block"},
+        "20":{"player":0,"name":"P1 High Kick"},
+        "40":{"player":0,"name":"P1 High Punch"},
+        "1000":{"player":1,"name":"P2 Block"},
+        "2000":{"player":1,"name":"P2 High Kick"},
+        "4000":{"player":1,"name":"P2 High Punch"}
       }
     },
     ":IN2":{
@@ -16,9 +16,9 @@
         "1":{"player":0,"name":"P1 Low Kick"},
         "2":{"player":0,"name":"P1 Low Punch"},
         "4":{"player":0,"name":"P1 3D"},
-        "16":{"player":1,"name":"P2 Low Kick"},
-        "32":{"player":1,"name":"P2 Low Punch"},
-        "64":{"player":1,"name":"P2 3D"}
+        "10":{"player":1,"name":"P2 Low Kick"},
+        "20":{"player":1,"name":"P2 Low Punch"},
+        "40":{"player":1,"name":"P2 3D"}
       }
     }
   }

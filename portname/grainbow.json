@@ -1,71 +1,71 @@
 {
   "romname":"grainbow",
   "ports":{
-    ":DSW2":{
+    ":COIN":{
       "labels":{
-        "128":{"name":"Unknown","player":0}
-      }
-    },
-    ":PLAYERS34":{
-      "labels":{
-        "1":{"name":"P3 Up","player":2},
-        "2":{"name":"P3 Down","player":2},
-        "4":{"name":"P3 Left","player":2},
-        "8":{"name":"P3 Right","player":2},
-        "16":{"name":"P3 Button 1","player":2},
-        "32":{"name":"P3 Button 2","player":2},
-        "64":{"name":"P3 Button 3","player":2},
-        "256":{"name":"P4 Up","player":3},
-        "512":{"name":"P4 Down","player":3},
-        "1024":{"name":"P4 Left","player":3},
-        "2048":{"name":"P4 Right","player":3},
-        "4096":{"name":"P4 Button 1","player":3},
-        "8192":{"name":"P4 Button 2","player":3},
-        "16384":{"name":"P4 Button 3","player":3}
-      }
-    },
-    ":SYSTEM":{
-      "labels":{
-        "1":{"name":"1 Player Start","player":0},
-        "2":{"name":"2 Players Start","player":0},
-        "4":{"name":"Test","player":0},
-        "8":{"name":"Service 1","player":0},
-        "256":{"name":"3 Players Start","player":0},
-        "512":{"name":"4 Players Start","player":0}
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"}
       }
     },
     ":DSW1":{
       "labels":{
-        "3":{"name":"Lives","player":0},
-        "12":{"name":"Difficulty","player":0},
-        "240":{"name":"Coin A","player":0},
-        "256":{"name":"Flip Screen","player":0},
-        "16384":{"name":"Unknown","player":0},
-        "32768":{"name":"Service Mode","player":0}
+        "3":{"player":0,"name":"Lives"},
+        "c":{"player":0,"name":"Difficulty"},
+        "f0":{"player":0,"name":"Coin A"},
+        "100":{"player":0,"name":"Flip Screen"},
+        "4000":{"player":0,"name":"Unknown"},
+        "8000":{"player":0,"name":"Service Mode"}
+      }
+    },
+    ":DSW2":{
+      "labels":{
+        "80":{"player":0,"name":"Unknown"}
       }
     },
     ":PLAYERS12":{
       "labels":{
-        "1":{"name":"P1 Up","player":0},
-        "2":{"name":"P1 Down","player":0},
-        "4":{"name":"P1 Left","player":0},
-        "8":{"name":"P1 Right","player":0},
-        "16":{"name":"P1 Button 1","player":0},
-        "32":{"name":"P1 Button 2","player":0},
-        "64":{"name":"P1 Button 3","player":0},
-        "256":{"name":"P2 Up","player":1},
-        "512":{"name":"P2 Down","player":1},
-        "1024":{"name":"P2 Left","player":1},
-        "2048":{"name":"P2 Right","player":1},
-        "4096":{"name":"P2 Button 1","player":1},
-        "8192":{"name":"P2 Button 2","player":1},
-        "16384":{"name":"P2 Button 3","player":1}
+        "1":{"player":0,"name":"P1 Up"},
+        "2":{"player":0,"name":"P1 Down"},
+        "4":{"player":0,"name":"P1 Left"},
+        "8":{"player":0,"name":"P1 Right"},
+        "10":{"player":0,"name":"P1 Button 1"},
+        "20":{"player":0,"name":"P1 Button 2"},
+        "40":{"player":0,"name":"P1 Button 3"},
+        "100":{"player":1,"name":"P2 Up"},
+        "200":{"player":1,"name":"P2 Down"},
+        "400":{"player":1,"name":"P2 Left"},
+        "800":{"player":1,"name":"P2 Right"},
+        "1000":{"player":1,"name":"P2 Button 1"},
+        "2000":{"player":1,"name":"P2 Button 2"},
+        "4000":{"player":1,"name":"P2 Button 3"}
       }
     },
-    ":COIN":{
+    ":PLAYERS34":{
       "labels":{
-        "1":{"name":"Coin 1","player":0},
-        "2":{"name":"Coin 2","player":0}
+        "1":{"player":2,"name":"P3 Up"},
+        "2":{"player":2,"name":"P3 Down"},
+        "4":{"player":2,"name":"P3 Left"},
+        "8":{"player":2,"name":"P3 Right"},
+        "10":{"player":2,"name":"P3 Button 1"},
+        "20":{"player":2,"name":"P3 Button 2"},
+        "40":{"player":2,"name":"P3 Button 3"},
+        "100":{"player":3,"name":"P4 Up"},
+        "200":{"player":3,"name":"P4 Down"},
+        "400":{"player":3,"name":"P4 Left"},
+        "800":{"player":3,"name":"P4 Right"},
+        "1000":{"player":3,"name":"P4 Button 1"},
+        "2000":{"player":3,"name":"P4 Button 2"},
+        "4000":{"player":3,"name":"P4 Button 3"}
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1":{"player":0,"name":"1 Player Start"},
+        "2":{"player":0,"name":"2 Players Start"},
+        "4":{"player":0,"name":"Test"},
+        "8":{"player":0,"name":"Service 1"},
+        "100":{"player":0,"name":"3 Players Start"},
+        "200":{"player":0,"name":"4 Players Start"}
       }
     }
   }

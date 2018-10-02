@@ -1,31 +1,31 @@
 {
   "romname":"moonwar",
   "ports":{
-    ":P2_DIAL":{
+    ":IN0":{
       "labels":{
-        "255":{"name":"P2 Right /  Left","player":1}
-      }
-    },
-    ":P1_DIAL":{
-      "labels":{
-        "255":{"name":"P1 Left / Right","player":0}
+        "20":{"player":1,"name":"P2 Shields"}
       }
     },
     ":IN1":{
       "labels":{
-        "32":{"name":"P1 Shields","player":0},
-        "64":{"name":"P1 Warp Drive","player":0},
-        "128":{"name":"P1 Fire Missile","player":0}
-      }
-    },
-    ":IN0":{
-      "labels":{
-        "32":{"name":"P2 Shields","player":1}
+        "20":{"player":0,"name":"P1 Shields"},
+        "40":{"player":0,"name":"P1 Warp Drive"},
+        "80":{"player":0,"name":"P1 Fire Missile"}
       }
     },
     ":IN2":{
       "labels":{
-        "1":{"name":"P2 Fire Missile","player":1}
+        "1":{"player":1,"name":"P2 Fire Missile"}
+      }
+    },
+    ":P1_DIAL":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Left / Right"}
+      }
+    },
+    ":P2_DIAL":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Right /  Left"}
       }
     }
   }

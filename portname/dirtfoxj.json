@@ -1,13 +1,25 @@
 {
   "romname":"dirtfoxj",
   "ports":{
-    ":AN5":{"labels":{"255":{"name":"Steering Wheel"}}},
-    ":AN6":{"labels":{"255":{"name":"Brake Pedal"}}},
-    ":AN7":{"labels":{"255":{"name":"Gas Pedal"}}},
+    ":AN5":{
+      "labels":{
+        "ff":{"name":"Steering Wheel"}
+      }
+    },
+    ":AN6":{
+      "labels":{
+        "ff":{"name":"Brake Pedal"}
+      }
+    },
+    ":AN7":{
+      "labels":{
+        "ff":{"name":"Gas Pedal"}
+      }
+    },
     ":MCUB":{
       "labels":{
-        "32":{"name":"Gear Shift Down"},
-        "128":{"name":"Gear Shift Up"}
+        "20":{"name":"Gear Shift Down"},
+        "80":{"name":"Gear Shift Up"}
       }
     }
   }

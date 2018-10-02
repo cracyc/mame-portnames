@@ -1,11 +1,17 @@
 {
   "romname":"ggisuka",
   "ports":{
+    ":COINS":{
+      "labels":{
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"}
+      }
+    },
     ":MAMEDEBUG":{
       "labels":{
         "1":{"player":0,"name":"Bilinear Filtering"},
         "2":{"player":0,"name":"Disable Render Calls"},
-        "12":{"player":0,"name":"Master CPU Clock Rate (Cheat)"}
+        "c":{"player":0,"name":"Master CPU Clock Rate (Cheat)"}
       }
     },
     ":P1.0":{
@@ -14,24 +20,10 @@
         "2":{"player":0,"name":"P1 Button 2"},
         "4":{"player":0,"name":"P1 Button 1"},
         "8":{"player":0,"name":"1 Player Start"},
-        "16":{"player":0,"name":"P1 Up"},
-        "32":{"player":0,"name":"P1 Down"},
-        "64":{"player":0,"name":"P1 Left"},
-        "128":{"player":0,"name":"P1 Right"}
-      }
-    },
-    ":COINS":{
-      "labels":{
-        "1":{"player":0,"name":"Coin 1"},
-        "2":{"player":0,"name":"Coin 2"}
-      }
-    },
-    ":P2.1":{
-      "labels":{
-        "1":{"player":1,"name":"P2 Button 6"},
-        "2":{"player":1,"name":"P2 Button 5"},
-        "4":{"player":1,"name":"P2 Button 4"},
-        "32":{"player":0,"name":"Service 2"}
+        "10":{"player":0,"name":"P1 Up"},
+        "20":{"player":0,"name":"P1 Down"},
+        "40":{"player":0,"name":"P1 Left"},
+        "80":{"player":0,"name":"P1 Right"}
       }
     },
     ":P1.1":{
@@ -39,8 +31,8 @@
         "1":{"player":0,"name":"P1 Button 6"},
         "2":{"player":0,"name":"P1 Button 5"},
         "4":{"player":0,"name":"P1 Button 4"},
-        "32":{"player":0,"name":"Service 1"},
-        "64":{"player":0,"name":"Service Mode"}
+        "20":{"player":0,"name":"Service 1"},
+        "40":{"player":0,"name":"Service Mode"}
       }
     },
     ":P2.0":{
@@ -49,10 +41,18 @@
         "2":{"player":1,"name":"P2 Button 2"},
         "4":{"player":1,"name":"P2 Button 1"},
         "8":{"player":0,"name":"2 Players Start"},
-        "16":{"player":1,"name":"P2 Up"},
-        "32":{"player":1,"name":"P2 Down"},
-        "64":{"player":1,"name":"P2 Left"},
-        "128":{"player":1,"name":"P2 Right"}
+        "10":{"player":1,"name":"P2 Up"},
+        "20":{"player":1,"name":"P2 Down"},
+        "40":{"player":1,"name":"P2 Left"},
+        "80":{"player":1,"name":"P2 Right"}
+      }
+    },
+    ":P2.1":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Button 6"},
+        "2":{"player":1,"name":"P2 Button 5"},
+        "4":{"player":1,"name":"P2 Button 4"},
+        "20":{"player":0,"name":"Service 2"}
       }
     }
   }

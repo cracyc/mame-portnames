@@ -1,20 +1,20 @@
 {
   "romname":"timecris",
   "ports":{
+    ":LIGHTX":{
+      "labels":{
+        "fff":{"player":0,"name":"Aim Left / Aim Right"}
+      }
+    },
     ":LIGHTY":{
       "labels":{
-        "4095":{"player":0,"name":"Aim Up / Aim Down"}
+        "fff":{"player":0,"name":"Aim Up / Aim Down"}
       }
     },
     ":MCUP5A":{
       "labels":{
-        "16":{"player":0,"name":"Fire"},
-        "32":{"player":0,"name":"Step on It!"}
-      }
-    },
-    ":LIGHTX":{
-      "labels":{
-        "4095":{"player":0,"name":"Aim Left / Aim Right"}
+        "10":{"player":0,"name":"Fire"},
+        "20":{"player":0,"name":"Step on It!"}
       }
     }
   }

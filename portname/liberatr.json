@@ -1,18 +1,18 @@
 {
   "romname":"liberatr",
   "ports":{
-    ":IN1":{
-      "labels":{
-        "1":{"name":"P2 Shield","player":1},
-        "2":{"name":"P2 Fire","player":1},
-        "4":{"name":"P1 Shield","player":0},
-        "8":{"name":"P1 Fire","player":0}
-      }
-    },
     ":FAKE":{
       "labels":{
-        "15":{"name":"P1 Left /  Right","player":0},
-        "240":{"name":"P1 Up / Down","player":0}
+        "f":{"player":0,"name":"P1 Left /  Right"},
+        "f0":{"player":0,"name":"P1 Up / Down"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Shield"},
+        "2":{"player":1,"name":"P2 Fire"},
+        "4":{"player":0,"name":"P1 Shield"},
+        "8":{"player":0,"name":"P1 Fire"}
       }
     }
   }

@@ -3,18 +3,18 @@
   "ports":{
     ":DIAL1":{
       "labels":{
-        "255":{"name":"P1 Left / Right","player":0}
+        "ff":{"player":0,"name":"P1 Left / Right"}
       }
     },
     ":DIAL2":{
       "labels":{
-        "255":{"name":"P2 Right /  Left","player":1}
+        "ff":{"player":1,"name":"P2 Right /  Left"}
       }
     },
     ":IN1":{
       "labels":{
-        "32":{"name":"P2 Fire Torpedo","player":1},
-        "128":{"name":"P1 Fire Torpedo","player":0}
+        "20":{"player":1,"name":"P2 Fire Torpedo"},
+        "80":{"player":0,"name":"P1 Fire Torpedo"}
       }
     }
   }

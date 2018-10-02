@@ -3,10 +3,10 @@
   "ports":{
     ":INPUTS":{
       "labels":{
-        "16":{"player":0,"name":"P1 Shoot"},
-        "32":{"player":0,"name":"P1 Grenade"},
-        "4096":{"player":1,"name":"P2 Shoot"},
-        "8192":{"player":1,"name":"P2 Grenade"}
+        "10":{"player":0,"name":"P1 Shoot"},
+        "20":{"player":0,"name":"P1 Grenade"},
+        "1000":{"player":1,"name":"P2 Shoot"},
+        "2000":{"player":1,"name":"P2 Grenade"}
       }
     }
   }

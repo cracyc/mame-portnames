@@ -1,9 +1,9 @@
 {
   "romname":"sprint1",
   "ports":{
-    ":INB":{
+    ":DIAL_P1":{
       "labels":{
-        "8":{"player":0,"name":"Accelerate"}
+        "ff":{"player":0,"name":"Left / Right"}
       }
     },
     ":GEAR_P1":{
@@ -14,9 +14,9 @@
         "8":{"player":0,"name":"4"}
       }
     },
-    ":DIAL_P1":{
+    ":INB":{
       "labels":{
-        "255":{"player":0,"name":"Left / Right"}
+        "8":{"player":0,"name":"Accelerate"}
       }
     }
   }

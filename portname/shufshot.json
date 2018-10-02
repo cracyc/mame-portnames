@@ -3,34 +3,34 @@
   "ports":{
     ":P1":{
       "labels":{
-        "262144":{"name":"P1 Zoom","player":0},
-        "524288":{"name":"P1 Wax","player":0}
-      }
-    },
-    ":TRACKY1":{
-      "labels":{
-        "255":{"name":"P1 Up / Down","player":0}
-      }
-    },
-    ":TRACKY2":{
-      "labels":{
-        "255":{"name":"P2 Down /  Up","player":1}
-      }
-    },
-    ":TRACKX1":{
-      "labels":{
-        "255":{"name":"P1 Left / Right","player":0}
-      }
-    },
-    ":TRACKX2":{
-      "labels":{
-        "255":{"name":"P2 Right /  Left","player":1}
+        "40000":{"player":0,"name":"P1 Zoom"},
+        "80000":{"player":0,"name":"P1 Wax"}
       }
     },
     ":P2":{
       "labels":{
-        "262144":{"name":"P2 Zoom","player":1},
-        "524288":{"name":"P2 Wax","player":1}
+        "40000":{"player":1,"name":"P2 Zoom"},
+        "80000":{"player":1,"name":"P2 Wax"}
+      }
+    },
+    ":TRACKX1":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Left / Right"}
+      }
+    },
+    ":TRACKX2":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Right /  Left"}
+      }
+    },
+    ":TRACKY1":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Up / Down"}
+      }
+    },
+    ":TRACKY2":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Down /  Up"}
       }
     }
   }

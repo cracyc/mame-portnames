@@ -3,12 +3,12 @@
   "ports":{
     ":P1_P2":{
       "labels":{
-        "1":{"name":"P1 Go (Right)","player":0},
-        "2":{"name":"P1 Up","player":0},
-        "4":{"name":"P1 Go (Left)","player":0},
-        "16":{"name":"P2 Go (Right)","player":1},
-        "32":{"name":"P2 Up","player":1},
-        "64":{"name":"P2 Go (Left)","player":1}
+        "1":{"player":0,"name":"P1 Go (Right)"},
+        "2":{"player":0,"name":"P1 Up"},
+        "4":{"player":0,"name":"P1 Go (Left)"},
+        "10":{"player":1,"name":"P2 Go (Right)"},
+        "20":{"player":1,"name":"P2 Up"},
+        "40":{"player":1,"name":"P2 Go (Left)"}
       }
     }
   }

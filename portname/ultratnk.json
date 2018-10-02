@@ -1,34 +1,34 @@
 {
   "romname":"ultratnk",
   "ports":{
-    ":JOY-Z":{
+    ":ANALOG":{
       "labels":{
-        "1":{"name":"P2 Down","player":1},
-        "2":{"name":"P2 Up","player":1}
+        "10":{"player":0,"name":"P1 Fire"},
+        "40":{"player":1,"name":"P2 Fire"}
       }
     },
     ":JOY-W":{
       "labels":{
-        "1":{"name":"P1 Down","player":0},
-        "2":{"name":"P1 Up","player":0}
+        "1":{"player":0,"name":"P1 Down"},
+        "2":{"player":0,"name":"P1 Up"}
       }
     },
     ":JOY-X":{
       "labels":{
-        "1":{"name":"P1 Down","player":0},
-        "2":{"name":"P1 Up","player":0}
+        "1":{"player":0,"name":"P1 Down"},
+        "2":{"player":0,"name":"P1 Up"}
       }
     },
     ":JOY-Y":{
       "labels":{
-        "1":{"name":"P2 Down","player":1},
-        "2":{"name":"P2 Up","player":1}
+        "1":{"player":1,"name":"P2 Down"},
+        "2":{"player":1,"name":"P2 Up"}
       }
     },
-    ":ANALOG":{
+    ":JOY-Z":{
       "labels":{
-        "16":{"name":"P1 Fire","player":0},
-        "64":{"name":"P2 Fire","player":1}
+        "1":{"player":1,"name":"P2 Down"},
+        "2":{"player":1,"name":"P2 Up"}
       }
     }
   }

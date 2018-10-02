@@ -3,16 +3,16 @@
   "ports":{
     ":IN0":{
       "labels":{
-        "16":{"player":0,"name":"P1 Fire"},
-        "32":{"player":0,"name":"P1 Bomb"},
-        "64":{"player":0,"name":"P1 ..."}
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Bomb"},
+        "40":{"player":0,"name":"P1 ..."}
       }
     },
     ":IN1":{
       "labels":{
-        "16":{"player":1,"name":"P2 Fire"},
-        "32":{"player":1,"name":"P2 Bomb"},
-        "64":{"player":1,"name":"P2 ..."}
+        "10":{"player":1,"name":"P2 Fire"},
+        "20":{"player":1,"name":"P2 Bomb"},
+        "40":{"player":1,"name":"P2 ..."}
       }
     }
   }

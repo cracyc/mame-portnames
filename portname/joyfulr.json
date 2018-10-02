@@ -1,24 +1,24 @@
 {
   "romname":"joyfulr",
   "ports":{
-    ":P2":{
-      "labels":{
-        "1":{"name":"P2 Car Up","player":1},
-        "2":{"name":"P2 Car Down","player":1},
-        "4":{"name":"P2 Car Left","player":1},
-        "8":{"name":"P2 Car Right","player":1},
-        "16":{"name":"P2 Hand Left","player":1},
-        "32":{"name":"P2 Hand Right","player":1}
-      }
-    },
     ":P1":{
       "labels":{
-        "1":{"name":"P1 Car Up","player":0},
-        "2":{"name":"P1 Car Down","player":0},
-        "4":{"name":"P1 Car Left","player":0},
-        "8":{"name":"P1 Car Right","player":0},
-        "16":{"name":"P1 Hand Left","player":0},
-        "32":{"name":"P1 Hand Right","player":0}
+        "1":{"player":0,"name":"P1 Car Up"},
+        "2":{"player":0,"name":"P1 Car Down"},
+        "4":{"player":0,"name":"P1 Car Left"},
+        "8":{"player":0,"name":"P1 Car Right"},
+        "10":{"player":0,"name":"P1 Hand Left"},
+        "20":{"player":0,"name":"P1 Hand Right"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Car Up"},
+        "2":{"player":1,"name":"P2 Car Down"},
+        "4":{"player":1,"name":"P2 Car Left"},
+        "8":{"player":1,"name":"P2 Car Right"},
+        "10":{"player":1,"name":"P2 Hand Left"},
+        "20":{"player":1,"name":"P2 Hand Right"}
       }
     }
   }

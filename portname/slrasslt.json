@@ -1,42 +1,42 @@
 {
   "romname":"slrasslt",
   "ports":{
-    ":AN1":{
-      "labels":{
-        "1023":{"name":"AD Stick X","player":0}
-      }
-    },
     ":AN0":{
       "labels":{
-        "1023":{"name":"AD Stick Y","player":0}
+        "3ff":{"player":0,"name":"AD Stick Y"}
       }
     },
-    ":IN1":{
+    ":AN1":{
       "labels":{
-        "8":{"name":"P1 Left","player":0},
-        "16":{"name":"P1 Right","player":0},
-        "32":{"name":"P1 Down","player":0},
-        "64":{"name":"P1 Up","player":0}
-      }
-    },
-    ":IN3":{
-      "labels":{
-        "1":{"name":"DIP1","player":0},
-        "2":{"name":"DIP2","player":0},
-        "4":{"name":"DIP3","player":0},
-        "8":{"name":"DIP4","player":0},
-        "16":{"name":"Coin 2","player":0},
-        "32":{"name":"Coin 1","player":0},
-        "64":{"name":"Service Button","player":0},
-        "128":{"name":"Service Mode","player":0}
+        "3ff":{"player":0,"name":"AD Stick X"}
       }
     },
     ":IN0":{
       "labels":{
-        "1":{"name":"P1 Button 3","player":0},
-        "2":{"name":"P1 Button 2","player":0},
-        "4":{"name":"P1 Button 1","player":0},
-        "128":{"name":"1 Player Start","player":0}
+        "1":{"player":0,"name":"P1 Button 3"},
+        "2":{"player":0,"name":"P1 Button 2"},
+        "4":{"player":0,"name":"P1 Button 1"},
+        "80":{"player":0,"name":"1 Player Start"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "8":{"player":0,"name":"P1 Left"},
+        "10":{"player":0,"name":"P1 Right"},
+        "20":{"player":0,"name":"P1 Down"},
+        "40":{"player":0,"name":"P1 Up"}
+      }
+    },
+    ":IN3":{
+      "labels":{
+        "1":{"player":0,"name":"DIP1"},
+        "2":{"player":0,"name":"DIP2"},
+        "4":{"player":0,"name":"DIP3"},
+        "8":{"player":0,"name":"DIP4"},
+        "10":{"player":0,"name":"Coin 2"},
+        "20":{"player":0,"name":"Coin 1"},
+        "40":{"player":0,"name":"Service Button"},
+        "80":{"player":0,"name":"Service Mode"}
       }
     }
   }

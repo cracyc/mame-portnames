@@ -1,76 +1,76 @@
 {
   "romname":"chasehq",
   "ports":{
-    ":GAS":{
+    ":BRAKE":{
       "labels":{
-        "7":{"name":"Gas Pedal","player":0}
-      }
-    },
-    ":UNK4":{
-      "labels":{
-      }
-    },
-    ":DSWB":{
-      "labels":{
-        "3":{"name":"Difficulty","player":0},
-        "12":{"name":"Timer Setting","player":0},
-        "16":{"name":"Turbos Stocked","player":0},
-        "32":{"name":"Continue Price","player":0},
-        "64":{"name":"Clear Damage on Continue","player":0},
-        "128":{"name":"Allow Continue","player":0}
-      }
-    },
-    ":UNK3":{
-      "labels":{
-      }
-    },
-    ":STEER":{
-      "labels":{
-        "255":{"name":"Steering Wheel","player":0}
+        "7":{"player":0,"name":"Brake Pedal"}
       }
     },
     ":DSWA":{
       "labels":{
-        "3":{"name":"Cabinet","player":0},
-        "4":{"name":"Service Mode","player":0},
-        "8":{"name":"Demo Sounds","player":0},
-        "48":{"name":"Coin A","player":0},
-        "192":{"name":"Coin B","player":0}
+        "3":{"player":0,"name":"Cabinet"},
+        "4":{"player":0,"name":"Service Mode"},
+        "8":{"player":0,"name":"Demo Sounds"},
+        "30":{"player":0,"name":"Coin A"},
+        "c0":{"player":0,"name":"Coin B"}
       }
     },
-    ":BRAKE":{
+    ":DSWB":{
       "labels":{
-        "7":{"name":"Brake Pedal","player":0}
+        "3":{"player":0,"name":"Difficulty"},
+        "c":{"player":0,"name":"Timer Setting"},
+        "10":{"player":0,"name":"Turbos Stocked"},
+        "20":{"player":0,"name":"Continue Price"},
+        "40":{"player":0,"name":"Clear Damage on Continue"},
+        "80":{"player":0,"name":"Allow Continue"}
       }
     },
-    ":UNK1":{
+    ":GAS":{
       "labels":{
+        "7":{"player":0,"name":"Gas Pedal"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "4":{"player":0,"name":"Coin 1"},
+        "8":{"player":0,"name":"Coin 2"},
+        "10":{"player":0,"name":"Service 1"},
+        "20":{"player":0,"name":"Brake Switch"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1":{"player":0,"name":"Turbo"},
+        "2":{"player":0,"name":"Tilt"},
+        "4":{"player":0,"name":"Calibrate"},
+        "8":{"player":0,"name":"1 Player Start"},
+        "10":{"player":0,"name":"Shifter"},
+        "20":{"player":0,"name":"Gas Switch"}
       }
     },
     ":IN2":{
       "labels":{
       }
     },
-    ":IN0":{
+    ":STEER":{
       "labels":{
-        "4":{"name":"Coin 1","player":0},
-        "8":{"name":"Coin 2","player":0},
-        "16":{"name":"Service 1","player":0},
-        "32":{"name":"Brake Switch","player":0}
+        "ff":{"player":0,"name":"Steering Wheel"}
+      }
+    },
+    ":UNK1":{
+      "labels":{
       }
     },
     ":UNK2":{
       "labels":{
       }
     },
-    ":IN1":{
+    ":UNK3":{
       "labels":{
-        "1":{"name":"Turbo","player":0},
-        "2":{"name":"Tilt","player":0},
-        "4":{"name":"Calibrate","player":0},
-        "8":{"name":"1 Player Start","player":0},
-        "16":{"name":"Shifter","player":0},
-        "32":{"name":"Gas Switch","player":0}
+      }
+    },
+    ":UNK4":{
+      "labels":{
       }
     }
   }

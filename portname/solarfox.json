@@ -3,26 +3,26 @@
   "ports":{
     ":ssio:IP0":{
       "labels":{
-        "4":{"name":"P1 Speed Control","player":0},
-        "8":{"name":"P2 Speed Control","player":1},
-        "16":{"name":"P1 Fire","player":0}
-      }
-    },
-    ":ssio:IP2":{
-      "labels":{
-        "1":{"name":"P2 Fire","player":1}
+        "4":{"player":0,"name":"P1 Speed Control"},
+        "8":{"player":1,"name":"P2 Speed Control"},
+        "10":{"player":0,"name":"P1 Fire"}
       }
     },
     ":ssio:IP1":{
       "labels":{
-        "1":{"name":"P1 Right","player":0},
-        "2":{"name":"P1 Left","player":0},
-        "4":{"name":"P1 Down","player":0},
-        "8":{"name":"P1 Up","player":0},
-        "16":{"name":"P2 Right","player":1},
-        "32":{"name":"P2 Left","player":1},
-        "64":{"name":"P2 Down","player":1},
-        "128":{"name":"P2 Up","player":1}
+        "1":{"player":0,"name":"P1 Right"},
+        "2":{"player":0,"name":"P1 Left"},
+        "4":{"player":0,"name":"P1 Down"},
+        "8":{"player":0,"name":"P1 Up"},
+        "10":{"player":1,"name":"P2 Right"},
+        "20":{"player":1,"name":"P2 Left"},
+        "40":{"player":1,"name":"P2 Down"},
+        "80":{"player":1,"name":"P2 Up"}
+      }
+    },
+    ":ssio:IP2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Fire"}
       }
     }
   }

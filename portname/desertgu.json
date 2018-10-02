@@ -1,19 +1,19 @@
 {
   "romname":"desertgu",
   "ports":{
-    ":IN1":{
-      "labels":{
-        "128":{"name":"P1 Fire","player":0}
-      }
-    },
     ":GUNX":{
       "labels":{
-        "255":{"name":"P1 Left / Right","player":0}
+        "ff":{"player":0,"name":"P1 Left / Right"}
       }
     },
     ":GUNY":{
       "labels":{
-        "255":{"name":"P1 Up / Down","player":0}
+        "ff":{"player":0,"name":"P1 Up / Down"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "80":{"player":0,"name":"P1 Fire"}
       }
     }
   }

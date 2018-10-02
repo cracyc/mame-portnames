@@ -1,16 +1,26 @@
 {
   "romname":"f1lap",
   "ports":{
+    ":mainpcb:ANALOG1":{
+      "labels":{
+        "ff":{"player":0,"name":"mainpcb:Steering Wheel"}
+      }
+    },
+    ":mainpcb:ANALOG2":{
+      "labels":{
+        "ff":{"player":0,"name":"mainpcb:Gas Pedal"}
+      }
+    },
+    ":mainpcb:ANALOG3":{
+      "labels":{
+        "ff":{"player":0,"name":"mainpcb:Brake Pedal"}
+      }
+    },
     ":mainpcb:P1_A":{
       "labels":{
         "1":{"player":0,"name":"mainpcb:Gear Up"},
         "2":{"player":0,"name":"mainpcb:Gear Down"},
         "4":{"player":0,"name":"mainpcb:Overtake"}
-      }
-    },
-    ":mainpcb:ANALOG2":{
-      "labels":{
-        "255":{"player":0,"name":"mainpcb:Gas Pedal"}
       }
     },
     ":mainpcb:SERVICE12_A":{
@@ -19,24 +29,14 @@
         "2":{"player":0,"name":"Service Mode"},
         "4":{"player":0,"name":"Coin 1"},
         "8":{"player":0,"name":"Coin 2"},
-        "16":{"player":0,"name":"1 Player Start"}
-      }
-    },
-    ":mainpcb:ANALOG3":{
-      "labels":{
-        "255":{"player":0,"name":"mainpcb:Brake Pedal"}
-      }
-    },
-    ":mainpcb:ANALOG1":{
-      "labels":{
-        "255":{"player":0,"name":"mainpcb:Steering Wheel"}
+        "10":{"player":0,"name":"1 Player Start"}
       }
     },
     ":mainpcb:SERVICE34_A":{
       "labels":{
         "8":{"player":0,"name":"Unknown"},
-        "16":{"player":0,"name":"Push SW1 (Service)"},
-        "32":{"player":0,"name":"Push SW2 (Test)"}
+        "10":{"player":0,"name":"Push SW1 (Service)"},
+        "20":{"player":0,"name":"Push SW2 (Test)"}
       }
     }
   }

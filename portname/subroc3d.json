@@ -1,22 +1,22 @@
 {
   "romname":"subroc3d",
   "ports":{
+    ":DSW2":{
+      "labels":{
+        "7":{"player":0,"name":"Coin A"},
+        "38":{"player":0,"name":"Coin B"},
+        "c0":{"player":0,"name":"Lives"}
+      }
+    },
     ":DSW3":{
       "labels":{
         "3":{"player":0,"name":"Bonus Life"},
         "4":{"player":0,"name":"Initial Entry"},
         "8":{"player":0,"name":"Difficulty"},
-        "16":{"player":0,"name":"Free Play"},
-        "32":{"player":0,"name":"Motion"},
-        "64":{"player":0,"name":"Screen"},
-        "128":{"player":0,"name":"Game"}
-      }
-    },
-    ":DSW2":{
-      "labels":{
-        "7":{"player":0,"name":"Coin A"},
-        "56":{"player":0,"name":"Coin B"},
-        "192":{"player":0,"name":"Lives"}
+        "10":{"player":0,"name":"Free Play"},
+        "20":{"player":0,"name":"Motion"},
+        "40":{"player":0,"name":"Screen"},
+        "80":{"player":0,"name":"Game"}
       }
     },
     ":IN0":{
@@ -31,10 +31,10 @@
         "2":{"player":0,"name":"P1 Right"},
         "4":{"player":0,"name":"P1 Button 1"},
         "8":{"player":0,"name":"1 Player Start"},
-        "16":{"player":0,"name":"Service Mode"},
-        "32":{"player":0,"name":"Service 1"},
-        "64":{"player":0,"name":"Coin 2"},
-        "128":{"player":0,"name":"Coin 1"}
+        "10":{"player":0,"name":"Service Mode"},
+        "20":{"player":0,"name":"Service 1"},
+        "40":{"player":0,"name":"Coin 2"},
+        "80":{"player":0,"name":"Coin 1"}
       }
     }
   }

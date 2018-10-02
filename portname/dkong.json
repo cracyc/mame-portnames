@@ -7,7 +7,7 @@
         "2":{"player":0,"name":"P1 Run Left"},
         "4":{"player":0,"name":"P1 Climb Up Ladder"},
         "8":{"player":0,"name":"P1 Climb Down Ladder"},
-        "16":{"player":0,"name":"P1 Jump"}
+        "10":{"player":0,"name":"P1 Jump"}
       }
     },
     ":IN1":{
@@ -16,7 +16,7 @@
         "2":{"player":1,"name":"P2 Run Left"},
         "4":{"player":1,"name":"P2 Climb Up Ladder"},
         "8":{"player":1,"name":"P2 Climb Down Ladder"},
-        "16":{"player":1,"name":"P2 Jump"}
+        "10":{"player":1,"name":"P2 Jump"}
       }
     }
   }

@@ -1,34 +1,34 @@
 {
   "romname":"milliped",
   "ports":{
+    ":IN0":{
+      "labels":{
+        "10":{"player":0,"name":"P1 Fire"}
+      }
+    },
     ":IN1":{
       "labels":{
-        "16":{"player":1,"name":"P2 Fire"}
+        "10":{"player":1,"name":"P2 Fire"}
       }
     },
     ":TRACK0_X":{
       "labels":{
-        "255":{"player":0,"name":"P1 Left /  Right"}
+        "ff":{"player":0,"name":"P1 Left /  Right"}
       }
     },
     ":TRACK0_Y":{
       "labels":{
-        "255":{"player":0,"name":"P1 Up / Down"}
-      }
-    },
-    ":TRACK1_Y":{
-      "labels":{
-        "255":{"player":1,"name":"P2 Down /  Up"}
+        "ff":{"player":0,"name":"P1 Up / Down"}
       }
     },
     ":TRACK1_X":{
       "labels":{
-        "255":{"player":1,"name":"P2 Left /  Right"}
+        "ff":{"player":1,"name":"P2 Left /  Right"}
       }
     },
-    ":IN0":{
+    ":TRACK1_Y":{
       "labels":{
-        "16":{"player":0,"name":"P1 Fire"}
+        "ff":{"player":1,"name":"P2 Down /  Up"}
       }
     }
   }

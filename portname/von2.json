@@ -5,20 +5,20 @@
       "labels":{
         "1":{"name":"Left Lever Shot Trigger"},
         "2":{"name":"Left Lever Turbo Button"},
-        "16":{"name":"P1 Left Stick/Down"},
-        "32":{"name":"P1 Left Stick/Up"},
-        "64":{"name":"P1 Left Stick/Right"},
-        "128":{"name":"P1 Left Stick/Left"}
+        "10":{"name":"P1 Left Stick/Down"},
+        "20":{"name":"P1 Left Stick/Up"},
+        "40":{"name":"P1 Left Stick/Right"},
+        "80":{"name":"P1 Left Stick/Left"}
       }
     },
     ":IN3":{
       "labels":{
         "1":{"name":"Right Lever Shot Trigger"},
         "2":{"name":"Right Lever Turbo Button"},
-        "16":{"name":"P1 Right Stick/Down"},
-        "32":{"name":"P1 Right Stick/Up"},
-        "64":{"name":"P1 Right Stick/Right"},
-        "128":{"name":"P1 Right Stick/Left"}
+        "10":{"name":"P1 Right Stick/Down"},
+        "20":{"name":"P1 Right Stick/Up"},
+        "40":{"name":"P1 Right Stick/Right"},
+        "80":{"name":"P1 Right Stick/Left"}
       }
     }
   }

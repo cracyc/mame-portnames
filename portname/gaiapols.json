@@ -7,39 +7,23 @@
         "2":{"player":0,"name":"P1 Right"},
         "4":{"player":0,"name":"P1 Up"},
         "8":{"player":0,"name":"P1 Down"},
-        "16":{"player":0,"name":"P1 Button 1"},
-        "32":{"player":0,"name":"P1 Button 2"},
-        "64":{"player":0,"name":"P1 Button 3"},
-        "128":{"player":0,"name":"1 Player Start"},
-        "256":{"player":0,"name":"Coin 1"},
-        "512":{"player":0,"name":"Coin 2"},
-        "2048":{"player":0,"name":"Service Mode"},
-        "4096":{"player":0,"name":"Service 1"},
-        "8192":{"player":0,"name":"Service 2"}
+        "10":{"player":0,"name":"P1 Button 1"},
+        "20":{"player":0,"name":"P1 Button 2"},
+        "40":{"player":0,"name":"P1 Button 3"},
+        "80":{"player":0,"name":"1 Player Start"},
+        "100":{"player":0,"name":"Coin 1"},
+        "200":{"player":0,"name":"Coin 2"},
+        "800":{"player":0,"name":"Service Mode"},
+        "1000":{"player":0,"name":"Service 1"},
+        "2000":{"player":0,"name":"Service 2"}
       }
     },
-    ":P4":{
+    ":IN1":{
       "labels":{
-        "1":{"player":3,"name":"P4 Left"},
-        "2":{"player":3,"name":"P4 Right"},
-        "4":{"player":3,"name":"P4 Up"},
-        "8":{"player":3,"name":"P4 Down"},
-        "16":{"player":3,"name":"P4 Button 1"},
-        "32":{"player":3,"name":"P4 Button 2"},
-        "64":{"player":3,"name":"P4 Button 3"},
-        "128":{"player":0,"name":"4 Players Start"}
-      }
-    },
-    ":P3":{
-      "labels":{
-        "1":{"player":2,"name":"P3 Left"},
-        "2":{"player":2,"name":"P3 Right"},
-        "4":{"player":2,"name":"P3 Up"},
-        "8":{"player":2,"name":"P3 Down"},
-        "16":{"player":2,"name":"P3 Button 1"},
-        "32":{"player":2,"name":"P3 Button 2"},
-        "64":{"player":2,"name":"P3 Button 3"},
-        "128":{"player":0,"name":"3 Players Start"}
+        "8":{"player":0,"name":"Service Mode"},
+        "10":{"player":0,"name":"Sound Output"},
+        "20":{"player":0,"name":"Flip Screen"},
+        "80":{"player":0,"name":"Unused"}
       }
     },
     ":P2":{
@@ -48,18 +32,34 @@
         "2":{"player":1,"name":"P2 Right"},
         "4":{"player":1,"name":"P2 Up"},
         "8":{"player":1,"name":"P2 Down"},
-        "16":{"player":1,"name":"P2 Button 1"},
-        "32":{"player":1,"name":"P2 Button 2"},
-        "64":{"player":1,"name":"P2 Button 3"},
-        "128":{"player":0,"name":"2 Players Start"}
+        "10":{"player":1,"name":"P2 Button 1"},
+        "20":{"player":1,"name":"P2 Button 2"},
+        "40":{"player":1,"name":"P2 Button 3"},
+        "80":{"player":0,"name":"2 Players Start"}
       }
     },
-    ":IN1":{
+    ":P3":{
       "labels":{
-        "8":{"player":0,"name":"Service Mode"},
-        "16":{"player":0,"name":"Sound Output"},
-        "32":{"player":0,"name":"Flip Screen"},
-        "128":{"player":0,"name":"Unused"}
+        "1":{"player":2,"name":"P3 Left"},
+        "2":{"player":2,"name":"P3 Right"},
+        "4":{"player":2,"name":"P3 Up"},
+        "8":{"player":2,"name":"P3 Down"},
+        "10":{"player":2,"name":"P3 Button 1"},
+        "20":{"player":2,"name":"P3 Button 2"},
+        "40":{"player":2,"name":"P3 Button 3"},
+        "80":{"player":0,"name":"3 Players Start"}
+      }
+    },
+    ":P4":{
+      "labels":{
+        "1":{"player":3,"name":"P4 Left"},
+        "2":{"player":3,"name":"P4 Right"},
+        "4":{"player":3,"name":"P4 Up"},
+        "8":{"player":3,"name":"P4 Down"},
+        "10":{"player":3,"name":"P4 Button 1"},
+        "20":{"player":3,"name":"P4 Button 2"},
+        "40":{"player":3,"name":"P4 Button 3"},
+        "80":{"player":0,"name":"4 Players Start"}
       }
     }
   }

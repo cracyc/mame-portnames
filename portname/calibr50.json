@@ -1,26 +1,26 @@
 {
   "romname":"calibr50",
   "ports":{
-    ":P2":{
+    ":P1":{
       "labels":{
-        "16":{"player":1,"name":"P2 Fire"},
-        "32":{"player":1,"name":"P2 Grenade"}
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Grenade"}
       }
     },
-    ":ROT2":{
+    ":P2":{
       "labels":{
-        "4095":{"player":1,"name":"P2 Rotate Right /  Rotate Left"}
+        "10":{"player":1,"name":"P2 Fire"},
+        "20":{"player":1,"name":"P2 Grenade"}
       }
     },
     ":ROT1":{
       "labels":{
-        "4095":{"player":0,"name":"P1 Rotate Left / Rotate Right"}
+        "fff":{"player":0,"name":"P1 Rotate Left / Rotate Right"}
       }
     },
-    ":P1":{
+    ":ROT2":{
       "labels":{
-        "16":{"player":0,"name":"P1 Fire"},
-        "32":{"player":0,"name":"P1 Grenade"}
+        "fff":{"player":1,"name":"P2 Rotate Right /  Rotate Left"}
       }
     }
   }

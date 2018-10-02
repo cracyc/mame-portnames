@@ -3,16 +3,16 @@
   "ports":{
     ":INPUTS":{
       "labels":{
-        "1":{"name":"P1 Right","player":0},
-        "2":{"name":"P1 Left","player":0},
-        "4":{"name":"P1 Down","player":0},
-        "8":{"name":"P1 Up","player":0},
-        "16":{"name":"P1 Rotate","player":0},
-        "256":{"name":"P2 Right","player":1},
-        "512":{"name":"P2 Left","player":1},
-        "1024":{"name":"P2 Down","player":1},
-        "2048":{"name":"P2 Up","player":1},
-        "4096":{"name":"P2 Rotate","player":1}
+        "1":{"player":0,"name":"P1 Right"},
+        "2":{"player":0,"name":"P1 Left"},
+        "4":{"player":0,"name":"P1 Down"},
+        "8":{"player":0,"name":"P1 Up"},
+        "10":{"player":0,"name":"P1 Rotate"},
+        "100":{"player":1,"name":"P2 Right"},
+        "200":{"player":1,"name":"P2 Left"},
+        "400":{"player":1,"name":"P2 Down"},
+        "800":{"player":1,"name":"P2 Up"},
+        "1000":{"player":1,"name":"P2 Rotate"}
       }
     }
   }

@@ -3,26 +3,26 @@
   "ports":{
     ":PORTA":{
       "labels":{
-        "1":{"name":"P1 LP","player":0},
-        "2":{"name":"P1 MP","player":0},
-        "4":{"name":"P1 HP","player":0}
+        "1":{"player":0,"name":"P1 LP"},
+        "2":{"player":0,"name":"P1 MP"},
+        "4":{"player":0,"name":"P1 HP"}
       }
     },
     ":PORTB":{
       "labels":{
-        "1":{"name":"P2 LP","player":1},
-        "2":{"name":"P2 MP","player":1},
-        "4":{"name":"P2 HP","player":1}
+        "1":{"player":1,"name":"P2 LP"},
+        "2":{"player":1,"name":"P2 MP"},
+        "4":{"player":1,"name":"P2 HP"}
       }
     },
     ":PORTF":{
       "labels":{
-        "1":{"name":"P1 LK","player":0},
-        "2":{"name":"P1 MK","player":0},
-        "4":{"name":"P1 HK","player":0},
-        "16":{"name":"P2 LK","player":1},
-        "32":{"name":"P2 MK","player":1},
-        "64":{"name":"P2 HK","player":1}
+        "1":{"player":0,"name":"P1 LK"},
+        "2":{"player":0,"name":"P1 MK"},
+        "4":{"player":0,"name":"P1 HK"},
+        "10":{"player":1,"name":"P2 LK"},
+        "20":{"player":1,"name":"P2 MK"},
+        "40":{"player":1,"name":"P2 HK"}
       }
     }
   }

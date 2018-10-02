@@ -1,22 +1,22 @@
 {
   "romname":"asylum",
   "ports":{
+    ":P1":{
+      "labels":{
+        "10":{"player":0,"name":"P1 Attack"},
+        "20":{"player":0,"name":"P1 Jump"}
+      }
+    },
     ":P2":{
       "labels":{
-        "16":{"name":"P2 Attack","player":1},
-        "32":{"name":"P2 Jump","player":1}
+        "10":{"player":1,"name":"P2 Attack"},
+        "20":{"player":1,"name":"P2 Jump"}
       }
     },
     ":P3":{
       "labels":{
-        "16":{"name":"P3 Attack","player":2},
-        "32":{"name":"P3 Jump","player":2}
-      }
-    },
-    ":P1":{
-      "labels":{
-        "16":{"name":"P1 Attack","player":0},
-        "32":{"name":"P1 Jump","player":0}
+        "10":{"player":2,"name":"P3 Attack"},
+        "20":{"player":2,"name":"P3 Jump"}
       }
     }
   }

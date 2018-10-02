@@ -1,49 +1,37 @@
 {
   "romname":"frenzy",
   "ports":{
-    ":SYSTEM":{
+    ":F2":{
       "labels":{
-        "1":{"player":0,"name":"1 Player Start"},
-        "2":{"player":0,"name":"2 Players Start"},
-        "64":{"player":0,"name":"Coin 2"},
-        "128":{"player":0,"name":"Coin 1"}
+        "3":{"player":0,"name":"Hardware Tests"},
+        "4":{"player":0,"name":"Input Test Mode"},
+        "8":{"player":0,"name":"Crosshair Pattern"}
       }
     },
-    ":F6":{
+    ":F3":{
       "labels":{
-        "255":{"player":0,"name":"Coins/Credit B"}
+        "f":{"player":0,"name":"Bonus Life"},
+        "c0":{"player":0,"name":"Language"}
       }
     },
-    ":P2":{
+    ":F4":{
       "labels":{
-        "1":{"player":1,"name":"P2 Left"},
-        "2":{"player":1,"name":"P2 Right"},
-        "4":{"player":1,"name":"P2 Up"},
-        "8":{"player":1,"name":"P2 Down"},
-        "16":{"player":1,"name":"P2 Button 1"},
-        "128":{"player":0,"name":"Cabinet"}
+        "ff":{"player":0,"name":"Coin Multiplier"}
       }
     },
     ":F5":{
       "labels":{
-        "255":{"player":0,"name":"Coins/Credit A"}
+        "ff":{"player":0,"name":"Coins/Credit A"}
+      }
+    },
+    ":F6":{
+      "labels":{
+        "ff":{"player":0,"name":"Coins/Credit B"}
       }
     },
     ":MONITOR_TYPE":{
       "labels":{
         "1":{"player":0,"name":"Monitor Type"}
-      }
-    },
-    ":F3":{
-      "labels":{
-        "15":{"player":0,"name":"Bonus Life"},
-        "192":{"player":0,"name":"Language"}
-      }
-    },
-    ":SW2":{
-      "labels":{
-        "1":{"player":0,"name":"Free Game (not logged in bookkeeping)"},
-        "128":{"player":0,"name":"Bookkeeping"}
       }
     },
     ":P1":{
@@ -52,19 +40,31 @@
         "2":{"player":0,"name":"P1 Right"},
         "4":{"player":0,"name":"P1 Up"},
         "8":{"player":0,"name":"P1 Down"},
-        "16":{"player":0,"name":"P1 Button 1"}
+        "10":{"player":0,"name":"P1 Button 1"}
       }
     },
-    ":F4":{
+    ":P2":{
       "labels":{
-        "255":{"player":0,"name":"Coin Multiplier"}
+        "1":{"player":1,"name":"P2 Left"},
+        "2":{"player":1,"name":"P2 Right"},
+        "4":{"player":1,"name":"P2 Up"},
+        "8":{"player":1,"name":"P2 Down"},
+        "10":{"player":1,"name":"P2 Button 1"},
+        "80":{"player":0,"name":"Cabinet"}
       }
     },
-    ":F2":{
+    ":SW2":{
       "labels":{
-        "3":{"player":0,"name":"Hardware Tests"},
-        "4":{"player":0,"name":"Input Test Mode"},
-        "8":{"player":0,"name":"Crosshair Pattern"}
+        "1":{"player":0,"name":"Free Game (not logged in bookkeeping)"},
+        "80":{"player":0,"name":"Bookkeeping"}
+      }
+    },
+    ":SYSTEM":{
+      "labels":{
+        "1":{"player":0,"name":"1 Player Start"},
+        "2":{"player":0,"name":"2 Players Start"},
+        "40":{"player":0,"name":"Coin 2"},
+        "80":{"player":0,"name":"Coin 1"}
       }
     }
   }

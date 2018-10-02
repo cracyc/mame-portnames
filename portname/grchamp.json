@@ -3,12 +3,12 @@
   "ports":{
     ":ACCEL":{
       "labels":{
-        "255":{"player":0,"name":"Accelerate"}
+        "ff":{"player":0,"name":"Accelerate"}
       }
     },
     ":WHEEL":{
       "labels":{
-        "255":{"player":0,"name":"Left / Right"}
+        "ff":{"player":0,"name":"Left / Right"}
       }
     }
   }

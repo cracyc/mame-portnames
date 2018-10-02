@@ -1,16 +1,16 @@
 {
   "romname":"darkplnt",
   "ports":{
-    ":IN0":{
-      "labels":{
-        "1":{"name":"P1 Laser","player":0},
-        "2":{"name":"P1 Fire","player":0},
-        "4":{"name":"P1 Thrust","player":0}
-      }
-    },
     ":DIAL":{
       "labels":{
-        "252":{"name":"P1 Rotate Left / Rotate Right","player":0}
+        "fc":{"player":0,"name":"P1 Rotate Left / Rotate Right"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Laser"},
+        "2":{"player":0,"name":"P1 Fire"},
+        "4":{"player":0,"name":"P1 Thrust"}
       }
     }
   }

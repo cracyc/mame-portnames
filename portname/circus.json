@@ -3,7 +3,7 @@
   "ports":{
     ":PADDLE":{
       "labels":{
-        "255":{"name":"P1 Left / Right","player":0}
+        "ff":{"player":0,"name":"P1 Left / Right"}
       }
     }
   }

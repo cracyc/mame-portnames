@@ -3,20 +3,20 @@
   "ports":{
     ":P1_P2":{
       "labels":{
-        "1":{"name":"P1 Up","player":0},
-        "2":{"name":"P1 Down","player":0},
-        "4":{"name":"P1 Left","player":0},
-        "8":{"name":"P1 Right","player":0},
-        "16":{"name":"P1 Fire","player":0},
-        "32":{"name":"P1 Jump","player":0},
-        "64":{"name":"P1 Option","player":0},
-        "256":{"name":"P2 Up","player":1},
-        "512":{"name":"P2 Down","player":1},
-        "1024":{"name":"P2 Left","player":1},
-        "2048":{"name":"P2 Right","player":1},
-        "4096":{"name":"P2 Fire","player":1},
-        "8192":{"name":"P2 Jump","player":1},
-        "16384":{"name":"P2 Option","player":1}
+        "1":{"player":0,"name":"P1 Up"},
+        "2":{"player":0,"name":"P1 Down"},
+        "4":{"player":0,"name":"P1 Left"},
+        "8":{"player":0,"name":"P1 Right"},
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Jump"},
+        "40":{"player":0,"name":"P1 Option"},
+        "100":{"player":1,"name":"P2 Up"},
+        "200":{"player":1,"name":"P2 Down"},
+        "400":{"player":1,"name":"P2 Left"},
+        "800":{"player":1,"name":"P2 Right"},
+        "1000":{"player":1,"name":"P2 Fire"},
+        "2000":{"player":1,"name":"P2 Jump"},
+        "4000":{"player":1,"name":"P2 Option"}
       }
     }
   }

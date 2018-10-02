@@ -3,19 +3,19 @@
   "ports":{
     ":IN0":{
       "labels":{
-        "16":{"player":0,"name":"P1 Fire"},
-        "32":{"player":0,"name":"P1 Attack"},
-        "64":{"player":0,"name":"P1 Jump"},
-        "4096":{"player":1,"name":"P2 Fire"},
-        "8192":{"player":1,"name":"P2 Attack"},
-        "16384":{"player":1,"name":"P2 Jump"}
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Attack"},
+        "40":{"player":0,"name":"P1 Jump"},
+        "1000":{"player":1,"name":"P2 Fire"},
+        "2000":{"player":1,"name":"P2 Attack"},
+        "4000":{"player":1,"name":"P2 Jump"}
       }
     },
     ":IN1":{
       "labels":{
-        "16":{"player":2,"name":"P3 Fire"},
-        "32":{"player":2,"name":"P3 Attack"},
-        "64":{"player":2,"name":"P3 Jump"}
+        "10":{"player":2,"name":"P3 Fire"},
+        "20":{"player":2,"name":"P3 Attack"},
+        "40":{"player":2,"name":"P3 Jump"}
       }
     }
   }

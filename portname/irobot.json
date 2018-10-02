@@ -1,20 +1,20 @@
 {
   "romname":"irobot",
   "ports":{
-    ":IN1":{
-      "labels":{
-        "16":{"player":0,"name":"P1 Fire"},
-        "32":{"player":0,"name":"P1 ??-not used-??"}
-      }
-    },
     ":AN0":{
       "labels":{
-        "255":{"player":0,"name":"P1 Up / Down"}
+        "ff":{"player":0,"name":"P1 Up / Down"}
       }
     },
     ":AN1":{
       "labels":{
-        "255":{"player":0,"name":"P1 Left / Right"}
+        "ff":{"player":0,"name":"P1 Left / Right"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 ??-not used-??"}
       }
     }
   }

@@ -3,26 +3,26 @@
   "ports":{
     ":IN1":{
       "labels":{
-        "1":{"name":"P1 Up","player":0},
-        "2":{"name":"P1 Right","player":0},
-        "4":{"name":"P1 Down","player":0},
-        "8":{"name":"P1 Left","player":0},
-        "16":{"name":"P3 Up","player":2},
-        "32":{"name":"P3 Right","player":2},
-        "64":{"name":"P3 Down","player":2},
-        "128":{"name":"P3 Left","player":2}
+        "1":{"player":0,"name":"P1 Up"},
+        "2":{"player":0,"name":"P1 Right"},
+        "4":{"player":0,"name":"P1 Down"},
+        "8":{"player":0,"name":"P1 Left"},
+        "10":{"player":2,"name":"P3 Up"},
+        "20":{"player":2,"name":"P3 Right"},
+        "40":{"player":2,"name":"P3 Down"},
+        "80":{"player":2,"name":"P3 Left"}
       }
     },
     ":IN2":{
       "labels":{
-        "1":{"name":"P2 Up","player":1},
-        "2":{"name":"P2 Right","player":1},
-        "4":{"name":"P2 Down","player":1},
-        "8":{"name":"P2 Left","player":1},
-        "16":{"name":"P4 Up","player":3},
-        "32":{"name":"P4 Right","player":3},
-        "64":{"name":"P4 Down","player":3},
-        "128":{"name":"P4 Left","player":3}
+        "1":{"player":1,"name":"P2 Up"},
+        "2":{"player":1,"name":"P2 Right"},
+        "4":{"player":1,"name":"P2 Down"},
+        "8":{"player":1,"name":"P2 Left"},
+        "10":{"player":3,"name":"P4 Up"},
+        "20":{"player":3,"name":"P4 Right"},
+        "40":{"player":3,"name":"P4 Down"},
+        "80":{"player":3,"name":"P4 Left"}
       }
     }
   }

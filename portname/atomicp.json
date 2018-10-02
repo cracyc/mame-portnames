@@ -1,24 +1,24 @@
 {
   "romname":"atomicp",
   "ports":{
-    ":SERVICE":{
-      "labels":{
-        "1":{"name":"P1 Up","player":0},
-        "2":{"name":"P1 Down","player":0},
-        "4":{"name":"P1 Left","player":0},
-        "8":{"name":"P1 Right","player":0},
-        "16":{"name":"P1 Rotate","player":0},
-        "32":{"name":"P1 Special","player":0}
-      }
-    },
     ":P1":{
       "labels":{
-        "1":{"name":"P2 Up","player":1},
-        "2":{"name":"P2 Down","player":1},
-        "4":{"name":"P2 Left","player":1},
-        "8":{"name":"P2 Right","player":1},
-        "16":{"name":"P2 Rotate","player":1},
-        "32":{"name":"P2 Special","player":1}
+        "1":{"player":1,"name":"P2 Up"},
+        "2":{"player":1,"name":"P2 Down"},
+        "4":{"player":1,"name":"P2 Left"},
+        "8":{"player":1,"name":"P2 Right"},
+        "10":{"player":1,"name":"P2 Rotate"},
+        "20":{"player":1,"name":"P2 Special"}
+      }
+    },
+    ":SERVICE":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Up"},
+        "2":{"player":0,"name":"P1 Down"},
+        "4":{"player":0,"name":"P1 Left"},
+        "8":{"player":0,"name":"P1 Right"},
+        "10":{"player":0,"name":"P1 Rotate"},
+        "20":{"player":0,"name":"P1 Special"}
       }
     }
   }

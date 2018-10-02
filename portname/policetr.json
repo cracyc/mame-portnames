@@ -3,28 +3,28 @@
   "ports":{
     ":GUNX1":{
       "labels":{
-        "255":{"name":"P1 Left / Right","player":0}
-      }
-    },
-    ":GUNY1":{
-      "labels":{
-        "255":{"name":"P1 Up / Down","player":0}
-      }
-    },
-    ":GUNY2":{
-      "labels":{
-        "255":{"name":"P2 Down /  Up","player":1}
-      }
-    },
-    ":IN1":{
-      "labels":{
-        "16777216":{"name":"P1 Fire","player":0},
-        "67108864":{"name":"P2 Fire","player":1}
+        "ff":{"player":0,"name":"P1 Left / Right"}
       }
     },
     ":GUNX2":{
       "labels":{
-        "255":{"name":"P2 Right /  Left","player":1}
+        "ff":{"player":1,"name":"P2 Right /  Left"}
+      }
+    },
+    ":GUNY1":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Up / Down"}
+      }
+    },
+    ":GUNY2":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Down /  Up"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "1000000":{"player":0,"name":"P1 Fire"},
+        "4000000":{"player":1,"name":"P2 Fire"}
       }
     }
   }

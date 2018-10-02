@@ -1,14 +1,23 @@
 {
   "romname":"galivan",
   "ports":{
-    ":SYSTEM":{
+    ":DSW1":{
       "labels":{
-        "1":{"player":0,"name":"1 Player Start"},
-        "2":{"player":0,"name":"2 Players Start"},
-        "4":{"player":0,"name":"Coin 1"},
-        "8":{"player":0,"name":"Coin 2"},
-        "16":{"player":0,"name":"Service 1"},
-        "32":{"player":0,"name":"Service Mode"}
+        "3":{"player":0,"name":"Lives"},
+        "c":{"player":0,"name":"Bonus Life"},
+        "10":{"player":0,"name":"Demo Sounds"},
+        "20":{"player":0,"name":"Cabinet"},
+        "40":{"player":0,"name":"Power Invulnerability (Cheat)"},
+        "80":{"player":0,"name":"Life Invulnerability (Cheat)"}
+      }
+    },
+    ":DSW2":{
+      "labels":{
+        "3":{"player":0,"name":"Coin A"},
+        "c":{"player":0,"name":"Coin B"},
+        "10":{"player":0,"name":"Difficulty"},
+        "20":{"player":0,"name":"Flip Screen"},
+        "80":{"player":0,"name":"Unused"}
       }
     },
     ":P1":{
@@ -17,18 +26,9 @@
         "2":{"player":0,"name":"P1 Down"},
         "4":{"player":0,"name":"P1 Left"},
         "8":{"player":0,"name":"P1 Right"},
-        "16":{"player":0,"name":"P1 Button 1"},
-        "32":{"player":0,"name":"P1 Button 2"},
-        "128":{"player":0,"name":"P1 Button 3"}
-      }
-    },
-    ":DSW2":{
-      "labels":{
-        "3":{"player":0,"name":"Coin A"},
-        "12":{"player":0,"name":"Coin B"},
-        "16":{"player":0,"name":"Difficulty"},
-        "32":{"player":0,"name":"Flip Screen"},
-        "128":{"player":0,"name":"Unused"}
+        "10":{"player":0,"name":"P1 Button 1"},
+        "20":{"player":0,"name":"P1 Button 2"},
+        "80":{"player":0,"name":"P1 Button 3"}
       }
     },
     ":P2":{
@@ -37,19 +37,19 @@
         "2":{"player":1,"name":"P2 Down"},
         "4":{"player":1,"name":"P2 Left"},
         "8":{"player":1,"name":"P2 Right"},
-        "16":{"player":1,"name":"P2 Button 1"},
-        "32":{"player":1,"name":"P2 Button 2"},
-        "128":{"player":1,"name":"P2 Button 3"}
+        "10":{"player":1,"name":"P2 Button 1"},
+        "20":{"player":1,"name":"P2 Button 2"},
+        "80":{"player":1,"name":"P2 Button 3"}
       }
     },
-    ":DSW1":{
+    ":SYSTEM":{
       "labels":{
-        "3":{"player":0,"name":"Lives"},
-        "12":{"player":0,"name":"Bonus Life"},
-        "16":{"player":0,"name":"Demo Sounds"},
-        "32":{"player":0,"name":"Cabinet"},
-        "64":{"player":0,"name":"Power Invulnerability (Cheat)"},
-        "128":{"player":0,"name":"Life Invulnerability (Cheat)"}
+        "1":{"player":0,"name":"1 Player Start"},
+        "2":{"player":0,"name":"2 Players Start"},
+        "4":{"player":0,"name":"Coin 1"},
+        "8":{"player":0,"name":"Coin 2"},
+        "10":{"player":0,"name":"Service 1"},
+        "20":{"player":0,"name":"Service Mode"}
       }
     }
   }

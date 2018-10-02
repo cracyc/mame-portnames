@@ -1,41 +1,41 @@
 {
   "romname":"hangplt",
   "ports":{
+    ":AN0":{
+      "labels":{
+        "3ff":{"player":0,"name":"AD Stick X"}
+      }
+    },
+    ":AN1":{
+      "labels":{
+        "3ff":{"player":0,"name":"AD Stick Y"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "8":{"player":0,"name":"P1 Right"},
+        "10":{"player":0,"name":"P1 Left"},
+        "20":{"player":0,"name":"P1 Down"},
+        "40":{"player":0,"name":"P1 Up"},
+        "80":{"player":0,"name":"1 Player Start"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "20":{"player":0,"name":"P1 Button 2"},
+        "40":{"player":0,"name":"P1 Button 1"}
+      }
+    },
     ":IN3":{
       "labels":{
         "1":{"player":0,"name":"Disable Machine Init"},
         "2":{"player":0,"name":"Disable Test Mode"},
         "4":{"player":0,"name":"DIP3"},
         "8":{"player":0,"name":"DIP4"},
-        "16":{"player":0,"name":"Coin 2"},
-        "32":{"player":0,"name":"Coin 1"},
-        "64":{"player":0,"name":"Service Button"},
-        "128":{"player":0,"name":"Service Mode"}
-      }
-    },
-    ":AN0":{
-      "labels":{
-        "1023":{"player":0,"name":"AD Stick X"}
-      }
-    },
-    ":IN1":{
-      "labels":{
-        "32":{"player":0,"name":"P1 Button 2"},
-        "64":{"player":0,"name":"P1 Button 1"}
-      }
-    },
-    ":AN1":{
-      "labels":{
-        "1023":{"player":0,"name":"AD Stick Y"}
-      }
-    },
-    ":IN0":{
-      "labels":{
-        "8":{"player":0,"name":"P1 Right"},
-        "16":{"player":0,"name":"P1 Left"},
-        "32":{"player":0,"name":"P1 Down"},
-        "64":{"player":0,"name":"P1 Up"},
-        "128":{"player":0,"name":"1 Player Start"}
+        "10":{"player":0,"name":"Coin 2"},
+        "20":{"player":0,"name":"Coin 1"},
+        "40":{"player":0,"name":"Service Button"},
+        "80":{"player":0,"name":"Service Mode"}
       }
     }
   }

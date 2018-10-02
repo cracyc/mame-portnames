@@ -1,54 +1,54 @@
 {
   "romname":"djboy",
   "ports":{
+    ":DSW1":{
+      "labels":{
+        "2":{"player":0,"name":"Flip Screen"},
+        "4":{"player":0,"name":"Service Mode"},
+        "8":{"player":0,"name":"Unknown"},
+        "30":{"player":0,"name":"Coin A"},
+        "c0":{"player":0,"name":"Coin B"}
+      }
+    },
     ":DSW2":{
       "labels":{
-        "3":{"name":"Difficulty","player":0},
-        "12":{"name":"Bonus Levels (in thousands)","player":0},
-        "48":{"name":"Lives","player":0},
-        "64":{"name":"Demo Sounds","player":0},
-        "128":{"name":"Stereo Sound","player":0}
+        "3":{"player":0,"name":"Difficulty"},
+        "c":{"player":0,"name":"Bonus Levels (in thousands)"},
+        "30":{"player":0,"name":"Lives"},
+        "40":{"player":0,"name":"Demo Sounds"},
+        "80":{"player":0,"name":"Stereo Sound"}
       }
     },
     ":IN0":{
       "labels":{
-        "1":{"name":"1 Player Start","player":0},
-        "2":{"name":"2 Players Start","player":0},
-        "4":{"name":"Coin 1","player":0},
-        "8":{"name":"Coin 2","player":0},
-        "32":{"name":"Tilt","player":0},
-        "64":{"name":"Service","player":0}
-      }
-    },
-    ":IN2":{
-      "labels":{
-        "1":{"name":"P2 Up","player":1},
-        "2":{"name":"P2 Down","player":1},
-        "4":{"name":"P2 Left","player":1},
-        "8":{"name":"P2 Right","player":1},
-        "16":{"name":"P2 Button 1","player":1},
-        "32":{"name":"P2 Button 2","player":1},
-        "64":{"name":"P2 Button 3","player":1}
+        "1":{"player":0,"name":"1 Player Start"},
+        "2":{"player":0,"name":"2 Players Start"},
+        "4":{"player":0,"name":"Coin 1"},
+        "8":{"player":0,"name":"Coin 2"},
+        "20":{"player":0,"name":"Tilt"},
+        "40":{"player":0,"name":"Service"}
       }
     },
     ":IN1":{
       "labels":{
-        "1":{"name":"P1 Up","player":0},
-        "2":{"name":"P1 Down","player":0},
-        "4":{"name":"P1 Left","player":0},
-        "8":{"name":"P1 Right","player":0},
-        "16":{"name":"P1 Button 1","player":0},
-        "32":{"name":"P1 Button 2","player":0},
-        "64":{"name":"P1 Button 3","player":0}
+        "1":{"player":0,"name":"P1 Up"},
+        "2":{"player":0,"name":"P1 Down"},
+        "4":{"player":0,"name":"P1 Left"},
+        "8":{"player":0,"name":"P1 Right"},
+        "10":{"player":0,"name":"P1 Button 1"},
+        "20":{"player":0,"name":"P1 Button 2"},
+        "40":{"player":0,"name":"P1 Button 3"}
       }
     },
-    ":DSW1":{
+    ":IN2":{
       "labels":{
-        "2":{"name":"Flip Screen","player":0},
-        "4":{"name":"Service Mode","player":0},
-        "8":{"name":"Unknown","player":0},
-        "48":{"name":"Coin A","player":0},
-        "192":{"name":"Coin B","player":0}
+        "1":{"player":1,"name":"P2 Up"},
+        "2":{"player":1,"name":"P2 Down"},
+        "4":{"player":1,"name":"P2 Left"},
+        "8":{"player":1,"name":"P2 Right"},
+        "10":{"player":1,"name":"P2 Button 1"},
+        "20":{"player":1,"name":"P2 Button 2"},
+        "40":{"player":1,"name":"P2 Button 3"}
       }
     }
   }

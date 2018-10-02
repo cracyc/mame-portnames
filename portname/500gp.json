@@ -5,9 +5,9 @@
       "labels":{
         "1":{"player":0,"name":"P1 Button 1"},
         "2":{"player":0,"name":"P1 Button 2"},
-        "8192":{"player":0,"name":"P1 Down"},
-        "16384":{"player":0,"name":"P1 Up"},
-        "32768":{"player":0,"name":"P1 Button 3"}
+        "2000":{"player":0,"name":"P1 Down"},
+        "4000":{"player":0,"name":"P1 Up"},
+        "8000":{"player":0,"name":"P1 Button 3"}
       }
     }
   }

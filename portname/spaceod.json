@@ -1,28 +1,28 @@
 {
   "romname":"spaceod",
   "ports":{
-    ":FC":{
-      "labels":{
-        "1":{"name":"P1 Left","player":0},
-        "2":{"name":"P1 Right","player":0},
-        "4":{"name":"P1 Down","player":0},
-        "8":{"name":"P1 Up","player":0},
-        "16":{"name":"P1 Laser","player":0},
-        "32":{"name":"P1 Bomb","player":0}
-      }
-    },
     ":D5D4":{
       "labels":{
-        "4":{"name":"P2 Up","player":1},
-        "8":{"name":"P2 Left","player":1},
-        "64":{"name":"P2 Down","player":1},
-        "128":{"name":"P2 Right","player":1}
+        "4":{"player":1,"name":"P2 Up"},
+        "8":{"player":1,"name":"P2 Left"},
+        "40":{"player":1,"name":"P2 Down"},
+        "80":{"player":1,"name":"P2 Right"}
       }
     },
     ":D7D6":{
       "labels":{
-        "32":{"name":"P2 Bomb","player":1},
-        "64":{"name":"P2 Laser","player":1}
+        "20":{"player":1,"name":"P2 Bomb"},
+        "40":{"player":1,"name":"P2 Laser"}
+      }
+    },
+    ":FC":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Left"},
+        "2":{"player":0,"name":"P1 Right"},
+        "4":{"player":0,"name":"P1 Down"},
+        "8":{"player":0,"name":"P1 Up"},
+        "10":{"player":0,"name":"P1 Laser"},
+        "20":{"player":0,"name":"P1 Bomb"}
       }
     }
   }

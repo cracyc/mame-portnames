@@ -3,10 +3,10 @@
   "ports":{
     ":IN1":{
       "labels":{
-        "16":{"player":0,"name":"P1 Fire"},
-        "32":{"player":0,"name":"P1 Cursor"},
-        "4096":{"player":1,"name":"P2 Fire"},
-        "8192":{"player":1,"name":"P2 Cursor"}
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Cursor"},
+        "1000":{"player":1,"name":"P2 Fire"},
+        "2000":{"player":1,"name":"P2 Cursor"}
       }
     }
   }

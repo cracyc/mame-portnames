@@ -3,17 +3,17 @@
   "ports":{
     ":ADC.0":{
       "labels":{
-        "255":{"player":0,"name":"Steering Wheel"}
-      }
-    },
-    ":ADC.2":{
-      "labels":{
-        "255":{"player":0,"name":"Brake Pedal"}
+        "ff":{"player":0,"name":"Steering Wheel"}
       }
     },
     ":ADC.1":{
       "labels":{
-        "255":{"player":0,"name":"Gas Pedal"}
+        "ff":{"player":0,"name":"Gas Pedal"}
+      }
+    },
+    ":ADC.2":{
+      "labels":{
+        "ff":{"player":0,"name":"Brake Pedal"}
       }
     }
   }

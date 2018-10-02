@@ -1,34 +1,34 @@
 {
   "romname":"rampage",
   "ports":{
-    ":MONO.IP4":{
-      "labels":{
-        "1":{"name":"P3 Climb","player":2},
-        "2":{"name":"P3 Right","player":2},
-        "4":{"name":"P3 Down","player":2},
-        "8":{"name":"P3 Left","player":2},
-        "16":{"name":"P3 Punch","player":2},
-        "32":{"name":"P3 Jump","player":2}
-      }
-    },
     ":MONO.IP1":{
       "labels":{
-        "1":{"name":"P1 Climb","player":0},
-        "2":{"name":"P1 Right","player":0},
-        "4":{"name":"P1 Down","player":0},
-        "8":{"name":"P1 Left","player":0},
-        "16":{"name":"P1 Punch","player":0},
-        "32":{"name":"P1 Jump","player":0}
+        "1":{"player":0,"name":"P1 Climb"},
+        "2":{"player":0,"name":"P1 Right"},
+        "4":{"player":0,"name":"P1 Down"},
+        "8":{"player":0,"name":"P1 Left"},
+        "10":{"player":0,"name":"P1 Punch"},
+        "20":{"player":0,"name":"P1 Jump"}
       }
     },
     ":MONO.IP2":{
       "labels":{
-        "1":{"name":"P2 Climb","player":1},
-        "2":{"name":"P2 Right","player":1},
-        "4":{"name":"P2 Down","player":1},
-        "8":{"name":"P2 Left","player":1},
-        "16":{"name":"P2 Punch","player":1},
-        "32":{"name":"P2 Jump","player":1}
+        "1":{"player":1,"name":"P2 Climb"},
+        "2":{"player":1,"name":"P2 Right"},
+        "4":{"player":1,"name":"P2 Down"},
+        "8":{"player":1,"name":"P2 Left"},
+        "10":{"player":1,"name":"P2 Punch"},
+        "20":{"player":1,"name":"P2 Jump"}
+      }
+    },
+    ":MONO.IP4":{
+      "labels":{
+        "1":{"player":2,"name":"P3 Climb"},
+        "2":{"player":2,"name":"P3 Right"},
+        "4":{"player":2,"name":"P3 Down"},
+        "8":{"player":2,"name":"P3 Left"},
+        "10":{"player":2,"name":"P3 Punch"},
+        "20":{"player":2,"name":"P3 Jump"}
       }
     }
   }

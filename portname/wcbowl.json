@@ -1,36 +1,36 @@
 {
   "romname":"wcbowl",
   "ports":{
-    ":TRACKY1":{
-      "labels":{
-        "255":{"name":"P1 Up / Down","player":0}
-      }
-    },
     ":P1":{
       "labels":{
-        "262144":{"name":"P1 Hook Left","player":0},
-        "524288":{"name":"P1 Hook Right","player":0}
+        "40000":{"player":0,"name":"P1 Hook Left"},
+        "80000":{"player":0,"name":"P1 Hook Right"}
       }
     },
     ":P2":{
       "labels":{
-        "262144":{"name":"P2 Hook Left","player":1},
-        "524288":{"name":"P2 Hook Right","player":1}
+        "40000":{"player":1,"name":"P2 Hook Left"},
+        "80000":{"player":1,"name":"P2 Hook Right"}
       }
     },
     ":TRACKX1":{
       "labels":{
-        "255":{"name":"P1 Left / Right","player":0}
+        "ff":{"player":0,"name":"P1 Left / Right"}
       }
     },
     ":TRACKX2":{
       "labels":{
-        "255":{"name":"P2 Right /  Left","player":1}
+        "ff":{"player":1,"name":"P2 Right /  Left"}
+      }
+    },
+    ":TRACKY1":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Up / Down"}
       }
     },
     ":TRACKY2":{
       "labels":{
-        "255":{"name":"P2 Down /  Up","player":1}
+        "ff":{"player":1,"name":"P2 Down /  Up"}
       }
     }
   }

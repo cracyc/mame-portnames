@@ -6,9 +6,9 @@
         "1":{"player":0,"name":"P1 Run"},
         "2":{"player":0,"name":"P1 Jump/Throw"},
         "4":{"player":0,"name":"P1 Run"},
-        "16":{"player":1,"name":"P2 Run"},
-        "32":{"player":1,"name":"P2 Jump/Throw"},
-        "64":{"player":1,"name":"P2 Run"}
+        "10":{"player":1,"name":"P2 Run"},
+        "20":{"player":1,"name":"P2 Jump/Throw"},
+        "40":{"player":1,"name":"P2 Run"}
       }
     },
     ":IN1":{
@@ -16,9 +16,9 @@
         "1":{"player":2,"name":"P3 Run"},
         "2":{"player":2,"name":"P3 Jump/Throw"},
         "4":{"player":2,"name":"P3 Run"},
-        "16":{"player":3,"name":"P4 Run"},
-        "32":{"player":3,"name":"P4 Jump/Throw"},
-        "64":{"player":3,"name":"P4 Run"}
+        "10":{"player":3,"name":"P4 Run"},
+        "20":{"player":3,"name":"P4 Jump/Throw"},
+        "40":{"player":3,"name":"P4 Run"}
       }
     }
   }

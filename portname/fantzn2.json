@@ -3,8 +3,8 @@
   "ports":{
     ":e1":{
       "labels":{
-        "16":{"player":0,"name":"P1 Fire"},
-        "32":{"player":0,"name":"P1 Bomb"}
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Bomb"}
       }
     }
   }

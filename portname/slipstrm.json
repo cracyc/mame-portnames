@@ -1,13 +1,19 @@
 {
   "romname":"slipstrm",
   "ports":{
-    ":mainpcb:SERVICE12_A":{
+    ":mainpcb:ANALOG1":{
       "labels":{
-        "1":{"player":0,"name":"Service 1"},
-        "2":{"player":0,"name":"Service Mode"},
-        "4":{"player":0,"name":"Coin 1"},
-        "8":{"player":0,"name":"Coin 2"},
-        "16":{"player":0,"name":"1 Player Start"}
+        "ff":{"player":0,"name":"Paddle"}
+      }
+    },
+    ":mainpcb:ANALOG2":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Pedal 1"}
+      }
+    },
+    ":mainpcb:ANALOG3":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Pedal 2"}
       }
     },
     ":mainpcb:P1_A":{
@@ -15,26 +21,20 @@
         "1":{"player":0,"name":"mainpcb:Gear Change"}
       }
     },
+    ":mainpcb:SERVICE12_A":{
+      "labels":{
+        "1":{"player":0,"name":"Service 1"},
+        "2":{"player":0,"name":"Service Mode"},
+        "4":{"player":0,"name":"Coin 1"},
+        "8":{"player":0,"name":"Coin 2"},
+        "10":{"player":0,"name":"1 Player Start"}
+      }
+    },
     ":mainpcb:SERVICE34_A":{
       "labels":{
         "8":{"player":0,"name":"Unknown"},
-        "16":{"player":0,"name":"Push SW1 (Service)"},
-        "32":{"player":0,"name":"Push SW2 (Test)"}
-      }
-    },
-    ":mainpcb:ANALOG1":{
-      "labels":{
-        "255":{"player":0,"name":"Paddle"}
-      }
-    },
-    ":mainpcb:ANALOG2":{
-      "labels":{
-        "255":{"player":0,"name":"P1 Pedal 1"}
-      }
-    },
-    ":mainpcb:ANALOG3":{
-      "labels":{
-        "255":{"player":0,"name":"P1 Pedal 2"}
+        "10":{"player":0,"name":"Push SW1 (Service)"},
+        "20":{"player":0,"name":"Push SW2 (Test)"}
       }
     }
   }

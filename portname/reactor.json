@@ -1,11 +1,6 @@
 {
   "romname":"reactor",
   "ports":{
-    ":TRACKY":{
-      "labels":{
-        "255":{"player":0,"name":"P1 Up / Down"}
-      }
-    },
     ":IN4":{
       "labels":{
         "4":{"player":0,"name":"P1 Decoy"},
@@ -14,7 +9,12 @@
     },
     ":TRACKX":{
       "labels":{
-        "255":{"player":0,"name":"P1 Left / Right"}
+        "ff":{"player":0,"name":"P1 Left / Right"}
+      }
+    },
+    ":TRACKY":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Up / Down"}
       }
     }
   }

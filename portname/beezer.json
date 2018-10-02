@@ -1,14 +1,14 @@
 {
   "romname":"beezer",
   "ports":{
-    ":IN2":{
-      "labels":{
-        "15":{"player":0,"name":"P1 Up / Down"}
-      }
-    },
     ":IN1":{
       "labels":{
-        "15":{"player":0,"name":"P1 Left / Right"}
+        "f":{"player":0,"name":"P1 Left / Right"}
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "f":{"player":0,"name":"P1 Up / Down"}
       }
     }
   }

@@ -1,30 +1,30 @@
 {
   "romname":"lockon",
   "ports":{
-    ":YM2203":{
+    ":ADC_BANK":{
       "labels":{
-        "16":{"player":0,"name":"Machine Gun Fire (1)"},
-        "32":{"player":0,"name":"Machine Gun Fire (2)"}
+        "ff":{"player":0,"name":"Left / Right"}
       }
     },
     ":ADC_HOVER":{
       "labels":{
-        "255":{"player":0,"name":"Lock-On Missiles"}
-      }
-    },
-    ":ADC_PITCH":{
-      "labels":{
-        "255":{"player":0,"name":"Up / Down"}
+        "ff":{"player":0,"name":"Lock-On Missiles"}
       }
     },
     ":ADC_MISSILE":{
       "labels":{
-        "255":{"player":0,"name":"Hover Aircraft"}
+        "ff":{"player":0,"name":"Hover Aircraft"}
       }
     },
-    ":ADC_BANK":{
+    ":ADC_PITCH":{
       "labels":{
-        "255":{"player":0,"name":"Left / Right"}
+        "ff":{"player":0,"name":"Up / Down"}
+      }
+    },
+    ":YM2203":{
+      "labels":{
+        "10":{"player":0,"name":"Machine Gun Fire (1)"},
+        "20":{"player":0,"name":"Machine Gun Fire (2)"}
       }
     }
   }

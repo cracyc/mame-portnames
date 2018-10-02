@@ -3,18 +3,18 @@
   "ports":{
     ":edge:joy:JOY1":{
       "labels":{
-        "16":{"player":0,"name":"P1 Low Punch"},
-        "32":{"player":0,"name":"P1 Low Kick"},
-        "64":{"player":0,"name":"P1 Hard Punch"},
-        "128":{"player":0,"name":"P1 Hard Kick"}
+        "10":{"player":0,"name":"P1 Low Punch"},
+        "20":{"player":0,"name":"P1 Low Kick"},
+        "40":{"player":0,"name":"P1 Hard Punch"},
+        "80":{"player":0,"name":"P1 Hard Kick"}
       }
     },
     ":edge:joy:JOY2":{
       "labels":{
-        "16":{"player":1,"name":"P2 Low Punch"},
-        "32":{"player":1,"name":"P2 Low Kick"},
-        "64":{"player":1,"name":"P2 Hard Punch"},
-        "128":{"player":1,"name":"P2 Hard Kick"}
+        "10":{"player":1,"name":"P2 Low Punch"},
+        "20":{"player":1,"name":"P2 Low Kick"},
+        "40":{"player":1,"name":"P2 Hard Punch"},
+        "80":{"player":1,"name":"P2 Hard Kick"}
       }
     }
   }

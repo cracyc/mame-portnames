@@ -3,39 +3,39 @@
   "ports":{
     ":ANA0":{
       "labels":{
-        "255":{"name":"P1 Steering Wheel","player":0}
-      }
-    },
-    ":ANA2":{
-      "labels":{
-        "255":{"name":"P1 Brake Pedal","player":0}
-      }
-    },
-    ":IN0":{
-      "labels":{
-        "1":{"name":"Coin 1","player":0},
-        "2":{"name":"Coin 2","player":0},
-        "4":{"name":"Service Mode","player":0},
-        "8":{"name":"Service 1","player":0},
-        "64":{"name":"1 Player Start","player":0}
+        "ff":{"player":0,"name":"P1 Steering Wheel"}
       }
     },
     ":ANA1":{
       "labels":{
-        "255":{"name":"P1 Accelerate Pedal","player":0}
+        "ff":{"player":0,"name":"P1 Accelerate Pedal"}
+      }
+    },
+    ":ANA2":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Brake Pedal"}
       }
     },
     ":DSW":{
       "labels":{
-        "128":{"name":"Unknown","player":0}
+        "80":{"player":0,"name":"Unknown"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"},
+        "4":{"player":0,"name":"Service Mode"},
+        "8":{"player":0,"name":"Service 1"},
+        "40":{"player":0,"name":"1 Player Start"}
       }
     },
     ":IN2":{
       "labels":{
-        "1":{"name":"View 1 Button","player":0},
-        "2":{"name":"View 2 Button","player":0},
-        "16":{"name":"P1 Shift Up","player":0},
-        "32":{"name":"P1 Shift Down","player":0}
+        "1":{"player":0,"name":"View 1 Button"},
+        "2":{"player":0,"name":"View 2 Button"},
+        "10":{"player":0,"name":"P1 Shift Up"},
+        "20":{"player":0,"name":"P1 Shift Down"}
       }
     }
   }

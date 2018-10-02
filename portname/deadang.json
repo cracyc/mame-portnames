@@ -7,14 +7,14 @@
         "2":{"player":0,"name":"P1 Aim Down"},
         "4":{"player":0,"name":"P1 Aim Left"},
         "8":{"player":0,"name":"P1 Aim Right"},
-        "16":{"player":0,"name":"P1 Fire"},
-        "32":{"player":0,"name":"P1 Grenade"},
-        "256":{"player":1,"name":"P2 Aim Up"},
-        "512":{"player":1,"name":"P2 Aim Down"},
-        "1024":{"player":1,"name":"P2 Aim Left"},
-        "2048":{"player":1,"name":"P2 Aim Right"},
-        "4096":{"player":1,"name":"P2 Fire"},
-        "8192":{"player":1,"name":"P2 Grenade"}
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Grenade"},
+        "100":{"player":1,"name":"P2 Aim Up"},
+        "200":{"player":1,"name":"P2 Aim Down"},
+        "400":{"player":1,"name":"P2 Aim Left"},
+        "800":{"player":1,"name":"P2 Aim Right"},
+        "1000":{"player":1,"name":"P2 Fire"},
+        "2000":{"player":1,"name":"P2 Grenade"}
       }
     }
   }

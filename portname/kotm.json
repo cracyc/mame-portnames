@@ -1,20 +1,20 @@
 {
   "romname":"kotm",
   "ports":{
-    ":edge:joy:JOY2":{
-      "labels":{
-        "16":{"name":"P2 A","player":1},
-        "32":{"name":"P2 B","player":1},
-        "64":{"name":"P2 C","player":1},
-        "128":{"name":"P2 D","player":1}
-      }
-    },
     ":edge:joy:JOY1":{
       "labels":{
-        "16":{"name":"P1 A","player":0},
-        "32":{"name":"P1 B","player":0},
-        "64":{"name":"P1 C","player":0},
-        "128":{"name":"P1 D","player":0}
+        "10":{"player":0,"name":"P1 A"},
+        "20":{"player":0,"name":"P1 B"},
+        "40":{"player":0,"name":"P1 C"},
+        "80":{"player":0,"name":"P1 D"}
+      }
+    },
+    ":edge:joy:JOY2":{
+      "labels":{
+        "10":{"player":1,"name":"P2 A"},
+        "20":{"player":1,"name":"P2 B"},
+        "40":{"player":1,"name":"P2 C"},
+        "80":{"player":1,"name":"P2 D"}
       }
     }
   }

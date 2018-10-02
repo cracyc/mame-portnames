@@ -1,19 +1,24 @@
 {
   "romname":"wacko",
   "ports":{
-    ":ssio:IP1.ALT":{
+    ":ssio:IP1":{
       "labels":{
-        "255":{"player":1,"name":"P2 Krooz Right /  Krooz Left"}
+        "ff":{"player":0,"name":"P1 Krooz Left / Krooz Right"}
       }
     },
-    ":ssio:IP2.ALT":{
+    ":ssio:IP1.ALT":{
       "labels":{
-        "255":{"player":1,"name":"P2 Krooz Down /  Krooz Up"}
+        "ff":{"player":1,"name":"P2 Krooz Right /  Krooz Left"}
       }
     },
     ":ssio:IP2":{
       "labels":{
-        "255":{"player":0,"name":"P1 Krooz Up / Krooz Down"}
+        "ff":{"player":0,"name":"P1 Krooz Up / Krooz Down"}
+      }
+    },
+    ":ssio:IP2.ALT":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Krooz Down /  Krooz Up"}
       }
     },
     ":ssio:IP4":{
@@ -22,15 +27,10 @@
         "2":{"player":0,"name":"P1 Zap Left"},
         "4":{"player":0,"name":"P1 Zap Down"},
         "8":{"player":0,"name":"P1 Zap Up"},
-        "16":{"player":1,"name":"P2 Zap Right"},
-        "32":{"player":1,"name":"P2 Zap Left"},
-        "64":{"player":1,"name":"P2 Zap Down"},
-        "128":{"player":1,"name":"P2 Zap Up"}
-      }
-    },
-    ":ssio:IP1":{
-      "labels":{
-        "255":{"player":0,"name":"P1 Krooz Left / Krooz Right"}
+        "10":{"player":1,"name":"P2 Zap Right"},
+        "20":{"player":1,"name":"P2 Zap Left"},
+        "40":{"player":1,"name":"P2 Zap Down"},
+        "80":{"player":1,"name":"P2 Zap Up"}
       }
     }
   }

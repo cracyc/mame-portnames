@@ -4,19 +4,19 @@
     ":IN0":{
       "labels":{
         "8":{"player":1,"name":"P2 Magic Button"},
-        "16":{"player":1,"name":"P2 Right"},
-        "32":{"player":1,"name":"P2 Down"},
-        "64":{"player":1,"name":"P2 Left"},
-        "128":{"player":1,"name":"P2 Up"}
+        "10":{"player":1,"name":"P2 Right"},
+        "20":{"player":1,"name":"P2 Down"},
+        "40":{"player":1,"name":"P2 Left"},
+        "80":{"player":1,"name":"P2 Up"}
       }
     },
     ":IN1":{
       "labels":{
         "8":{"player":0,"name":"P1 Magic Button"},
-        "16":{"player":0,"name":"P1 Right"},
-        "32":{"player":0,"name":"P1 Down"},
-        "64":{"player":0,"name":"P1 Left"},
-        "128":{"player":0,"name":"P1 Up"}
+        "10":{"player":0,"name":"P1 Right"},
+        "20":{"player":0,"name":"P1 Down"},
+        "40":{"player":0,"name":"P1 Left"},
+        "80":{"player":0,"name":"P1 Up"}
       }
     }
   }

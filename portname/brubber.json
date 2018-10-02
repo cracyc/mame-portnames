@@ -1,22 +1,22 @@
 {
   "romname":"brubber",
   "ports":{
-    ":P2":{
-      "labels":{
-        "1":{"name":"P2 Right","player":1},
-        "2":{"name":"P2 Left","player":1},
-        "4":{"name":"P2 Fast","player":1},
-        "8":{"name":"P2 Slow","player":1},
-        "16":{"name":"P2 Jump","player":1}
-      }
-    },
     ":P1":{
       "labels":{
-        "1":{"name":"P1 Right","player":0},
-        "2":{"name":"P1 Left","player":0},
-        "4":{"name":"P1 Fast","player":0},
-        "8":{"name":"P1 Slow","player":0},
-        "16":{"name":"P1 Jump","player":0}
+        "1":{"player":0,"name":"P1 Right"},
+        "2":{"player":0,"name":"P1 Left"},
+        "4":{"player":0,"name":"P1 Fast"},
+        "8":{"player":0,"name":"P1 Slow"},
+        "10":{"player":0,"name":"P1 Jump"}
+      }
+    },
+    ":P2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Right"},
+        "2":{"player":1,"name":"P2 Left"},
+        "4":{"player":1,"name":"P2 Fast"},
+        "8":{"player":1,"name":"P2 Slow"},
+        "10":{"player":1,"name":"P2 Jump"}
       }
     }
   }

@@ -1,24 +1,24 @@
 {
   "romname":"cameltry",
   "ports":{
-    ":PADDLE2":{
+    ":IN0":{
       "labels":{
-        "255":{"player":1,"name":"P2 Rotate Right /  Rotate Left"}
+        "10":{"player":0,"name":"P1 Jump / Speedup"}
       }
     },
     ":IN1":{
       "labels":{
-        "16":{"player":1,"name":"P2 Jump / Speedup"}
+        "10":{"player":1,"name":"P2 Jump / Speedup"}
       }
     },
     ":PADDLE1":{
       "labels":{
-        "255":{"player":0,"name":"P1 Rotate Left / Rotate Right"}
+        "ff":{"player":0,"name":"P1 Rotate Left / Rotate Right"}
       }
     },
-    ":IN0":{
+    ":PADDLE2":{
       "labels":{
-        "16":{"player":0,"name":"P1 Jump / Speedup"}
+        "ff":{"player":1,"name":"P2 Rotate Right /  Rotate Left"}
       }
     }
   }

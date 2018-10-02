@@ -1,33 +1,33 @@
 {
   "romname":"finalapr",
   "ports":{
-    ":MISC":{
+    ":ACCEL":{
       "labels":{
-        "16":{"name":"Coin 2","player":0},
-        "32":{"name":"Coin 1","player":0},
-        "64":{"name":"Service Mode","player":0},
-        "128":{"name":"Service 1","player":0}
-      }
-    },
-    ":WHEEL":{
-      "labels":{
-        "255":{"name":"Paddle","player":0}
+        "ff":{"player":0,"name":"P1 Pedal 1"}
       }
     },
     ":BRAKE":{
       "labels":{
-        "255":{"name":"P1 Pedal 2","player":0}
+        "ff":{"player":0,"name":"P1 Pedal 2"}
       }
     },
     ":IN1":{
       "labels":{
-        "16":{"name":"Gear Change","player":0},
-        "32":{"name":"Freeze Screen","player":0}
+        "10":{"player":0,"name":"Gear Change"},
+        "20":{"player":0,"name":"Freeze Screen"}
       }
     },
-    ":ACCEL":{
+    ":MISC":{
       "labels":{
-        "255":{"name":"P1 Pedal 1","player":0}
+        "10":{"player":0,"name":"Coin 2"},
+        "20":{"player":0,"name":"Coin 1"},
+        "40":{"player":0,"name":"Service Mode"},
+        "80":{"player":0,"name":"Service 1"}
+      }
+    },
+    ":WHEEL":{
+      "labels":{
+        "ff":{"player":0,"name":"Paddle"}
       }
     }
   }

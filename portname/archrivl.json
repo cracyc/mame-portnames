@@ -1,32 +1,32 @@
 {
   "romname":"archrivl",
   "ports":{
-    ":IN0":{
+    ":49WAYX1":{
       "labels":{
-        "4096":{"name":"P1 Shoot/Jump"},
-        "8192":{"name":"P1 Pass/Punch"},
-        "16384":{"name":"P2 Shoot/Jump"},
-        "32768":{"name":"P2 Pass/Punch"}
-      }
-    },
-    ":49WAYY1":{
-      "labels":{
-        "255":{"name":"P1 Up / Down"}
+        "ff":{"name":"P1 Left / Right"}
       }
     },
     ":49WAYX2":{
       "labels":{
-        "255":{"name":"P2 Right /  Left"}
+        "ff":{"name":"P2 Right /  Left"}
+      }
+    },
+    ":49WAYY1":{
+      "labels":{
+        "ff":{"name":"P1 Up / Down"}
       }
     },
     ":49WAYY2":{
       "labels":{
-        "255":{"name":"P2 Down /  Up"}
+        "ff":{"name":"P2 Down /  Up"}
       }
     },
-    ":49WAYX1":{
+    ":IN0":{
       "labels":{
-        "255":{"name":"P1 Left / Right"}
+        "1000":{"name":"P1 Shoot/Jump"},
+        "2000":{"name":"P1 Pass/Punch"},
+        "4000":{"name":"P2 Shoot/Jump"},
+        "8000":{"name":"P2 Pass/Punch"}
       }
     }
   }

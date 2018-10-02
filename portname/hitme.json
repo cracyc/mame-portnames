@@ -1,32 +1,32 @@
 {
   "romname":"hitme",
   "ports":{
-    ":IN1":{
-      "labels":{
-        "16":{"name":"P2 Stand","player":1},
-        "32":{"name":"P2 Hit","player":1},
-        "64":{"name":"P2 Ante","player":1}
-      }
-    },
-    ":IN3":{
-      "labels":{
-        "16":{"name":"P4 Stand","player":3},
-        "32":{"name":"P4 Hit","player":3},
-        "64":{"name":"P4 Ante","player":3}
-      }
-    },
     ":IN0":{
       "labels":{
-        "16":{"name":"P1 Stand","player":0},
-        "32":{"name":"P1 Hit","player":0},
-        "64":{"name":"P1 Ante","player":0}
+        "10":{"player":0,"name":"P1 Stand"},
+        "20":{"player":0,"name":"P1 Hit"},
+        "40":{"player":0,"name":"P1 Ante"}
+      }
+    },
+    ":IN1":{
+      "labels":{
+        "10":{"player":1,"name":"P2 Stand"},
+        "20":{"player":1,"name":"P2 Hit"},
+        "40":{"player":1,"name":"P2 Ante"}
       }
     },
     ":IN2":{
       "labels":{
-        "16":{"name":"P3 Stand","player":2},
-        "32":{"name":"P3 Hit","player":2},
-        "64":{"name":"P3 Ante","player":2}
+        "10":{"player":2,"name":"P3 Stand"},
+        "20":{"player":2,"name":"P3 Hit"},
+        "40":{"player":2,"name":"P3 Ante"}
+      }
+    },
+    ":IN3":{
+      "labels":{
+        "10":{"player":3,"name":"P4 Stand"},
+        "20":{"player":3,"name":"P4 Hit"},
+        "40":{"player":3,"name":"P4 Ante"}
       }
     }
   }

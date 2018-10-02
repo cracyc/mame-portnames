@@ -5,10 +5,10 @@
       "labels":{
         "1":{"player":0,"name":"P1 Control Right"},
         "2":{"player":0,"name":"P1 Fire"},
-        "16":{"player":1,"name":"P2 Fire"},
-        "32":{"player":1,"name":"P2 Control Right"},
-        "64":{"player":1,"name":"P2 Control Left"},
-        "128":{"player":0,"name":"P1 Control Left"}
+        "10":{"player":1,"name":"P2 Fire"},
+        "20":{"player":1,"name":"P2 Control Right"},
+        "40":{"player":1,"name":"P2 Control Left"},
+        "80":{"player":0,"name":"P1 Control Left"}
       }
     }
   }

@@ -1,68 +1,68 @@
 {
   "romname":"sgunner2",
   "ports":{
+    ":AN4":{
+      "labels":{
+        "ff":{"player":0,"name":"Lightgun X"}
+      }
+    },
     ":AN5":{
       "labels":{
-        "255":{"name":"Lightgun X 2","player":1}
-      }
-    },
-    ":DSW":{
-      "labels":{
-        "1":{"name":"Video Display","player":0},
-        "2":{"name":"$2000-1","player":0},
-        "4":{"name":"$2000-2","player":0},
-        "8":{"name":"$2000-3","player":0},
-        "16":{"name":"$2000-4","player":0},
-        "32":{"name":"$2000-5","player":0},
-        "64":{"name":"$2000-6","player":0},
-        "128":{"name":"Service Mode","player":0}
-      }
-    },
-    ":MCUB2":{
-      "labels":{
-        "1":{"name":"P2 Right","player":1},
-        "2":{"name":"P2 Left","player":1},
-        "4":{"name":"P2 Down","player":1},
-        "8":{"name":"P2 Up","player":1},
-        "16":{"name":"P2 Button 1","player":1},
-        "32":{"name":"P2 Button 2","player":1},
-        "64":{"name":"P2 Button 3","player":1},
-        "128":{"name":"2 Players Start","player":0}
+        "ff":{"player":1,"name":"Lightgun X 2"}
       }
     },
     ":AN6":{
       "labels":{
-        "255":{"name":"Lightgun Y","player":0}
-      }
-    },
-    ":MCUB":{
-      "labels":{
-        "1":{"name":"P1 Right","player":0},
-        "2":{"name":"P1 Left","player":0},
-        "4":{"name":"P1 Down","player":0},
-        "8":{"name":"P1 Up","player":0},
-        "16":{"name":"P1 Button 1","player":0},
-        "32":{"name":"P1 Button 2","player":0},
-        "64":{"name":"P1 Button 3","player":0},
-        "128":{"name":"1 Player Start","player":0}
-      }
-    },
-    ":AN4":{
-      "labels":{
-        "255":{"name":"Lightgun X","player":0}
+        "ff":{"player":0,"name":"Lightgun Y"}
       }
     },
     ":AN7":{
       "labels":{
-        "255":{"name":"Lightgun Y 2","player":1}
+        "ff":{"player":1,"name":"Lightgun Y 2"}
+      }
+    },
+    ":DSW":{
+      "labels":{
+        "1":{"player":0,"name":"Video Display"},
+        "2":{"player":0,"name":"$2000-1"},
+        "4":{"player":0,"name":"$2000-2"},
+        "8":{"player":0,"name":"$2000-3"},
+        "10":{"player":0,"name":"$2000-4"},
+        "20":{"player":0,"name":"$2000-5"},
+        "40":{"player":0,"name":"$2000-6"},
+        "80":{"player":0,"name":"Service Mode"}
+      }
+    },
+    ":MCUB":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Right"},
+        "2":{"player":0,"name":"P1 Left"},
+        "4":{"player":0,"name":"P1 Down"},
+        "8":{"player":0,"name":"P1 Up"},
+        "10":{"player":0,"name":"P1 Button 1"},
+        "20":{"player":0,"name":"P1 Button 2"},
+        "40":{"player":0,"name":"P1 Button 3"},
+        "80":{"player":0,"name":"1 Player Start"}
+      }
+    },
+    ":MCUB2":{
+      "labels":{
+        "1":{"player":1,"name":"P2 Right"},
+        "2":{"player":1,"name":"P2 Left"},
+        "4":{"player":1,"name":"P2 Down"},
+        "8":{"player":1,"name":"P2 Up"},
+        "10":{"player":1,"name":"P2 Button 1"},
+        "20":{"player":1,"name":"P2 Button 2"},
+        "40":{"player":1,"name":"P2 Button 3"},
+        "80":{"player":0,"name":"2 Players Start"}
       }
     },
     ":MCUH":{
       "labels":{
-        "1":{"name":"Coin 2","player":0},
-        "2":{"name":"Coin 1","player":0},
-        "4":{"name":"Service Button","player":0},
-        "8":{"name":"Service 1","player":0}
+        "1":{"player":0,"name":"Coin 2"},
+        "2":{"player":0,"name":"Coin 1"},
+        "4":{"player":0,"name":"Service Button"},
+        "8":{"player":0,"name":"Service 1"}
       }
     }
   }

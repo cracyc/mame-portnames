@@ -1,34 +1,34 @@
 {
   "romname":"galpans2",
   "ports":{
+    ":400000":{
+      "labels":{
+        "100":{"player":0,"name":"1 Player Start"},
+        "200":{"player":0,"name":"2 Players Start"},
+        "400":{"player":0,"name":"Coin 1"},
+        "800":{"player":0,"name":"Coin 2"},
+        "1000":{"player":0,"name":"Service"},
+        "2000":{"player":0,"name":"Tilt"},
+        "4000":{"player":0,"name":"Service 1"},
+        "10000":{"player":1,"name":"P2 Up"},
+        "20000":{"player":1,"name":"P2 Down"},
+        "40000":{"player":1,"name":"P2 Left"},
+        "80000":{"player":1,"name":"P2 Right"},
+        "100000":{"player":1,"name":"P2 Button 1"},
+        "1000000":{"player":0,"name":"P1 Up"},
+        "2000000":{"player":0,"name":"P1 Down"},
+        "4000000":{"player":0,"name":"P1 Left"},
+        "8000000":{"player":0,"name":"P1 Right"},
+        "10000000":{"player":0,"name":"P1 Button 1"}
+      }
+    },
     ":400004":{
       "labels":{
         "1":{"player":0,"name":"Service Mode"},
         "2":{"player":0,"name":"Flip Screen"},
-        "32":{"player":0,"name":"Unknown"},
-        "64":{"player":0,"name":"Use Backup Ram"},
-        "128":{"player":0,"name":"Freeze"}
-      }
-    },
-    ":400000":{
-      "labels":{
-        "256":{"player":0,"name":"1 Player Start"},
-        "512":{"player":0,"name":"2 Players Start"},
-        "1024":{"player":0,"name":"Coin 1"},
-        "2048":{"player":0,"name":"Coin 2"},
-        "4096":{"player":0,"name":"Service"},
-        "8192":{"player":0,"name":"Tilt"},
-        "16384":{"player":0,"name":"Service 1"},
-        "65536":{"player":1,"name":"P2 Up"},
-        "131072":{"player":1,"name":"P2 Down"},
-        "262144":{"player":1,"name":"P2 Left"},
-        "524288":{"player":1,"name":"P2 Right"},
-        "1048576":{"player":1,"name":"P2 Button 1"},
-        "16777216":{"player":0,"name":"P1 Up"},
-        "33554432":{"player":0,"name":"P1 Down"},
-        "67108864":{"player":0,"name":"P1 Left"},
-        "134217728":{"player":0,"name":"P1 Right"},
-        "268435456":{"player":0,"name":"P1 Button 1"}
+        "20":{"player":0,"name":"Unknown"},
+        "40":{"player":0,"name":"Use Backup Ram"},
+        "80":{"player":0,"name":"Freeze"}
       }
     }
   }

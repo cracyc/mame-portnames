@@ -1,27 +1,20 @@
 {
   "romname":"blaster",
   "ports":{
-    ":IN1":{
+    ":49WAYX":{
       "labels":{
-        "16":{"player":0,"name":"1 Player Start"},
-        "32":{"player":0,"name":"2 Players Start"}
+        "ff":{"player":0,"name":"AD Stick X"}
       }
     },
     ":49WAYY":{
       "labels":{
-        "255":{"player":0,"name":"AD Stick Y"}
+        "ff":{"player":0,"name":"AD Stick Y"}
       }
     },
-    ":49WAYX":{
+    ":IN1":{
       "labels":{
-        "255":{"player":0,"name":"AD Stick X"}
-      }
-    },
-    ":INP1":{
-      "labels":{
-        "1":{"player":0,"name":"P1 Button 2"},
-        "2":{"player":0,"name":"P1 Button 1"},
-        "4":{"player":0,"name":"P1 Button 3"}
+        "10":{"player":0,"name":"1 Player Start"},
+        "20":{"player":0,"name":"2 Players Start"}
       }
     },
     ":IN2":{
@@ -30,9 +23,16 @@
         "2":{"player":0,"name":"Advance"},
         "4":{"player":0,"name":"Coin 3"},
         "8":{"player":0,"name":"High Score Reset"},
-        "16":{"player":0,"name":"Coin 1"},
-        "32":{"player":0,"name":"Coin 2"},
-        "64":{"player":0,"name":"Tilt"}
+        "10":{"player":0,"name":"Coin 1"},
+        "20":{"player":0,"name":"Coin 2"},
+        "40":{"player":0,"name":"Tilt"}
+      }
+    },
+    ":INP1":{
+      "labels":{
+        "1":{"player":0,"name":"P1 Button 2"},
+        "2":{"player":0,"name":"P1 Button 1"},
+        "4":{"player":0,"name":"P1 Button 3"}
       }
     }
   }

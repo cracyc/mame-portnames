@@ -1,19 +1,19 @@
 {
   "romname":"abcop",
   "ports":{
-    ":mainpcb:IO1PORTA":{
+    ":mainpcb:ADC0":{
       "labels":{
-        "32":{"player":0,"name":"Jump"}
+        "ff":{"player":0,"name":"Steer"}
       }
     },
     ":mainpcb:ADC1":{
       "labels":{
-        "255":{"player":0,"name":"Accelerate"}
+        "ff":{"player":0,"name":"Accelerate"}
       }
     },
-    ":mainpcb:ADC0":{
+    ":mainpcb:IO1PORTA":{
       "labels":{
-        "255":{"player":0,"name":"Steer"}
+        "20":{"player":0,"name":"Jump"}
       }
     }
   }

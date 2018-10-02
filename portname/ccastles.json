@@ -1,30 +1,30 @@
 {
   "romname":"ccastles",
   "ports":{
-    ":LETA2":{
+    ":IN0":{
       "labels":{
-        "255":{"player":1,"name":"P2 Down /  Up"}
-      }
-    },
-    ":LETA3":{
-      "labels":{
-        "255":{"player":1,"name":"P2 Right /  Left"}
+        "40":{"player":0,"name":"P1 Jump"},
+        "80":{"player":1,"name":"P2 Jump"}
       }
     },
     ":LETA0":{
       "labels":{
-        "255":{"player":0,"name":"P1 Up / Down"}
+        "ff":{"player":0,"name":"P1 Up / Down"}
       }
     },
     ":LETA1":{
       "labels":{
-        "255":{"player":0,"name":"P1 Left / Right"}
+        "ff":{"player":0,"name":"P1 Left / Right"}
       }
     },
-    ":IN0":{
+    ":LETA2":{
       "labels":{
-        "64":{"player":0,"name":"P1 Jump"},
-        "128":{"player":1,"name":"P2 Jump"}
+        "ff":{"player":1,"name":"P2 Down /  Up"}
+      }
+    },
+    ":LETA3":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Right /  Left"}
       }
     }
   }

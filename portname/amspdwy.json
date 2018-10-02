@@ -1,20 +1,20 @@
 {
   "romname":"amspdwy",
   "ports":{
-    ":IN0":{
-      "labels":{
-        "16":{"player":1,"name":"P2 Accelerate"},
-        "32":{"player":0,"name":"P1 Accelerate"}
-      }
-    },
     ":AN1":{
       "labels":{
-        "65535":{"player":0,"name":"P1 Left / Right"}
+        "ffff":{"player":0,"name":"P1 Left / Right"}
       }
     },
     ":AN2":{
       "labels":{
-        "65535":{"player":1,"name":"P2 Right /  Left"}
+        "ffff":{"player":1,"name":"P2 Right /  Left"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "10":{"player":1,"name":"P2 Accelerate"},
+        "20":{"player":0,"name":"P1 Accelerate"}
       }
     }
   }

@@ -1,17 +1,17 @@
 {
   "romname":"indytemp",
   "ports":{
-    ":IN0":{
-      "labels":{
-        "16":{"name":"P1 Up","player":0},
-        "32":{"name":"P1 Down","player":0},
-        "64":{"name":"P1 Left","player":0},
-        "128":{"name":"P1 Right","player":0}
-      }
-    },
     ":F60000":{
       "labels":{
-        "1":{"name":"P1 Whip","player":0}
+        "1":{"player":0,"name":"P1 Whip"}
+      }
+    },
+    ":IN0":{
+      "labels":{
+        "10":{"player":0,"name":"P1 Up"},
+        "20":{"player":0,"name":"P1 Down"},
+        "40":{"player":0,"name":"P1 Left"},
+        "80":{"player":0,"name":"P1 Right"}
       }
     }
   }

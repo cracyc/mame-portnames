@@ -3,32 +3,32 @@
   "ports":{
     ":INPUTS":{
       "labels":{
-        "1":{"name":"Coin 1","player":0},
-        "2":{"name":"Coin 2","player":0},
-        "16":{"name":"Service 1","player":0},
-        "32":{"name":"Service Mode","player":0},
-        "64":{"name":"Tilt (Enables Debug Mode)","player":0},
-        "65536":{"name":"2 Players Start","player":0},
-        "131072":{"name":"P2 Button 3","player":1},
-        "262144":{"name":"P2 Button 2","player":1},
-        "524288":{"name":"P2 Button 1","player":1},
-        "1048576":{"name":"P2 Left","player":1},
-        "2097152":{"name":"P2 Right","player":1},
-        "4194304":{"name":"P2 Down","player":1},
-        "8388608":{"name":"P2 Up","player":1},
-        "16777216":{"name":"1 Player Start","player":0},
-        "33554432":{"name":"P1 Button 3","player":0},
-        "67108864":{"name":"P1 Button 2","player":0},
-        "134217728":{"name":"P1 Button 1","player":0},
-        "268435456":{"name":"P1 Left","player":0},
-        "536870912":{"name":"P1 Right","player":0},
-        "1073741824":{"name":"P1 Down","player":0},
-        "2147483648":{"name":"P1 Up","player":0}
+        "1":{"player":0,"name":"Coin 1"},
+        "2":{"player":0,"name":"Coin 2"},
+        "10":{"player":0,"name":"Service 1"},
+        "20":{"player":0,"name":"Service Mode"},
+        "40":{"player":0,"name":"Tilt (Enables Debug Mode)"},
+        "10000":{"player":0,"name":"2 Players Start"},
+        "20000":{"player":1,"name":"P2 Button 3"},
+        "40000":{"player":1,"name":"P2 Button 2"},
+        "80000":{"player":1,"name":"P2 Button 1"},
+        "100000":{"player":1,"name":"P2 Left"},
+        "200000":{"player":1,"name":"P2 Right"},
+        "400000":{"player":1,"name":"P2 Down"},
+        "800000":{"player":1,"name":"P2 Up"},
+        "1000000":{"player":0,"name":"1 Player Start"},
+        "2000000":{"player":0,"name":"P1 Button 3"},
+        "4000000":{"player":0,"name":"P1 Button 2"},
+        "8000000":{"player":0,"name":"P1 Button 1"},
+        "10000000":{"player":0,"name":"P1 Left"},
+        "20000000":{"player":0,"name":"P1 Right"},
+        "40000000":{"player":0,"name":"P1 Down"},
+        "80000000":{"player":0,"name":"P1 Up"}
       }
     },
     ":JP4":{
       "labels":{
-        "50331648":{"name":"Region","player":0}
+        "3000000":{"player":0,"name":"Region"}
       }
     }
   }

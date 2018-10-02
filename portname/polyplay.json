@@ -3,11 +3,11 @@
   "ports":{
     ":IN0":{
       "labels":{
-        "1":{"name":"A","player":0},
-        "2":{"name":"Right","player":0},
-        "4":{"name":"Left","player":0},
-        "8":{"name":"Up","player":0},
-        "16":{"name":"Down","player":0}
+        "1":{"player":0,"name":"A"},
+        "2":{"player":0,"name":"Right"},
+        "4":{"player":0,"name":"Left"},
+        "8":{"player":0,"name":"Up"},
+        "10":{"player":0,"name":"Down"}
       }
     }
   }

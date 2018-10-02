@@ -3,17 +3,17 @@
   "ports":{
     ":DIAL":{
       "labels":{
-        "255":{"name":"P1 Aim Left / Aim Right","player":0}
-      }
-    },
-    ":ssio:IP1":{
-      "labels":{
-        "128":{"name":"P1 Shield","player":0}
+        "ff":{"player":0,"name":"P1 Aim Left / Aim Right"}
       }
     },
     ":ssio:IP0":{
       "labels":{
-        "16":{"name":"P1 Zap!","player":0}
+        "10":{"player":0,"name":"P1 Zap!"}
+      }
+    },
+    ":ssio:IP1":{
+      "labels":{
+        "80":{"player":0,"name":"P1 Shield"}
       }
     }
   }

@@ -1,30 +1,30 @@
 {
   "romname":"zeropnt",
   "ports":{
-    ":Y1":{
-      "labels":{
-        "255":{"name":"P1 Up / Down","player":0}
-      }
-    },
-    ":X1":{
-      "labels":{
-        "255":{"name":"P1 Left /  Right","player":0}
-      }
-    },
     ":INPUTS":{
       "labels":{
-        "256":{"name":"P1 Fire","player":0},
-        "512":{"name":"P2 Fire","player":1}
-      }
-    },
-    ":Y0":{
-      "labels":{
-        "255":{"name":"P2 Down /  Up","player":1}
+        "100":{"player":0,"name":"P1 Fire"},
+        "200":{"player":1,"name":"P2 Fire"}
       }
     },
     ":X0":{
       "labels":{
-        "255":{"name":"P2 Left /  Right","player":1}
+        "ff":{"player":1,"name":"P2 Left /  Right"}
+      }
+    },
+    ":X1":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Left /  Right"}
+      }
+    },
+    ":Y0":{
+      "labels":{
+        "ff":{"player":1,"name":"P2 Down /  Up"}
+      }
+    },
+    ":Y1":{
+      "labels":{
+        "ff":{"player":0,"name":"P1 Up / Down"}
       }
     }
   }

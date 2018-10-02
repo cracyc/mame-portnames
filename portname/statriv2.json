@@ -4,9 +4,9 @@
     ":IN0":{
       "labels":{
         "8":{"player":0,"name":"A"},
-        "16":{"player":0,"name":"B"},
-        "32":{"player":0,"name":"C"},
-        "64":{"player":0,"name":"D"}
+        "10":{"player":0,"name":"B"},
+        "20":{"player":0,"name":"C"},
+        "40":{"player":0,"name":"D"}
       }
     }
   }

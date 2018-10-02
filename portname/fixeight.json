@@ -1,24 +1,24 @@
 {
   "romname":"fixeight",
   "ports":{
-    ":IN2":{
-      "labels":{
-        "16":{"player":1,"name":"P2 Fire"},
-        "32":{"player":1,"name":"P2 Bomb"},
-        "64":{"player":0,"name":"P2 Suicide (Cheat)"}
-      }
-    },
     ":IN1":{
       "labels":{
-        "16":{"player":0,"name":"P1 Fire"},
-        "32":{"player":0,"name":"P1 Bomb"},
-        "64":{"player":0,"name":"P1 Suicide (Cheat)"}
+        "10":{"player":0,"name":"P1 Fire"},
+        "20":{"player":0,"name":"P1 Bomb"},
+        "40":{"player":0,"name":"P1 Suicide (Cheat)"}
+      }
+    },
+    ":IN2":{
+      "labels":{
+        "10":{"player":1,"name":"P2 Fire"},
+        "20":{"player":1,"name":"P2 Bomb"},
+        "40":{"player":0,"name":"P2 Suicide (Cheat)"}
       }
     },
     ":IN3":{
       "labels":{
-        "16":{"player":2,"name":"P3 Fire"},
-        "32":{"player":2,"name":"P3 Bomb"},
+        "10":{"player":2,"name":"P3 Fire"},
+        "20":{"player":2,"name":"P3 Bomb"}
       }
     }
   }

@@ -1,16 +1,16 @@
 {
   "romname":"wingforc",
   "ports":{
-    ":DSW2_P1":{
-      "labels":{
-        "4096":{"player":0,"name":"P1 Fire"},
-        "8192":{"player":0,"name":"P1 Bomb"},
-      }
-    },
     ":DSW1_P2":{
       "labels":{
-        "4096":{"player":1,"name":"P2 Fire"},
-        "8192":{"player":1,"name":"P2 Bomb"},
+        "1000":{"player":1,"name":"P2 Fire"},
+        "2000":{"player":1,"name":"P2 Bomb"}
+      }
+    },
+    ":DSW2_P1":{
+      "labels":{
+        "1000":{"player":0,"name":"P1 Fire"},
+        "2000":{"player":0,"name":"P1 Bomb"}
       }
     }
   }

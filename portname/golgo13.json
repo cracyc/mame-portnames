@@ -1,27 +1,27 @@
 {
   "romname":"golgo13",
   "ports":{
-    ":LIGHT0_X":{
+    ":IN0":{
       "labels":{
-        "65535":{"name":"Aim Left / Aim Right","player":0}
-      }
-    },
-    ":LIGHT0_Y":{
-      "labels":{
-        "65535":{"name":"Aim Up / Aim Down","player":0}
+        "4":{"player":0,"name":"Select Down"},
+        "8":{"player":0,"name":"Select Up"},
+        "10":{"player":0,"name":"Enter"},
+        "20":{"player":0,"name":"Trigger"}
       }
     },
     ":IN1":{
       "labels":{
-        "2048":{"name":"Zoom In / Zoom Out","player":0}
+        "800":{"player":0,"name":"Zoom In / Zoom Out"}
       }
     },
-    ":IN0":{
+    ":LIGHT0_X":{
       "labels":{
-        "4":{"name":"Select Down","player":0},
-        "8":{"name":"Select Up","player":0},
-        "16":{"name":"Enter","player":0},
-        "32":{"name":"Trigger","player":0}
+        "ffff":{"player":0,"name":"Aim Left / Aim Right"}
+      }
+    },
+    ":LIGHT0_Y":{
+      "labels":{
+        "ffff":{"player":0,"name":"Aim Up / Aim Down"}
       }
     }
   }

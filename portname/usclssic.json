@@ -3,28 +3,28 @@
   "ports":{
     ":BUTTONS":{
       "labels":{
-        "2":{"name":"P1 Select Club","player":0},
-        "32":{"name":"P2 Select Club","player":1}
-      }
-    },
-    ":TRACK1_Y":{
-      "labels":{
-        "4095":{"name":"P1 Up / Down","player":0}
-      }
-    },
-    ":TRACK2_X":{
-      "labels":{
-        "4095":{"name":"P2 Right /  Left","player":1}
+        "2":{"player":0,"name":"P1 Select Club"},
+        "20":{"player":1,"name":"P2 Select Club"}
       }
     },
     ":TRACK1_X":{
       "labels":{
-        "4095":{"name":"P1 Left / Right","player":0}
+        "fff":{"player":0,"name":"P1 Left / Right"}
+      }
+    },
+    ":TRACK1_Y":{
+      "labels":{
+        "fff":{"player":0,"name":"P1 Up / Down"}
+      }
+    },
+    ":TRACK2_X":{
+      "labels":{
+        "fff":{"player":1,"name":"P2 Right /  Left"}
       }
     },
     ":TRACK2_Y":{
       "labels":{
-        "4095":{"name":"P2 Down /  Up","player":1}
+        "fff":{"player":1,"name":"P2 Down /  Up"}
       }
     }
   }

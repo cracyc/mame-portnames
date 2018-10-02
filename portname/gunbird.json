@@ -3,10 +3,10 @@
   "ports":{
     ":P1_P2":{
       "labels":{
-        "262144":{"name":"P2 Bomb","player":1},
-        "524288":{"name":"P2 Fire","player":1},
-        "67108864":{"name":"P1 Bomb","player":0},
-        "134217728":{"name":"P1 Fire","player":0}
+        "40000":{"player":1,"name":"P2 Bomb"},
+        "80000":{"player":1,"name":"P2 Fire"},
+        "4000000":{"player":0,"name":"P1 Bomb"},
+        "8000000":{"player":0,"name":"P1 Fire"}
       }
     }
   }

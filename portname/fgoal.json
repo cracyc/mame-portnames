@@ -3,12 +3,12 @@
   "ports":{
     ":PADDLE0":{
       "labels":{
-        "255":{"player":0,"name":"P1 Left / Right"}
+        "ff":{"player":0,"name":"P1 Left / Right"}
       }
     },
     ":PADDLE1":{
       "labels":{
-        "255":{"player":1,"name":"P2 Right /  Left"}
+        "ff":{"player":1,"name":"P2 Right /  Left"}
       }
     }
   }
