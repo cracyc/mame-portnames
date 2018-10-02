@@ -2,26 +2,26 @@
   "ports":{
     ":ctrl1:joypad:JOYPAD":{
       "labels":{
-        "1":{"player":0,"name":"A"},
-        "2":{"player":0,"name":"B"},
-        "4":{"player":0,"name":"Select"},
-        "8":{"player":0,"name":"Start"},
-        "16":{"player":0,"name":"Up"},
-        "32":{"player":0,"name":"Down"},
-        "64":{"player":0,"name":"Left"},
-        "128":{"player":0,"name":"Right"}
+        "1":{"player":0,"name":"A (Right Flipper)"},
+        "2":{"player":0,"name":"B (Plunger)"},
+        "4":{"player":0,"name":"Select (n/a)"},
+        "8":{"player":0,"name":"Start (Tilt)"},
+        "16":{"player":0,"name":"Up (Left Flipper)"},
+        "32":{"player":0,"name":"Down (Left Flipper)"},
+        "64":{"player":0,"name":"Left (Left Flipper)"},
+        "128":{"player":0,"name":"Right (Left Flipper)"}
       }
     },
     ":ctrl2:joypad:JOYPAD":{
       "labels":{
-        "1":{"player":1,"name":"A"},
-        "2":{"player":1,"name":"B"},
-        "4":{"player":1,"name":"Select"},
-        "8":{"player":1,"name":"Start"},
-        "16":{"player":1,"name":"Up"},
-        "32":{"player":1,"name":"Down"},
-        "64":{"player":1,"name":"Left"},
-        "128":{"player":1,"name":"Right"}
+        "1":{"player":1,"name":"A (Right Flipper)"},
+        "2":{"player":1,"name":"B (Plunger)"},
+        "4":{"player":1,"name":"Select (n/a)"},
+        "8":{"player":1,"name":"Start (Tilt)"},
+        "16":{"player":1,"name":"Up (Left Flipper)"},
+        "32":{"player":1,"name":"Down (Left Flipper)"},
+        "64":{"player":1,"name":"Left (Left Flipper)"},
+        "128":{"player":1,"name":"Right (Left Flipper)"}
       }
     }
   }
